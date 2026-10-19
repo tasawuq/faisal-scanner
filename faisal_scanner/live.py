@@ -28,6 +28,26 @@ def git_push(msg):
         _time.sleep(3)
 
 
+def ensure_running(workflow):
+    """مراقبة متبادلة: كل حلقة تتأكد إن الحلقة الثانية شغالة وتشغّلها إذا وقفت (جدول GitHub والسلسلة يفشلون أحياناً)."""
+    import os
+    import requests
+    tok, repo = os.getenv("GITHUB_TOKEN", ""), os.getenv("GITHUB_REPOSITORY", "")
+    if not tok or not repo:
+        return
+    h = {"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}
+    base = f"https://api.github.com/repos/{repo}/actions/workflows/{workflow}"
+    try:
+        for st in ("in_progress", "queued"):
+            r = requests.get(f"{base}/runs", headers=h, params={"status": st, "per_page": 1}, timeout=20)
+            if r.ok and r.json().get("total_count", 0) > 0:
+                return
+        r = requests.post(f"{base}/dispatches", headers=h, json={"ref": "main"}, timeout=20)
+        log.warning("watchdog: %s was not running → dispatched (%s)", workflow, r.status_code)
+    except Exception as e:  # noqa
+        log.warning("watchdog %s failed: %s", workflow, e)
+
+
 def code_tree():
     r = subprocess.run(["git", "rev-parse", "HEAD:faisal_scanner"], capture_output=True, text=True, check=False)
     return r.stdout.strip()
@@ -71,6 +91,9 @@ def main(argv=None):
         except Exception as e:  # noqa
             log.warning("live iteration failed: %s", e)
         it += 1
+        # كل ~10 دقائق: تأكد إن الحلقة الثانية شغالة
+        if ((a.mode == "full") or it % 8 == 0) and now_et.time() < time(19, 45):
+            ensure_running("faisal-live.yml" if a.mode == "full" else "faisal-pivot-live.yml")
         if new or it - last_push >= a.push_every:
             git_push(f"{'scan' if a.mode == 'full' else 'live'} {now_et:%H:%M} ET" + (f" NEW {','.join(new)}" if new else ""))
             last_push = it

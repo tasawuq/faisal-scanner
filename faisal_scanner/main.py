@@ -433,6 +433,7 @@ def run_once(force=False, demo=False, limit=None) -> dict:
                 if len(done) >= C.INTRADAY_HOLD_BARS:
                     hold_ok = bool(np.all(done["close"].values[-C.INTRADAY_HOLD_BARS:] > w["breakout"]))
             ev = faisal_watch.evaluate(w, px, last_close, label, hold_ok)
+            ev["session"] = session
             sig = by_t.get(t)
             if sig is None and df is not None and len(df) >= 60:
                 try:
@@ -492,6 +493,9 @@ def update_alert_state(result, now_et):
     new = []
     for s in result["ready"]:
         key = f"{s['ticker']}:{s['setup']}"
+        seg = (s.get("meta") or {}).get("segment")
+        if seg in ("pre", "post"):  # تنبيه البري/الأفتر ما يمنع تنبيه الجلسة الرسمية
+            key += f":{seg}"
         if key not in state:
             state[key] = {"first_seen_et": now_et.isoformat(), "price": s["price"], "stop": s["stop"],
                           "t1": s.get("t1"), "setup_ar": s["setup_ar"]}
@@ -499,6 +503,8 @@ def update_alert_state(result, now_et):
     for f_ in result.get("faisal", []):
         if f_.get("alert"):
             key = f"FAISAL:{f_['ticker']}:{f_['state']}"
+            if f_.get("session") in ("pre", "post"):
+                key += f":{f_['session']}"
             if key not in state:
                 state[key] = {"first_seen_et": now_et.isoformat(), "price": f_["price"], "state_ar": f_["state_ar"]}
                 new.append(f"{f_['ticker']} ({f_.get('label', 'مستوى فيصل')})")

@@ -1,13 +1,19 @@
 name: Faisal live (every minute)
 
-# فحص مستمر طول الجلسة الرسمية: زخم + قائمة المتابعة كل دقيقة، وتنبيه تيليجرام فوري.
+# فحص مستمر من البري ماركت (4:00 نيويورك) إلى نهاية الأفتر (20:00 نيويورك): زخم + قائمة المتابعة كل دقيقة، وتنبيه فوري.
 # يشتغل فقط إذا المستودع عام (دقائق مجانية بلا حد) أو إذا انضاف المتغير LIVE_ALLOW_PRIVATE=1 (اشتراك مدفوع).
-# يبدأ قبل الافتتاح ويعيد تشغيل نفسه إذا انتهى وقت التشغيل والسوق ما زال مفتوح.
+# كل تشغيل حتى 5:45 ساعة ثم يعيد تشغيل نفسه ما دام السوق مفتوح (حد GitHub 6 ساعات للتشغيل).
+# الجداول احتياط فقط (GitHub يتأخر أحياناً)؛ التشغيل الزائد ينتظر في الطابور ولا يتكرر.
+# التوقيت بـ UTC: 8:07 = 4:07 نيويورك صيفي / 3:07 شتوي (ينتظر لين 4:00) — ما يحتاج تعديل بعد 2 نوفمبر.
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 13 * * 1-5"   # 9:17 نيويورك (صيفي) — بعد 2 نوفمبر: "17 14"
-    - cron: "41 16 * * 1-5"   # احتياط منتصف الجلسة لو ما اشتغل الأول
+    - cron: "7 8 * * 1-5"
+    - cron: "47 11 * * 1-5"
+    - cron: "17 14 * * 1-5"
+    - cron: "41 17 * * 1-5"
+    - cron: "11 21 * * 1-5"
+    - cron: "41 23 * * 1-5"
 
 permissions:
   contents: write
@@ -64,7 +70,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          OPEN=$(python3 -c "from datetime import datetime,timezone;from zoneinfo import ZoneInfo;n=datetime.now(timezone.utc).astimezone(ZoneInfo('America/New_York'));print(int(n.weekday()<5 and (n.hour,n.minute)<(15,50)))")
+          OPEN=$(python3 -c "from datetime import datetime,timezone;from zoneinfo import ZoneInfo;n=datetime.now(timezone.utc).astimezone(ZoneInfo('America/New_York'));print(int(n.weekday()<5 and (n.hour,n.minute)<(19,50)))")
           if [ "$OPEN" = "1" ]; then
             curl -s -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" -H "Content-Type: application/json" \
               https://api.github.com/repos/${{ github.repository }}/actions/workflows/faisal-live.yml/dispatches -d '{"ref":"main"}'

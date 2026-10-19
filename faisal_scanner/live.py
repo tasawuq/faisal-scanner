@@ -1,6 +1,7 @@
 """
-فحص مباشر أثناء الجلسة: فحص الزخم + قائمة المتابعة كل دقيقة تقريباً داخل تشغيل واحد طويل
-(بدون الاعتماد على جدول GitHub غير الموثوق). التنبيهات الجديدة تذهب لتيليجرام فوراً.
+فحص مباشر من البري ماركت (4:00 نيويورك) إلى نهاية الأفتر (20:00 نيويورك):
+فحص الزخم + قائمة المتابعة كل دقيقة تقريباً داخل تشغيل واحد طويل (بدون الاعتماد على جدول GitHub).
+التنبيهات الجديدة تُرسل فوراً (تيليجرام إذا موجود، وإلا إشعار GitHub).
     python -m faisal_scanner.live --minutes 345 --interval 60
 """
 import argparse
@@ -9,7 +10,7 @@ import subprocess
 import time as _time
 from datetime import datetime, time, timezone
 
-from .data_sources import ET
+from .data_sources import ET, session_info
 from .quick import run_quick
 
 log = logging.getLogger("faisal")
@@ -37,16 +38,22 @@ def main(argv=None):
     it, last_push = 0, 0
     while _time.time() < t_end:
         now_et = datetime.now(timezone.utc).astimezone(ET)
-        if now_et.time() >= time(16, 0):
-            break
+        session, _ = session_info(now_et)
+        if session == "closed":
+            if now_et.weekday() >= 5 or now_et.time() >= time(20, 0):
+                break
+            _time.sleep(60)  # قبل 4:00 نيويورك: انتظار البري ماركت
+            continue
         t0 = _time.time()
         new = []
-        if now_et.time() >= time(9, 30):
-            try:
-                res = run_quick() or {}
-                new = res.get("new_alerts") or []
-            except Exception as e:  # noqa
-                log.warning("live iteration failed: %s", e)
+        try:
+            res = run_quick() or {}
+            new = res.get("new_alerts") or []
+            log.info("live %s %s: movers=%s ready=%s new=%s (%.0fs)", session, f"{now_et:%H:%M}",
+                     (res.get("debug") or {}).get("movers"), [x["ticker"] for x in res.get("ready", [])], new,
+                     _time.time() - t0)
+        except Exception as e:  # noqa
+            log.warning("live iteration failed: %s", e)
         it += 1
         if new or it - last_push >= a.push_every:
             git_push(f"live {now_et:%H:%M} ET" + (f" NEW {','.join(new)}" if new else ""))

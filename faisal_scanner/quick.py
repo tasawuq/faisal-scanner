@@ -1,33 +1,66 @@
 """
-فحص زخم خفيف كل 5 دقائق أثناء الجلسة (بدون أسهم الارتكاز) — دقيقة تشغيل تقريباً.
+فحص زخم خفيف (بدون أسهم الارتكاز) — يستدعيه الفحص المباشر كل دقيقة من البري ماركت إلى نهاية الأفتر.
     python -m faisal_scanner.quick
-1) ناسداك: كل الأسهم الأمريكية بنسبة التغير والفوليوم اللحظي (3 طلبات فقط)
-2) أعلى 40 سهم صاعد 5%+ يطابق الفلتر → شموع 5 دقائق + يومي من Yahoo
-3) تحليل الزخم (الفواب، الوقف 2%، المقاومة القريبة) → تنبيه تيليجرام فوري لأي سهم جاهز جديد
+1) قائمة كل الأسهم الأمريكية من ناسداك + أسعار Yahoo اللحظية (الرسمية أو البري/الأفتر حسب الجلسة)
+2) أعلى الأسهم الصاعدة 5%+ المطابقة للفلتر → شموع 5 دقائق + يومي (+ فوليوم البري/الأفتر من ناسداك)
+3) تحليل الزخم (الفواب، الوقف، المقاومة القريبة) → تنبيه فوري لأي سهم جاهز جديد + قائمة المتابعة
 """
 import json
 import logging
 import os
+import time as _time
 from datetime import datetime, timezone
 
 import numpy as np
 
 from . import config as C
 from . import notify
-from .data_sources import ET, session_info, get_universe, YahooData, fundamentals, yahoo_quotes
-from .momentum import analyze_momentum
+from .data_sources import ET, session_info, get_universe, YahooData, fundamentals, yahoo_quotes, nasdaq_extended
+from .momentum import analyze_momentum, _seg
 from .pivot import READY
 from .main import enrich, update_alert_state
 
 log = logging.getLogger("faisal")
 
+# داخل الفحص المباشر (عملية واحدة طويلة): اليومي يتغير ببطء → كاش 15 دقيقة يخفف الضغط على Yahoo.
+# التحليل يعتمد على الأيام السابقة فقط (+ شموع اليوم من الـ5 دقائق اللي تنسحب كل مرة).
+_DAILY, _EXTVOL = {}, {}
+DAILY_TTL, EXTVOL_TTL = 900, 180
+PX_KEY = {"pre": ("pre_price", "pre_chg"), "post": ("post_price", "post_chg"), "regular": ("reg_price", "reg_chg")}
+
+
+def _daily_cached(yd, syms, session):
+    now = _time.time()
+    need = [s for s in syms if s not in _DAILY or now - _DAILY[s][0] > DAILY_TTL or _DAILY[s][2] != session]
+    if need:
+        for s, df in (yd.daily(need, period="6mo") or {}).items():
+            _DAILY[s] = (now, df, session)
+    return {s: _DAILY[s][1] for s in syms if s in _DAILY}
+
+
+def _ext_volume(syms, session):
+    """فوليوم البري/الأفتر من ناسداك (Yahoo يعطيه صفر) — كاش 3 دقائق لكل سهم."""
+    now = _time.time()
+    need = [s for s in syms if s not in _EXTVOL or now - _EXTVOL[s][0] > EXTVOL_TTL or _EXTVOL[s][2] != session]
+    if need:
+        try:
+            got = nasdaq_extended(need, session)
+        except Exception as e:  # noqa
+            log.warning("quick: nasdaq ext failed: %s", e)
+            got = {}
+        for s in need:
+            _EXTVOL[s] = (now, (got.get(s) or {}).get("volume"), session)
+    return {s: _EXTVOL[s][1] for s in syms if s in _EXTVOL and _EXTVOL[s][1]}
+
 
 def run_quick(force=False):
     now_et = datetime.now(timezone.utc).astimezone(ET)
     session, frac = session_info(now_et)
-    if session != "regular" and not force:
-        log.info("quick: not regular session (%s) — skip", session)
+    if session not in ("pre", "regular", "post") and not force:
+        log.info("quick: market closed (%s) — skip", session)
         return None
+    ext = session in ("pre", "post")
+    pk, ck = PX_KEY[session if ext else "regular"]
     universe, src = get_universe()
     if src != "nasdaq-api":
         log.warning("quick: universe source is %s (no market cap) — continuing with Yahoo quotes", src)
@@ -46,36 +79,47 @@ def run_quick(force=False):
     live = 0
     if len(quotes) >= 0.5 * len(pre):
         u = pre.copy()
-        u["price"] = [quotes.get(s, {}).get("reg_price") or np.nan for s in u["symbol"]]
-        u["pct_change"] = [quotes.get(s, {}).get("reg_chg") for s in u["symbol"]]
-        u["volume"] = [quotes.get(s, {}).get("reg_vol") or 0 for s in u["symbol"]]
+        u["price"] = [quotes.get(s, {}).get(pk) or np.nan for s in u["symbol"]]
+        u["pct_change"] = [quotes.get(s, {}).get(ck) for s in u["symbol"]]
+        # فوليوم البري/الأفتر غير متوفر من Yahoo → يُفحص لاحقاً من ناسداك للمرشحين فقط
+        u["volume"] = 0 if ext else [quotes.get(s, {}).get("reg_vol") or 0 for s in u["symbol"]]
         u["pct_change"] = u["pct_change"].astype(float)
         live = 1
-    elif src != "nasdaq-api":
+    elif ext or src != "nasdaq-api":
         log.warning("quick: no live change/volume available — skip")
         return None
     else:
         u = pre
     u = u[(u["price"] >= C.MIN_PRICE) & (u["price"] <= C.MAX_PRICE * 1.5)]
-    u = u[(u["pct_change"] >= C.MOM_MIN_CHANGE) & (u["volume"] >= C.MOM_MIN_VOLUME)]
+    u = u[u["pct_change"] >= C.MOM_MIN_CHANGE]
+    if not ext:
+        u = u[u["volume"] >= C.MOM_MIN_VOLUME]
     u = u[u["market_cap"].isna() | (u["market_cap"] <= 0) | (u["market_cap"] <= C.MAX_MARKET_CAP * 1.15)]
     n_movers = len(u)
-    u = u.sort_values("pct_change", ascending=False).head(C.MOM_QUICK_MAX_CANDIDATES)
+    u = u.sort_values("pct_change", ascending=False).head(C.MOM_EXT_MAX_CANDIDATES if ext else C.MOM_QUICK_MAX_CANDIDATES)
     cands = list(u["symbol"])
     log.info("quick: %d movers (%d analysed, live=%d, quotes=%d/%d)", n_movers, len(cands), live, len(quotes), len(pre))
-    result = {"generated_at_et": now_et.isoformat(), "mode": "quick", "ready": [], "radar": [], "new_alerts": [],
+    result = {"generated_at_et": now_et.isoformat(), "mode": "quick", "session": session, "ready": [], "radar": [], "new_alerts": [],
               "debug": {"universe": len(universe), "prefilter": len(pre), "quotes": len(quotes), "live": live,
                         "movers": n_movers, "analysed": len(cands),
                         "top": [[r["symbol"], round(float(r["pct_change"]), 3), int(r["volume"] or 0)]
                                 for r in u.head(25).to_dict("records")]}}
     if cands:
         yd = YahooData()
-        daily = yd.daily(cands, period="6mo")
+        daily = _daily_cached(yd, cands, session)
         intr = yd.intraday(cands, "5m", prepost=True)
+        ext_vol = {}
+        if ext:
+            today = now_et.date()
+            zero = [s for s in cands if intr.get(s) is not None and len(intr[s])
+                    and float(_seg(intr[s], today, session)["volume"].sum()) == 0]
+            ext_vol = _ext_volume(zero, session)
+            result["debug"]["ext_volume"] = len(ext_vol)
         moms = []
         for s in cands:
             try:
-                m = analyze_momentum(s, intr.get(s), daily.get(s), now_et, session, frac, segment="regular")
+                m = analyze_momentum(s, intr.get(s), daily.get(s), now_et, session, frac,
+                                     segment=session if ext else "regular", ext_volume=ext_vol.get(s))
                 if m:
                     moms.append(m)
             except Exception as e:  # noqa
@@ -94,7 +138,7 @@ def run_quick(force=False):
                 notify.send(notify.alert_text(s, now_et.astimezone(notify_tz()).strftime("%H:%M الرياض")))
     # 📌 قائمة المتابعة (أسهم فيصل + الأسهم اللي طلبت متابعتها): الوصول لمنطقة الطلب أو كسر الوقف
     try:
-        watch_alerts(result, quotes, now_et)
+        watch_alerts(result, quotes, now_et, session)
     except Exception as e:  # noqa
         log.warning("quick watchlist failed: %s", e)
     os.makedirs(C.RESULTS_DIR, exist_ok=True)
@@ -109,19 +153,23 @@ def run_quick(force=False):
     return result
 
 
-def watch_alerts(result, quotes, now_et):
+def watch_alerts(result, quotes, now_et, session="regular"):
     from . import faisal_watch
     fw = faisal_watch.load()
     if not fw:
         return
-    need = [w["ticker"] for w in fw if not (quotes.get(w["ticker"]) or {}).get("reg_price")]
+    key = PX_KEY.get(session, PX_KEY["regular"])[0]
+    seg = {"pre": "بري ماركت", "post": "أفتر ماركت"}.get(session, "سعر لحظي")
+    need = [w["ticker"] for w in fw if not (quotes.get(w["ticker"]) or {}).get(key)]
     if need:
         quotes = {**quotes, **yahoo_quotes(need)}
     evs = []
     for w in fw:
-        px = (quotes.get(w["ticker"]) or {}).get("reg_price")
+        # في البري/الأفتر: سعر الجلسة الممتدة فقط (لا نستخدم إغلاق أمس كسعر لحظي)
+        px = (quotes.get(w["ticker"]) or {}).get(key)
         # الاختراق يحتاج ثبات شمعتين 15 دقيقة → يتركه للفحص الساعي؛ هنا فقط المنطقة والوقف
-        ev = faisal_watch.evaluate({**w, "breakout": None}, float(px) if px else None, None, "سعر لحظي")
+        ev = faisal_watch.evaluate({**w, "breakout": None}, float(px) if px else None, None, seg)
+        ev["session"] = session
         evs.append(ev)
     result["watchlist"] = evs
     new = update_alert_state({"ready": [], "faisal": evs}, now_et)
@@ -129,7 +177,7 @@ def watch_alerts(result, quotes, now_et):
     when = now_et.astimezone(notify_tz()).strftime("%H:%M الرياض")
     for ev in evs:
         if f"{ev['ticker']} ({ev['label']})" in new:
-            notify.send(f"🚨 {ev['label']} — {ev['ticker']} ({when}): {ev['state_ar']} · السعر {notify.fmt_price(ev['price'])}"
+            notify.send(f"🚨 {ev['label']} — {ev['ticker']} ({when}{' · ' + seg if session != 'regular' else ''}): {ev['state_ar']} · السعر {notify.fmt_price(ev['price'])}"
                         + (f" · الوقف {ev['levels']['stop']:g}" if ev["levels"].get("stop") else ""))
 
 

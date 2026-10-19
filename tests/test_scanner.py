@@ -323,3 +323,17 @@ def test_entry_zone_capped_below_first_resistance():
     cap = (t1 + C.MIN_RR_T1 * stop) / (1 + C.MIN_RR_T1)
     assert abs(cap - 1.2578) < 0.001
     assert (t1 - cap) / (cap - stop) >= C.MIN_RR_T1 - 1e-9
+
+
+def test_momentum_alert_rules(tmp_path, monkeypatch):
+    """زخم صيني بدون تنبيه، وتنبيه زخم واحد لكل سهم بالجلسة (ACTU/CHOW 2026-10-19)."""
+    import faisal_scanner.config as C
+    from faisal_scanner.main import update_alert_state
+    monkeypatch.setattr(C, "RESULTS_DIR", str(tmp_path))
+    now = datetime(2026, 10, 19, 10, 30, tzinfo=ET)
+    base = {"kind": "momentum", "price": 1.0, "stop": 0.98, "t1": 1.05, "setup_ar": "x", "meta": {"segment": "regular"}}
+    chow = {**base, "ticker": "CHOW", "setup": "MOM_VWAP_PULLBACK", "flags": ["سهم صيني عالي التذبذب"]}
+    a1 = {**base, "ticker": "ACTU", "setup": "MOM_BREAKOUT_HOLD", "flags": []}
+    a2 = {**base, "ticker": "ACTU", "setup": "MOM_VWAP_PULLBACK", "flags": []}
+    assert update_alert_state({"ready": [chow, a1], "faisal": []}, now) == ["ACTU"]
+    assert update_alert_state({"ready": [a2], "faisal": []}, now) == []

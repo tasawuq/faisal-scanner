@@ -500,8 +500,17 @@ def update_alert_state(result, now_et, suffix=""):
     for s in result["ready"]:
         key = f"{s['ticker']}:{s['setup']}"
         seg = (s.get("meta") or {}).get("segment")
+        if s.get("kind") == "momentum":
+            # الملف: «سهم صيني عالي التذبذب، وهذا وحده يجعله خطيراً» → زخم صيني يظهر بالقوائم بدون تنبيه دخول
+            if any("صيني" in f for f in (s.get("flags") or [])):
+                continue
+            # تنبيه زخم واحد لكل سهم في الجلسة: إذا ضرب الوقف «بطل السبب»، وإذا فاتت الحركة «اترك السهم»
+            key = f"{s['ticker']}:MOM"
         if seg in ("pre", "post"):  # تنبيه البري/الأفتر ما يمنع تنبيه الجلسة الرسمية
             key += f":{seg}"
+        if s.get("kind") == "momentum" and any(k.startswith(f"{s['ticker']}:MOM") and k.count(":") == key.count(":")
+                                               for k in state):
+            continue
         if key not in state:
             state[key] = {"first_seen_et": now_et.isoformat(), "price": s["price"], "stop": s["stop"],
                           "t1": s.get("t1"), "setup_ar": s["setup_ar"]}

@@ -198,7 +198,9 @@ def watch_alerts(result, quotes, now_et, session="regular"):
         zok = faisal_watch.zone_confirmed(b, w.get("demand_low"), w.get("demand_high"), now_et, session)
         hok = faisal_watch.breakout_held(b, w.get("breakout"), now_et, C.INTRADAY_HOLD_BARS, session)
         sok = faisal_watch.stop_broken(b, w.get("stop"), now_et, session) if ext else None
-        ev = faisal_watch.evaluate(w, float(px) if px else None, None, seg, hold_ok=bool(hok), zone_ok=zok, stop_ok=sok)
+        rok = faisal_watch.retest_confirmed(b, w.get("breakout"), now_et, session)
+        ev = faisal_watch.evaluate(w, float(px) if px else None, None, seg, hold_ok=bool(hok), zone_ok=zok, stop_ok=sok,
+                                   retest_ok=rok)
         ev["session"] = session
         evs.append(ev)
     result["watchlist"] = evs

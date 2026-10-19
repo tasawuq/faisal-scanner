@@ -431,8 +431,9 @@ def run_once(force=False, demo=False, limit=None) -> dict:
             hold_ok = bool(faisal_watch.breakout_held(b, w.get("breakout"), now_et, C.INTRADAY_HOLD_BARS, seg_now))
             zok = faisal_watch.zone_confirmed(b, w.get("demand_low"), w.get("demand_high"), now_et, seg_now)
             sok = None if seg_now == "regular" else faisal_watch.stop_broken(b, w.get("stop"), now_et, seg_now)
+            rok = faisal_watch.retest_confirmed(b, w.get("breakout"), now_et, seg_now)
             ev = faisal_watch.evaluate(w, px, last_close, label, hold_ok, zone_ok=zok, stop_ok=sok,
-                                       alerts_on=session in ("pre", "regular", "post"))
+                                       alerts_on=session in ("pre", "regular", "post"), retest_ok=rok)
             ev["session"] = session
             sig = by_t.get(t)
             if sig is None and df is not None and len(df) >= 60:

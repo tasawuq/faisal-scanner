@@ -78,8 +78,23 @@ def stop_broken(bars15, stop, now_et, seg="regular") -> bool:
     return bool(done["close"].values[-1] < stop)
 
 
+def retest_confirmed(bars15, brk, now_et, seg="regular") -> bool:
+    """إعادة اختبار ناجحة لمستوى الاختراق (الملف ص18: «اشترِ الثبات أو إعادة الاختبار الناجحة»):
+    السهم اخترق اليوم وابتعد فوق المستوى بـ 5%+، ثم رجع للمنطقة brk–brk×1.03 وقفلت شمعة 15 دقيقة خضراء فوق المستوى."""
+    if not brk:
+        return False
+    done = _done(bars15, now_et, seg)
+    if done is None or len(done) < 2:
+        return False
+    if float(done["high"].max()) < brk * 1.05:
+        return False
+    b = done.iloc[-1]
+    return bool(b["close"] > b["open"] and b["low"] <= brk * 1.03 and brk <= b["close"] <= brk * 1.04)
+
+
 def evaluate(entry: dict, price: float, last_close: float = None, price_label: str = "",
-             hold_ok: bool = None, zone_ok: bool = None, alerts_on: bool = True, stop_ok: bool = None) -> dict:
+             hold_ok: bool = None, zone_ok: bool = None, alerts_on: bool = True, stop_ok: bool = None,
+             retest_ok: bool = None) -> dict:
     """Compare the current price with Faisal's levels. hold_ok: last two 15-min bars above breakout.
     zone_ok: آخر شمعة 15 دقيقة خضراء داخل المنطقة. stop_ok=False: السعر تحت الوقف بدون إغلاق شمعة تحته
     (البري/الأفتر) → بدون تنبيه. alerts_on=False → معلومة فقط."""
@@ -106,6 +121,9 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
         else:
             res.update(state="IN_ZONE", alert=False,
                        state_ar=f"داخل منطقة {lab} {lo:g}–{hi:g} — ينتظر شمعة 15 دقيقة خضراء تثبت داخل المنطقة (لا دخول قبلها)")
+    elif brk and retest_ok and brk <= price <= brk * 1.04:
+        res.update(state="RETEST_HOLD", alert=alerts_on,
+                   state_ar=f"✅ إعادة اختبار ناجحة لمستوى {lab} {brk:g} — شمعة 15 دقيقة خضراء فوقه")
     elif brk and price > brk:
         held = hold_ok if hold_ok is not None else (last_close is not None and last_close > brk)
         if held:

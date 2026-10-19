@@ -337,3 +337,19 @@ def test_momentum_alert_rules(tmp_path, monkeypatch):
     a2 = {**base, "ticker": "ACTU", "setup": "MOM_VWAP_PULLBACK", "flags": []}
     assert update_alert_state({"ready": [chow, a1], "faisal": []}, now) == ["ACTU"]
     assert update_alert_state({"ready": [a2], "faisal": []}, now) == []
+
+
+def test_watch_breakout_retest_alert():
+    """SVRE: اخترق 1.70 ووصل 1.96، ثم رجع لـ 1.72 وقفلت شمعة 15 دقيقة خضراء فوق 1.70 → تنبيه إعادة اختبار."""
+    from faisal_scanner import faisal_watch as fw
+    now = datetime(2026, 10, 19, 14, 32, tzinfo=ET)
+    idx = [pd.Timestamp(datetime(2026, 10, 19, h, m, tzinfo=ET)) for h, m in ((10, 0), (13, 45), (14, 0), (14, 15))]
+    b = pd.DataFrame({"open": [1.80, 1.80, 1.74, 1.71], "high": [1.96, 1.81, 1.75, 1.74],
+                      "low": [1.79, 1.73, 1.70, 1.705], "close": [1.90, 1.74, 1.71, 1.73], "volume": [1e4] * 4}, index=idx)
+    assert fw.retest_confirmed(b, 1.70, now) is True
+    e = {"ticker": "SVRE", "demand_low": 1.50, "demand_high": 1.55, "stop": 1.45, "breakout": 1.70,
+         "targets": [1.90, 2.06], "source": "مستويات فيصل"}
+    ev = fw.evaluate(e, 1.73, retest_ok=True)
+    assert ev["state"] == "RETEST_HOLD" and ev["alert"] is True
+    red = b.assign(close=[1.90, 1.74, 1.71, 1.70], open=[1.80, 1.80, 1.74, 1.72])
+    assert fw.retest_confirmed(red, 1.70, now) is False

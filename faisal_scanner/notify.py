@@ -164,7 +164,8 @@ def alert_text(s: dict, when: str) -> str:
 
 
 WATCH_HEAD = {"ZONE_CONFIRMED": "ثبت في منطقة الدخول (شمعة 15 دقيقة خضراء)", "IN_ZONE": "داخل منطقة الدخول (بدون تأكيد)",
-              "BELOW_STOP": "نزل تحت الوقف", "BREAKOUT_HOLD": "اخترق وثبت"}
+              "BELOW_STOP": "نزل تحت الوقف", "BREAKOUT_HOLD": "اخترق وثبت",
+              "RETEST_HOLD": "إعادة اختبار ناجحة لمستوى الاختراق"}
 
 
 def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
@@ -176,12 +177,17 @@ def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
     title = f"🚨 {t} {head}" + (f" ({seg})" if seg else "")
     lines = [f"🚨 {t} — {head}", f"الوقت: {when}" + (f" · {seg}" if seg else ""),
              f"السعر الحالي: {fmt_price(ev.get('price'))}"]
-    if lo and hi:
-        lines.append(f"منطقة الدخول: {_g(lo)} – {_g(hi)}")
-    if stop:
-        lines.append(f"الوقف: {_g(stop)}")
-    if brk:
-        lines.append(f"الاختراق: فوق {_g(brk)}")
+    if st in ("RETEST_HOLD", "BREAKOUT_HOLD") and brk:
+        lines.append(f"مستوى الاختراق: {_g(brk)}")
+        lines.append(f"الدخول: قرب {_g(brk)} – {_g(round(brk * 1.03, 2))} (بدون مطاردة)")
+        lines.append(f"الوقف: تحت {_g(brk)} مباشرة")
+    else:
+        if lo and hi:
+            lines.append(f"منطقة الدخول: {_g(lo)} – {_g(hi)}")
+        if stop:
+            lines.append(f"الوقف: {_g(stop)}")
+        if brk:
+            lines.append(f"الاختراق: فوق {_g(brk)}")
     if L.get("targets"):
         lines.append("الأهداف: " + " ثم ".join(_g(x) for x in L["targets"]))
     lines.append(f"المصدر: {src}")
@@ -198,6 +204,11 @@ def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
     elif st == "BELOW_STOP":
         act = f"لا تدخل. وإذا عندك السهم: الوقف {_g(stop)} انكسر"
         act += f" في {seg} — إذا افتتح تحته اخرج." if seg else " — اخرج."
+    elif st == "RETEST_HOLD":
+        tg = [x for x in (L.get("targets") or []) if x > (ev.get("price") or 0)]
+        act = (f"هذا الدخول اللي يفضله الملف بعد الاختراق («اشترِ الثبات أو إعادة الاختبار الناجحة»): "
+               f"دخول قرب {_g(brk)}–{_g(round(brk * 1.03, 2))} بدون مطاردة، والوقف تحت {_g(brk)} مباشرة"
+               f" (الوقف من تطبيق القاعدة، مو رقم فيصل)." + (f" الهدف {_g(tg[0])}." if tg else ""))
     elif st == "BREAKOUT_HOLD":
         act = f"دخول زخم قريب من {_g(brk)} بدون مطاردة، والوقف تحت {_g(brk)} مباشرة."
     else:

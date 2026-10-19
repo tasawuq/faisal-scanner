@@ -1,24 +1,24 @@
 {
  "ticker": "VIP",
- "generated_at_et": "2026-10-16T16:05:52.081394-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-19T09:40:35.514076-04:00",
+ "session": "regular",
  "quote": {
-  "reg_price": 1.3,
-  "reg_chg": -0.01515159,
-  "reg_vol": 86558,
-  "prev_close": 1.32,
+  "reg_price": 1.28,
+  "reg_chg": -0.015384601,
+  "reg_vol": 4207,
+  "prev_close": 1.3,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
-  "avg_vol": 442306,
-  "state": "POST"
+  "avg_vol": 442139,
+  "state": "REGULAR"
  },
  "news": [],
  "fund": {
-  "floatShares": 9400909,
+  "floatShares": 10764537,
   "sharesOutstanding": 35547753,
-  "marketCap": 46993476,
+  "marketCap": 46281448,
   "shortPercentOfFloat": 0.007900001,
   "longName": "Vulcan Infrastructure and Power Inc.",
   "country": "United States",
@@ -28,58 +28,58 @@
   "lastSplitDate": 1684195200
  },
  "daily": {
-  "price": 1.3,
-  "chg_1d": -0.0152,
+  "price": 1.28,
+  "chg_1d": -0.0154,
   "ma": {
-   "MA20": 1.528,
-   "MA30": 1.6397,
-   "MA50": 1.7068
+   "MA20": 1.497,
+   "MA30": 1.6193,
+   "MA50": 1.6914
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 28.7,
+  "rsi_now": 27.7,
   "rsi_min15": 22.6,
   "rsi_min30": 22.6,
   "macd": {
-   "line": -0.1333,
-   "signal": -0.11641,
+   "line": -0.13374,
+   "signal": -0.11988,
    "hist_last3": [
-    -0.02532,
     -0.02065,
-    -0.01689
+    -0.01689,
+    -0.01386
    ],
    "state": "الهيستوجرام يتحسن"
   },
   "candles": [
    {
-    "d": "2026-10-15",
-    "hammer": "False",
-    "engulfing": "False",
-    "lower_wick": "False",
-    "strong_green": "True",
-    "upper_wick_ratio": 0.3636359695561189,
-    "close_pos": 0.6363640304438811,
-    "green": "True",
-    "bullish_reversal": "False"
-   },
-   {
     "d": "2026-10-16",
-    "hammer": "True",
+    "hammer": "False",
     "engulfing": "False",
     "lower_wick": "True",
     "strong_green": "False",
     "upper_wick_ratio": 0.0,
-    "close_pos": 0.6923064226240693,
+    "close_pos": 0.6666653421203734,
     "green": "False",
     "bullish_reversal": "True"
+   },
+   {
+    "d": "2026-10-19",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 1.0,
+    "close_pos": 0.0,
+    "green": "False",
+    "bullish_reversal": "False"
    }
   ],
-  "atr": 0.0969,
-  "avg_vol20": 118765,
-  "last_vol": 86558,
-  "drawdown_90d": 0.613,
+  "atr": 0.0911,
+  "avg_vol20": 112895,
+  "last_vol": 2464,
+  "drawdown_90d": 0.619,
   "high_90d": 3.36,
   "low_10d": 1.25,
-  "gain_from_low10": 0.04,
+  "gain_from_low10": 0.024,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": false,
@@ -133,11 +133,11 @@
    },
    {
     "low": 1.22,
-    "high": 1.2322,
-    "touches": 3,
+    "high": 1.25,
+    "touches": 4,
     "is_bottom": false,
     "first": "2026-05-21",
-    "last": "2026-05-21"
+    "last": "2026-10-14"
    },
    {
     "low": 1.16,
@@ -157,8 +157,8 @@
    }
   ],
   "support_selected": {
-   "low": 1.3,
-   "high": 1.313,
+   "low": 1.22,
+   "high": 1.25,
    "touches": 4,
    "interacting": true
   },
@@ -166,18 +166,18 @@
   "resistances": [
    [
     1.47,
-    "رأس شمعة هابطة"
+    "رأس شمعة هابطة + MA20"
    ],
    [
-    1.528,
-    "MA20 + قمة سابقة"
+    1.57,
+    "قمة سابقة"
    ],
    [
-    1.62,
-    "رأس شمعة هابطة + MA30"
+    1.6193,
+    "MA30 + رأس شمعة هابطة"
    ],
    [
-    1.7068,
+    1.6914,
     "MA50 + قمة سابقة"
    ],
    [
@@ -192,16 +192,6 @@
   "high_52w": 3.36,
   "low_52w": 1.0,
   "last_bars": [
-   {
-    "d": "2026-10-01",
-    "o": 1.62,
-    "h": 1.62,
-    "l": 1.53,
-    "c": 1.53,
-    "v": 144700,
-    "rsi": 32.3,
-    "hist": -0.02725
-   },
    {
     "d": "2026-10-02",
     "o": 1.6,
@@ -306,18 +296,35 @@
     "d": "2026-10-16",
     "o": 1.32,
     "h": 1.32,
-    "l": 1.255,
+    "l": 1.26,
     "c": 1.3,
-    "v": 86558,
+    "v": 128400,
     "rsi": 28.7,
     "hist": -0.01689
+   },
+   {
+    "d": "2026-10-19",
+    "o": 1.28,
+    "h": 1.29,
+    "l": 1.28,
+    "c": 1.28,
+    "v": 2464,
+    "rsi": 27.7,
+    "hist": -0.01386
    }
   ]
  },
  "levels_map": {
-  "price": 1.3,
-  "at_price": [],
+  "price": 1.28,
+  "at_price": [
+   "قاع يوم 2026-10-19"
+  ],
   "above": [
+   {
+    "level": 1.2833,
+    "why": "فواب جلسة 2026-10-19 + قمة يوم 2026-10-19",
+    "confluence": 2
+   },
    {
     "level": 1.32,
     "why": "قمة يوم 2026-10-16 + قاع يوم 2026-10-13 + قمة يوم 2026-10-14",
@@ -325,23 +332,23 @@
    },
    {
     "level": 1.36,
-    "why": "قمة يوم 2026-10-15 + قمة يوم 2026-10-13 + قاع يوم 2026-10-12 + قيعان سابقة متجمعة (3)",
-    "confluence": 4
+    "why": "قمة يوم 2026-10-15 + قمة يوم 2026-10-13 + قيعان سابقة متجمعة (3)",
+    "confluence": 3
    },
    {
-    "level": 1.4,
-    "why": "إغلاقات سابقة متجمعة (4)",
+    "level": 1.41,
+    "why": "إغلاقات سابقة متجمعة (3)",
     "confluence": 1
    },
    {
-    "level": 1.46,
-    "why": "قمة يوم 2026-10-12 + رأس شمعة هابطة",
+    "level": 1.47,
+    "why": "رأس شمعة هابطة + MA20",
     "confluence": 2
    },
    {
     "level": 1.52,
-    "why": "إغلاقات سابقة متجمعة (3) + MA20 + قيعان سابقة متجمعة (3)",
-    "confluence": 3
+    "why": "إغلاقات سابقة متجمعة (3) + قيعان سابقة متجمعة (3)",
+    "confluence": 2
    },
    {
     "level": 1.57,
@@ -349,25 +356,15 @@
     "confluence": 2
    },
    {
-    "level": 1.62,
-    "why": "إغلاقات سابقة متجمعة (5) + رأس شمعة هابطة + MA30 + قيعان سابقة متجمعة (4)",
-    "confluence": 4
-   },
-   {
-    "level": 1.7068,
-    "why": "MA50 + إغلاقات سابقة متجمعة (4) + قيعان سابقة متجمعة (8) + قمة سابقة",
+    "level": 1.6193,
+    "why": "MA30 + إغلاقات سابقة متجمعة (5) + رأس شمعة هابطة + قيعان سابقة متجمعة (4)",
     "confluence": 4
    }
   ],
   "below": [
    {
-    "level": 1.2865,
-    "why": "فواب جلسة 2026-10-16",
-    "confluence": 1
-   },
-   {
-    "level": 1.255,
-    "why": "قاع يوم 2026-10-16 + قاعدة آخر ساعة 2026-10-16 + قاع يوم 2026-10-14 + قاع يوم 2026-10-15",
+    "level": 1.26,
+    "why": "قاع يوم 2026-10-16 + قاع يوم 2026-10-14 + قاع يوم 2026-10-15 + قيعان سابقة متجمعة (3)",
     "confluence": 4
    }
   ]
@@ -375,10 +372,10 @@
  "pivot": {
   "ticker": "VIP",
   "kind": "pivot",
-  "status": "READY",
-  "setup": "SWEEP",
-  "setup_ar": "سحب سيولة ثم استرداد الدعم",
-  "price": 1.2999999523162842,
+  "status": "WATCH",
+  "setup": "AT_SUPPORT",
+  "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+  "price": 1.2799999713897705,
   "score": 5.25,
   "conditions": {
    "ma": {
@@ -387,7 +384,7 @@
    },
    "rsi": {
     "score": 0.75,
-    "note": "أدنى RSI 23 والحالي 29"
+    "note": "أدنى RSI 23 والحالي 28"
    },
    "macd": {
     "score": 1.0,
@@ -395,52 +392,54 @@
    },
    "candle": {
     "score": 1.0,
-    "note": "مطرقة (Hammer)"
+    "note": "ذيل سفلي طويل (رفض كسر)"
    },
    "pressure": {
     "score": 1.0,
-    "note": "هبط 61% من قمة 90 يوم"
+    "note": "هبط 62% من قمة 90 يوم"
    },
    "space": {
     "score": 1.0,
-    "note": "العائد/المخاطرة 4.3"
+    "note": "العائد/المخاطرة 8.5"
    }
   },
-  "support_low": 1.2999999523162842,
-  "support_high": 1.312999951839447,
+  "support_low": 1.2200000286102295,
+  "support_high": 1.25,
   "support_touches": 4,
-  "trigger_level": 1.2999999523162842,
-  "stop": 1.225,
-  "entry_low": 1.2999999523162842,
-  "entry_high": 1.2999999523162842,
-  "t1": 1.4700000286102295,
-  "t1_label": "رأس شمعة هابطة",
-  "t2": 1.527999997138977,
-  "t2_label": "MA20 + قمة سابقة",
-  "rr": 2.27,
-  "risk_pct": 0.0577,
-  "rsi_now": 28.7,
+  "trigger_level": 1.2200000286102295,
+  "stop": 1.1956000280380248,
+  "entry_low": 1.2200000286102295,
+  "entry_high": 1.25,
+  "t1": 1.3200000524520874,
+  "t1_label": "قمة يوم قريبة",
+  "t2": 1.4700000286102295,
+  "t2_label": "رأس شمعة هابطة + MA20",
+  "rr": 2.16,
+  "risk_pct": 0.0319,
+  "rsi_now": 27.7,
   "rsi_min": 22.6,
   "ma_state": "تحت كل المتوسطات (ضغط)",
   "macd_state": "الهيستوجرام يتحسن",
-  "candle": "مطرقة (Hammer)",
+  "candle": "ذيل سفلي طويل (رفض كسر)",
   "volume_note": "فوليوم البيع يضعف",
-  "waiting_for": [],
+  "waiting_for": [
+   "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.22 ثم استرداد"
+  ],
   "flags": [],
   "tags": [
    "فلووت أقل من 20M",
    "Former Runner (سبق انفجر +44% في يوم)",
    "فوليوم البيع يضعف"
   ],
-  "rank": 8.25,
+  "rank": 6.004098600932451,
   "meta": {
-   "avg_volume": 118765.0,
-   "drawdown": 0.613,
-   "rr_best": 4.27,
-   "gain_from_low10": 0.04,
+   "avg_volume": 112895.0,
+   "drawdown": 0.619,
+   "rr_best": 8.5,
+   "gain_from_low10": 0.024,
    "higher_lows": "False",
-   "float": 9400909,
-   "market_cap": 46993476,
+   "float": 10764537,
+   "market_cap": 46281448,
    "exchange": "",
    "name": "Vulcan Infrastructure and Power Inc.",
    "short_pct_float": 0.007900001

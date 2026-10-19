@@ -43,7 +43,7 @@ jobs:
           ALPACA_API_SECRET_KEY: ${{ secrets.ALPACA_API_SECRET_KEY }}
           ALPACA_FEED: ${{ vars.ALPACA_FEED || 'sip' }}
           ALPACA_SIP_DELAY_MIN: ${{ vars.ALPACA_SIP_DELAY_MIN || '16' }}
-          ENABLE_MOMENTUM: ${{ vars.ENABLE_MOMENTUM || '1' }}
+          ENABLE_MOMENTUM: ${{ vars.ENABLE_MOMENTUM || '0' }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ github.token }}

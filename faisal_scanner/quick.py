@@ -61,6 +61,24 @@ def run_quick(force=False):
         return None
     ext = session in ("pre", "post")
     pk, ck = PX_KEY[session if ext else "regular"]
+    if not C.ENABLE_MOMENTUM:
+        # الزخم موقوف (طلب المستخدم: ارتكاز فقط) → هذا الفحص المباشر يراقب مستويات فيصل فقط كل دقيقة
+        result = {"generated_at_et": now_et.isoformat(), "mode": "quick", "session": session, "ready": [], "radar": [],
+                  "new_alerts": [], "debug": {"momentum": "off"}}
+        try:
+            watch_alerts(result, {}, now_et, session)
+        except Exception as e:  # noqa
+            log.warning("quick watchlist failed: %s", e)
+        os.makedirs(C.RESULTS_DIR, exist_ok=True)
+        with open(os.path.join(C.RESULTS_DIR, "momentum_quick.json"), "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False, indent=1, default=str)
+        if result["new_alerts"]:
+            hist = os.path.join(C.RESULTS_DIR, "history")
+            os.makedirs(hist, exist_ok=True)
+            with open(os.path.join(hist, f"{now_et.date().isoformat()}_live.jsonl"), "a", encoding="utf-8") as f:
+                f.write(json.dumps({"t": now_et.isoformat(), "mode": "watch", "new": result["new_alerts"]},
+                                   ensure_ascii=False) + "\n")
+        return result
     universe, src = get_universe()
     if src != "nasdaq-api":
         log.warning("quick: universe source is %s (no market cap) — continuing with Yahoo quotes", src)

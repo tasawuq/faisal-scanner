@@ -64,7 +64,7 @@ jobs:
           ALPACA_API_SECRET_KEY: ${{ secrets.ALPACA_API_SECRET_KEY }}
           ALPACA_FEED: ${{ vars.ALPACA_FEED || 'sip' }}
           ALPACA_SIP_DELAY_MIN: ${{ vars.ALPACA_SIP_DELAY_MIN || '16' }}
-          ENABLE_MOMENTUM: ${{ vars.ENABLE_MOMENTUM || '1' }}
+          ENABLE_MOMENTUM: ${{ vars.ENABLE_MOMENTUM || '0' }}
         run: |
           git config user.name "faisal-scanner-bot"
           git config user.email "actions@users.noreply.github.com"

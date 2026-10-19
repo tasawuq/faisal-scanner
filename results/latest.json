@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-19T20:24:39.815125+00:00",
- "generated_at_et": "2026-10-19T16:24:39.815125-04:00",
+ "generated_at_utc": "2026-10-19T20:34:39.815278+00:00",
+ "generated_at_et": "2026-10-19T16:34:39.815278-04:00",
  "session": "post",
  "provider": "yahoo",
  "counts": {
@@ -333,88 +333,6 @@
    "news": []
   },
   {
-   "ticker": "DCOY",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "BOUNCE",
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "price": 1.1699999570846558,
-   "score": 5.0,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 1.0,
-     "note": "أدنى RSI 26 والحالي 27"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "ذيل سفلي طويل (رفض كسر) (شمعة صغيرة غير واضحة)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 91% من قمة 90 يوم، شورت 23% من الفلووت"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 23.1"
-    }
-   },
-   "support_low": 1.149999976158142,
-   "support_high": 1.1614999759197235,
-   "support_touches": 1,
-   "trigger_level": 1.149999976158142,
-   "stop": 1.1269999766349792,
-   "entry_low": 1.149999976158142,
-   "entry_high": 1.1699999570846558,
-   "t1": 1.2599999904632568,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.399999976158142,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 3.03,
-   "risk_pct": 0.0284,
-   "rsi_now": 27.4,
-   "rsi_min": 26.2,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "ذيل سفلي طويل (رفض كسر) (شمعة صغيرة غير واضحة)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
-   ],
-   "flags": [
-    "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 7.61 وأغلق 3.1 بفوليوم 2940x)",
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +197% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 5.913043559386285,
-   "meta": {
-    "avg_volume": 6839435.0,
-    "drawdown": 0.913,
-    "rr_best": 23.05,
-    "gain_from_low10": 0.017,
-    "higher_lows": "False",
-    "float": 586436,
-    "market_cap": 2766927,
-    "exchange": "NASDAQ",
-    "name": "Decoy Therapeutics Inc.",
-    "short_pct_float": 0.2305
-   },
-   "news": []
-  },
-  {
    "ticker": "JAGU",
    "kind": "pivot",
    "status": "WATCH",
@@ -568,90 +486,6 @@
     "exchange": "NASDAQ",
     "name": "Natural Health Trends Corp.",
     "short_pct_float": 0.0016
-   },
-   "news": []
-  },
-  {
-   "ticker": "BIVI",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 1.3700000047683716,
-   "score": 4.75,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.25,
-     "note": "أدنى RSI 29 والحالي 45 (ارتفع — جزء من الارتداد حصل)"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 1.0,
-     "note": "ذيل سفلي طويل (رفض كسر)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 64% من قمة 90 يوم، شورت 11% من الفلووت"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 6.0"
-    }
-   },
-   "support_low": 1.350000023841858,
-   "support_high": 1.3635000240802766,
-   "support_touches": 6,
-   "trigger_level": 1.350000023841858,
-   "stop": 1.3230000233650208,
-   "entry_low": 1.350000023841858,
-   "entry_high": 1.3635000240802766,
-   "t1": 1.416750007867813,
-   "t1_label": "MA20",
-   "t2": 1.4700000286102295,
-   "t2_label": "رأس شمعة هابطة + قمة سابقة",
-   "rr": 1.78,
-   "risk_pct": 0.0249,
-   "rsi_now": 45.1,
-   "rsi_min": 28.8,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "ذيل سفلي طويل (رفض كسر)",
-   "volume_note": "",
-   "waiting_for": [
-    "نزول السعر لمنطقة الطلب 1.35–1.36",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "صعد 22% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة"
-   ],
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +198% في يوم)"
-   ],
-   "rank": 5.6759259978766625,
-   "meta": {
-    "avg_volume": 225020.0,
-    "drawdown": 0.639,
-    "rr_best": 5.98,
-    "gain_from_low10": 0.223,
-    "higher_lows": "False",
-    "float": 7477922,
-    "market_cap": 11581867,
-    "exchange": "NASDAQ",
-    "name": "BioVie Inc.",
-    "short_pct_float": 0.1073,
-    "ext_price": 1.3354,
-    "ext_chg": -0.02525549,
-    "ext_session": "post"
    },
    "news": []
   },
@@ -977,6 +811,88 @@
     "ext_price": 3.75,
     "ext_chg": 0.0,
     "ext_session": "post"
+   },
+   "news": []
+  },
+  {
+   "ticker": "DCOY",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 1.1699999570846558,
+   "score": 4.5,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 1.0,
+     "note": "أدنى RSI 26 والحالي 27"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "لا توجد شمعة إيجابية عند الدعم"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 91% من قمة 90 يوم، شورت 23% من الفلووت"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 26.6"
+    }
+   },
+   "support_low": 1.149999976158142,
+   "support_high": 1.1614999759197235,
+   "support_touches": 1,
+   "trigger_level": 1.149999976158142,
+   "stop": 1.1269999766349792,
+   "entry_low": 1.149999976158142,
+   "entry_high": 1.1614999759197235,
+   "t1": 1.2599999904632568,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 1.399999976158142,
+   "t2_label": "رأس شمعة هابطة",
+   "rr": 3.63,
+   "risk_pct": 0.0249,
+   "rsi_now": 27.4,
+   "rsi_min": 26.2,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.15 ثم استرداد",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
+   ],
+   "flags": [
+    "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 7.61 وأغلق 3.1 بفوليوم 2940x)",
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +197% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 5.413043559386285,
+   "meta": {
+    "avg_volume": 6839435.0,
+    "drawdown": 0.913,
+    "rr_best": 26.61,
+    "gain_from_low10": 0.017,
+    "higher_lows": "False",
+    "float": 586436,
+    "market_cap": 2766927,
+    "exchange": "NASDAQ",
+    "name": "Decoy Therapeutics Inc.",
+    "short_pct_float": 0.2305
    },
    "news": []
   },
@@ -1544,8 +1460,93 @@
     "exchange": "NASDAQ",
     "name": "1-800-FLOWERS.COM, Inc.",
     "short_pct_float": 0.3718,
-    "ext_price": 2.754,
-    "ext_chg": 0.02379178,
+    "ext_price": 2.76,
+    "ext_chg": 0.026022280000000002,
+    "ext_session": "post"
+   },
+   "news": []
+  },
+  {
+   "ticker": "BIVI",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 1.3700000047683716,
+   "score": 4.25,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.25,
+     "note": "أدنى RSI 29 والحالي 45 (ارتفع — جزء من الارتداد حصل)"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 0.5,
+     "note": "شمعة خضراء بإغلاق قوي"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 64% من قمة 90 يوم، شورت 11% من الفلووت"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 6.0"
+    }
+   },
+   "support_low": 1.350000023841858,
+   "support_high": 1.3635000240802766,
+   "support_touches": 6,
+   "trigger_level": 1.350000023841858,
+   "stop": 1.3230000233650208,
+   "entry_low": 1.350000023841858,
+   "entry_high": 1.3635000240802766,
+   "t1": 1.416750007867813,
+   "t1_label": "MA20",
+   "t2": 1.4700000286102295,
+   "t2_label": "رأس شمعة هابطة + قمة سابقة",
+   "rr": 1.78,
+   "risk_pct": 0.0249,
+   "rsi_now": 45.1,
+   "rsi_min": 28.8,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "شمعة خضراء بإغلاق قوي",
+   "volume_note": "",
+   "waiting_for": [
+    "نزول السعر لمنطقة الطلب 1.35–1.36",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "صعد 22% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +198% في يوم)"
+   ],
+   "rank": 5.1759259978766625,
+   "meta": {
+    "avg_volume": 225020.0,
+    "drawdown": 0.639,
+    "rr_best": 5.98,
+    "gain_from_low10": 0.223,
+    "higher_lows": "False",
+    "float": 7477922,
+    "market_cap": 11581867,
+    "exchange": "NASDAQ",
+    "name": "BioVie Inc.",
+    "short_pct_float": 0.1073,
+    "ext_price": 1.3354,
+    "ext_chg": -0.02525549,
     "ext_session": "post"
    },
    "news": []
@@ -2050,7 +2051,10 @@
     "market_cap": 4406191,
     "exchange": "NASDAQ",
     "name": "Vivos Therapeutics, Inc.",
-    "short_pct_float": 0.0929
+    "short_pct_float": 0.0929,
+    "ext_price": 0.1339,
+    "ext_chg": -0.007412913399999999,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2450,8 +2454,8 @@
     "exchange": "NASDAQ",
     "name": "Peraso Inc.",
     "short_pct_float": 0.0394,
-    "ext_price": 0.405,
-    "ext_chg": 0.055512085,
+    "ext_price": 0.4048,
+    "ext_chg": 0.054990835,
     "ext_session": "post"
    },
    "news": []
@@ -2934,7 +2938,7 @@
     "شمعة ضخ/تصريف قبل 8 يوم (طار إلى 0.732 وأغلق 0.496 بفوليوم 97x)",
     "سهم صيني عالي التذبذب",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.429 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.431 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2953,8 +2957,8 @@
     "exchange": "NASDAQ",
     "name": "CN Energy Group. Inc.",
     "short_pct_float": 0.035,
-    "ext_price": 0.429,
-    "ext_chg": 0.08305977,
+    "ext_price": 0.431,
+    "ext_chg": 0.08810900999999999,
     "ext_session": "post"
    },
    "news": []
@@ -3120,7 +3124,10 @@
     "float": 3842210,
     "market_cap": 156962672,
     "exchange": "NASDAQ",
-    "name": "Veraxa Biotech AG"
+    "name": "Veraxa Biotech AG",
+    "ext_price": 1.008,
+    "ext_chg": 0.008000016,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3203,8 +3210,8 @@
     "exchange": "NASDAQ",
     "name": "3 E Network Technology Group Limited",
     "short_pct_float": 0.025999999,
-    "ext_price": 0.91,
-    "ext_chg": -0.021400113,
+    "ext_price": 0.94,
+    "ext_chg": 0.010861391,
     "ext_session": "post"
    },
    "news": []

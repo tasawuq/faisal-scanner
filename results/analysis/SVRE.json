@@ -1,11 +1,11 @@
 {
  "ticker": "SVRE",
- "generated_at_et": "2026-10-19T10:01:08.127035-04:00",
+ "generated_at_et": "2026-10-19T10:33:35.769787-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 1.8911,
-  "reg_chg": 0.13239526,
-  "reg_vol": 21455,
+  "reg_price": 1.855,
+  "reg_chg": 0.11077848,
+  "reg_vol": 24785,
   "prev_close": 1.67,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,24 +28,24 @@
   "lastSplitDate": 1771977600
  },
  "daily": {
-  "price": 1.8911,
-  "chg_1d": 0.1324,
+  "price": 1.855,
+  "chg_1d": 0.1108,
   "ma": {
-   "MA20": 1.6151,
-   "MA30": 1.8607,
-   "MA50": 2.3126
+   "MA20": 1.6132,
+   "MA30": 1.8595,
+   "MA50": 2.3119
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 53.3,
+  "rsi_now": 52.4,
   "rsi_min15": 23.8,
   "rsi_min30": 23.8,
   "macd": {
-   "line": -0.23835,
-   "signal": -0.33266,
+   "line": -0.24123,
+   "signal": -0.33324,
    "hist_last3": [
     0.02991,
     0.06079,
-    0.09431
+    0.09201
    ],
    "state": "تقاطع إيجابي حديث"
   },
@@ -66,20 +66,20 @@
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
-    "strong_green": "True",
-    "upper_wick_ratio": 0.2944999231100266,
-    "close_pos": 0.7055000768899734,
+    "strong_green": "False",
+    "upper_wick_ratio": 0.47500002980231526,
+    "close_pos": 0.5249999701976847,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.2706,
   "avg_vol20": 72525,
-  "last_vol": 11801,
-  "drawdown_90d": 0.679,
+  "last_vol": 20592,
+  "drawdown_90d": 0.686,
   "high_90d": 5.9,
   "low_10d": 1.01,
-  "gain_from_low10": 0.872,
+  "gain_from_low10": 0.837,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -156,7 +156,7 @@
     "رأس شمعة هابطة"
    ],
    [
-    2.3126,
+    2.3119,
     "MA50"
    ],
    [
@@ -294,23 +294,26 @@
     "o": 1.77,
     "h": 1.95,
     "l": 1.75,
-    "c": 1.8911,
-    "v": 11801,
-    "rsi": 53.3,
-    "hist": 0.09431
+    "c": 1.855,
+    "v": 20592,
+    "rsi": 52.4,
+    "hist": 0.09201
    }
   ]
  },
  "levels_map": {
-  "price": 1.8911,
-  "at_price": [
-   "قمة يوم 2026-10-16"
-  ],
+  "price": 1.855,
+  "at_price": [],
   "above": [
    {
-    "level": 1.8969,
-    "why": "فواب جلسة 2026-10-19 + رأس شمعة هابطة",
-    "confluence": 2
+    "level": 1.8595,
+    "why": "MA30 + فواب جلسة 2026-10-19 + قمة يوم 2026-10-16",
+    "confluence": 3
+   },
+   {
+    "level": 1.9,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
    },
    {
     "level": 1.95,
@@ -333,7 +336,7 @@
     "confluence": 1
    },
    {
-    "level": 2.3126,
+    "level": 2.3119,
     "why": "MA50",
     "confluence": 1
    },
@@ -341,19 +344,9 @@
     "level": 2.41,
     "why": "قيعان سابقة متجمعة (3)",
     "confluence": 1
-   },
-   {
-    "level": 2.55,
-    "why": "قيعان سابقة متجمعة (7) + رأس شمعة هابطة",
-    "confluence": 2
    }
   ],
   "below": [
-   {
-    "level": 1.8607,
-    "why": "MA30",
-    "confluence": 1
-   },
    {
     "level": 1.75,
     "why": "قاع يوم 2026-10-19",
@@ -365,7 +358,7 @@
     "confluence": 1
    },
    {
-    "level": 1.6151,
+    "level": 1.6132,
     "why": "MA20",
     "confluence": 1
    },
@@ -388,6 +381,11 @@
     "level": 1.12,
     "why": "إغلاقات سابقة متجمعة (3)",
     "confluence": 1
+   },
+   {
+    "level": 1.085,
+    "why": "قيعان سابقة متجمعة (4) + قاع يوم 2026-10-14",
+    "confluence": 2
    }
   ]
  },

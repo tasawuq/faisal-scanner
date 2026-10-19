@@ -1,18 +1,18 @@
 {
  "ticker": "AAME",
- "generated_at_et": "2026-10-19T07:18:36.932639-04:00",
- "session": "pre",
+ "generated_at_et": "2026-10-19T10:33:35.769787-04:00",
+ "session": "regular",
  "quote": {
-  "reg_price": 1.05,
-  "reg_chg": -0.009433954,
-  "reg_vol": 552019,
-  "prev_close": 1.06,
-  "pre_price": 1.6315,
-  "pre_chg": 0.5538096,
+  "reg_price": 1.225,
+  "reg_chg": 0.16666676,
+  "reg_vol": 41626525,
+  "prev_close": 1.05,
+  "pre_price": null,
+  "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 66107,
-  "state": "PRE"
+  "state": "REGULAR"
  },
  "news": [],
  "fund": {
@@ -28,39 +28,28 @@
   "lastSplitDate": 531446400
  },
  "daily": {
-  "price": 1.05,
-  "chg_1d": -0.0094,
+  "price": 1.225,
+  "chg_1d": 0.1667,
   "ma": {
-   "MA20": 1.245,
-   "MA30": 1.2707,
-   "MA50": 1.322
+   "MA20": 1.2387,
+   "MA30": 1.2662,
+   "MA50": 1.3159
   },
-  "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 23.6,
+  "ma_state": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
+  "rsi_now": 48.3,
   "rsi_min15": 23.6,
   "rsi_min30": 23.6,
   "macd": {
-   "line": -0.07448,
-   "signal": -0.05499,
+   "line": -0.0642,
+   "signal": -0.05683,
    "hist_last3": [
-    -0.01587,
     -0.01859,
-    -0.01949
+    -0.01949,
+    -0.00737
    ],
-   "state": "سلبي"
+   "state": "بداية تحسن"
   },
   "candles": [
-   {
-    "d": "2026-10-15",
-    "hammer": "False",
-    "engulfing": "False",
-    "lower_wick": "False",
-    "strong_green": "False",
-    "upper_wick_ratio": 0.39999904632704786,
-    "close_pos": 0.0,
-    "green": "False",
-    "bullish_reversal": "False"
-   },
    {
     "d": "2026-10-16",
     "hammer": "False",
@@ -71,24 +60,35 @@
     "close_pos": 0.4999985098869004,
     "green": "True",
     "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-19",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.4266665776570638,
+    "close_pos": 0.10666688283284505,
+    "green": "False",
+    "bullish_reversal": "False"
    }
   ],
-  "atr": 0.0568,
-  "avg_vol20": 16105,
-  "last_vol": 240300,
-  "drawdown_90d": 0.444,
+  "atr": 0.0891,
+  "avg_vol20": 26685,
+  "last_vol": 41614438,
+  "drawdown_90d": 0.352,
   "high_90d": 1.89,
   "low_10d": 1.03,
-  "gain_from_low10": 0.019,
-  "sell_drying": true,
+  "gain_from_low10": 0.189,
+  "sell_drying": false,
   "vol_improving": true,
   "higher_lows": false,
   "pump_recent": false,
-  "distribution_recent": false,
+  "distribution_recent": true,
   "pump_month": null,
   "former_runner": true,
   "runner_jump": 0.314,
-  "runner_spike": 0.314,
+  "runner_spike": 0.486,
   "distinct_closes20": 15,
   "support_zones": [
    {
@@ -144,16 +144,16 @@
   "w": null,
   "resistances": [
    [
-    1.245,
-    "MA20 + MA30"
+    1.2662,
+    "MA30"
    ],
    [
-    1.322,
+    1.3159,
     "MA50"
    ],
    [
     1.4,
-    "قمة سابقة"
+    "قمة سابقة + رأس شمعة هابطة"
    ],
    [
     1.57,
@@ -171,16 +171,6 @@
   "high_52w": 3.24,
   "low_52w": 1.03,
   "last_bars": [
-   {
-    "d": "2026-10-01",
-    "o": 1.3,
-    "h": 1.3,
-    "l": 1.29,
-    "c": 1.3,
-    "v": 11900,
-    "rsi": 43.5,
-    "hist": 0.00249
-   },
    {
     "d": "2026-10-02",
     "o": 1.28,
@@ -290,84 +280,89 @@
     "v": 240300,
     "rsi": 23.6,
     "hist": -0.01949
+   },
+   {
+    "d": "2026-10-19",
+    "o": 1.4,
+    "h": 1.56,
+    "l": 1.185,
+    "c": 1.225,
+    "v": 41614438,
+    "rsi": 48.3,
+    "hist": -0.00737
    }
   ]
  },
  "levels_map": {
-  "price": 1.6315,
+  "price": 1.225,
   "at_price": [],
   "above": [
    {
-    "level": 1.64,
-    "why": "قمة سابقة",
-    "confluence": 1
-   },
-   {
-    "level": 1.74,
-    "why": "قمة سابقة",
-    "confluence": 1
-   },
-   {
-    "level": 1.89,
-    "why": "قمة سابقة",
-    "confluence": 1
-   },
-   {
-    "level": 2.24,
-    "why": "قمة سابقة",
-    "confluence": 1
-   },
-   {
-    "level": 2.58,
-    "why": "قمة سابقة",
-    "confluence": 1
-   },
-   {
-    "level": 2.78,
-    "why": "قمة الأفتر/البري",
-    "confluence": 1
-   }
-  ],
-  "below": [
-   {
-    "level": 1.565,
-    "why": "قيعان سابقة متجمعة (4) + إغلاقات سابقة متجمعة (10) + قيعان سابقة متجمعة (7)",
-    "confluence": 3
-   },
-   {
-    "level": 1.46,
-    "why": "إغلاقات سابقة متجمعة (3) + قيعان سابقة متجمعة (4)",
-    "confluence": 2
-   },
-   {
-    "level": 1.415,
-    "why": "إغلاقات سابقة متجمعة (6) + قيعان سابقة متجمعة (4)",
-    "confluence": 2
-   },
-   {
-    "level": 1.36,
-    "why": "إغلاقات سابقة متجمعة (12) + قيعان سابقة متجمعة (10)",
-    "confluence": 2
-   },
-   {
-    "level": 1.322,
-    "why": "MA50 + إغلاقات سابقة متجمعة (6) + قيعان سابقة متجمعة (10)",
-    "confluence": 3
-   },
-   {
-    "level": 1.29,
-    "why": "إغلاقات سابقة متجمعة (12) + MA30 + قيعان سابقة متجمعة (13)",
-    "confluence": 3
-   },
-   {
-    "level": 1.245,
+    "level": 1.2387,
     "why": "MA20",
     "confluence": 1
    },
    {
-    "level": 1.18,
-    "why": "قمة يوم 2026-10-12 + قيعان سابقة متجمعة (3) + قمة يوم 2026-10-13",
+    "level": 1.2662,
+    "why": "MA30 + قيعان سابقة متجمعة (13) + إغلاقات سابقة متجمعة (12)",
     "confluence": 3
+   },
+   {
+    "level": 1.31,
+    "why": "إغلاقات سابقة متجمعة (6) + قيعان سابقة متجمعة (10) + MA50",
+    "confluence": 3
+   },
+   {
+    "level": 1.34,
+    "why": "قيعان سابقة متجمعة (10) + إغلاقات سابقة متجمعة (12)",
+    "confluence": 2
+   },
+   {
+    "level": 1.395,
+    "why": "قيعان سابقة متجمعة (4) + قمة سابقة + رأس شمعة هابطة + إغلاقات سابقة متجمعة (6)",
+    "confluence": 3
+   },
+   {
+    "level": 1.435,
+    "why": "قيعان سابقة متجمعة (4) + إغلاقات سابقة متجمعة (3)",
+    "confluence": 2
+   },
+   {
+    "level": 1.4659,
+    "why": "فواب جلسة 2026-10-19",
+    "confluence": 1
+   },
+   {
+    "level": 1.54,
+    "why": "قيعان سابقة متجمعة (7) + إغلاقات سابقة متجمعة (9) + قمة يوم 2026-10-19 + قيعان سابقة متجمعة (3) + رأس شمعة هابطة + قمة سابقة",
+    "confluence": 5
+   }
+  ],
+  "below": [
+   {
+    "level": 1.185,
+    "why": "قاع يوم 2026-10-19",
+    "confluence": 1
+   },
+   {
+    "level": 1.16,
+    "why": "قمة يوم 2026-10-13",
+    "confluence": 1
+   },
+   {
+    "level": 1.13,
+    "why": "قمة يوم 2026-10-14 + إغلاقات سابقة متجمعة (3) + قاع يوم 2026-10-13 + قمة يوم 2026-10-15",
+    "confluence": 4
+   },
+   {
+    "level": 1.08,
+    "why": "قاع يوم 2026-10-14 + قمة يوم 2026-10-16 + قاع يوم 2026-10-15",
+    "confluence": 3
+   },
+   {
+    "level": 1.03,
+    "why": "قاع يوم 2026-10-16",
+    "confluence": 1
    }
   ]
  },
@@ -376,52 +371,49 @@
   "ticker": "AAME",
   "kind": "momentum",
   "status": "WATCH",
-  "setup": "MOM_ABOVE_VWAP",
-  "setup_ar": "زخم بري ماركت — فوق الفواب — بانتظار Pullback",
-  "price": 1.6315,
-  "score": 2.0,
+  "setup": "MOM_BELOW_VWAP",
+  "setup_ar": "زخم الجلسة — تحت الفواب — لا دخول",
+  "price": 1.225000023841858,
+  "score": 2.83,
   "conditions": {},
-  "support_low": 1.4524,
+  "support_low": 1.399999976158142,
   "support_high": null,
   "support_touches": 0,
-  "trigger_level": 1.4681699999999998,
-  "stop": 1.4608291499999997,
-  "entry_low": 1.4681699999999998,
-  "entry_high": 1.4975333999999998,
-  "t1": 1.6399999856948853,
+  "trigger_level": 1.4384845015905827,
+  "stop": null,
+  "entry_low": 1.4384845015905827,
+  "entry_high": 1.4672541916223945,
+  "t1": 1.399999976158142,
   "t1_label": "مقاومة يومية قريبة",
-  "t2": 2.78,
-  "t2_label": "قمة بري ماركت",
-  "rr": 0.05,
-  "risk_pct": 0.1046,
+  "t2": 1.559999942779541,
+  "t2_label": "قمة الجلسة",
+  "rr": null,
+  "risk_pct": null,
   "rsi_now": null,
   "rsi_min": null,
   "ma_state": "",
   "macd_state": "",
   "candle": "",
-  "volume_note": "فوليوم بري ماركت غير مؤكد (40 شمعة)",
+  "volume_note": "RVOL 9653.9x",
   "waiting_for": [
-   "أول Pullback قرب الفواب 1.47 مع ثبات",
-   "تأكيد فوليوم بري ماركت (غير متوفر من Yahoo — مفاتيح Alpaca تعطيه)"
+   "استرداد الفواب 1.44 والثبات فوقه"
   ],
-  "flags": [
-   "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة"
-  ],
+  "flags": [],
   "tags": [],
-  "rank": 2.0,
+  "rank": 2.83,
   "meta": {
-   "segment": "pre",
-   "change": 0.5538,
-   "gap": 0.0,
-   "rvol": 0.0,
-   "rvol_pace": 0.0,
-   "vwap": 1.4682,
-   "hod": 2.78,
-   "move_base": 1.4524,
-   "segment_volume": 0.0,
-   "pullback_from_hod": 0.4131,
-   "dist_vwap": 0.1112,
-   "volume_known": false
+   "segment": "regular",
+   "change": 0.1667,
+   "gap": 0.3333,
+   "rvol": 1559.47,
+   "rvol_pace": 9653.86,
+   "vwap": 1.4385,
+   "hod": 1.559999942779541,
+   "move_base": 1.399999976158142,
+   "segment_volume": 41614438.0,
+   "pullback_from_hod": 0.2147,
+   "dist_vwap": -0.1484,
+   "volume_known": true
   },
   "news": []
  }

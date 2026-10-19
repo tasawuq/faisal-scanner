@@ -1,24 +1,24 @@
 {
  "ticker": "SVRE",
- "generated_at_et": "2026-10-19T12:01:46.575518-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-19T16:01:01.146783-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 1.945,
-  "reg_chg": 0.16467072000000002,
-  "reg_vol": 39764,
+  "reg_price": 1.806,
+  "reg_chg": 0.08143715,
+  "reg_vol": 70192,
   "prev_close": 1.67,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 55710,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
   "floatShares": 1823608,
   "sharesOutstanding": 2499835,
-  "marketCap": 4862179,
+  "marketCap": 4514702,
   "shortPercentOfFloat": 0.006,
   "longName": "SaverOne 2014 Ltd.",
   "country": "Israel",
@@ -28,24 +28,24 @@
   "lastSplitDate": 1771977600
  },
  "daily": {
-  "price": 1.945,
-  "chg_1d": 0.1647,
+  "price": 1.806,
+  "chg_1d": 0.0814,
   "ma": {
-   "MA20": 1.6178,
-   "MA30": 1.8625,
-   "MA50": 2.3137
+   "MA20": 1.6108,
+   "MA30": 1.8579,
+   "MA50": 2.3109
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 54.6,
+  "rsi_now": 51.1,
   "rsi_min15": 23.8,
   "rsi_min30": 23.8,
   "macd": {
-   "line": -0.23405,
-   "signal": -0.3318,
+   "line": -0.24514,
+   "signal": -0.33402,
    "hist_last3": [
     0.02991,
     0.06079,
-    0.09775
+    0.08888
    ],
    "state": "تقاطع إيجابي حديث"
   },
@@ -66,20 +66,20 @@
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
-    "strong_green": "True",
-    "upper_wick_ratio": 0.07142849033383136,
-    "close_pos": 0.9285715096661686,
+    "strong_green": "False",
+    "upper_wick_ratio": 0.7533697901068952,
+    "close_pos": 0.2466302098931048,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.2713,
+  "atr": 0.2791,
   "avg_vol20": 72525,
-  "last_vol": 35097,
-  "drawdown_90d": 0.67,
+  "last_vol": 70192,
+  "drawdown_90d": 0.694,
   "high_90d": 5.9,
   "low_10d": 1.01,
-  "gain_from_low10": 0.926,
+  "gain_from_low10": 0.788,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -152,11 +152,15 @@
   "w": null,
   "resistances": [
    [
+    1.9,
+    "رأس شمعة هابطة"
+   ],
+   [
     2.06,
     "رأس شمعة هابطة"
    ],
    [
-    2.3137,
+    2.3109,
     "MA50"
    ],
    [
@@ -170,10 +174,6 @@
    [
     2.84,
     "رأس شمعة هابطة"
-   ],
-   [
-    3.05,
-    "قمة سابقة + رأس شمعة هابطة"
    ]
   ],
   "high_52w": 19.92,
@@ -292,28 +292,33 @@
    {
     "d": "2026-10-19",
     "o": 1.77,
-    "h": 1.96,
-    "l": 1.75,
-    "c": 1.945,
-    "v": 35097,
-    "rsi": 54.6,
-    "hist": 0.09775
+    "h": 2.0687,
+    "l": 1.72,
+    "c": 1.806,
+    "v": 70192,
+    "rsi": 51.1,
+    "hist": 0.08888
    }
   ]
  },
  "levels_map": {
-  "price": 1.945,
+  "price": 1.806,
   "at_price": [],
   "above": [
    {
-    "level": 1.96,
-    "why": "قمة يوم 2026-10-19",
+    "level": 1.8579,
+    "why": "MA30 + قمة يوم 2026-10-16 + فواب جلسة 2026-10-19",
+    "confluence": 3
+   },
+   {
+    "level": 1.9,
+    "why": "رأس شمعة هابطة",
     "confluence": 1
    },
    {
     "level": 2.06,
-    "why": "رأس شمعة هابطة",
-    "confluence": 1
+    "why": "رأس شمعة هابطة + قمة يوم 2026-10-19",
+    "confluence": 2
    },
    {
     "level": 2.15,
@@ -326,7 +331,7 @@
     "confluence": 1
    },
    {
-    "level": 2.3137,
+    "level": 2.3109,
     "why": "MA50",
     "confluence": 1
    },
@@ -339,31 +344,16 @@
     "level": 2.55,
     "why": "قيعان سابقة متجمعة (7) + رأس شمعة هابطة",
     "confluence": 2
-   },
-   {
-    "level": 2.62,
-    "why": "إغلاقات سابقة متجمعة (6)",
-    "confluence": 1
    }
   ],
   "below": [
    {
-    "level": 1.8903,
-    "why": "فواب جلسة 2026-10-19 + قمة يوم 2026-10-16 + MA30",
+    "level": 1.72,
+    "why": "قاع يوم 2026-10-19 + قاعدة آخر ساعة 2026-10-19 + قمة يوم 2026-10-15",
     "confluence": 3
    },
    {
-    "level": 1.75,
-    "why": "قاع يوم 2026-10-19",
-    "confluence": 1
-   },
-   {
-    "level": 1.69,
-    "why": "قمة يوم 2026-10-15",
-    "confluence": 1
-   },
-   {
-    "level": 1.6178,
+    "level": 1.6108,
     "why": "MA20",
     "confluence": 1
    },
@@ -385,6 +375,16 @@
    {
     "level": 1.12,
     "why": "إغلاقات سابقة متجمعة (3)",
+    "confluence": 1
+   },
+   {
+    "level": 1.085,
+    "why": "قيعان سابقة متجمعة (4) + قاع يوم 2026-10-14",
+    "confluence": 2
+   },
+   {
+    "level": 1.01,
+    "why": "قاع يوم 2026-10-13",
     "confluence": 1
    }
   ]

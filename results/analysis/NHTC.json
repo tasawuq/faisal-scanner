@@ -1,18 +1,18 @@
 {
  "ticker": "NHTC",
- "generated_at_et": "2026-10-19T12:01:46.575518-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-19T16:01:01.146783-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 0.95,
-  "reg_chg": -0.020618598000000002,
-  "reg_vol": 12240,
+  "reg_price": 0.93,
+  "reg_chg": -0.04162333,
+  "reg_vol": 36689,
   "prev_close": 0.97,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 60048,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
@@ -28,26 +28,26 @@
   "lastSplitDate": 1048032000
  },
  "daily": {
-  "price": 0.95,
-  "chg_1d": -0.0206,
+  "price": 0.93,
+  "chg_1d": -0.0412,
   "ma": {
-   "MA20": 0.9845,
-   "MA30": 1.156,
-   "MA50": 1.3758
+   "MA20": 0.9835,
+   "MA30": 1.1553,
+   "MA50": 1.3754
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 31.4,
+  "rsi_now": 30.1,
   "rsi_min15": 24.1,
   "rsi_min30": 14.3,
   "macd": {
-   "line": -0.12031,
-   "signal": -0.14275,
+   "line": -0.1219,
+   "signal": -0.14307,
    "hist_last3": [
     0.01939,
     0.02193,
-    0.02245
+    0.02117
    ],
-   "state": "الهيستوجرام يتحسن"
+   "state": "إيجابي (الخط فوق الإشارة)"
   },
   "candles": [
    {
@@ -63,23 +63,23 @@
    },
    {
     "d": "2026-10-19",
-    "hammer": "True",
+    "hammer": "False",
     "engulfing": "False",
-    "lower_wick": "True",
+    "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.14705877196826928,
-    "close_pos": 0.8529412280317308,
+    "upper_wick_ratio": 0.25449945911490973,
+    "close_pos": 0.23136244817156323,
     "green": "False",
-    "bullish_reversal": "True"
+    "bullish_reversal": "False"
    }
   ],
   "atr": 0.0869,
   "avg_vol20": 102370,
-  "last_vol": 8625,
-  "drawdown_90d": 0.603,
+  "last_vol": 36689,
+  "drawdown_90d": 0.611,
   "high_90d": 2.39,
   "low_10d": 0.9,
-  "gain_from_low10": 0.056,
+  "gain_from_low10": 0.033,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": true,
@@ -155,7 +155,7 @@
   },
   "resistances": [
    [
-    0.9845,
+    0.9835,
     "MA20"
    ],
    [
@@ -295,21 +295,31 @@
    {
     "d": "2026-10-19",
     "o": 0.95,
-    "h": 0.955,
+    "h": 0.9599,
     "l": 0.921,
-    "c": 0.95,
-    "v": 8625,
-    "rsi": 31.4,
-    "hist": 0.02245
+    "c": 0.93,
+    "v": 36689,
+    "rsi": 30.1,
+    "hist": 0.02117
    }
   ]
  },
  "levels_map": {
-  "price": 0.95,
-  "at_price": [],
+  "price": 0.93,
+  "at_price": [
+   "قاع يوم 2026-10-14",
+   "إغلاقات سابقة متجمعة (3)",
+   "قيعان سابقة متجمعة (7)",
+   "قاعدة آخر ساعة 2026-10-19"
+  ],
   "above": [
    {
-    "level": 0.955,
+    "level": 0.94,
+    "why": "قاع يوم 2026-10-13 + فواب جلسة 2026-10-19",
+    "confluence": 2
+   },
+   {
+    "level": 0.9599,
     "why": "قمة يوم 2026-10-19 + قيعان سابقة متجمعة (3) + إغلاقات سابقة متجمعة (6)",
     "confluence": 3
    },
@@ -334,7 +344,7 @@
     "confluence": 1
    },
    {
-    "level": 1.156,
+    "level": 1.1553,
     "why": "MA30",
     "confluence": 1
    },
@@ -342,19 +352,9 @@
     "level": 1.37,
     "why": "رأس شمعة هابطة + MA50",
     "confluence": 2
-   },
-   {
-    "level": 1.5,
-    "why": "قيعان سابقة متجمعة (3)",
-    "confluence": 1
    }
   ],
   "below": [
-   {
-    "level": 0.94,
-    "why": "قاع يوم 2026-10-13 + فواب جلسة 2026-10-19 + قاع يوم 2026-10-14 + إغلاقات سابقة متجمعة (3) + قيعان سابقة متجمعة (7)",
-    "confluence": 5
-   },
    {
     "level": 0.921,
     "why": "قاع يوم 2026-10-19 + قاع يوم 2026-10-15 + قاع يوم 2026-10-16",
@@ -365,11 +365,11 @@
  "pivot": {
   "ticker": "NHTC",
   "kind": "pivot",
-  "status": "READY",
-  "setup": "BOUNCE",
-  "setup_ar": "ارتداد مؤكد من الدعم",
-  "price": 0.949999988079071,
-  "score": 5.5,
+  "status": "WATCH",
+  "setup": "AT_SUPPORT",
+  "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+  "price": 0.9300000071525574,
+  "score": 5.0,
   "conditions": {
    "ma": {
     "score": 0.5,
@@ -377,11 +377,11 @@
    },
    "rsi": {
     "score": 1.0,
-    "note": "أدنى RSI 24 والحالي 31"
+    "note": "أدنى RSI 24 والحالي 30"
    },
    "macd": {
-    "score": 1.0,
-    "note": "الهيستوجرام يتحسن"
+    "score": 0.5,
+    "note": "إيجابي (الخط فوق الإشارة)"
    },
    "candle": {
     "score": 1.0,
@@ -389,11 +389,11 @@
    },
    "pressure": {
     "score": 1.0,
-    "note": "هبط 60% من قمة 90 يوم"
+    "note": "هبط 61% من قمة 90 يوم"
    },
    "space": {
     "score": 1.0,
-    "note": "العائد/المخاطرة 6.1"
+    "note": "العائد/المخاطرة 10.3"
    }
   },
   "support_low": 0.8899999856948853,
@@ -402,20 +402,23 @@
   "trigger_level": 0.8899999856948853,
   "stop": 0.8721999859809876,
   "entry_low": 0.8899999856948853,
-  "entry_high": 0.9269999754428864,
-  "t1": 0.9844999939203263,
+  "entry_high": 0.8999999761581421,
+  "t1": 0.9834999948740005,
   "t1_label": "MA20",
   "t2": 1.0199999809265137,
   "t2_label": "رأس شمعة هابطة + قمة سابقة",
-  "rr": 2.09,
-  "risk_pct": 0.04,
-  "rsi_now": 31.4,
+  "rr": 3.88,
+  "risk_pct": 0.0255,
+  "rsi_now": 30.1,
   "rsi_min": 24.1,
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "macd_state": "الهيستوجرام يتحسن",
+  "macd_state": "إيجابي (الخط فوق الإشارة)",
   "candle": "مطرقة (Hammer)",
   "volume_note": "فوليوم البيع يضعف",
-  "waiting_for": [],
+  "waiting_for": [
+   "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.89 ثم استرداد",
+   "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
+  ],
   "flags": [],
   "tags": [
    "فلووت أقل من 20M",
@@ -424,12 +427,12 @@
    "فوليوم البيع يضعف",
    "قاع الفترة (قاع تاريخي/سنوي)"
   ],
-  "rank": 8.162921329502383,
+  "rank": 5.7752807747157355,
   "meta": {
    "avg_volume": 102370.0,
-   "drawdown": 0.603,
-   "rr_best": 6.1,
-   "gain_from_low10": 0.056,
+   "drawdown": 0.611,
+   "rr_best": 10.31,
+   "gain_from_low10": 0.033,
    "higher_lows": "True",
    "float": 6927642,
    "market_cap": 8320514,

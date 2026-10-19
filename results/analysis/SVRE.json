@@ -1,24 +1,24 @@
 {
  "ticker": "SVRE",
- "generated_at_et": "2026-10-16T16:01:29.081537-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-19T08:05:50.196331-04:00",
+ "session": "pre",
  "quote": {
   "reg_price": 1.67,
   "reg_chg": 0.0121212,
-  "reg_vol": 118190,
+  "reg_vol": 122797,
   "prev_close": 1.65,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
-  "avg_vol": 55473,
-  "state": "POST"
+  "avg_vol": 55710,
+  "state": "PRE"
  },
  "news": [],
  "fund": {
   "floatShares": 1823608,
   "sharesOutstanding": 2499835,
-  "marketCap": 4124727,
+  "marketCap": 4174724,
   "shortPercentOfFloat": 0.006,
   "longName": "SaverOne 2014 Ltd.",
   "country": "Israel",
@@ -67,15 +67,15 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.5584857940086875,
-    "close_pos": 0.37945990010533914,
+    "upper_wick_ratio": 0.4970758868194962,
+    "close_pos": 0.3567250768934757,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.2685,
+  "atr": 0.2699,
   "avg_vol20": 66685,
-  "last_vol": 118190,
+  "last_vol": 118800,
   "drawdown_90d": 0.717,
   "high_90d": 5.9,
   "low_10d": 1.01,
@@ -296,11 +296,11 @@
    },
    {
     "d": "2026-10-16",
-    "o": 1.69,
-    "h": 1.87,
-    "l": 1.5477,
+    "o": 1.72,
+    "h": 1.89,
+    "l": 1.548,
     "c": 1.67,
-    "v": 118190,
+    "v": 118800,
     "rsi": 47.1,
     "hist": 0.06079
    }
@@ -308,16 +308,18 @@
  },
  "levels_map": {
   "price": 1.67,
-  "at_price": [],
+  "at_price": [
+   "قمة الأفتر/البري"
+  ],
   "above": [
    {
-    "level": 1.6875,
+    "level": 1.687,
     "why": "فواب جلسة 2026-10-16 + قمة يوم 2026-10-15",
     "confluence": 2
    },
    {
-    "level": 1.87,
-    "why": "قمة يوم 2026-10-16 + MA30 + رأس شمعة هابطة",
+    "level": 1.8847,
+    "why": "MA30 + قمة يوم 2026-10-16 + رأس شمعة هابطة",
     "confluence": 3
    },
    {
@@ -363,9 +365,9 @@
     "confluence": 1
    },
    {
-    "level": 1.5477,
-    "why": "قاع يوم 2026-10-16",
-    "confluence": 1
+    "level": 1.548,
+    "why": "قاع يوم 2026-10-16 + قاع الأفتر/البري",
+    "confluence": 2
    },
    {
     "level": 1.22,

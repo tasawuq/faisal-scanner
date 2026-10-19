@@ -1,24 +1,24 @@
 {
  "ticker": "MRKR",
- "generated_at_et": "2026-10-16T16:01:29.081537-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-19T08:05:50.196331-04:00",
+ "session": "pre",
  "quote": {
   "reg_price": 1.04,
   "reg_chg": 0.13043472,
-  "reg_vol": 1126687,
+  "reg_vol": 1153079,
   "prev_close": 0.92,
-  "pre_price": null,
-  "pre_chg": 0.0,
+  "pre_price": 1.1,
+  "pre_chg": 0.05769237000000001,
   "post_price": null,
   "post_chg": 0.0,
-  "avg_vol": 71081,
-  "state": "POST"
+  "avg_vol": 88506,
+  "state": "PRE"
  },
  "news": [],
  "fund": {
   "floatShares": 13743992,
   "sharesOutstanding": 16673127,
-  "marketCap": 17683520,
+  "marketCap": 17340052,
   "shortPercentOfFloat": 0.0125,
   "longName": "Marker Therapeutics, Inc.",
   "country": "United States",
@@ -75,7 +75,7 @@
   ],
   "atr": 0.0955,
   "avg_vol20": 85645,
-  "last_vol": 1126687,
+  "last_vol": 1146100,
   "drawdown_90d": 0.395,
   "high_90d": 1.72,
   "low_10d": 0.88,
@@ -89,7 +89,7 @@
    "d": "2026-10-16",
    "high": 1.2,
    "close": 1.04,
-   "vol_mult": 19.0
+   "vol_mult": 19.3
   },
   "former_runner": false,
   "runner_jump": 0.199,
@@ -297,37 +297,25 @@
     "h": 1.2,
     "l": 1.0,
     "c": 1.04,
-    "v": 1126687,
+    "v": 1146100,
     "rsi": 47.2,
     "hist": -0.00279
    }
   ]
  },
  "levels_map": {
-  "price": 1.04,
-  "at_price": [
-   "قيعان سابقة متجمعة (4)"
-  ],
+  "price": 1.1,
+  "at_price": [],
   "above": [
    {
-    "level": 1.055,
-    "why": "إغلاقات سابقة متجمعة (4) + MA20",
-    "confluence": 2
-   },
-   {
-    "level": 1.09,
-    "why": "قيعان سابقة متجمعة (8) + فواب جلسة 2026-10-16 + MA30",
+    "level": 1.1023,
+    "why": "MA30 + إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (9)",
     "confluence": 3
-   },
-   {
-    "level": 1.12,
-    "why": "إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (9)",
-    "confluence": 2
    },
    {
     "level": 1.15,
-    "why": "إغلاقات سابقة متجمعة (11) + قيعان سابقة متجمعة (13) + MA50",
-    "confluence": 3
+    "why": "إغلاقات سابقة متجمعة (11) + قيعان سابقة متجمعة (13) + MA50 + قمة الأفتر/البري",
+    "confluence": 4
    },
    {
     "level": 1.185,
@@ -348,13 +336,33 @@
     "level": 1.39,
     "why": "قمة سابقة",
     "confluence": 1
+   },
+   {
+    "level": 1.5,
+    "why": "قمة سابقة + رأس شمعة هابطة",
+    "confluence": 1
+   },
+   {
+    "level": 1.59,
+    "why": "قمة سابقة",
+    "confluence": 1
    }
   ],
   "below": [
    {
+    "level": 1.0945,
+    "why": "فواب جلسة 2026-10-16 + قيعان سابقة متجمعة (8)",
+    "confluence": 2
+   },
+   {
+    "level": 1.0605,
+    "why": "MA20 + إغلاقات سابقة متجمعة (4) + قيعان سابقة متجمعة (4)",
+    "confluence": 3
+   },
+   {
     "level": 1.03,
-    "why": "قمة يوم 2026-10-12 + قمة يوم 2026-10-13 + قاعدة آخر ساعة 2026-10-16 + إغلاقات سابقة متجمعة (3)",
-    "confluence": 4
+    "why": "قمة يوم 2026-10-12 + قمة يوم 2026-10-13 + قاعدة آخر ساعة 2026-10-16 + قاع الأفتر/البري + إغلاقات سابقة متجمعة (3)",
+    "confluence": 5
    },
    {
     "level": 1.0,
@@ -457,12 +465,64 @@
    "gain_from_low10": 0.182,
    "higher_lows": "False",
    "float": 13743992,
-   "market_cap": 17683520,
+   "market_cap": 17340052,
    "exchange": "",
    "name": "Marker Therapeutics, Inc.",
    "short_pct_float": 0.0125
   },
   "news": []
  },
- "momentum": null
+ "momentum": {
+  "ticker": "MRKR",
+  "kind": "momentum",
+  "status": "WATCH",
+  "setup": "MOM_BELOW_VWAP",
+  "setup_ar": "زخم بري ماركت — تحت الفواب — لا دخول",
+  "price": 1.1,
+  "score": 0.29,
+  "conditions": {},
+  "support_low": 1.0982,
+  "support_high": null,
+  "support_touches": 0,
+  "trigger_level": 1.1039153846153849,
+  "stop": null,
+  "entry_low": 1.1039153846153849,
+  "entry_high": 1.1259936923076925,
+  "t1": 1.17,
+  "t1_label": "قمة بري ماركت",
+  "t2": 1.309999942779541,
+  "t2_label": "قمة سابقة",
+  "rr": null,
+  "risk_pct": null,
+  "rsi_now": null,
+  "rsi_min": null,
+  "ma_state": "",
+  "macd_state": "",
+  "candle": "",
+  "volume_note": "فوليوم بري ماركت غير مؤكد (13 شمعة)",
+  "waiting_for": [
+   "استرداد الفواب 1.10 والثبات فوقه",
+   "تأكيد فوليوم بري ماركت (غير متوفر من Yahoo — مفاتيح Alpaca تعطيه)"
+  ],
+  "flags": [
+   "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة"
+  ],
+  "tags": [],
+  "rank": 0.29,
+  "meta": {
+   "segment": "pre",
+   "change": 0.0577,
+   "gap": 0.0,
+   "rvol": 0.0,
+   "rvol_pace": 0.0,
+   "vwap": 1.1039,
+   "hod": 1.17,
+   "move_base": 1.0982,
+   "segment_volume": 0.0,
+   "pullback_from_hod": 0.0598,
+   "dist_vwap": -0.0035,
+   "volume_known": false
+  },
+  "news": []
+ }
 }

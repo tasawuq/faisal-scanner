@@ -1,0 +1,30 @@
+name: Faisal notify test
+
+# يرسل تنبيه تجريبي: تيليجرام إذا السر موجود، وإلا إشعار GitHub (Issue مع منشن).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -c "
+          from faisal_scanner import notify
+          ok = notify.send('🔔 تنبيه تجريبي — ماسح فيصل\nإذا وصلك هذا الإشعار فالتنبيهات الفورية شغالة.')
+          print('sent', ok); assert ok
+          "

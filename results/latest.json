@@ -1,96 +1,18 @@
 {
- "generated_at_utc": "2026-10-19T19:54:39.814663+00:00",
- "generated_at_et": "2026-10-19T15:54:39.814663-04:00",
- "session": "regular",
+ "generated_at_utc": "2026-10-19T20:04:39.814822+00:00",
+ "generated_at_et": "2026-10-19T16:04:39.814822-04:00",
+ "session": "post",
  "provider": "yahoo",
  "counts": {
   "universe": 5855,
-  "analyzed": 970,
-  "ready": 2,
-  "watch": 122,
+  "analyzed": 968,
+  "ready": 1,
+  "watch": 124,
   "momentum": 0,
-  "ext_quotes": 0,
+  "ext_quotes": 1587,
   "ext_movers_5pct": 0
  },
  "ready": [
-  {
-   "ticker": "NHTC",
-   "kind": "pivot",
-   "status": "READY",
-   "setup": "BOUNCE",
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "price": 0.9449999928474426,
-   "score": 5.5,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 1.0,
-     "note": "أدنى RSI 24 والحالي 31"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 1.0,
-     "note": "مطرقة (Hammer)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 60% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 6.1"
-    }
-   },
-   "support_low": 0.8899999856948853,
-   "support_high": 0.8999999761581421,
-   "support_touches": 2,
-   "trigger_level": 0.8899999856948853,
-   "stop": 0.8721999859809876,
-   "entry_low": 0.8899999856948853,
-   "entry_high": 0.9269999754428864,
-   "t1": 0.9842499941587448,
-   "t1_label": "MA20",
-   "t2": 1.0199999809265137,
-   "t2_label": "رأس شمعة هابطة + قمة سابقة",
-   "rr": 2.09,
-   "risk_pct": 0.04,
-   "rsi_now": 31.1,
-   "rsi_min": 24.1,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "مطرقة (Hammer)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [],
-   "flags": [],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +31% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)",
-    "ثابت فوق المستوى أكثر من ربع ساعة"
-   ],
-   "rank": 8.191011190805721,
-   "meta": {
-    "avg_volume": 102370.0,
-    "drawdown": 0.605,
-    "rr_best": 6.1,
-    "gain_from_low10": 0.05,
-    "higher_lows": "True",
-    "float": 6927642,
-    "market_cap": 8320514,
-    "exchange": "NASDAQ",
-    "name": "Natural Health Trends Corp.",
-    "short_pct_float": 0.0016
-   },
-   "news": []
-  },
   {
    "ticker": "YCBD",
    "kind": "pivot",
@@ -154,8 +76,7 @@
     "Former Runner (سبق انفجر +136% في يوم)",
     "قيعان أعلى",
     "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)",
-    "ثابت فوق المستوى أكثر من ربع ساعة"
+    "قاع الفترة (قاع تاريخي/سنوي)"
    ],
    "rank": 7.977273088512984,
    "meta": {
@@ -175,12 +96,94 @@
  ],
  "watch": [
   {
+   "ticker": "HKPD",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "W_FORMING",
+   "setup_ar": "نموذج W قيد التكوين",
+   "price": 0.11219999939203262,
+   "score": 5.75,
+   "conditions": {
+    "ma": {
+     "score": 1.0,
+     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 21 والحالي 36"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "إيجابي (الخط فوق الإشارة)"
+    },
+    "candle": {
+     "score": 1.0,
+     "note": "مطرقة (Hammer)"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 77% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 38.6"
+    }
+   },
+   "support_low": 0.0949999988079071,
+   "support_high": 0.10000000149011612,
+   "support_touches": 2,
+   "trigger_level": 0.11800000071525574,
+   "stop": 0.11446000069379807,
+   "entry_low": 0.11800000071525574,
+   "entry_high": 0.12154000073671341,
+   "t1": 0.15299999713897705,
+   "t1_label": "رأس شمعة هابطة",
+   "t2": 0.2074040001630783,
+   "t2_label": "MA50",
+   "rr": 6.26,
+   "risk_pct": 0.0443,
+   "rsi_now": 36.1,
+   "rsi_min": 20.9,
+   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
+   "macd_state": "إيجابي (الخط فوق الإشارة)",
+   "candle": "مطرقة (Hammer)",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "كسر خط العنق 0.12 والثبات فوقه أكثر من ربع ساعة"
+   ],
+   "flags": [
+    "سهم صيني عالي التذبذب",
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +48% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
+   ],
+   "rank": 6.5042372335565055,
+   "meta": {
+    "avg_volume": 492470.0,
+    "drawdown": 0.771,
+    "rr_best": 38.65,
+    "gain_from_low10": 0.181,
+    "higher_lows": "True",
+    "float": 16331550,
+    "market_cap": 5434784,
+    "exchange": "NASDAQ",
+    "name": "Cellyan Biotechnology Co., Ltd",
+    "short_pct_float": 0.002
+   },
+   "news": []
+  },
+  {
    "ticker": "VIP",
    "kind": "pivot",
    "status": "WATCH",
    "setup": "AT_SUPPORT",
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 1.2599999904632568,
+   "price": 1.25,
    "score": 5.25,
    "conditions": {
     "ma": {
@@ -189,7 +192,7 @@
     },
     "rsi": {
      "score": 0.75,
-     "note": "أدنى RSI 23 والحالي 27"
+     "note": "أدنى RSI 23 والحالي 26"
     },
     "macd": {
      "score": 1.0,
@@ -201,7 +204,7 @@
     },
     "pressure": {
      "score": 1.0,
-     "note": "هبط 62% من قمة 90 يوم"
+     "note": "هبط 63% من قمة 90 يوم"
     },
     "space": {
      "score": 1.0,
@@ -221,7 +224,7 @@
    "t2_label": "رأس شمعة هابطة + MA20",
    "rr": 2.16,
    "risk_pct": 0.0319,
-   "rsi_now": 26.9,
+   "rsi_now": 26.4,
    "rsi_min": 22.6,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
@@ -236,12 +239,12 @@
     "Former Runner (سبق انفجر +44% في يوم)",
     "فوليوم البيع يضعف"
    ],
-   "rank": 6.0860657339549675,
+   "rank": 6.127049300466226,
    "meta": {
     "avg_volume": 112895.0,
-    "drawdown": 0.625,
+    "drawdown": 0.628,
     "rr_best": 8.5,
-    "gain_from_low10": 0.008,
+    "gain_from_low10": 0.0,
     "higher_lows": "False",
     "float": 10764537,
     "market_cap": 46281448,
@@ -252,24 +255,102 @@
    "news": []
   },
   {
-   "ticker": "HKPD",
+   "ticker": "FRSX",
    "kind": "pivot",
    "status": "WATCH",
-   "setup": "W_FORMING",
-   "setup_ar": "نموذج W قيد التكوين",
-   "price": 0.11010000109672546,
-   "score": 5.25,
+   "setup": "BOUNCE",
+   "setup_ar": "ارتداد مؤكد من الدعم",
+   "price": 0.8083000183105469,
+   "score": 5.5,
    "conditions": {
     "ma": {
      "score": 0.5,
      "note": "تحت كل المتوسطات (ضغط)"
     },
     "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 21 والحالي 35"
+     "score": 1.0,
+     "note": "أدنى RSI 24 والحالي 30"
     },
     "macd": {
      "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 1.0,
+     "note": "مطرقة (Hammer)"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 61% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 9.0"
+    }
+   },
+   "support_low": 0.7300000190734863,
+   "support_high": 0.7373000192642212,
+   "support_touches": 1,
+   "trigger_level": 0.7300000190734863,
+   "stop": 0.7154000186920166,
+   "entry_low": 0.7300000190734863,
+   "entry_high": 0.7594190198421479,
+   "t1": 0.8500000238418579,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 0.9300000071525574,
+   "t2_label": "رأس شمعة هابطة",
+   "rr": 3.59,
+   "risk_pct": 0.0394,
+   "rsi_now": 29.9,
+   "rsi_min": 23.9,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "مطرقة (Hammer)",
+   "volume_note": "",
+   "waiting_for": [
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "السعر ابتعد 6% فوق منطقة الطلب — ضع Limit عند 0.73–0.76 ولا تطارد"
+   ],
+   "flags": [],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +57% في يوم)",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 5.963698649375115,
+   "meta": {
+    "avg_volume": 259985.0,
+    "drawdown": 0.606,
+    "rr_best": 8.96,
+    "gain_from_low10": 0.107,
+    "higher_lows": "False",
+    "float": 3947582,
+    "market_cap": 3426238,
+    "exchange": "NASDAQ",
+    "name": "Foresight Autonomous Holdings Ltd.",
+    "short_pct_float": 0.0034999999
+   },
+   "news": []
+  },
+  {
+   "ticker": "NHTC",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "BOUNCE",
+   "setup_ar": "ارتداد مؤكد من الدعم",
+   "price": 0.9402999877929688,
+   "score": 5.0,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 1.0,
+     "note": "أدنى RSI 24 والحالي 31"
+    },
+    "macd": {
+     "score": 0.5,
      "note": "إيجابي (الخط فوق الإشارة)"
     },
     "candle": {
@@ -278,58 +359,55 @@
     },
     "pressure": {
      "score": 1.0,
-     "note": "هبط 78% من قمة 90 يوم"
+     "note": "هبط 61% من قمة 90 يوم"
     },
     "space": {
      "score": 1.0,
-     "note": "العائد/المخاطرة 38.6"
+     "note": "العائد/المخاطرة 6.1"
     }
    },
-   "support_low": 0.0949999988079071,
-   "support_high": 0.10000000149011612,
+   "support_low": 0.8899999856948853,
+   "support_high": 0.8999999761581421,
    "support_touches": 2,
-   "trigger_level": 0.11800000071525574,
-   "stop": 0.11446000069379807,
-   "entry_low": 0.11800000071525574,
-   "entry_high": 0.12154000073671341,
-   "t1": 0.15299999713897705,
-   "t1_label": "رأس شمعة هابطة",
-   "t2": 0.20736200019717216,
-   "t2_label": "MA50",
-   "rr": 6.26,
-   "risk_pct": 0.0443,
-   "rsi_now": 34.5,
-   "rsi_min": 20.9,
+   "trigger_level": 0.8899999856948853,
+   "stop": 0.8721999859809876,
+   "entry_low": 0.8899999856948853,
+   "entry_high": 0.9269999754428864,
+   "t1": 0.9840149939060211,
+   "t1_label": "MA20",
+   "t2": 1.0199999809265137,
+   "t2_label": "رأس شمعة هابطة + قمة سابقة",
+   "rr": 2.08,
+   "risk_pct": 0.04,
+   "rsi_now": 30.7,
+   "rsi_min": 24.1,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "إيجابي (الخط فوق الإشارة)",
    "candle": "مطرقة (Hammer)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "كسر خط العنق 0.12 والثبات فوقه أكثر من ربع ساعة"
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
    ],
-   "flags": [
-    "سهم صيني عالي التذبذب",
-    "سهم طبي — الخبر قد يغير الاتجاه",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
+   "flags": [],
    "tags": [
     "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +48% في يوم)",
+    "Former Runner (سبق انفجر +31% في يوم)",
     "قيعان أعلى",
-    "فوليوم البيع يضعف"
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 5.915254255481165,
+   "rank": 5.7174157140080695,
    "meta": {
-    "avg_volume": 492470.0,
-    "drawdown": 0.775,
-    "rr_best": 38.65,
-    "gain_from_low10": 0.159,
+    "avg_volume": 102370.0,
+    "drawdown": 0.607,
+    "rr_best": 6.1,
+    "gain_from_low10": 0.045,
     "higher_lows": "True",
-    "float": 16331550,
-    "market_cap": 5434784,
+    "float": 6927642,
+    "market_cap": 8320514,
     "exchange": "NASDAQ",
-    "name": "Cellyan Biotechnology Co., Ltd",
-    "short_pct_float": 0.002
+    "name": "Natural Health Trends Corp.",
+    "short_pct_float": 0.0016
    },
    "news": []
   },
@@ -339,7 +417,7 @@
    "status": "WATCH",
    "setup": "BOUNCE",
    "setup_ar": "ارتداد مؤكد من الدعم",
-   "price": 0.3580000102519989,
+   "price": 0.36489999294281006,
    "score": 5.0,
    "conditions": {
     "ma": {
@@ -348,7 +426,7 @@
     },
     "rsi": {
      "score": 0.5,
-     "note": "أدنى RSI 29 والحالي 33"
+     "note": "أدنى RSI 29 والحالي 34"
     },
     "macd": {
      "score": 1.0,
@@ -360,7 +438,7 @@
     },
     "pressure": {
      "score": 1.0,
-     "note": "هبط 62% من قمة 90 يوم"
+     "note": "هبط 61% من قمة 90 يوم"
     },
     "space": {
      "score": 1.0,
@@ -380,7 +458,7 @@
    "t2_label": "قمة سابقة",
    "rr": 2.06,
    "risk_pct": 0.0394,
-   "rsi_now": 32.8,
+   "rsi_now": 33.7,
    "rsi_min": 28.7,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
@@ -400,12 +478,12 @@
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 5.735294022259003,
+   "rank": 5.633823689637917,
    "meta": {
     "avg_volume": 256490.0,
-    "drawdown": 0.62,
-    "rr_best": 5.7,
-    "gain_from_low10": 0.053,
+    "drawdown": 0.613,
+    "rr_best": 5.72,
+    "gain_from_low10": 0.073,
     "higher_lows": "False",
     "float": 9815143,
     "market_cap": 12008803,
@@ -421,7 +499,7 @@
    "status": "WATCH",
    "setup": "W_FORMING",
    "setup_ar": "نموذج W قيد التكوين",
-   "price": 0.828000009059906,
+   "price": 0.8273000121116638,
    "score": 5.25,
    "conditions": {
     "ma": {
@@ -462,7 +540,7 @@
    "t2_label": "قمة سابقة",
    "rr": 2.94,
    "risk_pct": 0.0443,
-   "rsi_now": 34.7,
+   "rsi_now": 34.6,
    "rsi_min": 21.6,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "إيجابي (الخط فوق الإشارة)",
@@ -476,18 +554,21 @@
     "Former Runner (سبق انفجر +178% في يوم)",
     "فوليوم البيع يضعف"
    ],
-   "rank": 5.607894839210195,
+   "rank": 5.604210644699531,
    "meta": {
     "avg_volume": 704150.0,
     "drawdown": 0.731,
     "rr_best": 22.12,
-    "gain_from_low10": 0.034,
+    "gain_from_low10": 0.033,
     "higher_lows": "False",
     "float": 36462906,
     "market_cap": 63307600,
     "exchange": "NASDAQ",
     "name": "Tigo Energy, Inc.",
-    "short_pct_float": 0.066300005
+    "short_pct_float": 0.066300005,
+    "ext_price": 0.8273,
+    "ext_chg": 0.0,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -497,7 +578,7 @@
    "status": "WATCH",
    "setup": "BROKE_SUPPORT",
    "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "price": 1.0099999904632568,
+   "price": 1.0049999952316284,
    "score": 4.75,
    "conditions": {
     "ma": {
@@ -538,7 +619,7 @@
    "t2_label": "قمة سابقة",
    "rr": 0.57,
    "risk_pct": 0.0744,
-   "rsi_now": 29.1,
+   "rsi_now": 28.8,
    "rsi_min": 19.7,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
@@ -554,182 +635,18 @@
     "Former Runner (سبق انفجر +60% في يوم)",
     "فوليوم البيع يضعف"
    ],
-   "rank": 5.5595239825259615,
+   "rank": 5.535714480341706,
    "meta": {
     "avg_volume": 206565.0,
-    "drawdown": 0.541,
-    "rr_best": 2.0,
-    "gain_from_low10": 0.013,
+    "drawdown": 0.543,
+    "rr_best": 1.99,
+    "gain_from_low10": 0.008,
     "higher_lows": "False",
     "float": 9252587,
     "market_cap": 22011216,
     "exchange": "AMEX",
     "name": "Jaguar Uranium Corp.",
     "short_pct_float": 0.0088
-   },
-   "news": []
-  },
-  {
-   "ticker": "ESLA",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.3379000127315521,
-   "score": 5.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 17 والحالي 38"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "تقاطع إيجابي حديث"
-    },
-    "candle": {
-     "score": 1.0,
-     "note": "مطرقة (Hammer)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 70% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 18.0"
-    }
-   },
-   "support_low": 0.29499998688697815,
-   "support_high": 0.29794998675584794,
-   "support_touches": 1,
-   "trigger_level": 0.29499998688697815,
-   "stop": 0.28909998714923857,
-   "entry_low": 0.29499998688697815,
-   "entry_high": 0.29794998675584794,
-   "t1": 0.34200000762939453,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 0.3693000078201294,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 6.17,
-   "risk_pct": 0.0249,
-   "rsi_now": 38.1,
-   "rsi_min": 17.5,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "تقاطع إيجابي حديث",
-   "candle": "مطرقة (Hammer)",
-   "volume_note": "",
-   "waiting_for": [
-    "نزول السعر لمنطقة الطلب 0.29–0.30",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
-    "صعد 41% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "هدوء بعد شمعة الضخ وتكوين دعم جديد"
-   ],
-   "flags": [
-    "شمعة ضخ/تصريف قبل 2 يوم (طار إلى 0.85 وأغلق 0.535 بفوليوم 2125x)",
-    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
-    "سهم طبي — الخبر قد يغير الاتجاه",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +167% في يوم)",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 5.522880885567462,
-   "meta": {
-    "avg_volume": 4456275.0,
-    "drawdown": 0.696,
-    "rr_best": 18.04,
-    "gain_from_low10": 0.408,
-    "higher_lows": "False",
-    "float": 38214178,
-    "market_cap": 13484338,
-    "exchange": "NASDAQ",
-    "name": "Estrella Immunopharma, Inc.",
-    "short_pct_float": 0.0123000005
-   },
-   "news": []
-  },
-  {
-   "ticker": "SQFT",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "BOUNCE",
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "price": 0.7943000197410583,
-   "score": 5.0,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 1.0,
-     "note": "أدنى RSI 25 والحالي 27"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "مطرقة (Hammer) (شمعة صغيرة غير واضحة)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 72% من قمة 90 يوم، شورت 10% من الفلووت"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 13.1"
-    }
-   },
-   "support_low": 0.7250000238418579,
-   "support_high": 0.7322500240802765,
-   "support_touches": 1,
-   "trigger_level": 0.7250000238418579,
-   "stop": 0.7105000233650207,
-   "entry_low": 0.7250000238418579,
-   "entry_high": 0.7542175248026848,
-   "t1": 0.8399999737739563,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.0737650007009507,
-   "t2_label": "MA20",
-   "rr": 3.45,
-   "risk_pct": 0.0394,
-   "rsi_now": 27.3,
-   "rsi_min": 25.5,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "مطرقة (Hammer) (شمعة صغيرة غير واضحة)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "السعر ابتعد 5% فوق منطقة الطلب — ضع Limit عند 0.73–0.75 ولا تطارد"
-   ],
-   "flags": [],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +55% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 5.522069009515532,
-   "meta": {
-    "avg_volume": 612240.0,
-    "drawdown": 0.721,
-    "rr_best": 13.07,
-    "gain_from_low10": 0.096,
-    "higher_lows": "False",
-    "float": 772187,
-    "market_cap": 1133201,
-    "exchange": "NASDAQ",
-    "name": "Presidio Property Trust, Inc.",
-    "short_pct_float": 0.0992
    },
    "news": []
   },
@@ -809,89 +726,10 @@
     "market_cap": 175634784,
     "exchange": "NASDAQ",
     "name": "Sionna Therapeutics, Inc.",
-    "short_pct_float": 0.1363
-   },
-   "news": []
-  },
-  {
-   "ticker": "DCOY",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 1.1649999618530273,
-   "score": 4.5,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 1.0,
-     "note": "أدنى RSI 26 والحالي 27"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.0,
-     "note": "لا توجد شمعة إيجابية عند الدعم"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 91% من قمة 90 يوم، شورت 23% من الفلووت"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 26.6"
-    }
-   },
-   "support_low": 1.149999976158142,
-   "support_high": 1.1614999759197235,
-   "support_touches": 1,
-   "trigger_level": 1.149999976158142,
-   "stop": 1.1269999766349792,
-   "entry_low": 1.149999976158142,
-   "entry_high": 1.1614999759197235,
-   "t1": 1.2599999904632568,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.399999976158142,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 3.63,
-   "risk_pct": 0.0249,
-   "rsi_now": 27.3,
-   "rsi_min": 26.2,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.15 ثم استرداد",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
-   ],
-   "flags": [
-    "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 7.61 وأغلق 3.1 بفوليوم 2940x)",
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +197% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 5.434782669539715,
-   "meta": {
-    "avg_volume": 6839435.0,
-    "drawdown": 0.914,
-    "rr_best": 26.6,
-    "gain_from_low10": 0.013,
-    "higher_lows": "False",
-    "float": 586436,
-    "market_cap": 2766927,
-    "exchange": "NASDAQ",
-    "name": "Decoy Therapeutics Inc.",
-    "short_pct_float": 0.2305
+    "short_pct_float": 0.1363,
+    "ext_price": 4.01,
+    "ext_chg": 0.0,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -901,7 +739,7 @@
    "status": "WATCH",
    "setup": "AT_SUPPORT",
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 3.759999990463257,
+   "price": 3.75,
    "score": 4.5,
    "conditions": {
     "ma": {
@@ -958,18 +796,103 @@
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 5.4189189972887934,
+   "rank": 5.4324324977406615,
    "meta": {
     "avg_volume": 467365.0,
     "drawdown": 0.901,
     "rr_best": 16.66,
-    "gain_from_low10": 0.016,
+    "gain_from_low10": 0.014,
     "higher_lows": "False",
     "float": 18430623,
     "market_cap": 128815280,
     "exchange": "NASDAQ",
     "name": "QumulusAI, Inc.",
-    "short_pct_float": 0.051799998
+    "short_pct_float": 0.051799998,
+    "ext_price": 3.75,
+    "ext_chg": 0.0,
+    "ext_session": "post"
+   },
+   "news": []
+  },
+  {
+   "ticker": "DCOY",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 1.1699999570846558,
+   "score": 4.5,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 1.0,
+     "note": "أدنى RSI 26 والحالي 27"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "لا توجد شمعة إيجابية عند الدعم"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 91% من قمة 90 يوم، شورت 23% من الفلووت"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 26.6"
+    }
+   },
+   "support_low": 1.149999976158142,
+   "support_high": 1.1614999759197235,
+   "support_touches": 1,
+   "trigger_level": 1.149999976158142,
+   "stop": 1.1269999766349792,
+   "entry_low": 1.149999976158142,
+   "entry_high": 1.1614999759197235,
+   "t1": 1.2599999904632568,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 1.399999976158142,
+   "t2_label": "رأس شمعة هابطة",
+   "rr": 3.63,
+   "risk_pct": 0.0249,
+   "rsi_now": 27.4,
+   "rsi_min": 26.2,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.15 ثم استرداد",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
+   ],
+   "flags": [
+    "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 7.61 وأغلق 3.1 بفوليوم 2940x)",
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +197% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 5.413043559386285,
+   "meta": {
+    "avg_volume": 6839435.0,
+    "drawdown": 0.913,
+    "rr_best": 26.61,
+    "gain_from_low10": 0.017,
+    "higher_lows": "False",
+    "float": 586436,
+    "market_cap": 2766927,
+    "exchange": "NASDAQ",
+    "name": "Decoy Therapeutics Inc.",
+    "short_pct_float": 0.2305
    },
    "news": []
   },
@@ -979,7 +902,7 @@
    "status": "WATCH",
    "setup": "BROKE_SUPPORT",
    "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "price": 0.41609999537467957,
+   "price": 0.4196000099182129,
    "score": 4.75,
    "conditions": {
     "ma": {
@@ -1000,7 +923,7 @@
     },
     "pressure": {
      "score": 1.0,
-     "note": "هبط 68% من قمة 90 يوم"
+     "note": "هبط 67% من قمة 90 يوم"
     },
     "space": {
      "score": 0.75,
@@ -1016,12 +939,12 @@
    "entry_high": 0.44999998807907104,
    "t1": 0.46000000834465027,
    "t1_label": "قمة يوم قريبة",
-   "t2": 0.5593049988150597,
+   "t2": 0.5594799995422364,
    "t2_label": "MA20",
    "rr": 0.15,
    "risk_pct": 0.1116,
-   "rsi_now": 23.8,
-   "rsi_min": 23.8,
+   "rsi_now": 24.0,
+   "rsi_min": 24.0,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "ذيل سفلي طويل (رفض كسر) (شمعة صغيرة غير واضحة)",
@@ -1040,12 +963,12 @@
     "Former Runner (سبق انفجر +87% في يوم)",
     "فوليوم البيع يضعف"
    ],
-   "rank": 5.373333404417393,
+   "rank": 5.412222455931305,
    "meta": {
     "avg_volume": 9968870.0,
-    "drawdown": 0.677,
+    "drawdown": 0.675,
     "rr_best": 2.53,
-    "gain_from_low10": 0.015,
+    "gain_from_low10": 0.023,
     "higher_lows": "False",
     "float": 4242083,
     "market_cap": 3425308,
@@ -1056,88 +979,12 @@
    "news": []
   },
   {
-   "ticker": "GTEC",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.6055999994277954,
-   "score": 4.5,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 1.0,
-     "note": "أدنى RSI 26 والحالي 26"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.0,
-     "note": "لا توجد شمعة إيجابية عند الدعم"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 55% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 8.0"
-    }
-   },
-   "support_low": 0.5899999737739563,
-   "support_high": 0.6000000238418579,
-   "support_touches": 6,
-   "trigger_level": 0.5899999737739563,
-   "stop": 0.5781999742984771,
-   "entry_low": 0.5899999737739563,
-   "entry_high": 0.6000000238418579,
-   "t1": 0.6309999823570251,
-   "t1_label": "قمة سابقة",
-   "t2": 0.6700000166893005,
-   "t2_label": "قمة سابقة + رأس شمعة هابطة",
-   "rr": 2.14,
-   "risk_pct": 0.0282,
-   "rsi_now": 25.8,
-   "rsi_min": 25.8,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.59 ثم استرداد"
-   ],
-   "flags": [],
-   "tags": [
-    "Former Runner (سبق انفجر +33% في يوم)",
-    "فوليوم البيع يضعف"
-   ],
-   "rank": 5.367796386887503,
-   "meta": {
-    "avg_volume": 359760.0,
-    "drawdown": 0.548,
-    "rr_best": 7.98,
-    "gain_from_low10": 0.02,
-    "higher_lows": "False",
-    "float": 20336059,
-    "market_cap": 17519188,
-    "exchange": "NASDAQ",
-    "name": "Greenland Technologies Holding Corporation",
-    "short_pct_float": 0.0068
-   },
-   "news": []
-  },
-  {
    "ticker": "TPET",
    "kind": "pivot",
    "status": "WATCH",
    "setup": "W_FORMING",
    "setup_ar": "نموذج W قيد التكوين",
-   "price": 1.5399999618530273,
+   "price": 1.5499999523162842,
    "score": 4.75,
    "conditions": {
     "ma": {
@@ -1146,7 +993,7 @@
     },
     "rsi": {
      "score": 0.25,
-     "note": "أدنى RSI 31 والحالي 39"
+     "note": "أدنى RSI 31 والحالي 40"
     },
     "macd": {
      "score": 1.0,
@@ -1172,13 +1019,13 @@
    "stop": 1.6189300286769865,
    "entry_low": 1.6690000295639038,
    "entry_high": 1.719070030450821,
-   "t1": 1.821440005302429,
+   "t1": 1.8216400051116943,
    "t1_label": "MA50 + قمة سابقة",
    "t2": 1.9709999561309814,
    "t2_label": "قمة سابقة",
    "rr": 1.7,
    "risk_pct": 0.0443,
-   "rsi_now": 39.1,
+   "rsi_now": 39.7,
    "rsi_min": 31.4,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
@@ -1196,98 +1043,18 @@
     "Former Runner (سبق انفجر +224% في يوم)",
     "فوليوم البيع يضعف"
    ],
-   "rank": 5.363540846537363,
+   "rank": 5.393498876154264,
    "meta": {
     "avg_volume": 194805.0,
-    "drawdown": 0.552,
+    "drawdown": 0.549,
     "rr_best": 5.8,
-    "gain_from_low10": 0.073,
+    "gain_from_low10": 0.08,
     "higher_lows": "False",
     "float": 5169088,
     "market_cap": 8358534,
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097
-   },
-   "news": []
-  },
-  {
-   "ticker": "PRSO",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.39489999413490295,
-   "score": 4.75,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 22 والحالي 37"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "شمعة خضراء بإغلاق قوي"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 61% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 11.0"
-    }
-   },
-   "support_low": 0.36000001430511475,
-   "support_high": 0.3636000144481659,
-   "support_touches": 1,
-   "trigger_level": 0.36000001430511475,
-   "stop": 0.35280001401901245,
-   "entry_low": 0.36000001430511475,
-   "entry_high": 0.3636000144481659,
-   "t1": 0.4000000059604645,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 0.4392449989914894,
-   "t2_label": "MA20 + رأس شمعة هابطة",
-   "rr": 4.24,
-   "risk_pct": 0.0249,
-   "rsi_now": 37.0,
-   "rsi_min": 21.9,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "شمعة خضراء بإغلاق قوي",
-   "volume_note": "فوليوم يتحسن مع الارتداد",
-   "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.36 ثم استرداد"
-   ],
-   "flags": [
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +159% في يوم)",
-    "فوليوم يتحسن",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 5.265278077180726,
-   "meta": {
-    "avg_volume": 150035.0,
-    "drawdown": 0.609,
-    "rr_best": 11.0,
-    "gain_from_low10": 0.097,
-    "higher_lows": "False",
-    "float": 15040475,
-    "market_cap": 5458487,
-    "exchange": "NASDAQ",
-    "name": "Peraso Inc.",
-    "short_pct_float": 0.0394
    },
    "news": []
   },
@@ -1367,7 +1134,10 @@
     "market_cap": 6706323,
     "exchange": "AMEX",
     "name": "AIM ImmunoTech Inc.",
-    "short_pct_float": 0.0354
+    "short_pct_float": 0.0354,
+    "ext_price": 0.1617,
+    "ext_chg": -0.0006180574400000001,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -1377,7 +1147,7 @@
    "status": "WATCH",
    "setup": "BROKE_SUPPORT",
    "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "price": 3.3989999294281006,
+   "price": 3.390000104904175,
    "score": 4.25,
    "conditions": {
     "ma": {
@@ -1414,11 +1184,11 @@
    "entry_high": 3.4000000953674316,
    "t1": 3.5,
    "t1_label": "قمة يوم قريبة",
-   "t2": 3.7976999998092653,
+   "t2": 3.797250008583069,
    "t2_label": "MA20",
    "rr": 0.28,
    "risk_pct": 0.088,
-   "rsi_now": 33.3,
+   "rsi_now": 33.0,
    "rsi_min": 25.7,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "بداية تحسن",
@@ -1437,41 +1207,44 @@
    "tags": [
     "Former Runner (سبق انفجر +165% في يوم)"
    ],
-   "rank": 5.248529167777534,
+   "rank": 5.23529413208417,
    "meta": {
     "avg_volume": 498110.0,
-    "drawdown": 0.502,
+    "drawdown": 0.504,
     "rr_best": 2.04,
-    "gain_from_low10": 0.069,
+    "gain_from_low10": 0.066,
     "higher_lows": "False",
     "float": 22064603,
     "market_cap": 268404672,
     "exchange": "NASDAQ",
     "name": "Prelude Therapeutics Incorporated",
-    "short_pct_float": 0.1807
+    "short_pct_float": 0.1807,
+    "ext_price": 3.39,
+    "ext_chg": 0.0,
+    "ext_session": "post"
    },
    "news": []
   },
   {
-   "ticker": "FLWS",
+   "ticker": "SQFT",
    "kind": "pivot",
    "status": "WATCH",
-   "setup": "W_FORMING",
-   "setup_ar": "نموذج W قيد التكوين",
-   "price": 2.7049999237060547,
-   "score": 4.75,
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 0.7645000219345093,
+   "score": 4.5,
    "conditions": {
     "ma": {
-     "score": 1.0,
-     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
     },
     "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 19 والحالي 44"
+     "score": 1.0,
+     "note": "أدنى RSI 25 والحالي 26"
     },
     "macd": {
      "score": 1.0,
-     "note": "إيجابي (الخط فوق الإشارة)"
+     "note": "الهيستوجرام يتحسن"
     },
     "candle": {
      "score": 0.0,
@@ -1479,53 +1252,54 @@
     },
     "pressure": {
      "score": 1.0,
-     "note": "هبط 39% من قمة 90 يوم، شورت 37% من الفلووت"
+     "note": "هبط 73% من قمة 90 يوم، شورت 10% من الفلووت"
     },
     "space": {
      "score": 1.0,
-     "note": "العائد/المخاطرة 5.0"
+     "note": "العائد/المخاطرة 21.6"
     }
    },
-   "support_low": 2.369999885559082,
-   "support_high": 2.4100000858306885,
-   "support_touches": 2,
-   "trigger_level": 3.0199999809265137,
-   "stop": 2.9293999814987184,
-   "entry_low": 3.0199999809265137,
-   "entry_high": 3.110599980354309,
-   "t1": 3.2125,
-   "t1_label": "MA50",
-   "t2": 3.450000047683716,
-   "t2_label": "فجوة لم تُغطَّ",
-   "rr": 1.08,
-   "risk_pct": 0.0443,
-   "rsi_now": 44.0,
-   "rsi_min": 19.5,
-   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-   "macd_state": "إيجابي (الخط فوق الإشارة)",
+   "support_low": 0.7250000238418579,
+   "support_high": 0.7322500240802765,
+   "support_touches": 1,
+   "trigger_level": 0.7250000238418579,
+   "stop": 0.7105000233650207,
+   "entry_low": 0.7250000238418579,
+   "entry_high": 0.7322500240802765,
+   "t1": 0.8399999737739563,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 1.0722750008106232,
+   "t2_label": "MA20",
+   "rr": 6.14,
+   "risk_pct": 0.0249,
+   "rsi_now": 25.9,
+   "rsi_min": 25.5,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
    "candle": "",
-   "volume_note": "",
+   "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "كسر خط العنق 3.02 والثبات فوقه أكثر من ربع ساعة"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.73 ثم استرداد"
    ],
    "flags": [],
    "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +39% في يوم)",
-    "قيعان أعلى"
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +55% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 5.228476723162396,
+   "rank": 5.227586229009094,
    "meta": {
-    "avg_volume": 519580.0,
-    "drawdown": 0.389,
-    "rr_best": 4.96,
-    "gain_from_low10": 0.082,
-    "higher_lows": "True",
-    "float": 9907611,
-    "market_cap": 170732368,
+    "avg_volume": 612240.0,
+    "drawdown": 0.732,
+    "rr_best": 21.59,
+    "gain_from_low10": 0.054,
+    "higher_lows": "False",
+    "float": 772187,
+    "market_cap": 1133201,
     "exchange": "NASDAQ",
-    "name": "1-800-FLOWERS.COM, Inc.",
-    "short_pct_float": 0.3718
+    "name": "Presidio Property Trust, Inc.",
+    "short_pct_float": 0.0992
    },
    "news": []
   },
@@ -1535,7 +1309,7 @@
    "status": "WATCH",
    "setup": "BOUNCE",
    "setup_ar": "ارتداد مؤكد من الدعم",
-   "price": 0.9089999794960022,
+   "price": 0.8998000025749207,
    "score": 4.5,
    "conditions": {
     "ma": {
@@ -1569,14 +1343,14 @@
    "trigger_level": 0.8500000238418579,
    "stop": 0.8330000233650208,
    "entry_low": 0.8500000238418579,
-   "entry_high": 0.88049999833107,
-   "t1": 0.9279999732971191,
+   "entry_high": 0.8710000014305115,
+   "t1": 0.9089999794960022,
    "t1_label": "قمة يوم قريبة",
-   "t2": 0.9749000102281571,
+   "t2": 0.974440011382103,
    "t2_label": "MA20",
-   "rr": 1.78,
+   "rr": 1.23,
    "risk_pct": 0.0394,
-   "rsi_now": 33.0,
+   "rsi_now": 32.5,
    "rsi_min": 28.8,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
@@ -1597,18 +1371,180 @@
     "Former Runner (سبق انفجر +91% في يوم)",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 5.152941447063293,
+   "rank": 5.207058956845818,
    "meta": {
     "avg_volume": 10036250.0,
-    "drawdown": 0.69,
+    "drawdown": 0.693,
     "rr_best": 7.26,
-    "gain_from_low10": 0.069,
+    "gain_from_low10": 0.059,
     "higher_lows": "False",
     "float": 17304081,
     "market_cap": 57073616,
     "exchange": "NASDAQ",
     "name": "Connect Biopharma Holdings Limited",
     "short_pct_float": 0.0788
+   },
+   "news": []
+  },
+  {
+   "ticker": "FLWS",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "W_FORMING",
+   "setup_ar": "نموذج W قيد التكوين",
+   "price": 2.690000057220459,
+   "score": 4.75,
+   "conditions": {
+    "ma": {
+     "score": 1.0,
+     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 19 والحالي 43"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "إيجابي (الخط فوق الإشارة)"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "لا توجد شمعة إيجابية عند الدعم"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 39% من قمة 90 يوم، شورت 37% من الفلووت"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 5.0"
+    }
+   },
+   "support_low": 2.369999885559082,
+   "support_high": 2.4100000858306885,
+   "support_touches": 2,
+   "trigger_level": 3.0199999809265137,
+   "stop": 2.9293999814987184,
+   "entry_low": 3.0199999809265137,
+   "entry_high": 3.110599980354309,
+   "t1": 3.212200002670288,
+   "t1_label": "MA50",
+   "t2": 3.450000047683716,
+   "t2_label": "فجوة لم تُغطَّ",
+   "rr": 1.08,
+   "risk_pct": 0.0443,
+   "rsi_now": 43.4,
+   "rsi_min": 19.5,
+   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
+   "macd_state": "إيجابي (الخط فوق الإشارة)",
+   "candle": "",
+   "volume_note": "",
+   "waiting_for": [
+    "كسر خط العنق 3.02 والثبات فوقه أكثر من ربع ساعة"
+   ],
+   "flags": [],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +39% في يوم)",
+    "قيعان أعلى"
+   ],
+   "rank": 5.203642506969796,
+   "meta": {
+    "avg_volume": 519580.0,
+    "drawdown": 0.393,
+    "rr_best": 4.96,
+    "gain_from_low10": 0.076,
+    "higher_lows": "True",
+    "float": 9907611,
+    "market_cap": 170732368,
+    "exchange": "NASDAQ",
+    "name": "1-800-FLOWERS.COM, Inc.",
+    "short_pct_float": 0.3718,
+    "ext_price": 2.72,
+    "ext_chg": 0.011152405999999998,
+    "ext_session": "post"
+   },
+   "news": []
+  },
+  {
+   "ticker": "BIVI",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 1.3700000047683716,
+   "score": 4.25,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.25,
+     "note": "أدنى RSI 29 والحالي 45 (ارتفع — جزء من الارتداد حصل)"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 0.5,
+     "note": "شمعة خضراء بإغلاق قوي"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 64% من قمة 90 يوم، شورت 11% من الفلووت"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 6.0"
+    }
+   },
+   "support_low": 1.350000023841858,
+   "support_high": 1.3635000240802766,
+   "support_touches": 6,
+   "trigger_level": 1.350000023841858,
+   "stop": 1.3230000233650208,
+   "entry_low": 1.350000023841858,
+   "entry_high": 1.3635000240802766,
+   "t1": 1.416750007867813,
+   "t1_label": "MA20",
+   "t2": 1.4700000286102295,
+   "t2_label": "رأس شمعة هابطة + قمة سابقة",
+   "rr": 1.78,
+   "risk_pct": 0.0249,
+   "rsi_now": 45.1,
+   "rsi_min": 28.8,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "شمعة خضراء بإغلاق قوي",
+   "volume_note": "",
+   "waiting_for": [
+    "نزول السعر لمنطقة الطلب 1.35–1.36",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "صعد 22% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +198% في يوم)"
+   ],
+   "rank": 5.1759259978766625,
+   "meta": {
+    "avg_volume": 225020.0,
+    "drawdown": 0.639,
+    "rr_best": 5.98,
+    "gain_from_low10": 0.223,
+    "higher_lows": "False",
+    "float": 7477922,
+    "market_cap": 11581867,
+    "exchange": "NASDAQ",
+    "name": "BioVie Inc.",
+    "short_pct_float": 0.1073
    },
    "news": []
   },
@@ -1697,94 +1633,12 @@
    "news": []
   },
   {
-   "ticker": "BIVI",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 1.3849999904632568,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.25,
-     "note": "أدنى RSI 29 والحالي 46 (ارتفع — جزء من الارتداد حصل)"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "شمعة خضراء بإغلاق قوي"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 63% من قمة 90 يوم، شورت 11% من الفلووت"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 6.0"
-    }
-   },
-   "support_low": 1.350000023841858,
-   "support_high": 1.3635000240802766,
-   "support_touches": 6,
-   "trigger_level": 1.350000023841858,
-   "stop": 1.3230000233650208,
-   "entry_low": 1.350000023841858,
-   "entry_high": 1.3635000240802766,
-   "t1": 1.440999984741211,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.4700000286102295,
-   "t2_label": "رأس شمعة هابطة + قمة سابقة",
-   "rr": 2.5,
-   "risk_pct": 0.0249,
-   "rsi_now": 45.9,
-   "rsi_min": 28.8,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "شمعة خضراء بإغلاق قوي",
-   "volume_note": "",
-   "waiting_for": [
-    "نزول السعر لمنطقة الطلب 1.35–1.36",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "صعد 24% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +198% في يوم)"
-   ],
-   "rank": 5.120370496284159,
-   "meta": {
-    "avg_volume": 225020.0,
-    "drawdown": 0.635,
-    "rr_best": 5.99,
-    "gain_from_low10": 0.237,
-    "higher_lows": "False",
-    "float": 7477922,
-    "market_cap": 11581867,
-    "exchange": "NASDAQ",
-    "name": "BioVie Inc.",
-    "short_pct_float": 0.1073
-   },
-   "news": []
-  },
-  {
    "ticker": "SOS",
    "kind": "pivot",
    "status": "WATCH",
    "setup": "AT_SUPPORT",
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.19539999961853027,
+   "price": 0.19519999623298645,
    "score": 4.25,
    "conditions": {
     "ma": {
@@ -1847,12 +1701,12 @@
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 5.107894682355864,
+   "rank": 5.113157929409905,
    "meta": {
     "avg_volume": 3363990.0,
     "drawdown": 0.836,
     "rr_best": 12.22,
-    "gain_from_low10": 0.028,
+    "gain_from_low10": 0.027,
     "higher_lows": "False",
     "float": 12399840,
     "market_cap": 3909821,
@@ -1863,91 +1717,12 @@
    "news": []
   },
   {
-   "ticker": "AGIG",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "SWEEP",
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "price": 0.8600999712944031,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.25,
-     "note": "أدنى RSI 31 والحالي 35"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 1.0,
-     "note": "مطرقة (Hammer)"
-    },
-    "pressure": {
-     "score": 0.5,
-     "note": "هبط 40% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 3.6"
-    }
-   },
-   "support_low": 0.8299999833106995,
-   "support_high": 0.8399999737739563,
-   "support_touches": 3,
-   "trigger_level": 0.8299999833106995,
-   "stop": 0.7860580027103424,
-   "entry_low": 0.8299999833106995,
-   "entry_high": 0.8580290049314498,
-   "t1": 0.9300000071525574,
-   "t1_label": "رأس شمعة هابطة",
-   "t2": 1.0250049978494644,
-   "t2_label": "MA20 + MA50 + قمة سابقة",
-   "rr": 1.44,
-   "risk_pct": 0.0698,
-   "rsi_now": 35.0,
-   "rsi_min": 30.7,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "مطرقة (Hammer)",
-   "volume_note": "فوليوم يتحسن مع الارتداد",
-   "waiting_for": [
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 31)",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +39% في يوم)",
-    "فوليوم يتحسن",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 5.0686747675364945,
-   "meta": {
-    "avg_volume": 114495.0,
-    "drawdown": 0.399,
-    "rr_best": 3.64,
-    "gain_from_low10": 0.072,
-    "higher_lows": "False",
-    "float": 11746634,
-    "market_cap": 37130420,
-    "exchange": "AMEX",
-    "name": "Abundia Global Impact Group Inc. Common stock",
-    "short_pct_float": 0.0208
-   },
-   "news": []
-  },
-  {
    "ticker": "HCWB",
    "kind": "pivot",
    "status": "WATCH",
    "setup": "AT_SUPPORT",
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 1.2400000095367432,
+   "price": 1.2300000190734863,
    "score": 4.5,
    "conditions": {
     "ma": {
@@ -1968,7 +1743,7 @@
     },
     "pressure": {
      "score": 1.0,
-     "note": "هبط 84% من قمة 90 يوم"
+     "note": "هبط 85% من قمة 90 يوم"
     },
     "space": {
      "score": 1.0,
@@ -1984,11 +1759,11 @@
    "entry_high": 1.1513999855518342,
    "t1": 1.2599999904632568,
    "t1_label": "قمة يوم قريبة",
-   "t2": 1.577999997138977,
+   "t2": 1.5774999976158142,
    "t2_label": "MA20",
    "rr": 4.01,
    "risk_pct": 0.0249,
-   "rsi_now": 28.5,
+   "rsi_now": 28.2,
    "rsi_min": 24.8,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "تقاطع إيجابي حديث",
@@ -2009,12 +1784,12 @@
     "Former Runner (سبق انفجر +321% في يوم)",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 5.061403398698715,
+   "rank": 5.105263006544067,
    "meta": {
     "avg_volume": 869550.0,
-    "drawdown": 0.845,
+    "drawdown": 0.846,
     "rr_best": 20.43,
-    "gain_from_low10": 0.088,
+    "gain_from_low10": 0.079,
     "higher_lows": "False",
     "float": 1683156,
     "market_cap": 2884857,
@@ -2030,7 +1805,7 @@
    "status": "WATCH",
    "setup": "AT_SUPPORT",
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.7612000107765198,
+   "price": 0.7601000070571899,
    "score": 4.25,
    "conditions": {
     "ma": {
@@ -2071,8 +1846,8 @@
    "t2_label": "رأس شمعة هابطة",
    "rr": 3.64,
    "risk_pct": 0.0249,
-   "rsi_now": 19.1,
-   "rsi_min": 19.1,
+   "rsi_now": 19.0,
+   "rsi_min": 19.0,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "",
@@ -2089,12 +1864,12 @@
     "Former Runner (سبق انفجر +90% في يوم)",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 5.036301432275081,
+   "rank": 5.04383570412843,
    "meta": {
     "avg_volume": 835935.0,
-    "drawdown": 0.639,
-    "rr_best": 15.89,
-    "gain_from_low10": 0.043,
+    "drawdown": 0.64,
+    "rr_best": 15.88,
+    "gain_from_low10": 0.041,
     "higher_lows": "False",
     "float": 45863292,
     "market_cap": 49857416,
@@ -2105,12 +1880,12 @@
    "news": []
   },
   {
-   "ticker": "CYAB",
+   "ticker": "TVRD",
    "kind": "pivot",
    "status": "WATCH",
    "setup": "AT_SUPPORT",
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.1460999995470047,
+   "price": 0.9700000286102295,
    "score": 4.25,
    "conditions": {
     "ma": {
@@ -2119,11 +1894,11 @@
     },
     "rsi": {
      "score": 0.75,
-     "note": "أدنى RSI 28 والحالي 30"
+     "note": "أدنى RSI 27 والحالي 30"
     },
     "macd": {
      "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
+     "note": "تقاطع إيجابي حديث"
     },
     "candle": {
      "score": 0.0,
@@ -2131,140 +1906,58 @@
     },
     "pressure": {
      "score": 1.0,
-     "note": "هبط 77% من قمة 90 يوم"
+     "note": "هبط 83% من قمة 90 يوم"
     },
     "space": {
      "score": 1.0,
-     "note": "العائد/المخاطرة 19.8"
+     "note": "العائد/المخاطرة 13.6"
     }
    },
-   "support_low": 0.14000000059604645,
-   "support_high": 0.14140000060200691,
+   "support_low": 0.9300000071525574,
+   "support_high": 0.9393000072240829,
    "support_touches": 1,
-   "trigger_level": 0.14000000059604645,
-   "stop": 0.13720000058412551,
-   "entry_low": 0.14000000059604645,
-   "entry_high": 0.14140000060200691,
-   "t1": 0.15000000596046448,
+   "trigger_level": 0.9300000071525574,
+   "stop": 0.9114000070095062,
+   "entry_low": 0.9300000071525574,
+   "entry_high": 0.9393000072240829,
+   "t1": 1.0299999713897705,
    "t1_label": "قمة يوم قريبة",
-   "t2": 0.1899999976158142,
-   "t2_label": "رأس شمعة هابطة + MA20",
-   "rr": 2.66,
+   "t2": 1.1525000035762787,
+   "t2_label": "MA20",
+   "rr": 4.1,
    "risk_pct": 0.0249,
-   "rsi_now": 30.1,
-   "rsi_min": 27.8,
+   "rsi_now": 29.7,
+   "rsi_min": 27.1,
    "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
+   "macd_state": "تقاطع إيجابي حديث",
    "candle": "",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.14 ثم استرداد",
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.93 ثم استرداد",
     "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
    "flags": [
-    "سعر منخفض جداً — سبريد واسع"
+    "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
     "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +103% في يوم)",
+    "Former Runner (سبق انفجر +92% في يوم)",
+    "قيعان أعلى",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 5.032142895536154,
+   "rank": 5.034946122849274,
    "meta": {
-    "avg_volume": 10618940.0,
-    "drawdown": 0.768,
-    "rr_best": 19.8,
-    "gain_from_low10": 0.044,
-    "higher_lows": "False",
-    "float": 5383824,
-    "market_cap": 3917006,
+    "avg_volume": 239020.0,
+    "drawdown": 0.83,
+    "rr_best": 13.56,
+    "gain_from_low10": 0.001,
+    "higher_lows": "True",
+    "float": 9628849,
+    "market_cap": 13472332,
     "exchange": "NASDAQ",
-    "name": "Cyabra, Inc."
-   },
-   "news": []
-  },
-  {
-   "ticker": "OLOX",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "SWEEP",
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "price": 0.722000002861023,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 27 والحالي 36"
-    },
-    "macd": {
-     "score": 0.5,
-     "note": "إيجابي (الخط فوق الإشارة)"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "شمعة خضراء بإغلاق قوي (شمعة صغيرة غير واضحة)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 90% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 3.9"
-    }
-   },
-   "support_low": 0.6909999847412109,
-   "support_high": 0.6979099845886231,
-   "support_touches": 1,
-   "trigger_level": 0.6909999847412109,
-   "stop": 0.6575800037384033,
-   "entry_low": 0.6909999847412109,
-   "entry_high": 0.6937900114059448,
-   "t1": 0.7300000190734863,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 0.8530499994754791,
-   "t2_label": "MA20 + MA30",
-   "rr": 0.53,
-   "risk_pct": 0.0672,
-   "rsi_now": 35.6,
-   "rsi_min": 27.4,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "إيجابي (الخط فوق الإشارة)",
-   "candle": "شمعة خضراء بإغلاق قوي (شمعة صغيرة غير واضحة)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
-    "الدخول تحت مقاومة مباشرة (0.73) — انتظر اختراقها والثبات",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [
-    "شمعة ضخ/تصريف قبل 9 يوم (طار إلى 1.86 وأغلق 1.25 بفوليوم 299x)"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +128% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 5.025687273485093,
-   "meta": {
-    "avg_volume": 8314000.0,
-    "drawdown": 0.899,
-    "rr_best": 3.91,
-    "gain_from_low10": 0.076,
-    "higher_lows": "False",
-    "float": 1324553,
-    "market_cap": 1136984,
-    "exchange": "NASDAQ",
-    "name": "Olenox Industries Inc.",
-    "short_pct_float": 0.053600002
+    "name": "Tvardi Therapeutics, Inc.",
+    "short_pct_float": 0.016900001
    },
    "news": []
   },
@@ -2435,12 +2128,12 @@
    "news": []
   },
   {
-   "ticker": "TVRD",
+   "ticker": "CYAB",
    "kind": "pivot",
    "status": "WATCH",
    "setup": "AT_SUPPORT",
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.9896000027656555,
+   "price": 0.148499995470047,
    "score": 4.25,
    "conditions": {
     "ma": {
@@ -2449,89 +2142,7 @@
     },
     "rsi": {
      "score": 0.75,
-     "note": "أدنى RSI 27 والحالي 30"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "تقاطع إيجابي حديث"
-    },
-    "candle": {
-     "score": 0.0,
-     "note": "لا توجد شمعة إيجابية عند الدعم"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 83% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 13.6"
-    }
-   },
-   "support_low": 0.9300000071525574,
-   "support_high": 0.9393000072240829,
-   "support_touches": 1,
-   "trigger_level": 0.9300000071525574,
-   "stop": 0.9114000070095062,
-   "entry_low": 0.9300000071525574,
-   "entry_high": 0.9393000072240829,
-   "t1": 1.0299999713897705,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.15348000228405,
-   "t2_label": "MA20",
-   "rr": 4.1,
-   "risk_pct": 0.0249,
-   "rsi_now": 30.4,
-   "rsi_min": 27.1,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "تقاطع إيجابي حديث",
-   "candle": "",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.93 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +92% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 4.929569918523015,
-   "meta": {
-    "avg_volume": 239020.0,
-    "drawdown": 0.826,
-    "rr_best": 13.56,
-    "gain_from_low10": 0.022,
-    "higher_lows": "True",
-    "float": 9628849,
-    "market_cap": 13472332,
-    "exchange": "NASDAQ",
-    "name": "Tvardi Therapeutics, Inc.",
-    "short_pct_float": 0.016900001
-   },
-   "news": []
-  },
-  {
-   "ticker": "TDTH",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.7597000002861023,
-   "score": 4.5,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 1.0,
-     "note": "أدنى RSI 26 والحالي 26"
+     "note": "أدنى RSI 28 والحالي 31"
     },
     "macd": {
      "score": 1.0,
@@ -2547,49 +2158,375 @@
     },
     "space": {
      "score": 1.0,
-     "note": "العائد/المخاطرة 23.1"
+     "note": "العائد/المخاطرة 19.8"
     }
    },
-   "support_low": 0.6759999990463257,
-   "support_high": 0.682759999036789,
+   "support_low": 0.14000000059604645,
+   "support_high": 0.14140000060200691,
    "support_touches": 1,
-   "trigger_level": 0.6759999990463257,
-   "stop": 0.6624799990653991,
-   "entry_low": 0.6759999990463257,
-   "entry_high": 0.682759999036789,
-   "t1": 0.9100000262260437,
+   "trigger_level": 0.14000000059604645,
+   "stop": 0.13720000058412551,
+   "entry_low": 0.14000000059604645,
+   "entry_high": 0.14140000060200691,
+   "t1": 0.15000000596046448,
    "t1_label": "قمة يوم قريبة",
-   "t2": 0.9900000095367432,
-   "t2_label": "قمة سابقة + رأس شمعة هابطة",
-   "rr": 13.65,
+   "t2": 0.1899999976158142,
+   "t2_label": "رأس شمعة هابطة + MA20",
+   "rr": 2.66,
    "risk_pct": 0.0249,
-   "rsi_now": 25.6,
-   "rsi_min": 25.6,
+   "rsi_now": 31.0,
+   "rsi_min": 27.8,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.68 ثم استرداد"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.14 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
-   "flags": [],
+   "flags": [
+    "سعر منخفض جداً — سبريد واسع"
+   ],
    "tags": [
-    "Former Runner (سبق انفجر +74% في يوم)",
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +103% في يوم)",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 4.88091714971999,
+   "rank": 4.946428755792428,
    "meta": {
-    "avg_volume": 113530.0,
-    "drawdown": 0.76,
-    "rr_best": 23.11,
-    "gain_from_low10": 0.052,
+    "avg_volume": 10618940.0,
+    "drawdown": 0.764,
+    "rr_best": 19.8,
+    "gain_from_low10": 0.061,
     "higher_lows": "False",
-    "float": 35178369,
-    "market_cap": 79660920,
+    "float": 5383824,
+    "market_cap": 3917006,
     "exchange": "NASDAQ",
-    "name": "Trident Digital Tech Holdings Ltd",
-    "short_pct_float": 0.0001
+    "name": "Cyabra, Inc."
+   },
+   "news": []
+  },
+  {
+   "ticker": "GTEC",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 0.6259999871253967,
+   "score": 4.25,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 27 والحالي 27"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "لا توجد شمعة إيجابية عند الدعم"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 53% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 11.1"
+    }
+   },
+   "support_low": 0.5899999737739563,
+   "support_high": 0.6000000238418579,
+   "support_touches": 6,
+   "trigger_level": 0.5899999737739563,
+   "stop": 0.5781999742984771,
+   "entry_low": 0.5899999737739563,
+   "entry_high": 0.6000000238418579,
+   "t1": 0.6700000166893005,
+   "t1_label": "قمة سابقة + رأس شمعة هابطة",
+   "t2": 0.7289999723434448,
+   "t2_label": "رأس شمعة هابطة + قمة سابقة",
+   "rr": 4.46,
+   "risk_pct": 0.0282,
+   "rsi_now": 27.0,
+   "rsi_min": 27.0,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.59 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "flags": [],
+   "tags": [
+    "Former Runner (سبق انفجر +33% في يوم)",
+    "فوليوم البيع يضعف"
+   ],
+   "rank": 4.944915127528184,
+   "meta": {
+    "avg_volume": 359760.0,
+    "drawdown": 0.533,
+    "rr_best": 11.13,
+    "gain_from_low10": 0.054,
+    "higher_lows": "False",
+    "float": 20336059,
+    "market_cap": 17519188,
+    "exchange": "NASDAQ",
+    "name": "Greenland Technologies Holding Corporation",
+    "short_pct_float": 0.0068
+   },
+   "news": []
+  },
+  {
+   "ticker": "PRSO",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 0.38370001316070557,
+   "score": 4.25,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 22 والحالي 34"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "لا توجد شمعة إيجابية عند الدعم"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 62% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 11.0"
+    }
+   },
+   "support_low": 0.36000001430511475,
+   "support_high": 0.3636000144481659,
+   "support_touches": 1,
+   "trigger_level": 0.36000001430511475,
+   "stop": 0.35280001401901245,
+   "entry_low": 0.36000001430511475,
+   "entry_high": 0.3636000144481659,
+   "t1": 0.38999998569488525,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 0.43868499994277954,
+   "t2_label": "MA20 + رأس شمعة هابطة",
+   "rr": 3.13,
+   "risk_pct": 0.0249,
+   "rsi_now": 34.0,
+   "rsi_min": 21.9,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "",
+   "volume_note": "فوليوم يتحسن مع الارتداد",
+   "waiting_for": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.36 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "flags": [
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +159% في يوم)",
+    "فوليوم يتحسن",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 4.920833362307812,
+   "meta": {
+    "avg_volume": 150035.0,
+    "drawdown": 0.62,
+    "rr_best": 10.96,
+    "gain_from_low10": 0.066,
+    "higher_lows": "False",
+    "float": 15040475,
+    "market_cap": 5458487,
+    "exchange": "NASDAQ",
+    "name": "Peraso Inc.",
+    "short_pct_float": 0.0394
+   },
+   "news": []
+  },
+  {
+   "ticker": "FBLG",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 0.944100022315979,
+   "score": 4.0,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.5,
+     "note": "أدنى RSI 29 والحالي 31"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "لا توجد شمعة إيجابية عند الدعم"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 57% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 4.9"
+    }
+   },
+   "support_low": 0.925000011920929,
+   "support_high": 0.9520000219345093,
+   "support_touches": 4,
+   "trigger_level": 0.925000011920929,
+   "stop": 0.9065000116825104,
+   "entry_low": 0.925000011920929,
+   "entry_high": 0.9520000219345093,
+   "t1": 1.0199999809265137,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 1.0399999618530273,
+   "t2_label": "قمة سابقة",
+   "rr": 2.55,
+   "risk_pct": 0.0341,
+   "rsi_now": 31.4,
+   "rsi_min": 29.3,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.93 ثم استرداد",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
+    "اكتمال الشروط الأساسية (4.0 من 6، المطلوب 4.5)"
+   ],
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +40% في يوم)",
+    "فوليوم البيع يضعف"
+   ],
+   "rank": 4.896756701897845,
+   "meta": {
+    "avg_volume": 138475.0,
+    "drawdown": 0.571,
+    "rr_best": 4.92,
+    "gain_from_low10": 0.021,
+    "higher_lows": "False",
+    "float": 5191460,
+    "market_cap": 6876332,
+    "exchange": "NASDAQ",
+    "name": "FibroBiologics, Inc.",
+    "short_pct_float": 0.0787
+   },
+   "news": []
+  },
+  {
+   "ticker": "CCTG",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "SWEEP",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "price": 0.3790000081062317,
+   "score": 4.0,
+   "conditions": {
+    "ma": {
+     "score": 0.0,
+     "note": "تحت كل المتوسطات (ضغط) — رفض عند MA20"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 28 والحالي 35"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 0.5,
+     "note": "ذيل سفلي طويل (رفض كسر) (شمعة صغيرة غير واضحة)"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 82% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 0.75,
+     "note": "العائد/المخاطرة 2.8"
+    }
+   },
+   "support_low": 0.3700000047683716,
+   "support_high": 0.3737000048160553,
+   "support_touches": 2,
+   "trigger_level": 0.3700000047683716,
+   "stop": 0.33221998691558835,
+   "entry_low": 0.3700000047683716,
+   "entry_high": 0.3700000047683716,
+   "t1": 0.3880000114440918,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 0.45579999685287476,
+   "t2_label": "MA20 + قمة سابقة + رأس شمعة هابطة",
+   "rr": 0.32,
+   "risk_pct": 0.1129,
+   "rsi_now": 34.8,
+   "rsi_min": 27.5,
+   "ma_state": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "ذيل سفلي طويل (رفض كسر) (شمعة صغيرة غير واضحة)",
+   "volume_note": "",
+   "waiting_for": [
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
+    "الدخول تحت مقاومة مباشرة (0.39) — انتظر اختراقها والثبات",
+    "صعد 22% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
+    "اكتمال الشروط الأساسية (4.0 من 6، المطلوب 4.5)"
+   ],
+   "flags": [
+    "فشل عند MA20",
+    "سهم صيني عالي التذبذب",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +1077% في يوم)"
+   ],
+   "rank": 4.878378334839559,
+   "meta": {
+    "avg_volume": 1413630.0,
+    "drawdown": 0.819,
+    "rr_best": 2.83,
+    "gain_from_low10": 0.219,
+    "higher_lows": "False",
+    "float": 3394861,
+    "market_cap": 5418494,
+    "exchange": "NASDAQ",
+    "name": "CCSC Technology International Holdings Limited",
+    "short_pct_float": 0.0013
    },
    "news": []
   },
@@ -2742,422 +2679,101 @@
     "market_cap": 117022120,
     "exchange": "NASDAQ",
     "name": "Commercial Vehicle Group, Inc.",
-    "short_pct_float": 0.0383
+    "short_pct_float": 0.0383,
+    "ext_price": 2.86,
+    "ext_chg": 0.0,
+    "ext_session": "post"
    },
    "news": []
   },
   {
-   "ticker": "AMST",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.8299999833106995,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 23 والحالي 31"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.0,
-     "note": "لا توجد شمعة إيجابية عند الدعم"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 40% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 7.8"
-    }
-   },
-   "support_low": 0.7699999809265137,
-   "support_high": 0.7799999713897705,
-   "support_touches": 2,
-   "trigger_level": 0.7699999809265137,
-   "stop": 0.7545999813079833,
-   "entry_low": 0.7699999809265137,
-   "entry_high": 0.7799999713897705,
-   "t1": 0.8700000047683716,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 0.8999999761581421,
-   "t2_label": "قمة سابقة",
-   "rr": 4.66,
-   "risk_pct": 0.0263,
-   "rsi_now": 31.2,
-   "rsi_min": 22.9,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.77 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +240% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 4.860389585256938,
-   "meta": {
-    "avg_volume": 121335.0,
-    "drawdown": 0.403,
-    "rr_best": 7.84,
-    "gain_from_low10": 0.024,
-    "higher_lows": "False",
-    "float": 4490316,
-    "market_cap": 5339438,
-    "exchange": "NASDAQ",
-    "name": "Amesite Inc.",
-    "short_pct_float": 0.0111
-   },
-   "news": []
-  },
-  {
-   "ticker": "FABC",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "W_FORMING",
-   "setup_ar": "نموذج W قيد التكوين",
-   "price": 2.299999952316284,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 1.0,
-     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
-    },
-    "rsi": {
-     "score": 0.25,
-     "note": "أدنى RSI 33 والحالي 50"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "تقاطع إيجابي حديث"
-    },
-    "candle": {
-     "score": 0.0,
-     "note": "لا توجد شمعة إيجابية عند الدعم"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 50% من قمة 90 يوم، شورت 20% من الفلووت"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 4.9"
-    }
-   },
-   "support_low": 2.0199999809265137,
-   "support_high": 2.0999999046325684,
-   "support_touches": 2,
-   "trigger_level": 2.5,
-   "stop": 2.425,
-   "entry_low": 2.5,
-   "entry_high": 2.575,
-   "t1": 2.869999885559082,
-   "t1_label": "قمة سابقة",
-   "t2": 2.990000009536743,
-   "t2_label": "قمة سابقة + رأس شمعة هابطة",
-   "rr": 2.96,
-   "risk_pct": 0.0443,
-   "rsi_now": 49.8,
-   "rsi_min": 32.5,
-   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-   "macd_state": "تقاطع إيجابي حديث",
-   "candle": "",
-   "volume_note": "",
-   "waiting_for": [
-    "كسر خط العنق 2.50 والثبات فوقه أكثر من ربع ساعة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 32)",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +102% في يوم)"
-   ],
-   "rank": 4.849999904632568,
-   "meta": {
-    "avg_volume": 105100.0,
-    "drawdown": 0.497,
-    "rr_best": 4.91,
-    "gain_from_low10": 0.139,
-    "higher_lows": "False",
-    "float": 6205341,
-    "market_cap": 15197841,
-    "exchange": "NASDAQ",
-    "name": "Fabric.AI, Inc.",
-    "short_pct_float": 0.2023
-   },
-   "news": []
-  },
-  {
-   "ticker": "NCT",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 1.350000023841858,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 22 والحالي 23"
-    },
-    "macd": {
-     "score": 0.5,
-     "note": "إيجابي (الخط فوق الإشارة)"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "شمعة خضراء بإغلاق قوي (شمعة صغيرة غير واضحة)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 99% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 14.4"
-    }
-   },
-   "support_low": 1.25,
-   "support_high": 1.2899999618530273,
-   "support_touches": 3,
-   "trigger_level": 1.25,
-   "stop": 1.225,
-   "entry_low": 1.25,
-   "entry_high": 1.2899999618530273,
-   "t1": 1.4199999570846558,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.690000057220459,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 3.33,
-   "risk_pct": 0.0354,
-   "rsi_now": 22.9,
-   "rsi_min": 22.2,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "إيجابي (الخط فوق الإشارة)",
-   "candle": "شمعة خضراء بإغلاق قوي (شمعة صغيرة غير واضحة)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.25 ثم استرداد",
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [
-    "شمعة ضخ/تصريف قبل 7 يوم (طار إلى 2.24 وأغلق 1.65 بفوليوم 104x)",
-    "بيانات الفلووت غير موثوقة — تحقق يدوياً",
-    "سهم صيني عالي التذبذب",
-    "تقسيم عكسي حديث 1:25 (2026-09-17)"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +142% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 4.849999904632568,
-   "meta": {
-    "avg_volume": 1002610.0,
-    "drawdown": 0.991,
-    "rr_best": 14.44,
-    "gain_from_low10": 0.08,
-    "higher_lows": "True",
-    "float": null,
-    "market_cap": 1384793,
-    "exchange": "NASDAQ",
-    "name": "Intercont (Cayman) Limited",
-    "short_pct_float": 0.0358
-   },
-   "news": []
-  },
-  {
-   "ticker": "GOAI",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "BOUNCE",
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "price": 1.534999966621399,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.25,
-     "note": "أدنى RSI 31 والحالي 37"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "مطرقة (Hammer) (شمعة صغيرة غير واضحة)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 55% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 5.9"
-    }
-   },
-   "support_low": 1.4199999570846558,
-   "support_high": 1.4341999566555024,
-   "support_touches": 2,
-   "trigger_level": 1.4199999570846558,
-   "stop": 1.3915999579429625,
-   "entry_low": 1.4199999570846558,
-   "entry_high": 1.4772259553551674,
-   "t1": 1.600000023841858,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.7300000190734863,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 2.66,
-   "risk_pct": 0.0394,
-   "rsi_now": 37.0,
-   "rsi_min": 31.2,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "مطرقة (Hammer) (شمعة صغيرة غير واضحة)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 31)",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +56% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 4.8450703767173176,
-   "meta": {
-    "avg_volume": 124715.0,
-    "drawdown": 0.549,
-    "rr_best": 5.91,
-    "gain_from_low10": 0.073,
-    "higher_lows": "False",
-    "float": 10280540,
-    "market_cap": 61990916,
-    "exchange": "NASDAQ",
-    "name": "Eva Live, Inc.",
-    "short_pct_float": 0.0143
-   },
-   "news": []
-  },
-  {
-   "ticker": "FBLG",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.9549999833106995,
-   "score": 4.0,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.5,
-     "note": "أدنى RSI 29 والحالي 32"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.0,
-     "note": "لا توجد شمعة إيجابية عند الدعم"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 57% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 4.9"
-    }
-   },
-   "support_low": 0.925000011920929,
-   "support_high": 0.9520000219345093,
-   "support_touches": 4,
-   "trigger_level": 0.925000011920929,
-   "stop": 0.9065000116825104,
-   "entry_low": 0.925000011920929,
-   "entry_high": 0.9520000219345093,
-   "t1": 1.0199999809265137,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.0399999618530273,
-   "t2_label": "قمة سابقة",
-   "rr": 2.55,
-   "risk_pct": 0.0341,
-   "rsi_now": 31.9,
-   "rsi_min": 29.3,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.93 ثم استرداد",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
-    "اكتمال الشروط الأساسية (4.0 من 6، المطلوب 4.5)"
-   ],
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +40% في يوم)",
-    "فوليوم البيع يضعف"
-   ],
-   "rank": 4.837837994577589,
-   "meta": {
-    "avg_volume": 138475.0,
-    "drawdown": 0.566,
-    "rr_best": 4.92,
-    "gain_from_low10": 0.032,
-    "higher_lows": "False",
-    "float": 5191460,
-    "market_cap": 6876332,
-    "exchange": "NASDAQ",
-    "name": "FibroBiologics, Inc.",
-    "short_pct_float": 0.0787
-   },
-   "news": []
-  },
-  {
-   "ticker": "CXAI",
+   "ticker": "AGIG",
    "kind": "pivot",
    "status": "WATCH",
    "setup": "SWEEP",
    "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "price": 1.899999976158142,
-   "score": 4.0,
+   "price": 0.8950999975204468,
+   "score": 4.25,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.25,
+     "note": "أدنى RSI 31 والحالي 39"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 1.0,
+     "note": "مطرقة (Hammer)"
+    },
+    "pressure": {
+     "score": 0.5,
+     "note": "هبط 37% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 3.5"
+    }
+   },
+   "support_low": 0.8299999833106995,
+   "support_high": 0.8399999737739563,
+   "support_touches": 3,
+   "trigger_level": 0.8299999833106995,
+   "stop": 0.7860580027103424,
+   "entry_low": 0.8299999833106995,
+   "entry_high": 0.8580290049314498,
+   "t1": 0.9300000071525574,
+   "t1_label": "رأس شمعة هابطة",
+   "t2": 1.0267549991607665,
+   "t2_label": "MA20 + MA50 + قمة سابقة",
+   "rr": 1.34,
+   "risk_pct": 0.0726,
+   "rsi_now": 39.4,
+   "rsi_min": 30.7,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "مطرقة (Hammer)",
+   "volume_note": "فوليوم البيع يضعف، فوليوم يتحسن مع الارتداد",
+   "waiting_for": [
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 31)",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "flags": [],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +39% في يوم)",
+    "فوليوم البيع يضعف",
+    "فوليوم يتحسن",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 4.857831231814749,
+   "meta": {
+    "avg_volume": 114495.0,
+    "drawdown": 0.374,
+    "rr_best": 3.45,
+    "gain_from_low10": 0.116,
+    "higher_lows": "False",
+    "float": 11746634,
+    "market_cap": 37130420,
+    "exchange": "AMEX",
+    "name": "Abundia Global Impact Group Inc. Common stock",
+    "short_pct_float": 0.0208
+   },
+   "news": []
+  },
+  {
+   "ticker": "PARA",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 0.5509999990463257,
+   "score": 4.25,
    "conditions": {
     "ma": {
      "score": 0.5,
@@ -3165,7 +2781,7 @@
     },
     "rsi": {
      "score": 0.75,
-     "note": "أدنى RSI 20 والحالي 30"
+     "note": "أدنى RSI 14 والحالي 32"
     },
     "macd": {
      "score": 1.0,
@@ -3177,59 +2793,230 @@
     },
     "pressure": {
      "score": 1.0,
-     "note": "هبط 86% من قمة 90 يوم"
+     "note": "هبط 86% من قمة 90 يوم، شورت 14% من الفلووت"
     },
     "space": {
-     "score": 0.75,
-     "note": "العائد/المخاطرة 2.9"
+     "score": 1.0,
+     "note": "العائد/المخاطرة 10.7"
     }
    },
-   "support_low": 1.840000033378601,
-   "support_high": 1.8584000337123872,
-   "support_touches": 2,
-   "trigger_level": 1.840000033378601,
-   "stop": 1.7198999953269958,
-   "entry_low": 1.840000033378601,
-   "entry_high": 1.859949997663498,
-   "t1": 2.0,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 2.1600000858306885,
-   "t2_label": "رأس شمعة هابطة + MA20",
-   "rr": 0.87,
-   "risk_pct": 0.0803,
-   "rsi_now": 29.7,
-   "rsi_min": 19.6,
+   "support_low": 0.5099999904632568,
+   "support_high": 0.5150999903678894,
+   "support_touches": 1,
+   "trigger_level": 0.5099999904632568,
+   "stop": 0.49979999065399167,
+   "entry_low": 0.5099999904632568,
+   "entry_high": 0.5150999903678894,
+   "t1": 0.5699999928474426,
+   "t1_label": "رأس شمعة هابطة",
+   "t2": 0.5989999771118164,
+   "t2_label": "قمة سابقة",
+   "rr": 4.51,
+   "risk_pct": 0.0249,
+   "rsi_now": 32.5,
+   "rsi_min": 13.7,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "إغلاق وثبات فوق 1.84 بعد سحب السيولة",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "الدخول تحت مقاومة مباشرة (2.00) — انتظر اختراقها والثبات",
-    "اكتمال الشروط الأساسية (4.0 من 6، المطلوب 4.5)"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.51 ثم استرداد",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
    "flags": [
-    "تقسيم عكسي حديث 1:50 (2026-08-18)"
+    "شمعة ضخ/تصريف قبل 17 يوم (طار إلى 1.6 وأغلق 0.819 بفوليوم 74x)"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +111% في يوم)",
+    "Former Runner (سبق انفجر +81% في يوم)",
+    "قيعان أعلى",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 4.836956680187202,
+   "rank": 4.848039124022075,
    "meta": {
-    "avg_volume": 100920.0,
-    "drawdown": 0.857,
-    "rr_best": 2.86,
-    "gain_from_low10": 0.083,
-    "higher_lows": "False",
-    "float": 2220769,
-    "market_cap": 4487821,
+    "avg_volume": 942920.0,
+    "drawdown": 0.862,
+    "rr_best": 10.75,
+    "gain_from_low10": 0.076,
+    "higher_lows": "True",
+    "float": 3378065,
+    "market_cap": 2434842,
     "exchange": "NASDAQ",
-    "name": "CXApp Inc.",
-    "short_pct_float": 0.0682
+    "name": "Banzai International, Inc.",
+    "short_pct_float": 0.137
+   },
+   "news": []
+  },
+  {
+   "ticker": "CNEY",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 0.3961000144481659,
+   "score": 4.5,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 1.0,
+     "note": "أدنى RSI 27 والحالي 28"
+    },
+    "macd": {
+     "score": 0.5,
+     "note": "بداية تحسن"
+    },
+    "candle": {
+     "score": 0.5,
+     "note": "شمعة خضراء بإغلاق قوي"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 63% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 18.5"
+    }
+   },
+   "support_low": 0.3499999940395355,
+   "support_high": 0.35349999397993087,
+   "support_touches": 1,
+   "trigger_level": 0.3499999940395355,
+   "stop": 0.3429999941587448,
+   "entry_low": 0.3499999940395355,
+   "entry_high": 0.35349999397993087,
+   "t1": 0.40299999713897705,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 0.46000000834465027,
+   "t2_label": "فجوة لم تُغطَّ",
+   "rr": 5.86,
+   "risk_pct": 0.0249,
+   "rsi_now": 27.6,
+   "rsi_min": 26.8,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "بداية تحسن",
+   "candle": "شمعة خضراء بإغلاق قوي",
+   "volume_note": "",
+   "waiting_for": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.35 ثم استرداد",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
+   "flags": [
+    "شمعة ضخ/تصريف قبل 8 يوم (طار إلى 0.732 وأغلق 0.496 بفوليوم 97x)",
+    "سهم صيني عالي التذبذب",
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.43 بعيداً عن منطقة الطلب"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +128% في يوم)",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 4.841428268661299,
+   "meta": {
+    "avg_volume": 449115.0,
+    "drawdown": 0.63,
+    "rr_best": 18.51,
+    "gain_from_low10": 0.097,
+    "higher_lows": "False",
+    "float": 11620517,
+    "market_cap": 2221946,
+    "exchange": "NASDAQ",
+    "name": "CN Energy Group. Inc.",
+    "short_pct_float": 0.035,
+    "ext_price": 0.4302,
+    "ext_chg": 0.08608936,
+    "ext_session": "post"
+   },
+   "news": []
+  },
+  {
+   "ticker": "PRZO",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "SWEEP",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "price": 0.5300999879837036,
+   "score": 4.0,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.25,
+     "note": "أدنى RSI 34 والحالي 37"
+    },
+    "macd": {
+     "score": 0.5,
+     "note": "بداية تحسن"
+    },
+    "candle": {
+     "score": 1.0,
+     "note": "ذيل سفلي طويل (رفض كسر)"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 43% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 0.75,
+     "note": "العائد/المخاطرة 2.2"
+    }
+   },
+   "support_low": 0.5120000243186951,
+   "support_high": 0.517120024561882,
+   "support_touches": 8,
+   "trigger_level": 0.5120000243186951,
+   "stop": 0.4890200126171112,
+   "entry_low": 0.5120000243186951,
+   "entry_high": 0.5210099929571151,
+   "t1": 0.5529999732971191,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 0.5609999895095825,
+   "t2_label": "رأس شمعة هابطة + قمة سابقة",
+   "rr": 1.0,
+   "risk_pct": 0.0615,
+   "rsi_now": 37.3,
+   "rsi_min": 33.8,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "بداية تحسن",
+   "candle": "ذيل سفلي طويل (رفض كسر)",
+   "volume_note": "",
+   "waiting_for": [
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+    "الدخول تحت مقاومة مباشرة (0.55) — انتظر اختراقها والثبات",
+    "اكتمال الشروط الأساسية (4.0 من 6، المطلوب 4.5)"
+   ],
+   "flags": [],
+   "tags": [
+    "Former Runner (سبق انفجر +81% في يوم)"
+   ],
+   "rank": 4.82324255072943,
+   "meta": {
+    "avg_volume": 397370.0,
+    "drawdown": 0.43,
+    "rr_best": 2.15,
+    "gain_from_low10": 0.062,
+    "higher_lows": "False",
+    "float": 28987792,
+    "market_cap": 15266557,
+    "exchange": "NASDAQ",
+    "name": "ParaZero Technologies Ltd.",
+    "short_pct_float": 0.0521,
+    "ext_price": 0.5301,
+    "ext_chg": 0.0,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3239,7 +3026,7 @@
    "status": "WATCH",
    "setup": "BROKE_SUPPORT",
    "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "price": 1.0049999952316284,
+   "price": 1.0,
    "score": 4.0,
    "conditions": {
     "ma": {
@@ -3271,16 +3058,16 @@
    "support_high": 1.0503999614715576,
    "support_touches": 2,
    "trigger_level": 1.0399999618530273,
-   "stop": 0.9800980162620544,
+   "stop": 0.98,
    "entry_low": 1.0399999618530273,
-   "entry_high": 1.040049020051956,
+   "entry_high": 1.040000011920929,
    "t1": 1.100000023841858,
    "t1_label": "رأس شمعة هابطة",
    "t2": 1.190000057220459,
    "t2_label": "رأس شمعة هابطة + MA20",
    "rr": 0.84,
-   "risk_pct": 0.0623,
-   "rsi_now": 34.1,
+   "risk_pct": 0.0624,
+   "rsi_now": 33.9,
    "rsi_min": 25.3,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "إيجابي (الخط فوق الإشارة)",
@@ -3302,12 +3089,12 @@
     "قيعان أعلى",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
-   "rank": 4.83173092353274,
+   "rank": 4.807692484037417,
    "meta": {
     "avg_volume": 261820.0,
     "drawdown": 0.963,
-    "rr_best": 4.32,
-    "gain_from_low10": 0.005,
+    "rr_best": 4.31,
+    "gain_from_low10": 0.0,
     "higher_lows": "True",
     "float": 3842210,
     "market_cap": 156962672,
@@ -3317,21 +3104,108 @@
    "news": []
   },
   {
-   "ticker": "CMMB",
+   "ticker": "MASK",
    "kind": "pivot",
    "status": "WATCH",
-   "setup": "BROKE_SUPPORT",
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "price": 1.190000057220459,
-   "score": 4.0,
+   "setup": "W_FORMING",
+   "setup_ar": "نموذج W قيد التكوين",
+   "price": 0.9298999905586243,
+   "score": 3.75,
+   "conditions": {
+    "ma": {
+     "score": 0.0,
+     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات — رفض عند MA20"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 21 والحالي 49"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "بداية تحسن"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "لا توجد شمعة إيجابية عند الدعم"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 72% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 4.7"
+    }
+   },
+   "support_low": 0.800000011920929,
+   "support_high": 0.8009999990463257,
+   "support_touches": 2,
+   "trigger_level": 0.9300000071525574,
+   "stop": 0.9021000069379806,
+   "entry_low": 0.9300000071525574,
+   "entry_high": 0.9579000073671341,
+   "t1": 0.9900000095367432,
+   "t1_label": "قمة سابقة",
+   "t2": 1.0449999570846558,
+   "t2_label": "رأس شمعة هابطة",
+   "rr": 1.1,
+   "risk_pct": 0.0443,
+   "rsi_now": 48.8,
+   "rsi_min": 20.7,
+   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات — رفض عند MA20",
+   "macd_state": "بداية تحسن",
+   "candle": "",
+   "volume_note": "فوليوم يتحسن مع الارتداد",
+   "waiting_for": [
+    "كسر خط العنق 0.93 والثبات فوقه أكثر من ربع ساعة",
+    "هدوء بعد شمعة الضخ وتكوين دعم جديد",
+    "السعر في الأفتر 0.881 تحت الوقف — الدعم مكسور حالياً",
+    "اكتمال الشروط الأساسية (3.8 من 6، المطلوب 4.5)"
+   ],
+   "flags": [
+    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
+    "سهم صيني عالي التذبذب",
+    "نزل في الأفتر تحت الوقف (0.881)"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +388% في يوم)",
+    "فوليوم يتحسن"
+   ],
+   "rank": 4.749462276380839,
+   "meta": {
+    "avg_volume": 706410.0,
+    "drawdown": 0.717,
+    "rr_best": 4.67,
+    "gain_from_low10": 0.162,
+    "higher_lows": "False",
+    "float": 599408,
+    "market_cap": 2906849,
+    "exchange": "NASDAQ",
+    "name": "3 E Network Technology Group Limited",
+    "short_pct_float": 0.025999999,
+    "ext_price": 0.8806,
+    "ext_chg": -0.053016467,
+    "ext_session": "post"
+   },
+   "news": []
+  },
+  {
+   "ticker": "GELS",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 0.430400013923645,
+   "score": 3.75,
    "conditions": {
     "ma": {
      "score": 0.5,
      "note": "تحت كل المتوسطات (ضغط)"
     },
     "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 21 والحالي 28"
+     "score": 0.25,
+     "note": "أدنى RSI 34 والحالي 35"
     },
     "macd": {
      "score": 1.0,
@@ -3343,57 +3217,142 @@
     },
     "pressure": {
      "score": 1.0,
-     "note": "هبط 60% من قمة 90 يوم"
+     "note": "هبط 79% من قمة 90 يوم"
     },
     "space": {
-     "score": 0.75,
-     "note": "العائد/المخاطرة 3.0"
+     "score": 1.0,
+     "note": "العائد/المخاطرة 6.8"
     }
    },
-   "support_low": 1.2400000095367432,
-   "support_high": 1.2524000096321106,
-   "support_touches": 2,
-   "trigger_level": 1.2400000095367432,
-   "stop": 1.1465999579429627,
-   "entry_low": 1.2400000095367432,
-   "entry_high": 1.245799993276596,
-   "t1": 1.3450000286102295,
+   "support_low": 0.4300000071525574,
+   "support_high": 0.4390000104904175,
+   "support_touches": 5,
+   "trigger_level": 0.4300000071525574,
+   "stop": 0.4214000070095062,
+   "entry_low": 0.4300000071525574,
+   "entry_high": 0.4356999975442886,
+   "t1": 0.44999998807907104,
    "t1_label": "قمة يوم قريبة",
-   "t2": 1.3700000047683716,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 0.99,
-   "risk_pct": 0.0799,
-   "rsi_now": 27.6,
-   "rsi_min": 20.9,
+   "t2": 0.49000000953674316,
+   "t2_label": "قمة سابقة",
+   "rr": 1.18,
+   "risk_pct": 0.0301,
+   "rsi_now": 35.0,
+   "rsi_min": 33.9,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "",
-   "volume_note": "فوليوم البيع يضعف",
+   "volume_note": "",
    "waiting_for": [
-    "استرداد الدعم 1.24 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "الدخول تحت مقاومة مباشرة (1.35) — انتظر اختراقها والثبات",
-    "اكتمال الشروط الأساسية (4.0 من 6، المطلوب 4.5)"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.43 ثم استرداد",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "اكتمال الشروط الأساسية (3.8 من 6، المطلوب 4.5)"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 0.946 وأغلق 0.61 بفوليوم 626x)",
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
     "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +42% في يوم)",
-    "فوليوم البيع يضعف"
+    "Former Runner (سبق انفجر +290% في يوم)"
    ],
-   "rank": 4.798387290597828,
+   "rank": 4.745348758553093,
    "meta": {
-    "avg_volume": 122895.0,
-    "drawdown": 0.602,
-    "rr_best": 2.95,
-    "gain_from_low10": 0.017,
+    "avg_volume": 1776230.0,
+    "drawdown": 0.786,
+    "rr_best": 6.76,
+    "gain_from_low10": 0.001,
     "higher_lows": "False",
-    "float": 6064284,
-    "market_cap": 9269490,
+    "float": 5150874,
+    "market_cap": 4777132,
     "exchange": "NASDAQ",
-    "name": "Chemomab Therapeutics Ltd.",
-    "short_pct_float": 0.0015
+    "name": "Gelteq Limited",
+    "short_pct_float": 0.0732
+   },
+   "news": []
+  },
+  {
+   "ticker": "GXAI",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "BROKE_SUPPORT",
+   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "price": 0.4174000024795532,
+   "score": 3.75,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 20 والحالي 28"
+    },
+    "macd": {
+     "score": 0.5,
+     "note": "بداية تحسن"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "لا توجد شمعة إيجابية عند الدعم"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 71% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 5.8"
+    }
+   },
+   "support_low": 0.4180000126361847,
+   "support_high": 0.4221800127625465,
+   "support_touches": 1,
+   "trigger_level": 0.4180000126361847,
+   "stop": 0.40679800808429717,
+   "entry_low": 0.4180000126361847,
+   "entry_high": 0.4221800127625465,
+   "t1": 0.4480000138282776,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 0.4699999988079071,
+   "t2_label": "رأس شمعة هابطة",
+   "rr": 2.1,
+   "risk_pct": 0.0316,
+   "rsi_now": 27.6,
+   "rsi_min": 20.4,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "بداية تحسن",
+   "candle": "",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "استرداد الدعم 0.42 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+    "اكتمال الشروط الأساسية (3.8 من 6، المطلوب 4.5)"
+   ],
+   "flags": [
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +96% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 4.742822845233336,
+   "meta": {
+    "avg_volume": 224060.0,
+    "drawdown": 0.71,
+    "rr_best": 5.78,
+    "gain_from_low10": 0.006,
+    "higher_lows": "False",
+    "float": 10528022,
+    "market_cap": 4656329,
+    "exchange": "NASDAQ",
+    "name": "Gaxos.ai Inc.",
+    "short_pct_float": 0.0209
    },
    "news": []
   }
@@ -3404,7 +3363,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.7200000286102295,
+   "price": 1.7899999618530273,
    "price_label": "آخر سعر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -3423,7 +3382,7 @@
    "state": "BREAKOUT_PENDING",
    "state_ar": "فوق 1.7 — ينتظر الثبات أكثر من ربع ساعة",
    "alert": false,
-   "session": "regular",
+   "session": "post",
    "scanner": null
   }
  ],

@@ -164,14 +164,24 @@ def watch_alerts(result, quotes, now_et, session="regular"):
     need = [w["ticker"] for w in fw if not (quotes.get(w["ticker"]) or {}).get(key)]
     if need:
         quotes = {**quotes, **yahoo_quotes(need)}
+    reg = session == "regular"
+    bars15 = {}
+    if reg:
+        try:
+            bars15 = YahooData().intraday([w["ticker"] for w in fw], "15m") or {}
+        except Exception as e:  # noqa
+            log.warning("quick watchlist 15m failed: %s", e)
     evs = []
     for w in fw:
+        t = w["ticker"]
         # في البري/الأفتر: سعر الجلسة الممتدة فقط (لا نستخدم إغلاق أمس كسعر لحظي)
-        px = (quotes.get(w["ticker"]) or {}).get(key)
-        # الاختراق يحتاج ثبات شمعتين 15 دقيقة → يتركه للفحص الساعي؛ هنا فقط المنطقة والوقف
-        ev = faisal_watch.evaluate({**w, "breakout": None}, float(px) if px else None, None, seg)
+        px = (quotes.get(t) or {}).get(key)
+        b = bars15.get(t)
+        # التنبيه فقط في الجلسة الرسمية وبعد التأكيد: شمعة 15 دقيقة خضراء داخل المنطقة، أو ثبات شمعتين فوق الاختراق
+        zok = faisal_watch.zone_confirmed(b, w.get("demand_low"), w.get("demand_high"), now_et) if reg else False
+        hok = faisal_watch.breakout_held(b, w.get("breakout"), now_et, C.INTRADAY_HOLD_BARS) if reg else False
+        ev = faisal_watch.evaluate(w, float(px) if px else None, None, seg, hold_ok=bool(hok), zone_ok=zok, alerts_on=reg)
         ev["session"] = session
-        ev["levels"]["breakout"] = w.get("breakout")  # للعرض في التنبيه فقط
         evs.append(ev)
     result["watchlist"] = evs
     new = update_alert_state({"ready": [], "faisal": evs}, now_et)

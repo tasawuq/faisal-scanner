@@ -214,7 +214,8 @@ def test_faisal_watch_in_report(tmp_path, monkeypatch):
     monkeypatch.setattr(C, "RESULTS_DIR", str(tmp_path))
     res = main.run_once(demo=True)
     assert res["faisal"] and res["faisal"][0]["state"] == "IN_ZONE"
-    assert any("مستوى فيصل" in a for a in res["new_alerts"])
+    # داخل المنطقة بدون شمعة تأكيد → لا تنبيه
+    assert not any("مستوى فيصل" in a for a in res["new_alerts"])
     assert "أسهم فيصل" in main.write_outputs(res)
 
 
@@ -271,3 +272,34 @@ def test_near_daily_high_blocks_pivot_entry():
     s = _evaluate("T", ctx, cd, {"MA20": None, "MA30": None, "MA50": None}, None)
     assert s is not None and abs(s.t1 - 1.34) < 1e-6
     assert any("مقاومة مباشرة" in w for w in s.waiting_for)
+
+
+def test_watch_zone_needs_green_15m_confirmation():
+    from datetime import time as dtime
+    from faisal_scanner import faisal_watch as fw
+    e = {"ticker": "W", "demand_low": 1.47, "demand_high": 1.50, "stop": 1.44, "breakout": 1.70}
+    now = datetime(2026, 10, 19, 10, 2, tzinfo=ET)
+    idx = [pd.Timestamp(datetime(2026, 10, 19, 9, 30, tzinfo=ET)), pd.Timestamp(datetime(2026, 10, 19, 9, 45, tzinfo=ET))]
+    red = pd.DataFrame({"open": [1.55, 1.50], "high": [1.56, 1.51], "low": [1.49, 1.46], "close": [1.50, 1.47],
+                        "volume": [1e5, 1e5]}, index=idx)
+    green = red.assign(open=[1.55, 1.47], close=[1.50, 1.495])
+    assert fw.zone_confirmed(red, 1.47, 1.50, now) is False
+    assert fw.zone_confirmed(green, 1.47, 1.50, now) is True
+    # the 10:00 bar is not complete at 10:02 → ignored
+    assert fw.evaluate(e, 1.48, zone_ok=False)["alert"] is False
+    ok = fw.evaluate(e, 1.48, zone_ok=True)
+    assert ok["state"] == "ZONE_CONFIRMED" and ok["alert"] is True
+    # outside the regular session: information only, no alert
+    assert fw.evaluate(e, 1.40, alerts_on=False)["alert"] is False
+    assert fw.evaluate(e, 1.48, zone_ok=True, alerts_on=False)["alert"] is False
+
+
+def test_premarket_momentum_never_ready():
+    from datetime import time as dtime
+    now = datetime(2026, 10, 15, 7, 30, tzinfo=ET)
+    plan = [2.0] + demo.seg(2.0, 2.60, 15) + demo.seg(2.60, 2.36, 10) + [2.37, 2.38, 2.385]
+    intr = _ext_bars(now.date(), dtime(4, 0), plan, lambda i: 60_000 if i < 16 else 15_000)
+    daily = demo.make_daily([1.6] + demo.seg(1.6, 2.0, 79), pd.Timestamp("2026-10-14"), seed=7, vol_base=300_000)
+    m = analyze_momentum("P", intr, daily, now, "pre", 0.0, segment="pre", ext_volume=2_000_000)
+    assert m is not None and m.status == WATCH
+    assert any("الجلسة الرسمية" in w for w in m.waiting_for)

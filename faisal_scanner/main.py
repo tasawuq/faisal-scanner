@@ -409,7 +409,7 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         by_t = {x.ticker: x for x in pivots}
         brk_bars = {}
         if session == "regular" and not demo:
-            need = [w["ticker"] for w in fw if w.get("breakout")]
+            need = [w["ticker"] for w in fw]
             if need:
                 try:
                     brk_bars = YahooData().intraday(need, "15m")
@@ -432,7 +432,9 @@ def run_once(force=False, demo=False, limit=None) -> dict:
                 done = b[[ts.date() == today and ts <= now_et - timedelta(minutes=15) for ts in b.index]]
                 if len(done) >= C.INTRADAY_HOLD_BARS:
                     hold_ok = bool(np.all(done["close"].values[-C.INTRADAY_HOLD_BARS:] > w["breakout"]))
-            ev = faisal_watch.evaluate(w, px, last_close, label, hold_ok)
+            zok = faisal_watch.zone_confirmed(b, w.get("demand_low"), w.get("demand_high"), now_et) \
+                if session == "regular" else False
+            ev = faisal_watch.evaluate(w, px, last_close, label, hold_ok, zone_ok=zok, alerts_on=session == "regular")
             ev["session"] = session
             sig = by_t.get(t)
             if sig is None and df is not None and len(df) >= 60:
@@ -492,10 +494,10 @@ def update_alert_state(result, now_et):
         state = {}
     new = []
     for s in result["ready"]:
-        key = f"{s['ticker']}:{s['setup']}"
         seg = (s.get("meta") or {}).get("segment")
-        if seg in ("pre", "post"):  # تنبيه البري/الأفتر ما يمنع تنبيه الجلسة الرسمية
-            key += f":{seg}"
+        if seg in ("pre", "post"):  # لا تنبيه دخول زخم خارج الجلسة الرسمية (منهج فيصل)
+            continue
+        key = f"{s['ticker']}:{s['setup']}"
         if key not in state:
             state[key] = {"first_seen_et": now_et.isoformat(), "price": s["price"], "stop": s["stop"],
                           "t1": s.get("t1"), "setup_ar": s["setup_ar"]}

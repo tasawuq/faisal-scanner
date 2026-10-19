@@ -165,6 +165,9 @@ def analyze_momentum(ticker: str, intraday: pd.DataFrame, daily: pd.DataFrame, n
         s.flags.append("حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة")
     elif segment == "post":
         s.flags.append("حركة أفتر ماركت — قد تتلاشى، السيولة ضعيفة")
+    if segment in ("pre", "post"):
+        # منهج فيصل: «بري ماركت فقط: يطير قبل السوق ثم ينهار عند الافتتاح» سلوك خطر → مراقبة فقط، لا دخول قبل الجلسة الرسمية
+        wait.append("الجلسة الرسمية: لا دخول زخم في البري/الأفتر — ننتظر الافتتاح والثبات فوق الفواب")
     s.waiting_for = wait
     s.status = READY if (not wait and code in ("MOM_VWAP_PULLBACK", "MOM_BREAKOUT_HOLD")) else WATCH
     s.score = round(min(rvol_pace / 5, 2) + min(max(chg, 0) * 5, 2) + (2 if s.status == READY else 0), 2)

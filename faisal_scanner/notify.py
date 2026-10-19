@@ -163,7 +163,8 @@ def alert_text(s: dict, when: str) -> str:
     return "\n".join(lines)
 
 
-WATCH_HEAD = {"IN_ZONE": "وصل منطقة الدخول", "BELOW_STOP": "نزل تحت الوقف", "BREAKOUT_HOLD": "اخترق وثبت"}
+WATCH_HEAD = {"ZONE_CONFIRMED": "ثبت في منطقة الدخول (شمعة 15 دقيقة خضراء)", "IN_ZONE": "داخل منطقة الدخول (بدون تأكيد)",
+              "BELOW_STOP": "نزل تحت الوقف", "BREAKOUT_HOLD": "اخترق وثبت"}
 
 
 def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
@@ -185,7 +186,11 @@ def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
         lines.append("الأهداف: " + " ثم ".join(_g(x) for x in L["targets"]))
     lines.append(f"المصدر: {src}")
     wait_open = f"انتظر الافتتاح ({open_time_riyadh()})" if seg == "بري ماركت" else "انتظر جلسة بكرة" if seg else ""
-    if st == "IN_ZONE":
+    if st == "ZONE_CONFIRMED":
+        tg = L.get("targets") or []
+        act = (f"التأكيد تم: دخول ممكن داخل المنطقة {_g(lo)}–{_g(hi)} بدون مطاردة، والوقف {_g(stop)}."
+               + (f" خذ جزء ربح عند {_g(tg[0])}." if tg else ""))
+    elif st == "IN_ZONE":
         act = (f"{wait_open}، وبعدها " if wait_open else "") + \
               f"ادخل فقط إذا ثبت داخل المنطقة وطلعت شمعة 15 دقيقة خضراء. الوقف {_g(stop)}."
         if not wait_open:

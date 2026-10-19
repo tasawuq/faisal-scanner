@@ -34,38 +34,55 @@ def alert_label(entry: dict) -> str:
     return "مستوى فيصل" if "فيصل" in (entry.get("source") or "") else "متابعة"
 
 
-def _done_regular(bars15, now_et):
-    """شموع 15 دقيقة المكتملة لليوم في الجلسة الرسمية فقط."""
+SEG = {"pre": (time(4, 0), time(9, 30)), "regular": (time(9, 30), time(16, 0)), "post": (time(16, 0), time(20, 0))}
+
+
+def _done(bars15, now_et, seg="regular"):
+    """شموع 15 دقيقة المكتملة لليوم داخل الجلسة المطلوبة (بري/رسمية/أفتر)، بشرط تكون حديثة."""
     if bars15 is None or not len(bars15):
         return None
+    a, b = SEG.get(seg, SEG["regular"])
     today = now_et.date()
-    return bars15[[ts.date() == today and time(9, 30) <= ts.time() < time(16, 0)
-                   and ts + timedelta(minutes=15) <= now_et for ts in bars15.index]]
+    done = bars15[[ts.date() == today and a <= ts.time() < b and ts + timedelta(minutes=15) <= now_et
+                   for ts in bars15.index]]
+    # البري/الأفتر فيها فراغات (ما فيه صفقات) → آخر شمعة لازم تكون خلال آخر 20 دقيقة
+    if len(done) and done.index[-1] + timedelta(minutes=35) < now_et:
+        return done.iloc[0:0]
+    return done
 
 
-def zone_confirmed(bars15, lo, hi, now_et) -> bool:
+def zone_confirmed(bars15, lo, hi, now_et, seg="regular") -> bool:
     """تأكيد الدخول من منطقة الطلب (فيصل: ثبات + شمعة إيجابية): آخر شمعة 15 دقيقة مكتملة
     خضراء، لمست المنطقة، وأغلقت داخلها (أو فوقها بـ 2% كحد أقصى)."""
     if not lo or not hi:
         return False
-    done = _done_regular(bars15, now_et)
+    done = _done(bars15, now_et, seg)
     if done is None or not len(done):
         return False
     b = done.iloc[-1]
     return bool(b["close"] > b["open"] and b["low"] <= hi * 1.005 and lo <= b["close"] <= hi * 1.02)
 
 
-def breakout_held(bars15, brk, now_et, n=2) -> bool:
-    done = _done_regular(bars15, now_et)
+def breakout_held(bars15, brk, now_et, n=2, seg="regular") -> bool:
+    done = _done(bars15, now_et, seg)
     if not brk or done is None or len(done) < n:
         return None
     return bool((done["close"].values[-n:] > brk).all())
 
 
+def stop_broken(bars15, stop, now_et, seg="regular") -> bool:
+    """كسر مؤكد للوقف: آخر شمعة 15 دقيقة مكتملة أغلقت تحته."""
+    done = _done(bars15, now_et, seg)
+    if not stop or done is None or not len(done):
+        return False
+    return bool(done["close"].values[-1] < stop)
+
+
 def evaluate(entry: dict, price: float, last_close: float = None, price_label: str = "",
-             hold_ok: bool = None, zone_ok: bool = None, alerts_on: bool = True) -> dict:
+             hold_ok: bool = None, zone_ok: bool = None, alerts_on: bool = True, stop_ok: bool = None) -> dict:
     """Compare the current price with Faisal's levels. hold_ok: last two 15-min bars above breakout.
-    zone_ok: آخر شمعة 15 دقيقة خضراء داخل المنطقة. alerts_on=False خارج الجلسة الرسمية (معلومة فقط)."""
+    zone_ok: آخر شمعة 15 دقيقة خضراء داخل المنطقة. stop_ok=False: السعر تحت الوقف بدون إغلاق شمعة تحته
+    (البري/الأفتر) → بدون تنبيه. alerts_on=False → معلومة فقط."""
     lab = "فيصل" if "فيصل" in (entry.get("source") or "") else "المتابعة"
     lo, hi = entry.get("demand_low"), entry.get("demand_high")
     stop, brk = entry.get("stop"), entry.get("breakout")
@@ -76,7 +93,11 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
         res.update(state="NO_DATA", state_ar="لا توجد بيانات سعر", alert=False)
         return res
     if stop and price < stop:
-        res.update(state="BELOW_STOP", state_ar=f"❌ تحت وقف {lab} {stop:g} — السبب بطل", alert=alerts_on)
+        if stop_ok is False:
+            res.update(state="BELOW_STOP", alert=False,
+                       state_ar=f"تحت وقف {lab} {stop:g} — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد")
+        else:
+            res.update(state="BELOW_STOP", state_ar=f"❌ تحت وقف {lab} {stop:g} — السبب بطل", alert=alerts_on)
     elif lo and hi and lo <= price <= hi:
         if zone_ok:
             res.update(state="ZONE_CONFIRMED", alert=alerts_on,

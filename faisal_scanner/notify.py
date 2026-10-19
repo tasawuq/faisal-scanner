@@ -202,5 +202,8 @@ def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
         act = f"دخول زخم قريب من {_g(brk)} بدون مطاردة، والوقف تحت {_g(brk)} مباشرة."
     else:
         act = ev.get("state_ar", "")
+    if seg and st in ("ZONE_CONFIRMED", "BREAKOUT_HOLD"):
+        act += (f" ⚠️ هذا في {seg}: السيولة أقل والسبريد أوسع، والحركة ممكن تنقلب "
+                + (f"مع الافتتاح ({open_time_riyadh()})." if seg == "بري ماركت" else "في جلسة بكرة."))
     lines += ["", "وش تسوي: " + act, "", "تعليمي وليس توصية."]
     return title, "\n".join(lines)

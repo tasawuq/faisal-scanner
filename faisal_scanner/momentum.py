@@ -6,7 +6,7 @@
 "بري ماركت فقط: يطير قبل السوق ثم ينهار عند الافتتاح" (سلوك خطر).
 GDHG: "بداية الشمعة الصاعدة قد تصبح دعماً… الأفضل انتظار الرجوع لها".
 """
-from datetime import time
+from datetime import time, timedelta
 import numpy as np
 import pandas as pd
 
@@ -29,6 +29,23 @@ WINDOWS = {"pre": (time(4, 0), time(9, 30)), "regular": (time(9, 30), time(16, 0
 def _seg(df, today, seg):
     a, b = WINDOWS[seg]
     return df[[ts.date() == today and a <= ts.time() < b for ts in df.index]]
+
+
+def ext_confirmed(bars, now_et, v_now, pullback=False) -> bool:
+    """آخر شمعة 15 دقيقة مكتملة (من شموع 5 دقائق مكتملة) خضراء وأغلقت فوق الفواب."""
+    done = bars[[ts + timedelta(minutes=5) <= now_et for ts in bars.index]]
+    if len(done) < 3:
+        return False
+    b15 = done.resample("15min", origin="start_day").agg(
+        {"open": "first", "high": "max", "low": "min", "close": "last"}).dropna()
+    b15 = b15[[ts + timedelta(minutes=15) <= now_et for ts in b15.index]]
+    if not len(b15):
+        return False
+    b = b15.iloc[-1]
+    ok = b["close"] > b["open"] and b["close"] > v_now
+    if pullback:
+        ok = ok and b["low"] <= v_now * (1 + C.MOM_VWAP_ZONE)
+    return bool(ok)
 
 
 def analyze_momentum(ticker: str, intraday: pd.DataFrame, daily: pd.DataFrame, now_et, session: str,
@@ -165,9 +182,11 @@ def analyze_momentum(ticker: str, intraday: pd.DataFrame, daily: pd.DataFrame, n
         s.flags.append("حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة")
     elif segment == "post":
         s.flags.append("حركة أفتر ماركت — قد تتلاشى، السيولة ضعيفة")
-    if segment in ("pre", "post"):
-        # منهج فيصل: «بري ماركت فقط: يطير قبل السوق ثم ينهار عند الافتتاح» سلوك خطر → مراقبة فقط، لا دخول قبل الجلسة الرسمية
-        wait.append("الجلسة الرسمية: لا دخول زخم في البري/الأفتر — ننتظر الافتتاح والثبات فوق الفواب")
+    if segment in ("pre", "post") and code in ("MOM_VWAP_PULLBACK", "MOM_BREAKOUT_HOLD"):
+        # البري/الأفتر أخطر (فيصل: «يطير قبل السوق ثم ينهار عند الافتتاح») → تأكيد إضافي:
+        # آخر شمعة 15 دقيقة مكتملة خضراء وأغلقت فوق الفواب (وفي الرجوع للفواب: لمست منطقة الفواب)
+        if not ext_confirmed(bars, now_et, v_now, pullback=code == "MOM_VWAP_PULLBACK"):
+            wait.append(f"تأكيد {seg_ar}: شمعة 15 دقيقة مكتملة خضراء تقفل فوق الفواب {v_now:.2f}")
     s.waiting_for = wait
     s.status = READY if (not wait and code in ("MOM_VWAP_PULLBACK", "MOM_BREAKOUT_HOLD")) else WATCH
     s.score = round(min(rvol_pace / 5, 2) + min(max(chg, 0) * 5, 2) + (2 if s.status == READY else 0), 2)

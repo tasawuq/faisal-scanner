@@ -1,6 +1,6 @@
 """Offline tests: synthetic patterns from the guide + data-source parsing with mocked responses."""
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from unittest import mock
 
 import numpy as np
@@ -294,12 +294,23 @@ def test_watch_zone_needs_green_15m_confirmation():
     assert fw.evaluate(e, 1.48, zone_ok=True, alerts_on=False)["alert"] is False
 
 
-def test_premarket_momentum_never_ready():
-    from datetime import time as dtime
-    now = datetime(2026, 10, 15, 7, 30, tzinfo=ET)
-    plan = [2.0] + demo.seg(2.0, 2.60, 15) + demo.seg(2.60, 2.36, 10) + [2.37, 2.38, 2.385]
-    intr = _ext_bars(now.date(), dtime(4, 0), plan, lambda i: 60_000 if i < 16 else 15_000)
-    daily = demo.make_daily([1.6] + demo.seg(1.6, 2.0, 79), pd.Timestamp("2026-10-14"), seed=7, vol_base=300_000)
-    m = analyze_momentum("P", intr, daily, now, "pre", 0.0, segment="pre", ext_volume=2_000_000)
-    assert m is not None and m.status == WATCH
-    assert any("الجلسة الرسمية" in w for w in m.waiting_for)
+def test_extended_session_confirmation_candle():
+    from faisal_scanner.momentum import ext_confirmed
+    from faisal_scanner import faisal_watch as fw
+    now = datetime(2026, 10, 19, 8, 47, tzinfo=ET)
+    t0 = datetime(2026, 10, 19, 8, 15, tzinfo=ET)
+    idx = [pd.Timestamp(t0 + timedelta(minutes=5 * i)) for i in range(6)]  # 8:15..8:40 (8:45 bucket incomplete)
+    up = pd.DataFrame({"open": [1.0, 1.01, 1.02, 1.00, 1.01, 1.02], "high": [1.02, 1.03, 1.04, 1.02, 1.03, 1.05],
+                       "low": [0.99, 1.0, 1.01, 0.995, 1.0, 1.01], "close": [1.01, 1.02, 1.03, 1.01, 1.02, 1.04],
+                       "volume": [1.0] * 6}, index=idx)
+    assert ext_confirmed(up, now, v_now=1.0) is True              # 8:30 bucket: open 1.00 → close 1.04, above VWAP
+    down = up.assign(close=[1.01, 1.02, 1.03, 1.0, 0.99, 0.98])
+    assert ext_confirmed(down, now, v_now=1.0) is False           # red candle / below VWAP
+    # watchlist in pre-market: stop needs a 15-min close below it
+    e = {"ticker": "W", "demand_low": 1.47, "demand_high": 1.50, "stop": 1.44}
+    b15 = pd.DataFrame({"open": [1.46], "high": [1.47], "low": [1.43], "close": [1.45], "volume": [0.0]},
+                       index=[pd.Timestamp(datetime(2026, 10, 19, 8, 15, tzinfo=ET))])
+    assert fw.stop_broken(b15, 1.44, now, "pre") is False
+    ev = fw.evaluate(e, 1.43, stop_ok=fw.stop_broken(b15, 1.44, now, "pre"))
+    assert ev["state"] == "BELOW_STOP" and ev["alert"] is False
+    assert fw.evaluate(e, 1.43, stop_ok=True)["alert"] is True

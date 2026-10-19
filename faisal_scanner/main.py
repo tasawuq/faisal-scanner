@@ -408,11 +408,11 @@ def run_once(force=False, demo=False, limit=None) -> dict:
     if fw:
         by_t = {x.ticker: x for x in pivots}
         brk_bars = {}
-        if session == "regular" and not demo:
+        if session in ("pre", "regular", "post") and not demo:
             need = [w["ticker"] for w in fw]
             if need:
                 try:
-                    brk_bars = YahooData().intraday(need, "15m")
+                    brk_bars = YahooData().intraday(need, "15m", prepost=True)
                 except Exception as e:  # noqa
                     errors.append(f"faisal 15m: {str(e)[:60]}")
         for w in fw:
@@ -425,16 +425,14 @@ def run_once(force=False, demo=False, limit=None) -> dict:
                 ep = q.get("pre_price" if session == "pre" else "post_price")
                 if ep:
                     px, label = float(ep), ("سعر البري" if session == "pre" else "سعر الأفتر")
-            # الاختراق يتأكد فقط بثبات شمعتين 15 دقيقة في الجلسة الرسمية (البري/الأفتر لا يكفي)
-            hold_ok = None if session == "regular" else False
+            # كل الجلسات بنفس التأكيد: شمعة 15 دقيقة خضراء داخل المنطقة / شمعتين فوق الاختراق / إغلاق تحت الوقف (بري/أفتر)
+            seg_now = session if session in ("pre", "regular", "post") else "regular"
             b = brk_bars.get(t)
-            if b is not None and w.get("breakout"):
-                done = b[[ts.date() == today and ts <= now_et - timedelta(minutes=15) for ts in b.index]]
-                if len(done) >= C.INTRADAY_HOLD_BARS:
-                    hold_ok = bool(np.all(done["close"].values[-C.INTRADAY_HOLD_BARS:] > w["breakout"]))
-            zok = faisal_watch.zone_confirmed(b, w.get("demand_low"), w.get("demand_high"), now_et) \
-                if session == "regular" else False
-            ev = faisal_watch.evaluate(w, px, last_close, label, hold_ok, zone_ok=zok, alerts_on=session == "regular")
+            hold_ok = bool(faisal_watch.breakout_held(b, w.get("breakout"), now_et, C.INTRADAY_HOLD_BARS, seg_now))
+            zok = faisal_watch.zone_confirmed(b, w.get("demand_low"), w.get("demand_high"), now_et, seg_now)
+            sok = None if seg_now == "regular" else faisal_watch.stop_broken(b, w.get("stop"), now_et, seg_now)
+            ev = faisal_watch.evaluate(w, px, last_close, label, hold_ok, zone_ok=zok, stop_ok=sok,
+                                       alerts_on=session in ("pre", "regular", "post"))
             ev["session"] = session
             sig = by_t.get(t)
             if sig is None and df is not None and len(df) >= 60:
@@ -494,10 +492,10 @@ def update_alert_state(result, now_et):
         state = {}
     new = []
     for s in result["ready"]:
-        seg = (s.get("meta") or {}).get("segment")
-        if seg in ("pre", "post"):  # لا تنبيه دخول زخم خارج الجلسة الرسمية (منهج فيصل)
-            continue
         key = f"{s['ticker']}:{s['setup']}"
+        seg = (s.get("meta") or {}).get("segment")
+        if seg in ("pre", "post"):  # تنبيه البري/الأفتر ما يمنع تنبيه الجلسة الرسمية
+            key += f":{seg}"
         if key not in state:
             state[key] = {"first_seen_et": now_et.isoformat(), "price": s["price"], "stop": s["stop"],
                           "t1": s.get("t1"), "setup_ar": s["setup_ar"]}

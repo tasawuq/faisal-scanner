@@ -164,23 +164,23 @@ def watch_alerts(result, quotes, now_et, session="regular"):
     need = [w["ticker"] for w in fw if not (quotes.get(w["ticker"]) or {}).get(key)]
     if need:
         quotes = {**quotes, **yahoo_quotes(need)}
-    reg = session == "regular"
     bars15 = {}
-    if reg:
-        try:
-            bars15 = YahooData().intraday([w["ticker"] for w in fw], "15m") or {}
-        except Exception as e:  # noqa
-            log.warning("quick watchlist 15m failed: %s", e)
+    try:
+        bars15 = YahooData().intraday([w["ticker"] for w in fw], "15m", prepost=True) or {}
+    except Exception as e:  # noqa
+        log.warning("quick watchlist 15m failed: %s", e)
+    ext = session in ("pre", "post")
     evs = []
     for w in fw:
         t = w["ticker"]
         # في البري/الأفتر: سعر الجلسة الممتدة فقط (لا نستخدم إغلاق أمس كسعر لحظي)
         px = (quotes.get(t) or {}).get(key)
         b = bars15.get(t)
-        # التنبيه فقط في الجلسة الرسمية وبعد التأكيد: شمعة 15 دقيقة خضراء داخل المنطقة، أو ثبات شمعتين فوق الاختراق
-        zok = faisal_watch.zone_confirmed(b, w.get("demand_low"), w.get("demand_high"), now_et) if reg else False
-        hok = faisal_watch.breakout_held(b, w.get("breakout"), now_et, C.INTRADAY_HOLD_BARS) if reg else False
-        ev = faisal_watch.evaluate(w, float(px) if px else None, None, seg, hold_ok=bool(hok), zone_ok=zok, alerts_on=reg)
+        # التنبيه بعد التأكيد فقط: شمعة 15 دقيقة خضراء داخل المنطقة، شمعتين فوق الاختراق، وفي البري/الأفتر إغلاق تحت الوقف
+        zok = faisal_watch.zone_confirmed(b, w.get("demand_low"), w.get("demand_high"), now_et, session)
+        hok = faisal_watch.breakout_held(b, w.get("breakout"), now_et, C.INTRADAY_HOLD_BARS, session)
+        sok = faisal_watch.stop_broken(b, w.get("stop"), now_et, session) if ext else None
+        ev = faisal_watch.evaluate(w, float(px) if px else None, None, seg, hold_ok=bool(hok), zone_ok=zok, stop_ok=sok)
         ev["session"] = session
         evs.append(ev)
     result["watchlist"] = evs

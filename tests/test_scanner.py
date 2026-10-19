@@ -314,3 +314,12 @@ def test_extended_session_confirmation_candle():
     ev = fw.evaluate(e, 1.43, stop_ok=fw.stop_broken(b15, 1.44, now, "pre"))
     assert ev["state"] == "BELOW_STOP" and ev["alert"] is False
     assert fw.evaluate(e, 1.43, stop_ok=True)["alert"] is True
+
+
+def test_entry_zone_capped_below_first_resistance():
+    """VIP 2026-10-19: الدعم 1.22، الوقف 1.1956، أول مقاومة 1.32 → أعلى دخول ≈1.258."""
+    import faisal_scanner.config as C
+    t1, stop = 1.32, 1.1956
+    cap = (t1 + C.MIN_RR_T1 * stop) / (1 + C.MIN_RR_T1)
+    assert abs(cap - 1.2578) < 0.001
+    assert (t1 - cap) / (cap - stop) >= C.MIN_RR_T1 - 1e-9

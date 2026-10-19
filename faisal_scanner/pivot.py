@@ -485,6 +485,12 @@ def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, short_pct):
     s.trigger_level = float(cd["trigger"])
     s.stop = float(stop)
     s.entry_low, s.entry_high = float(entry_low), float(entry_high)
+    # أعلى منطقة الدخول ما يتعدى السعر اللي يكون فيه الربح لأول مقاومة ≥ المخاطرة (وإلا صار «دخول تحت مقاومة مباشرة»)
+    # مثال VIP 2026-10-19: الدعم 1.22، الوقف 1.1956، أول مقاومة 1.32 → أعلى دخول 1.258 (مو 1.2875)
+    if t1 and not cd.get("breakout"):
+        cap = (t1[0] + C.MIN_RR_T1 * stop) / (1 + C.MIN_RR_T1)
+        if s.entry_high > cap:
+            s.entry_high = float(max(entry_low, cap))
     if t1:
         s.t1, s.t1_label = float(t1[0]), t1[1]
     if t2:

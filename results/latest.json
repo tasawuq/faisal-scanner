@@ -1,14 +1,14 @@
 {
- "generated_at_utc": "2026-10-19T11:01:47.904434+00:00",
- "generated_at_et": "2026-10-19T07:01:47.904434-04:00",
+ "generated_at_utc": "2026-10-19T12:01:10.527886+00:00",
+ "generated_at_et": "2026-10-19T08:01:10.527886-04:00",
  "session": "pre",
  "provider": "yahoo",
  "counts": {
   "universe": 5855,
   "analyzed": 979,
-  "ready": 3,
+  "ready": 2,
   "watch": 120,
-  "momentum": 5,
+  "momentum": 9,
   "ext_quotes": 1587,
   "ext_movers_5pct": 86
  },
@@ -171,64 +171,6 @@
     "ext_session": "pre"
    },
    "news": []
-  },
-  {
-   "ticker": "MEDS",
-   "kind": "momentum",
-   "status": "READY",
-   "setup": "MOM_VWAP_PULLBACK",
-   "setup_ar": "زخم بري ماركت — أول Pullback على الفواب",
-   "price": 3.0494,
-   "score": 2.85,
-   "conditions": {},
-   "support_low": 2.93,
-   "support_high": null,
-   "support_touches": 0,
-   "trigger_level": 3.0406708333333334,
-   "stop": 2.99495,
-   "entry_low": 3.0406708333333334,
-   "entry_high": 3.10148425,
-   "t1": 3.109999895095825,
-   "t1_label": "مقاومة يومية قريبة",
-   "t2": 3.3,
-   "t2_label": "قمة بري ماركت",
-   "rr": 1.11,
-   "risk_pct": 0.0179,
-   "rsi_now": null,
-   "rsi_min": null,
-   "ma_state": "",
-   "macd_state": "",
-   "candle": "",
-   "volume_note": "فوليوم بري ماركت 1.52M (26% من يوم عادي)",
-   "waiting_for": [],
-   "flags": [
-    "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة",
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥"
-   ],
-   "rank": 2.85,
-   "meta": {
-    "segment": "pre",
-    "change": 0.1595,
-    "gap": 0.0,
-    "rvol": 0.26,
-    "rvol_pace": 0.26,
-    "vwap": 3.0407,
-    "hod": 3.3,
-    "move_base": 2.93,
-    "segment_volume": 1521530.0,
-    "pullback_from_hod": 0.0759,
-    "dist_vwap": 0.0029,
-    "volume_known": true,
-    "float": 1272074,
-    "market_cap": 11876718,
-    "exchange": "NASDAQ",
-    "name": "DataMEDS AI, Inc.",
-    "short_pct_float": 0.1514
-   },
-   "news": []
   }
  ],
  "watch": [
@@ -311,8 +253,8 @@
     "exchange": "AMEX",
     "name": "Top Ships Inc.",
     "short_pct_float": 0.0654,
-    "ext_price": 0.4501,
-    "ext_chg": 0.009645576999999999,
+    "ext_price": 0.45,
+    "ext_chg": 0.009421224,
     "ext_session": "pre"
    },
    "news": []
@@ -393,7 +335,10 @@
     "market_cap": 7355742,
     "exchange": "NASDAQ",
     "name": "Aprea Therapeutics, Inc.",
-    "short_pct_float": 0.0429
+    "short_pct_float": 0.0429,
+    "ext_price": 0.6255,
+    "ext_chg": 0.070694966,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -473,7 +418,10 @@
     "market_cap": 5458487,
     "exchange": "NASDAQ",
     "name": "Peraso Inc.",
-    "short_pct_float": 0.0394
+    "short_pct_float": 0.0394,
+    "ext_price": 0.3608,
+    "ext_chg": -0.000554026,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -550,7 +498,10 @@
     "market_cap": 46281448,
     "exchange": "NASDAQ",
     "name": "Vulcan Infrastructure and Power Inc.",
-    "short_pct_float": 0.007900001
+    "short_pct_float": 0.007900001,
+    "ext_price": 1.2417,
+    "ext_chg": -0.044846077,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -633,8 +584,8 @@
     "exchange": "AMEX",
     "name": "AIM ImmunoTech Inc.",
     "short_pct_float": 0.0354,
-    "ext_price": 0.17,
-    "ext_chg": 0.011302810000000002,
+    "ext_price": 0.168,
+    "ext_chg": -0.0011890808,
     "ext_session": "pre"
    },
    "news": []
@@ -882,8 +833,8 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.8437,
-    "ext_chg": 0.0044047832,
+    "ext_price": 0.8501,
+    "ext_chg": 0.0035414487,
     "ext_session": "pre"
    },
    "news": []
@@ -1292,7 +1243,10 @@
     "market_cap": 22011216,
     "exchange": "AMEX",
     "name": "Jaguar Uranium Corp.",
-    "short_pct_float": 0.0088
+    "short_pct_float": 0.0088,
+    "ext_price": 1.07,
+    "ext_chg": -0.018348606,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1532,7 +1486,10 @@
     "market_cap": 12401731,
     "exchange": "NASDAQ",
     "name": "Scage Future",
-    "short_pct_float": 0.0027
+    "short_pct_float": 0.0027,
+    "ext_price": 0.164,
+    "ext_chg": -0.039812622,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1592,13 +1549,11 @@
    "waiting_for": [
     "إغلاق وثبات فوق 0.13 بعد سحب السيولة",
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
    ],
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "سعر منخفض جداً — سبريد واسع",
-    "صعد في البري إلى 0.139 بعيداً عن منطقة الطلب"
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1618,8 +1573,8 @@
     "exchange": "NASDAQ",
     "name": "Vivos Therapeutics, Inc.",
     "short_pct_float": 0.0929,
-    "ext_price": 0.1388,
-    "ext_chg": 0.058733763999999994,
+    "ext_price": 0.1337,
+    "ext_chg": 0.019832184,
     "ext_session": "pre"
    },
    "news": []
@@ -2193,8 +2148,8 @@
     "exchange": "NASDAQ",
     "name": "Rocket One Inc.",
     "short_pct_float": 0.040799998,
-    "ext_price": 0.5,
-    "ext_chg": -0.013806763,
+    "ext_price": 0.5001,
+    "ext_chg": -0.013609492,
     "ext_session": "pre"
    },
    "news": []
@@ -2366,8 +2321,8 @@
     "exchange": "NASDAQ",
     "name": "GEN Restaurant Group, Inc.",
     "short_pct_float": 0.0421,
-    "ext_price": 1.6155,
-    "ext_chg": -0.04408289,
+    "ext_price": 1.6616,
+    "ext_chg": -0.01680477,
     "ext_session": "pre"
    },
    "news": []
@@ -2670,14 +2625,12 @@
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
     "هدوء بعد شمعة الضخ وتكوين دعم جديد",
-    "السعر في البري 0.606 تحت الوقف — الدعم مكسور حالياً",
     "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 1 يوم (طار إلى 0.959 وأغلق 0.699 بفوليوم 1449x)",
     "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
-    "فشل عند MA20",
-    "نزل في البري تحت الوقف (0.606)"
+    "فشل عند MA20"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -2696,8 +2649,8 @@
     "exchange": "NASDAQ",
     "name": "SenesTech, Inc.",
     "short_pct_float": 0.0058999998,
-    "ext_price": 0.6063,
-    "ext_chg": -0.06276087000000001,
+    "ext_price": 0.6531,
+    "ext_chg": 0.009584194400000001,
     "ext_session": "pre"
    },
    "news": []
@@ -2868,8 +2821,8 @@
     "exchange": "NASDAQ",
     "name": "AGM Group Holdings Inc.",
     "short_pct_float": 0.0399,
-    "ext_price": 0.5103,
-    "ext_chg": -0.033339648,
+    "ext_price": 0.505,
+    "ext_chg": -0.0433794,
     "ext_session": "pre"
    },
    "news": []
@@ -2953,8 +2906,8 @@
     "exchange": "NASDAQ",
     "name": "AiRWA Inc.",
     "short_pct_float": 0.0563,
-    "ext_price": 0.6797,
-    "ext_chg": -0.022295753999999997,
+    "ext_price": 0.67,
+    "ext_chg": -0.036248574,
     "ext_session": "pre"
    },
    "news": []
@@ -3122,8 +3075,8 @@
     "exchange": "NASDAQ",
     "name": "Sionna Therapeutics, Inc.",
     "short_pct_float": 0.1363,
-    "ext_price": 3.9,
-    "ext_chg": 0.0025706917,
+    "ext_price": 3.8733,
+    "ext_chg": -0.0042930666,
     "ext_session": "pre"
    },
    "news": []
@@ -3183,10 +3136,12 @@
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.93 ثم استرداد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب",
     "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 0.99 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -3206,7 +3161,10 @@
     "market_cap": 13472332,
     "exchange": "NASDAQ",
     "name": "Tvardi Therapeutics, Inc.",
-    "short_pct_float": 0.016900001
+    "short_pct_float": 0.016900001,
+    "ext_price": 0.99,
+    "ext_chg": -0.019801961,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3557,30 +3515,30 @@
    "status": "WATCH",
    "setup": "MOM_ABOVE_VWAP",
    "setup_ar": "زخم بري ماركت — فوق الفواب — بانتظار Pullback",
-   "price": 1.5285,
+   "price": 1.5301,
    "score": 4,
    "conditions": {},
    "support_low": 1.4524,
    "support_high": null,
    "support_touches": 0,
-   "trigger_level": 1.4586166666666665,
-   "stop": 1.4513235833333331,
-   "entry_low": 1.4586166666666665,
-   "entry_high": 1.4877889999999998,
+   "trigger_level": 1.4818,
+   "stop": 1.474391,
+   "entry_low": 1.4818,
+   "entry_high": 1.511436,
    "t1": 1.600000023841858,
    "t1_label": "مقاومة يومية قريبة",
    "t2": 2.78,
    "t2_label": "قمة بري ماركت",
-   "rr": 0.93,
-   "risk_pct": 0.0505,
+   "rr": 1.25,
+   "risk_pct": 0.0364,
    "rsi_now": null,
    "rsi_min": null,
    "ma_state": "",
    "macd_state": "",
    "candle": "",
-   "volume_note": "فوليوم بري ماركت 12.90M (48327% من يوم عادي)",
+   "volume_note": "فوليوم بري ماركت 25.46M (95392% من يوم عادي)",
    "waiting_for": [
-    "أول Pullback قرب الفواب 1.46 مع ثبات"
+    "أول Pullback قرب الفواب 1.48 مع ثبات"
    ],
    "flags": [
     "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة"
@@ -3591,16 +3549,16 @@
    "rank": 4,
    "meta": {
     "segment": "pre",
-    "change": 0.4557,
+    "change": 0.4572,
     "gap": 0.0,
-    "rvol": 483.27,
-    "rvol_pace": 483.27,
-    "vwap": 1.4586,
+    "rvol": 953.92,
+    "rvol_pace": 953.92,
+    "vwap": 1.4818,
     "hod": 2.78,
     "move_base": 1.4524,
-    "segment_volume": 12895980.0,
-    "pullback_from_hod": 0.4502,
-    "dist_vwap": 0.0479,
+    "segment_volume": 25455330.0,
+    "pullback_from_hod": 0.4496,
+    "dist_vwap": 0.0326,
     "volume_known": true,
     "float": 4033552,
     "market_cap": 21417088,
@@ -3611,63 +3569,62 @@
    "news": []
   },
   {
-   "ticker": "IPW",
+   "ticker": "MASK",
    "kind": "momentum",
    "status": "WATCH",
-   "setup": "MOM_BELOW_VWAP",
-   "setup_ar": "زخم بري ماركت — تحت الفواب — لا دخول",
-   "price": 0.4807,
-   "score": 2.69,
+   "setup": "MOM_ABOVE_VWAP",
+   "setup_ar": "زخم بري ماركت — فوق الفواب — بانتظار Pullback",
+   "price": 1.0412,
+   "score": 3.48,
    "conditions": {},
-   "support_low": 0.4709,
+   "support_low": 0.82,
    "support_high": null,
    "support_touches": 0,
-   "trigger_level": 0.5034228070175438,
-   "stop": null,
-   "entry_low": 0.5034228070175438,
-   "entry_high": 0.5134912631578947,
-   "t1": 0.5009999871253967,
-   "t1_label": "مقاومة يومية قريبة",
-   "t2": 0.775,
-   "t2_label": "قمة بري ماركت",
-   "rr": null,
-   "risk_pct": null,
+   "trigger_level": 0.9154599999999998,
+   "stop": 0.9108826999999998,
+   "entry_low": 0.9154599999999998,
+   "entry_high": 0.9337691999999999,
+   "t1": 1.1,
+   "t1_label": "قمة بري ماركت",
+   "t2": 1.2050000429153442,
+   "t2_label": "فجوة لم تُغطَّ",
+   "rr": 0.45,
+   "risk_pct": 0.1252,
    "rsi_now": null,
    "rsi_min": null,
    "ma_state": "",
    "macd_state": "",
    "candle": "",
-   "volume_note": "فوليوم بري ماركت 41.49M (851% من يوم عادي)",
+   "volume_note": "فوليوم بري ماركت 10.38M (1469% من يوم عادي)",
    "waiting_for": [
-    "استرداد الفواب 0.50 والثبات فوقه"
+    "أول Pullback قرب الفواب 0.92 مع ثبات"
    ],
    "flags": [
     "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة",
-    "تقسيم عكسي حديث 1:9 (2026-08-07)",
-    "سعر منخفض جداً — سبريد واسع"
+    "سهم صيني عالي التذبذب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥"
    ],
-   "rank": 2.69,
+   "rank": 3.48,
    "meta": {
     "segment": "pre",
-    "change": 0.1988,
+    "change": 0.2966,
     "gap": 0.0,
-    "rvol": 8.51,
-    "rvol_pace": 8.51,
-    "vwap": 0.5034,
-    "hod": 0.775,
-    "move_base": 0.4709,
-    "segment_volume": 41486404.0,
-    "pullback_from_hod": 0.3797,
-    "dist_vwap": -0.0451,
+    "rvol": 14.69,
+    "rvol_pace": 14.69,
+    "vwap": 0.9155,
+    "hod": 1.1,
+    "move_base": 0.82,
+    "segment_volume": 10379114.0,
+    "pullback_from_hod": 0.0535,
+    "dist_vwap": 0.1374,
     "volume_known": true,
-    "float": 1257584,
-    "market_cap": 1111587,
+    "float": 599408,
+    "market_cap": 2906849,
     "exchange": "NASDAQ",
-    "name": "iPower Inc.",
-    "short_pct_float": 0.05
+    "name": "3 E Network Technology Group Limited",
+    "short_pct_float": 0.025999999
    },
    "news": []
   },
@@ -3677,16 +3634,16 @@
    "status": "WATCH",
    "setup": "MOM_BELOW_VWAP",
    "setup_ar": "زخم بري ماركت — تحت الفواب — لا دخول",
-   "price": 2.7885,
-   "score": 1.25,
+   "price": 2.76,
+   "score": 1.28,
    "conditions": {},
    "support_low": 2.33,
    "support_high": null,
    "support_touches": 0,
-   "trigger_level": 2.9107175438596484,
+   "trigger_level": 2.869498639455782,
    "stop": null,
-   "entry_low": 2.9107175438596484,
-   "entry_high": 2.9689318947368415,
+   "entry_low": 2.869498639455782,
+   "entry_high": 2.926888612244898,
    "t1": 3.065000057220459,
    "t1_label": "مقاومة يومية قريبة",
    "t2": 3.28,
@@ -3698,27 +3655,27 @@
    "ma_state": "",
    "macd_state": "",
    "candle": "",
-   "volume_note": "فوليوم بري ماركت 15.06M (160% من يوم عادي)",
+   "volume_note": "فوليوم بري ماركت 19.17M (204% من يوم عادي)",
    "waiting_for": [
-    "استرداد الفواب 2.91 والثبات فوقه"
+    "استرداد الفواب 2.87 والثبات فوقه"
    ],
    "flags": [
     "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة"
    ],
    "tags": [],
-   "rank": 1.25,
+   "rank": 1.28,
    "meta": {
     "segment": "pre",
-    "change": 0.1866,
+    "change": 0.1745,
     "gap": 0.0,
-    "rvol": 1.6,
-    "rvol_pace": 1.6,
-    "vwap": 2.9107,
+    "rvol": 2.04,
+    "rvol_pace": 2.04,
+    "vwap": 2.8695,
     "hod": 3.28,
     "move_base": 2.33,
-    "segment_volume": 15057107.0,
-    "pullback_from_hod": 0.1498,
-    "dist_vwap": -0.042,
+    "segment_volume": 19165002.0,
+    "pullback_from_hod": 0.1585,
+    "dist_vwap": -0.0382,
     "volume_known": true,
     "float": 33689050,
     "market_cap": 151186752,
@@ -3729,122 +3686,360 @@
    "news": []
   },
   {
-   "ticker": "PLAG",
+   "ticker": "UPLD",
    "kind": "momentum",
    "status": "WATCH",
    "setup": "MOM_ABOVE_VWAP",
    "setup_ar": "زخم بري ماركت — فوق الفواب — بانتظار Pullback",
-   "price": 0.7478,
-   "score": 0.91,
+   "price": 3.84,
+   "score": 1.21,
    "conditions": {},
-   "support_low": 0.6564,
+   "support_low": 3.9,
    "support_high": null,
    "support_touches": 0,
-   "trigger_level": 0.7061062499999998,
-   "stop": 0.7025757187499998,
-   "entry_low": 0.7061062499999998,
-   "entry_high": 0.7202283749999998,
-   "t1": 0.7599999904632568,
-   "t1_label": "مقاومة يومية قريبة",
-   "t2": 0.7900000214576721,
-   "t2_label": "قمة سابقة + رأس شمعة هابطة",
-   "rr": 0.27,
-   "risk_pct": 0.0605,
+   "trigger_level": 3.824891111111112,
+   "stop": 3.8057666555555563,
+   "entry_low": 3.824891111111112,
+   "entry_high": 3.901388933333334,
+   "t1": 4.0,
+   "t1_label": "قمة بري ماركت",
+   "t2": 4.289999961853027,
+   "t2_label": "قمة سابقة",
+   "rr": 4.67,
+   "risk_pct": 0.0089,
    "rsi_now": null,
    "rsi_min": null,
    "ma_state": "",
    "macd_state": "",
    "candle": "",
-   "volume_note": "فوليوم بري ماركت 0.24M (120% من يوم عادي)",
+   "volume_note": "فوليوم بري ماركت 0.12M (257% من يوم عادي)",
    "waiting_for": [
-    "أول Pullback قرب الفواب 0.71 مع ثبات"
+    "أول Pullback قرب الفواب 3.82 مع ثبات"
    ],
    "flags": [
     "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة"
    ],
    "tags": [
-    "فلووت أقل من 20M"
+    "فلووت أقل من 5M 🔥"
    ],
-   "rank": 0.91,
+   "rank": 1.21,
    "meta": {
     "segment": "pre",
-    "change": 0.133,
+    "change": 0.1395,
     "gap": 0.0,
-    "rvol": 1.2,
-    "rvol_pace": 1.2,
-    "vwap": 0.7061,
-    "hod": 0.7502,
-    "move_base": 0.6564,
-    "segment_volume": 243362.0,
-    "pullback_from_hod": 0.0032,
-    "dist_vwap": 0.059,
+    "rvol": 2.57,
+    "rvol_pace": 2.57,
+    "vwap": 3.8249,
+    "hod": 4.0,
+    "move_base": 3.9,
+    "segment_volume": 115989.0,
+    "pullback_from_hod": 0.04,
+    "dist_vwap": 0.004,
     "volume_known": true,
-    "float": 11683493,
-    "market_cap": 9336661,
-    "exchange": "AMEX",
-    "name": "Planet Green Holdings Corp.",
-    "short_pct_float": 0.0414
+    "float": 2131100,
+    "market_cap": 9965733,
+    "exchange": "NASDAQ",
+    "name": "Upland Software, Inc.",
+    "short_pct_float": 0.0432
    },
    "news": []
   },
   {
-   "ticker": "VCIG",
+   "ticker": "MEDS",
    "kind": "momentum",
    "status": "WATCH",
-   "setup": "MOM_BELOW_VWAP",
-   "setup_ar": "زخم بري ماركت — تحت الفواب — لا دخول",
-   "price": 0.27,
-   "score": 0.8,
+   "setup": "MOM_ABOVE_VWAP",
+   "setup_ar": "زخم بري ماركت — فوق الفواب — بانتظار Pullback",
+   "price": 3.15,
+   "score": 1.06,
    "conditions": {},
-   "support_low": 0.347,
+   "support_low": 2.93,
    "support_high": null,
    "support_touches": 0,
-   "trigger_level": 0.2774288288288288,
-   "stop": null,
-   "entry_low": 0.2774288288288288,
-   "entry_high": 0.2829774054054054,
-   "t1": 0.27399998903274536,
-   "t1_label": "مقاومة يومية قريبة",
-   "t2": 0.3837,
-   "t2_label": "قمة بري ماركت",
-   "rr": null,
-   "risk_pct": null,
+   "trigger_level": 3.0490742424242416,
+   "stop": 3.0338288712121204,
+   "entry_low": 3.0490742424242416,
+   "entry_high": 3.1100557272727265,
+   "t1": 3.3,
+   "t1_label": "قمة بري ماركت",
+   "t2": 3.430000066757202,
+   "t2_label": "رأس شمعة هابطة",
+   "rr": 1.29,
+   "risk_pct": 0.0369,
    "rsi_now": null,
    "rsi_min": null,
    "ma_state": "",
    "macd_state": "",
    "candle": "",
-   "volume_note": "فوليوم بري ماركت 15.76M (188% من يوم عادي)",
+   "volume_note": "فوليوم بري ماركت 2.07M (35% من يوم عادي)",
    "waiting_for": [
-    "استرداد الفواب 0.28 والثبات فوقه"
+    "أول Pullback قرب الفواب 3.05 مع ثبات"
    ],
    "flags": [
     "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة",
-    "تقسيم عكسي حديث 1:15 (2026-08-24)",
-    "سعر منخفض جداً — سبريد واسع"
+    "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥"
    ],
-   "rank": 0.8,
+   "rank": 1.06,
    "meta": {
     "segment": "pre",
-    "change": 0.0843,
+    "change": 0.1977,
     "gap": 0.0,
-    "rvol": 1.88,
-    "rvol_pace": 1.88,
-    "vwap": 0.2774,
-    "hod": 0.3837,
-    "move_base": 0.347,
-    "segment_volume": 15758239.0,
-    "pullback_from_hod": 0.2963,
-    "dist_vwap": -0.0268,
+    "rvol": 0.35,
+    "rvol_pace": 0.35,
+    "vwap": 3.0491,
+    "hod": 3.3,
+    "move_base": 2.93,
+    "segment_volume": 2070404.0,
+    "pullback_from_hod": 0.0455,
+    "dist_vwap": 0.0331,
     "volume_known": true,
-    "float": 258944,
-    "market_cap": 516252,
+    "float": 1272074,
+    "market_cap": 11876718,
     "exchange": "NASDAQ",
-    "name": "VCI Global Limited",
-    "short_pct_float": 0.0016
+    "name": "DataMEDS AI, Inc.",
+    "short_pct_float": 0.1514
+   },
+   "news": []
+  },
+  {
+   "ticker": "TCRT",
+   "kind": "momentum",
+   "status": "WATCH",
+   "setup": "MOM_EXTENDED",
+   "setup_ar": "زخم بري ماركت — ممتد بعيداً عن الفواب — مطاردة خطرة",
+   "price": 3.11,
+   "score": 1.06,
+   "conditions": {},
+   "support_low": 2.6405,
+   "support_high": null,
+   "support_touches": 0,
+   "trigger_level": 2.7019812500000007,
+   "stop": 2.6884713437500007,
+   "entry_low": 2.7019812500000007,
+   "entry_high": 2.756020875000001,
+   "t1": 3.65,
+   "t1_label": "قمة بري ماركت",
+   "t2": 4.400000095367432,
+   "t2_label": "قمة سابقة",
+   "rr": 1.28,
+   "risk_pct": 0.1355,
+   "rsi_now": null,
+   "rsi_min": null,
+   "ma_state": "",
+   "macd_state": "",
+   "candle": "",
+   "volume_note": "فوليوم بري ماركت 13.79M (73% من يوم عادي)",
+   "waiting_for": [
+    "بعيد 15% عن الفواب — لا مطاردة، انتظر الرجوع قرب 2.70 أو بداية الحركة 2.64"
+   ],
+   "flags": [
+    "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة",
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥"
+   ],
+   "rank": 1.06,
+   "meta": {
+    "segment": "pre",
+    "change": 0.1825,
+    "gap": 0.0,
+    "rvol": 0.73,
+    "rvol_pace": 0.73,
+    "vwap": 2.702,
+    "hod": 3.65,
+    "move_base": 2.6405,
+    "segment_volume": 13786510.0,
+    "pullback_from_hod": 0.1479,
+    "dist_vwap": 0.151,
+    "volume_known": true,
+    "float": 1203629,
+    "market_cap": 7698365,
+    "exchange": "NASDAQ",
+    "name": "Alaunos Therapeutics, Inc.",
+    "short_pct_float": 0.0036000002
+   },
+   "news": []
+  },
+  {
+   "ticker": "AIBZ",
+   "kind": "momentum",
+   "status": "WATCH",
+   "setup": "MOM_ABOVE_VWAP",
+   "setup_ar": "زخم بري ماركت — فوق الفواب — بانتظار Pullback",
+   "price": 2.66,
+   "score": 0.75,
+   "conditions": {},
+   "support_low": 2.56,
+   "support_high": null,
+   "support_touches": 0,
+   "trigger_level": 2.5419716666666665,
+   "stop": 2.529261808333333,
+   "entry_low": 2.5419716666666665,
+   "entry_high": 2.5928111,
+   "t1": 2.7899999618530273,
+   "t1_label": "مقاومة يومية قريبة",
+   "t2": 3.0899999141693115,
+   "t2_label": "رأس شمعة هابطة",
+   "rr": 0.99,
+   "risk_pct": 0.0491,
+   "rsi_now": null,
+   "rsi_min": null,
+   "ma_state": "",
+   "macd_state": "",
+   "candle": "",
+   "volume_note": "فوليوم بري ماركت 0.10M (23% من يوم عادي)",
+   "waiting_for": [
+    "أول Pullback قرب الفواب 2.54 مع ثبات",
+    "فوليوم بري ماركت أعلى (الحالي 23% من يوم عادي)"
+   ],
+   "flags": [
+    "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة"
+   ],
+   "tags": [],
+   "rank": 0.75,
+   "meta": {
+    "segment": "pre",
+    "change": 0.1416,
+    "gap": 0.0,
+    "rvol": 0.23,
+    "rvol_pace": 0.23,
+    "vwap": 2.542,
+    "hod": 2.68,
+    "move_base": 2.56,
+    "segment_volume": 101372.0,
+    "pullback_from_hod": 0.0075,
+    "dist_vwap": 0.0464,
+    "volume_known": true,
+    "float": 43269511,
+    "market_cap": 148509424,
+    "exchange": "NASDAQ",
+    "name": "Bitzero Holdings Inc."
+   },
+   "news": []
+  },
+  {
+   "ticker": "CYAB",
+   "kind": "momentum",
+   "status": "WATCH",
+   "setup": "MOM_ABOVE_VWAP",
+   "setup_ar": "زخم بري ماركت — فوق الفواب — بانتظار Pullback",
+   "price": 0.1536,
+   "score": 0.49,
+   "conditions": {},
+   "support_low": 0.1437,
+   "support_high": null,
+   "support_touches": 0,
+   "trigger_level": 0.14761428571428573,
+   "stop": 0.1468762142857143,
+   "entry_low": 0.14761428571428573,
+   "entry_high": 0.15056657142857144,
+   "t1": 0.1599999964237213,
+   "t1_label": "مقاومة يومية قريبة",
+   "t2": 0.1899999976158142,
+   "t2_label": "رأس شمعة هابطة",
+   "rr": 0.95,
+   "risk_pct": 0.0438,
+   "rsi_now": null,
+   "rsi_min": null,
+   "ma_state": "",
+   "macd_state": "",
+   "candle": "",
+   "volume_note": "فوليوم بري ماركت 0.14M (1% من يوم عادي)",
+   "waiting_for": [
+    "أول Pullback قرب الفواب 0.15 مع ثبات",
+    "فوليوم بري ماركت أعلى (الحالي 1% من يوم عادي)"
+   ],
+   "flags": [
+    "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 20M"
+   ],
+   "rank": 0.49,
+   "meta": {
+    "segment": "pre",
+    "change": 0.0971,
+    "gap": 0.0,
+    "rvol": 0.01,
+    "rvol_pace": 0.01,
+    "vwap": 0.1476,
+    "hod": 0.1536,
+    "move_base": 0.1437,
+    "segment_volume": 139551.0,
+    "pullback_from_hod": 0.0,
+    "dist_vwap": 0.0405,
+    "volume_known": true,
+    "float": 5383824,
+    "market_cap": 3917006,
+    "exchange": "NASDAQ",
+    "name": "Cyabra, Inc."
+   },
+   "news": []
+  },
+  {
+   "ticker": "SLXN",
+   "kind": "momentum",
+   "status": "WATCH",
+   "setup": "MOM_ABOVE_VWAP",
+   "setup_ar": "زخم بري ماركت — فوق الفواب — بانتظار Pullback",
+   "price": 0.1644,
+   "score": 0.4,
+   "conditions": {},
+   "support_low": 0.1572,
+   "support_high": null,
+   "support_touches": 0,
+   "trigger_level": 0.16086,
+   "stop": 0.1600557,
+   "entry_low": 0.16086,
+   "entry_high": 0.1640772,
+   "t1": 0.18000000715255737,
+   "t1_label": "مقاومة يومية قريبة",
+   "t2": 0.1944,
+   "t2_label": "قمة بري ماركت",
+   "rr": 3.59,
+   "risk_pct": 0.0264,
+   "rsi_now": null,
+   "rsi_min": null,
+   "ma_state": "",
+   "macd_state": "",
+   "candle": "",
+   "volume_note": "فوليوم بري ماركت 2.48M (12% من يوم عادي)",
+   "waiting_for": [
+    "أول Pullback قرب الفواب 0.16 مع ثبات",
+    "فوليوم بري ماركت أعلى (الحالي 12% من يوم عادي)"
+   ],
+   "flags": [
+    "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة",
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 20M"
+   ],
+   "rank": 0.4,
+   "meta": {
+    "segment": "pre",
+    "change": 0.0745,
+    "gap": 0.0,
+    "rvol": 0.12,
+    "rvol_pace": 0.12,
+    "vwap": 0.1609,
+    "hod": 0.1944,
+    "move_base": 0.1572,
+    "segment_volume": 2483314.0,
+    "pullback_from_hod": 0.1543,
+    "dist_vwap": 0.022,
+    "volume_known": true,
+    "float": 5555085,
+    "market_cap": 2214413,
+    "exchange": "NASDAQ",
+    "name": "Silexion Therapeutics Corp",
+    "short_pct_float": 0.3948
    },
    "news": []
   }
@@ -3853,50 +4048,62 @@
  "ext_debug": [
   {
    "t": "AAME",
-   "chg": 0.466,
-   "bars": 38,
+   "chg": 0.467,
+   "bars": 49,
    "vol": 0.0
   },
   {
    "t": "SAFX",
-   "chg": 0.375,
-   "bars": 38,
+   "chg": 0.353,
+   "bars": 49,
    "vol": 0.0
   },
   {
-   "t": "IPW",
-   "chg": 0.216,
-   "bars": 38,
-   "vol": 0.0
-  },
-  {
-   "t": "XLAB",
-   "chg": 0.191,
-   "bars": 38,
-   "vol": 0.0
-  },
-  {
-   "t": "PLAG",
-   "chg": 0.161,
-   "bars": 16,
+   "t": "MASK",
+   "chg": 0.332,
+   "bars": 5,
    "vol": 0.0
   },
   {
    "t": "MEDS",
-   "chg": 0.16,
-   "bars": 32,
+   "chg": 0.198,
+   "bars": 44,
+   "vol": 0.0
+  },
+  {
+   "t": "TCRT",
+   "chg": 0.183,
+   "bars": 48,
+   "vol": 0.0
+  },
+  {
+   "t": "MDBH",
+   "chg": 0.181,
+   "bars": 0,
+   "vol": 0.0
+  },
+  {
+   "t": "XLAB",
+   "chg": 0.174,
+   "bars": 49,
+   "vol": 0.0
+  },
+  {
+   "t": "AIBZ",
+   "chg": 0.142,
+   "bars": 20,
    "vol": 0.0
   },
   {
    "t": "UPLD",
-   "chg": 0.145,
-   "bars": 18,
+   "chg": 0.139,
+   "bars": 30,
    "vol": 0.0
   },
   {
-   "t": "USBC",
-   "chg": 0.137,
-   "bars": 2,
+   "t": "RML",
+   "chg": 0.126,
+   "bars": 0,
    "vol": 0.0
   },
   {
@@ -3906,39 +4113,27 @@
    "vol": 0.0
   },
   {
-   "t": "GELS",
-   "chg": 0.11,
-   "bars": 1,
-   "vol": 0.0
-  },
-  {
-   "t": "OPNW",
-   "chg": 0.109,
-   "bars": 21,
-   "vol": 0.0
-  },
-  {
    "t": "DOMH",
    "chg": 0.107,
    "bars": 1,
    "vol": 0.0
   },
   {
-   "t": "KALA",
-   "chg": 0.106,
-   "bars": 3,
+   "t": "GRDX",
+   "chg": 0.102,
+   "bars": 0,
    "vol": 0.0
   },
   {
-   "t": "VCIG",
-   "chg": 0.1,
-   "bars": 37,
+   "t": "ACON",
+   "chg": 0.092,
+   "bars": 1,
    "vol": 0.0
   },
   {
-   "t": "HAIN",
-   "chg": 0.097,
-   "bars": 7,
+   "t": "QCLS",
+   "chg": 0.091,
+   "bars": 1,
    "vol": 0.0
   }
  ],
@@ -3948,7 +4143,7 @@
    "price": 1.6699999570846558,
    "price_label": "آخر سعر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
-   "source": "مستويات فيصل (أرسلها المستخدم)",
+   "source": "مستويات فيصل",
    "added": "2026-10-16",
    "label": "مستوى فيصل",
    "levels": {
@@ -3964,14 +4159,15 @@
    "state": "WAITING",
    "state_ar": "فوق منطقة الطلب بـ 8% — ينتظر النزول لـ 1.5–1.55؛ تحت مستوى الاختراق 1.7 بـ 2%",
    "alert": false,
+   "session": "pre",
    "scanner": null
   },
   {
    "ticker": "NCPL",
-   "price": 2.0504,
+   "price": 2.0707,
    "price_label": "سعر البري",
    "note": "منطقة 1: فواب أمس 2.08–2.12 · منطقة 2 (أقوى): 1.95–1.98 · ادخل فقط بعد ثبات شمعة 15 دقيقة إيجابية · لا شراء عند 2.30–2.42",
-   "source": "تحليل Claude — إعادة دخول بعد البيع",
+   "source": "تحليل Claude",
    "added": "2026-10-16",
    "label": "متابعة",
    "levels": {
@@ -3987,20 +4183,43 @@
    "state": "IN_ZONE",
    "state_ar": "🎯 داخل منطقة المتابعة 1.95–2.12 — ادخل فقط بعد ثبات وشمعة إيجابية",
    "alert": true,
+   "session": "pre",
+   "scanner": null
+  },
+  {
+   "ticker": "AAME",
+   "price": 1.5401,
+   "price_label": "سعر البري",
+   "note": "قفزة بري ماركت +55% (سحب لـ 2.78 ثم نزل). دخول 1: رجوع للفواب 1.47–1.50 مع ثبات وشمعة إيجابية بعد الافتتاح · دخول 2: إغلاق 15 دقيقة فوق 1.70 بعد الافتتاح مع فوليوم · لا شراء عند 1.60–1.68",
+   "source": "تحليل Claude — زخم بري ماركت",
+   "added": "2026-10-19",
+   "label": "متابعة",
+   "levels": {
+    "demand_low": 1.47,
+    "demand_high": 1.5,
+    "stop": 1.44,
+    "breakout": 1.7,
+    "targets": [
+     1.74,
+     1.89
+    ]
+   },
+   "state": "WAITING",
+   "state_ar": "فوق منطقة الطلب بـ 3% — ينتظر النزول لـ 1.47–1.5؛ تحت مستوى الاختراق 1.7 بـ 10%",
+   "alert": false,
+   "session": "pre",
    "scanner": null
   }
  ],
- "new_alerts": [
-  "MEDS"
- ],
+ "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 222955.0,
-   "price": 342.5
+   "volume": 366049.0,
+   "price": 342.6788
   },
   "SNDL": {
-   "volume": 43285.0,
-   "price": 1.22
+   "volume": 43522.0,
+   "price": 1.2301
   }
  }
 }

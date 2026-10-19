@@ -1,11 +1,11 @@
 {
  "ticker": "MRKR",
- "generated_at_et": "2026-10-19T11:02:12.535315-04:00",
+ "generated_at_et": "2026-10-19T12:01:46.575518-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 1.0944,
-  "reg_chg": 0.052307777,
-  "reg_vol": 391216,
+  "reg_price": 1.1175,
+  "reg_chg": 0.07363419,
+  "reg_vol": 444627,
   "prev_close": 1.04,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,24 +28,24 @@
   "lastSplitDate": 1674777600
  },
  "daily": {
-  "price": 1.0944,
-  "chg_1d": 0.0523,
+  "price": 1.1175,
+  "chg_1d": 0.0745,
   "ma": {
-   "MA20": 1.0552,
-   "MA30": 1.0995,
-   "MA50": 1.1695
+   "MA20": 1.0564,
+   "MA30": 1.1002,
+   "MA50": 1.1699
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات — رفض عند MA20",
-  "rsi_now": 51.8,
+  "rsi_now": 53.5,
   "rsi_min15": 30.1,
   "rsi_min30": 30.1,
   "macd": {
-   "line": -0.05536,
-   "signal": -0.06314,
+   "line": -0.05352,
+   "signal": -0.06278,
    "hist_last3": [
     -0.01294,
     -0.00279,
-    0.00778
+    0.00925
    ],
    "state": "تقاطع إيجابي حديث"
   },
@@ -65,21 +65,21 @@
     "d": "2026-10-19",
     "hammer": "False",
     "engulfing": "False",
-    "lower_wick": "False",
-    "strong_green": "False",
-    "upper_wick_ratio": 0.4085526972322618,
-    "close_pos": 0.40400452105850043,
-    "green": "False",
-    "bullish_reversal": "False"
+    "lower_wick": "True",
+    "strong_green": "True",
+    "upper_wick_ratio": 0.38580530812185165,
+    "close_pos": 0.6141946918781483,
+    "green": "True",
+    "bullish_reversal": "True"
    }
   ],
   "atr": 0.0972,
   "avg_vol20": 140585,
-  "last_vol": 397242,
-  "drawdown_90d": 0.364,
+  "last_vol": 453022,
+  "drawdown_90d": 0.35,
   "high_90d": 1.72,
   "low_10d": 0.88,
-  "gain_from_low10": 0.244,
+  "gain_from_low10": 0.27,
   "sell_drying": false,
   "vol_improving": true,
   "higher_lows": false,
@@ -154,7 +154,7 @@
   "w": null,
   "resistances": [
    [
-    1.1695,
+    1.1699,
     "MA50 + قمة سابقة"
    ],
    [
@@ -296,21 +296,21 @@
     "o": 1.115,
     "h": 1.1599,
     "l": 1.05,
-    "c": 1.0944,
-    "v": 397242,
-    "rsi": 51.8,
-    "hist": 0.00778
+    "c": 1.1175,
+    "v": 453022,
+    "rsi": 53.5,
+    "hist": 0.00925
    }
   ]
  },
  "levels_map": {
-  "price": 1.0944,
+  "price": 1.1175,
   "at_price": [],
   "above": [
    {
-    "level": 1.0993,
-    "why": "فواب جلسة 2026-10-19 + MA30 + إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (9)",
-    "confluence": 4
+    "level": 1.12,
+    "why": "إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (9)",
+    "confluence": 2
    },
    {
     "level": 1.15,
@@ -350,12 +350,12 @@
   ],
   "below": [
    {
-    "level": 1.09,
-    "why": "قيعان سابقة متجمعة (8)",
-    "confluence": 1
+    "level": 1.1013,
+    "why": "فواب جلسة 2026-10-19 + MA30 + قيعان سابقة متجمعة (8)",
+    "confluence": 3
    },
    {
-    "level": 1.0552,
+    "level": 1.0564,
     "why": "MA20 + إغلاقات سابقة متجمعة (4) + قاع يوم 2026-10-19 + قيعان سابقة متجمعة (4)",
     "confluence": 4
    },
@@ -392,8 +392,8 @@
   "status": "WATCH",
   "setup": "AT_SUPPORT",
   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-  "price": 1.0944000482559204,
-  "score": 2.75,
+  "price": 1.1174999475479126,
+  "score": 3.75,
   "conditions": {
    "ma": {
     "score": 0.0,
@@ -401,19 +401,19 @@
    },
    "rsi": {
     "score": 0.25,
-    "note": "أدنى RSI 30 والحالي 52 (ارتفع — جزء من الارتداد حصل)"
+    "note": "أدنى RSI 30 والحالي 53 (ارتفع — جزء من الارتداد حصل)"
    },
    "macd": {
     "score": 1.0,
     "note": "تقاطع إيجابي حديث"
    },
    "candle": {
-    "score": 0.0,
-    "note": "لا توجد شمعة إيجابية عند الدعم"
+    "score": 1.0,
+    "note": "ذيل سفلي طويل (رفض كسر)"
    },
    "pressure": {
     "score": 0.5,
-    "note": "هبط 36% من قمة 90 يوم"
+    "note": "هبط 35% من قمة 90 يوم"
    },
    "space": {
     "score": 1.0,
@@ -427,26 +427,26 @@
   "stop": 1.0289999532699585,
   "entry_low": 1.0499999523162842,
   "entry_high": 1.090000033378601,
-  "t1": 1.1694879949092865,
+  "t1": 1.1699499928951262,
   "t1_label": "MA50 + قمة سابقة",
   "t2": 1.309999942779541,
   "t2_label": "قمة سابقة",
-  "rr": 2.43,
+  "rr": 2.44,
   "risk_pct": 0.0383,
-  "rsi_now": 51.8,
+  "rsi_now": 53.5,
   "rsi_min": 30.1,
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات — رفض عند MA20",
   "macd_state": "تقاطع إيجابي حديث",
-  "candle": "",
+  "candle": "ذيل سفلي طويل (رفض كسر)",
   "volume_note": "فوليوم يتحسن مع الارتداد",
   "waiting_for": [
    "نزول السعر لمنطقة الطلب 1.05–1.09",
    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 30)",
    "ليس Former Runner — ما سبق انفجر خلال سنة (فيصل يبحث عن سهم يقدر يتحرك بعنف)",
    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
-   "صعد 24% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
+   "صعد 27% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
    "هدوء بعد شمعة الضخ وتكوين دعم جديد",
-   "اكتمال الشروط الأساسية (2.8 من 6، المطلوب 4.5)"
+   "اكتمال الشروط الأساسية (3.8 من 6، المطلوب 4.5)"
   ],
   "flags": [
    "شمعة ضخ/تصريف قبل 1 يوم (طار إلى 1.2 وأغلق 1.04 بفوليوم 19x)",
@@ -458,12 +458,12 @@
    "فلووت أقل من 20M",
    "فوليوم يتحسن"
   ],
-  "rank": 1.538570962114378,
+  "rank": 2.4285714366809037,
   "meta": {
    "avg_volume": 140585.0,
-   "drawdown": 0.364,
+   "drawdown": 0.35,
    "rr_best": 7.8,
-   "gain_from_low10": 0.244,
+   "gain_from_low10": 0.27,
    "higher_lows": "False",
    "float": 13743992,
    "market_cap": 17340052,
@@ -477,48 +477,48 @@
   "ticker": "MRKR",
   "kind": "momentum",
   "status": "WATCH",
-  "setup": "MOM_BELOW_VWAP",
-  "setup_ar": "زخم الجلسة — تحت الفواب — لا دخول",
-  "price": 1.0944000482559204,
-  "score": 2.26,
+  "setup": "MOM_ABOVE_VWAP",
+  "setup_ar": "زخم الجلسة — فوق الفواب — بانتظار Pullback",
+  "price": 1.1174999475479126,
+  "score": 2.04,
   "conditions": {},
   "support_low": 1.1150000095367432,
   "support_high": null,
   "support_touches": 0,
-  "trigger_level": 1.115856264717447,
-  "stop": null,
-  "entry_low": 1.115856264717447,
-  "entry_high": 1.138173390011796,
+  "trigger_level": 1.1162157433913882,
+  "stop": 1.1106346646744312,
+  "entry_low": 1.1162157433913882,
+  "entry_high": 1.138540058259216,
   "t1": 1.1598999500274658,
   "t1_label": "قمة الجلسة",
   "t2": 1.2000000476837158,
   "t2_label": "قمة سابقة",
-  "rr": null,
-  "risk_pct": null,
+  "rr": 6.18,
+  "risk_pct": 0.0061,
   "rsi_now": null,
   "rsi_min": null,
   "ma_state": "",
   "macd_state": "",
   "candle": "",
-  "volume_note": "RVOL 12.0x",
+  "volume_note": "RVOL 8.3x",
   "waiting_for": [
-   "استرداد الفواب 1.12 والثبات فوقه"
+   "أول Pullback قرب الفواب 1.12 مع ثبات"
   ],
   "flags": [],
   "tags": [],
-  "rank": 2.26,
+  "rank": 2.04,
   "meta": {
    "segment": "regular",
-   "change": 0.0523,
+   "change": 0.0745,
    "gap": 0.0721,
-   "rvol": 2.83,
-   "rvol_pace": 11.98,
-   "vwap": 1.1159,
+   "rvol": 3.22,
+   "rvol_pace": 8.32,
+   "vwap": 1.1162,
    "hod": 1.1598999500274658,
    "move_base": 1.1150000095367432,
-   "segment_volume": 397242.0,
-   "pullback_from_hod": 0.0565,
-   "dist_vwap": -0.0192,
+   "segment_volume": 453022.0,
+   "pullback_from_hod": 0.0366,
+   "dist_vwap": 0.0012,
    "volume_known": true
   },
   "news": []

@@ -1,0 +1,448 @@
+{
+ "ticker": "YCBD",
+ "generated_at_et": "2026-10-19T12:01:46.575518-04:00",
+ "session": "regular",
+ "quote": {
+  "reg_price": 0.34745,
+  "reg_chg": -0.024016904999999998,
+  "reg_vol": 15429,
+  "prev_close": 0.356,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 407876,
+  "state": "REGULAR"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 10906991,
+  "sharesOutstanding": 11205045,
+  "marketCap": 3988996,
+  "shortPercentOfFloat": 0.058000002,
+  "longName": "cbdMD, Inc.",
+  "country": "United States",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "sector": "Healthcare",
+  "lastSplitFactor": "1:8",
+  "lastSplitDate": 1746576000
+ },
+ "daily": {
+  "price": 0.3474,
+  "chg_1d": -0.024,
+  "ma": {
+   "MA20": 0.4167,
+   "MA30": 0.436,
+   "MA50": 0.4662
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 27.7,
+  "rsi_min15": 27.1,
+  "rsi_min30": 27.1,
+  "macd": {
+   "line": -0.03612,
+   "signal": -0.03091,
+   "hist_last3": [
+    -0.007,
+    -0.00592,
+    -0.00521
+   ],
+   "state": "الهيستوجرام يتحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-10-16",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "True",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.0,
+    "close_pos": 0.6,
+    "green": "False",
+    "bullish_reversal": "True"
+   },
+   {
+    "d": "2026-10-19",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.4462807474711152,
+    "close_pos": 0.48966894822528567,
+    "green": "False",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.0324,
+  "avg_vol20": 643290,
+  "last_vol": 12229,
+  "drawdown_90d": 0.576,
+  "high_90d": 0.82,
+  "low_10d": 0.33,
+  "gain_from_low10": 0.053,
+  "sell_drying": true,
+  "vol_improving": false,
+  "higher_lows": true,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_jump": 0.902,
+  "runner_spike": 1.361,
+  "distinct_closes20": 19,
+  "support_zones": [
+   {
+    "low": 0.751,
+    "high": 0.7585,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-04-29",
+    "last": "2026-04-29"
+   },
+   {
+    "low": 0.7,
+    "high": 0.707,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-05-20",
+    "last": "2026-06-03"
+   },
+   {
+    "low": 0.65,
+    "high": 0.66,
+    "touches": 3,
+    "is_bottom": false,
+    "first": "2026-06-16",
+    "last": "2026-07-01"
+   },
+   {
+    "low": 0.534,
+    "high": 0.55,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-07-20",
+    "last": "2026-08-10"
+   },
+   {
+    "low": 0.452,
+    "high": 0.469,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-07-30",
+    "last": "2026-09-03"
+   },
+   {
+    "low": 0.41,
+    "high": 0.4141,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-09-22",
+    "last": "2026-09-22"
+   },
+   {
+    "low": 0.33,
+    "high": 0.3333,
+    "touches": 1,
+    "is_bottom": true,
+    "first": "2026-10-13",
+    "last": "2026-10-13"
+   }
+  ],
+  "support_selected": {
+   "low": 0.33,
+   "high": 0.3333,
+   "touches": 1,
+   "interacting": true
+  },
+  "w": null,
+  "resistances": [
+   [
+    0.412,
+    "قمة سابقة + MA20"
+   ],
+   [
+    0.436,
+    "MA30"
+   ],
+   [
+    0.4662,
+    "MA50 + قمة سابقة"
+   ],
+   [
+    0.505,
+    "قمة سابقة + رأس شمعة هابطة"
+   ],
+   [
+    0.533,
+    "قمة سابقة"
+   ],
+   [
+    0.565,
+    "رأس شمعة هابطة + قمة سابقة"
+   ]
+  ],
+  "high_52w": 2.56,
+  "low_52w": 0.33,
+  "last_bars": [
+   {
+    "d": "2026-10-02",
+    "o": 0.45,
+    "h": 0.46,
+    "l": 0.45,
+    "c": 0.456,
+    "v": 28900,
+    "rsi": 44.1,
+    "hist": 0.00143
+   },
+   {
+    "d": "2026-10-05",
+    "o": 0.456,
+    "h": 0.456,
+    "l": 0.43,
+    "c": 0.43,
+    "v": 75300,
+    "rsi": 39.0,
+    "hist": -0.00011
+   },
+   {
+    "d": "2026-10-06",
+    "o": 0.43,
+    "h": 0.43,
+    "l": 0.405,
+    "c": 0.408,
+    "v": 127800,
+    "rsi": 35.4,
+    "hist": -0.00232
+   },
+   {
+    "d": "2026-10-07",
+    "o": 0.405,
+    "h": 0.41,
+    "l": 0.394,
+    "c": 0.407,
+    "v": 76000,
+    "rsi": 35.2,
+    "hist": -0.00349
+   },
+   {
+    "d": "2026-10-08",
+    "o": 0.4,
+    "h": 0.41,
+    "l": 0.38,
+    "c": 0.395,
+    "v": 74000,
+    "rsi": 33.2,
+    "hist": -0.00464
+   },
+   {
+    "d": "2026-10-09",
+    "o": 0.4,
+    "h": 0.4,
+    "l": 0.381,
+    "c": 0.39,
+    "v": 45600,
+    "rsi": 32.4,
+    "hist": -0.00526
+   },
+   {
+    "d": "2026-10-12",
+    "o": 0.381,
+    "h": 0.412,
+    "l": 0.356,
+    "c": 0.356,
+    "v": 254400,
+    "rsi": 27.5,
+    "hist": -0.00736
+   },
+   {
+    "d": "2026-10-13",
+    "o": 0.359,
+    "h": 0.364,
+    "l": 0.33,
+    "c": 0.355,
+    "v": 203200,
+    "rsi": 27.4,
+    "hist": -0.00815
+   },
+   {
+    "d": "2026-10-14",
+    "o": 0.344,
+    "h": 0.373,
+    "l": 0.335,
+    "c": 0.353,
+    "v": 108400,
+    "rsi": 27.1,
+    "hist": -0.00813
+   },
+   {
+    "d": "2026-10-15",
+    "o": 0.342,
+    "h": 0.368,
+    "l": 0.342,
+    "c": 0.36,
+    "v": 68700,
+    "rsi": 29.8,
+    "hist": -0.007
+   },
+   {
+    "d": "2026-10-16",
+    "o": 0.37,
+    "h": 0.37,
+    "l": 0.335,
+    "c": 0.356,
+    "v": 66000,
+    "rsi": 29.1,
+    "hist": -0.00592
+   },
+   {
+    "d": "2026-10-19",
+    "o": 0.349,
+    "h": 0.3598,
+    "l": 0.3356,
+    "c": 0.3474,
+    "v": 12229,
+    "rsi": 27.7,
+    "hist": -0.00521
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 0.3474,
+  "at_price": [],
+  "above": [
+   {
+    "level": 0.3488,
+    "why": "فواب جلسة 2026-10-19",
+    "confluence": 1
+   },
+   {
+    "level": 0.356,
+    "why": "إغلاقات سابقة متجمعة (5) + قمة يوم 2026-10-19",
+    "confluence": 2
+   },
+   {
+    "level": 0.364,
+    "why": "قمة يوم 2026-10-13 + قمة يوم 2026-10-15 + قمة يوم 2026-10-16",
+    "confluence": 3
+   },
+   {
+    "level": 0.373,
+    "why": "قمة يوم 2026-10-14",
+    "confluence": 1
+   },
+   {
+    "level": 0.412,
+    "why": "قمة سابقة + MA20",
+    "confluence": 2
+   },
+   {
+    "level": 0.43,
+    "why": "قيعان سابقة متجمعة (3) + MA30",
+    "confluence": 2
+   },
+   {
+    "level": 0.45,
+    "why": "قيعان سابقة متجمعة (9) + إغلاقات سابقة متجمعة (7)",
+    "confluence": 2
+   },
+   {
+    "level": 0.46,
+    "why": "قيعان سابقة متجمعة (4) + MA50",
+    "confluence": 2
+   }
+  ],
+  "below": [
+   {
+    "level": 0.342,
+    "why": "قاع يوم 2026-10-15 + قاع يوم 2026-10-19",
+    "confluence": 2
+   },
+   {
+    "level": 0.335,
+    "why": "قاع يوم 2026-10-14 + قاع يوم 2026-10-16 + قيعان سابقة متجمعة (3) + قاع يوم 2026-10-13",
+    "confluence": 4
+   }
+  ]
+ },
+ "pivot": {
+  "ticker": "YCBD",
+  "kind": "pivot",
+  "status": "READY",
+  "setup": "BOUNCE",
+  "setup_ar": "ارتداد مؤكد من الدعم",
+  "price": 0.34744998812675476,
+  "score": 5.25,
+  "conditions": {
+   "ma": {
+    "score": 0.5,
+    "note": "تحت كل المتوسطات (ضغط)"
+   },
+   "rsi": {
+    "score": 0.75,
+    "note": "أدنى RSI 27 والحالي 28"
+   },
+   "macd": {
+    "score": 1.0,
+    "note": "الهيستوجرام يتحسن"
+   },
+   "candle": {
+    "score": 1.0,
+    "note": "ذيل سفلي طويل (رفض كسر)"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 58% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 1.0,
+    "note": "العائد/المخاطرة 7.5"
+   }
+  },
+  "support_low": 0.33000001311302185,
+  "support_high": 0.3333000132441521,
+  "support_touches": 1,
+  "trigger_level": 0.33000001311302185,
+  "stop": 0.3234000128507614,
+  "entry_low": 0.33000001311302185,
+  "entry_high": 0.3432990136414767,
+  "t1": 0.36399999260902405,
+  "t1_label": "قمة يوم قريبة",
+  "t2": 0.41200000047683716,
+  "t2_label": "قمة سابقة + MA20",
+  "rr": 2.06,
+  "risk_pct": 0.0394,
+  "rsi_now": 27.7,
+  "rsi_min": 27.1,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "macd_state": "الهيستوجرام يتحسن",
+  "candle": "ذيل سفلي طويل (رفض كسر)",
+  "volume_note": "فوليوم البيع يضعف",
+  "waiting_for": [],
+  "flags": [
+   "سهم طبي — الخبر قد يغير الاتجاه",
+   "سعر منخفض جداً — سبريد واسع"
+  ],
+  "tags": [
+   "فلووت أقل من 20M",
+   "Former Runner (سبق انفجر +136% في يوم)",
+   "قيعان أعلى",
+   "فوليوم البيع يضعف",
+   "قاع الفترة (قاع تاريخي/سنوي)"
+  ],
+  "rank": 7.98560644969192,
+  "meta": {
+   "avg_volume": 643290.0,
+   "drawdown": 0.576,
+   "rr_best": 7.5,
+   "gain_from_low10": 0.053,
+   "higher_lows": "True",
+   "float": 10906991,
+   "market_cap": 3988996,
+   "exchange": "",
+   "name": "cbdMD, Inc.",
+   "short_pct_float": 0.058000002
+  },
+  "news": []
+ },
+ "momentum": null
+}

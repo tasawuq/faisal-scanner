@@ -1,11 +1,11 @@
 {
  "ticker": "SVRE",
- "generated_at_et": "2026-10-19T11:02:12.535315-04:00",
+ "generated_at_et": "2026-10-19T12:01:46.575518-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 1.879,
-  "reg_chg": 0.1251497,
-  "reg_vol": 30803,
+  "reg_price": 1.945,
+  "reg_chg": 0.16467072000000002,
+  "reg_vol": 39764,
   "prev_close": 1.67,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -18,7 +18,7 @@
  "fund": {
   "floatShares": 1823608,
   "sharesOutstanding": 2499835,
-  "marketCap": 4727438,
+  "marketCap": 4862179,
   "shortPercentOfFloat": 0.006,
   "longName": "SaverOne 2014 Ltd.",
   "country": "Israel",
@@ -28,24 +28,24 @@
   "lastSplitDate": 1771977600
  },
  "daily": {
-  "price": 1.879,
-  "chg_1d": 0.1251,
+  "price": 1.945,
+  "chg_1d": 0.1647,
   "ma": {
-   "MA20": 1.6144,
-   "MA30": 1.8603,
-   "MA50": 2.3124
+   "MA20": 1.6178,
+   "MA30": 1.8625,
+   "MA50": 2.3137
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 53.0,
+  "rsi_now": 54.6,
   "rsi_min15": 23.8,
   "rsi_min30": 23.8,
   "macd": {
-   "line": -0.23931,
-   "signal": -0.33286,
+   "line": -0.23405,
+   "signal": -0.3318,
    "hist_last3": [
     0.02991,
     0.06079,
-    0.09354
+    0.09775
    ],
    "state": "تقاطع إيجابي حديث"
   },
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "True",
-    "upper_wick_ratio": 0.3550004112719509,
-    "close_pos": 0.6449995887280491,
+    "upper_wick_ratio": 0.07142849033383136,
+    "close_pos": 0.9285715096661686,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.2706,
+  "atr": 0.2713,
   "avg_vol20": 72525,
-  "last_vol": 24720,
-  "drawdown_90d": 0.682,
+  "last_vol": 35097,
+  "drawdown_90d": 0.67,
   "high_90d": 5.9,
   "low_10d": 1.01,
-  "gain_from_low10": 0.86,
+  "gain_from_low10": 0.926,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -156,7 +156,7 @@
     "رأس شمعة هابطة"
    ],
    [
-    2.3124,
+    2.3137,
     "MA50"
    ],
    [
@@ -292,26 +292,21 @@
    {
     "d": "2026-10-19",
     "o": 1.77,
-    "h": 1.95,
+    "h": 1.96,
     "l": 1.75,
-    "c": 1.879,
-    "v": 24720,
-    "rsi": 53.0,
-    "hist": 0.09354
+    "c": 1.945,
+    "v": 35097,
+    "rsi": 54.6,
+    "hist": 0.09775
    }
   ]
  },
  "levels_map": {
-  "price": 1.879,
+  "price": 1.945,
   "at_price": [],
   "above": [
    {
-    "level": 1.89,
-    "why": "قمة يوم 2026-10-16 + رأس شمعة هابطة",
-    "confluence": 2
-   },
-   {
-    "level": 1.95,
+    "level": 1.96,
     "why": "قمة يوم 2026-10-19",
     "confluence": 1
    },
@@ -331,7 +326,7 @@
     "confluence": 1
    },
    {
-    "level": 2.3124,
+    "level": 2.3137,
     "why": "MA50",
     "confluence": 1
    },
@@ -344,13 +339,18 @@
     "level": 2.55,
     "why": "قيعان سابقة متجمعة (7) + رأس شمعة هابطة",
     "confluence": 2
+   },
+   {
+    "level": 2.62,
+    "why": "إغلاقات سابقة متجمعة (6)",
+    "confluence": 1
    }
   ],
   "below": [
    {
-    "level": 1.8729,
-    "why": "فواب جلسة 2026-10-19 + MA30",
-    "confluence": 2
+    "level": 1.8903,
+    "why": "فواب جلسة 2026-10-19 + قمة يوم 2026-10-16 + MA30",
+    "confluence": 3
    },
    {
     "level": 1.75,
@@ -363,7 +363,7 @@
     "confluence": 1
    },
    {
-    "level": 1.6144,
+    "level": 1.6178,
     "why": "MA20",
     "confluence": 1
    },

@@ -1,0 +1,395 @@
+{
+ "ticker": "KULR",
+ "generated_at_et": "2026-10-19T10:34:34.456706-04:00",
+ "session": "regular",
+ "quote": {
+  "reg_price": 1.8615,
+  "reg_chg": 0.07593256,
+  "reg_vol": 244950,
+  "prev_close": 1.73,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 871843,
+  "state": "REGULAR"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 43196557,
+  "sharesOutstanding": 46280322,
+  "marketCap": 86150816,
+  "shortPercentOfFloat": 0.1451,
+  "longName": "KULR Technology Group, Inc.",
+  "country": "United States",
+  "industry": "Electronic Components",
+  "sector": "Technology",
+  "lastSplitFactor": "1:8",
+  "lastSplitDate": 1750636800
+ },
+ "daily": {
+  "price": 1.8615,
+  "chg_1d": 0.076,
+  "ma": {
+   "MA20": 2.3541,
+   "MA30": 2.3607,
+   "MA50": 2.4744
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 29.6,
+  "rsi_min15": 21.1,
+  "rsi_min30": 21.1,
+  "macd": {
+   "line": -0.1631,
+   "signal": -0.08738,
+   "hist_last3": [
+    -0.06161,
+    -0.07835,
+    -0.07572
+   ],
+   "state": "بداية تحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-10-16",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.05882348816286517,
+    "close_pos": 0.0,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-19",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "True",
+    "upper_wick_ratio": 0.20555515083280904,
+    "close_pos": 0.7944448491671909,
+    "green": "True",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.1368,
+  "avg_vol20": 764840,
+  "last_vol": 241051,
+  "drawdown_90d": 0.562,
+  "high_90d": 4.25,
+  "low_10d": 1.73,
+  "gain_from_low10": 0.076,
+  "sell_drying": false,
+  "vol_improving": false,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": false,
+  "runner_jump": 0.27,
+  "runner_spike": 0.273,
+  "distinct_closes20": 16,
+  "support_zones": [
+   {
+    "low": 3.43,
+    "high": 3.55,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-05-20",
+    "last": "2026-06-26"
+   },
+   {
+    "low": 2.5,
+    "high": 2.525,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-07-17",
+    "last": "2026-07-17"
+   },
+   {
+    "low": 2.35,
+    "high": 2.4,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-07-29",
+    "last": "2026-09-28"
+   },
+   {
+    "low": 2.23,
+    "high": 2.31,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-08-14",
+    "last": "2026-09-15"
+   }
+  ],
+  "support_selected": null,
+  "w": null,
+  "resistances": [
+   [
+    2.3541,
+    "MA20 + MA30"
+   ],
+   [
+    2.4744,
+    "MA50 + قمة سابقة"
+   ],
+   [
+    2.62,
+    "قمة سابقة"
+   ],
+   [
+    2.79,
+    "قمة سابقة + رأس شمعة هابطة"
+   ],
+   [
+    2.94,
+    "قمة سابقة + فجوة لم تُغطَّ"
+   ],
+   [
+    3.14,
+    "قمة سابقة"
+   ]
+  ],
+  "high_52w": 5.43,
+  "low_52w": 1.73,
+  "last_bars": [
+   {
+    "d": "2026-10-02",
+    "o": 2.64,
+    "h": 2.69,
+    "l": 2.59,
+    "c": 2.65,
+    "v": 514400,
+    "rsi": 59.0,
+    "hist": 0.04049
+   },
+   {
+    "d": "2026-10-05",
+    "o": 2.63,
+    "h": 2.64,
+    "l": 2.5,
+    "c": 2.55,
+    "v": 708500,
+    "rsi": 52.0,
+    "hist": 0.03606
+   },
+   {
+    "d": "2026-10-06",
+    "o": 2.57,
+    "h": 2.62,
+    "l": 2.53,
+    "c": 2.59,
+    "v": 568100,
+    "rsi": 54.3,
+    "hist": 0.03433
+   },
+   {
+    "d": "2026-10-07",
+    "o": 2.55,
+    "h": 2.61,
+    "l": 2.53,
+    "c": 2.59,
+    "v": 515600,
+    "rsi": 54.3,
+    "hist": 0.03175
+   },
+   {
+    "d": "2026-10-08",
+    "o": 2.56,
+    "h": 2.59,
+    "l": 2.46,
+    "c": 2.46,
+    "v": 912700,
+    "rsi": 45.9,
+    "hist": 0.02041
+   },
+   {
+    "d": "2026-10-09",
+    "o": 2.51,
+    "h": 2.53,
+    "l": 2.39,
+    "c": 2.46,
+    "v": 514000,
+    "rsi": 45.9,
+    "hist": 0.01241
+   },
+   {
+    "d": "2026-10-12",
+    "o": 2.43,
+    "h": 2.43,
+    "l": 2.31,
+    "c": 2.33,
+    "v": 723000,
+    "rsi": 38.9,
+    "hist": -0.00138
+   },
+   {
+    "d": "2026-10-13",
+    "o": 2.31,
+    "h": 2.32,
+    "l": 2.15,
+    "c": 2.16,
+    "v": 976700,
+    "rsi": 32.0,
+    "hist": -0.02065
+   },
+   {
+    "d": "2026-10-14",
+    "o": 2.1,
+    "h": 2.11,
+    "l": 1.96,
+    "c": 1.99,
+    "v": 1297200,
+    "rsi": 26.9,
+    "hist": -0.04228
+   },
+   {
+    "d": "2026-10-15",
+    "o": 1.98,
+    "h": 1.99,
+    "l": 1.85,
+    "c": 1.86,
+    "v": 1776500,
+    "rsi": 23.7,
+    "hist": -0.06161
+   },
+   {
+    "d": "2026-10-16",
+    "o": 1.89,
+    "h": 1.9,
+    "l": 1.73,
+    "c": 1.73,
+    "v": 1123100,
+    "rsi": 21.1,
+    "hist": -0.07835
+   },
+   {
+    "d": "2026-10-19",
+    "o": 1.8,
+    "h": 1.88,
+    "l": 1.79,
+    "c": 1.8615,
+    "v": 241051,
+    "rsi": 29.6,
+    "hist": -0.07572
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 1.8615,
+  "at_price": [],
+  "above": [
+   {
+    "level": 1.88,
+    "why": "قمة يوم 2026-10-19 + رأس شمعة هابطة + قمة يوم 2026-10-16",
+    "confluence": 3
+   },
+   {
+    "level": 1.96,
+    "why": "قاع يوم 2026-10-14 + قمة يوم 2026-10-15",
+    "confluence": 2
+   },
+   {
+    "level": 2.11,
+    "why": "قمة يوم 2026-10-14 + قاع يوم 2026-10-13",
+    "confluence": 2
+   },
+   {
+    "level": 2.3,
+    "why": "إغلاقات سابقة متجمعة (3) + قمة يوم 2026-10-13 + قيعان سابقة متجمعة (10)",
+    "confluence": 3
+   },
+   {
+    "level": 2.3541,
+    "why": "MA20 + MA30 + إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (9)",
+    "confluence": 4
+   },
+   {
+    "level": 2.46,
+    "why": "إغلاقات سابقة متجمعة (10) + MA50 + قيعان سابقة متجمعة (16)",
+    "confluence": 3
+   },
+   {
+    "level": 2.54,
+    "why": "قمة سابقة + إغلاقات سابقة متجمعة (14) + قيعان سابقة متجمعة (7)",
+    "confluence": 3
+   },
+   {
+    "level": 2.62,
+    "why": "قمة سابقة + قيعان سابقة متجمعة (4) + إغلاقات سابقة متجمعة (9)",
+    "confluence": 3
+   }
+  ],
+  "below": [
+   {
+    "level": 1.85,
+    "why": "قاع يوم 2026-10-15 + فواب جلسة 2026-10-19",
+    "confluence": 2
+   },
+   {
+    "level": 1.79,
+    "why": "قاع يوم 2026-10-19",
+    "confluence": 1
+   },
+   {
+    "level": 1.73,
+    "why": "قاع يوم 2026-10-16",
+    "confluence": 1
+   }
+  ]
+ },
+ "pivot": null,
+ "momentum": {
+  "ticker": "KULR",
+  "kind": "momentum",
+  "status": "WATCH",
+  "setup": "MOM_ABOVE_VWAP",
+  "setup_ar": "زخم الجلسة — فوق الفواب — بانتظار Pullback",
+  "price": 1.8615000247955322,
+  "score": 0.76,
+  "conditions": {},
+  "support_low": 1.7999999523162842,
+  "support_high": null,
+  "support_touches": 0,
+  "trigger_level": 1.8341706092623635,
+  "stop": 1.8249997562160516,
+  "entry_low": 1.8341706092623635,
+  "entry_high": 1.8708540214476108,
+  "t1": 1.899999976158142,
+  "t1_label": "مقاومة يومية قريبة",
+  "t2": 2.5399999618530273,
+  "t2_label": "قمة سابقة",
+  "rr": 1.05,
+  "risk_pct": 0.0196,
+  "rsi_now": null,
+  "rsi_min": null,
+  "ma_state": "",
+  "macd_state": "",
+  "candle": "",
+  "volume_note": "RVOL 1.9x",
+  "waiting_for": [
+   "أول Pullback قرب الفواب 1.83 مع ثبات",
+   "فوليوم نسبي أعلى (الحالي 1.9x)"
+  ],
+  "flags": [],
+  "tags": [],
+  "rank": 0.76,
+  "meta": {
+   "segment": "regular",
+   "change": 0.076,
+   "gap": 0.0405,
+   "rvol": 0.32,
+   "rvol_pace": 1.92,
+   "vwap": 1.8342,
+   "hod": 1.8799999952316284,
+   "move_base": 1.7999999523162842,
+   "segment_volume": 241051.0,
+   "pullback_from_hod": 0.0098,
+   "dist_vwap": 0.0149,
+   "volume_known": true
+  },
+  "news": []
+ }
+}

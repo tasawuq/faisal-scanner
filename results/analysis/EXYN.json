@@ -1,0 +1,528 @@
+{
+ "ticker": "EXYN",
+ "generated_at_et": "2026-10-19T10:34:34.456706-04:00",
+ "session": "regular",
+ "quote": {
+  "reg_price": 2.33,
+  "reg_chg": 0.18877544000000002,
+  "reg_vol": 805546,
+  "prev_close": 1.96,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 640954,
+  "state": "REGULAR"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 4538210,
+  "sharesOutstanding": 7953957,
+  "marketCap": 18532720,
+  "shortPercentOfFloat": 0.0211,
+  "longName": "Exyn Technologies, Inc.",
+  "country": "United States",
+  "industry": "Software - Infrastructure",
+  "sector": "Technology",
+  "lastSplitFactor": null,
+  "lastSplitDate": null
+ },
+ "daily": {
+  "price": 2.33,
+  "chg_1d": 0.1888,
+  "ma": {
+   "MA20": 2.329,
+   "MA30": 2.4263,
+   "MA50": 2.5488
+  },
+  "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
+  "rsi_now": 48.5,
+  "rsi_min15": 31.6,
+  "rsi_min30": 31.6,
+  "macd": {
+   "line": -0.15348,
+   "signal": -0.13689,
+   "hist_last3": [
+    -0.04413,
+    -0.04387,
+    -0.01659
+   ],
+   "state": "الهيستوجرام يتحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-10-16",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.5000001986821019,
+    "close_pos": 0.2666667461395074,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-19",
+    "hammer": "False",
+    "engulfing": "True",
+    "lower_wick": "False",
+    "strong_green": "True",
+    "upper_wick_ratio": 0.31847147192053726,
+    "close_pos": 0.6815285280794627,
+    "green": "True",
+    "bullish_reversal": "True"
+   }
+  ],
+  "atr": 0.3005,
+  "avg_vol20": 72885,
+  "last_vol": 803428,
+  "drawdown_90d": 0.667,
+  "high_90d": 6.99,
+  "low_10d": 1.79,
+  "gain_from_low10": 0.302,
+  "sell_drying": false,
+  "vol_improving": true,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_jump": 0.4,
+  "runner_spike": 0.696,
+  "distinct_closes20": 18,
+  "support_zones": [
+   {
+    "low": 5.31,
+    "high": 5.3631,
+    "touches": 6,
+    "is_bottom": false,
+    "first": "2026-06-10",
+    "last": "2026-06-10"
+   },
+   {
+    "low": 4.76,
+    "high": 4.89,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-05-27",
+    "last": "2026-06-26"
+   },
+   {
+    "low": 4.25,
+    "high": 4.2925,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-05-19",
+    "last": "2026-05-19"
+   },
+   {
+    "low": 2.43,
+    "high": 2.4543,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-09-15",
+    "last": "2026-09-15"
+   },
+   {
+    "low": 2.1,
+    "high": 2.121,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-09-29",
+    "last": "2026-09-29"
+   },
+   {
+    "low": 1.65,
+    "high": 1.6665,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-08-06",
+    "last": "2026-08-06"
+   },
+   {
+    "low": 1.5,
+    "high": 1.515,
+    "touches": 1,
+    "is_bottom": true,
+    "first": "2026-08-20",
+    "last": "2026-08-20"
+   }
+  ],
+  "support_selected": {
+   "low": 2.1,
+   "high": 2.121,
+   "touches": 5,
+   "interacting": false
+  },
+  "w": null,
+  "resistances": [
+   [
+    2.41,
+    "رأس شمعة هابطة + MA30"
+   ],
+   [
+    2.52,
+    "رأس شمعة هابطة + MA50"
+   ],
+   [
+    2.86,
+    "قمة سابقة"
+   ],
+   [
+    3.03,
+    "رأس شمعة هابطة"
+   ],
+   [
+    3.18,
+    "قمة سابقة"
+   ],
+   [
+    3.38,
+    "رأس شمعة هابطة"
+   ]
+  ],
+  "high_52w": 7.2,
+  "low_52w": 1.5,
+  "last_bars": [
+   {
+    "d": "2026-10-02",
+    "o": 2.4,
+    "h": 2.59,
+    "l": 2.28,
+    "c": 2.34,
+    "v": 72200,
+    "rsi": 41.7,
+    "hist": -0.00729
+   },
+   {
+    "d": "2026-10-05",
+    "o": 2.43,
+    "h": 2.89,
+    "l": 2.43,
+    "c": 2.65,
+    "v": 125800,
+    "rsi": 51.9,
+    "hist": 0.01655
+   },
+   {
+    "d": "2026-10-06",
+    "o": 2.79,
+    "h": 2.86,
+    "l": 2.66,
+    "c": 2.72,
+    "v": 48000,
+    "rsi": 53.9,
+    "hist": 0.03627
+   },
+   {
+    "d": "2026-10-07",
+    "o": 2.7,
+    "h": 2.7,
+    "l": 2.45,
+    "c": 2.53,
+    "v": 62200,
+    "rsi": 48.1,
+    "hist": 0.03569
+   },
+   {
+    "d": "2026-10-08",
+    "o": 2.48,
+    "h": 2.54,
+    "l": 2.43,
+    "c": 2.52,
+    "v": 31500,
+    "rsi": 47.8,
+    "hist": 0.03382
+   },
+   {
+    "d": "2026-10-09",
+    "o": 2.52,
+    "h": 2.52,
+    "l": 2.38,
+    "c": 2.38,
+    "v": 53000,
+    "rsi": 43.9,
+    "hist": 0.02288
+   },
+   {
+    "d": "2026-10-12",
+    "o": 2.52,
+    "h": 2.52,
+    "l": 2.15,
+    "c": 2.19,
+    "v": 74600,
+    "rsi": 39.1,
+    "hist": 0.00357
+   },
+   {
+    "d": "2026-10-13",
+    "o": 2.16,
+    "h": 2.16,
+    "l": 2.0,
+    "c": 2.03,
+    "v": 106100,
+    "rsi": 35.6,
+    "hist": -0.01806
+   },
+   {
+    "d": "2026-10-14",
+    "o": 2.01,
+    "h": 2.06,
+    "l": 1.8,
+    "c": 1.82,
+    "v": 103000,
+    "rsi": 31.6,
+    "hist": -0.04316
+   },
+   {
+    "d": "2026-10-15",
+    "o": 1.79,
+    "h": 2.06,
+    "l": 1.79,
+    "c": 2.0,
+    "v": 116800,
+    "rsi": 38.0,
+    "hist": -0.04413
+   },
+   {
+    "d": "2026-10-16",
+    "o": 2.03,
+    "h": 2.18,
+    "l": 1.88,
+    "c": 1.96,
+    "v": 93600,
+    "rsi": 37.2,
+    "hist": -0.04387
+   },
+   {
+    "d": "2026-10-19",
+    "o": 1.96,
+    "h": 2.51,
+    "l": 1.9448,
+    "c": 2.33,
+    "v": 803428,
+    "rsi": 48.5,
+    "hist": -0.01659
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 2.33,
+  "at_price": [
+   "MA20"
+  ],
+  "above": [
+   {
+    "level": 2.36,
+    "why": "إغلاقات سابقة متجمعة (4)",
+    "confluence": 1
+   },
+   {
+    "level": 2.41,
+    "why": "رأس شمعة هابطة + MA30 + قيعان سابقة متجمعة (8)",
+    "confluence": 3
+   },
+   {
+    "level": 2.51,
+    "why": "قمة يوم 2026-10-19 + إغلاقات سابقة متجمعة (6) + قيعان سابقة متجمعة (7) + رأس شمعة هابطة + MA50",
+    "confluence": 5
+   },
+   {
+    "level": 2.62,
+    "why": "إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (7)",
+    "confluence": 2
+   },
+   {
+    "level": 2.68,
+    "why": "إغلاقات سابقة متجمعة (5)",
+    "confluence": 1
+   },
+   {
+    "level": 2.735,
+    "why": "قيعان سابقة متجمعة (4)",
+    "confluence": 1
+   },
+   {
+    "level": 2.82,
+    "why": "إغلاقات سابقة متجمعة (4) + قمة سابقة",
+    "confluence": 2
+   },
+   {
+    "level": 3.03,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   }
+  ],
+  "below": [
+   {
+    "level": 2.3,
+    "why": "إغلاقات سابقة متجمعة (7) + فواب جلسة 2026-10-19 + قيعان سابقة متجمعة (6)",
+    "confluence": 3
+   },
+   {
+    "level": 2.2,
+    "why": "قيعان سابقة متجمعة (4) + إغلاقات سابقة متجمعة (4) + قمة يوم 2026-10-16 + قمة يوم 2026-10-13",
+    "confluence": 4
+   },
+   {
+    "level": 2.15,
+    "why": "قيعان سابقة متجمعة (3)",
+    "confluence": 1
+   },
+   {
+    "level": 2.06,
+    "why": "قمة يوم 2026-10-14 + قمة يوم 2026-10-15 + إغلاقات سابقة متجمعة (5)",
+    "confluence": 3
+   },
+   {
+    "level": 2.0,
+    "why": "قاع يوم 2026-10-13 + قيعان سابقة متجمعة (3)",
+    "confluence": 2
+   },
+   {
+    "level": 1.9448,
+    "why": "قاع يوم 2026-10-19",
+    "confluence": 1
+   },
+   {
+    "level": 1.88,
+    "why": "قاع يوم 2026-10-16",
+    "confluence": 1
+   },
+   {
+    "level": 1.8,
+    "why": "قاع يوم 2026-10-14 + قيعان سابقة متجمعة (6) + قاع يوم 2026-10-15",
+    "confluence": 3
+   }
+  ]
+ },
+ "pivot": {
+  "ticker": "EXYN",
+  "kind": "pivot",
+  "status": "WATCH",
+  "setup": "AT_SUPPORT",
+  "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+  "price": 2.3299999237060547,
+  "score": 5.25,
+  "conditions": {
+   "ma": {
+    "score": 1.0,
+    "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
+   },
+   "rsi": {
+    "score": 0.25,
+    "note": "أدنى RSI 32 والحالي 48 (ارتفع — جزء من الارتداد حصل)"
+   },
+   "macd": {
+    "score": 1.0,
+    "note": "الهيستوجرام يتحسن"
+   },
+   "candle": {
+    "score": 1.0,
+    "note": "ابتلاعية شرائية (Engulfing)"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 67% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 1.0,
+    "note": "العائد/المخاطرة 14.3"
+   }
+  },
+  "support_low": 2.0999999046325684,
+  "support_high": 2.1209999036788942,
+  "support_touches": 5,
+  "trigger_level": 2.0999999046325684,
+  "stop": 2.057999906539917,
+  "entry_low": 2.0999999046325684,
+  "entry_high": 2.1209999036788942,
+  "t1": 2.4100000858306885,
+  "t1_label": "رأس شمعة هابطة + MA30",
+  "t2": 2.5199999809265137,
+  "t2_label": "رأس شمعة هابطة + MA50",
+  "rr": 5.7,
+  "risk_pct": 0.0249,
+  "rsi_now": 48.5,
+  "rsi_min": 31.6,
+  "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
+  "macd_state": "الهيستوجرام يتحسن",
+  "candle": "ابتلاعية شرائية (Engulfing)",
+  "volume_note": "فوليوم يتحسن مع الارتداد",
+  "waiting_for": [
+   "نزول السعر لمنطقة الطلب 2.10–2.12",
+   "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 32)",
+   "صعد 30% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة"
+  ],
+  "flags": [],
+  "tags": [
+   "فلووت أقل من 5M 🔥",
+   "Former Runner (سبق انفجر +70% في يوم)",
+   "فوليوم يتحسن"
+  ],
+  "rank": 5.702380882098828,
+  "meta": {
+   "avg_volume": 72885.0,
+   "drawdown": 0.667,
+   "rr_best": 14.28,
+   "gain_from_low10": 0.302,
+   "higher_lows": "False",
+   "float": 4538210,
+   "market_cap": 18532720,
+   "exchange": "",
+   "name": "Exyn Technologies, Inc.",
+   "short_pct_float": 0.0211
+  },
+  "news": []
+ },
+ "momentum": {
+  "ticker": "EXYN",
+  "kind": "momentum",
+  "status": "WATCH",
+  "setup": "MOM_ABOVE_VWAP",
+  "setup_ar": "زخم الجلسة — فوق الفواب — بانتظار Pullback",
+  "price": 2.3299999237060547,
+  "score": 2.94,
+  "conditions": {},
+  "support_low": 1.9600000381469727,
+  "support_high": null,
+  "support_touches": 0,
+  "trigger_level": 2.2779228642131657,
+  "stop": 2.2665332498921,
+  "entry_low": 2.2779228642131657,
+  "entry_high": 2.3234813214974293,
+  "t1": 2.509999990463257,
+  "t1_label": "قمة الجلسة",
+  "t2": 2.859999895095825,
+  "t2_label": "قمة سابقة",
+  "rr": 2.84,
+  "risk_pct": 0.0272,
+  "rsi_now": null,
+  "rsi_min": null,
+  "ma_state": "",
+  "macd_state": "",
+  "candle": "",
+  "volume_note": "RVOL 67.2x",
+  "waiting_for": [
+   "أول Pullback قرب الفواب 2.28 مع ثبات"
+  ],
+  "flags": [],
+  "tags": [],
+  "rank": 2.94,
+  "meta": {
+   "segment": "regular",
+   "change": 0.1888,
+   "gap": 0.0,
+   "rvol": 11.02,
+   "rvol_pace": 67.17,
+   "vwap": 2.2779,
+   "hod": 2.509999990463257,
+   "move_base": 1.9600000381469727,
+   "segment_volume": 803428.0,
+   "pullback_from_hod": 0.0717,
+   "dist_vwap": 0.0229,
+   "volume_known": true
+  },
+  "news": []
+ }
+}

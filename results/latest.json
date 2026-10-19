@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-19T22:04:39.816622+00:00",
- "generated_at_et": "2026-10-19T18:04:39.816622-04:00",
+ "generated_at_utc": "2026-10-19T22:14:39.816810+00:00",
+ "generated_at_et": "2026-10-19T18:14:39.816810-04:00",
  "session": "post",
  "provider": "yahoo",
  "counts": {
@@ -987,8 +987,8 @@
     "exchange": "AMEX",
     "name": "Top Ships Inc.",
     "short_pct_float": 0.0654,
-    "ext_price": 0.4284,
-    "ext_chg": 0.028571445999999997,
+    "ext_price": 0.428,
+    "ext_chg": 0.027611046,
     "ext_session": "post"
    },
    "news": []
@@ -1401,8 +1401,8 @@
     "exchange": "NASDAQ",
     "name": "Connect Biopharma Holdings Limited",
     "short_pct_float": 0.0788,
-    "ext_price": 0.8896,
-    "ext_chg": -0.011335877999999999,
+    "ext_price": 0.8874,
+    "ext_chg": -0.013780875,
     "ext_session": "post"
    },
    "news": []
@@ -2059,7 +2059,7 @@
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.162 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.16 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2078,8 +2078,8 @@
     "exchange": "NASDAQ",
     "name": "Vivos Therapeutics, Inc.",
     "short_pct_float": 0.0929,
-    "ext_price": 0.1619,
-    "ext_chg": 0.20014822,
+    "ext_price": 0.1602,
+    "ext_chg": 0.18754631,
     "ext_session": "post"
    },
    "news": []
@@ -2881,10 +2881,12 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.51 ثم استرداد",
     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب",
     "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
    "flags": [
-    "شمعة ضخ/تصريف قبل 17 يوم (طار إلى 1.6 وأغلق 0.819 بفوليوم 74x)"
+    "شمعة ضخ/تصريف قبل 17 يوم (طار إلى 1.6 وأغلق 0.819 بفوليوم 74x)",
+    "صعد في الأفتر إلى 0.55 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -2904,7 +2906,10 @@
     "market_cap": 2434842,
     "exchange": "NASDAQ",
     "name": "Banzai International, Inc.",
-    "short_pct_float": 0.137
+    "short_pct_float": 0.137,
+    "ext_price": 0.55,
+    "ext_chg": -0.0018148586,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3244,8 +3249,8 @@
     "exchange": "NASDAQ",
     "name": "3 E Network Technology Group Limited",
     "short_pct_float": 0.025999999,
-    "ext_price": 0.9621,
-    "ext_chg": 0.03462742,
+    "ext_price": 0.97,
+    "ext_chg": 0.04312296,
     "ext_session": "post"
    },
    "news": []

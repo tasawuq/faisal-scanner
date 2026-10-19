@@ -459,7 +459,11 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         "faisal": faisal,
     }
     # السوق مقفل: لا تنبيهات (البيانات قد تكون ناقصة والدخول غير ممكن)
-    result["new_alerts"] = update_alert_state(result, now_et) if session != "closed" else []
+    # التنبيهات: الفحص الكامل ينبه على أسهم الارتكاز فقط؛ الزخم ومستويات فيصل ينبه عليها الفحص المباشر كل دقيقة
+    # (ALERT_KINDS=all يرجع كل الأنواع هنا — مثلاً إذا الفحص المباشر موقوف)
+    kinds_all = os.getenv("ALERT_KINDS", "pivot") == "all"
+    to_alert = result if kinds_all else {"ready": [s for s in result["ready"] if s.get("kind") != "momentum"], "faisal": []}
+    result["new_alerts"] = update_alert_state(to_alert, now_et) if session != "closed" else []
     if not demo:
         try:
             probe = nasdaq_extended(["AAPL", "SNDL"], "pre",
@@ -481,10 +485,12 @@ def run_once(force=False, demo=False, limit=None) -> dict:
     return result
 
 
-def update_alert_state(result, now_et):
+def update_alert_state(result, now_et, suffix=""):
+    """suffix: الفحص المباشر (زخم + مستويات فيصل) له ملف حالة منفصل "_live" عن فحص الارتكاز الكامل،
+    لأنهم يشتغلون على أجهزة مختلفة ويرفعون للمستودع بنفس الوقت."""
     d = os.path.join(C.RESULTS_DIR, "alerts")
     os.makedirs(d, exist_ok=True)
-    path = os.path.join(d, f"{now_et.date().isoformat()}.json")
+    path = os.path.join(d, f"{now_et.date().isoformat()}{suffix}.json")
     try:
         with open(path, encoding="utf-8") as f:
             state = json.load(f)

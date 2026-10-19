@@ -38,7 +38,11 @@ def main(argv=None):
     ap.add_argument("--minutes", type=int, default=345)
     ap.add_argument("--interval", type=int, default=60)
     ap.add_argument("--push-every", type=int, default=5, help="commit results every N iterations")
+    ap.add_argument("--mode", choices=["quick", "full"], default="quick",
+                    help="quick = زخم + مستويات فيصل كل دقيقة؛ full = فحص الارتكاز الكامل (كل الأسهم) بشكل متواصل")
     a = ap.parse_args(argv)
+    if a.mode == "full":
+        a.push_every = 1
     t_end = _time.time() + a.minutes * 60
     it, last_push = 0, 0
     tree0 = code_tree()  # إذا تحدث الكود في المستودع: نخرج وخطوة السلسلة تعيد التشغيل بالكود الجديد
@@ -53,7 +57,13 @@ def main(argv=None):
         t0 = _time.time()
         new = []
         try:
-            res = run_quick() or {}
+            if a.mode == "full":
+                from .main import run_once, write_outputs
+                res = run_once() or {}
+                if res:
+                    write_outputs(res)
+            else:
+                res = run_quick() or {}
             new = res.get("new_alerts") or []
             log.info("live %s %s: movers=%s ready=%s new=%s (%.0fs)", session, f"{now_et:%H:%M}",
                      (res.get("debug") or {}).get("movers"), [x["ticker"] for x in res.get("ready", [])], new,
@@ -62,7 +72,7 @@ def main(argv=None):
             log.warning("live iteration failed: %s", e)
         it += 1
         if new or it - last_push >= a.push_every:
-            git_push(f"live {now_et:%H:%M} ET" + (f" NEW {','.join(new)}" if new else ""))
+            git_push(f"{'scan' if a.mode == 'full' else 'live'} {now_et:%H:%M} ET" + (f" NEW {','.join(new)}" if new else ""))
             last_push = it
             if tree0 and code_tree() != tree0:
                 log.info("live: code updated in repo — restarting")

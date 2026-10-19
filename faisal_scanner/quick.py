@@ -132,7 +132,7 @@ def run_quick(force=False):
         moms.sort(key=lambda x: (x.status == READY, x.rank), reverse=True)
         result["ready"] = [m.to_dict() for m in moms if m.status == READY]
         result["radar"] = [m.to_dict() for m in moms if m.status != READY][:20]
-        result["new_alerts"] = update_alert_state({"ready": result["ready"], "faisal": []}, now_et)
+        result["new_alerts"] = update_alert_state({"ready": result["ready"], "faisal": []}, now_et, "_live")
         for s in result["ready"]:
             if s["ticker"] in result["new_alerts"]:
                 notify.send(notify.alert_text(s, now_et.astimezone(notify_tz()).strftime("%H:%M الرياض")),
@@ -147,7 +147,7 @@ def run_quick(force=False):
         json.dump(result, f, ensure_ascii=False, indent=1, default=str)
     hist = os.path.join(C.RESULTS_DIR, "history")
     os.makedirs(hist, exist_ok=True)
-    with open(os.path.join(hist, f"{now_et.date().isoformat()}.jsonl"), "a", encoding="utf-8") as f:
+    with open(os.path.join(hist, f"{now_et.date().isoformat()}_live.jsonl"), "a", encoding="utf-8") as f:
         f.write(json.dumps({"t": now_et.isoformat(), "mode": "quick", "ready": [s["ticker"] for s in result["ready"]],
                             "new": result["new_alerts"]}, ensure_ascii=False) + "\n")
     log.info("quick done: ready=%s new=%s", [s["ticker"] for s in result["ready"]], result["new_alerts"])
@@ -184,7 +184,7 @@ def watch_alerts(result, quotes, now_et, session="regular"):
         ev["session"] = session
         evs.append(ev)
     result["watchlist"] = evs
-    new = update_alert_state({"ready": [], "faisal": evs}, now_et)
+    new = update_alert_state({"ready": [], "faisal": evs}, now_et, "_live")
     result["new_alerts"] += new
     when = now_et.astimezone(notify_tz()).strftime("%H:%M الرياض")
     for ev in evs:

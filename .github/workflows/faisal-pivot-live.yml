@@ -1,0 +1,81 @@
+name: Faisal pivot live (full scan every ~10 min)
+
+# فحص الارتكاز الكامل (كل الأسهم الأمريكية) بشكل متواصل كل ~10 دقائق من البري (4:00 نيويورك) إلى نهاية الأفتر (20:00)،
+# وأي سهم ارتكاز يصير جاهز يوصل تنبيهه فوراً. (الزخم ومستويات فيصل في faisal-live كل دقيقة.)
+# يشتغل فقط إذا المستودع عام (دقائق مجانية بلا حد) أو إذا انضاف المتغير LIVE_ALLOW_PRIVATE=1 (اشتراك مدفوع).
+# كل تشغيل حتى 5:45 ساعة ثم يعيد تشغيل نفسه ما دام السوق مفتوح (حد GitHub 6 ساعات للتشغيل).
+# الجداول احتياط فقط (GitHub يتأخر أحياناً)؛ التشغيل الزائد ينتظر في الطابور ولا يتكرر.
+# التوقيت بـ UTC: 8:07 = 4:07 نيويورك صيفي / 3:07 شتوي (ينتظر لين 4:00) — ما يحتاج تعديل بعد 2 نوفمبر.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "9 8 * * 1-5"
+    - cron: "49 11 * * 1-5"
+    - cron: "19 14 * * 1-5"
+    - cron: "43 17 * * 1-5"
+    - cron: "13 21 * * 1-5"
+    - cron: "43 23 * * 1-5"
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: faisal-pivot-live
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - name: Gate (public repo or paid minutes only)
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ALLOW: ${{ vars.LIVE_ALLOW_PRIVATE }}
+        run: |
+          PRIV=$(curl -s -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/${{ github.repository }} | python3 -c "import json,sys;print(json.load(sys.stdin).get('private'))")
+          if [ "$PRIV" = "False" ] || [ "$ALLOW" = "1" ]; then echo "run=1" >> $GITHUB_OUTPUT; else echo "private repo without LIVE_ALLOW_PRIVATE — skip"; echo "run=0" >> $GITHUB_OUTPUT; fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == '1'
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == '1'
+        with:
+          python-version: "3.12"
+          cache: pip
+      - if: steps.gate.outputs.run == '1'
+        run: pip install -r requirements.txt
+      - name: Restore fundamentals cache
+        if: steps.gate.outputs.run == '1'
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: fund-${{ github.run_id }}
+          restore-keys: fund-
+      - name: Live loop
+        if: steps.gate.outputs.run == '1'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+          ALPACA_API_KEY_ID: ${{ secrets.ALPACA_API_KEY_ID }}
+          ALPACA_API_SECRET_KEY: ${{ secrets.ALPACA_API_SECRET_KEY }}
+          ALPACA_FEED: ${{ vars.ALPACA_FEED || 'sip' }}
+          ALPACA_SIP_DELAY_MIN: ${{ vars.ALPACA_SIP_DELAY_MIN || '16' }}
+          ENABLE_MOMENTUM: ${{ vars.ENABLE_MOMENTUM || '1' }}
+        run: |
+          git config user.name "faisal-scanner-bot"
+          git config user.email "actions@users.noreply.github.com"
+          python -m faisal_scanner.live --mode full --minutes 345 --interval 600
+      - name: Chain next run if the session is still open
+        if: always() && steps.gate.outputs.run == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          OPEN=$(python3 -c "from datetime import datetime,timezone;from zoneinfo import ZoneInfo;n=datetime.now(timezone.utc).astimezone(ZoneInfo('America/New_York'));print(int(n.weekday()<5 and (n.hour,n.minute)<(19,50)))")
+          if [ "$OPEN" = "1" ]; then
+            curl -s -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" -H "Content-Type: application/json" \
+              https://api.github.com/repos/${{ github.repository }}/actions/workflows/faisal-pivot-live.yml/dispatches -d '{"ref":"main"}'
+          fi

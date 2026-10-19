@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-19T20:44:39.815433+00:00",
- "generated_at_et": "2026-10-19T16:44:39.815433-04:00",
+ "generated_at_utc": "2026-10-19T20:54:39.815591+00:00",
+ "generated_at_et": "2026-10-19T16:54:39.815591-04:00",
  "session": "post",
  "provider": "yahoo",
  "counts": {
@@ -2035,11 +2035,13 @@
    "waiting_for": [
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 30)",
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب",
     "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.15 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2059,8 +2061,8 @@
     "exchange": "NASDAQ",
     "name": "Vivos Therapeutics, Inc.",
     "short_pct_float": 0.0929,
-    "ext_price": 0.1339,
-    "ext_chg": -0.007412913399999999,
+    "ext_price": 0.15,
+    "ext_chg": 0.11193478000000001,
     "ext_session": "post"
    },
    "news": []
@@ -2637,8 +2639,8 @@
     "exchange": "NASDAQ",
     "name": "CCSC Technology International Holdings Limited",
     "short_pct_float": 0.0013,
-    "ext_price": 0.37,
-    "ext_chg": -0.02374671,
+    "ext_price": 0.3718,
+    "ext_chg": -0.018997368,
     "ext_session": "post"
    },
    "news": []
@@ -3225,8 +3227,8 @@
     "exchange": "NASDAQ",
     "name": "3 E Network Technology Group Limited",
     "short_pct_float": 0.025999999,
-    "ext_price": 0.9424,
-    "ext_chg": 0.013442293000000001,
+    "ext_price": 0.95,
+    "ext_chg": 0.021615224,
     "ext_session": "post"
    },
    "news": []

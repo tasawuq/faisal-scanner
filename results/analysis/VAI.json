@@ -1,11 +1,11 @@
 {
  "ticker": "VAI",
- "generated_at_et": "2026-10-19T10:34:34.456706-04:00",
+ "generated_at_et": "2026-10-19T11:02:12.535315-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 2.72,
-  "reg_chg": 0.15010571,
-  "reg_vol": 526018,
+  "reg_price": 2.7699,
+  "reg_chg": 0.1712051,
+  "reg_vol": 557065,
   "prev_close": 2.365,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,24 +28,24 @@
   "lastSplitDate": 1753747200
  },
  "daily": {
-  "price": 2.72,
-  "chg_1d": 0.1674,
+  "price": 2.7699,
+  "chg_1d": 0.1888,
   "ma": {
-   "MA20": 2.3695,
-   "MA30": 2.27,
-   "MA50": 2.0308
+   "MA20": 2.372,
+   "MA30": 2.2717,
+   "MA50": 2.0318
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 62.8,
+  "rsi_now": 63.9,
   "rsi_min15": 51.6,
   "rsi_min30": 51.6,
   "macd": {
-   "line": 0.17279,
-   "signal": 0.17121,
+   "line": 0.17677,
+   "signal": 0.17201,
    "hist_last3": [
     0.01871,
     -0.00637,
-    0.00157
+    0.00476
    ],
    "state": "تقاطع إيجابي حديث"
   },
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "True",
-    "upper_wick_ratio": 0.12727299524723565,
-    "close_pos": 0.8727270047527643,
+    "upper_wick_ratio": 0.00034447378546271297,
+    "close_pos": 0.9996555262145372,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.2242,
+  "atr": 0.2253,
   "avg_vol20": 59130,
-  "last_vol": 527085,
-  "drawdown_90d": 0.065,
+  "last_vol": 549443,
+  "drawdown_90d": 0.048,
   "high_90d": 2.91,
   "low_10d": 2.21,
-  "gain_from_low10": 0.231,
+  "gain_from_low10": 0.253,
   "sell_drying": true,
   "vol_improving": true,
   "higher_lows": true,
@@ -291,28 +291,25 @@
    {
     "d": "2026-10-19",
     "o": 2.54,
-    "h": 2.755,
+    "h": 2.77,
     "l": 2.48,
-    "c": 2.72,
-    "v": 527085,
-    "rsi": 62.8,
-    "hist": 0.00157
+    "c": 2.7699,
+    "v": 549443,
+    "rsi": 63.9,
+    "hist": 0.00476
    }
   ]
  },
  "levels_map": {
-  "price": 2.72,
-  "at_price": [],
+  "price": 2.7699,
+  "at_price": [
+   "قمة يوم 2026-10-19"
+  ],
   "above": [
    {
-    "level": 2.755,
-    "why": "قمة يوم 2026-10-19 + قمة يوم 2026-10-13",
+    "level": 2.79,
+    "why": "قمة يوم 2026-10-13 + قمة يوم 2026-10-14",
     "confluence": 2
-   },
-   {
-    "level": 2.84,
-    "why": "قمة يوم 2026-10-14",
-    "confluence": 1
    },
    {
     "level": 2.91,
@@ -332,7 +329,7 @@
     "confluence": 4
    },
    {
-    "level": 2.5109,
+    "level": 2.5189,
     "why": "فواب جلسة 2026-10-19 + قاع يوم 2026-10-19",
     "confluence": 2
    },
@@ -342,7 +339,7 @@
     "confluence": 2
    },
    {
-    "level": 2.27,
+    "level": 2.2717,
     "why": "MA30 + إغلاقات سابقة متجمعة (4)",
     "confluence": 2
    },
@@ -370,46 +367,46 @@
   "status": "WATCH",
   "setup": "MOM_ABOVE_VWAP",
   "setup_ar": "زخم الجلسة — فوق الفواب — بانتظار Pullback",
-  "price": 2.7200000286102295,
-  "score": 2.84,
+  "price": 2.76990008354187,
+  "score": 2.94,
   "conditions": {},
   "support_low": 2.5399999618530273,
   "support_high": null,
   "support_touches": 0,
-  "trigger_level": 2.5074438027621095,
-  "stop": 2.494906583748299,
-  "entry_low": 2.5074438027621095,
-  "entry_high": 2.5575926788173518,
+  "trigger_level": 2.515712215671526,
+  "stop": 2.5031336545931686,
+  "entry_low": 2.515712215671526,
+  "entry_high": 2.5660264599849567,
   "t1": 2.8399999141693115,
   "t1_label": "مقاومة يومية قريبة",
   "t2": null,
   "t2_label": "",
-  "rr": 0.53,
-  "risk_pct": 0.0828,
+  "rr": 0.26,
+  "risk_pct": 0.0963,
   "rsi_now": null,
   "rsi_min": null,
   "ma_state": "",
   "macd_state": "",
   "candle": "",
-  "volume_note": "RVOL 54.3x",
+  "volume_note": "RVOL 39.4x",
   "waiting_for": [
-   "أول Pullback قرب الفواب 2.51 مع ثبات"
+   "أول Pullback قرب الفواب 2.52 مع ثبات"
   ],
   "flags": [],
   "tags": [],
-  "rank": 2.84,
+  "rank": 2.94,
   "meta": {
    "segment": "regular",
-   "change": 0.1674,
+   "change": 0.1888,
    "gap": 0.0901,
-   "rvol": 8.91,
-   "rvol_pace": 54.32,
-   "vwap": 2.5074,
-   "hod": 2.755000114440918,
+   "rvol": 9.29,
+   "rvol_pace": 39.39,
+   "vwap": 2.5157,
+   "hod": 2.7699999809265137,
    "move_base": 2.5399999618530273,
-   "segment_volume": 527085.0,
-   "pullback_from_hod": 0.0127,
-   "dist_vwap": 0.0848,
+   "segment_volume": 549443.0,
+   "pullback_from_hod": 0.0,
+   "dist_vwap": 0.101,
    "volume_known": true
   },
   "news": []

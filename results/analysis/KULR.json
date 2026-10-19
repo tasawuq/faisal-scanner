@@ -1,11 +1,11 @@
 {
  "ticker": "KULR",
- "generated_at_et": "2026-10-19T10:34:34.456706-04:00",
+ "generated_at_et": "2026-10-19T11:02:12.535315-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 1.8615,
-  "reg_chg": 0.07593256,
-  "reg_vol": 244950,
+  "reg_price": 1.855,
+  "reg_chg": 0.072254333,
+  "reg_vol": 340948,
   "prev_close": 1.73,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,24 +28,24 @@
   "lastSplitDate": 1750636800
  },
  "daily": {
-  "price": 1.8615,
-  "chg_1d": 0.076,
+  "price": 1.855,
+  "chg_1d": 0.0723,
   "ma": {
-   "MA20": 2.3541,
-   "MA30": 2.3607,
-   "MA50": 2.4744
+   "MA20": 2.3538,
+   "MA30": 2.3605,
+   "MA50": 2.4743
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 29.6,
+  "rsi_now": 29.2,
   "rsi_min15": 21.1,
   "rsi_min30": 21.1,
   "macd": {
-   "line": -0.1631,
-   "signal": -0.08738,
+   "line": -0.16362,
+   "signal": -0.08749,
    "hist_last3": [
     -0.06161,
     -0.07835,
-    -0.07572
+    -0.07613
    ],
    "state": "بداية تحسن"
   },
@@ -66,20 +66,20 @@
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
-    "strong_green": "True",
-    "upper_wick_ratio": 0.20555515083280904,
-    "close_pos": 0.7944448491671909,
+    "strong_green": "False",
+    "upper_wick_ratio": 0.4090904657506337,
+    "close_pos": 0.5909095342493663,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.1368,
+  "atr": 0.1383,
   "avg_vol20": 764840,
-  "last_vol": 241051,
-  "drawdown_90d": 0.562,
+  "last_vol": 336317,
+  "drawdown_90d": 0.564,
   "high_90d": 4.25,
   "low_10d": 1.73,
-  "gain_from_low10": 0.076,
+  "gain_from_low10": 0.072,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -128,11 +128,11 @@
   "w": null,
   "resistances": [
    [
-    2.3541,
+    2.3538,
     "MA20 + MA30"
    ],
    [
-    2.4744,
+    2.4743,
     "MA50 + قمة سابقة"
    ],
    [
@@ -268,22 +268,22 @@
    {
     "d": "2026-10-19",
     "o": 1.8,
-    "h": 1.88,
+    "h": 1.9,
     "l": 1.79,
-    "c": 1.8615,
-    "v": 241051,
-    "rsi": 29.6,
-    "hist": -0.07572
+    "c": 1.855,
+    "v": 336317,
+    "rsi": 29.2,
+    "hist": -0.07613
    }
   ]
  },
  "levels_map": {
-  "price": 1.8615,
+  "price": 1.855,
   "at_price": [],
   "above": [
    {
-    "level": 1.88,
-    "why": "قمة يوم 2026-10-19 + رأس شمعة هابطة + قمة يوم 2026-10-16",
+    "level": 1.89,
+    "why": "رأس شمعة هابطة + قمة يوم 2026-10-16 + قمة يوم 2026-10-19",
     "confluence": 3
    },
    {
@@ -302,7 +302,7 @@
     "confluence": 3
    },
    {
-    "level": 2.3541,
+    "level": 2.3538,
     "why": "MA20 + MA30 + إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (9)",
     "confluence": 4
    },
@@ -347,22 +347,22 @@
   "status": "WATCH",
   "setup": "MOM_ABOVE_VWAP",
   "setup_ar": "زخم الجلسة — فوق الفواب — بانتظار Pullback",
-  "price": 1.8615000247955322,
-  "score": 0.76,
+  "price": 1.8550000190734863,
+  "score": 0.73,
   "conditions": {},
   "support_low": 1.7999999523162842,
   "support_high": null,
   "support_touches": 0,
-  "trigger_level": 1.8341706092623635,
-  "stop": 1.8249997562160516,
-  "entry_low": 1.8341706092623635,
-  "entry_high": 1.8708540214476108,
+  "trigger_level": 1.8460305365449055,
+  "stop": 1.836800383862181,
+  "entry_low": 1.8460305365449055,
+  "entry_high": 1.8829511472758036,
   "t1": 1.899999976158142,
   "t1_label": "مقاومة يومية قريبة",
   "t2": 2.5399999618530273,
   "t2_label": "قمة سابقة",
-  "rr": 1.05,
-  "risk_pct": 0.0196,
+  "rr": 2.47,
+  "risk_pct": 0.0098,
   "rsi_now": null,
   "rsi_min": null,
   "ma_state": "",
@@ -370,24 +370,24 @@
   "candle": "",
   "volume_note": "RVOL 1.9x",
   "waiting_for": [
-   "أول Pullback قرب الفواب 1.83 مع ثبات",
+   "أول Pullback قرب الفواب 1.85 مع ثبات",
    "فوليوم نسبي أعلى (الحالي 1.9x)"
   ],
   "flags": [],
   "tags": [],
-  "rank": 0.76,
+  "rank": 0.73,
   "meta": {
    "segment": "regular",
-   "change": 0.076,
+   "change": 0.0723,
    "gap": 0.0405,
-   "rvol": 0.32,
-   "rvol_pace": 1.92,
-   "vwap": 1.8342,
-   "hod": 1.8799999952316284,
+   "rvol": 0.44,
+   "rvol_pace": 1.86,
+   "vwap": 1.846,
+   "hod": 1.899999976158142,
    "move_base": 1.7999999523162842,
-   "segment_volume": 241051.0,
-   "pullback_from_hod": 0.0098,
-   "dist_vwap": 0.0149,
+   "segment_volume": 336317.0,
+   "pullback_from_hod": 0.0237,
+   "dist_vwap": 0.0049,
    "volume_known": true
   },
   "news": []

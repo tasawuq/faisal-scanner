@@ -1,0 +1,382 @@
+{
+ "ticker": "DH",
+ "generated_at_et": "2026-10-19T11:02:12.535315-04:00",
+ "session": "regular",
+ "quote": {
+  "reg_price": 1.115,
+  "reg_chg": 0.11500000999999999,
+  "reg_vol": 732706,
+  "prev_close": 1.0,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 581267,
+  "state": "REGULAR"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 38717375,
+  "sharesOutstanding": 106744713,
+  "marketCap": 119020352,
+  "shortPercentOfFloat": 0.0373,
+  "longName": "Definitive Healthcare Corp.",
+  "country": "United States",
+  "industry": "Health Information Services",
+  "sector": "Healthcare",
+  "lastSplitFactor": null,
+  "lastSplitDate": null
+ },
+ "daily": {
+  "price": 1.115,
+  "chg_1d": 0.115,
+  "ma": {
+   "MA20": 0.9709,
+   "MA30": 0.9783,
+   "MA50": 0.8989
+  },
+  "ma_state": "فوق MA20",
+  "rsi_now": 71.8,
+  "rsi_min15": 48.4,
+  "rsi_min30": 48.3,
+  "macd": {
+   "line": 0.03118,
+   "signal": 0.0243,
+   "hist_last3": [
+    -0.00148,
+    -0.00075,
+    0.00689
+   ],
+   "state": "تقاطع إيجابي حديث"
+  },
+  "candles": [
+   {
+    "d": "2026-10-16",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.8,
+    "close_pos": 0.2,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-19",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "True",
+    "upper_wick_ratio": 0.07999992370605469,
+    "close_pos": 0.9200000762939453,
+    "green": "True",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.0469,
+  "avg_vol20": 617630,
+  "last_vol": 735990,
+  "drawdown_90d": 0.086,
+  "high_90d": 1.22,
+  "low_10d": 0.96,
+  "gain_from_low10": 0.161,
+  "sell_drying": true,
+  "vol_improving": true,
+  "higher_lows": true,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": false,
+  "runner_jump": 0.185,
+  "runner_spike": 0.353,
+  "distinct_closes20": 19,
+  "support_zones": [
+   {
+    "low": 1.02,
+    "high": 1.0302,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-09-08",
+    "last": "2026-09-08"
+   },
+   {
+    "low": 0.888,
+    "high": 0.904,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-04-30",
+    "last": "2026-09-29"
+   },
+   {
+    "low": 0.803,
+    "high": 0.811,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-05-15",
+    "last": "2026-05-21"
+   },
+   {
+    "low": 0.65,
+    "high": 0.6565,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-07-27",
+    "last": "2026-08-05"
+   },
+   {
+    "low": 0.61,
+    "high": 0.62,
+    "touches": 2,
+    "is_bottom": true,
+    "first": "2026-06-26",
+    "last": "2026-08-14"
+   }
+  ],
+  "support_selected": {
+   "low": 1.02,
+   "high": 1.0302,
+   "touches": 2,
+   "interacting": true
+  },
+  "w": null,
+  "resistances": [
+   [
+    1.22,
+    "قمة سابقة"
+   ]
+  ],
+  "high_52w": 3.035,
+  "low_52w": 0.61,
+  "last_bars": [
+   {
+    "d": "2026-10-02",
+    "o": 0.941,
+    "h": 0.958,
+    "l": 0.929,
+    "c": 0.933,
+    "v": 207200,
+    "rsi": 51.6,
+    "hist": -0.01452
+   },
+   {
+    "d": "2026-10-05",
+    "o": 0.933,
+    "h": 1.0,
+    "l": 0.932,
+    "c": 0.986,
+    "v": 164500,
+    "rsi": 57.4,
+    "hist": -0.00988
+   },
+   {
+    "d": "2026-10-06",
+    "o": 0.976,
+    "h": 1.0,
+    "l": 0.976,
+    "c": 0.988,
+    "v": 176600,
+    "rsi": 57.6,
+    "hist": -0.00661
+   },
+   {
+    "d": "2026-10-07",
+    "o": 0.99,
+    "h": 0.998,
+    "l": 0.97,
+    "c": 0.97,
+    "v": 210300,
+    "rsi": 55.0,
+    "hist": -0.00562
+   },
+   {
+    "d": "2026-10-08",
+    "o": 0.98,
+    "h": 0.983,
+    "l": 0.96,
+    "c": 0.966,
+    "v": 491900,
+    "rsi": 54.5,
+    "hist": -0.00522
+   },
+   {
+    "d": "2026-10-09",
+    "o": 0.97,
+    "h": 0.99,
+    "l": 0.97,
+    "c": 0.98,
+    "v": 126600,
+    "rsi": 56.2,
+    "hist": -0.00404
+   },
+   {
+    "d": "2026-10-12",
+    "o": 0.99,
+    "h": 0.992,
+    "l": 0.97,
+    "c": 0.976,
+    "v": 415700,
+    "rsi": 55.6,
+    "hist": -0.00357
+   },
+   {
+    "d": "2026-10-13",
+    "o": 0.973,
+    "h": 0.991,
+    "l": 0.973,
+    "c": 0.981,
+    "v": 186300,
+    "rsi": 56.3,
+    "hist": -0.003
+   },
+   {
+    "d": "2026-10-14",
+    "o": 0.999,
+    "h": 1.0,
+    "l": 0.974,
+    "c": 0.985,
+    "v": 90900,
+    "rsi": 56.8,
+    "hist": -0.00244
+   },
+   {
+    "d": "2026-10-15",
+    "o": 0.98,
+    "h": 1.005,
+    "l": 0.98,
+    "c": 0.996,
+    "v": 126100,
+    "rsi": 58.5,
+    "hist": -0.00148
+   },
+   {
+    "d": "2026-10-16",
+    "o": 1.0,
+    "h": 1.02,
+    "l": 0.995,
+    "c": 1.0,
+    "v": 187800,
+    "rsi": 59.1,
+    "hist": -0.00075
+   },
+   {
+    "d": "2026-10-19",
+    "o": 1.0,
+    "h": 1.125,
+    "l": 1.0,
+    "c": 1.115,
+    "v": 735990,
+    "rsi": 71.8,
+    "hist": 0.00689
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 1.115,
+  "at_price": [],
+  "above": [
+   {
+    "level": 1.125,
+    "why": "قمة يوم 2026-10-19",
+    "confluence": 1
+   },
+   {
+    "level": 1.22,
+    "why": "قمة سابقة",
+    "confluence": 1
+   }
+  ],
+  "below": [
+   {
+    "level": 1.0411,
+    "why": "فواب جلسة 2026-10-19 + إغلاقات سابقة متجمعة (8)",
+    "confluence": 2
+   },
+   {
+    "level": 1.02,
+    "why": "قمة يوم 2026-10-16 + قيعان سابقة متجمعة (8) + قمة يوم 2026-10-15 + قمة يوم 2026-10-14 + قاع يوم 2026-10-19 + إغلاقات سابقة متجمعة (6)",
+    "confluence": 6
+   },
+   {
+    "level": 0.995,
+    "why": "قاع يوم 2026-10-16 + قمة يوم 2026-10-13 + قيعان سابقة متجمعة (6) + قاع يوم 2026-10-15 + MA30",
+    "confluence": 5
+   },
+   {
+    "level": 0.974,
+    "why": "قاع يوم 2026-10-14 + إغلاقات سابقة متجمعة (10) + قاع يوم 2026-10-13 + MA20 + قيعان سابقة متجمعة (7)",
+    "confluence": 5
+   },
+   {
+    "level": 0.936,
+    "why": "إغلاقات سابقة متجمعة (5) + قيعان سابقة متجمعة (6)",
+    "confluence": 2
+   },
+   {
+    "level": 0.902,
+    "why": "إغلاقات سابقة متجمعة (5) + MA50 + قيعان سابقة متجمعة (6)",
+    "confluence": 3
+   },
+   {
+    "level": 0.717,
+    "why": "إغلاقات سابقة متجمعة (7) + قيعان سابقة متجمعة (4)",
+    "confluence": 2
+   },
+   {
+    "level": 0.699,
+    "why": "إغلاقات سابقة متجمعة (5)",
+    "confluence": 1
+   }
+  ]
+ },
+ "pivot": null,
+ "momentum": {
+  "ticker": "DH",
+  "kind": "momentum",
+  "status": "WATCH",
+  "setup": "MOM_ABOVE_VWAP",
+  "setup_ar": "زخم الجلسة — فوق الفواب — بانتظار Pullback",
+  "price": 1.1150000095367432,
+  "score": 1.59,
+  "conditions": {},
+  "support_low": 1.0,
+  "support_high": null,
+  "support_touches": 0,
+  "trigger_level": 1.0412176576476047,
+  "stop": 1.0360115693593666,
+  "entry_low": 1.0412176576476047,
+  "entry_high": 1.0620420108005568,
+  "t1": 1.2200000286102295,
+  "t1_label": "مقاومة يومية قريبة",
+  "t2": null,
+  "t2_label": "",
+  "rr": 1.33,
+  "risk_pct": 0.0708,
+  "rsi_now": null,
+  "rsi_min": null,
+  "ma_state": "",
+  "macd_state": "",
+  "candle": "",
+  "volume_note": "RVOL 5.1x",
+  "waiting_for": [
+   "أول Pullback قرب الفواب 1.04 مع ثبات"
+  ],
+  "flags": [],
+  "tags": [],
+  "rank": 1.59,
+  "meta": {
+   "segment": "regular",
+   "change": 0.115,
+   "gap": 0.0,
+   "rvol": 1.19,
+   "rvol_pace": 5.05,
+   "vwap": 1.0412,
+   "hod": 1.125,
+   "move_base": 1.0,
+   "segment_volume": 735990.0,
+   "pullback_from_hod": 0.0089,
+   "dist_vwap": 0.0709,
+   "volume_known": true
+  },
+  "news": []
+ }
+}

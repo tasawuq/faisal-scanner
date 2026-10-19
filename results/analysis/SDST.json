@@ -1,0 +1,303 @@
+{
+ "ticker": "SDST",
+ "generated_at_et": "2026-10-15T16:28:12.790817-04:00",
+ "session": "post",
+ "quote": {
+  "reg_price": 0.0404,
+  "reg_chg": 0.55384605,
+  "reg_vol": 1590726930,
+  "prev_close": 0.026,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": 0.0413,
+  "post_chg": 0.022277236,
+  "avg_vol": 34167479,
+  "state": "POST"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 11415128,
+  "sharesOutstanding": 40577021,
+  "marketCap": 1639311,
+  "shortPercentOfFloat": 0.076799996,
+  "longName": "Stardust Power Inc.",
+  "country": "United States",
+  "industry": "Electrical Equipment & Parts",
+  "sector": "Industrials",
+  "lastSplitFactor": "1:10",
+  "lastSplitDate": 1757289600
+ },
+ "daily": {
+  "price": 0.0404,
+  "chg_1d": 0.5538,
+  "ma": {
+   "MA20": 0.0868,
+   "MA30": 0.114,
+   "MA50": 0.2851
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 25.5,
+  "rsi_min15": 20.8,
+  "rsi_min30": 16.1,
+  "macd": {
+   "line": -0.07685,
+   "signal": -0.09102,
+   "hist_last3": [
+    0.01599,
+    0.01424,
+    0.01418
+   ],
+   "state": "إيجابي (الخط فوق الإشارة)"
+  },
+  "candles": [
+   {
+    "d": "2026-10-14",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.42857154261093916,
+    "close_pos": 0.0,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-15",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.03906257730704598,
+    "close_pos": 0.2031249363353739,
+    "green": "False",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.0299,
+  "avg_vol20": 106411790,
+  "last_vol": 1590726930,
+  "drawdown_90d": 0.98,
+  "high_90d": 1.99,
+  "low_10d": 0.026,
+  "gain_from_low10": 0.554,
+  "sell_drying": false,
+  "vol_improving": true,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": true,
+  "pump_month": {
+   "d": "2026-09-17",
+   "high": 0.356,
+   "close": 0.252,
+   "vol_mult": 500.7
+  },
+  "former_runner": true,
+  "runner_jump": 0.575,
+  "runner_spike": 1.225,
+  "distinct_closes20": 20,
+  "support_zones": [
+   {
+    "low": 2.23,
+    "high": 2.2523,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-05-06",
+    "last": "2026-05-06"
+   },
+   {
+    "low": 1.9,
+    "high": 1.919,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-05-20",
+    "last": "2026-05-20"
+   },
+   {
+    "low": 1.7,
+    "high": 1.717,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-06-11",
+    "last": "2026-06-11"
+   },
+   {
+    "low": 1.52,
+    "high": 1.5352,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-07-01",
+    "last": "2026-07-01"
+   },
+   {
+    "low": 0.5,
+    "high": 0.505,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-07-31",
+    "last": "2026-07-31"
+   },
+   {
+    "low": 0.113,
+    "high": 0.1141,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-09-14",
+    "last": "2026-09-14"
+   }
+  ],
+  "support_selected": null,
+  "w": null,
+  "resistances": [
+   [
+    0.0501,
+    "رأس شمعة هابطة"
+   ],
+   [
+    0.069,
+    "رأس شمعة هابطة"
+   ],
+   [
+    0.073,
+    "فجوة لم تُغطَّ"
+   ],
+   [
+    0.0868,
+    "MA20"
+   ],
+   [
+    0.114,
+    "MA30"
+   ],
+   [
+    0.167,
+    "رأس شمعة هابطة"
+   ]
+  ],
+  "high_52w": 5.55,
+  "low_52w": 0.026,
+  "last_bars": [
+   {
+    "d": "2026-09-30",
+    "o": 0.103,
+    "h": 0.111,
+    "l": 0.1,
+    "c": 0.106,
+    "v": 59177800,
+    "rsi": 26.7,
+    "hist": 0.02568
+   },
+   {
+    "d": "2026-10-01",
+    "o": 0.096,
+    "h": 0.1,
+    "l": 0.083,
+    "c": 0.095,
+    "v": 22968400,
+    "rsi": 25.8,
+    "hist": 0.02498
+   },
+   {
+    "d": "2026-10-02",
+    "o": 0.091,
+    "h": 0.091,
+    "l": 0.077,
+    "c": 0.085,
+    "v": 34563300,
+    "rsi": 25.1,
+    "hist": 0.02386
+   },
+   {
+    "d": "2026-10-05",
+    "o": 0.087,
+    "h": 0.101,
+    "l": 0.083,
+    "c": 0.092,
+    "v": 51785400,
+    "rsi": 26.7,
+    "hist": 0.02356
+   },
+   {
+    "d": "2026-10-06",
+    "o": 0.084,
+    "h": 0.085,
+    "l": 0.077,
+    "c": 0.08,
+    "v": 52393000,
+    "rsi": 25.7,
+    "hist": 0.02254
+   },
+   {
+    "d": "2026-10-07",
+    "o": 0.078,
+    "h": 0.083,
+    "l": 0.073,
+    "c": 0.075,
+    "v": 28460900,
+    "rsi": 25.3,
+    "hist": 0.0215
+   },
+   {
+    "d": "2026-10-08",
+    "o": 0.069,
+    "h": 0.069,
+    "l": 0.059,
+    "c": 0.062,
+    "v": 294734500,
+    "rsi": 24.1,
+    "hist": 0.01995
+   },
+   {
+    "d": "2026-10-09",
+    "o": 0.056,
+    "h": 0.06,
+    "l": 0.053,
+    "c": 0.056,
+    "v": 95859900,
+    "rsi": 23.6,
+    "hist": 0.01857
+   },
+   {
+    "d": "2026-10-12",
+    "o": 0.053,
+    "h": 0.053,
+    "l": 0.048,
+    "c": 0.052,
+    "v": 150779500,
+    "rsi": 23.2,
+    "hist": 0.01744
+   },
+   {
+    "d": "2026-10-13",
+    "o": 0.037,
+    "h": 0.045,
+    "l": 0.036,
+    "c": 0.04,
+    "v": 133976100,
+    "rsi": 22.1,
+    "hist": 0.01599
+   },
+   {
+    "d": "2026-10-14",
+    "o": 0.03,
+    "h": 0.033,
+    "l": 0.026,
+    "c": 0.026,
+    "v": 287464400,
+    "rsi": 20.8,
+    "hist": 0.01424
+   },
+   {
+    "d": "2026-10-15",
+    "o": 0.0501,
+    "h": 0.0506,
+    "l": 0.0378,
+    "c": 0.0404,
+    "v": 1590726930,
+    "rsi": 25.5,
+    "hist": 0.01418
+   }
+  ]
+ },
+ "pivot": null,
+ "momentum": null
+}

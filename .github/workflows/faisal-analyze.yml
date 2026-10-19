@@ -1,0 +1,44 @@
+name: Faisal analyze ticker (on demand)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: "Tickers, comma or space separated"
+        required: true
+        default: "SDST"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: faisal-analyze
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Restore fundamentals cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: fund-${{ github.run_id }}
+          restore-keys: fund-
+      - name: Analyze
+        run: python -m faisal_scanner.analyze ${{ github.event.inputs.tickers }}
+      - name: Save results
+        run: |
+          git config user.name "faisal-scanner-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add results/analysis || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "analyze ${{ github.event.inputs.tickers }}"
+          for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q && break; sleep 4; done

@@ -1,0 +1,445 @@
+{
+ "ticker": "NHTC",
+ "generated_at_et": "2026-10-16T16:01:29.081537-04:00",
+ "session": "post",
+ "quote": {
+  "reg_price": 0.9449,
+  "reg_chg": -0.010809739,
+  "reg_vol": 28740,
+  "prev_close": 0.9555,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 59871,
+  "state": "POST"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 6927642,
+  "sharesOutstanding": 8577848,
+  "marketCap": 8196135,
+  "shortPercentOfFloat": 0.0016,
+  "longName": "Natural Health Trends Corp.",
+  "country": "United States",
+  "industry": "Internet Retail",
+  "sector": "Consumer Cyclical",
+  "lastSplitFactor": "1:100",
+  "lastSplitDate": 1048032000
+ },
+ "daily": {
+  "price": 0.9449,
+  "chg_1d": -0.0157,
+  "ma": {
+   "MA20": 0.9942,
+   "MA30": 1.1765,
+   "MA50": 1.3907
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 30.4,
+  "rsi_min15": 23.4,
+  "rsi_min30": 14.3,
+  "macd": {
+   "line": -0.12844,
+   "signal": -0.14877,
+   "hist_last3": [
+    0.01698,
+    0.01939,
+    0.02033
+   ],
+   "state": "الهيستوجرام يتحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-10-15",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "True",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.0,
+    "close_pos": 0.6666660043928622,
+    "green": "False",
+    "bullish_reversal": "True"
+   },
+   {
+    "d": "2026-10-16",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.19999976158147775,
+    "close_pos": 0.29799931097047067,
+    "green": "False",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.0891,
+  "avg_vol20": 102940,
+  "last_vol": 28740,
+  "drawdown_90d": 0.614,
+  "high_90d": 2.45,
+  "low_10d": 0.9,
+  "gain_from_low10": 0.05,
+  "sell_drying": true,
+  "vol_improving": false,
+  "higher_lows": true,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_jump": 0.302,
+  "runner_spike": 0.313,
+  "distinct_closes20": 13,
+  "support_zones": [
+   {
+    "low": 2.76,
+    "high": 2.87,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-04-29",
+    "last": "2026-05-18"
+   },
+   {
+    "low": 1.77,
+    "high": 1.7877,
+    "touches": 6,
+    "is_bottom": false,
+    "first": "2026-07-14",
+    "last": "2026-07-23"
+   },
+   {
+    "low": 1.66,
+    "high": 1.6766,
+    "touches": 3,
+    "is_bottom": false,
+    "first": "2026-08-21",
+    "last": "2026-08-21"
+   },
+   {
+    "low": 1.57,
+    "high": 1.5857,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-09-03",
+    "last": "2026-09-03"
+   },
+   {
+    "low": 1.5,
+    "high": 1.55,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-06-26",
+    "last": "2026-08-05"
+   },
+   {
+    "low": 0.89,
+    "high": 0.9,
+    "touches": 2,
+    "is_bottom": true,
+    "first": "2026-09-25",
+    "last": "2026-10-09"
+   }
+  ],
+  "support_selected": {
+   "low": 0.89,
+   "high": 0.9,
+   "touches": 2,
+   "interacting": true
+  },
+  "w": {
+   "low1": 0.89,
+   "low2": 0.92,
+   "neck": 1.13,
+   "low1_d": "2026-09-25",
+   "low2_d": "2026-10-15"
+  },
+  "resistances": [
+   [
+    0.9942,
+    "MA20 + رأس شمعة هابطة"
+   ],
+   [
+    1.05,
+    "قمة سابقة"
+   ],
+   [
+    1.13,
+    "قمة سابقة"
+   ],
+   [
+    1.1765,
+    "MA30"
+   ],
+   [
+    1.37,
+    "رأس شمعة هابطة + MA50"
+   ],
+   [
+    1.65,
+    "قمة سابقة"
+   ]
+  ],
+  "high_52w": 4.68,
+  "low_52w": 0.89,
+  "last_bars": [
+   {
+    "d": "2026-10-01",
+    "o": 1.02,
+    "h": 1.06,
+    "l": 1.0,
+    "c": 1.01,
+    "v": 38500,
+    "rsi": 26.4,
+    "hist": -0.02457
+   },
+   {
+    "d": "2026-10-02",
+    "o": 1.0,
+    "h": 1.05,
+    "l": 1.0,
+    "c": 1.0,
+    "v": 46000,
+    "rsi": 26.0,
+    "hist": -0.01721
+   },
+   {
+    "d": "2026-10-05",
+    "o": 0.98,
+    "h": 1.0,
+    "l": 0.94,
+    "c": 0.95,
+    "v": 91900,
+    "rsi": 24.1,
+    "hist": -0.01336
+   },
+   {
+    "d": "2026-10-06",
+    "o": 0.98,
+    "h": 1.03,
+    "l": 0.97,
+    "c": 1.0,
+    "v": 62300,
+    "rsi": 29.6,
+    "hist": -0.00552
+   },
+   {
+    "d": "2026-10-07",
+    "o": 1.0,
+    "h": 1.0,
+    "l": 0.95,
+    "c": 0.98,
+    "v": 31500,
+    "rsi": 28.7,
+    "hist": -4e-05
+   },
+   {
+    "d": "2026-10-08",
+    "o": 0.97,
+    "h": 1.0,
+    "l": 0.93,
+    "c": 0.93,
+    "v": 58700,
+    "rsi": 26.5,
+    "hist": 0.00176
+   },
+   {
+    "d": "2026-10-09",
+    "o": 0.92,
+    "h": 0.96,
+    "l": 0.9,
+    "c": 0.93,
+    "v": 53900,
+    "rsi": 26.5,
+    "hist": 0.00435
+   },
+   {
+    "d": "2026-10-12",
+    "o": 1.02,
+    "h": 1.05,
+    "l": 0.98,
+    "c": 0.98,
+    "v": 113100,
+    "rsi": 32.4,
+    "hist": 0.01048
+   },
+   {
+    "d": "2026-10-13",
+    "o": 1.0,
+    "h": 1.0,
+    "l": 0.94,
+    "c": 0.96,
+    "v": 43800,
+    "rsi": 31.4,
+    "hist": 0.01401
+   },
+   {
+    "d": "2026-10-14",
+    "o": 0.99,
+    "h": 1.0,
+    "l": 0.93,
+    "c": 0.96,
+    "v": 41000,
+    "rsi": 31.4,
+    "hist": 0.01698
+   },
+   {
+    "d": "2026-10-15",
+    "o": 0.98,
+    "h": 0.98,
+    "l": 0.92,
+    "c": 0.96,
+    "v": 34800,
+    "rsi": 31.4,
+    "hist": 0.01939
+   },
+   {
+    "d": "2026-10-16",
+    "o": 0.97,
+    "h": 0.98,
+    "l": 0.93,
+    "c": 0.9449,
+    "v": 28740,
+    "rsi": 30.4,
+    "hist": 0.02033
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 0.9449,
+  "at_price": [],
+  "above": [
+   {
+    "level": 0.9512,
+    "why": "فواب جلسة 2026-10-16 + إغلاقات سابقة متجمعة (5) + قيعان سابقة متجمعة (3)",
+    "confluence": 3
+   },
+   {
+    "level": 0.98,
+    "why": "قاع يوم 2026-10-12 + قمة يوم 2026-10-15 + قمة يوم 2026-10-16 + قيعان سابقة متجمعة (4) + MA20",
+    "confluence": 5
+   },
+   {
+    "level": 1.0,
+    "why": "قمة يوم 2026-10-13 + قمة يوم 2026-10-14 + إغلاقات سابقة متجمعة (5) + رأس شمعة هابطة + قمة سابقة",
+    "confluence": 4
+   },
+   {
+    "level": 1.03,
+    "why": "إغلاقات سابقة متجمعة (3) + قمة يوم 2026-10-12",
+    "confluence": 2
+   },
+   {
+    "level": 1.13,
+    "why": "قمة سابقة",
+    "confluence": 1
+   },
+   {
+    "level": 1.1765,
+    "why": "MA30",
+    "confluence": 1
+   },
+   {
+    "level": 1.37,
+    "why": "رأس شمعة هابطة + MA50",
+    "confluence": 2
+   },
+   {
+    "level": 1.5,
+    "why": "قيعان سابقة متجمعة (3)",
+    "confluence": 1
+   }
+  ],
+  "below": [
+   {
+    "level": 0.94,
+    "why": "قاع يوم 2026-10-13 + قاعدة آخر ساعة 2026-10-16 + قاع يوم 2026-10-14 + قاع يوم 2026-10-16 + إغلاقات سابقة متجمعة (3) + قيعان سابقة متجمعة (6)",
+    "confluence": 6
+   },
+   {
+    "level": 0.92,
+    "why": "قاع يوم 2026-10-15",
+    "confluence": 1
+   }
+  ]
+ },
+ "pivot": {
+  "ticker": "NHTC",
+  "kind": "pivot",
+  "status": "WATCH",
+  "setup": "AT_SUPPORT",
+  "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+  "price": 0.9448999762535095,
+  "score": 5.5,
+  "conditions": {
+   "ma": {
+    "score": 0.5,
+    "note": "تحت كل المتوسطات (ضغط)"
+   },
+   "rsi": {
+    "score": 1.0,
+    "note": "أدنى RSI 23 والحالي 30"
+   },
+   "macd": {
+    "score": 1.0,
+    "note": "الهيستوجرام يتحسن"
+   },
+   "candle": {
+    "score": 1.0,
+    "note": "ذيل سفلي طويل (رفض كسر)"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 61% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 1.0,
+    "note": "العائد/المخاطرة 10.3"
+   }
+  },
+  "support_low": 0.8899999856948853,
+  "support_high": 0.8999999761581421,
+  "support_touches": 2,
+  "trigger_level": 0.8899999856948853,
+  "stop": 0.8721999859809876,
+  "entry_low": 0.8899999856948853,
+  "entry_high": 0.8999999761581421,
+  "t1": 0.9942449897527694,
+  "t1_label": "MA20 + رأس شمعة هابطة",
+  "t2": 1.0499999523162842,
+  "t2_label": "قمة سابقة",
+  "rr": 4.35,
+  "risk_pct": 0.0255,
+  "rsi_now": 30.4,
+  "rsi_min": 23.4,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "macd_state": "الهيستوجرام يتحسن",
+  "candle": "ذيل سفلي طويل (رفض كسر)",
+  "volume_note": "فوليوم البيع يضعف",
+  "waiting_for": [
+   "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.89 ثم استرداد"
+  ],
+  "flags": [],
+  "tags": [
+   "فلووت أقل من 20M",
+   "Former Runner (سبق انفجر +31% في يوم)",
+   "قيعان أعلى",
+   "فوليوم البيع يضعف",
+   "قاع الفترة (قاع تاريخي/سنوي)"
+  ],
+  "rank": 6.191573081791906,
+  "meta": {
+   "avg_volume": 102940.0,
+   "drawdown": 0.614,
+   "rr_best": 10.31,
+   "gain_from_low10": 0.05,
+   "higher_lows": "True",
+   "float": 6927642,
+   "market_cap": 8196135,
+   "exchange": "",
+   "name": "Natural Health Trends Corp.",
+   "short_pct_float": 0.0016
+  },
+  "news": []
+ },
+ "momentum": null
+}

@@ -1,0 +1,71 @@
+name: Faisal live (every minute)
+
+# فحص مستمر طول الجلسة الرسمية: زخم + قائمة المتابعة كل دقيقة، وتنبيه تيليجرام فوري.
+# يشتغل فقط إذا المستودع عام (دقائق مجانية بلا حد) أو إذا انضاف المتغير LIVE_ALLOW_PRIVATE=1 (اشتراك مدفوع).
+# يبدأ قبل الافتتاح ويعيد تشغيل نفسه إذا انتهى وقت التشغيل والسوق ما زال مفتوح.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 13 * * 1-5"   # 9:17 نيويورك (صيفي) — بعد 2 نوفمبر: "17 14"
+    - cron: "41 16 * * 1-5"   # احتياط منتصف الجلسة لو ما اشتغل الأول
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: faisal-live
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - name: Gate (public repo or paid minutes only)
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ALLOW: ${{ vars.LIVE_ALLOW_PRIVATE }}
+        run: |
+          PRIV=$(curl -s -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/${{ github.repository }} | python3 -c "import json,sys;print(json.load(sys.stdin).get('private'))")
+          if [ "$PRIV" = "False" ] || [ "$ALLOW" = "1" ]; then echo "run=1" >> $GITHUB_OUTPUT; else echo "private repo without LIVE_ALLOW_PRIVATE — skip"; echo "run=0" >> $GITHUB_OUTPUT; fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == '1'
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == '1'
+        with:
+          python-version: "3.12"
+          cache: pip
+      - if: steps.gate.outputs.run == '1'
+        run: pip install -r requirements.txt
+      - name: Restore fundamentals cache
+        if: steps.gate.outputs.run == '1'
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: fund-${{ github.run_id }}
+          restore-keys: fund-
+      - name: Live loop
+        if: steps.gate.outputs.run == '1'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+          ALPACA_API_KEY_ID: ${{ secrets.ALPACA_API_KEY_ID }}
+          ALPACA_API_SECRET_KEY: ${{ secrets.ALPACA_API_SECRET_KEY }}
+        run: |
+          git config user.name "faisal-scanner-bot"
+          git config user.email "actions@users.noreply.github.com"
+          python -m faisal_scanner.live --minutes 345 --interval 60
+      - name: Chain next run if the session is still open
+        if: always() && steps.gate.outputs.run == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          OPEN=$(python3 -c "from datetime import datetime,timezone;from zoneinfo import ZoneInfo;n=datetime.now(timezone.utc).astimezone(ZoneInfo('America/New_York'));print(int(n.weekday()<5 and (n.hour,n.minute)<(15,50)))")
+          if [ "$OPEN" = "1" ]; then
+            curl -s -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" -H "Content-Type: application/json" \
+              https://api.github.com/repos/${{ github.repository }}/actions/workflows/faisal-live.yml/dispatches -d '{"ref":"main"}'
+          fi

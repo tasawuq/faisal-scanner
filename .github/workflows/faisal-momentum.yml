@@ -1,0 +1,48 @@
+name: Faisal momentum (every 5 min)
+
+# فحص زخم خفيف كل 5 دقائق أثناء الجلسة (9:30–15:55 نيويورك بالتوقيت الصيفي).
+# ⚠️ بعد 2 نوفمبر (التوقيت الشتوي) تتأخر الساعات ساعة: "33-58/5 14" و "3-58/5 15-20".
+# الدقائق بعيدة عن :00 لأن جدول GitHub يتأخر أو يُسقط التشغيل عند رأس الساعة (ضغط عالي).
+# (الجدول موقوف: الفحص المباشر faisal-live يغطي الجلسة كل دقيقة. يبقى للتشغيل اليدوي.)
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: faisal-momentum
+  cancel-in-progress: false
+
+jobs:
+  quick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Restore fundamentals cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: fund-${{ github.run_id }}
+          restore-keys: fund-
+      - name: Quick momentum scan
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m faisal_scanner.quick
+      - name: Save results
+        run: |
+          git config user.name "faisal-scanner-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add results || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "quick $(date -u +%H:%MZ)"
+          for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q && break; sleep 4; done

@@ -1,0 +1,452 @@
+{
+ "ticker": "JAGU",
+ "generated_at_et": "2026-10-16T16:05:52.081394-04:00",
+ "session": "post",
+ "quote": {
+  "reg_price": 1.08,
+  "reg_chg": 0.009345785,
+  "reg_vol": 88434,
+  "prev_close": 1.07,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 126953,
+  "state": "POST"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 9252587,
+  "sharesOutstanding": 20193777,
+  "marketCap": 21607342,
+  "shortPercentOfFloat": 0.0088,
+  "longName": "Jaguar Uranium Corp.",
+  "country": "Canada",
+  "industry": "Uranium",
+  "sector": "Energy",
+  "lastSplitFactor": null,
+  "lastSplitDate": null
+ },
+ "daily": {
+  "price": 1.08,
+  "chg_1d": 0.0093,
+  "ma": {
+   "MA20": 1.2415,
+   "MA30": 1.363,
+   "MA50": 1.4734
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 32.1,
+  "rsi_min15": 19.7,
+  "rsi_min30": 19.7,
+  "macd": {
+   "line": -0.13253,
+   "signal": -0.12696,
+   "hist_last3": [
+    -0.01769,
+    -0.01171,
+    -0.00557
+   ],
+   "state": "الهيستوجرام يتحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-10-15",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.6923070574652986,
+    "close_pos": 0.30769294253470136,
+    "green": "True",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-16",
+    "hammer": "True",
+    "engulfing": "False",
+    "lower_wick": "True",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.124999813735585,
+    "close_pos": 0.75000037252883,
+    "green": "False",
+    "bullish_reversal": "True"
+   }
+  ],
+  "atr": 0.1143,
+  "avg_vol20": 223655,
+  "last_vol": 88434,
+  "drawdown_90d": 0.509,
+  "high_90d": 2.2,
+  "low_10d": 1.0,
+  "gain_from_low10": 0.08,
+  "sell_drying": true,
+  "vol_improving": false,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_jump": 0.571,
+  "runner_spike": 0.6,
+  "distinct_closes20": 16,
+  "support_zones": [
+   {
+    "low": 2.23,
+    "high": 2.2523,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-05-04",
+    "last": "2026-05-04"
+   },
+   {
+    "low": 1.71,
+    "high": 1.7271,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-06-09",
+    "last": "2026-06-09"
+   },
+   {
+    "low": 1.58,
+    "high": 1.6,
+    "touches": 9,
+    "is_bottom": false,
+    "first": "2026-05-18",
+    "last": "2026-07-07"
+   },
+   {
+    "low": 1.5,
+    "high": 1.53,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-07-13",
+    "last": "2026-09-10"
+   },
+   {
+    "low": 1.41,
+    "high": 1.4241,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-06-26",
+    "last": "2026-06-26"
+   },
+   {
+    "low": 1.05,
+    "high": 1.0605,
+    "touches": 2,
+    "is_bottom": true,
+    "first": "2026-10-01",
+    "last": "2026-10-01"
+   }
+  ],
+  "support_selected": {
+   "low": 1.05,
+   "high": 1.0605,
+   "touches": 2,
+   "interacting": true
+  },
+  "w": {
+   "low1": 1.05,
+   "low2": 1.0,
+   "neck": 1.3,
+   "low1_d": "2026-10-01",
+   "low2_d": "2026-10-14"
+  },
+  "resistances": [
+   [
+    1.16,
+    "قمة سابقة"
+   ],
+   [
+    1.2415,
+    "MA20"
+   ],
+   [
+    1.32,
+    "رأس شمعة هابطة"
+   ],
+   [
+    1.363,
+    "MA30"
+   ],
+   [
+    1.46,
+    "رأس شمعة هابطة + MA50"
+   ],
+   [
+    1.56,
+    "قمة سابقة"
+   ]
+  ],
+  "high_52w": 5.5,
+  "low_52w": 1.0,
+  "last_bars": [
+   {
+    "d": "2026-10-01",
+    "o": 1.05,
+    "h": 1.3,
+    "l": 1.05,
+    "c": 1.23,
+    "v": 420100,
+    "rsi": 33.3,
+    "hist": -0.04231
+   },
+   {
+    "d": "2026-10-02",
+    "o": 1.24,
+    "h": 1.26,
+    "l": 1.15,
+    "c": 1.19,
+    "v": 118800,
+    "rsi": 31.8,
+    "hist": -0.04126
+   },
+   {
+    "d": "2026-10-05",
+    "o": 1.26,
+    "h": 1.3,
+    "l": 1.13,
+    "c": 1.17,
+    "v": 89600,
+    "rsi": 31.0,
+    "hist": -0.03909
+   },
+   {
+    "d": "2026-10-06",
+    "o": 1.19,
+    "h": 1.26,
+    "l": 1.15,
+    "c": 1.16,
+    "v": 106200,
+    "rsi": 30.6,
+    "hist": -0.03562
+   },
+   {
+    "d": "2026-10-07",
+    "o": 1.17,
+    "h": 1.17,
+    "l": 1.11,
+    "c": 1.17,
+    "v": 85100,
+    "rsi": 31.5,
+    "hist": -0.03015
+   },
+   {
+    "d": "2026-10-08",
+    "o": 1.16,
+    "h": 1.16,
+    "l": 1.09,
+    "c": 1.12,
+    "v": 174200,
+    "rsi": 29.4,
+    "hist": -0.02747
+   },
+   {
+    "d": "2026-10-09",
+    "o": 1.12,
+    "h": 1.12,
+    "l": 1.07,
+    "c": 1.07,
+    "v": 100800,
+    "rsi": 27.3,
+    "hist": -0.02663
+   },
+   {
+    "d": "2026-10-12",
+    "o": 1.07,
+    "h": 1.15,
+    "l": 1.06,
+    "c": 1.08,
+    "v": 124200,
+    "rsi": 28.4,
+    "hist": -0.02308
+   },
+   {
+    "d": "2026-10-13",
+    "o": 1.1,
+    "h": 1.1,
+    "l": 1.06,
+    "c": 1.06,
+    "v": 106900,
+    "rsi": 27.5,
+    "hist": -0.0199
+   },
+   {
+    "d": "2026-10-14",
+    "o": 1.08,
+    "h": 1.1,
+    "l": 1.0,
+    "c": 1.03,
+    "v": 126300,
+    "rsi": 26.2,
+    "hist": -0.01769
+   },
+   {
+    "d": "2026-10-15",
+    "o": 1.05,
+    "h": 1.16,
+    "l": 1.03,
+    "c": 1.07,
+    "v": 169000,
+    "rsi": 30.9,
+    "hist": -0.01171
+   },
+   {
+    "d": "2026-10-16",
+    "o": 1.09,
+    "h": 1.1,
+    "l": 1.02,
+    "c": 1.08,
+    "v": 88434,
+    "rsi": 32.1,
+    "hist": -0.00557
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 1.08,
+  "at_price": [],
+  "above": [
+   {
+    "level": 1.1,
+    "why": "قمة يوم 2026-10-13 + قمة يوم 2026-10-14 + قمة يوم 2026-10-16",
+    "confluence": 3
+   },
+   {
+    "level": 1.15,
+    "why": "قمة يوم 2026-10-12 + قيعان سابقة متجمعة (3) + قمة يوم 2026-10-15 + قمة سابقة + إغلاقات سابقة متجمعة (4)",
+    "confluence": 5
+   },
+   {
+    "level": 1.2415,
+    "why": "MA20",
+    "confluence": 1
+   },
+   {
+    "level": 1.32,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   },
+   {
+    "level": 1.363,
+    "why": "MA30",
+    "confluence": 1
+   },
+   {
+    "level": 1.46,
+    "why": "رأس شمعة هابطة + MA50",
+    "confluence": 2
+   },
+   {
+    "level": 1.52,
+    "why": "قيعان سابقة متجمعة (19) + إغلاقات سابقة متجمعة (6)",
+    "confluence": 2
+   },
+   {
+    "level": 1.56,
+    "why": "قمة سابقة + قيعان سابقة متجمعة (12) + إغلاقات سابقة متجمعة (12)",
+    "confluence": 3
+   }
+  ],
+  "below": [
+   {
+    "level": 1.075,
+    "why": "إغلاقات سابقة متجمعة (4) + قاع يوم 2026-10-12 + قاع يوم 2026-10-13 + قيعان سابقة متجمعة (5)",
+    "confluence": 4
+   },
+   {
+    "level": 1.0522,
+    "why": "فواب جلسة 2026-10-16 + قاعدة آخر ساعة 2026-10-16",
+    "confluence": 2
+   },
+   {
+    "level": 1.03,
+    "why": "قاع يوم 2026-10-15 + قاع يوم 2026-10-16",
+    "confluence": 2
+   },
+   {
+    "level": 1.0,
+    "why": "قاع يوم 2026-10-14",
+    "confluence": 1
+   }
+  ]
+ },
+ "pivot": {
+  "ticker": "JAGU",
+  "kind": "pivot",
+  "status": "READY",
+  "setup": "SWEEP",
+  "setup_ar": "سحب سيولة ثم استرداد الدعم",
+  "price": 1.0800000429153442,
+  "score": 5.25,
+  "conditions": {
+   "ma": {
+    "score": 0.5,
+    "note": "تحت كل المتوسطات (ضغط)"
+   },
+   "rsi": {
+    "score": 0.75,
+    "note": "أدنى RSI 20 والحالي 32"
+   },
+   "macd": {
+    "score": 1.0,
+    "note": "الهيستوجرام يتحسن"
+   },
+   "candle": {
+    "score": 1.0,
+    "note": "مطرقة (Hammer)"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 51% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 1.0,
+    "note": "العائد/المخاطرة 3.0"
+   }
+  },
+  "support_low": 1.0499999523162842,
+  "support_high": 1.0604999518394471,
+  "support_touches": 2,
+  "trigger_level": 1.0499999523162842,
+  "stop": 0.98,
+  "entry_low": 1.0499999523162842,
+  "entry_high": 1.0800000429153442,
+  "t1": 1.159999966621399,
+  "t1_label": "قمة سابقة",
+  "t2": 1.2415000021457672,
+  "t2_label": "MA20",
+  "rr": 1.12,
+  "risk_pct": 0.0798,
+  "rsi_now": 32.1,
+  "rsi_min": 19.7,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "macd_state": "الهيستوجرام يتحسن",
+  "candle": "مطرقة (Hammer)",
+  "volume_note": "فوليوم البيع يضعف",
+  "waiting_for": [],
+  "flags": [],
+  "tags": [
+   "فلووت أقل من 20M",
+   "Former Runner (سبق انفجر +60% في يوم)",
+   "فوليوم البيع يضعف",
+   "قاع الفترة (قاع تاريخي/سنوي)"
+  ],
+  "rank": 8.107142419231161,
+  "meta": {
+   "avg_volume": 223655.0,
+   "drawdown": 0.509,
+   "rr_best": 3.0,
+   "gain_from_low10": 0.08,
+   "higher_lows": "False",
+   "float": 9252587,
+   "market_cap": 21607342,
+   "exchange": "",
+   "name": "Jaguar Uranium Corp.",
+   "short_pct_float": 0.0088
+  },
+  "news": []
+ },
+ "momentum": null
+}

@@ -521,11 +521,13 @@ def send_telegram_alerts(result):
     when = datetime.fromisoformat(result["generated_at_et"]).astimezone(ZoneInfo("Asia/Riyadh")).strftime("%H:%M الرياض")
     for s in result.get("ready", []):
         if s["ticker"] in result["new_alerts"]:
-            notify.send(notify.alert_text(s, when))
+            notify.send(notify.alert_text(s, when), title=notify.alert_title(s))
     for f in result.get("faisal", []):
         lab = f.get("label", "مستوى فيصل")
         if f"{f['ticker']} ({lab})" in result["new_alerts"]:
-            notify.send(f"🚨 {lab} — {f['ticker']}: {f['state_ar']} (السعر {f['price']})")
+            seg = {"pre": "بري ماركت", "post": "أفتر ماركت"}.get(f.get("session"))
+            title, body = notify.watch_alert(f, when, seg)
+            notify.send(body, title=title)
 
 
 def write_outputs(result):

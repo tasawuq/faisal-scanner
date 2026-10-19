@@ -53,21 +53,22 @@ def enabled() -> bool:
     return bool(_token()) or bool(_gh())
 
 
-def gh_issue(text: str) -> bool:
-    """تنبيه احتياطي: Issue مغلق فوراً مع منشن لصاحب المستودع → يوصله إشعار GitHub."""
+def gh_issue(text: str, title: str = None) -> bool:
+    """تنبيه احتياطي: Issue مع منشن لصاحب المستودع → يوصله إشعار GitHub (التطبيق/الإيميل).
+    ما نقفل الـIssue لأن القفل يرسل إيميل ثاني يلخبط."""
     g = _gh()
     if not g:
         return False
     tok, repo = g
     h = {"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}
-    lines = [x for x in text.split("\n") if x.strip()]
-    title = " — ".join(lines[:2])[:240]
+    if not title:
+        lines = [x for x in text.split("\n") if x.strip()]
+        title = lines[0] if lines else "تنبيه"
+    body = "\n".join(f"{ln}  " for ln in text.split("\n"))  # سطر لكل معلومة (Markdown)
     try:
         r = requests.post(f"https://api.github.com/repos/{repo}/issues", headers=h, timeout=20,
-                          json={"title": title, "body": text + f"\n\n@{repo.split('/')[0]}"})
-        if r.ok:
-            requests.patch(r.json()["url"], headers=h, json={"state": "closed"}, timeout=20)
-        else:
+                          json={"title": title[:240], "body": body + f"\n\n— @{repo.split('/')[0]}"})
+        if not r.ok:
             log.warning("github issue alert failed: %s %s", r.status_code, r.text[:200])
         return r.ok
     except Exception as e:  # noqa
@@ -75,10 +76,10 @@ def gh_issue(text: str) -> bool:
         return False
 
 
-def send(text: str) -> bool:
+def send(text: str, title: str = None) -> bool:
     token = _token()
     if not token:
-        return gh_issue(text)
+        return gh_issue(text, title)
     cid = _chat_id(token)
     if not cid:
         log.warning("telegram: no chat id yet — open the bot and press Start")
@@ -102,33 +103,99 @@ def fmt_price(x):
     return f"{x:.2f}" if x >= 10 else f"{x:.3f}" if x >= 1 else f"{x:.4f}"
 
 
+def _g(x):
+    return "—" if x is None else f"{x:g}"
+
+
+def open_time_riyadh(now_et=None) -> str:
+    """وقت افتتاح السوق الرسمي بتوقيت الرياض (4:30 م صيفي / 5:30 م شتوي)."""
+    from datetime import datetime, timezone
+    from zoneinfo import ZoneInfo
+    et = ZoneInfo("America/New_York")
+    n = now_et or datetime.now(timezone.utc).astimezone(et)
+    o = n.replace(hour=9, minute=30, second=0, microsecond=0).astimezone(ZoneInfo("Asia/Riyadh"))
+    return f"{o.hour - 12 if o.hour > 12 else o.hour}:{o.minute:02d} م"
+
+
+SETUP_SHORT = {"momentum": "زخم", "pivot": "ارتكاز"}
+
+
+def alert_title(s: dict) -> str:
+    return f"🚨 {s['ticker']} جاهز للدخول — {SETUP_SHORT.get(s.get('kind'), 'ارتكاز')}"
+
+
 def alert_text(s: dict, when: str) -> str:
-    """Arabic urgent alert for one ready signal (dict from Signal.to_dict())."""
+    """تنبيه سهم جاهز (Signal.to_dict()) — سطر لكل معلومة + وش تسوي."""
     p = fmt_price
     m = s.get("meta", {})
-    lines = [f"🚨 تنبيه عاجل — منهج فيصل ({when})", f"{s['ticker']} — {s['setup_ar']}", f"السعر: {p(s['price'])}"]
-    if s.get("kind") == "momentum":
-        lines.append(f"الدخول قرب: {p(s.get('entry_low'))}–{p(s.get('entry_high'))} | الفواب {p(m.get('vwap'))}")
-    else:
-        lines.append(f"الدخول (Limit): {p(s.get('entry_low'))}–{p(s.get('entry_high'))}")
+    mom = s.get("kind") == "momentum"
+    seg = {"pre": "بري ماركت", "post": "أفتر ماركت"}.get(m.get("segment"))
+    lines = [f"🚨 {s['ticker']} جاهز للدخول ({SETUP_SHORT.get(s.get('kind'), 'ارتكاز')})",
+             f"الوقت: {when}" + (f" · {seg}" if seg else ""),
+             f"النوع: {s['setup_ar']}",
+             f"السعر الحالي: {p(s['price'])}",
+             f"منطقة الدخول: {p(s.get('entry_low'))} – {p(s.get('entry_high'))}"
+             + (f" (الفواب {p(m.get('vwap'))})" if mom and m.get("vwap") else "")]
     if s.get("stop") is not None:
         rp = s.get("risk_pct")
-        lines.append(f"الوقف: {p(s['stop'])}" + (f" (−{rp * 100:.1f}%)" if rp else ""))
-    tg = []
-    if s.get("t1"):
-        tg.append(f"{p(s['t1'])} ({s.get('t1_label', '')})")
-    if s.get("t2"):
-        tg.append(f"{p(s['t2'])}")
+        lines.append(f"الوقف: {p(s['stop'])}" + (f" (خسارة {rp * 100:.1f}%)" if rp else ""))
+    tg = [p(s[k]) for k in ("t1", "t2") if s.get(k)]
     if tg:
-        lines.append("الأهداف: " + " ← ".join(tg))
+        lines.append("الأهداف: " + " ثم ".join(tg))
     extra = []
+    if mom and m.get("change") is not None:
+        extra.append(f"صاعد {m['change'] * 100:+.0f}% اليوم")
     if m.get("float"):
-        extra.append(f"فلووت {m['float'] / 1e6:.1f}M")
-    if s.get("kind") == "momentum" and m.get("change") is not None:
-        extra.append(f"{m['change'] * 100:+.0f}% اليوم")
+        extra.append(f"الأسهم الحرة {m['float'] / 1e6:.1f} مليون")
     if extra:
         lines.append(" · ".join(extra))
     if s.get("flags"):
-        lines.append("⚠️ " + " · ".join(s["flags"][:3]))
-    lines.append("لا تطارد إذا ابتعد السعر عن منطقة الدخول. الوقف قبل الدخول. تعليمي وليس توصية.")
+        lines.append("⚠️ انتبه: " + " · ".join(s["flags"][:3]))
+    if mom:
+        act = (f"ادخل فقط بين {p(s.get('entry_low'))} و {p(s.get('entry_high'))} والسعر فوق الفواب، "
+               f"والوقف {p(s.get('stop'))}. إذا ابتعد السعر عن المنطقة لا تطارده.")
+    else:
+        act = (f"حط أمر Limit بين {p(s.get('entry_low'))} و {p(s.get('entry_high'))}، "
+               f"والوقف {p(s.get('stop'))}. لا تشتري فوق المنطقة.")
+    if seg:
+        act += f" (هذا سعر {seg} — الحركة ممكن تتغير مع الافتتاح {open_time_riyadh()})"
+    lines += ["", "وش تسوي: " + act, "", "تعليمي وليس توصية."]
     return "\n".join(lines)
+
+
+WATCH_HEAD = {"IN_ZONE": "وصل منطقة الدخول", "BELOW_STOP": "نزل تحت الوقف", "BREAKOUT_HOLD": "اخترق وثبت"}
+
+
+def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
+    """تنبيه قائمة المتابعة/مستويات فيصل → (العنوان، النص)."""
+    t, L, st = ev["ticker"], ev.get("levels") or {}, ev.get("state")
+    lo, hi, stop, brk = L.get("demand_low"), L.get("demand_high"), L.get("stop"), L.get("breakout")
+    head = WATCH_HEAD.get(st, ev.get("state_ar", ""))
+    src = "مستويات فيصل" if "فيصل" in (ev.get("label") or "") else "متابعة Claude"
+    title = f"🚨 {t} {head}" + (f" ({seg})" if seg else "")
+    lines = [f"🚨 {t} — {head}", f"الوقت: {when}" + (f" · {seg}" if seg else ""),
+             f"السعر الحالي: {fmt_price(ev.get('price'))}"]
+    if lo and hi:
+        lines.append(f"منطقة الدخول: {_g(lo)} – {_g(hi)}")
+    if stop:
+        lines.append(f"الوقف: {_g(stop)}")
+    if brk:
+        lines.append(f"الاختراق: فوق {_g(brk)}")
+    if L.get("targets"):
+        lines.append("الأهداف: " + " ثم ".join(_g(x) for x in L["targets"]))
+    lines.append(f"المصدر: {src}")
+    wait_open = f"انتظر الافتتاح ({open_time_riyadh()})" if seg == "بري ماركت" else "انتظر جلسة بكرة" if seg else ""
+    if st == "IN_ZONE":
+        act = (f"{wait_open}، وبعدها " if wait_open else "") + \
+              f"ادخل فقط إذا ثبت داخل المنطقة وطلعت شمعة 15 دقيقة خضراء. الوقف {_g(stop)}."
+        if not wait_open:
+            act = "لا تشتري على طول. " + act
+    elif st == "BELOW_STOP":
+        act = f"لا تدخل. وإذا عندك السهم: الوقف {_g(stop)} انكسر"
+        act += f" في {seg} — إذا افتتح تحته اخرج." if seg else " — اخرج."
+    elif st == "BREAKOUT_HOLD":
+        act = f"دخول زخم قريب من {_g(brk)} بدون مطاردة، والوقف تحت {_g(brk)} مباشرة."
+    else:
+        act = ev.get("state_ar", "")
+    lines += ["", "وش تسوي: " + act, "", "تعليمي وليس توصية."]
+    return title, "\n".join(lines)

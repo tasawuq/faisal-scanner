@@ -28,6 +28,11 @@ def git_push(msg):
         _time.sleep(3)
 
 
+def code_tree():
+    r = subprocess.run(["git", "rev-parse", "HEAD:faisal_scanner"], capture_output=True, text=True, check=False)
+    return r.stdout.strip()
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--minutes", type=int, default=345)
@@ -36,6 +41,7 @@ def main(argv=None):
     a = ap.parse_args(argv)
     t_end = _time.time() + a.minutes * 60
     it, last_push = 0, 0
+    tree0 = code_tree()  # إذا تحدث الكود في المستودع: نخرج وخطوة السلسلة تعيد التشغيل بالكود الجديد
     while _time.time() < t_end:
         now_et = datetime.now(timezone.utc).astimezone(ET)
         session, _ = session_info(now_et)
@@ -58,6 +64,9 @@ def main(argv=None):
         if new or it - last_push >= a.push_every:
             git_push(f"live {now_et:%H:%M} ET" + (f" NEW {','.join(new)}" if new else ""))
             last_push = it
+            if tree0 and code_tree() != tree0:
+                log.info("live: code updated in repo — restarting")
+                break
         _time.sleep(max(5, a.interval - (_time.time() - t0)))
     git_push("live end")
 

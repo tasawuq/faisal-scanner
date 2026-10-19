@@ -135,7 +135,8 @@ def run_quick(force=False):
         result["new_alerts"] = update_alert_state({"ready": result["ready"], "faisal": []}, now_et)
         for s in result["ready"]:
             if s["ticker"] in result["new_alerts"]:
-                notify.send(notify.alert_text(s, now_et.astimezone(notify_tz()).strftime("%H:%M الرياض")))
+                notify.send(notify.alert_text(s, now_et.astimezone(notify_tz()).strftime("%H:%M الرياض")),
+                            title=notify.alert_title(s))
     # 📌 قائمة المتابعة (أسهم فيصل + الأسهم اللي طلبت متابعتها): الوصول لمنطقة الطلب أو كسر الوقف
     try:
         watch_alerts(result, quotes, now_et, session)
@@ -170,6 +171,7 @@ def watch_alerts(result, quotes, now_et, session="regular"):
         # الاختراق يحتاج ثبات شمعتين 15 دقيقة → يتركه للفحص الساعي؛ هنا فقط المنطقة والوقف
         ev = faisal_watch.evaluate({**w, "breakout": None}, float(px) if px else None, None, seg)
         ev["session"] = session
+        ev["levels"]["breakout"] = w.get("breakout")  # للعرض في التنبيه فقط
         evs.append(ev)
     result["watchlist"] = evs
     new = update_alert_state({"ready": [], "faisal": evs}, now_et)
@@ -177,8 +179,8 @@ def watch_alerts(result, quotes, now_et, session="regular"):
     when = now_et.astimezone(notify_tz()).strftime("%H:%M الرياض")
     for ev in evs:
         if f"{ev['ticker']} ({ev['label']})" in new:
-            notify.send(f"🚨 {ev['label']} — {ev['ticker']} ({when}{' · ' + seg if session != 'regular' else ''}): {ev['state_ar']} · السعر {notify.fmt_price(ev['price'])}"
-                        + (f" · الوقف {ev['levels']['stop']:g}" if ev["levels"].get("stop") else ""))
+            title, body = notify.watch_alert(ev, when, seg if session != "regular" else None)
+            notify.send(body, title=title)
 
 
 def notify_tz():

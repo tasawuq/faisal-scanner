@@ -1,7 +1,7 @@
 {
- "generated_at_et": "2026-10-19T19:59:09.418737-04:00",
+ "generated_at_et": "2026-10-20T04:05:14.985414-04:00",
  "mode": "quick",
- "session": "post",
+ "session": "pre",
  "ready": [],
  "radar": [],
  "new_alerts": [],
@@ -11,12 +11,13 @@
  "watchlist": [
   {
    "ticker": "SVRE",
-   "price": 1.86,
-   "price_label": "أفتر ماركت",
+   "price": null,
+   "price_label": "بري ماركت",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
    "added": "2026-10-16",
    "label": "مستوى فيصل",
+   "warn": "",
    "levels": {
     "demand_low": 1.5,
     "demand_high": 1.55,
@@ -27,10 +28,58 @@
      2.06
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 1.7 — ينتظر الثبات أكثر من ربع ساعة",
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
    "alert": false,
-   "session": "post"
+   "session": "pre"
+  },
+  {
+   "ticker": "ELPW",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
+   "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
+   "added": "2026-10-20",
+   "label": "متابعة",
+   "warn": "سهم صيني عالي التذبذب (الملف: خطير وحده) + تقسيم عكسي حديث + شمعة ضخ سابقة — كمية صغيرة جداً",
+   "levels": {
+    "demand_low": null,
+    "demand_high": null,
+    "stop": 2.18,
+    "breakout": 2.48,
+    "targets": [
+     2.7,
+     3.18
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
+  },
+  {
+   "ticker": "BRTX",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
+   "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
+   "added": "2026-10-20",
+   "label": "متابعة",
+   "warn": "سهم طبي (الخبر قد يغير الاتجاه) + تقسيم عكسي حديث — تأكد إن الاختراق بفوليوم أعلى من المعتاد",
+   "levels": {
+    "demand_low": null,
+    "demand_high": null,
+    "stop": 1.49,
+    "breakout": 1.71,
+    "targets": [
+     2.08,
+     2.18
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-20T09:11:15.381460+00:00",
- "generated_at_et": "2026-10-20T05:11:15.381460-04:00",
+ "generated_at_utc": "2026-10-20T09:21:15.381782+00:00",
+ "generated_at_et": "2026-10-20T05:21:15.381782-04:00",
  "session": "pre",
  "provider": "yahoo",
  "counts": {
@@ -574,7 +574,10 @@
     "market_cap": 11846478,
     "exchange": "NASDAQ",
     "name": "Uni-Fuels Holdings Limited",
-    "short_pct_float": 0.0307
+    "short_pct_float": 0.0307,
+    "ext_price": 0.35,
+    "ext_chg": -0.0408331,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1139,7 +1142,10 @@
     "market_cap": 8198816,
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
-    "short_pct_float": 0.1097
+    "short_pct_float": 0.1097,
+    "ext_price": 1.53,
+    "ext_chg": -0.0064935005,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3287,8 +3293,8 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1701,
-    "ext_chg": -0.004681092,
+    "ext_price": 0.1718,
+    "ext_chg": -0.011507502999999999,
     "ext_session": "pre"
    },
    "news": []
@@ -3377,8 +3383,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 243667.0,
-   "price": 340.4
+   "volume": 261743.0,
+   "price": 339.52
   },
   "SNDL": {
    "volume": 488.0,

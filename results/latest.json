@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-20T20:19:15.813422+00:00",
- "generated_at_et": "2026-10-20T16:19:15.813422-04:00",
+ "generated_at_utc": "2026-10-20T20:29:15.813575+00:00",
+ "generated_at_et": "2026-10-20T16:29:15.813575-04:00",
  "session": "post",
  "provider": "yahoo",
  "counts": {
@@ -93,8 +93,8 @@
     "exchange": "NASDAQ",
     "name": "Cellyan Biotechnology Co., Ltd",
     "short_pct_float": 0.002,
-    "ext_price": 0.114,
-    "ext_chg": 0.016042780748663166,
+    "ext_price": 0.1075,
+    "ext_chg": -0.040178585,
     "ext_session": "post"
    },
    "news": []
@@ -174,8 +174,89 @@
     "exchange": "NASDAQ",
     "name": "1-800-FLOWERS.COM, Inc.",
     "short_pct_float": 0.3718,
-    "ext_price": 2.69,
-    "ext_chg": 0.0,
+    "ext_price": 2.692,
+    "ext_chg": 0.0007434944237918462,
+    "ext_session": "post"
+   },
+   "news": []
+  },
+  {
+   "ticker": "STI",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "BROKE_SUPPORT",
+   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "price": 4.53000020980835,
+   "score": 5.25,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 1.0,
+     "note": "أدنى RSI 24 والحالي 28"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 1.0,
+     "note": "ابتلاعية شرائية (Engulfing)"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 84% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 0.75,
+     "note": "العائد/المخاطرة 2.1"
+    }
+   },
+   "support_low": 4.559999942779541,
+   "support_high": 4.605599942207337,
+   "support_touches": 4,
+   "trigger_level": 4.559999942779541,
+   "stop": 4.23360016822815,
+   "entry_low": 4.559999942779541,
+   "entry_high": 4.559999942779541,
+   "t1": 4.716000080108643,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 4.820000171661377,
+   "t2_label": "رأس شمعة هابطة",
+   "rr": 0.38,
+   "risk_pct": 0.0762,
+   "rsi_now": 27.7,
+   "rsi_min": 24.1,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "ابتلاعية شرائية (Engulfing)",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "استرداد الدعم 4.56 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+    "الدخول تحت مقاومة مباشرة (4.72) — انتظر اختراقها والثبات"
+   ],
+   "flags": [],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +657% في يوم)",
+    "فوليوم البيع يضعف"
+   ],
+   "rank": 6.21710555553987,
+   "meta": {
+    "avg_volume": 434430.0,
+    "drawdown": 0.838,
+    "rr_best": 2.08,
+    "gain_from_low10": 0.049,
+    "higher_lows": "False",
+    "float": 2897577,
+    "market_cap": 42035256,
+    "exchange": "NASDAQ",
+    "name": "Solidion Technology, Inc.",
+    "short_pct_float": 0.059899997,
+    "ext_price": 4.53,
+    "ext_chg": 0.02954545454545454,
     "ext_session": "post"
    },
    "news": []
@@ -317,10 +398,9 @@
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "مطرقة (Hammer)",
-   "volume_note": "",
+   "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.73 ثم استرداد",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
@@ -330,6 +410,7 @@
     "فلووت أقل من 5M 🔥",
     "Former Runner (سبق انفجر +57% في يوم)",
     "قيعان أعلى",
+    "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ],
    "rank": 6.023972824201902,
@@ -511,8 +592,8 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.1117,
-    "ext_chg": 0.039069767441860526,
+    "ext_price": 0.1118,
+    "ext_chg": 0.040000000000000036,
     "ext_session": "post"
    },
    "news": []
@@ -595,7 +676,10 @@
     "market_cap": 13273247,
     "exchange": "NASDAQ",
     "name": "Lipocine Inc.",
-    "short_pct_float": 0.0121
+    "short_pct_float": 0.0121,
+    "ext_price": 1.59,
+    "ext_chg": 0.03921568627450989,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -926,8 +1010,8 @@
     "exchange": "NASDAQ",
     "name": "Aprea Therapeutics, Inc.",
     "short_pct_float": 0.0429,
-    "ext_price": 0.5251,
-    "ext_chg": -0.06432649600000001,
+    "ext_price": 0.549,
+    "ext_chg": -0.021739125,
     "ext_session": "post"
    },
    "news": []
@@ -1088,8 +1172,8 @@
     "exchange": "NASDAQ",
     "name": "Peraso Inc.",
     "short_pct_float": 0.0394,
-    "ext_price": 0.5571,
-    "ext_chg": -0.05799802,
+    "ext_price": 0.5199,
+    "ext_chg": -0.12089956,
     "ext_session": "post"
    },
    "news": []
@@ -1510,8 +1594,8 @@
     "exchange": "NASDAQ",
     "name": "Nexalin Technology, Inc.",
     "short_pct_float": 0.0162,
-    "ext_price": 2.14,
-    "ext_chg": -0.09322033898305071,
+    "ext_price": 2.08,
+    "ext_chg": -0.11864406779661008,
     "ext_session": "post"
    },
    "news": []
@@ -1741,7 +1825,7 @@
     "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
-    "صعد في الأفتر إلى 0.647 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.634 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +33% في يوم)",
@@ -1760,8 +1844,8 @@
     "exchange": "NASDAQ",
     "name": "Greenland Technologies Holding Corporation",
     "short_pct_float": 0.0068,
-    "ext_price": 0.6469,
-    "ext_chg": 0.03338658146964857,
+    "ext_price": 0.6343,
+    "ext_chg": 0.013258785942491969,
     "ext_session": "post"
    },
    "news": []
@@ -2016,7 +2100,10 @@
     "market_cap": 70376192,
     "exchange": "NASDAQ",
     "name": "Zhengye Biotechnology Holding Limited",
-    "short_pct_float": 0.0025
+    "short_pct_float": 0.0025,
+    "ext_price": 1.43,
+    "ext_chg": -0.01379310344827589,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2164,7 +2251,7 @@
     "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 0.78 وأغلق 0.344 بفوليوم 274x)",
     "سهم صيني عالي التذبذب",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.212 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.208 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2184,8 +2271,8 @@
     "exchange": "NYSE",
     "name": "SOS Limited",
     "short_pct_float": 0.0388,
-    "ext_price": 0.2121,
-    "ext_chg": 0.07829181494661919,
+    "ext_price": 0.2078,
+    "ext_chg": 0.05643111337061524,
     "ext_session": "post"
    },
    "news": []
@@ -2269,7 +2356,10 @@
     "market_cap": 11109604,
     "exchange": "NASDAQ",
     "name": "Helport AI Limited",
-    "short_pct_float": 0.0058
+    "short_pct_float": 0.0058,
+    "ext_price": 0.301,
+    "ext_chg": 0.0117647058823529,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2528,88 +2618,6 @@
    "news": []
   },
   {
-   "ticker": "STI",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "BROKE_SUPPORT",
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "price": 4.53000020980835,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 1.0,
-     "note": "أدنى RSI 24 والحالي 28"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.0,
-     "note": "لا توجد شمعة إيجابية عند الدعم"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 84% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 0.75,
-     "note": "العائد/المخاطرة 2.1"
-    }
-   },
-   "support_low": 4.559999942779541,
-   "support_high": 4.605599942207337,
-   "support_touches": 4,
-   "trigger_level": 4.559999942779541,
-   "stop": 4.23360016822815,
-   "entry_low": 4.559999942779541,
-   "entry_high": 4.559999942779541,
-   "t1": 4.716000080108643,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 4.820000171661377,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 0.38,
-   "risk_pct": 0.0762,
-   "rsi_now": 27.7,
-   "rsi_min": 24.1,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "استرداد الدعم 4.56 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "الدخول تحت مقاومة مباشرة (4.72) — انتظر اختراقها والثبات",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +657% في يوم)",
-    "فوليوم البيع يضعف"
-   ],
-   "rank": 5.21710555553987,
-   "meta": {
-    "avg_volume": 434430.0,
-    "drawdown": 0.838,
-    "rr_best": 2.08,
-    "gain_from_low10": 0.049,
-    "higher_lows": "False",
-    "float": 2897577,
-    "market_cap": 42035256,
-    "exchange": "NASDAQ",
-    "name": "Solidion Technology, Inc.",
-    "short_pct_float": 0.059899997,
-    "ext_price": 4.53,
-    "ext_chg": 0.02954545454545454,
-    "ext_session": "post"
-   },
-   "news": []
-  },
-  {
    "ticker": "CCTG",
    "kind": "pivot",
    "status": "WATCH",
@@ -2688,7 +2696,10 @@
     "market_cap": 5146890,
     "exchange": "NASDAQ",
     "name": "CCSC Technology International Holdings Limited",
-    "short_pct_float": 0.0013
+    "short_pct_float": 0.0013,
+    "ext_price": 0.3733,
+    "ext_chg": -0.015039577836411522,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2748,11 +2759,13 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.34 ثم استرداد",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 8 يوم (طار إلى 0.505 وأغلق 0.369 بفوليوم 25x)",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.367 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2771,7 +2784,10 @@
     "market_cap": 11846478,
     "exchange": "NASDAQ",
     "name": "Uni-Fuels Holdings Limited",
-    "short_pct_float": 0.0307
+    "short_pct_float": 0.0307,
+    "ext_price": 0.3672,
+    "ext_chg": 0.00630309673883267,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2855,8 +2871,8 @@
     "exchange": "NASDAQ",
     "name": "Golden Heaven Group Holdings Ltd.",
     "short_pct_float": 0.00059999997,
-    "ext_price": 1.18,
-    "ext_chg": -0.016666749999999998,
+    "ext_price": 1.22,
+    "ext_chg": 0.01666665,
     "ext_session": "post"
    },
    "news": []
@@ -2944,8 +2960,8 @@
     "exchange": "NASDAQ",
     "name": "CaliberCos Inc.",
     "short_pct_float": 0.0785,
-    "ext_price": 0.4125,
-    "ext_chg": -0.028268551236749095,
+    "ext_price": 0.4126,
+    "ext_chg": -0.02803297997644283,
     "ext_session": "post"
    },
    "news": []
@@ -3030,7 +3046,10 @@
     "market_cap": 5224544,
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
-    "short_pct_float": 0.0405
+    "short_pct_float": 0.0405,
+    "ext_price": 0.1732,
+    "ext_chg": -0.0034522439585731313,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3290,7 +3309,10 @@
     "market_cap": 4610040,
     "exchange": "NASDAQ",
     "name": "Gelteq Limited",
-    "short_pct_float": 0.0732
+    "short_pct_float": 0.0732,
+    "ext_price": 0.448,
+    "ext_chg": 0.040892193308550207,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3406,7 +3428,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.34,
+   "price": 2.3,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3424,15 +3446,15 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2.48 بـ 6%",
+   "state_ar": "تحت مستوى الاختراق 2.48 بـ 8%",
    "alert": false,
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "BRTX",
-   "price": 1.5399999618530273,
-   "price_label": "سعر الأفتر",
+   "price": 1.559999942779541,
+   "price_label": "آخر سعر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3449,7 +3471,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 11%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 10%",
    "alert": false,
    "session": "post",
    "scanner": null

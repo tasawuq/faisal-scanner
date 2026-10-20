@@ -215,14 +215,23 @@ def run_once(force=False, demo=False, limit=None) -> dict:
     # ---------------- pivot analysis
     pivots = []
     analyzed = 0
+    funnel = {"prefiltered": len(syms) if not demo else len(daily), "with_data": len(daily), "short_history": 0,
+              "price_out": 0, "low_volume": 0, "watch_only_volume": 0}
     for s, df in daily.items():
         try:
             if df is None or len(df) < 60:
+                funnel["short_history"] += 1  # أقل من 60 يوم تداول (طرح جديد — ص69 يحتاج مستويات هندسية)
                 continue
             avg = float(df["volume"].iloc[-21:-1].mean())
             px = float(df["close"].iloc[-1])
-            if avg < C.WATCH_MIN_AVG_VOLUME or not (C.MIN_PRICE <= px <= C.MAX_PRICE):
+            if not (C.MIN_PRICE <= px <= C.MAX_PRICE):
+                funnel["price_out"] += 1
                 continue
+            if avg < C.WATCH_MIN_AVG_VOLUME:
+                funnel["low_volume"] += 1
+                continue
+            if avg < C.MIN_AVG_VOLUME:
+                funnel["watch_only_volume"] += 1
             analyzed += 1
             partial = session == "regular" and df.index[-1].date() == today
             sig = analyze_pivot(s, df, frac, partial)
@@ -479,6 +488,7 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         "generated_at_et": now_et.isoformat(),
         "session": session,
         "provider": provider_name,
+        "funnel": funnel,
         "counts": {"universe": int(len(universe)), "analyzed": analyzed, "ready": len(ready), "watch": len(watch),
                    "momentum": len(momw), "ext_quotes": len(quotes), "ext_movers_5pct": ext_movers},
         "ready": [dump(x) for x in ready],

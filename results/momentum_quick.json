@@ -1,18 +1,22 @@
 {
- "generated_at_et": "2026-10-20T15:59:35.909998-04:00",
+ "generated_at_et": "2026-10-20T16:04:35.910679-04:00",
  "mode": "quick",
- "session": "regular",
+ "session": "post",
  "ready": [],
  "radar": [],
  "new_alerts": [],
  "debug": {
-  "momentum": "off"
+  "momentum": "off",
+  "price_fallback": {
+   "nasdaq": 0,
+   "bars": 2
+  }
  },
  "watchlist": [
   {
    "ticker": "SVRE",
-   "price": 1.85,
-   "price_label": "سعر لحظي",
+   "price": 1.8799999952316284,
+   "price_label": "أفتر ماركت",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
    "added": "2026-10-16",
@@ -31,12 +35,12 @@
    "state": "BREAKOUT_PENDING",
    "state_ar": "فوق 1.7 — ينتظر الثبات أكثر من ربع ساعة",
    "alert": false,
-   "session": "regular"
+   "session": "post"
   },
   {
    "ticker": "ELPW",
-   "price": 2.3087,
-   "price_label": "سعر لحظي",
+   "price": null,
+   "price_label": "أفتر ماركت",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -52,15 +56,15 @@
      3.18
     ]
    },
-   "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2.48 بـ 7%",
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
    "alert": false,
-   "session": "regular"
+   "session": "post"
   },
   {
    "ticker": "BRTX",
-   "price": 1.57,
-   "price_label": "سعر لحظي",
+   "price": 1.5700000524520874,
+   "price_label": "أفتر ماركت",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -79,7 +83,7 @@
    "state": "WAITING",
    "state_ar": "تحت مستوى الاختراق 1.71 بـ 9%",
    "alert": false,
-   "session": "regular"
+   "session": "post"
   }
  ]
 }

@@ -1,17 +1,21 @@
 {
- "generated_at_et": "2026-10-20T08:05:15.026613-04:00",
+ "generated_at_et": "2026-10-20T08:09:39.588943-04:00",
  "mode": "quick",
  "session": "pre",
  "ready": [],
  "radar": [],
  "new_alerts": [],
  "debug": {
-  "momentum": "off"
+  "momentum": "off",
+  "price_fallback": {
+   "nasdaq": 3,
+   "bars": 0
+  }
  },
  "watchlist": [
   {
    "ticker": "SVRE",
-   "price": null,
+   "price": 1.79,
    "price_label": "بري ماركت",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -28,14 +32,14 @@
      2.06
     ]
    },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
+   "state": "BREAKOUT_PENDING",
+   "state_ar": "فوق 1.7 — ينتظر الثبات أكثر من ربع ساعة",
    "alert": false,
    "session": "pre"
   },
   {
    "ticker": "ELPW",
-   "price": null,
+   "price": 2.41,
    "price_label": "بري ماركت",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -52,14 +56,14 @@
      3.18
     ]
    },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
+   "state": "WAITING",
+   "state_ar": "تحت مستوى الاختراق 2.48 بـ 3%",
    "alert": false,
    "session": "pre"
   },
   {
    "ticker": "BRTX",
-   "price": null,
+   "price": 1.52,
    "price_label": "بري ماركت",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -76,8 +80,8 @@
      2.18
     ]
    },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
+   "state": "WAITING",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 12%",
    "alert": false,
    "session": "pre"
   }

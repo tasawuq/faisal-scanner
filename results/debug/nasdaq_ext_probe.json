@@ -1,1 +1,180 @@
-{}
+{
+ "AAPL": {
+  "data": {
+   "previousInfo": " Market Close: $342.94",
+   "lastUpdateInfo": [
+    "This page refreshes every 30 seconds.",
+    "Data last updated Oct 20, 2026 04:04 AM ET."
+   ],
+   "sessionText": "",
+   "infoTable": {
+    "asOf": null,
+    "headers": {
+     "consolidated": "Pre-Market Consolidated Last Trade",
+     "volume": "Pre-Market Share Volume",
+     "highPrice": "Pre-Market High",
+     "lowPrice": "Pre-Market Low"
+    },
+    "rows": [
+     {
+      "consolidated": null,
+      "volume": "104,041",
+      "highPrice": "$343.81 (04:02:37 AM)",
+      "lowPrice": "$340.44 (04:00:42 AM)",
+      "delta": "N/A"
+     }
+    ]
+   },
+   "tradeDetailTable": {
+    "asOf": null,
+    "headers": null,
+    "rows": null
+   },
+   "filterList": [
+    {
+     "name": "Last 100 Trades",
+     "value": 0
+    },
+    {
+     "name": "4:00 - 4:29",
+     "value": 1
+    },
+    {
+     "name": "4:30 - 4:59",
+     "value": 2
+    },
+    {
+     "name": "5:00 - 5:29",
+     "value": 3
+    },
+    {
+     "name": "5:30 - 5:59",
+     "value": 4
+    },
+    {
+     "name": "6:00 - 6:29",
+     "value": 5
+    },
+    {
+     "name": "6:30 - 6:59",
+     "value": 6
+    },
+    {
+     "name": "7:00 - 7:29",
+     "value": 7
+    },
+    {
+     "name": "7:30 - 7:59",
+     "value": 8
+    },
+    {
+     "name": "8:00 - 8:29",
+     "value": 9
+    },
+    {
+     "name": "8:30 - 8:59",
+     "value": 10
+    },
+    {
+     "name": "9:00 - 9:29",
+     "value": 11
+    }
+   ]
+  },
+  "message": "Currently there are no trades available in this session; reload the page to see if there are updates.",
+  "status": {
+   "rCode": 200,
+   "bCodeMessage": null,
+   "developerMessage": null
+  }
+ },
+ "SNDL": {
+  "data": {
+   "previousInfo": " Market Close: $1.255",
+   "lastUpdateInfo": [
+    "This page refreshes every 30 seconds.",
+    "Data last updated Oct 20, 2026 04:04 AM ET."
+   ],
+   "sessionText": "",
+   "infoTable": {
+    "asOf": null,
+    "headers": {
+     "consolidated": "Pre-Market Consolidated Last Trade",
+     "volume": "Pre-Market Share Volume",
+     "highPrice": "Pre-Market High",
+     "lowPrice": "Pre-Market Low"
+    },
+    "rows": [
+     {
+      "consolidated": null,
+      "volume": "488",
+      "highPrice": "$1.2269 (04:00:13 AM)",
+      "lowPrice": "$1.2269 (04:00:13 AM)",
+      "delta": "N/A"
+     }
+    ]
+   },
+   "tradeDetailTable": {
+    "asOf": null,
+    "headers": null,
+    "rows": null
+   },
+   "filterList": [
+    {
+     "name": "Last 100 Trades",
+     "value": 0
+    },
+    {
+     "name": "4:00 - 4:29",
+     "value": 1
+    },
+    {
+     "name": "4:30 - 4:59",
+     "value": 2
+    },
+    {
+     "name": "5:00 - 5:29",
+     "value": 3
+    },
+    {
+     "name": "5:30 - 5:59",
+     "value": 4
+    },
+    {
+     "name": "6:00 - 6:29",
+     "value": 5
+    },
+    {
+     "name": "6:30 - 6:59",
+     "value": 6
+    },
+    {
+     "name": "7:00 - 7:29",
+     "value": 7
+    },
+    {
+     "name": "7:30 - 7:59",
+     "value": 8
+    },
+    {
+     "name": "8:00 - 8:29",
+     "value": 9
+    },
+    {
+     "name": "8:30 - 8:59",
+     "value": 10
+    },
+    {
+     "name": "9:00 - 9:29",
+     "value": 11
+    }
+   ]
+  },
+  "message": "Currently there are no trades available in this session; reload the page to see if there are updates.",
+  "status": {
+   "rCode": 200,
+   "bCodeMessage": null,
+   "developerMessage": null
+  }
+ }
+}

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-20T11:11:15.383344+00:00",
- "generated_at_et": "2026-10-20T07:11:15.383344-04:00",
+ "generated_at_utc": "2026-10-20T11:21:15.383489+00:00",
+ "generated_at_et": "2026-10-20T07:21:15.383489-04:00",
  "session": "pre",
  "provider": "yahoo",
  "counts": {
@@ -9,7 +9,7 @@
   "ready": 0,
   "watch": 124,
   "momentum": 0,
-  "ext_quotes": 0,
+  "ext_quotes": 1596,
   "ext_movers_5pct": 0
  },
  "ready": [],
@@ -92,7 +92,10 @@
     "market_cap": 5533418,
     "exchange": "NASDAQ",
     "name": "Cellyan Biotechnology Co., Ltd",
-    "short_pct_float": 0.002
+    "short_pct_float": 0.002,
+    "ext_price": 0.11,
+    "ext_chg": -0.019607843,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -489,7 +492,10 @@
     "market_cap": 11895313,
     "exchange": "NASDAQ",
     "name": "BioVie Inc.",
-    "short_pct_float": 0.1073
+    "short_pct_float": 0.1073,
+    "ext_price": 1.35,
+    "ext_chg": -0.014598526,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -571,7 +577,10 @@
     "market_cap": 11846478,
     "exchange": "NASDAQ",
     "name": "Uni-Fuels Holdings Limited",
-    "short_pct_float": 0.0307
+    "short_pct_float": 0.0307,
+    "ext_price": 0.35,
+    "ext_chg": -0.0408331,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -805,7 +814,10 @@
     "market_cap": 181301728,
     "exchange": "NASDAQ",
     "name": "Sionna Therapeutics, Inc.",
-    "short_pct_float": 0.1363
+    "short_pct_float": 0.1363,
+    "ext_price": 4.01,
+    "ext_chg": 0.0,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -863,9 +875,12 @@
    "candle": "",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 3.70 ثم استرداد"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 3.70 ثم استرداد",
+    "السعر في البري 3.61 تحت الوقف — الدعم مكسور حالياً"
    ],
-   "flags": [],
+   "flags": [
+    "نزل في البري تحت الوقف (3.61)"
+   ],
    "tags": [
     "فلووت أقل من 20M",
     "Former Runner (سبق انفجر +70% في يوم)",
@@ -883,7 +898,10 @@
     "market_cap": 125469432,
     "exchange": "NASDAQ",
     "name": "QumulusAI, Inc.",
-    "short_pct_float": 0.051799998
+    "short_pct_float": 0.051799998,
+    "ext_price": 3.61,
+    "ext_chg": -0.037333362,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -965,7 +983,10 @@
     "market_cap": 3171017,
     "exchange": "AMEX",
     "name": "Top Ships Inc.",
-    "short_pct_float": 0.0654
+    "short_pct_float": 0.0654,
+    "ext_price": 0.4206,
+    "ext_chg": 0.0023831914,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1047,7 +1068,10 @@
     "market_cap": 2790779,
     "exchange": "NASDAQ",
     "name": "Decoy Therapeutics Inc.",
-    "short_pct_float": 0.2305
+    "short_pct_float": 0.2305,
+    "ext_price": 1.15,
+    "ext_chg": -0.017094002,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1127,7 +1151,10 @@
     "market_cap": 8198816,
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
-    "short_pct_float": 0.1097
+    "short_pct_float": 0.1097,
+    "ext_price": 1.5235,
+    "ext_chg": -0.010714283,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1369,7 +1396,10 @@
     "market_cap": 56664284,
     "exchange": "NASDAQ",
     "name": "Connect Biopharma Holdings Limited",
-    "short_pct_float": 0.0788
+    "short_pct_float": 0.0788,
+    "ext_price": 0.87,
+    "ext_chg": -0.033118467,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1451,7 +1481,10 @@
     "market_cap": 6506849,
     "exchange": "AMEX",
     "name": "AIM ImmunoTech Inc.",
-    "short_pct_float": 0.0354
+    "short_pct_float": 0.0354,
+    "ext_price": 0.166,
+    "ext_chg": 0.017780437,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1528,7 +1561,10 @@
     "market_cap": 172657904,
     "exchange": "NASDAQ",
     "name": "1-800-FLOWERS.COM, Inc.",
-    "short_pct_float": 0.3718
+    "short_pct_float": 0.3718,
+    "ext_price": 2.68,
+    "ext_chg": -0.0037174684000000004,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1588,12 +1624,14 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.14 ثم استرداد",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 17 يوم (طار إلى 3.12 وأغلق 1.99 بفوليوم 202x)",
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "تقسيم عكسي حديث 1:6 (2026-06-30)"
+    "تقسيم عكسي حديث 1:6 (2026-06-30)",
+    "صعد في البري إلى 1.24 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1611,7 +1649,10 @@
     "market_cap": 2750678,
     "exchange": "NASDAQ",
     "name": "HCW Biologics Inc.",
-    "short_pct_float": 0.028499998
+    "short_pct_float": 0.028499998,
+    "ext_price": 1.2419,
+    "ext_chg": 0.009674754,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1695,7 +1736,10 @@
     "market_cap": 3807237,
     "exchange": "NYSE",
     "name": "SOS Limited",
-    "short_pct_float": 0.0388
+    "short_pct_float": 0.0388,
+    "ext_price": 0.2,
+    "ext_chg": 0.024590200000000003,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1755,10 +1799,12 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.73 ثم استرداد",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب",
     "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 0.775 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +90% في يوم)",
@@ -1775,7 +1821,10 @@
     "market_cap": 37760672,
     "exchange": "NASDAQ",
     "name": "iBio, Inc.",
-    "short_pct_float": 0.0656
+    "short_pct_float": 0.0656,
+    "ext_price": 0.7753,
+    "ext_chg": 0.019997393000000002,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1834,10 +1883,12 @@
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.93 ثم استرداد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب",
     "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 1 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1857,7 +1908,10 @@
     "market_cap": 12938775,
     "exchange": "NASDAQ",
     "name": "Tvardi Therapeutics, Inc.",
-    "short_pct_float": 0.016900001
+    "short_pct_float": 0.016900001,
+    "ext_price": 1.0,
+    "ext_chg": 0.030927804,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1917,11 +1971,13 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.38 ثم استرداد",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "هدوء بعد شمعة الضخ وتكوين دعم جديد"
+    "هدوء بعد شمعة الضخ وتكوين دعم جديد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.428 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1940,7 +1996,10 @@
     "market_cap": 9555000,
     "exchange": "NASDAQ",
     "name": "Sagtec Global Limited",
-    "short_pct_float": 0.0078
+    "short_pct_float": 0.0078,
+    "ext_price": 0.428,
+    "ext_chg": 0.019047658000000002,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1999,10 +2058,12 @@
    "volume_note": "فوليوم يتحسن مع الارتداد",
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.36 ثم استرداد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب",
     "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
    "flags": [
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.42 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2021,7 +2082,10 @@
     "market_cap": 5801721,
     "exchange": "NASDAQ",
     "name": "Peraso Inc.",
-    "short_pct_float": 0.0394
+    "short_pct_float": 0.0394,
+    "ext_price": 0.4199,
+    "ext_chg": 0.0943445,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2097,7 +2161,10 @@
     "float": 38342009,
     "market_cap": 198950464,
     "exchange": "AMEX",
-    "name": "Titan Mining Corporation"
+    "name": "Titan Mining Corporation",
+    "ext_price": 2.0,
+    "ext_chg": -0.019607825000000002,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2255,7 +2322,10 @@
     "market_cap": 6685834,
     "exchange": "NASDAQ",
     "name": "FibroBiologics, Inc.",
-    "short_pct_float": 0.0787
+    "short_pct_float": 0.0787,
+    "ext_price": 0.944,
+    "ext_chg": -0.00010593856,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2335,7 +2405,10 @@
     "float": 5383824,
     "market_cap": 4061979,
     "exchange": "NASDAQ",
-    "name": "Cyabra, Inc."
+    "name": "Cyabra, Inc.",
+    "ext_price": 0.1443,
+    "ext_chg": -0.028282807,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2419,7 +2492,10 @@
     "market_cap": 5146890,
     "exchange": "NASDAQ",
     "name": "CCSC Technology International Holdings Limited",
-    "short_pct_float": 0.0013
+    "short_pct_float": 0.0013,
+    "ext_price": 0.3746,
+    "ext_chg": -0.011609537999999999,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2822,7 +2898,10 @@
     "market_cap": 15459028,
     "exchange": "NASDAQ",
     "name": "ParaZero Technologies Ltd.",
-    "short_pct_float": 0.0521
+    "short_pct_float": 0.0521,
+    "ext_price": 0.5048,
+    "ext_chg": -0.047726784,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2905,7 +2984,10 @@
     "float": 3842210,
     "market_cap": 141407808,
     "exchange": "NASDAQ",
-    "name": "Veraxa Biotech AG"
+    "name": "Veraxa Biotech AG",
+    "ext_price": 1.03,
+    "ext_chg": 0.029999971,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3050,12 +3132,14 @@
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب",
     "اكتمال الشروط الأساسية (3.8 من 6، المطلوب 4.5)"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 0.946 وأغلق 0.61 بفوليوم 626x)",
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.49 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -3072,7 +3156,10 @@
     "market_cap": 4610040,
     "exchange": "NASDAQ",
     "name": "Gelteq Limited",
-    "short_pct_float": 0.0732
+    "short_pct_float": 0.0732,
+    "ext_price": 0.49,
+    "ext_chg": 0.13847582,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3132,11 +3219,13 @@
    "waiting_for": [
     "كسر خط العنق 0.93 والثبات فوقه أكثر من ربع ساعة",
     "هدوء بعد شمعة الضخ وتكوين دعم جديد",
+    "السعر في البري 0.861 تحت الوقف — الدعم مكسور حالياً",
     "اكتمال الشروط الأساسية (3.8 من 6، المطلوب 4.5)"
    ],
    "flags": [
     "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
-    "سهم صيني عالي التذبذب"
+    "سهم صيني عالي التذبذب",
+    "نزل في البري تحت الوقف (0.861)"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3154,7 +3243,10 @@
     "market_cap": 3365387,
     "exchange": "NASDAQ",
     "name": "3 E Network Technology Group Limited",
-    "short_pct_float": 0.025999999
+    "short_pct_float": 0.025999999,
+    "ext_price": 0.8611,
+    "ext_chg": -0.07398642,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3237,7 +3329,10 @@
     "market_cap": 5224544,
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
-    "short_pct_float": 0.0405
+    "short_pct_float": 0.0405,
+    "ext_price": 0.1726,
+    "ext_chg": 0.0099473315,
+    "ext_session": "pre"
    },
    "news": []
   }
@@ -3325,8 +3420,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 393073.0,
-   "price": 339.7365
+   "volume": 410222.0,
+   "price": 339.2904
   },
   "SNDL": {
    "volume": 4652.0,

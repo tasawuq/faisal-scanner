@@ -1,10 +1,12 @@
 {
- "generated_at_et": "2026-10-20T10:29:39.613092-04:00",
+ "generated_at_et": "2026-10-20T10:30:39.613291-04:00",
  "mode": "quick",
  "session": "regular",
  "ready": [],
  "radar": [],
- "new_alerts": [],
+ "new_alerts": [
+  "SVRE (مستوى فيصل)"
+ ],
  "debug": {
   "momentum": "off"
  },
@@ -28,9 +30,9 @@
      2.06
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 1.7 — ينتظر الثبات أكثر من ربع ساعة",
-   "alert": false,
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى فيصل 1.7 وثبت",
+   "alert": true,
    "session": "regular"
   },
   {

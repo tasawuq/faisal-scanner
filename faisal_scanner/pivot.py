@@ -20,7 +20,8 @@ import pandas as pd
 
 from . import config as C
 from .indicators import sma, rsi, macd, atr
-from .levels import (swing_lows, build_zones, count_visits, resistance_levels, candle, candle_name, Zone)
+from .levels import (swing_lows, swing_highs, build_zones, count_visits, resistance_levels, candle, candle_name,
+                     Zone)
 
 READY, WATCH = "READY", "WATCH"
 
@@ -35,6 +36,10 @@ SETUP_AR = {
     "W_FORMING": "نموذج W قيد التكوين",
     "MA_RECLAIM": "استعاد MA20 — بانتظار إعادة الاختبار",
     "EXTENDED": "حقق صعوداً — لا مطاردة",
+    # 🚩 ص79 مثال 4 (أيقونة العلم): "اختراق مدروس بعد قاعدة — كوّن قاعدة، اخترق مقاومة قريبة، رجع لاختبارها ونجح،
+    # RSI كان 27 قبل الانطلاق → دخول أقوى بعد إعادة الاختبار" + ص68 (هبوط-قاع-كسر مقاومة-Retest-ثبات-دخول) + ص86 دخول 3
+    "BASE_RETEST": "🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة",
+    "BASE_BREAK": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
 }
 
 
@@ -357,6 +362,50 @@ def detect_w(ctx: Ctx):
     return None
 
 
+# ====================================================================== 🚩 base breakout + retest
+def detect_base_breakout(ctx: Ctx):
+    """ص79 مثال 4 (🚩) + ص68 + ص86 (دخول 3): هبوط → قاع/قاعدة بضغط RSI → اختراق مقاومة قريبة → رجوع لاختبارها
+    والثبات فوقها. يرجع آخر نموذج صالح أو None."""
+    n = ctx.n
+    start = max(0, n - 60)
+    if n - 4 <= start:
+        return None
+    lo_i = start + int(np.argmin(ctx.l[start:n - 3]))
+    base_low = float(ctx.l[lo_i])
+    # الهبوط قبل القاعدة: قمة الـ 60 يوم السابقة للقاع أعلى منه بـ 25%+ (نموذج الأسهم الهابطة ص68)
+    pre = ctx.h[max(0, lo_i - 60):lo_i + 1]
+    if not len(pre) or float(np.max(pre)) < base_low * (1 + C.DRAWDOWN_MED):
+        return None
+    highs = [i for i in swing_highs(ctx.h, k=2) if max(start, lo_i - 15) <= i < n - 2]
+    # المقاومة القريبة = سقف القاعدة: أعلى قمة محلية (ضمن +6%..+45% من القاع) تم كسرها بإغلاق بعد تكوّنها
+    broken = []
+    for i in highs:
+        res = float(ctx.h[i])
+        if not (base_low * 1.06 <= res <= base_low * 1.45):
+            continue
+        j = next((k for k in range(max(i, lo_i) + 1, n) if ctx.c[k] > res * 1.01), None)
+        if j is not None:
+            broken.append((res, i, j))
+    for res, i, j in sorted(broken, reverse=True)[:1]:
+        held = bool(np.all(ctx.c[j:] >= res * 0.97)) and ctx.c[-1] >= res
+        if not held:
+            return {"trap": True, "res": res, "brk": j}  # اخترق ثم رجع تحت = اختراق وهمي (Bull Trap)
+        k_rt = next((k for k in range(j + 1, n) if ctx.l[k] <= res * 1.03), None)
+        vol_ok = bool(ctx.v[j] >= 1.2 * max(ctx.avg_vol, 1)
+                      or (j == n - 1 and ctx.v_last_adj >= 1.2 * max(ctx.avg_vol, 1)))
+        out = {"res": res, "res_idx": i, "brk": j, "low_idx": lo_i, "base_low": base_low, "vol_ok": vol_ok,
+               "retest": k_rt}
+        if k_rt is not None:
+            # نجاح إعادة الاختبار: إغلاق شمعة الاختبار فوق المقاومة تقريباً + آخر شمعة ثابتة (إغلاق فوق المقاومة
+            # وفي النصف العلوي أو خضراء) — "إغلاق شموع فوق الدعم / شموع رفض عند الدعم" ص86
+            rng = max(ctx.h[-1] - ctx.l[-1], 1e-9)
+            out["retest_ok"] = bool(ctx.c[k_rt] >= res * 0.99 and ctx.c[-1] >= res
+                                    and (ctx.c[-1] >= ctx.o[-1] or (ctx.c[-1] - ctx.l[-1]) / rng >= 0.5))
+            out["retest_low"] = float(np.min(ctx.l[k_rt:]))
+        return out
+    return None
+
+
 # ====================================================================== main entry
 def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last_bar_partial: bool = False,
                   short_pct=None):
@@ -434,6 +483,26 @@ def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last
             elif ctx.c[-1] < neck and brk >= ctx.n - 10:
                 ctx.bull_trap = True
 
+    # ---------------- D: 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة (ص79 مثال 4، ص68، ص86)
+    bb = detect_base_breakout(ctx)
+    if bb is not None and bb.get("trap"):
+        ctx.bull_trap = True
+    elif bb is not None:
+        res, j = bb["res"], bb["brk"]
+        ext = price / res - 1
+        rz = Zone(res * 0.98, res * 1.01, 2, bb["res_idx"], ctx.n - 1)
+        # RSI قبل الانطلاق: من بداية القاعدة إلى اليوم ("RSI كان 27 قبل الانطلاق")
+        rsi_lb = int(min(60, max(C.RSI_LOOKBACK_BOUNCE, ctx.n - bb["low_idx"] + 10)))
+        if bb.get("retest") is not None and bb.get("retest_ok"):
+            stop = min(bb["retest_low"], res * 0.97) * (1 - C.STOP_BUFFER)
+            cands.append(dict(code="BASE_RETEST", zone=rz, trigger=res, stop=stop, entry=(res, min(max(price, res), res * 1.03)),
+                              confirmed=ext <= C.MAX_EXTENSION_BREAKOUT, rsi_lb=rsi_lb, late=C.RSI_LATE_BREAKOUT,
+                              breakout=True, neck=res, ext=ext, vol_ok=bb["vol_ok"]))
+        else:
+            cands.append(dict(code="BASE_BREAK", zone=rz, trigger=res, stop=res * 0.97 * (1 - C.STOP_BUFFER),
+                              entry=(res, res * 1.03), confirmed=False, rsi_lb=rsi_lb, late=C.RSI_LATE_BREAKOUT,
+                              breakout=True, neck=res, ext=ext, vol_ok=bb["vol_ok"]))
+
     # (المتوسطات عند فيصل فلتر تأكيد وليست دخولاً مستقلاً — ص64، لذلك لا يوجد نموذج دخول خاص بها)
 
     if not cands:
@@ -443,7 +512,8 @@ def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last
     results = [r for r in results if r is not None]
     if not results:
         return None
-    results.sort(key=lambda r: (r.status == READY, r.rank), reverse=True)
+    # ص79: "دخول أقوى بعد إعادة الاختبار" → عند التساوي نموذج العلم 🚩 يتقدّم
+    results.sort(key=lambda r: (r.status == READY, r.rank + (0.25 if r.setup == "BASE_RETEST" else 0.0)), reverse=True)
     best = results[0]
     if getattr(ctx, "bull_trap", False):
         best.flags.append("اختراق وهمي سابق لخط العنق (Bull Trap)")
@@ -530,15 +600,18 @@ def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, short_pct):
             wait.append(f"كسر خط العنق {cd['neck']:.2f} والثبات فوقه أكثر من ربع ساعة")
         elif cd["code"] == "MA_RECLAIM":
             wait.append(f"إعادة اختبار MA20 ({cd['trigger']:.2f}) والارتداد منه")
-        elif cd["code"] in ("W_BREAK", "W_RETEST", "MA_RETEST"):
+        elif cd["code"] in ("W_BREAK", "W_RETEST", "MA_RETEST", "BASE_RETEST"):
             wait.append(f"ابتعد {cd.get('ext', 0)*100:.0f}% عن مستوى الاختراق — انتظر إعادة اختبار {cd['trigger']:.2f}")
+        elif cd["code"] == "BASE_BREAK":
+            wait.append(f"اخترق المقاومة القريبة {cd['trigger']:.2f} — انتظر رجوعه لاختبارها والثبات فوقها "
+                        f"(لا تشتري الاختراق، ص20)")
         elif cd["code"] == "SWEEP":
             wait.append(f"إغلاق وثبات فوق {z.low:.2f} بعد سحب السيولة")
     if cond["rsi"][0] < 0.75:
         wait.append(f"ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة {s.rsi_min:.0f})")
     if cd["breakout"]:
         if cd.get("vol_ok") is False:
-            wait.append("فوليوم أعلى عند اختراق خط العنق (الاختراق بدون فوليوم ضعيف)")
+            wait.append("فوليوم أعلى عند الاختراق (الاختراق بدون فوليوم ضعيف — ص19)")
     elif not (ctx.vol_improving or ctx.sell_drying):
         wait.append("تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع")
     distinct = len(np.unique(np.round(ctx.c[-20:], 4)))

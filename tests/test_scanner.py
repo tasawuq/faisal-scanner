@@ -24,7 +24,7 @@ def test_liquidity_sweep_bounce_is_ready():
 
 def test_w_neckline_retest_is_ready():
     s = analyze_pivot("C", demo.scenario_w(END))
-    assert s is not None and s.status == READY and s.setup in ("W_RETEST", "W_BREAK")
+    assert s is not None and s.status == READY and s.setup in ("W_RETEST", "W_BREAK", "BASE_RETEST")
     assert s.stop < s.trigger_level <= s.price
 
 
@@ -374,3 +374,18 @@ def test_fill_missing_prices_fallback(monkeypatch):
     assert q["CCC"]["pre_price"] == 2.0 and "src" not in q["CCC"]
     assert "DDD" not in q
     assert got == {"nasdaq": 1, "bars": 1}
+
+
+def test_base_breakout_retest_flag_setup():
+    """🚩 ص79 مثال 4: قاعدة → اختراق مقاومة قريبة بفوليوم → إعادة اختبار ناجحة = جاهز، والوقف تحت منطقة الاختبار."""
+    s = analyze_pivot("F", demo.scenario_base_flag(END))
+    assert s is not None and s.setup == "BASE_RETEST" and s.status == READY
+    assert s.stop < s.trigger_level <= s.entry_low <= s.price <= s.trigger_level * 1.06
+    assert s.t1 > s.price
+
+
+def test_base_breakout_without_retest_is_watch():
+    """اختراق بدون إعادة اختبار = لا شراء للاختراق (ص20) → مراقبة."""
+    df = demo.scenario_base_flag(END).iloc[:-2].copy()
+    s = analyze_pivot("F", df)
+    assert s is None or s.status != READY

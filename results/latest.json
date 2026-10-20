@@ -1,8 +1,16 @@
 {
- "generated_at_utc": "2026-10-20T20:59:15.814072+00:00",
- "generated_at_et": "2026-10-20T16:59:15.814072-04:00",
+ "generated_at_utc": "2026-10-20T21:03:31.940042+00:00",
+ "generated_at_et": "2026-10-20T17:03:31.940042-04:00",
  "session": "post",
  "provider": "yahoo",
+ "funnel": {
+  "prefiltered": 1596,
+  "with_data": 1596,
+  "short_history": 18,
+  "price_out": 104,
+  "low_volume": 346,
+  "watch_only_volume": 161
+ },
  "counts": {
   "universe": 5855,
   "analyzed": 1128,
@@ -596,8 +604,8 @@
     "exchange": "NASDAQ",
     "name": "Lipocine Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 1.6,
-    "ext_chg": 0.045751633986928164,
+    "ext_price": 1.63,
+    "ext_chg": 0.065359477124183,
     "ext_session": "post"
    },
    "news": []
@@ -1091,8 +1099,8 @@
     "exchange": "NASDAQ",
     "name": "Peraso Inc.",
     "short_pct_float": 0.0394,
-    "ext_price": 0.5014,
-    "ext_chg": -0.15218132,
+    "ext_price": 0.5036,
+    "ext_chg": -0.14846130999999999,
     "ext_session": "post"
    },
    "news": []
@@ -1490,12 +1498,14 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 2.10 ثم استرداد",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 28)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 13 يوم (طار إلى 11 وأغلق 7.55 بفوليوم 7334x)",
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "تقسيم عكسي حديث 1:30 (2026-08-31)"
+    "تقسيم عكسي حديث 1:30 (2026-08-31)",
+    "صعد في الأفتر إلى 2.33 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1515,8 +1525,8 @@
     "exchange": "NASDAQ",
     "name": "Nexalin Technology, Inc.",
     "short_pct_float": 0.0162,
-    "ext_price": 2.14,
-    "ext_chg": -0.09322033898305071,
+    "ext_price": 2.33,
+    "ext_chg": -0.012711864406779627,
     "ext_session": "post"
    },
    "news": []
@@ -3055,8 +3065,8 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1784,
-    "ext_chg": 0.026467203682393414,
+    "ext_price": 0.1783,
+    "ext_chg": 0.02589182968929782,
     "ext_session": "post"
    },
    "news": []

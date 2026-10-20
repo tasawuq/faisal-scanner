@@ -421,6 +421,45 @@ def nasdaq_extended(symbols, market: str = "pre", raw_dump: str = None) -> dict:
     return out
 
 
+def fill_missing_prices(quotes, symbols, session, now_et=None, bars=None, max_nasdaq=60):
+    """Yahoo أحياناً يوقف أسعار البري/الأفتر (حد الطلبات) → نكمّل الناقص من ناسداك (البري/الأفتر)،
+    ثم من إغلاق آخر شمعة 15 دقيقة حديثة (≤35 دقيقة). يرجع (quotes, {"nasdaq": n, "bars": n})."""
+    pk, ck = {"pre": ("pre_price", "pre_chg"), "post": ("post_price", "post_chg")}.get(session, ("reg_price", "reg_chg"))
+    out = dict(quotes or {})
+    got = {"nasdaq": 0, "bars": 0}
+
+    def put(s, px, src):
+        q = dict(out.get(s) or {})
+        q[pk] = float(px)
+        pc = q.get("prev_close")
+        q[ck] = (q[pk] / pc - 1.0) if pc else q.get(ck)
+        q["src"] = src
+        out[s] = q
+        got[src] += 1
+
+    miss = [s for s in dict.fromkeys(symbols) if not (out.get(s) or {}).get(pk)]
+    if miss and session in ("pre", "post"):
+        try:
+            nx = nasdaq_extended(miss[:max_nasdaq], session)
+        except Exception as e:  # noqa
+            log.warning("nasdaq price fallback failed: %s", e)
+            nx = {}
+        for s, v in nx.items():
+            if v.get("price") and np.isfinite(v["price"]) and v["price"] > 0:
+                put(s, v["price"], "nasdaq")
+        miss = [s for s in miss if not (out.get(s) or {}).get(pk)]
+    if miss and bars and now_et is not None:
+        for s in miss:
+            b = bars.get(s)
+            if b is None or not len(b):
+                continue
+            t = b.index[-1]
+            if t.date() != now_et.date() or t + timedelta(minutes=35) < now_et:
+                continue
+            put(s, b["close"].iloc[-1], "bars")
+    return out, got
+
+
 def load_daily_cache(key: str):
     import gzip, pickle
     path = os.path.join(C.CACHE_DIR, f"daily_{key}.pkl.gz")

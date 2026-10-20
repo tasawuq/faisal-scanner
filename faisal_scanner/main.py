@@ -20,7 +20,7 @@ import pandas as pd
 from . import config as C
 from .data_sources import (ET, session_info, get_universe, get_price_provider, YahooData, AlpacaData,
                            merge_today_bar, fundamentals, yahoo_quotes, load_daily_cache, save_daily_cache,
-                           nasdaq_extended)
+                           nasdaq_extended, fill_missing_prices)
 from .pivot import analyze_pivot, READY, WATCH
 from .momentum import analyze_momentum
 from .report import build_markdown
@@ -201,7 +201,8 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         intra_provider = provider
         fund, news, intraday5 = None, None, None
         quotes = {}
-        if session in ("pre", "post"):
+        # الزخم يحتاج أسعار البري/الأفتر لكل الأسهم؛ الارتكاز فقط → نطلبها بعد التحليل للمرشحين فقط (طلبات أقل = حد Yahoo أبعد)
+        if session in ("pre", "post") and C.ENABLE_MOMENTUM:
             try:
                 quotes = yahoo_quotes(syms)
                 log.info("Extended-hours quotes: %d", len(quotes))
@@ -229,6 +230,25 @@ def run_once(force=False, demo=False, limit=None) -> dict:
                 pivots.append(sig)
         except Exception as e:  # noqa
             log.debug("pivot %s failed: %s", s, e)
+
+    # ---------------- أسعار البري/الأفتر لمرشحي الارتكاز + قائمة المتابعة (Yahoo ثم ناسداك احتياط)
+    if session in ("pre", "post") and not demo:
+        pk = "pre_price" if session == "pre" else "post_price"
+        top_p = sorted(pivots, key=lambda x: (x.status != READY, -x.rank))[:60]
+        want = list(dict.fromkeys([x.ticker for x in top_p] + [w["ticker"] for w in faisal_watch.load()]))
+        need = [s for s in want if not (quotes.get(s) or {}).get(pk)]
+        yq = {}
+        if need:
+            try:
+                yq = yahoo_quotes(need)
+                quotes = {**quotes, **yq}
+            except Exception as e:  # noqa
+                errors.append(f"quotes: {str(e)[:80]}")
+        n_y = sum(1 for s in want if (quotes.get(s) or {}).get(pk))
+        quotes, filled = fill_missing_prices(quotes, want, session)
+        log.info("Extended prices: yahoo=%d nasdaq=%d of %d", n_y, filled["nasdaq"], len(want))
+        if need and not yq:
+            errors.append(f"yahoo quotes empty in {session} — nasdaq fallback {filled['nasdaq']}/{len(want)}")
 
     # ---------------- momentum candidates
     moms = []
@@ -415,6 +435,8 @@ def run_once(force=False, demo=False, limit=None) -> dict:
                     brk_bars = YahooData().intraday(need, "15m", prepost=True)
                 except Exception as e:  # noqa
                     errors.append(f"faisal 15m: {str(e)[:60]}")
+            if session in ("pre", "post") and brk_bars:
+                quotes, _ = fill_missing_prices(quotes, [w["ticker"] for w in fw], session, now_et, brk_bars, max_nasdaq=0)
         for w in fw:
             t = w["ticker"]
             df = daily.get(t)

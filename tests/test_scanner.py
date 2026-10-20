@@ -353,3 +353,24 @@ def test_watch_breakout_retest_alert():
     assert ev["state"] == "RETEST_HOLD" and ev["alert"] is True
     red = b.assign(close=[1.90, 1.74, 1.71, 1.70], open=[1.80, 1.80, 1.74, 1.72])
     assert fw.retest_confirmed(red, 1.70, now) is False
+
+
+def test_fill_missing_prices_fallback(monkeypatch):
+    """Yahoo ما رجّع سعر البري → ناسداك ثم آخر شمعة 15 دقيقة حديثة؛ الشمعة القديمة ما تُستخدم."""
+    import pandas as pd
+    from datetime import datetime
+    from faisal_scanner import data_sources as ds
+    monkeypatch.setattr(ds, "nasdaq_extended", lambda syms, market="pre", raw_dump=None:
+                        {"AAA": {"price": 1.23, "volume": 1000}} if "AAA" in syms else {})
+    now = datetime(2026, 10, 20, 8, 0, tzinfo=ds.ET)
+    fresh = pd.DataFrame({"open": [1.0], "high": [1.1], "low": [0.9], "close": [1.05], "volume": [10]},
+                         index=[pd.Timestamp("2026-10-20 07:30", tz=ds.ET)])
+    old = fresh.copy()
+    old.index = [pd.Timestamp("2026-10-20 06:00", tz=ds.ET)]
+    q, got = ds.fill_missing_prices({"CCC": {"pre_price": 2.0, "prev_close": 2.2}}, ["AAA", "BBB", "CCC", "DDD"],
+                                    "pre", now, {"BBB": fresh, "DDD": old})
+    assert q["AAA"]["pre_price"] == 1.23 and q["AAA"]["src"] == "nasdaq"
+    assert q["BBB"]["pre_price"] == 1.05 and q["BBB"]["src"] == "bars"
+    assert q["CCC"]["pre_price"] == 2.0 and "src" not in q["CCC"]
+    assert "DDD" not in q
+    assert got == {"nasdaq": 1, "bars": 1}

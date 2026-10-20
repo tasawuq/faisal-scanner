@@ -15,7 +15,8 @@ import numpy as np
 
 from . import config as C
 from . import notify
-from .data_sources import ET, session_info, get_universe, YahooData, fundamentals, yahoo_quotes, nasdaq_extended
+from .data_sources import (ET, session_info, get_universe, YahooData, fundamentals, yahoo_quotes, nasdaq_extended,
+                           fill_missing_prices)
 from .momentum import analyze_momentum, _seg
 from .pivot import READY
 from .main import enrich, update_alert_state
@@ -181,12 +182,19 @@ def watch_alerts(result, quotes, now_et, session="regular"):
     seg = {"pre": "بري ماركت", "post": "أفتر ماركت"}.get(session, "سعر لحظي")
     need = [w["ticker"] for w in fw if not (quotes.get(w["ticker"]) or {}).get(key)]
     if need:
-        quotes = {**quotes, **yahoo_quotes(need)}
+        try:
+            quotes = {**quotes, **yahoo_quotes(need)}
+        except Exception as e:  # noqa
+            log.warning("quick watchlist quotes failed: %s", e)
     bars15 = {}
     try:
         bars15 = YahooData().intraday([w["ticker"] for w in fw], "15m", prepost=True) or {}
     except Exception as e:  # noqa
         log.warning("quick watchlist 15m failed: %s", e)
+    # إذا Yahoo ما رجّع السعر: ناسداك (بري/أفتر) ثم آخر شمعة 15 دقيقة — بدونها الحالة "لا توجد بيانات" ولا يطلع تنبيه
+    quotes, filled = fill_missing_prices(quotes, [w["ticker"] for w in fw], session, now_et, bars15)
+    if filled["nasdaq"] or filled["bars"]:
+        result.setdefault("debug", {})["price_fallback"] = filled
     ext = session in ("pre", "post")
     evs = []
     for w in fw:

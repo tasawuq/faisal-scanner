@@ -191,6 +191,8 @@ def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
     if L.get("targets"):
         lines.append("الأهداف: " + " ثم ".join(_g(x) for x in L["targets"]))
     lines.append(f"المصدر: {src}")
+    if ev.get("warn"):
+        lines.append(f"⚠️ {ev['warn']}")
     wait_open = f"انتظر الافتتاح ({open_time_riyadh()})" if seg == "بري ماركت" else "انتظر جلسة بكرة" if seg else ""
     if st == "ZONE_CONFIRMED":
         tg = L.get("targets") or []
@@ -210,7 +212,8 @@ def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
                f"دخول قرب {_g(brk)}–{_g(round(brk * 1.03, 2))} بدون مطاردة، والوقف تحت {_g(brk)} مباشرة"
                f" (الوقف من تطبيق القاعدة، مو رقم فيصل)." + (f" الهدف {_g(tg[0])}." if tg else ""))
     elif st == "BREAKOUT_HOLD":
-        act = f"دخول زخم قريب من {_g(brk)} بدون مطاردة، والوقف تحت {_g(brk)} مباشرة."
+        act = (f"اخترق {_g(brk)} وثبت شمعتين 15 دقيقة. الملف يفضّل «الثبات أو إعادة الاختبار الناجحة»: "
+               f"الدخول قرب {_g(brk)} بدون مطاردة (الأفضل على رجوعه لـ {_g(brk)} وثباته فوقها)، والوقف تحت {_g(brk)} مباشرة.")
     else:
         act = ev.get("state_ar", "")
     if seg and st in ("ZONE_CONFIRMED", "BREAKOUT_HOLD"):

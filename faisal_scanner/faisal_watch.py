@@ -21,8 +21,13 @@ def load(path: str = FILE) -> list:
             data = json.load(f)
     except Exception:  # noqa
         return []
+    from datetime import datetime, timezone
+    from zoneinfo import ZoneInfo
+    today = datetime.now(timezone.utc).astimezone(ZoneInfo("America/New_York")).date().isoformat()
     out = []
     for s in data.get("stocks", []):
+        if s.get("not_before") and today < s["not_before"]:
+            continue  # مثل SMX: الملف يطلب مرور وقت كافٍ بعد شمعة الضخ/التصريف
         if s.get("ticker") and s.get("active", True):
             s["ticker"] = s["ticker"].upper().strip()
             out.append(s)
@@ -102,7 +107,8 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
     lo, hi = entry.get("demand_low"), entry.get("demand_high")
     stop, brk = entry.get("stop"), entry.get("breakout")
     res = {"ticker": entry["ticker"], "price": price, "price_label": price_label, "note": entry.get("note", ""),
-           "source": entry.get("source", ""), "added": entry.get("added", ""), "label": alert_label(entry), "levels": {
+           "source": entry.get("source", ""), "added": entry.get("added", ""), "label": alert_label(entry),
+           "warn": entry.get("warn", ""), "levels": {
                "demand_low": lo, "demand_high": hi, "stop": stop, "breakout": brk, "targets": entry.get("targets", [])}}
     if price is None:
         res.update(state="NO_DATA", state_ar="لا توجد بيانات سعر", alert=False)

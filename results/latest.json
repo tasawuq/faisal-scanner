@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-20T23:13:31.942331+00:00",
- "generated_at_et": "2026-10-20T19:13:31.942331-04:00",
+ "generated_at_utc": "2026-10-20T23:23:31.942502+00:00",
+ "generated_at_et": "2026-10-20T19:23:31.942502-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -17,7 +17,7 @@
   "ready": 0,
   "watch": 128,
   "momentum": 0,
-  "ext_quotes": 59,
+  "ext_quotes": 60,
   "ext_movers_5pct": 0
  },
  "ready": [],
@@ -600,7 +600,7 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.1118,
+    "ext_price": 0.1073,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1180,7 +1180,7 @@
     "exchange": "NASDAQ",
     "name": "Peraso Inc.",
     "short_pct_float": 0.0394,
-    "ext_price": 0.53,
+    "ext_price": 0.5159,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1431,7 +1431,7 @@
     "exchange": "NASDAQ",
     "name": "Decoy Therapeutics Inc.",
     "short_pct_float": 0.2305,
-    "ext_price": 1.1303,
+    "ext_price": 1.1397,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1500,7 +1500,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 10 يوم (طار إلى 1.86 وأغلق 1.25 بفوليوم 299x)",
     "اختراق وهمي سابق لخط العنق (Bull Trap)",
-    "صعد في الأفتر إلى 0.743 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.74 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1520,7 +1520,7 @@
     "exchange": "NASDAQ",
     "name": "Olenox Industries Inc.",
     "short_pct_float": 0.053600002,
-    "ext_price": 0.743,
+    "ext_price": 0.7401,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1582,12 +1582,14 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 2.10 ثم استرداد",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 28)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 13 يوم (طار إلى 11 وأغلق 7.55 بفوليوم 7334x)",
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "تقسيم عكسي حديث 1:30 (2026-08-31)"
+    "تقسيم عكسي حديث 1:30 (2026-08-31)",
+    "صعد في الأفتر إلى 2.32 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1607,7 +1609,7 @@
     "exchange": "NASDAQ",
     "name": "Nexalin Technology, Inc.",
     "short_pct_float": 0.0162,
-    "ext_price": 2.2,
+    "ext_price": 2.3184,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2027,7 +2029,7 @@
     "exchange": "NASDAQ",
     "name": "HCW Biologics Inc.",
     "short_pct_float": 0.028499998,
-    "ext_price": 1.17,
+    "ext_price": 1.1712,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3405,14 +3407,17 @@
     "market_cap": 208137872,
     "exchange": "NYSE",
     "name": "Octave Specialty Group, Inc.",
-    "short_pct_float": 0.0337
+    "short_pct_float": 0.0337,
+    "ext_price": 4.77,
+    "ext_chg": null,
+    "ext_session": "post"
    },
    "news": []
   }
  ],
  "momentum": [],
  "errors": [
-  "yahoo quotes empty in post — nasdaq fallback 59/63"
+  "yahoo quotes empty in post — nasdaq fallback 60/63"
  ],
  "ext_debug": [],
  "faisal": [

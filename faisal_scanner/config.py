@@ -14,7 +14,8 @@ MAX_MARKET_CAP = float(os.getenv("MAX_MARKET_CAP", "300e6"))  # Under 300M / Mic
 MAX_FLOAT = float(os.getenv("MAX_FLOAT", "50e6"))      # Float Under 50M
 PREFERRED_FLOAT = 20e6                                  # Under 20M مقبول للمضاربة
 HOT_FLOAT = 5e6                                         # أقل من 5M قوي وخطر
-MIN_AVG_VOLUME = 100_000                                # Average Volume Over 100K
+MIN_AVG_VOLUME = 100_000                                # Average Volume Over 100K (فلتر الملف ص6) — شرط للتنبيه
+WATCH_MIN_AVG_VOLUME = 50_000                           # 50K–100K: مراقبة فقط بدون تنبيه (مثال OMH 2026-10-20)
 
 # ---------------------------------------------------------------------------
 # 2) المتوسطات و RSI و MACD (الفصول 21–23)

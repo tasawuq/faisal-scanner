@@ -89,7 +89,7 @@ def refresh_status(sig):
         if sig.score < C.MIN_SCORE_READY:
             sig.waiting_for.append(f"اكتمال الشروط الأساسية ({sig.score:.1f} من 6، المطلوب {C.MIN_SCORE_READY:.1f})")
     sig.status = READY if not sig.waiting_for and sig.setup not in (
-        "AT_SUPPORT", "BROKE_SUPPORT", "W_FORMING", "MA_RECLAIM", "MOM_ABOVE_VWAP", "MOM_EXTENDED", "MOM_BELOW_VWAP") else WATCH
+        "AT_SUPPORT", "BROKE_SUPPORT", "W_FORMING", "MA_RECLAIM", "BASE_BREAK", "MOM_ABOVE_VWAP", "MOM_EXTENDED", "MOM_BELOW_VWAP") else WATCH
 
 
 def apply_news(sig, items):
@@ -221,11 +221,18 @@ def run_once(force=False, demo=False, limit=None) -> dict:
                 continue
             avg = float(df["volume"].iloc[-21:-1].mean())
             px = float(df["close"].iloc[-1])
-            if avg < C.MIN_AVG_VOLUME or not (C.MIN_PRICE <= px <= C.MAX_PRICE):
+            if avg < C.WATCH_MIN_AVG_VOLUME or not (C.MIN_PRICE <= px <= C.MAX_PRICE):
                 continue
             analyzed += 1
             partial = session == "regular" and df.index[-1].date() == today
             sig = analyze_pivot(s, df, frac, partial)
+            if sig and avg < C.MIN_AVG_VOLUME:
+                # فلتر الملف (ص6): Average Volume Over 100K → 50K–100K مراقبة فقط، لا تنبيه (سيولة ضعيفة/سبريد، ص63)
+                sig.flags.append(f"سيولة ضعيفة: متوسط الفوليوم {avg / 1000:.0f}K أقل من 100K (فلتر الملف ص6) — مراقبة فقط")
+                sig.waiting_for.append("متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم")
+                if sig.status == READY:
+                    sig.rank -= 2.0
+                sig.status = WATCH
             if sig:
                 pivots.append(sig)
         except Exception as e:  # noqa

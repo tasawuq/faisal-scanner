@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-21T08:26:15.740727+00:00",
- "generated_at_et": "2026-10-21T04:26:15.740727-04:00",
+ "generated_at_utc": "2026-10-21T08:31:16.290414+00:00",
+ "generated_at_et": "2026-10-21T04:31:16.290414-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -187,7 +187,10 @@
     "market_cap": 5523555,
     "exchange": "NASDAQ",
     "name": "Cellyan Biotechnology Co., Ltd",
-    "short_pct_float": 0.002
+    "short_pct_float": 0.002,
+    "ext_price": 0.106,
+    "ext_chg": -0.05525846702317283,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1244,12 +1247,9 @@
    "candle": "شمعة خضراء بإغلاق قوي",
    "volume_note": "فوليوم يتحسن مع الارتداد",
    "waiting_for": [
-    "اخترق المقاومة القريبة 0.52 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
-    "السعر في البري 0.491 تحت الوقف — الدعم مكسور حالياً"
+    "اخترق المقاومة القريبة 0.52 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)"
    ],
-   "flags": [
-    "نزل في البري تحت الوقف (0.491)"
-   ],
+   "flags": [],
    "tags": [
     "فلووت أقل من 20M",
     "Former Runner (سبق انفجر +159% في يوم)",
@@ -1267,8 +1267,8 @@
     "exchange": "NASDAQ",
     "name": "Peraso Inc.",
     "short_pct_float": 0.0394,
-    "ext_price": 0.4912,
-    "ext_chg": -0.1694285,
+    "ext_price": 0.4951,
+    "ext_chg": -0.16283401,
     "ext_session": "pre"
    },
    "news": []
@@ -2102,8 +2102,8 @@
     "exchange": "NASDAQ",
     "name": "HCW Biologics Inc.",
     "short_pct_float": 0.028499998,
-    "ext_price": 1.18,
-    "ext_chg": -0.04065040650406504,
+    "ext_price": 1.17,
+    "ext_chg": -0.04878048780487809,
     "ext_session": "pre"
    },
    "news": []
@@ -3413,7 +3413,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.3,
+   "price": 2.3003,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3465,8 +3465,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 68807.0,
-   "price": 337.2
+   "volume": 77675.0,
+   "price": 337.1
   },
   "SNDL": {
    "volume": 372.0,

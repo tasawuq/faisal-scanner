@@ -202,11 +202,12 @@ def watch_alerts(result, quotes, now_et, session="regular"):
         px_ = (quotes.get(w["ticker"]) or {}).get(key) or w.get("last_price")
         if not px_:
             return False
-        lo_ = (w.get("wash_low") or w["demand_low"]) * 0.98
+        lo_ = (w.get("wash_low") or w["demand_low"]) * 0.99
         brk_ = w.get("breakout")
-        return lo_ <= px_ <= w["demand_high"] * 1.02 or bool(brk_ and brk_ * 0.98 <= px_ <= brk_ * 1.06)
+        return lo_ <= px_ <= w["demand_high"] * 1.01 or bool(brk_ and brk_ * 0.99 <= px_ <= brk_ * 1.04)
 
-    bar_t = [w["ticker"] for w in fw if _near(w)]
+    bar_t = [w["ticker"] for w in fw if w.get("kind") != "weekly"]
+    bar_t += [w["ticker"] for w in fw if w.get("kind") == "weekly" and _near(w)][:40]
     bars15 = {}
     try:
         bars15 = YahooData().intraday(bar_t, "15m", prepost=True) or {} if bar_t else {}

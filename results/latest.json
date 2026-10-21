@@ -1,19 +1,19 @@
 {
- "generated_at_utc": "2026-10-21T09:01:16.290931+00:00",
- "generated_at_et": "2026-10-21T05:01:16.290931-04:00",
+ "generated_at_utc": "2026-10-21T09:11:16.291057+00:00",
+ "generated_at_et": "2026-10-21T05:11:16.291057-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1596,
   "with_data": 1596,
-  "short_history": 17,
+  "short_history": 18,
   "price_out": 103,
   "low_volume": 346,
   "watch_only_volume": 161
  },
  "counts": {
   "universe": 5855,
-  "analyzed": 1130,
+  "analyzed": 1129,
   "ready": 0,
   "watch": 127,
   "momentum": 0,
@@ -1253,10 +1253,10 @@
    "volume_note": "فوليوم يتحسن مع الارتداد",
    "waiting_for": [
     "اخترق المقاومة القريبة 0.52 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
-    "السعر في البري 0.484 تحت الوقف — الدعم مكسور حالياً"
+    "السعر في البري 0.485 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
-    "نزل في البري تحت الوقف (0.484)"
+    "نزل في البري تحت الوقف (0.485)"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1275,8 +1275,8 @@
     "exchange": "NASDAQ",
     "name": "Peraso Inc.",
     "short_pct_float": 0.0394,
-    "ext_price": 0.4841,
-    "ext_chg": -0.1814339,
+    "ext_price": 0.4848,
+    "ext_chg": -0.18025027999999998,
     "ext_session": "pre"
    },
    "news": []
@@ -2100,7 +2100,7 @@
     "شمعة ضخ/تصريف قبل 18 يوم (طار إلى 3.12 وأغلق 1.99 بفوليوم 202x)",
     "سهم طبي — الخبر قد يغير الاتجاه",
     "تقسيم عكسي حديث 1:6 (2026-06-30)",
-    "صعد في البري إلى 1.28 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 1.26 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -2120,8 +2120,8 @@
     "exchange": "NASDAQ",
     "name": "HCW Biologics Inc.",
     "short_pct_float": 0.028499998,
-    "ext_price": 1.28,
-    "ext_chg": 0.04065040650406515,
+    "ext_price": 1.26,
+    "ext_chg": 0.024390243902439046,
     "ext_session": "pre"
    },
    "news": []
@@ -2970,7 +2970,7 @@
     "name": "Eason Technology Limited",
     "short_pct_float": 0.0126,
     "ext_price": 0.3348,
-    "ext_chg": -0.01268062,
+    "ext_chg": -0.0041641697,
     "ext_session": "pre"
    },
    "news": []
@@ -3058,8 +3058,8 @@
     "exchange": "NASDAQ",
     "name": "CaliberCos Inc.",
     "short_pct_float": 0.0785,
-    "ext_price": 0.427,
-    "ext_chg": 0.005889281507656108,
+    "ext_price": 0.425,
+    "ext_chg": 0.0011778563015312216,
     "ext_session": "pre"
    },
    "news": []
@@ -3491,12 +3491,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 99632.0,
-   "price": 337.1
+   "volume": 107298.0,
+   "price": 336.89
   },
   "SNDL": {
-   "volume": 7772.0,
-   "price": 1.28
+   "volume": 8042.0,
+   "price": 1.25
   }
  }
 }

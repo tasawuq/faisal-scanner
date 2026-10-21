@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-21T12:04:17.989443+00:00",
- "generated_at_et": "2026-10-21T08:04:17.989443-04:00",
+ "generated_at_utc": "2026-10-21T12:07:14.602333+00:00",
+ "generated_at_et": "2026-10-21T08:07:14.602333-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -188,8 +188,8 @@
     "exchange": "NASDAQ",
     "name": "Cellyan Biotechnology Co., Ltd",
     "short_pct_float": 0.002,
-    "ext_price": 0.0862,
-    "ext_chg": -0.23035717000000003,
+    "ext_price": 0.0835,
+    "ext_chg": -0.25446434,
     "ext_session": "pre"
    },
    "news": []
@@ -1272,8 +1272,8 @@
     "exchange": "NASDAQ",
     "name": "Peraso Inc.",
     "short_pct_float": 0.0394,
-    "ext_price": 0.5031,
-    "ext_chg": -0.14930680000000002,
+    "ext_price": 0.502,
+    "ext_chg": -0.15116680000000002,
     "ext_session": "pre"
    },
    "news": []
@@ -1592,7 +1592,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 10 يوم (طار إلى 1.86 وأغلق 1.25 بفوليوم 299x)",
     "اختراق وهمي سابق لخط العنق (Bull Trap)",
-    "صعد في البري إلى 1.08 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 1.07 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1612,8 +1612,8 @@
     "exchange": "NASDAQ",
     "name": "Olenox Industries Inc.",
     "short_pct_float": 0.053600002,
-    "ext_price": 1.0802,
-    "ext_chg": 0.46150723,
+    "ext_price": 1.07,
+    "ext_chg": 0.44770679999999996,
     "ext_session": "pre"
    },
    "news": []
@@ -3471,8 +3471,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.559999942779541,
-   "price_label": "آخر سعر",
+   "price": 1.55,
+   "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3498,12 +3498,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 257395.0,
+   "volume": 260317.0,
    "price": 338.0
   },
   "SNDL": {
    "volume": 36710.0,
-   "price": 1.28
+   "price": 1.2809
   }
  }
 }

@@ -237,7 +237,7 @@ def run_once(force=False, demo=False, limit=None) -> dict:
             sig = analyze_pivot(s, df, frac, partial)
             if sig and avg < C.MIN_AVG_VOLUME:
                 # فلتر الملف (ص6): Average Volume Over 100K → 50K–100K مراقبة فقط، لا تنبيه (سيولة ضعيفة/سبريد، ص63)
-                sig.flags.append(f"سيولة ضعيفة: متوسط الفوليوم {avg / 1000:.0f}K أقل من 100K (فلتر الملف ص6) — مراقبة فقط")
+                sig.flags.append(f"سيولة ضعيفة: متوسط الفوليوم {avg / 1000:.1f}K أقل من 100K (فلتر الملف ص6) — مراقبة فقط")
                 sig.waiting_for.append("متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم")
                 if sig.status == READY:
                     sig.rank -= 2.0

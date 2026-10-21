@@ -230,7 +230,8 @@ def markdown(w):
             lines.append("- الأخبار: " + " | ".join(f"{t} ({dt})" for dt, t in it["news"][:2]))
         lines.append(f"- القاع {_p(lv['bottom'])} | منطقة الطلب (Limit) {_p(lv['demand_low'])}–{_p(lv['demand_high'])}"
                      f" | منطقة الغسل {_p(lv['wash_low'])}–{_p(lv['wash_high'])} ({lv['wash_note']})"
-                     f" | المستوى الفاصل {_p(lv['pivot'])} | الأهداف {_p(lv['t1'])} / {_p(lv['t2'])} | الوقف تحت {_p(lv['stop'])}")
+                     f" | المستوى الفاصل {_p(lv['pivot'])} | الأهداف {_p(lv['t1'])} / {_p(lv['t2'])}"
+                     f" | الوقف: تحت {_p(lv['stop_tight'])} لدخول منطقة الطلب، وتحت {_p(lv['stop'])} لدخول الغسل")
         if it["not_ready"]:
             lines.append("- غير جاهز لأن: " + "؛ ".join(it["not_ready"]))
         lines.append("- يصير جاهز: " + it["ready_when"])

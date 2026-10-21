@@ -1,51 +1,51 @@
 {
  "ticker": "VNTG",
- "generated_at_et": "2026-10-21T11:39:32.145342-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-21T16:01:22.300276-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 0.5232,
-  "reg_chg": -0.025516872,
-  "reg_vol": 61058,
+  "reg_price": 0.52,
+  "reg_chg": -0.031477002999999996,
+  "reg_vol": 84007,
   "prev_close": 0.5369,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 165817,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
-  "floatShares": 10616676,
-  "sharesOutstanding": 10294510,
-  "marketCap": 16041777,
-  "shortPercentOfFloat": 0.0007,
+  "floatShares": null,
+  "sharesOutstanding": null,
+  "marketCap": null,
+  "shortPercentOfFloat": null,
   "longName": null,
-  "country": "Singapore",
-  "industry": "Marine Shipping",
-  "sector": "Industrials",
+  "country": null,
+  "industry": null,
+  "sector": null,
   "lastSplitFactor": null,
   "lastSplitDate": null
  },
  "daily": {
-  "price": 0.5232,
-  "chg_1d": -0.0257,
+  "price": 0.52,
+  "chg_1d": -0.0317,
   "ma": {
-   "MA20": 0.6247,
-   "MA30": 0.6246,
-   "MA50": 0.6227
+   "MA20": 0.6245,
+   "MA30": 0.6245,
+   "MA50": 0.6226
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 35.0,
+  "rsi_now": 34.6,
   "rsi_min15": 33.9,
   "rsi_min30": 33.9,
   "macd": {
-   "line": -0.02943,
-   "signal": -0.01625,
+   "line": -0.02969,
+   "signal": -0.0163,
    "hist_last3": [
     -0.0141,
     -0.0135,
-    -0.01319
+    -0.01339
    ],
    "state": "الهيستوجرام يتحسن"
   },
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.202657853360634,
-    "close_pos": 0.4086365382559001,
+    "upper_wick_ratio": 0.2904757579714012,
+    "close_pos": 0.0,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.0664,
+  "atr": 0.0657,
   "avg_vol20": 294990,
-  "last_vol": 41891,
-  "drawdown_90d": 0.66,
+  "last_vol": 84007,
+  "drawdown_90d": 0.662,
   "high_90d": 1.54,
-  "low_10d": 0.5109,
-  "gain_from_low10": 0.024,
+  "low_10d": 0.512,
+  "gain_from_low10": 0.016,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -172,7 +172,7 @@
    ]
   ],
   "high_52w": 1.54,
-  "low_52w": 0.5109,
+  "low_52w": 0.512,
   "last_bars": [
    {
     "d": "2026-10-06",
@@ -288,27 +288,31 @@
     "d": "2026-10-21",
     "o": 0.5349,
     "h": 0.541,
-    "l": 0.5109,
-    "c": 0.5232,
-    "v": 41891,
-    "rsi": 35.0,
-    "hist": -0.01319
+    "l": 0.52,
+    "c": 0.52,
+    "v": 84007,
+    "rsi": 34.6,
+    "hist": -0.01339
    }
   ]
  },
  "levels_map": {
-  "price": 0.5232,
-  "at_price": [],
+  "price": 0.52,
+  "at_price": [
+   "قاع يوم 2026-10-16",
+   "قاع يوم 2026-10-21",
+   "قاعدة آخر ساعة 2026-10-21"
+  ],
   "above": [
    {
-    "level": 0.528,
-    "why": "قاع يوم 2026-10-15 + قاع يوم 2026-10-19 + قاع يوم 2026-10-20 + قيعان سابقة متجمعة (5) + فواب جلسة 2026-10-21 + إغلاقات سابقة متجمعة (4)",
-    "confluence": 6
+    "level": 0.5264,
+    "why": "فواب جلسة 2026-10-21 + قاع يوم 2026-10-15 + قاع يوم 2026-10-19 + قاع يوم 2026-10-20 + قيعان سابقة متجمعة (5)",
+    "confluence": 5
    },
    {
-    "level": 0.541,
-    "why": "قمة يوم 2026-10-21",
-    "confluence": 1
+    "level": 0.537,
+    "why": "إغلاقات سابقة متجمعة (4) + قمة يوم 2026-10-21",
+    "confluence": 2
    },
    {
     "level": 0.555,
@@ -331,7 +335,7 @@
     "confluence": 4
    },
    {
-    "level": 0.6227,
+    "level": 0.6226,
     "why": "MA50 + MA30 + MA20 + إغلاقات سابقة متجمعة (8) + قيعان سابقة متجمعة (14)",
     "confluence": 5
    },
@@ -341,13 +345,7 @@
     "confluence": 3
    }
   ],
-  "below": [
-   {
-    "level": 0.521,
-    "why": "قاع يوم 2026-10-16 + قاع يوم 2026-10-21",
-    "confluence": 2
-   }
-  ]
+  "below": []
  },
  "pivot": {
   "ticker": "VNTG",
@@ -355,7 +353,7 @@
   "status": "WATCH",
   "setup": "AT_SUPPORT",
   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-  "price": 0.5231999754905701,
+  "price": 0.5199999809265137,
   "score": 3.75,
   "conditions": {
    "ma": {
@@ -396,7 +394,7 @@
   "t2_label": "رأس شمعة هابطة + MA50 + MA30 + MA20",
   "rr": 1.77,
   "risk_pct": 0.0369,
-  "rsi_now": 35.0,
+  "rsi_now": 34.6,
   "rsi_min": 33.9,
   "ma_state": "تحت كل المتوسطات (ضغط)",
   "macd_state": "الهيستوجرام يتحسن",
@@ -410,22 +408,20 @@
   ],
   "flags": [],
   "tags": [
-   "فلووت أقل من 20M",
    "Former Runner (سبق انفجر +137% في يوم)",
    "قاع الفترة (قاع تاريخي/سنوي)"
   ],
-  "rank": 4.640625482032169,
+  "rank": 4.67187542746249,
   "meta": {
    "avg_volume": 294990.0,
-   "drawdown": 0.66,
+   "drawdown": 0.662,
    "rr_best": 6.7,
-   "gain_from_low10": 0.024,
+   "gain_from_low10": 0.016,
    "higher_lows": "False",
-   "float": 10616676,
-   "market_cap": 16041777,
+   "float": null,
+   "market_cap": null,
    "exchange": "",
-   "name": "",
-   "short_pct_float": 0.0007
+   "name": ""
   },
   "news": []
  },

@@ -1,53 +1,53 @@
 {
  "ticker": "NAMM",
- "generated_at_et": "2026-10-21T12:00:49.069062-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-21T16:01:22.300276-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 0.957,
-  "reg_chg": -0.014823971,
-  "reg_vol": 108342,
+  "reg_price": 0.8974,
+  "reg_chg": -0.07544862000000001,
+  "reg_vol": 451476,
   "prev_close": 0.9714,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 1041164,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
-  "floatShares": 9795449,
-  "sharesOutstanding": 55852406,
-  "marketCap": 53450756,
+  "floatShares": null,
+  "sharesOutstanding": null,
+  "marketCap": null,
   "shortPercentOfFloat": null,
-  "longName": "Namib Minerals",
-  "country": "Cayman Islands",
-  "industry": "Gold",
-  "sector": "Basic Materials",
+  "longName": null,
+  "country": null,
+  "industry": null,
+  "sector": null,
   "lastSplitFactor": null,
   "lastSplitDate": null
  },
  "daily": {
-  "price": 0.957,
-  "chg_1d": -0.0144,
+  "price": 0.8974,
+  "chg_1d": -0.0758,
   "ma": {
-   "MA20": 1.0865,
-   "MA30": 1.1633,
-   "MA50": 1.258
+   "MA20": 1.0835,
+   "MA30": 1.1613,
+   "MA50": 1.2568
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 35.9,
-  "rsi_min15": 35.4,
+  "rsi_now": 32.9,
+  "rsi_min15": 32.9,
   "rsi_min30": 28.3,
   "macd": {
-   "line": -0.08715,
-   "signal": -0.07694,
+   "line": -0.0919,
+   "signal": -0.07789,
    "hist_last3": [
     -0.01334,
     -0.01166,
-    -0.01021
+    -0.01402
    ],
-   "state": "الهيستوجرام يتحسن"
+   "state": "سلبي"
   },
   "candles": [
    {
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.2899406892741049,
-    "close_pos": 0.4339252649584707,
+    "upper_wick_ratio": 0.1281603577733122,
+    "close_pos": 0.23016586925331034,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.1076,
+  "atr": 0.1122,
   "avg_vol20": 2338920,
-  "last_vol": 109292,
-  "drawdown_90d": 0.544,
+  "last_vol": 451476,
+  "drawdown_90d": 0.573,
   "high_90d": 2.1,
-  "low_10d": 0.935,
-  "gain_from_low10": 0.024,
+  "low_10d": 0.871,
+  "gain_from_low10": 0.03,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": false,
@@ -154,24 +154,18 @@
    "touches": 2,
    "interacting": true
   },
-  "w": {
-   "low1": 0.95,
-   "low2": 0.95,
-   "neck": 1.59,
-   "low1_d": "2026-09-30",
-   "low2_d": "2026-10-15"
-  },
+  "w": null,
   "resistances": [
    [
     1.03,
     "قمة سابقة"
    ],
    [
-    1.0865,
+    1.0835,
     "MA20 + رأس شمعة هابطة"
    ],
    [
-    1.1633,
+    1.1613,
     "MA30"
    ],
    [
@@ -188,7 +182,7 @@
    ]
   ],
   "high_52w": 7.42,
-  "low_52w": 0.914,
+  "low_52w": 0.871,
   "last_bars": [
    {
     "d": "2026-10-06",
@@ -304,22 +298,27 @@
     "d": "2026-10-21",
     "o": 0.971,
     "h": 0.9857,
-    "l": 0.935,
-    "c": 0.957,
-    "v": 109292,
-    "rsi": 35.9,
-    "hist": -0.01021
+    "l": 0.871,
+    "c": 0.8974,
+    "v": 451476,
+    "rsi": 32.9,
+    "hist": -0.01402
    }
   ]
  },
  "levels_map": {
-  "price": 0.957,
+  "price": 0.8974,
   "at_price": [],
   "above": [
    {
-    "level": 0.96,
-    "why": "قاع يوم 2026-10-16 + إغلاقات سابقة متجمعة (4)",
-    "confluence": 2
+    "level": 0.9288,
+    "why": "فواب جلسة 2026-10-21",
+    "confluence": 1
+   },
+   {
+    "level": 0.95,
+    "why": "قاع يوم 2026-10-15 + قاع يوم 2026-10-19 + قاع يوم 2026-10-20 + قيعان سابقة متجمعة (7) + قاع يوم 2026-10-16 + إغلاقات سابقة متجمعة (4)",
+    "confluence": 6
    },
    {
     "level": 0.9857,
@@ -337,12 +336,12 @@
     "confluence": 1
    },
    {
-    "level": 1.0865,
+    "level": 1.0835,
     "why": "MA20 + إغلاقات سابقة متجمعة (4) + رأس شمعة هابطة + قيعان سابقة متجمعة (3)",
     "confluence": 4
    },
    {
-    "level": 1.1633,
+    "level": 1.1613,
     "why": "MA30 + قيعان سابقة متجمعة (3)",
     "confluence": 2
    },
@@ -350,21 +349,95 @@
     "level": 1.25,
     "why": "قيعان سابقة متجمعة (5) + قمة سابقة + إغلاقات سابقة متجمعة (6) + MA50",
     "confluence": 4
-   },
-   {
-    "level": 1.29,
-    "why": "قيعان سابقة متجمعة (7)",
-    "confluence": 1
    }
   ],
   "below": [
    {
-    "level": 0.9518,
-    "why": "فواب جلسة 2026-10-21 + قاع يوم 2026-10-15 + قاع يوم 2026-10-19 + قاع يوم 2026-10-20 + قيعان سابقة متجمعة (7) + قاع يوم 2026-10-21",
-    "confluence": 6
+    "level": 0.871,
+    "why": "قاع يوم 2026-10-21 + قاعدة آخر ساعة 2026-10-21",
+    "confluence": 2
    }
   ]
  },
- "pivot": null,
+ "pivot": {
+  "ticker": "NAMM",
+  "kind": "pivot",
+  "status": "WATCH",
+  "setup": "BROKE_SUPPORT",
+  "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+  "price": 0.8974000215530396,
+  "score": 3.25,
+  "conditions": {
+   "ma": {
+    "score": 0.5,
+    "note": "تحت كل المتوسطات (ضغط)"
+   },
+   "rsi": {
+    "score": 0.25,
+    "note": "أدنى RSI 33 والحالي 33"
+   },
+   "macd": {
+    "score": 0.0,
+    "note": "سلبي"
+   },
+   "candle": {
+    "score": 1.0,
+    "note": "ابتلاعية شرائية (Engulfing)"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 57% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 0.5,
+    "note": "العائد/المخاطرة 1.3"
+   }
+  },
+  "support_low": 0.949999988079071,
+  "support_high": 0.9594999879598618,
+  "support_touches": 2,
+  "trigger_level": 0.949999988079071,
+  "stop": 0.853579992055893,
+  "entry_low": 0.949999988079071,
+  "entry_high": 0.949999988079071,
+  "t1": 1.003999948501587,
+  "t1_label": "قمة يوم قريبة",
+  "t2": 1.0299999713897705,
+  "t2_label": "قمة سابقة",
+  "rr": 0.49,
+  "risk_pct": 0.106,
+  "rsi_now": 32.9,
+  "rsi_min": 32.9,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "macd_state": "سلبي",
+  "candle": "ابتلاعية شرائية (Engulfing)",
+  "volume_note": "فوليوم البيع يضعف",
+  "waiting_for": [
+   "استرداد الدعم 0.95 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+   "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 33)",
+   "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+   "الدخول تحت مقاومة مباشرة (1.00) — انتظر اختراقها والثبات",
+   "اكتمال الشروط الأساسية (3.2 من 6، المطلوب 4.5)"
+  ],
+  "flags": [],
+  "tags": [
+   "Former Runner (سبق انفجر +189% في يوم)",
+   "فوليوم البيع يضعف",
+   "قاع الفترة (قاع تاريخي/سنوي)"
+  ],
+  "rank": 3.973158067441715,
+  "meta": {
+   "avg_volume": 2338920.0,
+   "drawdown": 0.573,
+   "rr_best": 1.27,
+   "gain_from_low10": 0.03,
+   "higher_lows": "False",
+   "float": null,
+   "market_cap": null,
+   "exchange": "",
+   "name": ""
+  },
+  "news": []
+ },
  "momentum": null
 }

@@ -1,24 +1,24 @@
 {
  "ticker": "SVRE",
- "generated_at_et": "2026-10-21T10:02:46.262262-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-21T16:01:22.300276-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 1.86,
-  "reg_chg": -0.010638288000000001,
-  "reg_vol": 1686,
+  "reg_price": 1.72,
+  "reg_chg": -0.08510635999999999,
+  "reg_vol": 14690,
   "prev_close": 1.88,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 54803,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
   "floatShares": 1823608,
   "sharesOutstanding": 2499835,
-  "marketCap": 4649693,
+  "marketCap": 4299716,
   "shortPercentOfFloat": 0.006,
   "longName": "SaverOne 2014 Ltd.",
   "country": "Israel",
@@ -28,24 +28,24 @@
   "lastSplitDate": 1771977600
  },
  "daily": {
-  "price": 1.86,
-  "chg_1d": -0.0106,
+  "price": 1.72,
+  "chg_1d": -0.0851,
   "ma": {
-   "MA20": 1.5475,
-   "MA30": 1.812,
-   "MA50": 2.2342
+   "MA20": 1.5405,
+   "MA30": 1.8073,
+   "MA50": 2.2314
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 52.6,
+  "rsi_now": 48.4,
   "rsi_min15": 23.8,
   "rsi_min30": 23.8,
   "macd": {
-   "line": -0.15942,
-   "signal": -0.2775,
+   "line": -0.17059,
+   "signal": -0.27973,
    "hist_last3": [
     0.08786,
     0.10902,
-    0.11808
+    0.10915
    ],
    "state": "الهيستوجرام يتحسن"
   },
@@ -66,20 +66,20 @@
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
-    "strong_green": "True",
-    "upper_wick_ratio": 0.0,
-    "close_pos": 1.0,
-    "green": "True",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.26086981310058155,
+    "close_pos": 0.39130446050026435,
+    "green": "False",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.2577,
+  "atr": 0.2698,
   "avg_vol20": 54495,
-  "last_vol": 210,
-  "drawdown_90d": 0.685,
+  "last_vol": 14690,
+  "drawdown_90d": 0.708,
   "high_90d": 5.9,
   "low_10d": 1.01,
-  "gain_from_low10": 0.842,
+  "gain_from_low10": 0.703,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -152,11 +152,19 @@
   "w": null,
   "resistances": [
    [
+    1.8073,
+    "MA30"
+   ],
+   [
+    1.9,
+    "رأس شمعة هابطة"
+   ],
+   [
     2.06,
     "رأس شمعة هابطة + قمة سابقة"
    ],
    [
-    2.2342,
+    2.2314,
     "MA50"
    ],
    [
@@ -166,14 +174,6 @@
    [
     2.73,
     "قمة سابقة"
-   ],
-   [
-    2.84,
-    "رأس شمعة هابطة"
-   ],
-   [
-    3.05,
-    "قمة سابقة + رأس شمعة هابطة"
    ]
   ],
   "high_52w": 19.92,
@@ -293,24 +293,39 @@
     "d": "2026-10-21",
     "o": 1.8,
     "h": 1.86,
-    "l": 1.8,
-    "c": 1.86,
-    "v": 210,
-    "rsi": 52.6,
-    "hist": 0.11808
+    "l": 1.63,
+    "c": 1.72,
+    "v": 14690,
+    "rsi": 48.4,
+    "hist": 0.10915
    }
   ]
  },
  "levels_map": {
-  "price": 1.86,
+  "price": 1.72,
   "at_price": [
-   "قمة يوم 2026-10-21"
+   "قاع يوم 2026-10-19"
   ],
   "above": [
    {
-    "level": 1.89,
-    "why": "قمة يوم 2026-10-16 + قمة يوم 2026-10-20 + رأس شمعة هابطة",
-    "confluence": 3
+    "level": 1.73,
+    "why": "قاع يوم 2026-10-20 + فواب جلسة 2026-10-21",
+    "confluence": 2
+   },
+   {
+    "level": 1.8073,
+    "why": "MA30",
+    "confluence": 1
+   },
+   {
+    "level": 1.86,
+    "why": "قمة يوم 2026-10-21 + قمة يوم 2026-10-16",
+    "confluence": 2
+   },
+   {
+    "level": 1.9,
+    "why": "قمة يوم 2026-10-20 + رأس شمعة هابطة",
+    "confluence": 2
    },
    {
     "level": 2.06,
@@ -331,43 +346,18 @@
     "level": 2.41,
     "why": "قيعان سابقة متجمعة (3)",
     "confluence": 1
-   },
-   {
-    "level": 2.55,
-    "why": "قيعان سابقة متجمعة (7) + رأس شمعة هابطة",
-    "confluence": 2
-   },
-   {
-    "level": 2.62,
-    "why": "إغلاقات سابقة متجمعة (6)",
-    "confluence": 1
-   },
-   {
-    "level": 2.68,
-    "why": "قيعان سابقة متجمعة (3) + قمة سابقة",
-    "confluence": 2
    }
   ],
   "below": [
    {
-    "level": 1.84,
-    "why": "فواب جلسة 2026-10-21 + MA30",
-    "confluence": 2
-   },
-   {
-    "level": 1.8,
-    "why": "قاع يوم 2026-10-21",
-    "confluence": 1
-   },
-   {
-    "level": 1.73,
-    "why": "قاع يوم 2026-10-20 + قاع يوم 2026-10-19",
-    "confluence": 2
-   },
-   {
     "level": 1.69,
     "why": "قمة يوم 2026-10-15",
     "confluence": 1
+   },
+   {
+    "level": 1.63,
+    "why": "قاع يوم 2026-10-21 + قاعدة آخر ساعة 2026-10-21",
+    "confluence": 2
    },
    {
     "level": 1.548,

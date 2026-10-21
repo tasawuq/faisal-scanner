@@ -1,24 +1,24 @@
 {
  "ticker": "ALP",
- "generated_at_et": "2026-10-21T12:00:49.069062-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-21T16:01:22.300276-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 3.2,
-  "reg_chg": -0.06295752,
-  "reg_vol": 29289,
+  "reg_price": 3.23,
+  "reg_chg": -0.05417275,
+  "reg_vol": 37922,
   "prev_close": 3.415,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 157293,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
   "floatShares": 431804,
   "sharesOutstanding": 1549848,
-  "marketCap": 4959513,
+  "marketCap": 4975012,
   "shortPercentOfFloat": 0.0709,
   "longName": "Alpha Compute Corp",
   "country": "British Virgin Islands",
@@ -28,24 +28,24 @@
   "lastSplitDate": 1788912000
  },
  "daily": {
-  "price": 3.2,
-  "chg_1d": -0.0533,
+  "price": 3.23,
+  "chg_1d": -0.0444,
   "ma": {
-   "MA20": 4.2223,
-   "MA30": 4.2352,
-   "MA50": 5.6374
+   "MA20": 4.2238,
+   "MA30": 4.2362,
+   "MA50": 5.638
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 29.6,
-  "rsi_min15": 29.6,
+  "rsi_now": 29.9,
+  "rsi_min15": 29.9,
   "rsi_min30": 24.5,
   "macd": {
-   "line": -0.66692,
-   "signal": -0.69035,
+   "line": -0.66453,
+   "signal": -0.68988,
    "hist_last3": [
     0.02771,
     0.02918,
-    0.02343
+    0.02535
    ],
    "state": "إيجابي (الخط فوق الإشارة)"
   },
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.0,
-    "close_pos": 0.4583338714307995,
+    "upper_wick_ratio": 0.17241433174195891,
+    "close_pos": 0.48275864903905047,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.5443,
   "avg_vol20": 197245,
-  "last_vol": 29289,
-  "drawdown_90d": 0.808,
+  "last_vol": 37922,
+  "drawdown_90d": 0.806,
   "high_90d": 16.65,
   "low_10d": 3.09,
-  "gain_from_low10": 0.036,
+  "gain_from_low10": 0.045,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": false,
@@ -169,7 +169,7 @@
     "رأس شمعة هابطة"
    ],
    [
-    4.2223,
+    4.2238,
     "MA20 + MA30"
    ],
    [
@@ -181,7 +181,7 @@
     "رأس شمعة هابطة + قمة سابقة"
    ],
    [
-    5.6374,
+    5.638,
     "MA50 + قمة سابقة"
    ],
    [
@@ -305,23 +305,23 @@
    {
     "d": "2026-10-21",
     "o": 3.33,
-    "h": 3.33,
+    "h": 3.38,
     "l": 3.09,
-    "c": 3.2,
-    "v": 29289,
-    "rsi": 29.6,
-    "hist": 0.02343
+    "c": 3.23,
+    "v": 37922,
+    "rsi": 29.9,
+    "hist": 0.02535
    }
   ]
  },
  "levels_map": {
-  "price": 3.2,
+  "price": 3.23,
   "at_price": [],
   "above": [
    {
-    "level": 3.2103,
-    "why": "فواب جلسة 2026-10-21 + قاع يوم 2026-10-19",
-    "confluence": 2
+    "level": 3.25,
+    "why": "قاع يوم 2026-10-19",
+    "confluence": 1
    },
    {
     "level": 3.33,
@@ -354,12 +354,17 @@
     "confluence": 1
    },
    {
-    "level": 4.2223,
+    "level": 4.2238,
     "why": "MA20 + MA30",
     "confluence": 2
    }
   ],
   "below": [
+   {
+    "level": 3.2228,
+    "why": "فواب جلسة 2026-10-21 + قاعدة آخر ساعة 2026-10-21",
+    "confluence": 2
+   },
    {
     "level": 3.09,
     "why": "قاع يوم 2026-10-21",
@@ -371,9 +376,9 @@
   "ticker": "ALP",
   "kind": "pivot",
   "status": "WATCH",
-  "setup": "BROKE_SUPPORT",
-  "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-  "price": 3.200000047683716,
+  "setup": "SWEEP",
+  "setup_ar": "سحب سيولة ثم استرداد الدعم",
+  "price": 3.2300000190734863,
   "score": 3.5,
   "conditions": {
    "ma": {
@@ -398,7 +403,7 @@
    },
    "space": {
     "score": 1.0,
-    "note": "العائد/المخاطرة 5.2"
+    "note": "العائد/المخاطرة 5.3"
    }
   },
   "support_low": 3.2039999961853027,
@@ -407,23 +412,23 @@
   "trigger_level": 3.2039999961853027,
   "stop": 3.028199915885925,
   "entry_low": 3.2039999961853027,
-  "entry_high": 3.2360399961471558,
+  "entry_high": 3.2300000190734863,
   "t1": 3.5,
   "t1_label": "قمة يوم قريبة",
   "t2": 3.759999990463257,
   "t2_label": "رأس شمعة هابطة",
-  "rr": 1.46,
-  "risk_pct": 0.0596,
-  "rsi_now": 29.6,
-  "rsi_min": 29.6,
+  "rr": 1.5,
+  "risk_pct": 0.0587,
+  "rsi_now": 29.9,
+  "rsi_min": 29.9,
   "ma_state": "تحت كل المتوسطات (ضغط)",
   "macd_state": "إيجابي (الخط فوق الإشارة)",
   "candle": "",
   "volume_note": "فوليوم البيع يضعف",
   "waiting_for": [
-   "استرداد الدعم 3.20 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 30)",
    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+   "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
    "اكتمال الشروط الأساسية (3.5 من 6، المطلوب 4.5)"
   ],
   "flags": [
@@ -435,15 +440,15 @@
    "فوليوم البيع يضعف",
    "قاع الفترة (قاع تاريخي/سنوي)"
   ],
-  "rank": 4.493757883104948,
+  "rank": 4.459425682086237,
   "meta": {
    "avg_volume": 197245.0,
-   "drawdown": 0.808,
-   "rr_best": 5.22,
-   "gain_from_low10": 0.036,
+   "drawdown": 0.806,
+   "rr_best": 5.33,
+   "gain_from_low10": 0.045,
    "higher_lows": "False",
    "float": 431804,
-   "market_cap": 4959513,
+   "market_cap": 4975012,
    "exchange": "",
    "name": "Alpha Compute Corp",
    "short_pct_float": 0.0709

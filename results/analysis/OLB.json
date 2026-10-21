@@ -1,11 +1,11 @@
 {
  "ticker": "OLB",
- "generated_at_et": "2026-10-21T14:01:03.040234-04:00",
+ "generated_at_et": "2026-10-21T15:00:52.310620-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 0.3452,
-  "reg_chg": -0.1971831,
-  "reg_vol": 1880144,
+  "reg_price": 0.3462,
+  "reg_chg": -0.19338304999999997,
+  "reg_vol": 1996724,
   "prev_close": 0.4292,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,24 +28,24 @@
   "lastSplitDate": 1714953600
  },
  "daily": {
-  "price": 0.3452,
-  "chg_1d": -0.1957,
+  "price": 0.3462,
+  "chg_1d": -0.1934,
   "ma": {
-   "MA20": 0.3554,
+   "MA20": 0.3555,
    "MA30": 0.3141,
    "MA50": 0.3065
   },
   "ma_state": "بين المتوسطات",
-  "rsi_now": 48.5,
+  "rsi_now": 48.6,
   "rsi_min15": 32.4,
   "rsi_min30": 32.1,
   "macd": {
-   "line": 0.04591,
-   "signal": 0.04826,
+   "line": 0.04599,
+   "signal": 0.04828,
    "hist_last3": [
     0.01329,
     0.00748,
-    -0.00235
+    -0.00229
    ],
    "state": "سلبي"
   },
@@ -68,18 +68,18 @@
     "lower_wick": "False",
     "strong_green": "False",
     "upper_wick_ratio": 0.06289302989192065,
-    "close_pos": 0.04025150914106697,
+    "close_pos": 0.05282996517063987,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.0965,
   "avg_vol20": 76114680,
-  "last_vol": 1976026,
-  "drawdown_90d": 0.534,
+  "last_vol": 2098519,
+  "drawdown_90d": 0.532,
   "high_90d": 0.74,
   "low_10d": 0.342,
-  "gain_from_low10": 0.009,
+  "gain_from_low10": 0.012,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": true,
@@ -318,24 +318,26 @@
     "o": 0.4165,
     "h": 0.4215,
     "l": 0.342,
-    "c": 0.3452,
-    "v": 1976026,
-    "rsi": 48.5,
-    "hist": -0.00235
+    "c": 0.3462,
+    "v": 2098519,
+    "rsi": 48.6,
+    "hist": -0.00229
    }
   ]
  },
  "levels_map": {
-  "price": 0.3452,
-  "at_price": [],
+  "price": 0.3462,
+  "at_price": [
+   "قاعدة آخر ساعة 2026-10-21"
+  ],
   "above": [
    {
-    "level": 0.3554,
+    "level": 0.3555,
     "why": "MA20 + قاع يوم 2026-10-15",
     "confluence": 2
    },
    {
-    "level": 0.3743,
+    "level": 0.3728,
     "why": "فواب جلسة 2026-10-21",
     "confluence": 1
    },

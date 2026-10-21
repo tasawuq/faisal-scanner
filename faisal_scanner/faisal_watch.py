@@ -115,6 +115,8 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
     if price is None:
         res.update(state="NO_DATA", state_ar="لا توجد بيانات سعر", alert=False)
         return res
+    if entry.get("no_alert"):
+        alerts_on = False  # قائمة الارتكاز: سهم بسلوك خطر (ضخ/صيني/سيولة ضعيفة) → يظهر بالقوائم بدون تنبيه
     if stop and price < stop:
         if stop_ok is False:
             res.update(state="BELOW_STOP", alert=False,

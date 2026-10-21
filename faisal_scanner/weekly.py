@@ -129,7 +129,7 @@ def nasdaq_news(symbols, limit=3):
             continue
         try:
             r = requests.get("https://api.nasdaq.com/api/news/topic/articlebysymbol",
-                             params={"q": f"{s}|stocks", "offset": 0, "limit": limit, "fallback": "true"},
+                             params={"q": f"{s}|stocks", "offset": 0, "limit": limit, "fallback": "false"},
                              headers=NASDAQ_HDR, timeout=15)
             rows = (((r.json() or {}).get("data") or {}).get("rows") or [])[:limit]
             out[s] = [(x.get("created") or x.get("ago") or "", (x.get("title") or "").strip()) for x in rows if x.get("title")]
@@ -260,7 +260,10 @@ def load_entries(path=FILE, max_age_days=4):
     out = []
     for it in w.get("items", []):
         lv = it["levels"]
-        out.append({"ticker": it["ticker"], "kind": "weekly", "source": "قائمة الارتكاز (تطبيق الملف)",
+        fl = " ".join(it.get("flags") or [])
+        # سلوك خطر حسب الملف (ص10، ص70، ص63): ضخ/تصريف خلال الشهر، صيني، سيولة ضعيفة، أسعار متقطعة → مراقبة بدون تنبيه
+        no_alert = any(k in fl for k in ("ضخ/تصريف", "صيني", "سيولة ضعيفة", "متقطعة"))
+        out.append({"ticker": it["ticker"], "kind": "weekly", "source": "قائمة الارتكاز (تطبيق الملف)", "no_alert": no_alert,
                     "demand_low": lv["demand_low"], "demand_high": lv["demand_high"], "stop": lv["stop_tight"],
                     "breakout": lv.get("pivot"), "targets": [x for x in (lv.get("t1"), lv.get("t2")) if x],
                     "note": it["ready_when"], "warn": "، ".join(it.get("flags") or []),

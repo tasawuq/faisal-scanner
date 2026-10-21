@@ -234,6 +234,18 @@ def watch_alerts(result, quotes, now_et, session="regular"):
         ev = faisal_watch.evaluate(w, float(px) if px else None, None, seg, hold_ok=bool(hok), zone_ok=zok, stop_ok=sok,
                                    retest_ok=rok)
         ev["session"] = session
+        if w.get("kind") != "weekly" and b is not None and len(b):
+            # ملخص شموع اليوم لمتابعة كل 5 دقائق (طلب المستخدم): أعلى/أدنى/فوليوم + آخر 4 شموع 15 دقيقة
+            try:
+                td = b[[ts.date() == now_et.date() for ts in b.index]]
+                if len(td):
+                    ev["day"] = {"high": float(td["high"].max()), "low": float(td["low"].min()),
+                                 "vol": float(td["volume"].sum()),
+                                 "bars": [[ts.strftime("%H:%M"), round(float(r_["open"]), 4), round(float(r_["high"]), 4),
+                                           round(float(r_["low"]), 4), round(float(r_["close"]), 4), float(r_["volume"])]
+                                          for ts, r_ in td.tail(4).iterrows()]}
+            except Exception:  # noqa
+                pass
         evs.append(ev)
     result["watchlist"] = evs
     new = update_alert_state({"ready": [], "faisal": evs}, now_et, "_live")

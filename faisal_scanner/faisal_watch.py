@@ -124,7 +124,7 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
         else:
             # قائمة الارتكاز: ما فيه مركز → كسر الوقف معلومة في القائمة، مو تنبيه
             res.update(state="BELOW_STOP", state_ar=f"❌ تحت وقف {lab} {stop:g} — السبب بطل",
-                       alert=alerts_on and entry.get("kind") != "weekly")
+                       alert=alerts_on and entry.get("kind") != "weekly" and entry.get("alert_stop", True))
     elif lo and hi and lo <= price <= hi:
         if zone_ok:
             res.update(state="ZONE_CONFIRMED", alert=alerts_on,
@@ -141,7 +141,7 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
         if held:
             # قائمة الارتكاز: لا شراء للاختراق نفسه (ص20) → التنبيه على إعادة الاختبار فقط
             res.update(state="BREAKOUT_HOLD", state_ar=f"🚀 اخترق مستوى {lab} {brk:g} وثبت",
-                       alert=alerts_on and entry.get("kind") != "weekly")
+                       alert=alerts_on and entry.get("kind") != "weekly" and entry.get("alert_breakout", True))
         else:
             res.update(state="BREAKOUT_PENDING", state_ar=f"فوق {brk:g} — ينتظر الثبات أكثر من ربع ساعة", alert=False)
     else:

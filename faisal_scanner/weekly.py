@@ -18,7 +18,7 @@ from .levels import swing_lows
 
 log = logging.getLogger("faisal")
 FILE = os.path.join(C.RESULTS_DIR, "weekly.json")
-MAX_ITEMS = 10
+MAX_ITEMS = None  # كل الأسهم اللي تطابق (طلب المستخدم: «تفحص الأسهم كلها وليس 10 وكل ساعة»)
 
 
 def _num(x):
@@ -121,7 +121,7 @@ def nasdaq_news(symbols, limit=3):
     import requests
     from .data_sources import NASDAQ_HDR
     out = {}
-    hour = datetime.now(timezone.utc).strftime("%Y%m%d%H")
+    hour = datetime.now(timezone.utc).strftime("%Y%m%d")  # كاش يومي للأخبار
     for s in symbols:
         if (s, hour) in _NEWS:
             out[s] = _NEWS[(s, hour)]
@@ -138,8 +138,8 @@ def nasdaq_news(symbols, limit=3):
     return out
 
 
-def due(now_et, max_age_hours=3):
-    """القائمة ثابتة خلال الجلسة (مثل قائمة فيصل): تُبنى من جديد إذا يوم جديد أو مر عليها 3 ساعات."""
+def due(now_et, max_age_hours=1):
+    """تُبنى من جديد كل ساعة (طلب المستخدم) أو مع يوم جديد."""
     try:
         with open(FILE, encoding="utf-8") as fh:
             t = datetime.fromisoformat(json.load(fh)["generated_at_et"])
@@ -158,7 +158,7 @@ def build(pivots, daily, fund, now_et, news=None):
             continue
         rows.append((sort_score(sig, (fund or {}).get(sig.ticker)), sig))
     rows.sort(key=lambda r: -r[0])
-    rows = rows[:MAX_ITEMS]
+    rows = rows[:MAX_ITEMS] if MAX_ITEMS else rows
     if news is None:
         try:
             news = nasdaq_news([s.ticker for _, s in rows])
@@ -257,5 +257,6 @@ def load_entries(path=FILE, max_age_days=4):
         out.append({"ticker": it["ticker"], "kind": "weekly", "source": "قائمة الارتكاز (تطبيق الملف)",
                     "demand_low": lv["demand_low"], "demand_high": lv["demand_high"], "stop": lv["stop_tight"],
                     "breakout": lv.get("pivot"), "targets": [x for x in (lv.get("t1"), lv.get("t2")) if x],
-                    "note": it["ready_when"], "warn": "، ".join(it.get("flags") or [])})
+                    "note": it["ready_when"], "warn": "، ".join(it.get("flags") or []),
+                    "last_price": it.get("ext_price") or it["price"], "wash_low": lv["wash_low"]})
     return out

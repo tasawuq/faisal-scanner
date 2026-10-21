@@ -178,7 +178,9 @@ def watch_alerts(result, quotes, now_et, session="regular"):
     fw = faisal_watch.load()
     have = {w["ticker"] for w in fw}
     # قائمة الارتكاز (أسلوب فيصل): تنبيه لما ينزل السهم لمنطقة الطلب وتكمل شمعة تأكيد (الدخول من تحت)
-    fw += [w for w in weekly.load_entries() if w["ticker"] not in have]
+    # (كل أسهم القائمة؛ المتابعة الدقيقة كل دقيقة للي سعرها قريب من منطقة الطلب أو داخل منطقة الغسل — ≤5% فوق المنطقة)
+    fw += [w for w in weekly.load_entries() if w["ticker"] not in have
+           and (w.get("last_price") or 0) <= w["demand_high"] * 1.05]
     if not fw:
         return
     key = PX_KEY.get(session, PX_KEY["regular"])[0]

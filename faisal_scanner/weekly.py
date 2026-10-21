@@ -177,6 +177,10 @@ def build(pivots, daily, fund, now_et, news=None):
         z_lo = sig.support_low if sig.setup in ("AT_SUPPORT", "SWEEP", "BOUNCE", "BROKE_SUPPORT", "W_FORMING") else d_lo
         w_lo, w_hi, w_note = wash_zone(df, z_lo)
         base_low = float(np.min(df["low"].values[-60:]))
+        # مقاومة مباشرة فوق منطقة الدخول (ص67/ص88: لا دخول تحت مقاومة مباشرة): أقرب قمة يومية من آخر 5 أيام
+        # فوق أعلى المنطقة — مثال TPET 21 أكتوبر: الدخول 1.44–1.49 وقمم الأيام السابقة 1.54–1.60 تحت خط العنق 1.67
+        near_hi = [float(x) for x in df["high"].values[-6:-1] if x > d_hi * 1.005]
+        r1 = round(min(near_hi), 4) if near_hi else None
         tags = " ".join(sig.tags)
         runner = next((t for t in sig.tags if "Former Runner" in t), "")
         split = next((x for x in sig.flags if "تقسيم عكسي" in x), "")
@@ -192,7 +196,7 @@ def build(pivots, daily, fund, now_et, news=None):
             "news": (news or {}).get(sig.ticker, []),
             "levels": {"bottom": round(base_low, 4), "demand_low": round(d_lo, 4),
                        "demand_high": round(d_hi, 4), "wash_low": round(w_lo, 4),
-                       "wash_high": round(w_hi, 4), "wash_note": w_note, "pivot": pivot, "t1": sig.t1, "t2": sig.t2,
+                       "wash_high": round(w_hi, 4), "wash_note": w_note, "pivot": pivot, "t1": sig.t1, "t2": sig.t2, "r1": r1,
                        "stop": round(min(stop_t, w_lo * 0.97), 4), "stop_tight": round(stop_t, 4)},
             "not_ready": sig.waiting_for[:2], "ready_when": ready_when(sig, (w_lo, w_hi)),
             "flags": sig.flags[:4], "tags": sig.tags[:4],
@@ -265,7 +269,7 @@ def load_entries(path=FILE, max_age_days=4):
         no_alert = any(k in fl for k in ("ضخ/تصريف", "صيني", "سيولة ضعيفة", "متقطعة"))
         out.append({"ticker": it["ticker"], "kind": "weekly", "source": "قائمة الارتكاز (تطبيق الملف)", "no_alert": no_alert,
                     "demand_low": lv["demand_low"], "demand_high": lv["demand_high"], "stop": lv["stop_tight"],
-                    "breakout": lv.get("pivot"), "targets": [x for x in (lv.get("t1"), lv.get("t2")) if x],
+                    "breakout": lv.get("pivot"), "targets": sorted({x for x in (lv.get("r1"), lv.get("t1"), lv.get("t2")) if x}),
                     "note": it["ready_when"], "warn": "، ".join(it.get("flags") or []),
                     "last_price": it.get("ext_price") or it["price"], "wash_low": lv["wash_low"]})
     return out

@@ -191,13 +191,31 @@ def watch_alerts(result, quotes, now_et, session="regular"):
             quotes = {**quotes, **yahoo_quotes(need)}
         except Exception as e:  # noqa
             log.warning("quick watchlist quotes failed: %s", e)
+    # أسعار ناقصة: ناسداك (بري/أفتر) أولاً — لأسهم فيصل/المتابعة + أسهم القائمة (حد 60 طلب)
+    quotes, filled = fill_missing_prices(quotes, [w["ticker"] for w in fw], session, now_et, None, max_nasdaq=25)
+
+    def _near(w):
+        """شموع 15 دقيقة (طلب لكل سهم) بس للي يحتاجها: أسهم فيصل/المتابعة دائماً، وأسهم القائمة لما يكون السعر
+        بين منطقة الغسل و2% فوق منطقة الطلب أو قريب من المستوى الفاصل (إعادة اختبار) — تخفيف الضغط على Yahoo."""
+        if w.get("kind") != "weekly":
+            return True
+        px_ = (quotes.get(w["ticker"]) or {}).get(key) or w.get("last_price")
+        if not px_:
+            return False
+        lo_ = (w.get("wash_low") or w["demand_low"]) * 0.98
+        brk_ = w.get("breakout")
+        return lo_ <= px_ <= w["demand_high"] * 1.02 or bool(brk_ and brk_ * 0.98 <= px_ <= brk_ * 1.06)
+
+    bar_t = [w["ticker"] for w in fw if _near(w)]
     bars15 = {}
     try:
-        bars15 = YahooData().intraday([w["ticker"] for w in fw], "15m", prepost=True) or {}
+        bars15 = YahooData().intraday(bar_t, "15m", prepost=True) or {} if bar_t else {}
     except Exception as e:  # noqa
         log.warning("quick watchlist 15m failed: %s", e)
-    # إذا Yahoo ما رجّع السعر: ناسداك (بري/أفتر) ثم آخر شمعة 15 دقيقة — بدونها الحالة "لا توجد بيانات" ولا يطلع تنبيه
-    quotes, filled = fill_missing_prices(quotes, [w["ticker"] for w in fw], session, now_et, bars15)
+    # إذا ما فيه سعر: آخر شمعة 15 دقيقة حديثة — بدونها الحالة "لا توجد بيانات" ولا يطلع تنبيه
+    quotes, filled2 = fill_missing_prices(quotes, bar_t, session, now_et, bars15, max_nasdaq=0)
+    filled = {"nasdaq": filled["nasdaq"], "bars": filled2["bars"]}
+    result.setdefault("debug", {})["watch"] = {"entries": len(fw), "bars": len(bar_t)}
     if filled["nasdaq"] or filled["bars"]:
         result.setdefault("debug", {})["price_fallback"] = filled
     ext = session in ("pre", "post")

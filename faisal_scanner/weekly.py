@@ -106,7 +106,8 @@ def ready_when(sig, wash):
     if st in ("BASE_BREAK", "BASE_RETEST", "W_BREAK", "W_RETEST"):
         return (f"🚩 رجوع لاختبار {sig.trigger_level:.3g} والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)")
     if st == "W_FORMING":
-        return f"كسر خط العنق {sig.trigger_level:.3g} والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)"
+        return (f"من تحت: شمعة ارتداد عند القاع الثاني {sig.support_low:.3g}؛ أو كسر خط العنق {sig.trigger_level:.3g} "
+                f"والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)")
     if st == "BROKE_SUPPORT":
         return f"استرداد {z_lo:.3g} والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند {w_lo:.3g}–{w_hi:.3g}"
     return (f"نزول لمنطقة الطلب {z_lo:.3g}–{z_hi:.3g} ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى {w_lo:.3g}–{w_hi:.3g} "
@@ -168,7 +169,12 @@ def build(pivots, daily, fund, now_et, news=None):
     for sc, sig in rows:
         df = daily[sig.ticker]
         f = (fund or {}).get(sig.ticker) or {}
-        z_lo = sig.support_low if sig.setup in ("AT_SUPPORT", "SWEEP", "BOUNCE", "BROKE_SUPPORT") else sig.entry_low
+        d_lo, d_hi, stop_t, pivot = float(sig.entry_low), float(sig.entry_high), float(sig.stop), sig.t1
+        if sig.setup == "W_FORMING" and sig.support_low:
+            # نموذج W قيد التكوين: الدخول من تحت عند القاع الثاني (منطقة الطلب)، وخط العنق هو المستوى الفاصل (ص25)
+            d_lo, d_hi = float(sig.support_low), float(max(sig.support_high, sig.support_low * 1.02))
+            stop_t, pivot = d_lo * (1 - C.STOP_BUFFER), sig.trigger_level
+        z_lo = sig.support_low if sig.setup in ("AT_SUPPORT", "SWEEP", "BOUNCE", "BROKE_SUPPORT", "W_FORMING") else d_lo
         w_lo, w_hi, w_note = wash_zone(df, z_lo)
         base_low = float(np.min(df["low"].values[-60:]))
         tags = " ".join(sig.tags)
@@ -184,10 +190,10 @@ def build(pivots, daily, fund, now_et, news=None):
                      "drawdown": sig.meta.get("drawdown"), "rsi_min": sig.rsi_min, "rsi_now": sig.rsi_now,
                      "ma": sig.ma_state, "macd": sig.macd_state},
             "news": (news or {}).get(sig.ticker, []),
-            "levels": {"bottom": round(base_low, 4), "demand_low": round(float(sig.entry_low), 4),
-                       "demand_high": round(float(sig.entry_high), 4), "wash_low": round(w_lo, 4),
-                       "wash_high": round(w_hi, 4), "wash_note": w_note, "pivot": sig.t1, "t1": sig.t1, "t2": sig.t2,
-                       "stop": round(min(float(sig.stop), w_lo * 0.97), 4), "stop_tight": round(float(sig.stop), 4)},
+            "levels": {"bottom": round(base_low, 4), "demand_low": round(d_lo, 4),
+                       "demand_high": round(d_hi, 4), "wash_low": round(w_lo, 4),
+                       "wash_high": round(w_hi, 4), "wash_note": w_note, "pivot": pivot, "t1": sig.t1, "t2": sig.t2,
+                       "stop": round(min(stop_t, w_lo * 0.97), 4), "stop_tight": round(stop_t, 4)},
             "not_ready": sig.waiting_for[:2], "ready_when": ready_when(sig, (w_lo, w_hi)),
             "flags": sig.flags[:4], "tags": sig.tags[:4],
         })

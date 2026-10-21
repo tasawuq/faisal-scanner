@@ -99,9 +99,44 @@ def retest_confirmed(bars15, brk, now_et, seg="regular") -> bool:
     return bool(b["close"] > b["open"] and b["low"] <= brk * 1.03 and brk <= b["close"] <= brk * 1.04)
 
 
+MIN_CONFIRM_DOLLARS = 20_000   # شمعة التأكيد لازم فيها سيولة حقيقية (قيمة تداول)
+MIN_CONFIRM_VOL_X = 1.5        # فوليوم شمعة التأكيد ≥ 1.5× وسيط فوليوم شموع 15 دقيقة (الجلسة الرسمية)
+MIN_RR = 1.5                   # قائمة الارتكاز: المسافة لأول مقاومة/هدف ≥ 1.5× المسافة للوقف
+
+
+def entry_quality(bars15, entry: dict, price: float, now_et, seg: str = "regular") -> list:
+    """فلتر جودة تنبيه الدخول (منطقة الطلب / إعادة الاختبار) — بعد مراجعة تنبيهات 21 أكتوبر:
+    1) الجلسة الرسمية فقط (ص10: الحركة في البري/الأفتر فقط سلوك خطر) — OLB/PRSO/SHMD نبهت في البري وفشلت.
+    2) شمعة التأكيد بفوليوم حقيقي (ص19: بدون فوليوم = ضعيف) — RENT/VNTG/TPET نبهت بشموع 1–8 آلاف سهم.
+    3) قائمة الارتكاز: العائد لأول مقاومة ≥ 1.5× المخاطرة للوقف — SURG هدفه +3% ووقفه −5.5%.
+    ترجع قائمة الأسباب (فاضية = التنبيه سليم)."""
+    why = []
+    if seg != "regular":
+        why.append("خارج الجلسة الرسمية (ص10)")
+    done = _done(bars15, now_et, seg) if bars15 is not None else None
+    if done is not None and len(done):
+        b = done.iloc[-1]
+        vol = float(b["volume"] or 0)
+        reg = bars15[[SEG["regular"][0] <= ts.time() < SEG["regular"][1] for ts in bars15.index]]
+        reg = reg[reg.index < done.index[-1]]
+        med = float(reg["volume"].median()) if len(reg) >= 6 else 0.0
+        if vol * float(b["close"]) < MIN_CONFIRM_DOLLARS:
+            why.append(f"شمعة التأكيد بدون سيولة ({vol / 1e3:.1f}K سهم ≈ ${vol * float(b['close']) / 1e3:.0f}K)")
+        elif med and vol < MIN_CONFIRM_VOL_X * med:
+            why.append(f"فوليوم شمعة التأكيد ضعيف ({vol / 1e3:.0f}K مقابل المعتاد {med / 1e3:.0f}K — ص19)")
+    if entry.get("kind") == "weekly" and price and entry.get("stop") and price > entry["stop"]:
+        obst = [x for x in [entry.get("breakout")] + list(entry.get("targets") or []) if x and x > price * 1.005]
+        if obst:
+            reward, risk = min(obst) - price, price - entry["stop"]
+            if reward < MIN_RR * risk:
+                why.append(f"المساحة لأول مقاومة {min(obst):g} (+{reward / price * 100:.1f}%) أقل من 1.5× المخاطرة "
+                           f"(−{risk / price * 100:.1f}%)")
+    return why
+
+
 def evaluate(entry: dict, price: float, last_close: float = None, price_label: str = "",
              hold_ok: bool = None, zone_ok: bool = None, alerts_on: bool = True, stop_ok: bool = None,
-             retest_ok: bool = None) -> dict:
+             retest_ok: bool = None, weak: list = None) -> dict:
     """Compare the current price with Faisal's levels. hold_ok: last two 15-min bars above breakout.
     zone_ok: آخر شمعة 15 دقيقة خضراء داخل المنطقة. stop_ok=False: السعر تحت الوقف بدون إغلاق شمعة تحته
     (البري/الأفتر) → بدون تنبيه. alerts_on=False → معلومة فقط."""
@@ -126,13 +161,20 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
             res.update(state="BELOW_STOP", state_ar=f"❌ تحت وقف {lab} {stop:g} — السبب بطل",
                        alert=alerts_on and entry.get("kind") != "weekly" and entry.get("alert_stop", True))
     elif lo and hi and lo <= price <= hi:
-        if zone_ok:
+        if zone_ok and weak:
+            res.update(state="ZONE_WEAK", alert=False,
+                       state_ar=f"⚪ شمعة خضراء داخل منطقة {lab} {lo:g}–{hi:g} لكن التأكيد ضعيف — بدون تنبيه: "
+                                + "؛ ".join(weak))
+        elif zone_ok:
             res.update(state="ZONE_CONFIRMED", alert=alerts_on,
-                       state_ar=f"✅ ثبت داخل منطقة {lab} {lo:g}–{hi:g} وأغلقت شمعة 15 دقيقة خضراء — دخول ممكن"
+                       state_ar=f"✅ ثبت داخل منطقة {lab} {lo:g}–{hi:g} وأغلقت شمعة 15 دقيقة خضراء بفوليوم — دخول ممكن"
                                 + (f"، الوقف {stop:g}" if stop else ""))
         else:
             res.update(state="IN_ZONE", alert=False,
                        state_ar=f"داخل منطقة {lab} {lo:g}–{hi:g} — ينتظر شمعة 15 دقيقة خضراء تثبت داخل المنطقة (لا دخول قبلها)")
+    elif brk and retest_ok and weak and brk <= price <= brk * 1.04:
+        res.update(state="RETEST_WEAK", alert=False,
+                   state_ar=f"⚪ إعادة اختبار {brk:g} بشمعة خضراء لكن التأكيد ضعيف — بدون تنبيه: " + "؛ ".join(weak))
     elif brk and retest_ok and brk <= price <= brk * 1.04:
         res.update(state="RETEST_HOLD", alert=alerts_on,
                    state_ar=f"✅ إعادة اختبار ناجحة لمستوى {lab} {brk:g} — شمعة 15 دقيقة خضراء فوقه")

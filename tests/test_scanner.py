@@ -428,3 +428,41 @@ def test_pivot_alert_only_inside_limit_zone(tmp_path, monkeypatch):
     assert main.update_alert_state({"ready": [s], "faisal": []}, now) == []
     s2 = dict(s, price=1.25)
     assert main.update_alert_state({"ready": [s2], "faisal": []}, now) == ["VIP"]
+
+
+def _bars15(day, rows):
+    """rows: [(HH:MM, open, high, low, close, volume)] بتوقيت نيويورك."""
+    idx = [datetime.combine(day, datetime.strptime(t, "%H:%M").time(), tzinfo=ET) for t, *_ in rows]
+    return pd.DataFrame([r[1:] for r in rows], index=pd.DatetimeIndex(idx),
+                        columns=["open", "high", "low", "close", "volume"])
+
+
+def test_entry_quality_gate_blocks_weak_alerts():
+    """مراجعة تنبيهات 21 أكتوبر: لا تنبيه دخول في البري، ولا بشمعة بدون فوليوم، ولا بعائد أقل من 1.5× المخاطرة."""
+    from faisal_scanner import faisal_watch as fw
+    day = datetime(2026, 10, 21).date()
+    prev = [(f"{h:02d}:{m:02d}", 1.5, 1.52, 1.48, 1.5, 20_000) for h in range(10, 15) for m in (0, 15, 30, 45)]
+    base = _bars15(day - timedelta(days=1), prev)
+    entry = {"ticker": "TST", "kind": "weekly", "demand_low": 1.44, "demand_high": 1.49, "stop": 1.40,
+             "breakout": 1.67, "targets": [1.79]}
+    now = datetime.combine(day, datetime.strptime("11:46", "%H:%M").time(), tzinfo=ET)
+    # شمعة خضراء داخل المنطقة بفوليوم 8.5K (≈$12.6K) → ضعيفة
+    thin = pd.concat([base, _bars15(day, [("11:15", 1.46, 1.49, 1.45, 1.48, 8_500), ("11:30", 1.47, 1.49, 1.46, 1.485, 8_500)])])
+    assert fw.zone_confirmed(thin, 1.44, 1.49, now)
+    weak = fw.entry_quality(thin, entry, 1.485, now, "regular")
+    assert weak and "سيولة" in weak[0]
+    ev = fw.evaluate(entry, 1.485, zone_ok=True, weak=weak)
+    assert ev["state"] == "ZONE_WEAK" and not ev["alert"]
+    # نفس الشمعة بفوليوم 60K (3× المعتاد و $89K) → تنبيه
+    good = pd.concat([base, _bars15(day, [("11:15", 1.46, 1.49, 1.45, 1.48, 9_000), ("11:30", 1.47, 1.49, 1.46, 1.485, 60_000)])])
+    assert fw.entry_quality(good, entry, 1.485, now, "regular") == []
+    ev = fw.evaluate(entry, 1.485, zone_ok=True, weak=[])
+    assert ev["state"] == "ZONE_CONFIRMED" and ev["alert"]
+    # البري ماركت → بدون تنبيه حتى لو الشمعة قوية
+    assert any("الجلسة الرسمية" in w for w in fw.entry_quality(good, entry, 1.485, now, "pre"))
+    # عائد صغير (هدف +3% ووقف −5.5%) → بدون تنبيه
+    surg = {**entry, "demand_low": 0.115, "demand_high": 0.1184, "stop": 0.1117, "breakout": 0.122, "targets": [0.1373]}
+    assert any("المساحة" in w for w in fw.entry_quality(None, surg, 0.1182, now, "regular"))
+    # مستوى المستخدم/فيصل: شرط العائد ما ينطبق (خطة بأكثر من دخول)، لكن الجلسة والفوليوم ينطبقون
+    mine = {**entry, "kind": None, "stop": 1.0}
+    assert fw.entry_quality(good, mine, 1.485, now, "regular") == []

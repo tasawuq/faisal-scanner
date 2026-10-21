@@ -231,8 +231,9 @@ def watch_alerts(result, quotes, now_et, session="regular"):
         hok = faisal_watch.breakout_held(b, w.get("breakout"), now_et, C.INTRADAY_HOLD_BARS, session)
         sok = faisal_watch.stop_broken(b, w.get("stop"), now_et, session) if ext else None
         rok = faisal_watch.retest_confirmed(b, w.get("breakout"), now_et, session)
+        weak = faisal_watch.entry_quality(b, w, float(px) if px else None, now_et, session) if (zok or rok) else None
         ev = faisal_watch.evaluate(w, float(px) if px else None, None, seg, hold_ok=bool(hok), zone_ok=zok, stop_ok=sok,
-                                   retest_ok=rok)
+                                   retest_ok=rok, weak=weak)
         ev["session"] = session
         if w.get("kind") != "weekly" and b is not None and len(b):
             # ملخص شموع اليوم لمتابعة كل 5 دقائق (طلب المستخدم): أعلى/أدنى/فوليوم + آخر 4 شموع 15 دقيقة

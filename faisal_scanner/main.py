@@ -429,6 +429,15 @@ def run_once(force=False, demo=False, limit=None) -> dict:
     for x in pivots + moms:
         if not hasattr(x, "news"):
             x.news = []
+    # ---------------- 📋 قائمة الارتكاز بأسلوب فيصل (ص70–73، ص54، ص59) — ثابتة خلال الجلسة، تتجدد كل 3 ساعات
+    if not demo and (session in ("pre", "regular", "post") or force):
+        try:
+            from . import weekly
+            if force or weekly.due(now_et):
+                weekly.build(pivots, daily, fund, now_et)
+        except Exception as e:  # noqa
+            errors.append(f"weekly: {str(e)[:80]}")
+
     ready = sorted([x for x in pivots + moms if x.status == READY], key=lambda x: -x.rank)
     watch = sorted([x for x in pivots if x.status == WATCH], key=lambda x: -x.rank)
     momw = sorted([x for x in moms if x.status == WATCH], key=lambda x: -x.rank)
@@ -551,6 +560,8 @@ def update_alert_state(result, now_et, suffix=""):
         if s.get("kind") == "momentum" and any(k.startswith(f"{s['ticker']}:MOM") and k.count(":") == key.count(":")
                                                for k in state):
             continue
+        if s.get("kind") != "momentum" and s.get("entry_high") and s["price"] > s["entry_high"] * 1.01:
+            continue  # الدخول من تحت (BJDX ص35، ص54): لا تنبيه والسعر فوق منطقة الـ Limit — ينبّه لما ينزل لها
         if key not in state:
             state[key] = {"first_seen_et": now_et.isoformat(), "price": s["price"], "stop": s["stop"],
                           "t1": s.get("t1"), "setup_ar": s["setup_ar"]}

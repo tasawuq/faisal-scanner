@@ -36,6 +36,8 @@ def load(path: str = FILE) -> list:
 
 def alert_label(entry: dict) -> str:
     """النص اللي يظهر في قائمة التنبيهات: (مستوى فيصل) لأسهم فيصل، (متابعة) لغيرها."""
+    if entry.get("kind") == "weekly":
+        return "قائمة الارتكاز"
     return "مستوى فيصل" if "فيصل" in (entry.get("source") or "") else "متابعة"
 
 
@@ -103,7 +105,7 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
     """Compare the current price with Faisal's levels. hold_ok: last two 15-min bars above breakout.
     zone_ok: آخر شمعة 15 دقيقة خضراء داخل المنطقة. stop_ok=False: السعر تحت الوقف بدون إغلاق شمعة تحته
     (البري/الأفتر) → بدون تنبيه. alerts_on=False → معلومة فقط."""
-    lab = "فيصل" if "فيصل" in (entry.get("source") or "") else "المتابعة"
+    lab = "فيصل" if "فيصل" in (entry.get("source") or "") else ("القائمة" if entry.get("kind") == "weekly" else "المتابعة")
     lo, hi = entry.get("demand_low"), entry.get("demand_high")
     stop, brk = entry.get("stop"), entry.get("breakout")
     res = {"ticker": entry["ticker"], "price": price, "price_label": price_label, "note": entry.get("note", ""),
@@ -118,7 +120,9 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
             res.update(state="BELOW_STOP", alert=False,
                        state_ar=f"تحت وقف {lab} {stop:g} — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد")
         else:
-            res.update(state="BELOW_STOP", state_ar=f"❌ تحت وقف {lab} {stop:g} — السبب بطل", alert=alerts_on)
+            # قائمة الارتكاز: ما فيه مركز → كسر الوقف معلومة في القائمة، مو تنبيه
+            res.update(state="BELOW_STOP", state_ar=f"❌ تحت وقف {lab} {stop:g} — السبب بطل",
+                       alert=alerts_on and entry.get("kind") != "weekly")
     elif lo and hi and lo <= price <= hi:
         if zone_ok:
             res.update(state="ZONE_CONFIRMED", alert=alerts_on,
@@ -133,7 +137,9 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
     elif brk and price > brk:
         held = hold_ok if hold_ok is not None else (last_close is not None and last_close > brk)
         if held:
-            res.update(state="BREAKOUT_HOLD", state_ar=f"🚀 اخترق مستوى {lab} {brk:g} وثبت", alert=alerts_on)
+            # قائمة الارتكاز: لا شراء للاختراق نفسه (ص20) → التنبيه على إعادة الاختبار فقط
+            res.update(state="BREAKOUT_HOLD", state_ar=f"🚀 اخترق مستوى {lab} {brk:g} وثبت",
+                       alert=alerts_on and entry.get("kind") != "weekly")
         else:
             res.update(state="BREAKOUT_PENDING", state_ar=f"فوق {brk:g} — ينتظر الثبات أكثر من ربع ساعة", alert=False)
     else:

@@ -174,8 +174,11 @@ def run_quick(force=False):
 
 
 def watch_alerts(result, quotes, now_et, session="regular"):
-    from . import faisal_watch
+    from . import faisal_watch, weekly
     fw = faisal_watch.load()
+    have = {w["ticker"] for w in fw}
+    # قائمة الارتكاز (أسلوب فيصل): تنبيه لما ينزل السهم لمنطقة الطلب وتكمل شمعة تأكيد (الدخول من تحت)
+    fw += [w for w in weekly.load_entries() if w["ticker"] not in have]
     if not fw:
         return
     key = PX_KEY.get(session, PX_KEY["regular"])[0]

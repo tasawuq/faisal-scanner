@@ -389,3 +389,42 @@ def test_base_breakout_without_retest_is_watch():
     df = demo.scenario_base_flag(END).iloc[:-2].copy()
     s = analyze_pivot("F", df)
     assert s is None or s.status != READY
+
+
+def test_weekly_pivot_list_faisal_style(tmp_path, monkeypatch):
+    """قائمة الارتكاز بأسلوب فيصل: مستويات (طلب/غسل/فاصل/وقف)، متى يصير جاهز، والفرز؛ ومداخل للمتابعة المباشرة."""
+    from faisal_scanner import weekly, faisal_watch
+    monkeypatch.setattr(weekly, "FILE", str(tmp_path / "weekly.json"))
+    monkeypatch.setattr(weekly.C, "RESULTS_DIR", str(tmp_path))
+    daily = {"A": demo.scenario_bounce(END), "F": demo.scenario_base_flag(END), "B": demo.scenario_sweep(END)}
+    pivots = [s for s in (analyze_pivot(t, d) for t, d in daily.items()) if s]
+    now = datetime(2026, 10, 15, 18, 0, tzinfo=ET)
+    w = weekly.build(pivots, daily, {}, now, news={})
+    assert w["items"]
+    for it in w["items"]:
+        lv = it["levels"]
+        assert lv["wash_high"] <= lv["demand_low"] and lv["stop"] < lv["wash_low"] <= lv["demand_low"] <= lv["demand_high"]
+        assert it["ready_when"] and it["type"]
+    assert "غير جاهزة للدخول الآن" in (tmp_path / "weekly.md").read_text(encoding="utf-8")
+    ents = weekly.load_entries(str(tmp_path / "weekly.json"), max_age_days=10**6)
+    assert ents and all(e["kind"] == "weekly" for e in ents)
+    e = ents[0]
+    # لا تنبيه على الاختراق ولا على كسر الوقف لقائمة الارتكاز — التنبيه على منطقة الطلب/إعادة الاختبار فقط
+    ev = faisal_watch.evaluate(e, (e["breakout"] or e["demand_high"] * 1.5) * 1.02, None, "", hold_ok=True)
+    assert ev["alert"] is False
+    ev = faisal_watch.evaluate(e, e["stop"] * 0.95, None, "", stop_ok=True)
+    assert ev["alert"] is False
+    ev = faisal_watch.evaluate(e, (e["demand_low"] + e["demand_high"]) / 2, None, "", zone_ok=True)
+    assert ev["alert"] is True and ev["label"] == "قائمة الارتكاز"
+
+
+def test_pivot_alert_only_inside_limit_zone(tmp_path, monkeypatch):
+    """الدخول من تحت: سهم جاهز والسعر فوق منطقة الـ Limit → بدون تنبيه، وينبّه لما ينزل لها."""
+    from faisal_scanner import main
+    monkeypatch.setattr(main.C, "RESULTS_DIR", str(tmp_path))
+    now = datetime(2026, 10, 20, 11, 0, tzinfo=ET)
+    s = {"ticker": "VIP", "setup": "BOUNCE", "kind": "pivot", "price": 1.32, "stop": 1.1956, "t1": 1.34,
+         "entry_low": 1.22, "entry_high": 1.258, "setup_ar": "ارتداد", "meta": {}}
+    assert main.update_alert_state({"ready": [s], "faisal": []}, now) == []
+    s2 = dict(s, price=1.25)
+    assert main.update_alert_state({"ready": [s2], "faisal": []}, now) == ["VIP"]

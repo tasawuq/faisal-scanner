@@ -1,11 +1,11 @@
 {
  "ticker": "MRKR",
- "generated_at_et": "2026-10-21T10:50:29.288905-04:00",
+ "generated_at_et": "2026-10-21T10:57:29.897369-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 1.19,
-  "reg_chg": 0.025862148,
-  "reg_vol": 99674,
+  "reg_price": 1.18,
+  "reg_chg": 0.017093999,
+  "reg_vol": 102219,
   "prev_close": 1.16,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,24 +28,24 @@
   "lastSplitDate": 1674777600
  },
  "daily": {
-  "price": 1.19,
-  "chg_1d": 0.0259,
+  "price": 1.18,
+  "chg_1d": 0.0172,
   "ma": {
-   "MA20": 1.055,
-   "MA30": 1.0983,
-   "MA50": 1.1732
+   "MA20": 1.0545,
+   "MA30": 1.098,
+   "MA50": 1.173
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 57.4,
+  "rsi_now": 56.8,
   "rsi_min15": 30.1,
   "rsi_min30": 30.1,
   "macd": {
-   "line": -0.01964,
-   "signal": -0.04857,
+   "line": -0.02044,
+   "signal": -0.04873,
    "hist_last3": [
     0.01452,
     0.02262,
-    0.02893
+    0.02829
    ],
    "state": "تقاطع إيجابي حديث"
   },
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.6078427522654429,
-    "close_pos": 0.392157247734557,
-    "green": "True",
+    "upper_wick_ratio": 0.6619609405094489,
+    "close_pos": 0.3137250502081253,
+    "green": "False",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.104,
   "avg_vol20": 176850,
-  "last_vol": 99895,
-  "drawdown_90d": 0.308,
+  "last_vol": 100988,
+  "drawdown_90d": 0.314,
   "high_90d": 1.72,
   "low_10d": 0.88,
-  "gain_from_low10": 0.352,
+  "gain_from_low10": 0.341,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -94,7 +94,7 @@
   "former_runner": false,
   "runner_jump": 0.199,
   "runner_spike": 0.304,
-  "distinct_closes20": 15,
+  "distinct_closes20": 16,
   "support_zones": [
    {
     "low": 1.37,
@@ -300,15 +300,15 @@
     "o": 1.1831,
     "h": 1.2675,
     "l": 1.14,
-    "c": 1.19,
-    "v": 99895,
-    "rsi": 57.4,
-    "hist": 0.02893
+    "c": 1.18,
+    "v": 100988,
+    "rsi": 56.8,
+    "hist": 0.02829
    }
   ]
  },
  "levels_map": {
-  "price": 1.19,
+  "price": 1.18,
   "at_price": [],
   "above": [
    {
@@ -354,7 +354,7 @@
   ],
   "below": [
    {
-    "level": 1.1732,
+    "level": 1.173,
     "why": "MA50 + قيعان سابقة متجمعة (12) + إغلاقات سابقة متجمعة (12)",
     "confluence": 3
    },
@@ -375,7 +375,7 @@
    },
    {
     "level": 1.055,
-    "why": "MA20 + إغلاقات سابقة متجمعة (4) + قاع يوم 2026-10-19 + قيعان سابقة متجمعة (5)",
+    "why": "إغلاقات سابقة متجمعة (4) + MA20 + قاع يوم 2026-10-19 + قيعان سابقة متجمعة (5)",
     "confluence": 4
    },
    {
@@ -399,9 +399,9 @@
   "ticker": "MRKR",
   "kind": "pivot",
   "status": "WATCH",
-  "setup": "BASE_RETEST",
-  "setup_ar": "🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة",
-  "price": 1.190000057220459,
+  "setup": "BASE_BREAK",
+  "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
+  "price": 1.1799999475479126,
   "score": 3.75,
   "conditions": {
    "ma": {
@@ -442,14 +442,14 @@
   "t2_label": "قمة سابقة",
   "rr": 2.9,
   "risk_pct": 0.0634,
-  "rsi_now": 57.4,
+  "rsi_now": 56.8,
   "rsi_min": 30.1,
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
   "macd_state": "تقاطع إيجابي حديث",
   "candle": "",
   "volume_note": "فوليوم يتحسن مع الارتداد",
   "waiting_for": [
-   "ابتعد 9% عن مستوى الاختراق — انتظر إعادة اختبار 1.09",
+   "اخترق المقاومة القريبة 1.09 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 30)",
    "ليس Former Runner — ما سبق انفجر خلال سنة (فيصل يبحث عن سهم يقدر يتحرك بعنف)",
    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
@@ -463,12 +463,12 @@
    "فلووت أقل من 20M",
    "فوليوم يتحسن"
   ],
-  "rank": 2.2912843083504573,
+  "rank": 2.3371563696638393,
   "meta": {
    "avg_volume": 176850.0,
-   "drawdown": 0.308,
+   "drawdown": 0.314,
    "rr_best": 5.61,
-   "gain_from_low10": 0.352,
+   "gain_from_low10": 0.341,
    "higher_lows": "False",
    "float": 13743992,
    "market_cap": 20758044,

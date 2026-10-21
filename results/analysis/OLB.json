@@ -1,11 +1,11 @@
 {
  "ticker": "OLB",
- "generated_at_et": "2026-10-21T10:57:29.897369-04:00",
+ "generated_at_et": "2026-10-21T11:04:24.153414-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 0.3732,
-  "reg_chg": -0.13047529000000002,
-  "reg_vol": 965423,
+  "reg_price": 0.3662,
+  "reg_chg": -0.14678470000000002,
+  "reg_vol": 1090565,
   "prev_close": 0.4292,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,24 +28,24 @@
   "lastSplitDate": 1714953600
  },
  "daily": {
-  "price": 0.3732,
-  "chg_1d": -0.1305,
+  "price": 0.3662,
+  "chg_1d": -0.1468,
   "ma": {
-   "MA20": 0.3568,
-   "MA30": 0.315,
-   "MA50": 0.3071
+   "MA20": 0.3565,
+   "MA30": 0.3148,
+   "MA50": 0.3069
   },
   "ma_state": "استعاد المتوسطات 20/30/50",
-  "rsi_now": 50.7,
+  "rsi_now": 50.1,
   "rsi_min15": 32.4,
   "rsi_min30": 32.1,
   "macd": {
-   "line": 0.04814,
-   "signal": 0.04871,
+   "line": 0.04758,
+   "signal": 0.04859,
    "hist_last3": [
     0.01329,
     0.00748,
-    -0.00057
+    -0.00101
    ],
    "state": "سلبي"
   },
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.0886523960749708,
-    "close_pos": 0.14361707186903888,
+    "upper_wick_ratio": 0.08403352084584488,
+    "close_pos": 0.07058841796774237,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.0948,
+  "atr": 0.0951,
   "avg_vol20": 76114680,
-  "last_vol": 1052391,
-  "drawdown_90d": 0.496,
+  "last_vol": 1178582,
+  "drawdown_90d": 0.505,
   "high_90d": 0.74,
   "low_10d": 0.362,
-  "gain_from_low10": 0.031,
+  "gain_from_low10": 0.012,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": true,
@@ -317,20 +317,20 @@
     "d": "2026-10-21",
     "o": 0.4165,
     "h": 0.4215,
-    "l": 0.3651,
-    "c": 0.3732,
-    "v": 1052391,
-    "rsi": 50.7,
-    "hist": -0.00057
+    "l": 0.362,
+    "c": 0.3662,
+    "v": 1178582,
+    "rsi": 50.1,
+    "hist": -0.00101
    }
   ]
  },
  "levels_map": {
-  "price": 0.3732,
+  "price": 0.3662,
   "at_price": [],
   "above": [
    {
-    "level": 0.3875,
+    "level": 0.3851,
     "why": "فواب جلسة 2026-10-21 + قمة سابقة + رأس شمعة هابطة",
     "confluence": 2
    },
@@ -372,14 +372,9 @@
   ],
   "below": [
    {
-    "level": 0.3651,
-    "why": "قاع يوم 2026-10-21 + قاع يوم 2026-10-15",
-    "confluence": 2
-   },
-   {
-    "level": 0.3568,
-    "why": "MA20",
-    "confluence": 1
+    "level": 0.362,
+    "why": "قاع يوم 2026-10-15 + قاع يوم 2026-10-21 + MA20",
+    "confluence": 3
    },
    {
     "level": 0.3174,
@@ -387,7 +382,7 @@
     "confluence": 2
    },
    {
-    "level": 0.3071,
+    "level": 0.3069,
     "why": "MA50 + إغلاقات سابقة متجمعة (6)",
     "confluence": 2
    },
@@ -410,6 +405,11 @@
     "level": 0.2634,
     "why": "قيعان سابقة متجمعة (4)",
     "confluence": 1
+   },
+   {
+    "level": 0.2117,
+    "why": "إغلاقات سابقة متجمعة (3)",
+    "confluence": 1
    }
   ]
  },
@@ -419,7 +419,7 @@
   "status": "WATCH",
   "setup": "AT_SUPPORT",
   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-  "price": 0.373199999332428,
+  "price": 0.3662000000476837,
   "score": 3.25,
   "conditions": {
    "ma": {
@@ -428,7 +428,7 @@
    },
    "rsi": {
     "score": 0.25,
-    "note": "أدنى RSI 32 والحالي 51 (ارتفع — جزء من الارتداد حصل)"
+    "note": "أدنى RSI 32 والحالي 50 (ارتفع — جزء من الارتداد حصل)"
    },
    "macd": {
     "score": 0.0,
@@ -440,7 +440,7 @@
    },
    "pressure": {
     "score": 1.0,
-    "note": "هبط 50% من قمة 90 يوم"
+    "note": "هبط 51% من قمة 90 يوم"
    },
    "space": {
     "score": 1.0,
@@ -460,7 +460,7 @@
   "t2_label": "رأس شمعة هابطة + قمة سابقة",
   "rr": 2.88,
   "risk_pct": 0.0249,
-  "rsi_now": 50.7,
+  "rsi_now": 50.1,
   "rsi_min": 32.4,
   "ma_state": "استعاد المتوسطات 20/30/50",
   "macd_state": "سلبي",
@@ -483,12 +483,12 @@
    "قيعان أعلى",
    "فوليوم البيع يضعف"
   ],
-  "rank": 4.095303713665864,
+  "rank": 4.191988789716124,
   "meta": {
    "avg_volume": 76114680.0,
-   "drawdown": 0.496,
+   "drawdown": 0.505,
    "rr_best": 8.42,
-   "gain_from_low10": 0.031,
+   "gain_from_low10": 0.012,
    "higher_lows": "True",
    "float": 17187014,
    "market_cap": 10309518,

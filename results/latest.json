@@ -1,21 +1,21 @@
 {
- "generated_at_utc": "2026-10-22T10:31:54.875552+00:00",
- "generated_at_et": "2026-10-22T06:31:54.875552-04:00",
+ "generated_at_utc": "2026-10-22T10:41:54.875727+00:00",
+ "generated_at_et": "2026-10-22T06:41:54.875727-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 1584,
-  "with_data": 1584,
-  "short_history": 19,
-  "price_out": 92,
+  "prefiltered": 1593,
+  "with_data": 1593,
+  "short_history": 18,
+  "price_out": 99,
   "low_volume": 348,
   "watch_only_volume": 159
  },
  "counts": {
-  "universe": 5857,
-  "analyzed": 1125,
+  "universe": 5855,
+  "analyzed": 1128,
   "ready": 1,
-  "watch": 146,
+  "watch": 147,
   "momentum": 0,
   "ext_quotes": 66,
   "ext_movers_5pct": 0
@@ -90,7 +90,7 @@
     "gain_from_low10": 0.321,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 296963526.0,
+    "market_cap": 291531267.0,
     "exchange": "NASDAQ",
     "name": "Century Therapeutics Inc. Common Stock"
    },
@@ -167,7 +167,7 @@
     "gain_from_low10": 0.111,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 64996624.0,
+    "market_cap": 68320925.0,
     "exchange": "NASDAQ",
     "name": "Tigo Energy Inc. Common Stock",
     "ext_price": 0.902,
@@ -251,7 +251,7 @@
     "gain_from_low10": 0.049,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 4807745.0,
+    "market_cap": 4751379.0,
     "exchange": "NASDAQ",
     "name": "Gaxos.ai Inc. Common Stock",
     "ext_price": 0.443,
@@ -332,7 +332,7 @@
     "gain_from_low10": 0.031,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 44297691.0,
+    "market_cap": 40436800.0,
     "exchange": "NASDAQ",
     "name": "Aldeyra Therapeutics Inc. Common Stock",
     "ext_price": 0.6703,
@@ -415,7 +415,7 @@
     "gain_from_low10": 0.035,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 26014697.0,
+    "market_cap": 25797908.0,
     "exchange": "NASDAQ",
     "name": "PetMed Express Inc. Common Stock",
     "ext_price": 1.23,
@@ -573,11 +573,11 @@
     "gain_from_low10": 0.063,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 6630523.0,
+    "market_cap": 6782123.0,
     "exchange": "AMEX",
     "name": "AIM ImmunoTech Inc. Common Stock",
     "ext_price": 0.166,
-    "ext_chg": -0.023529458,
+    "ext_chg": -0.027533715,
     "ext_session": "pre"
    },
    "news": []
@@ -653,7 +653,7 @@
     "gain_from_low10": 0.007,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 59352122.0,
+    "market_cap": 56486847.0,
     "exchange": "NASDAQ",
     "name": "Aptera Motors Corp. Class B Common Stock",
     "ext_price": 1.38,
@@ -734,7 +734,7 @@
     "gain_from_low10": 0.096,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 7066146.0,
+    "market_cap": 7054814.0,
     "exchange": "NASDAQ",
     "name": "Aprea Therapeutics Inc. Common stock"
    },
@@ -812,7 +812,7 @@
     "gain_from_low10": 0.03,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 16837000.0,
+    "market_cap": 16247718.0,
     "exchange": "NASDAQ",
     "name": "Greenland Technologies Holding Corporation Class A Ordinary Shares"
    },
@@ -888,7 +888,7 @@
     "gain_from_low10": 0.227,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 41958280.0,
+    "market_cap": 46387469.0,
     "exchange": "NASDAQ",
     "name": "AEye Inc. Class A Common Stock",
     "ext_price": 0.9701,
@@ -972,7 +972,7 @@
     "gain_from_low10": 0.115,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 35029269.0,
+    "market_cap": 34767984.0,
     "exchange": "NASDAQ",
     "name": "Gamehaus Holdings Inc. Class A Ordinary Shares",
     "ext_price": 0.6125,
@@ -1131,11 +1131,94 @@
     "gain_from_low10": 0.045,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 9846105.0,
+    "market_cap": 9834097.0,
     "exchange": "NASDAQ",
     "name": "iQSTEL Inc. Common Stock",
     "ext_price": 0.9,
     "ext_chg": 0.007725898555592803,
+    "ext_session": "pre"
+   },
+   "news": []
+  },
+  {
+   "ticker": "RLMD",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 3.2100000381469727,
+   "score": 4.75,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 21 والحالي 37"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "تقاطع إيجابي حديث"
+    },
+    "candle": {
+     "score": 0.5,
+     "note": "شمعة خضراء بإغلاق قوي"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 55% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 6.1"
+    }
+   },
+   "support_low": 3.069999933242798,
+   "support_high": 3.100699932575226,
+   "support_touches": 2,
+   "trigger_level": 3.069999933242798,
+   "stop": 3.008599934577942,
+   "entry_low": 3.069999933242798,
+   "entry_high": 3.100699932575226,
+   "t1": 3.2899999618530273,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 3.3949999809265137,
+   "t2_label": "قمة سابقة + MA20",
+   "rr": 2.67,
+   "risk_pct": 0.0249,
+   "rsi_now": 36.7,
+   "rsi_min": 21.4,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "تقاطع إيجابي حديث",
+   "candle": "شمعة خضراء بإغلاق قوي",
+   "volume_note": "",
+   "waiting_for": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 3.07 ثم استرداد",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 3.31 بعيداً عن منطقة الطلب"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +67% في يوم)",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 5.521986794872182,
+   "meta": {
+    "avg_volume": 1259500.0,
+    "drawdown": 0.549,
+    "rr_best": 6.05,
+    "gain_from_low10": 0.046,
+    "higher_lows": "False",
+    "float": null,
+    "market_cap": 342410206.0,
+    "exchange": "NASDAQ",
+    "name": "Relmada Therapeutics Inc. Common Stock",
+    "ext_price": 3.31,
+    "ext_chg": 0.031152618,
     "ext_session": "pre"
    },
    "news": []
@@ -1214,7 +1297,7 @@
     "gain_from_low10": 0.032,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 42071336.0,
+    "market_cap": 40655958.0,
     "exchange": "AMEX",
     "name": "AgEagle Aerial Systems Inc. Common Stock",
     "ext_price": 0.6416,
@@ -1297,7 +1380,7 @@
     "gain_from_low10": 0.125,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 10766560.0,
+    "market_cap": 10940215.0,
     "exchange": "NASDAQ",
     "name": "BioVie Inc. Class A Common Stock",
     "ext_price": 1.3497,
@@ -1380,7 +1463,7 @@
     "gain_from_low10": 0.691,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 5008803.0,
+    "market_cap": 4924857.0,
     "exchange": "NASDAQ",
     "name": "Processa Pharmaceuticals Inc. Common Stock"
    },
@@ -1458,7 +1541,7 @@
     "gain_from_low10": 0.11,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 119112313.0,
+    "market_cap": 124465676.0,
     "exchange": "NASDAQ",
     "name": "QumulusAI Inc. Common Stock",
     "ext_price": 3.5,
@@ -1543,7 +1626,7 @@
     "gain_from_low10": 0.166,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 2596807.0,
+    "market_cap": 2471255.0,
     "exchange": "NASDAQ",
     "name": "AGM Group Holdings Inc. Class A Ordinary Shares",
     "ext_price": 0.46,
@@ -1627,7 +1710,7 @@
     "gain_from_low10": 0.191,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 2243879.0,
+    "market_cap": 2415966.0,
     "exchange": "NASDAQ",
     "name": "CN Energy Group Inc. Class A Ordinary Shares",
     "ext_price": 0.4295,
@@ -1711,7 +1794,7 @@
     "gain_from_low10": 0.052,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 10363749.0,
+    "market_cap": 10396277.0,
     "exchange": "NASDAQ",
     "name": "Phio Pharmaceuticals Corp. Common Stock",
     "ext_price": 0.91,
@@ -1794,7 +1877,7 @@
     "gain_from_low10": 0.018,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 2616499.0,
+    "market_cap": 2594136.0,
     "exchange": "NASDAQ",
     "name": "HCW Biologics Inc. Common Stock",
     "ext_price": 1.15,
@@ -1878,7 +1961,7 @@
     "gain_from_low10": 0.069,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 5753729.0,
+    "market_cap": 5488755.0,
     "exchange": "NASDAQ",
     "name": "Agroz Inc. Class A Ordinary Shares",
     "ext_price": 2.82,
@@ -1966,7 +2049,7 @@
     "gain_from_low10": 0.259,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 5431995.0,
+    "market_cap": 4946996.0,
     "exchange": "NASDAQ",
     "name": "Cellyan Biotechnology Co. Ltd Class A Ordinary Shares",
     "ext_price": 0.095,
@@ -2049,7 +2132,7 @@
     "gain_from_low10": 0.031,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 1087928.0,
+    "market_cap": 1051686.0,
     "exchange": "AMEX",
     "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
     "ext_price": 0.32,
@@ -2133,7 +2216,7 @@
     "gain_from_low10": 0.079,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 11687400.0,
+    "market_cap": 11924395.0,
     "exchange": "NASDAQ",
     "name": "Uni-Fuels Holdings Limited Class A Ordinary Shares",
     "ext_price": 0.3421,
@@ -2216,7 +2299,7 @@
     "gain_from_low10": 0.088,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 14313913.0,
+    "market_cap": 14151978.0,
     "exchange": "NASDAQ",
     "name": "Radiopharm Theranostics Limited American Depositary Shares"
    },
@@ -2293,7 +2376,7 @@
     "gain_from_low10": 0.053,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 40687975.0,
+    "market_cap": 40867613.0,
     "exchange": "NASDAQ",
     "name": "Solidion Technology Inc. Common Stock",
     "ext_price": 4.55,
@@ -2372,7 +2455,7 @@
     "gain_from_low10": 0.076,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 1144246.0,
+    "market_cap": 1157013.0,
     "exchange": "NASDAQ",
     "name": "Presidio Property Trust Inc. Class A Common Stock",
     "ext_price": 0.8396,
@@ -2453,7 +2536,7 @@
     "gain_from_low10": 0.092,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 150870500.0,
+    "market_cap": 153156416.0,
     "exchange": "NASDAQ",
     "name": "Neuronetics Inc. Common Stock"
    },
@@ -2533,7 +2616,7 @@
     "gain_from_low10": 0.219,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 112158846.0,
+    "market_cap": 132869996.0,
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences Inc. Common Stock",
     "ext_price": 2.24,
@@ -2617,7 +2700,7 @@
     "gain_from_low10": 0.299,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 66396801.0,
+    "market_cap": 69587494.0,
     "exchange": "NASDAQ",
     "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares",
     "ext_price": 4.5505,
@@ -2784,11 +2867,11 @@
     "gain_from_low10": 0.19,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 5069483.0,
+    "market_cap": 5023311.0,
     "exchange": "NASDAQ",
     "name": "CCSC Technology International Holdings Limited Class A Ordinary Shares",
-    "ext_price": 0.3502,
-    "ext_chg": -0.06188052504687924,
+    "ext_price": 0.3396,
+    "ext_chg": -0.08191401499999999,
     "ext_session": "pre"
    },
    "news": []
@@ -2865,7 +2948,7 @@
     "gain_from_low10": 0.05,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 52711582.0,
+    "market_cap": 53392975.0,
     "exchange": "AMEX",
     "name": "Westwater Resources Inc. Common Stock",
     "ext_price": 0.4001,
@@ -2951,11 +3034,11 @@
     "gain_from_low10": 0.167,
     "higher_lows": "True",
     "float": null,
-    "market_cap": 132867032.0,
+    "market_cap": 136665946.0,
     "exchange": "NASDAQ",
     "name": "Datavault AI Inc. Common Stock",
-    "ext_price": 0.1399,
-    "ext_chg": -0.027797136,
+    "ext_price": 0.14,
+    "ext_chg": -0.027102198999999997,
     "ext_session": "pre"
    },
    "news": []
@@ -3036,7 +3119,7 @@
     "gain_from_low10": 0.063,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 5206507.0,
+    "market_cap": 5002095.0,
     "exchange": "AMEX",
     "name": "VolitionRX Limited Common Stock",
     "ext_price": 0.1664,
@@ -3119,7 +3202,7 @@
     "gain_from_low10": 0.063,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 2355483.0,
+    "market_cap": 2431874.0,
     "exchange": "NASDAQ",
     "name": "Kustom Entertainment Inc. Common Stock",
     "ext_price": 3.5112,
@@ -3198,11 +3281,11 @@
     "gain_from_low10": 0.054,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 296618711.0,
+    "market_cap": 311449647.0,
     "exchange": "NASDAQ",
     "name": "Terrestrial Energy Inc. Common Stock  ",
-    "ext_price": 2.85,
-    "ext_chg": -0.030612297,
+    "ext_price": 2.83,
+    "ext_chg": -0.03741501,
     "ext_session": "pre"
    },
    "news": []
@@ -3280,90 +3363,9 @@
     "gain_from_low10": 0.06,
     "higher_lows": "False",
     "float": null,
-    "market_cap": 135818167.0,
+    "market_cap": 133744607.0,
     "exchange": "NASDAQ",
     "name": "Toro Corp. Common Shares"
-   },
-   "news": []
-  },
-  {
-   "ticker": "HPAI",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.2919999957084656,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.25,
-     "note": "أدنى RSI 35 والحالي 39"
-    },
-    "macd": {
-     "score": 0.5,
-     "note": "إيجابي (الخط فوق الإشارة)"
-    },
-    "candle": {
-     "score": 1.0,
-     "note": "مطرقة (Hammer)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 67% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 9.1"
-    }
-   },
-   "support_low": 0.2879999876022339,
-   "support_high": 0.2908799874782562,
-   "support_touches": 3,
-   "trigger_level": 0.2879999876022339,
-   "stop": 0.2822399878501892,
-   "entry_low": 0.2879999876022339,
-   "entry_high": 0.2908799874782562,
-   "t1": 0.305199999610583,
-   "t1_label": "MA30 + MA20 + قمة سابقة",
-   "t2": 0.335999995470047,
-   "t2_label": "قمة سابقة",
-   "rr": 2.19,
-   "risk_pct": 0.0249,
-   "rsi_now": 39.3,
-   "rsi_min": 34.7,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "إيجابي (الخط فوق الإشارة)",
-   "candle": "مطرقة (Hammer)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.29 ثم استرداد",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 35)",
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [
-    "اختراق وهمي سابق لخط العنق (Bull Trap)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +94% في يوم)",
-    "فوليوم البيع يضعف"
-   ],
-   "rank": 5.18055541183293,
-   "meta": {
-    "avg_volume": 205045.0,
-    "drawdown": 0.672,
-    "rr_best": 9.11,
-    "gain_from_low10": 0.003,
-    "higher_lows": "False",
-    "float": null,
-    "market_cap": 11858777.0,
-    "exchange": "NASDAQ",
-    "name": "Helport AI Limited Ordinary Shares"
    },
    "news": []
   }
@@ -3508,7 +3510,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3998,
+   "price": 0.395,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3544,8 +3546,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 215883.0,
-   "price": 342.65
+   "volume": 229178.0,
+   "price": 342.89
   },
   "SNDL": {
    "volume": 3.0,

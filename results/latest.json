@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T21:39:07.981748+00:00",
- "generated_at_et": "2026-10-22T17:39:07.981748-04:00",
+ "generated_at_utc": "2026-10-22T21:49:07.981898+00:00",
+ "generated_at_et": "2026-10-22T17:49:07.981898-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -1392,11 +1392,11 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.32 ثم استرداد",
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "السعر في الأفتر 0.298 تحت الوقف — الدعم مكسور حالياً"
+    "السعر في الأفتر 0.309 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في الأفتر تحت الوقف (0.298)"
+    "نزل في الأفتر تحت الوقف (0.309)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +214% في يوم)",
@@ -1414,8 +1414,8 @@
     "market_cap": 1051686.0,
     "exchange": "AMEX",
     "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
-    "ext_price": 0.2977,
-    "ext_chg": -0.12441179999999999,
+    "ext_price": 0.3094,
+    "ext_chg": -0.09000003,
     "ext_session": "post"
    },
    "news": []
@@ -1476,12 +1476,10 @@
    "waiting_for": [
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 26)",
     "السعر ابتعد 7% فوق منطقة الطلب — ضع Limit عند 1.67–1.74 ولا تطارد",
-    "صعد 79% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+    "صعد 79% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه",
-    "صعد في الأفتر إلى 1.86 بعيداً عن منطقة الطلب"
+    "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
     "Former Runner (سبق انفجر +196% في يوم)",
@@ -1499,8 +1497,8 @@
     "market_cap": 4924857.0,
     "exchange": "NASDAQ",
     "name": "Processa Pharmaceuticals Inc. Common Stock",
-    "ext_price": 1.86,
-    "ext_chg": 0.05681818181818188,
+    "ext_price": 1.71,
+    "ext_chg": -0.02840909090909094,
     "ext_session": "post"
    },
    "news": []
@@ -2747,8 +2745,8 @@
     "market_cap": 133744607.0,
     "exchange": "NASDAQ",
     "name": "Toro Corp. Common Shares",
-    "ext_price": 3.66,
-    "ext_chg": -0.054263565891472854,
+    "ext_price": 3.73,
+    "ext_chg": -0.036175710594315236,
     "ext_session": "post"
    },
    "news": []
@@ -2829,7 +2827,10 @@
     "float": null,
     "market_cap": 14151978.0,
     "exchange": "NASDAQ",
-    "name": "Radiopharm Theranostics Limited American Depositary Shares"
+    "name": "Radiopharm Theranostics Limited American Depositary Shares",
+    "ext_price": 0.9007,
+    "ext_chg": -0.07979158152840216,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3551,7 +3552,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.39,
+   "price": 0.3808,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

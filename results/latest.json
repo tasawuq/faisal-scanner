@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T09:58:08.224839+00:00",
- "generated_at_et": "2026-10-22T05:58:08.224839-04:00",
+ "generated_at_utc": "2026-10-22T10:08:08.224991+00:00",
+ "generated_at_et": "2026-10-22T06:08:08.224991-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -332,8 +332,8 @@
     "market_cap": 44297691.0,
     "exchange": "NASDAQ",
     "name": "Aldeyra Therapeutics Inc. Common Stock",
-    "ext_price": 0.6773,
-    "ext_chg": -0.07762494893095462,
+    "ext_price": 0.6703,
+    "ext_chg": -0.08715783739615957,
     "ext_session": "pre"
    },
    "news": []
@@ -573,8 +573,8 @@
     "market_cap": 6630523.0,
     "exchange": "AMEX",
     "name": "AIM ImmunoTech Inc. Common Stock",
-    "ext_price": 0.1698,
-    "ext_chg": -0.00527241,
+    "ext_price": 0.166,
+    "ext_chg": -0.027533715,
     "ext_session": "pre"
    },
    "news": []
@@ -2049,8 +2049,8 @@
     "market_cap": 1087928.0,
     "exchange": "AMEX",
     "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
-    "ext_price": 0.3245,
-    "ext_chg": -0.0015384418,
+    "ext_price": 0.32,
+    "ext_chg": -0.015384601,
     "ext_session": "pre"
    },
    "news": []
@@ -2533,8 +2533,8 @@
     "market_cap": 112158846.0,
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences Inc. Common Stock",
-    "ext_price": 2.27,
-    "ext_chg": 0.08872899000000001,
+    "ext_price": 2.24,
+    "ext_chg": 0.07434051,
     "ext_session": "pre"
    },
    "news": []
@@ -2784,8 +2784,8 @@
     "market_cap": 5069483.0,
     "exchange": "NASDAQ",
     "name": "CCSC Technology International Holdings Limited Class A Ordinary Shares",
-    "ext_price": 0.3491,
-    "ext_chg": -0.06482721671577818,
+    "ext_price": 0.3502,
+    "ext_chg": -0.06188052504687924,
     "ext_session": "pre"
    },
    "news": []
@@ -2951,8 +2951,8 @@
     "market_cap": 132867032.0,
     "exchange": "NASDAQ",
     "name": "Datavault AI Inc. Common Stock",
-    "ext_price": 0.1376,
-    "ext_chg": -0.043780416999999995,
+    "ext_price": 0.1387,
+    "ext_chg": -0.036136298,
     "ext_session": "pre"
    },
    "news": []
@@ -3118,7 +3118,10 @@
     "float": null,
     "market_cap": 2355483.0,
     "exchange": "NASDAQ",
-    "name": "Kustom Entertainment Inc. Common Stock"
+    "name": "Kustom Entertainment Inc. Common Stock",
+    "ext_price": 3.5112,
+    "ext_chg": -0.027368421052631486,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3418,7 +3421,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.8,
+   "price": 1.76,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3436,15 +3439,15 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 11%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 14%",
    "alert": false,
    "session": "pre",
    "scanner": null
   },
   {
    "ticker": "BRTX",
-   "price": 1.5299999713897705,
-   "price_label": "آخر سعر",
+   "price": 1.55,
+   "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3461,7 +3464,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 12%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 10%",
    "alert": false,
    "session": "pre",
    "scanner": null
@@ -3502,7 +3505,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3998,
+   "price": 0.3851,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3538,11 +3541,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 175286.0,
-   "price": 344.2462
+   "volume": 208663.0,
+   "price": 343.8
   },
   "SNDL": {
-   "volume": 5.0,
+   "volume": 3.0,
    "price": 1.27
   }
  }

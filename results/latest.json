@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T20:24:35.802633+00:00",
- "generated_at_et": "2026-10-22T16:24:35.802633-04:00",
+ "generated_at_utc": "2026-10-22T20:34:35.802782+00:00",
+ "generated_at_et": "2026-10-22T16:34:35.802782-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -496,8 +496,8 @@
     "market_cap": 3132000.0,
     "exchange": "NASDAQ",
     "name": "FBS Global Limited Ordinary Shares",
-    "ext_price": 2.25,
-    "ext_chg": -0.030172413793103425,
+    "ext_price": 2.245,
+    "ext_chg": -0.032327586206896464,
     "ext_session": "post"
    },
    "news": []
@@ -1387,11 +1387,11 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.32 ثم استرداد",
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+    "السعر في الأفتر 0.313 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.34 بعيداً عن منطقة الطلب"
+    "نزل في الأفتر تحت الوقف (0.313)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +214% في يوم)",
@@ -1409,8 +1409,8 @@
     "market_cap": 1051686.0,
     "exchange": "AMEX",
     "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
-    "ext_price": 0.3401,
-    "ext_chg": 0.00029407880000000003,
+    "ext_price": 0.3128,
+    "ext_chg": -0.08000004000000001,
     "ext_session": "post"
    },
    "news": []
@@ -1738,8 +1738,8 @@
     "market_cap": 2431874.0,
     "exchange": "NASDAQ",
     "name": "Kustom Entertainment Inc. Common Stock",
-    "ext_price": 3.7,
-    "ext_chg": -0.010006956707871772,
+    "ext_price": 3.6,
+    "ext_chg": -0.045092860000000005,
     "ext_session": "post"
    },
    "news": []
@@ -1884,7 +1884,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 1.73 وأغلق 1.14 بفوليوم 233x)",
     "سهم صيني عالي التذبذب",
-    "صعد في الأفتر إلى 1.05 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 1.03 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1904,8 +1904,8 @@
     "exchange": "NASDAQ",
     "name": "Aurelion Inc.",
     "short_pct_float": 0.00090000004,
-    "ext_price": 1.0454,
-    "ext_chg": 0.09020759,
+    "ext_price": 1.0299,
+    "ext_chg": 0.074043155,
     "ext_session": "post"
    },
    "news": []
@@ -2892,8 +2892,8 @@
     "market_cap": 40867613.0,
     "exchange": "NASDAQ",
     "name": "Solidion Technology Inc. Common Stock",
-    "ext_price": 4.34,
-    "ext_chg": -0.04824561403508765,
+    "ext_price": 4.32,
+    "ext_chg": -0.0046082905,
     "ext_session": "post"
    },
    "news": []
@@ -3411,8 +3411,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
+   "alert": true,
    "session": "post",
    "scanner": null
   },
@@ -3443,7 +3443,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.75,
+   "price": 1.78,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3461,7 +3461,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 14%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 12%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -3477,7 +3477,7 @@
   {
    "ticker": "BRTX",
    "price": 1.5,
-   "price_label": "آخر سعر",
+   "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3535,7 +3535,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3885,
+   "price": 0.3887,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

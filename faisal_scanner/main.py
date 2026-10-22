@@ -561,6 +561,8 @@ def update_alert_state(result, now_et, suffix=""):
         if s.get("kind") == "momentum" and any(k.startswith(f"{s['ticker']}:MOM") and k.count(":") == key.count(":")
                                                for k in state):
             continue
+        if s.get("kind") != "momentum" and (result.get("session") not in (None, "regular") or seg in ("pre", "post")):
+            continue  # بوابة الجودة (21 أكتوبر، ص10): تنبيه دخول الارتكاز في الجلسة الرسمية فقط — IPSC نبه 04:02 بري 22 أكتوبر
         if s.get("kind") != "momentum" and s.get("entry_high") and s["price"] > s["entry_high"] * 1.01:
             continue  # الدخول من تحت (BJDX ص35، ص54): لا تنبيه والسعر فوق منطقة الـ Limit — ينبّه لما ينزل لها
         if key not in state:

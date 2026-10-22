@@ -466,3 +466,16 @@ def test_entry_quality_gate_blocks_weak_alerts():
     # مستوى المستخدم/فيصل: شرط العائد ما ينطبق (خطة بأكثر من دخول)، لكن الجلسة والفوليوم ينطبقون
     mine = {**entry, "kind": None, "stop": 1.0}
     assert fw.entry_quality(good, mine, 1.485, now, "regular") == []
+
+
+def test_pivot_alert_regular_session_only(tmp_path, monkeypatch):
+    """IPSC 22 أكتوبر: سهم ارتكاز جاهز نبه 04:02 في البري — التنبيه في الجلسة الرسمية فقط (ص10)."""
+    import faisal_scanner.config as C
+    from faisal_scanner import main
+    monkeypatch.setattr(C, "RESULTS_DIR", str(tmp_path))
+    now = datetime(2026, 10, 22, 4, 2, tzinfo=ET)
+    s = {"ticker": "IPSC", "setup": "BASE_RETEST", "kind": "pivot", "price": 1.59, "stop": 1.473, "t1": 1.745,
+         "entry_low": 1.55, "entry_high": 1.5965, "setup_ar": "علم", "meta": {}}
+    assert main.update_alert_state({"ready": [s], "faisal": [], "session": "pre"}, now) == []
+    assert main.update_alert_state({"ready": [s], "faisal": [], "session": "regular"},
+                                   now.replace(hour=10)) == ["IPSC"]

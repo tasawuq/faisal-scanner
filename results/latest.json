@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T20:44:35.802957+00:00",
- "generated_at_et": "2026-10-22T16:44:35.802957-04:00",
+ "generated_at_utc": "2026-10-22T20:55:03.672613+00:00",
+ "generated_at_et": "2026-10-22T16:55:03.672613-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -95,8 +95,8 @@
     "market_cap": 4751379.0,
     "exchange": "NASDAQ",
     "name": "Gaxos.ai Inc. Common Stock",
-    "ext_price": 0.4352,
-    "ext_chg": -0.041409669999999996,
+    "ext_price": 0.4355,
+    "ext_chg": -0.0407489,
     "ext_session": "post"
    },
    "news": []
@@ -582,8 +582,8 @@
     "exchange": "NASDAQ",
     "name": "Nixxy, Inc.",
     "short_pct_float": 0.0037,
-    "ext_price": 0.3148,
-    "ext_chg": -0.016249999999999987,
+    "ext_price": 0.3146,
+    "ext_chg": -0.016875000000000084,
     "ext_session": "post"
    },
    "news": []
@@ -666,8 +666,8 @@
     "market_cap": 5002095.0,
     "exchange": "AMEX",
     "name": "VolitionRX Limited Common Stock",
-    "ext_price": 0.1725,
-    "ext_chg": 0.020106432,
+    "ext_price": 0.1697,
+    "ext_chg": 0.0035481681999999996,
     "ext_session": "post"
    },
    "news": []
@@ -750,7 +750,10 @@
     "float": null,
     "market_cap": 11924395.0,
     "exchange": "NASDAQ",
-    "name": "Uni-Fuels Holdings Limited Class A Ordinary Shares"
+    "name": "Uni-Fuels Holdings Limited Class A Ordinary Shares",
+    "ext_price": 0.3521,
+    "ext_chg": -0.04138306561393956,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -993,8 +996,8 @@
     "exchange": "NASDAQ",
     "name": "Ohmyhome Limited",
     "short_pct_float": 0.0226,
-    "ext_price": 3.12,
-    "ext_chg": -0.06024096385542166,
+    "ext_price": 3.1,
+    "ext_chg": -0.0064102507,
     "ext_session": "post"
    },
    "news": []
@@ -1387,11 +1390,11 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.32 ثم استرداد",
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "السعر في الأفتر 0.296 تحت الوقف — الدعم مكسور حالياً"
+    "السعر في الأفتر 0.313 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في الأفتر تحت الوقف (0.296)"
+    "نزل في الأفتر تحت الوقف (0.313)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +214% في يوم)",
@@ -1409,8 +1412,8 @@
     "market_cap": 1051686.0,
     "exchange": "AMEX",
     "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
-    "ext_price": 0.2964,
-    "ext_chg": -0.12823527,
+    "ext_price": 0.313,
+    "ext_chg": -0.079411793,
     "ext_session": "post"
    },
    "news": []
@@ -1817,8 +1820,8 @@
     "market_cap": 311449647.0,
     "exchange": "NASDAQ",
     "name": "Terrestrial Energy Inc. Common Stock  ",
-    "ext_price": 2.91,
-    "ext_chg": 0.017482585,
+    "ext_price": 2.87,
+    "ext_chg": 0.0034965003,
     "ext_session": "post"
    },
    "news": []
@@ -2131,11 +2134,13 @@
    "candle": "ابتلاعية شرائية (Engulfing)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "السعر ابتعد 9% فوق منطقة الطلب — ضع Limit عند 0.29–0.30 ولا تطارد"
+    "السعر ابتعد 9% فوق منطقة الطلب — ضع Limit عند 0.29–0.30 ولا تطارد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.33 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +58% في يوم)",
@@ -2152,7 +2157,10 @@
     "float": null,
     "market_cap": 3068354.0,
     "exchange": "NASDAQ",
-    "name": "Taoping Inc. Ordinary Shares "
+    "name": "Taoping Inc. Ordinary Shares ",
+    "ext_price": 0.3298,
+    "ext_chg": 0.06387096774193535,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2482,8 +2490,8 @@
     "market_cap": 132869996.0,
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences Inc. Common Stock",
-    "ext_price": 2.05,
-    "ext_chg": -0.016786570743405393,
+    "ext_price": 2.06,
+    "ext_chg": -0.011990407673860837,
     "ext_session": "post"
    },
    "news": []
@@ -2895,8 +2903,8 @@
     "market_cap": 40867613.0,
     "exchange": "NASDAQ",
     "name": "Solidion Technology Inc. Common Stock",
-    "ext_price": 4.32,
-    "ext_chg": -0.0046082905,
+    "ext_price": 4.3354,
+    "ext_chg": -0.00105991885,
     "ext_session": "post"
    },
    "news": []
@@ -2976,8 +2984,8 @@
     "market_cap": 53392975.0,
     "exchange": "AMEX",
     "name": "Westwater Resources Inc. Common Stock",
-    "ext_price": 0.398,
-    "ext_chg": 0.007084989000000001,
+    "ext_price": 0.4027,
+    "ext_chg": 0.018977714,
     "ext_session": "post"
    },
    "news": []
@@ -3396,7 +3404,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.44,
+   "price": 1.41,
    "price_label": "سعر الأفتر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -3538,7 +3546,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3938,
+   "price": 0.3921,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

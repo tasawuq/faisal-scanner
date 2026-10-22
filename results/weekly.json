@@ -1,10 +1,10 @@
 {
- "generated_at_et": "2026-10-22T14:14:35.800324-04:00",
+ "generated_at_et": "2026-10-22T15:14:35.801470-04:00",
  "items": [
   {
    "ticker": "SRTM",
    "score": 11.0,
-   "price": 0.4171,
+   "price": 0.4157,
    "ext_price": null,
    "name": "Stratum Holdings Corp.",
    "type": [
@@ -42,7 +42,7 @@
    "levels": {
     "bottom": 0.3938,
     "demand_low": 0.406,
-    "demand_high": 0.4171,
+    "demand_high": 0.4157,
     "wash_low": 0.3451,
     "wash_high": 0.3654,
     "wash_note": "10–15% تحت الدعم (ص54)",
@@ -54,10 +54,10 @@
     "stop_tight": 0.3859
    },
    "not_ready": [
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 30)",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+    "إغلاق وثبات فوق 0.41 بعد سحب السيولة",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 30)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.406–0.417 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.345–0.365 ثم استرداد 0.406 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.406–0.416 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.345–0.365 ثم استرداد 0.406 (ص17، ص86)",
    "flags": [
     "تقسيم عكسي حديث 1:6 (2026-09-08)",
     "سعر منخفض جداً — سبريد واسع"
@@ -65,66 +65,6 @@
    "tags": [
     "فلووت أقل من 5M 🔥",
     "Former Runner (سبق انفجر +580% في يوم)",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
-   "ticker": "DFSC",
-   "score": 10.62,
-   "price": 0.7575,
-   "ext_price": null,
-   "name": "DEFSEC Technologies Inc.",
-   "type": [
-    "فلووت منخفض جداً",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 2461115,
-    "shares": 5422535.0,
-    "short_pct_float": 0.0067000003,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +188% في يوم)",
-    "drawdown": 0.806,
-    "rsi_min": 21.9,
-    "rsi_now": 33.8,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "تقاطع إيجابي حديث"
-   },
-   "news": [
-    [
-     "Feb 24, 2025",
-     "ETF Strategies to Follow From Buffett's Defensive Stance"
-    ],
-    [
-     "Jan 6, 2025",
-     "KWESST Strengthens Leadership Team with Key Appointments"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.66,
-    "demand_low": 0.66,
-    "demand_high": 0.6866,
-    "wash_low": 0.561,
-    "wash_high": 0.594,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.7829999923706055,
-    "t1": 0.7829999923706055,
-    "t2": 0.8240000009536743,
-    "r1": 0.76,
-    "stop": 0.5442,
-    "stop_tight": 0.6468
-   },
-   "not_ready": [
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "السعر ابتعد 10% فوق منطقة الطلب — ضع Limit عند 0.66–0.69 ولا تطارد"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.66–0.687 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.561–0.594 ثم استرداد 0.66 (ص17، ص86)",
-   "flags": [],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +188% في يوم)",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
@@ -194,7 +134,7 @@
   {
    "ticker": "CTNT",
    "score": 10.38,
-   "price": 2.35,
+   "price": 2.344,
    "ext_price": null,
    "name": "Cheetah Net Supply Chain Service Inc.",
    "type": [
@@ -261,7 +201,7 @@
   {
    "ticker": "AIMD",
    "score": 10.12,
-   "price": 0.8521,
+   "price": 0.8635,
    "ext_price": null,
    "name": "Ainos, Inc.",
    "type": [
@@ -276,9 +216,9 @@
     "short_pct_float": 0.0113,
     "split": "",
     "runner": "Former Runner (سبق انفجر +154% في يوم)",
-    "drawdown": 0.631,
-    "rsi_min": 19.8,
-    "rsi_now": 19.8,
+    "drawdown": 0.626,
+    "rsi_min": 20.3,
+    "rsi_now": 20.3,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -318,7 +258,7 @@
   {
    "ticker": "MDCX",
    "score": 9.62,
-   "price": 2.6,
+   "price": 2.65,
    "ext_price": null,
    "name": "Medicus Pharma Ltd.",
    "type": [
@@ -334,9 +274,9 @@
     "short_pct_float": 0.053600002,
     "split": "تقسيم عكسي حديث 1:50 (2026-10-12)",
     "runner": "Former Runner (سبق انفجر +87% في يوم)",
-    "drawdown": 0.894,
+    "drawdown": 0.892,
     "rsi_min": 17.3,
-    "rsi_now": 19.0,
+    "rsi_now": 19.2,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -388,7 +328,7 @@
   {
    "ticker": "WCT",
    "score": 9.62,
-   "price": 0.32,
+   "price": 0.3221,
    "ext_price": null,
    "name": "Wellchange Holdings Company Limited",
    "type": [
@@ -452,11 +392,11 @@
    ]
   },
   {
-   "ticker": "LGVN",
-   "score": 9.62,
-   "price": 1.4852,
+   "ticker": "NUWE",
+   "score": 9.5,
+   "price": 0.47,
    "ext_price": null,
-   "name": "Longeveron Inc.",
+   "name": "Nuwellis, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
     "فلووت منخفض جداً",
@@ -465,65 +405,128 @@
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
-    "float": 2357672,
-    "shares": 3043298.0,
-    "short_pct_float": 0.0363,
-    "split": "تقسيم عكسي حديث 1:10 (2026-08-27)",
-    "runner": "Former Runner (سبق انفجر +121% في يوم)",
-    "drawdown": 0.833,
-    "rsi_min": 20.1,
-    "rsi_now": 24.2,
+    "float": 3453303,
+    "shares": 3647264.0,
+    "short_pct_float": 0.045900002,
+    "split": "تقسيم عكسي حديث 1:35 (2026-06-26)",
+    "runner": "Former Runner (سبق انفجر +239% في يوم)",
+    "drawdown": 0.927,
+    "rsi_min": 26.4,
+    "rsi_now": 26.4,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "إيجابي (الخط فوق الإشارة)"
+   },
+   "news": [
+    [
+     "Sep 17, 2026",
+     "Nuwellis Appoints Brian Johnson As Director Of Quality And Regulatory Affairs"
+    ],
+    [
+     "Jul 30, 2026",
+     "Top Biotech Gainers: GCTK On The Move, BHC, CORT Boost FY'26 Outlook, NEOG On Watch"
+    ],
+    [
+     "Jul 30, 2026",
+     "Nuwellis Study Acceptance Highlights Aquadex In Pediatric Care, Stock Rockets In Pre-Market"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.44,
+    "demand_low": 0.44,
+    "demand_high": 0.4444,
+    "wash_low": 0.374,
+    "wash_high": 0.396,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.5199000239372253,
+    "t1": 0.5199000239372253,
+    "t2": 0.6200000047683716,
+    "r1": 0.56,
+    "stop": 0.3628,
+    "stop_tight": 0.4312
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.44 ثم استرداد",
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 0.44–0.444 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.374–0.396 ثم استرداد 0.44 (ص17، ص86)",
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "تقسيم عكسي حديث 1:35 (2026-06-26)",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +239% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
+   "ticker": "MLEC",
+   "score": 9.38,
+   "price": 1.68,
+   "ext_price": null,
+   "name": "Moolec Science SA",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "فلووت منخفض جداً",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتداد مؤكد من الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 726118,
+    "shares": 726118.0,
+    "short_pct_float": 0.0049,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +267% في يوم)",
+    "drawdown": 0.827,
+    "rsi_min": 15.8,
+    "rsi_now": 20.3,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Sep 18, 2026",
-     "Weekly Buzz: RARE, BAYRY Win Approvals; SION Cuts Jobs, GSK Deals; AZN, RHHBY Lead"
-    ],
-    [
-     "Sep 16, 2026",
-     "Longeveron's Laromestrocel Misses Primary Endpoint In Phase 2b HLHS Trial; Stock Down 59%"
-    ],
-    [
-     "Aug 25, 2026",
-     "Longeveron To Enter 1-for-10 Reverse Stock Split For Minimum Bid Price Compliance; Shares Plunge"
+     "Jan 26, 2026",
+     "Moolec Science Receives Nasdaq Staff Support To Regain Compliance By June 2026"
     ]
    ],
    "levels": {
-    "bottom": 1.31,
-    "demand_low": 1.31,
-    "demand_high": 1.3231,
-    "wash_low": 1.1135,
-    "wash_high": 1.179,
+    "bottom": 1.481,
+    "demand_low": 1.481,
+    "demand_high": 1.5407,
+    "wash_low": 1.2588,
+    "wash_high": 1.3329,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.5069999694824219,
-    "t1": 1.5069999694824219,
-    "t2": 1.5299999713897705,
-    "r1": 1.491,
-    "stop": 1.0801,
-    "stop_tight": 1.2838
+    "pivot": 1.7109999656677246,
+    "t1": 1.7109999656677246,
+    "t2": 2.759999990463257,
+    "r1": 1.67,
+    "stop": 1.2211,
+    "stop_tight": 1.4514
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.31 ثم استرداد",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.31–1.32 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.11–1.18 ثم استرداد 1.31 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 1.48–1.54 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.26–1.33 ثم استرداد 1.48 (ص17، ص86)",
    "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 75.2K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سهم طبي — الخبر قد يغير الاتجاه",
-    "تقسيم عكسي حديث 1:10 (2026-08-27)"
+    "شمعة ضخ/تصريف قبل 5 يوم (طار إلى 2.76 وأغلق 1.87 بفوليوم 70x)",
+    "سيولة ضعيفة: متوسط الفوليوم 82.0K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
+    "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +121% في يوم)",
+    "Former Runner (سبق انفجر +267% في يوم)",
+    "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
    "ticker": "BIAF",
    "score": 9.38,
-   "price": 3.205,
+   "price": 3.23,
    "ext_price": null,
    "name": "bioAffinity Technologies, Inc.",
    "type": [
@@ -531,7 +534,7 @@
     "فلووت منخفض جداً",
     "قاع نظيف"
    ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
     "float": 536748,
@@ -539,9 +542,9 @@
     "short_pct_float": 0.0995,
     "split": "تقسيم عكسي حديث 1:15 (2026-08-24)",
     "runner": "Former Runner (سبق انفجر +155% في يوم)",
-    "drawdown": 0.843,
+    "drawdown": 0.841,
     "rsi_min": 33.6,
-    "rsi_now": 33.7,
+    "rsi_now": 33.8,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -562,22 +565,22 @@
    "levels": {
     "bottom": 3.15,
     "demand_low": 3.23,
-    "demand_high": 3.2623,
+    "demand_high": 3.23,
     "wash_low": 2.7455,
     "wash_high": 2.907,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 3.5,
-    "t1": 3.5,
+    "pivot": 3.690000057220459,
+    "t1": 3.690000057220459,
     "t2": 4.75,
     "r1": 3.69,
     "stop": 2.6631,
     "stop_tight": 3.087
    },
    "not_ready": [
-    "استرداد الدعم 3.23 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+    "إغلاق وثبات فوق 3.23 بعد سحب السيولة",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)"
    ],
-   "ready_when": "استرداد 3.23 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 2.75–2.91",
+   "ready_when": "نزول لمنطقة الطلب 3.23–3.23 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 2.75–2.91 ثم استرداد 3.23 (ص17، ص86)",
    "flags": [
     "شمعة ضخ/تصريف قبل 10 يوم (طار إلى 9.38 وأغلق 5.64 بفوليوم 228x)",
     "سهم طبي — الخبر قد يغير الاتجاه",
@@ -593,7 +596,7 @@
   {
    "ticker": "AVX",
    "score": 9.25,
-   "price": 4.2019,
+   "price": 4.3,
    "ext_price": null,
    "name": "Avax One Technology Ltd.",
    "type": [
@@ -608,9 +611,9 @@
     "short_pct_float": 0.011,
     "split": "",
     "runner": "Former Runner (سبق انفجر +34% في يوم)",
-    "drawdown": 0.443,
+    "drawdown": 0.43,
     "rsi_min": 24.9,
-    "rsi_now": 43.1,
+    "rsi_now": 44.0,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -635,9 +638,9 @@
     "wash_low": 3.3363,
     "wash_high": 3.4374,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 4.357537989616394,
-    "t1": 4.357537989616394,
-    "t2": 4.75,
+    "pivot": 4.75,
+    "t1": 4.75,
+    "t2": 4.989999993642171,
     "r1": 4.39,
     "stop": 3.2362,
     "stop_tight": 3.8024
@@ -654,71 +657,80 @@
    ]
   },
   {
-   "ticker": "MLEC",
+   "ticker": "NXGL",
    "score": 9.12,
-   "price": 1.63,
+   "price": 4.96,
    "ext_price": null,
-   "name": "Moolec Science SA",
+   "name": "NEXGEL, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
+    "بعد ارتداد أول — ينتظر Retest",
     "فلووت منخفض جداً",
-    "قاع نظيف"
+    "نموذج W"
    ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "setup_ar": "إعادة اختبار خط العنق بنجاح",
    "status": "WATCH",
    "data": {
-    "float": 726118,
-    "shares": 726118.0,
-    "short_pct_float": 0.0049,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +267% في يوم)",
-    "drawdown": 0.832,
-    "rsi_min": 15.8,
-    "rsi_now": 19.9,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
+    "float": 383887,
+    "shares": 487383.0,
+    "short_pct_float": 0.0385,
+    "split": "تقسيم عكسي حديث 1:20 (2026-10-12)",
+    "runner": "Former Runner (سبق انفجر +79% في يوم)",
+    "drawdown": 0.64,
+    "rsi_min": 24.6,
+    "rsi_now": 50.4,
+    "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
+    "macd": "إيجابي (الخط فوق الإشارة)"
    },
    "news": [
     [
-     "Jan 26, 2026",
-     "Moolec Science Receives Nasdaq Staff Support To Regain Compliance By June 2026"
+     "Oct 12, 2026",
+     "NEXGEL Implements 1-for-20 Reverse Stock Split To Support Nasdaq Compliance; Stock Down"
+    ],
+    [
+     "Aug 17, 2026",
+     "NEXGEL Reports Q2 2026 Results; Revenue Growth Offset By Net Loss; Stock Down"
+    ],
+    [
+     "May 15, 2026",
+     "Nexgel (NXGL) Q1 2026 Earnings Transcript"
     ]
    ],
    "levels": {
-    "bottom": 1.481,
-    "demand_low": 1.481,
-    "demand_high": 1.4958,
-    "wash_low": 1.2588,
-    "wash_high": 1.3329,
+    "bottom": 3.0,
+    "demand_low": 4.78,
+    "demand_high": 4.9234,
+    "wash_low": 4.063,
+    "wash_high": 4.302,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.6699999570846558,
-    "t1": 1.6699999570846558,
-    "t2": 2.759999990463257,
-    "r1": 1.67,
-    "stop": 1.2211,
-    "stop_tight": 1.4514
+    "pivot": 5.440000057220459,
+    "t1": 5.440000057220459,
+    "t2": 5.691599998474121,
+    "r1": 5.5,
+    "stop": 3.8318,
+    "stop_tight": 3.8318
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.48 ثم استرداد",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "الدخول تحت مقاومة مباشرة (5.44) — انتظر اختراقها والثبات"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.48–1.5 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.26–1.33 ثم استرداد 1.48 (ص17، ص86)",
+   "ready_when": "🚩 رجوع لاختبار 4.78 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
    "flags": [
-    "شمعة ضخ/تصريف قبل 5 يوم (طار إلى 2.76 وأغلق 1.87 بفوليوم 70x)",
-    "سيولة ضعيفة: متوسط الفوليوم 82.0K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "شمعة ضخ/تصريف قبل 6 يوم (طار إلى 7.25 وأغلق 5.46 بفوليوم 229x)",
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "تقسيم عكسي حديث 1:20 (2026-10-12)"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +267% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
+    "Former Runner (سبق انفجر +79% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
    ]
   },
   {
    "ticker": "LZMH",
    "score": 8.88,
-   "price": 0.7501,
+   "price": 0.7614,
    "ext_price": null,
    "name": "LZ Technology Holdings Limited",
    "type": [
@@ -726,7 +738,7 @@
     "فلووت منخفض جداً",
     "قاع نظيف"
    ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
     "float": 1730240,
@@ -734,9 +746,9 @@
     "short_pct_float": 0.0197,
     "split": "",
     "runner": "Former Runner (سبق انفجر +98% في يوم)",
-    "drawdown": 0.674,
-    "rsi_min": 22.5,
-    "rsi_now": 22.5,
+    "drawdown": 0.669,
+    "rsi_min": 23.0,
+    "rsi_now": 23.0,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "بداية تحسن"
    },
@@ -753,7 +765,7 @@
    "levels": {
     "bottom": 0.7046,
     "demand_low": 0.751,
-    "demand_high": 0.7585,
+    "demand_high": 0.7614,
     "wash_low": 0.6383,
     "wash_high": 0.6759,
     "wash_note": "10–15% تحت الدعم (ص54)",
@@ -765,10 +777,10 @@
     "stop_tight": 0.6905
    },
    "not_ready": [
-    "استرداد الدعم 0.75 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
    ],
-   "ready_when": "استرداد 0.751 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.638–0.676",
+   "ready_when": "نزول لمنطقة الطلب 0.751–0.761 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.638–0.676 ثم استرداد 0.751 (ص17، ص86)",
    "flags": [
     "شمعة ضخ/تصريف قبل 20 يوم (طار إلى 1.8 وأغلق 1.15 بفوليوم 136x)",
     "سهم صيني عالي التذبذب"
@@ -776,76 +788,6 @@
    "tags": [
     "فلووت أقل من 5M 🔥",
     "Former Runner (سبق انفجر +98% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
-   "ticker": "CIIT",
-   "score": 8.88,
-   "price": 2.0,
-   "ext_price": null,
-   "name": "Tianci International, Inc.",
-   "type": [
-    "صيني عالي التذبذب ⚠️",
-    "فلووت منخفض جداً",
-    "نموذج W"
-   ],
-   "setup_ar": "نموذج W قيد التكوين",
-   "status": "WATCH",
-   "data": {
-    "float": 732625,
-    "shares": 967391.0,
-    "short_pct_float": 0.0176,
-    "split": "تقسيم عكسي حديث 1:10 (2026-07-20)",
-    "runner": "Former Runner (سبق انفجر +288% في يوم)",
-    "drawdown": 0.787,
-    "rsi_min": 27.5,
-    "rsi_now": 38.0,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Oct 22, 2026",
-     "Edible Garden AG Incorporated Enters into Produce Supply Agreement Effective October 15, 2026"
-    ],
-    [
-     "Oct 22, 2026",
-     "MSC Industrial Direct Co., Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results"
-    ],
-    [
-     "Oct 22, 2026",
-     "AstraZeneca PLC Announces US FDA Accelerated Approval of Ultomiris for IgAN on 22 October 2026"
-    ]
-   ],
-   "levels": {
-    "bottom": 1.76,
-    "demand_low": 1.76,
-    "demand_high": 1.851,
-    "wash_low": 1.496,
-    "wash_high": 1.584,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 2.140000104904175,
-    "t1": 2.3235000014305114,
-    "t2": 2.3991666714350384,
-    "r1": 1.945,
-    "stop": 1.4511,
-    "stop_tight": 1.7248
-   },
-   "not_ready": [
-    "كسر خط العنق 2.14 والثبات فوقه أكثر من ربع ساعة",
-    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
-   ],
-   "ready_when": "من تحت: شمعة ارتداد عند القاع الثاني 1.76؛ أو كسر خط العنق 2.14 والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)",
-   "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 69.3K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سهم صيني عالي التذبذب",
-    "تقسيم عكسي حديث 1:10 (2026-07-20)"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +288% في يوم)",
     "قيعان أعلى",
     "فوليوم البيع يضعف"
    ]
@@ -918,9 +860,79 @@
    ]
   },
   {
+   "ticker": "CIIT",
+   "score": 8.88,
+   "price": 1.94,
+   "ext_price": null,
+   "name": "Tianci International, Inc.",
+   "type": [
+    "صيني عالي التذبذب ⚠️",
+    "فلووت منخفض جداً",
+    "نموذج W"
+   ],
+   "setup_ar": "نموذج W قيد التكوين",
+   "status": "WATCH",
+   "data": {
+    "float": 732625,
+    "shares": 967391.0,
+    "short_pct_float": 0.0176,
+    "split": "تقسيم عكسي حديث 1:10 (2026-07-20)",
+    "runner": "Former Runner (سبق انفجر +288% في يوم)",
+    "drawdown": 0.794,
+    "rsi_min": 27.5,
+    "rsi_now": 35.7,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 22, 2026",
+     "Edible Garden AG Incorporated Enters into Produce Supply Agreement Effective October 15, 2026"
+    ],
+    [
+     "Oct 22, 2026",
+     "MSC Industrial Direct Co., Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results"
+    ],
+    [
+     "Oct 22, 2026",
+     "AstraZeneca PLC Announces US FDA Accelerated Approval of Ultomiris for IgAN on 22 October 2026"
+    ]
+   ],
+   "levels": {
+    "bottom": 1.76,
+    "demand_low": 1.76,
+    "demand_high": 1.851,
+    "wash_low": 1.496,
+    "wash_high": 1.584,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 2.140000104904175,
+    "t1": 2.3205000042915342,
+    "t2": 2.397166673342387,
+    "r1": 1.945,
+    "stop": 1.4511,
+    "stop_tight": 1.7248
+   },
+   "not_ready": [
+    "كسر خط العنق 2.14 والثبات فوقه أكثر من ربع ساعة",
+    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
+   ],
+   "ready_when": "من تحت: شمعة ارتداد عند القاع الثاني 1.76؛ أو كسر خط العنق 2.14 والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)",
+   "flags": [
+    "سيولة ضعيفة: متوسط الفوليوم 69.3K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
+    "سهم صيني عالي التذبذب",
+    "تقسيم عكسي حديث 1:10 (2026-07-20)"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +288% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "CMMB",
    "score": 8.75,
-   "price": 1.075,
+   "price": 1.08,
    "ext_price": null,
    "name": "Chemomab Therapeutics Ltd.",
    "type": [
@@ -935,9 +947,9 @@
     "short_pct_float": 0.0015,
     "split": "",
     "runner": "Former Runner (سبق انفجر +42% في يوم)",
-    "drawdown": 0.64,
-    "rsi_min": 25.0,
-    "rsi_now": 25.0,
+    "drawdown": 0.639,
+    "rsi_min": 25.2,
+    "rsi_now": 25.2,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -958,13 +970,13 @@
    "levels": {
     "bottom": 1.01,
     "demand_low": 1.051,
-    "demand_high": 1.075,
+    "demand_high": 1.08,
     "wash_low": 0.8933,
     "wash_high": 0.9459,
     "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 1.2300000190734863,
     "t1": 1.2300000190734863,
-    "t2": 1.3664999902248383,
+    "t2": 1.3667499899864197,
     "r1": 1.23,
     "stop": 0.8665,
     "stop_tight": 0.9898
@@ -985,72 +997,68 @@
    ]
   },
   {
-   "ticker": "GYGY",
-   "score": 8.62,
-   "price": 0.3882,
+   "ticker": "MASK",
+   "score": 8.75,
+   "price": 0.8855,
    "ext_price": null,
-   "name": "Game Your Game, Inc.",
+   "name": "3 E Network Technology Group Limited",
    "type": [
-    "طرح جديد/تاريخ قصير",
+    "صيني عالي التذبذب ⚠️",
     "فلووت منخفض جداً",
     "قاع نظيف"
    ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
-    "float": 4413451,
-    "shares": 14392000.0,
-    "short_pct_float": null,
+    "float": 599408,
+    "shares": 3595885.0,
+    "short_pct_float": 0.025999999,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +131% في يوم)",
-    "drawdown": 0.988,
-    "rsi_min": 5.1,
-    "rsi_now": 7.0,
-    "ma": "تحت كل المتوسطات (ضغط)",
+    "runner": "Former Runner (سبق انفجر +388% في يوم)",
+    "drawdown": 0.639,
+    "rsi_min": 26.4,
+    "rsi_now": 44.4,
+    "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "إيجابي (الخط فوق الإشارة)"
    },
    "news": [
     [
-     "Oct 22, 2026",
-     "Edible Garden AG Incorporated Enters into Produce Supply Agreement Effective October 15, 2026"
+     "Jun 9, 2025",
+     "3 E Network Technology Group Limited Announces $7.4 Million Private Placement of Senior Convertible Secured Notes"
     ],
     [
-     "Oct 22, 2026",
-     "MSC Industrial Direct Co., Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results"
-    ],
-    [
-     "Oct 22, 2026",
-     "AstraZeneca PLC Announces US FDA Accelerated Approval of Ultomiris for IgAN on 22 October 2026"
+     "Jan 10, 2025",
+     "3 E Network Technology Group Limited Completes Initial Public Offering Raising $5 Million"
     ]
    ],
    "levels": {
-    "bottom": 0.3668,
-    "demand_low": 0.37,
-    "demand_high": 0.3849,
-    "wash_low": 0.3145,
-    "wash_high": 0.333,
+    "bottom": 0.79,
+    "demand_low": 0.79,
+    "demand_high": 0.803,
+    "wash_low": 0.6715,
+    "wash_high": 0.711,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.4300000071525574,
-    "t1": 0.4300000071525574,
-    "t2": 0.5189099967479706,
-    "r1": 0.43,
-    "stop": 0.3051,
-    "stop_tight": 0.3595
+    "pivot": 0.9300000071525574,
+    "t1": 0.9300000071525574,
+    "t2": 0.9599999785423279,
+    "r1": 0.87,
+    "stop": 0.6514,
+    "stop_tight": 0.7742
    },
    "not_ready": [
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.79 ثم استرداد",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.37–0.385 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.315–0.333 ثم استرداد 0.37 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.79–0.803 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.672–0.711 ثم استرداد 0.79 (ص17، ص86)",
    "flags": [
-    "شمعة ضخ/تصريف قبل 18 يوم (طار إلى 1.27 وأغلق 0.87 بفوليوم 216x)",
-    "سعر منخفض جداً — سبريد واسع"
+    "اختراق وهمي سابق لخط العنق (Bull Trap)",
+    "سهم صيني عالي التذبذب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +131% في يوم)",
+    "Former Runner (سبق انفجر +388% في يوم)",
     "قيعان أعلى",
-    "فوليوم البيع يضعف"
+    "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
@@ -1123,7 +1131,7 @@
   {
    "ticker": "CVV",
    "score": 8.38,
-   "price": 3.7515,
+   "price": 3.78,
    "ext_price": null,
    "name": "CVD Equipment Corporation",
    "type": [
@@ -1138,9 +1146,9 @@
     "short_pct_float": 0.026800001,
     "split": "",
     "runner": "Former Runner (سبق انفجر +43% في يوم)",
-    "drawdown": 0.588,
+    "drawdown": 0.585,
     "rsi_min": 22.5,
-    "rsi_now": 27.1,
+    "rsi_now": 27.7,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -1161,13 +1169,13 @@
    "levels": {
     "bottom": 3.64,
     "demand_low": 3.64,
-    "demand_high": 3.6736,
+    "demand_high": 3.6764,
     "wash_low": 3.267,
     "wash_high": 3.366,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 3.7799999713897705,
-    "t1": 3.7799999713897705,
-    "t2": 4.085574996471405,
+    "pivot": 3.9100000858306885,
+    "t1": 3.9100000858306885,
+    "t2": 4.087000000476837,
     "r1": 3.78,
     "stop": 3.169,
     "stop_tight": 3.5672
@@ -1176,7 +1184,7 @@
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 3.64 ثم استرداد",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
    ],
-   "ready_when": "نزول لمنطقة الطلب 3.64–3.67 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 3.27–3.37 ثم استرداد 3.64 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 3.64–3.68 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 3.27–3.37 ثم استرداد 3.64 (ص17، ص86)",
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 55.6K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
    ],
@@ -1189,7 +1197,7 @@
   {
    "ticker": "TPET",
    "score": 8.38,
-   "price": 1.5399,
+   "price": 1.55,
    "ext_price": null,
    "name": "Trio Petroleum Corp.",
    "type": [
@@ -1203,9 +1211,9 @@
     "short_pct_float": 0.1097,
     "split": "تقسيم عكسي حديث 1:9 (2026-08-31)",
     "runner": "Former Runner (سبق انفجر +224% في يوم)",
-    "drawdown": 0.504,
+    "drawdown": 0.501,
     "rsi_min": 31.4,
-    "rsi_now": 42.0,
+    "rsi_now": 42.8,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "بداية تحسن"
    },
@@ -1231,7 +1239,7 @@
     "wash_high": 1.2807,
     "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 1.6690000295639038,
-    "t1": 1.7715980076789857,
+    "t1": 1.7718000078201295,
     "t2": 1.840000033378601,
     "r1": 1.536,
     "stop": 1.1733,
@@ -1254,7 +1262,7 @@
   {
    "ticker": "IDN",
    "score": 8.25,
-   "price": 2.365,
+   "price": 2.415,
    "ext_price": null,
    "name": "Intellicheck, Inc.",
    "type": [
@@ -1268,9 +1276,9 @@
     "short_pct_float": 0.0717,
     "split": "",
     "runner": "Former Runner (سبق انفجر +55% في يوم)",
-    "drawdown": 0.465,
+    "drawdown": 0.454,
     "rsi_min": 26.3,
-    "rsi_now": 49.7,
+    "rsi_now": 53.3,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -1295,8 +1303,8 @@
     "wash_low": 2.1681,
     "wash_high": 2.2338,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 2.5454999923706056,
-    "t1": 2.5454999923706056,
+    "pivot": 2.546499991416931,
+    "t1": 2.546499991416931,
     "t2": 3.0,
     "r1": null,
     "stop": 2.1031,
@@ -1316,7 +1324,7 @@
   {
    "ticker": "NTRP",
    "score": 8.0,
-   "price": 1.312,
+   "price": 1.295,
    "ext_price": null,
    "name": "NextTrip, Inc.",
    "type": [
@@ -1330,9 +1338,9 @@
     "short_pct_float": 0.0198,
     "split": "",
     "runner": "Former Runner (سبق انفجر +41% في يوم)",
-    "drawdown": 0.409,
+    "drawdown": 0.417,
     "rsi_min": 29.5,
-    "rsi_now": 35.5,
+    "rsi_now": 35.0,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -1380,7 +1388,7 @@
   {
    "ticker": "ONMD",
    "score": 7.75,
-   "price": 4.875,
+   "price": 4.91,
    "ext_price": null,
    "name": "OneMedNet Corporation",
    "type": [
@@ -1388,7 +1396,7 @@
     "بعد ارتداد أول — ينتظر Retest",
     "فلووت منخفض جداً"
    ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
     "float": 1981057,
@@ -1396,9 +1404,9 @@
     "short_pct_float": 0.0365,
     "split": "تقسيم عكسي حديث 1:10 (2026-09-29)",
     "runner": "Former Runner (سبق انفجر +99% في يوم)",
-    "drawdown": 0.411,
+    "drawdown": 0.406,
     "rsi_min": 28.4,
-    "rsi_now": 45.4,
+    "rsi_now": 45.9,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "تقاطع إيجابي حديث"
    },
@@ -1419,22 +1427,22 @@
    "levels": {
     "bottom": 3.61,
     "demand_low": 4.9,
-    "demand_high": 4.949,
+    "demand_high": 4.91,
     "wash_low": 4.165,
     "wash_high": 4.41,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 5.518233370780945,
-    "t1": 5.518233370780945,
+    "pivot": 5.519400032361348,
+    "t1": 5.519400032361348,
     "t2": 5.699999809265137,
     "r1": null,
     "stop": 4.0401,
     "stop_tight": 4.4198
    },
    "not_ready": [
-    "استرداد الدعم 4.90 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 28)"
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 28)",
+    "مساحة صعود أكبر حتى المقاومات القادمة"
    ],
-   "ready_when": "استرداد 4.9 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 4.17–4.41",
+   "ready_when": "نزول لمنطقة الطلب 4.9–4.91 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 4.17–4.41 ثم استرداد 4.9 (ص17، ص86)",
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 62.5K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
     "سهم طبي — الخبر قد يغير الاتجاه",
@@ -1449,7 +1457,7 @@
   {
    "ticker": "HCTI",
    "score": 7.75,
-   "price": 0.3781,
+   "price": 0.3844,
    "ext_price": null,
    "name": "Healthcare Triangle, Inc.",
    "type": [
@@ -1463,9 +1471,9 @@
     "short_pct_float": 0.0512,
     "split": "",
     "runner": "Former Runner (سبق انفجر +264% في يوم)",
-    "drawdown": 0.88,
+    "drawdown": 0.878,
     "rsi_min": 26.2,
-    "rsi_now": 31.6,
+    "rsi_now": 32.0,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "تقاطع إيجابي حديث"
    },
@@ -1514,75 +1522,9 @@
    ]
   },
   {
-   "ticker": "BSEM",
-   "score": 7.75,
-   "price": 1.61,
-   "ext_price": null,
-   "name": "BioStem Technologies, Inc.",
-   "type": [
-    "طبي — الخبر يحرّكه",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 13631641,
-    "shares": 18672125.0,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +36% في يوم)",
-    "drawdown": 0.704,
-    "rsi_min": 24.1,
-    "rsi_now": 27.2,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Sep 19, 2026",
-     "BioStem Secures Up To $40 Mln Committed Equity Facility"
-    ],
-    [
-     "Sep 4, 2026",
-     "BioStem Technologies Expands Hospital Access For VENDAJE And VENDAJE AC Through Vizient And Premier"
-    ],
-    [
-     "Aug 20, 2026",
-     "BioStem Q2 Revenue Rises 29%; Raises 2026 Guidance, Uplists To Nasdaq"
-    ]
-   ],
-   "levels": {
-    "bottom": 1.45,
-    "demand_low": 1.45,
-    "demand_high": 1.4645,
-    "wash_low": 1.2325,
-    "wash_high": 1.305,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.75,
-    "t1": 1.75,
-    "t2": 2.0999999046325684,
-    "r1": 1.75,
-    "stop": 1.1955,
-    "stop_tight": 1.421
-   },
-   "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.45 ثم استرداد",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 1.45–1.46 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.23–1.31 ثم استرداد 1.45 (ص17، ص86)",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +36% في يوم)",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
    "ticker": "AZIO",
    "score": 7.75,
-   "price": 0.943,
+   "price": 0.9355,
    "ext_price": null,
    "name": "Azio AI Holdings, Inc.",
    "type": [
@@ -1596,9 +1538,9 @@
     "short_pct_float": 0.065799996,
     "split": "",
     "runner": "Former Runner (سبق انفجر +466% في يوم)",
-    "drawdown": 0.542,
+    "drawdown": 0.546,
     "rsi_min": 26.1,
-    "rsi_now": 36.2,
+    "rsi_now": 35.7,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -1643,9 +1585,63 @@
    ]
   },
   {
+   "ticker": "FBGL",
+   "score": 7.62,
+   "price": 2.3,
+   "ext_price": null,
+   "name": "FBS Global Limited Ordinary Shares",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +57% في يوم)",
+    "drawdown": 0.646,
+    "rsi_min": 27.9,
+    "rsi_now": 30.9,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Feb 6, 2025",
+     "FBS Global Limited Prices Initial Public Offering at $4.50 per Share, Raising $10.1 Million"
+    ]
+   ],
+   "levels": {
+    "bottom": 2.06,
+    "demand_low": 2.2,
+    "demand_high": 2.2144,
+    "wash_low": 1.87,
+    "wash_high": 1.98,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 2.4100000858306885,
+    "t1": 2.4100000858306885,
+    "t2": 2.700000047683716,
+    "r1": 2.41,
+    "stop": 1.8139,
+    "stop_tight": 2.0188
+   },
+   "not_ready": [
+    "الدخول تحت مقاومة مباشرة (2.41) — انتظر اختراقها والثبات"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 2.2–2.21 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.87–1.98 ثم استرداد 2.2 (ص17، ص86)",
+   "flags": [],
+   "tags": [
+    "Former Runner (سبق انفجر +57% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
    "ticker": "OMH",
    "score": 7.62,
-   "price": 3.0807,
+   "price": 3.115,
    "ext_price": null,
    "name": "Ohmyhome Limited",
    "type": [
@@ -1663,8 +1659,8 @@
     "runner": "Former Runner (سبق انفجر +417% في يوم)",
     "drawdown": 0.972,
     "rsi_min": 33.6,
-    "rsi_now": 51.0,
-    "ma": "فوق MA20",
+    "rsi_now": 51.6,
+    "ma": "استعاد المتوسطات 20/30/50",
     "macd": "إيجابي (الخط فوق الإشارة)"
    },
    "news": [
@@ -1692,7 +1688,7 @@
     "stop_tight": 2.7048
    },
    "not_ready": [
-    "ابتعد 7% عن مستوى الاختراق — انتظر إعادة اختبار 2.87",
+    "ابتعد 9% عن مستوى الاختراق — انتظر إعادة اختبار 2.87",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)"
    ],
    "ready_when": "🚩 رجوع لاختبار 2.87 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
@@ -1708,72 +1704,74 @@
    ]
   },
   {
-   "ticker": "SEV",
-   "score": 7.5,
-   "price": 1.425,
+   "ticker": "OLOX",
+   "score": 7.62,
+   "price": 0.9131,
    "ext_price": null,
-   "name": "Aptera Motors Corp. Class B Common Stock",
+   "name": "Olenox Industries Inc.",
    "type": [
-    "قاع نظيف"
+    "بعد ارتداد أول — ينتظر Retest",
+    "فلووت منخفض جداً"
    ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
+    "float": 1324553,
+    "shares": 1659347.0,
+    "short_pct_float": 0.053600002,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +41% في يوم)",
-    "drawdown": 0.43,
-    "rsi_min": 24.7,
-    "rsi_now": 29.4,
-    "ma": "تحت كل المتوسطات (ضغط)",
+    "runner": "Former Runner (سبق انفجر +128% في يوم)",
+    "drawdown": 0.855,
+    "rsi_min": 29.7,
+    "rsi_now": 46.9,
+    "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Mar 27, 2026",
-     "Aptera Motors (SEV) Price Target Increased by 1,011.11% to 10.20"
+     "Oct 21, 2026",
+     "Safe & Green Holdings Corp. Enters Equity Purchase Agreement to Acquire IPD Industries and Wildboy Holdings"
     ],
     [
-     "Sep 9, 2025",
-     "Sono CEO George O'Leary Resigns; Kevin McGurn Appointed Successor"
+     "Oct 23, 2025",
+     "Safe & Green Holdings Jumps 41% On Olenox Partnership To Boost Infrastructure Reliability"
     ],
     [
-     "Jun 9, 2025",
-     "Sono Group N.V. Showcases Solar Innovations for Commercial Vehicles at Transport Logistic 2025"
+     "Jun 10, 2025",
+     "Safe & Green Holdings Corp. Engages ShareIntel to Investigate Potential Illegal Trading Activity"
     ]
    ],
    "levels": {
-    "bottom": 1.37,
-    "demand_low": 1.4,
-    "demand_high": 1.4063,
-    "wash_low": 1.2771,
-    "wash_high": 1.3158,
+    "bottom": 0.6,
+    "demand_low": 0.835,
+    "demand_high": 0.8433,
+    "wash_low": 0.7643,
+    "wash_high": 0.7874,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.4700000286102295,
-    "t1": 1.4700000286102295,
-    "t2": 1.6367500066757201,
-    "r1": 1.47,
-    "stop": 1.2388,
-    "stop_tight": 1.3426
+    "pivot": 0.9660000205039978,
+    "t1": 0.9660000205039978,
+    "t2": 1.0149999856948853,
+    "r1": 1.28,
+    "stop": 0.7414,
+    "stop_tight": 0.8183
    },
    "not_ready": [
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "الدخول تحت مقاومة مباشرة (1.47) — انتظر اختراقها والثبات"
+    "نزول السعر لمنطقة الطلب 0.83–0.84",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 30)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.4–1.41 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.28–1.32 ثم استرداد 1.4 (ص17، ص86)",
-   "flags": [],
+   "ready_when": "نزول لمنطقة الطلب 0.835–0.843 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.764–0.787 ثم استرداد 0.835 (ص17، ص86)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 12 يوم (طار إلى 1.86 وأغلق 1.25 بفوليوم 260x)"
+   ],
    "tags": [
-    "Former Runner (سبق انفجر +41% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +128% في يوم)"
    ]
   },
   {
    "ticker": "UFG",
    "score": 7.5,
-   "price": 0.343,
+   "price": 0.3478,
    "ext_price": null,
    "name": "Uni-Fuels Holdings Limited Class A Ordinary Shares",
    "type": [
@@ -1787,9 +1785,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +103% في يوم)",
-    "drawdown": 0.636,
+    "drawdown": 0.631,
     "rsi_min": 28.7,
-    "rsi_now": 31.6,
+    "rsi_now": 32.2,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "تقاطع إيجابي حديث"
    },
@@ -1837,9 +1835,72 @@
    ]
   },
   {
+   "ticker": "SEV",
+   "score": 7.5,
+   "price": 1.43,
+   "ext_price": null,
+   "name": "Aptera Motors Corp. Class B Common Stock",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +41% في يوم)",
+    "drawdown": 0.428,
+    "rsi_min": 24.7,
+    "rsi_now": 29.9,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Mar 27, 2026",
+     "Aptera Motors (SEV) Price Target Increased by 1,011.11% to 10.20"
+    ],
+    [
+     "Sep 9, 2025",
+     "Sono CEO George O'Leary Resigns; Kevin McGurn Appointed Successor"
+    ],
+    [
+     "Jun 9, 2025",
+     "Sono Group N.V. Showcases Solar Innovations for Commercial Vehicles at Transport Logistic 2025"
+    ]
+   ],
+   "levels": {
+    "bottom": 1.37,
+    "demand_low": 1.4,
+    "demand_high": 1.4063,
+    "wash_low": 1.2771,
+    "wash_high": 1.3158,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.4700000286102295,
+    "t1": 1.4700000286102295,
+    "t2": 1.6370000064373016,
+    "r1": 1.47,
+    "stop": 1.2388,
+    "stop_tight": 1.3426
+   },
+   "not_ready": [
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
+    "الدخول تحت مقاومة مباشرة (1.47) — انتظر اختراقها والثبات"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 1.4–1.41 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.28–1.32 ثم استرداد 1.4 (ص17، ص86)",
+   "flags": [],
+   "tags": [
+    "Former Runner (سبق انفجر +41% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
    "ticker": "DXF",
    "score": 7.5,
-   "price": 0.3503,
+   "price": 0.3465,
    "ext_price": null,
    "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
    "type": [
@@ -1853,9 +1914,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +214% في يوم)",
-    "drawdown": 0.698,
+    "drawdown": 0.701,
     "rsi_min": 25.8,
-    "rsi_now": 31.4,
+    "rsi_now": 30.4,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "بداية تحسن"
    },
@@ -1876,12 +1937,12 @@
    "levels": {
     "bottom": 0.32,
     "demand_low": 0.32,
-    "demand_high": 0.3329,
+    "demand_high": 0.3318,
     "wash_low": 0.272,
     "wash_high": 0.288,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.4000000059604645,
-    "t1": 0.4000000059604645,
+    "pivot": 0.3499999940395355,
+    "t1": 0.3499999940395355,
     "t2": 0.44999998807907104,
     "r1": 0.35,
     "stop": 0.2638,
@@ -1891,7 +1952,7 @@
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.32–0.333 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.272–0.288 ثم استرداد 0.32 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.32–0.332 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.272–0.288 ثم استرداد 0.32 (ص17، ص86)",
    "flags": [
     "سعر منخفض جداً — سبريد واسع"
    ],
@@ -1901,75 +1962,72 @@
    ]
   },
   {
-   "ticker": "PETS",
+   "ticker": "VRXA",
    "score": 7.38,
-   "price": 1.1892,
+   "price": 1.0699,
    "ext_price": null,
-   "name": "PetMed Express Inc. Common Stock",
+   "name": "Veraxa Biotech AG Ordinary Shares",
    "type": [
-    "طبي — الخبر يحرّكه",
-    "قاع نظيف"
+    "طبي — الخبر يحرّكه"
    ],
-   "setup_ar": "ارتداد مؤكد من الدعم",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
     "float": null,
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +129% في يوم)",
-    "drawdown": 0.494,
-    "rsi_min": 14.7,
-    "rsi_now": 25.4,
+    "runner": "Former Runner (سبق انفجر +60% في يوم)",
+    "drawdown": 0.95,
+    "rsi_min": 25.3,
+    "rsi_now": 38.9,
     "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "تقاطع إيجابي حديث"
+    "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Sep 22, 2026",
-     "PetMeds Appoints Tamar Elkeles As Independent Director"
+     "Oct 7, 2026",
+     "Biotech Stocks In Focus - SXTC +536% On Sharp Move; VRXA, AVBP, SPRC On Key Developments"
     ],
     [
-     "Sep 17, 2026",
-     "PetMeds CEO Transition: Jeff Willard To Succeed Leslie Campbell"
+     "Oct 7, 2026",
+     "VERAXA Biotech Adopts FDA-Aligned Models To Support Oncology Development"
     ],
     [
-     "Aug 20, 2026",
-     "PetMed Express (PETS) Q1 2027 Earnings Call Transcript"
+     "Sep 4, 2026",
+     "VERAXA Appoints Willener CFO As Pipeline Advances; Stock Up"
     ]
    ],
    "levels": {
-    "bottom": 1.15,
-    "demand_low": 1.15,
-    "demand_high": 1.1635,
-    "wash_low": 0.9775,
-    "wash_high": 1.035,
+    "bottom": 0.99,
+    "demand_low": 1.04,
+    "demand_high": 1.04,
+    "wash_low": 0.884,
+    "wash_high": 0.936,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.2000000476837158,
-    "t1": 1.2000000476837158,
-    "t2": 1.2894599974155425,
-    "r1": 1.2,
-    "stop": 0.9482,
-    "stop_tight": 1.127
+    "pivot": 1.090000033378601,
+    "t1": 1.090000033378601,
+    "t2": 1.1609950065612793,
+    "r1": 1.09,
+    "stop": 0.8575,
+    "stop_tight": 0.9702
    },
    "not_ready": [
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "الدخول تحت مقاومة مباشرة (1.20) — انتظر اختراقها والثبات"
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.15–1.16 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.977–1.03 ثم استرداد 1.15 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 1.04–1.04 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.884–0.936 ثم استرداد 1.04 (ص17، ص86)",
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +129% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
+    "Former Runner (سبق انفجر +60% في يوم)"
    ]
   },
   {
    "ticker": "LOOP",
    "score": 7.38,
-   "price": 0.3117,
+   "price": 0.3105,
    "ext_price": null,
    "name": "Loop Industries Inc. Common Stock",
    "type": [
@@ -1983,9 +2041,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +58% في يوم)",
-    "drawdown": 0.711,
+    "drawdown": 0.713,
     "rsi_min": 27.1,
-    "rsi_now": 28.1,
+    "rsi_now": 27.9,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -2031,12 +2089,13 @@
    ]
   },
   {
-   "ticker": "GXAI",
+   "ticker": "RLMD",
    "score": 7.38,
-   "price": 0.4566,
+   "price": 3.315,
    "ext_price": null,
-   "name": "Gaxos.ai Inc. Common Stock",
+   "name": "Relmada Therapeutics Inc. Common Stock",
    "type": [
+    "طبي — الخبر يحرّكه",
     "نموذج W"
    ],
    "setup_ar": "نموذج W قيد التكوين",
@@ -2046,58 +2105,57 @@
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +96% في يوم)",
-    "drawdown": 0.683,
-    "rsi_min": 20.4,
-    "rsi_now": 38.1,
-    "ma": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
-    "macd": "الهيستوجرام يتحسن"
+    "runner": "Former Runner (سبق انفجر +67% في يوم)",
+    "drawdown": 0.534,
+    "rsi_min": 21.4,
+    "rsi_now": 40.8,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "تقاطع إيجابي حديث"
    },
    "news": [
     [
-     "Mar 27, 2026",
-     "Gaxos.ai (GXAI) Price Target Increased by 16.60% to 2.94"
+     "Sep 14, 2026",
+     "5 Small Drug Stocks Poised to Benefit From a Biotech Recovery"
     ],
     [
-     "Mar 5, 2026",
-     "Gaxos.ai Stock Soars 84% After America First Defense Secures Detachable Drone Highjacker License"
+     "Sep 11, 2026",
+     "Friday 9/11 Insider Buying Report: RLMD, CELH"
     ],
     [
-     "May 21, 2025",
-     "Gaxos.ai Inc. Launches UnPGT.ai: A Revolutionary Tool for Transforming AI-Generated Text into Human-Quality Content"
+     "Aug 31, 2026",
+     "After Plunging 18.5% in 4 Weeks, Here's Why the Trend Might Reverse for Relmada Therapeutics (RLMD)"
     ]
    ],
    "levels": {
-    "bottom": 0.41,
-    "demand_low": 0.41,
-    "demand_high": 0.4182,
-    "wash_low": 0.3485,
-    "wash_high": 0.369,
+    "bottom": 3.07,
+    "demand_low": 3.07,
+    "demand_high": 3.1314,
+    "wash_low": 2.6095,
+    "wash_high": 2.763,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.49900001287460327,
-    "t1": 0.644311996102333,
-    "t2": 0.7409999966621399,
-    "r1": 0.44,
-    "stop": 0.338,
-    "stop_tight": 0.4018
+    "pivot": 3.549999952316284,
+    "t1": 3.890000104904175,
+    "t2": 4.014899988174438,
+    "r1": 3.21,
+    "stop": 2.5312,
+    "stop_tight": 3.0086
    },
    "not_ready": [
-    "كسر خط العنق 0.50 والثبات فوقه أكثر من ربع ساعة"
+    "كسر خط العنق 3.55 والثبات فوقه أكثر من ربع ساعة"
    ],
-   "ready_when": "من تحت: شمعة ارتداد عند القاع الثاني 0.41؛ أو كسر خط العنق 0.499 والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)",
+   "ready_when": "من تحت: شمعة ارتداد عند القاع الثاني 3.07؛ أو كسر خط العنق 3.55 والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)",
    "flags": [
-    "سعر منخفض جداً — سبريد واسع"
+    "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +96% في يوم)",
-    "فوليوم البيع يضعف",
+    "Former Runner (سبق انفجر +67% في يوم)",
     "فوليوم يتحسن"
    ]
   },
   {
    "ticker": "BTCT",
    "score": 7.38,
-   "price": 0.7122,
+   "price": 0.7101,
    "ext_price": null,
    "name": "BTC Digital Ltd.",
    "type": [
@@ -2111,7 +2169,7 @@
     "short_pct_float": 0.017,
     "split": "",
     "runner": "Former Runner (سبق انفجر +187% في يوم)",
-    "drawdown": 0.741,
+    "drawdown": 0.742,
     "rsi_min": 33.7,
     "rsi_now": 34.5,
     "ma": "تحت كل المتوسطات (ضغط)",
@@ -2143,7 +2201,7 @@
     "t2": 0.8299999833106995,
     "r1": 0.77,
     "stop": 0.5858,
-    "stop_tight": 0.6958
+    "stop_tight": 0.6921
    },
    "not_ready": [
     "استرداد الدعم 0.72 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
@@ -2160,7 +2218,7 @@
   {
    "ticker": "TURB",
    "score": 7.38,
-   "price": 0.899,
+   "price": 0.9,
    "ext_price": null,
    "name": "Turbo Energy, S.A.",
    "type": [
@@ -2174,9 +2232,9 @@
     "short_pct_float": 0.096,
     "split": "",
     "runner": "Former Runner (سبق انفجر +149% في يوم)",
-    "drawdown": 0.564,
+    "drawdown": 0.563,
     "rsi_min": 32.4,
-    "rsi_now": 41.0,
+    "rsi_now": 41.1,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -2203,7 +2261,7 @@
     "wash_note": "قاع سابق تحت الدعم",
     "pivot": 0.9200000166893005,
     "t1": 0.9200000166893005,
-    "t2": 0.98019999563694,
+    "t2": 0.9802499949932099,
     "r1": 0.92,
     "stop": 0.8036,
     "stop_tight": 0.8036
@@ -2221,146 +2279,79 @@
    ]
   },
   {
-   "ticker": "NXL",
+   "ticker": "GXAI",
    "score": 7.25,
-   "price": 2.095,
+   "price": 0.4551,
    "ext_price": null,
-   "name": "Nexalin Technology Inc. Common Stock",
+   "name": "Gaxos.ai Inc. Common Stock",
    "type": [
-    "طبي — الخبر يحرّكه",
-    "قاع نظيف"
+    "ارتكاز"
    ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "status": "WATCH",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "READY",
    "data": {
     "float": null,
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +157% في يوم)",
-    "drawdown": 0.864,
-    "rsi_min": 28.9,
-    "rsi_now": 29.8,
-    "ma": "تحت كل المتوسطات (ضغط)",
+    "runner": "Former Runner (سبق انفجر +96% في يوم)",
+    "drawdown": 0.684,
+    "rsi_min": 20.4,
+    "rsi_now": 37.8,
+    "ma": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Oct 8, 2026",
-     "Nexalin Technology Regains Compliance With Nasdaq Minimum Bid Price Requirement; Stock Down"
+     "Mar 27, 2026",
+     "Gaxos.ai (GXAI) Price Target Increased by 16.60% to 2.94"
     ],
     [
-     "Sep 3, 2026",
-     "Nexalin Reports New Cognitive Improvements In Alzheimer's Analysis, Plans U.S. Pilot Study"
+     "Mar 5, 2026",
+     "Gaxos.ai Stock Soars 84% After America First Defense Secures Detachable Drone Highjacker License"
     ],
     [
-     "Aug 27, 2026",
-     "Nexalin Announces 1-for-30 Reverse Stock Split; Stock Down"
+     "May 21, 2025",
+     "Gaxos.ai Inc. Launches UnPGT.ai: A Revolutionary Tool for Transforming AI-Generated Text into Human-Quality Content"
     ]
    ],
    "levels": {
-    "bottom": 1.93,
-    "demand_low": 2.1,
-    "demand_high": 2.1,
-    "wash_low": 1.785,
-    "wash_high": 1.89,
+    "bottom": 0.41,
+    "demand_low": 0.418,
+    "demand_high": 0.4299,
+    "wash_low": 0.3553,
+    "wash_high": 0.3762,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 2.2200000286102295,
-    "t1": 2.2200000286102295,
-    "t2": 2.5199999809265137,
-    "r1": 2.22,
-    "stop": 1.7314,
-    "stop_tight": 1.8914
+    "pivot": 0.4580000042915344,
+    "t1": 0.4580000042915344,
+    "t2": 0.4699999988079071,
+    "r1": 0.44,
+    "stop": 0.3446,
+    "stop_tight": 0.4018
    },
-   "not_ready": [
-    "استرداد الدعم 2.10 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)"
-   ],
-   "ready_when": "استرداد 2.1 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 1.78–1.89",
+   "not_ready": [],
+   "ready_when": "نزول لمنطقة الطلب 0.418–0.43 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.355–0.376 ثم استرداد 0.418 (ص17، ص86)",
    "flags": [
-    "شمعة ضخ/تصريف قبل 15 يوم (طار إلى 11 وأغلق 7.55 بفوليوم 7165x)",
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "فشل عند MA20",
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +157% في يوم)",
+    "Former Runner (سبق انفجر +96% في يوم)",
     "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
-   "ticker": "BIVI",
-   "score": 7.25,
-   "price": 1.251,
-   "ext_price": null,
-   "name": "BioVie Inc. Class A Common Stock",
-   "type": [
-    "طبي — الخبر يحرّكه"
-   ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +198% في يوم)",
-    "drawdown": 0.67,
-    "rsi_min": 28.8,
-    "rsi_now": 40.5,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "تقاطع إيجابي حديث"
-   },
-   "news": [
-    [
-     "Oct 19, 2026",
-     "BioVie's Bezisterim Shows Positive Signals In Long COVID Patients With Greater Symptom Burden"
-    ],
-    [
-     "Sep 15, 2026",
-     "BioVie's Bezisterim Shows Phase 2 Signal In Long COVID; Stock Down"
-    ],
-    [
-     "Sep 15, 2026",
-     "BioVie To Present Phase 2 ADDRESS-LC Topline Data On Bezisterim's Potential In Long COVID; Today"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.82,
-    "demand_low": 1.259,
-    "demand_high": 1.259,
-    "wash_low": 1.188,
-    "wash_high": 1.224,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.3608000099658966,
-    "t1": 1.3608000099658966,
-    "t2": 1.409999966621399,
-    "r1": 1.277,
-    "stop": 1.127,
-    "stop_tight": 1.127
-   },
-   "not_ready": [
-    "استرداد الدعم 1.26 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)"
-   ],
-   "ready_when": "استرداد 1.26 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 1.19–1.22",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +198% في يوم)",
-    "قيعان أعلى"
+    "فوليوم يتحسن",
+    "ثابت فوق المستوى أكثر من ربع ساعة"
    ]
   },
   {
    "ticker": "IMSR",
    "score": 7.25,
-   "price": 2.765,
+   "price": 2.805,
    "ext_price": null,
    "name": "Terrestrial Energy Inc. Common Stock  ",
    "type": [
     "قاع نظيف"
    ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
     "float": null,
@@ -2368,9 +2359,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +32% في يوم)",
-    "drawdown": 0.682,
+    "drawdown": 0.678,
     "rsi_min": 24.7,
-    "rsi_now": 31.2,
+    "rsi_now": 31.8,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -2391,7 +2382,7 @@
    "levels": {
     "bottom": 2.73,
     "demand_low": 2.79,
-    "demand_high": 2.8179,
+    "demand_high": 2.805,
     "wash_low": 2.3715,
     "wash_high": 2.511,
     "wash_note": "10–15% تحت الدعم (ص54)",
@@ -2403,10 +2394,10 @@
     "stop_tight": 2.6754
    },
    "not_ready": [
-    "استرداد الدعم 2.79 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
    ],
-   "ready_when": "استرداد 2.79 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 2.37–2.51",
+   "ready_when": "نزول لمنطقة الطلب 2.79–2.81 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 2.37–2.51 ثم استرداد 2.79 (ص17، ص86)",
    "flags": [],
    "tags": [
     "Former Runner (سبق انفجر +32% في يوم)",
@@ -2414,9 +2405,71 @@
    ]
   },
   {
+   "ticker": "STI",
+   "score": 7.25,
+   "price": 4.4,
+   "ext_price": null,
+   "name": "Solidion Technology Inc. Common Stock",
+   "type": [
+    "ارتكاز"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +657% في يوم)",
+    "drawdown": 0.801,
+    "rsi_min": 24.1,
+    "rsi_now": 26.7,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 22, 2026",
+     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+    ],
+    [
+     "Oct 22, 2026",
+     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+    ],
+    [
+     "Oct 22, 2026",
+     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+    ]
+   ],
+   "levels": {
+    "bottom": 4.3001,
+    "demand_low": 4.371,
+    "demand_high": 4.3935,
+    "wash_low": 3.663,
+    "wash_high": 3.774,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 4.572999954223633,
+    "t1": 4.572999954223633,
+    "t2": 4.820000171661377,
+    "r1": 4.573,
+    "stop": 3.5531,
+    "stop_tight": 4.2141
+   },
+   "not_ready": [
+    "إغلاق وثبات فوق 4.37 بعد سحب السيولة",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 4.37–4.39 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 3.66–3.77 ثم استرداد 4.37 (ص17، ص86)",
+   "flags": [],
+   "tags": [
+    "Former Runner (سبق انفجر +657% في يوم)",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "WWR",
    "score": 7.25,
-   "price": 0.3957,
+   "price": 0.3965,
    "ext_price": null,
    "name": "Westwater Resources Inc. Common Stock",
    "type": [
@@ -2430,9 +2483,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +127% في يوم)",
-    "drawdown": 0.575,
+    "drawdown": 0.574,
     "rsi_min": 25.4,
-    "rsi_now": 29.1,
+    "rsi_now": 29.2,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -2478,25 +2531,92 @@
    ]
   },
   {
-   "ticker": "STI",
+   "ticker": "NXL",
    "score": 7.25,
-   "price": 4.31,
+   "price": 2.14,
    "ext_price": null,
-   "name": "Solidion Technology Inc. Common Stock",
+   "name": "Nexalin Technology Inc. Common Stock",
    "type": [
-    "ارتكاز"
+    "طبي — الخبر يحرّكه",
+    "قاع نظيف"
    ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
     "float": null,
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +657% في يوم)",
-    "drawdown": 0.805,
-    "rsi_min": 24.1,
-    "rsi_now": 25.8,
+    "runner": "Former Runner (سبق انفجر +157% في يوم)",
+    "drawdown": 0.861,
+    "rsi_min": 28.9,
+    "rsi_now": 30.4,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 8, 2026",
+     "Nexalin Technology Regains Compliance With Nasdaq Minimum Bid Price Requirement; Stock Down"
+    ],
+    [
+     "Sep 3, 2026",
+     "Nexalin Reports New Cognitive Improvements In Alzheimer's Analysis, Plans U.S. Pilot Study"
+    ],
+    [
+     "Aug 27, 2026",
+     "Nexalin Announces 1-for-30 Reverse Stock Split; Stock Down"
+    ]
+   ],
+   "levels": {
+    "bottom": 1.93,
+    "demand_low": 2.1,
+    "demand_high": 2.1,
+    "wash_low": 1.785,
+    "wash_high": 1.89,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 2.2200000286102295,
+    "t1": 2.2200000286102295,
+    "t2": 2.5199999809265137,
+    "r1": 2.22,
+    "stop": 1.7314,
+    "stop_tight": 1.8914
+   },
+   "not_ready": [
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 2.1–2.1 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.78–1.89 ثم استرداد 2.1 (ص17، ص86)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 15 يوم (طار إلى 11 وأغلق 7.55 بفوليوم 7165x)",
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +157% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
+   "ticker": "BRNX",
+   "score": 7.25,
+   "price": 0.8231,
+   "ext_price": null,
+   "name": "BrenX Ltd. Ordinary Shares",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +66% في يوم)",
+    "drawdown": 0.921,
+    "rsi_min": 25.5,
+    "rsi_now": 27.3,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -2515,27 +2635,29 @@
     ]
    ],
    "levels": {
-    "bottom": 4.3001,
-    "demand_low": 4.371,
-    "demand_high": 4.3935,
-    "wash_low": 3.663,
-    "wash_high": 3.774,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 4.572999954223633,
-    "t1": 4.572999954223633,
-    "t2": 4.820000171661377,
-    "r1": 4.573,
-    "stop": 3.5531,
-    "stop_tight": 4.2141
+    "bottom": 0.7631,
+    "demand_low": 0.8,
+    "demand_high": 0.8231,
+    "wash_low": 0.68,
+    "wash_high": 0.72,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.9390000104904175,
+    "t1": 0.9390000104904175,
+    "t2": 1.059999942779541,
+    "r1": 0.939,
+    "stop": 0.6596,
+    "stop_tight": 0.7478
    },
    "not_ready": [
-    "استرداد الدعم 4.37 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة"
+    "إغلاق وثبات فوق 0.80 بعد سحب السيولة",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
    ],
-   "ready_when": "استرداد 4.37 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 3.66–3.77",
+   "ready_when": "نزول لمنطقة الطلب 0.8–0.823 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.68–0.72 ثم استرداد 0.8 (ص17، ص86)",
    "flags": [],
    "tags": [
-    "Former Runner (سبق انفجر +657% في يوم)",
-    "فوليوم البيع يضعف"
+    "Former Runner (سبق انفجر +66% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
@@ -2608,7 +2730,7 @@
   {
    "ticker": "AMIX",
    "score": 7.25,
-   "price": 2.5352,
+   "price": 2.535,
    "ext_price": null,
    "name": "Autonomix Medical Inc. Common Stock",
    "type": [
@@ -2673,7 +2795,7 @@
   {
    "ticker": "QMLS",
    "score": 7.25,
-   "price": 3.51,
+   "price": 3.47,
    "ext_price": null,
    "name": "QumulusAI Inc. Common Stock",
    "type": [
@@ -2688,9 +2810,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +70% في يوم)",
-    "drawdown": 0.908,
+    "drawdown": 0.909,
     "rsi_min": 23.5,
-    "rsi_now": 26.4,
+    "rsi_now": 26.2,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -2729,7 +2851,7 @@
   {
    "ticker": "FEMY",
    "score": 7.25,
-   "price": 1.575,
+   "price": 1.57,
    "ext_price": null,
    "name": "Femasys Inc. Common Stock",
    "type": [
@@ -2744,9 +2866,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +68% في يوم)",
-    "drawdown": 0.671,
+    "drawdown": 0.672,
     "rsi_min": 23.8,
-    "rsi_now": 30.1,
+    "rsi_now": 29.9,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -2794,7 +2916,7 @@
   {
    "ticker": "VHUB",
    "score": 7.25,
-   "price": 0.352,
+   "price": 0.3456,
    "ext_price": null,
    "name": "VenHub Global, Inc.",
    "type": [
@@ -2808,9 +2930,9 @@
     "short_pct_float": 0.0117999995,
     "split": "",
     "runner": "Former Runner (سبق انفجر +139% في يوم)",
-    "drawdown": 0.745,
+    "drawdown": 0.75,
     "rsi_min": 25.3,
-    "rsi_now": 32.5,
+    "rsi_now": 31.4,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "تقاطع إيجابي حديث"
    },
@@ -2831,8 +2953,8 @@
     "wash_low": 0.272,
     "wash_high": 0.288,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.3799999952316284,
-    "t1": 0.3799999952316284,
+    "pivot": 0.36000001430511475,
+    "t1": 0.36000001430511475,
     "t2": 0.38999998569488525,
     "r1": 0.38,
     "stop": 0.2638,
@@ -2915,127 +3037,203 @@
    ]
   },
   {
-   "ticker": "FBGL",
+   "ticker": "AURE",
    "score": 7.12,
-   "price": 2.18,
+   "price": 0.9588,
    "ext_price": null,
-   "name": "FBS Global Limited Ordinary Shares",
+   "name": "Aurelion Inc.",
    "type": [
+    "صيني عالي التذبذب ⚠️",
     "قاع نظيف"
    ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "setup_ar": "ارتداد مؤكد من الدعم",
    "status": "WATCH",
    "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
+    "float": 10466284,
+    "shares": 22348486.0,
+    "short_pct_float": 0.00090000004,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +57% في يوم)",
-    "drawdown": 0.665,
-    "rsi_min": 27.9,
-    "rsi_now": 29.6,
+    "runner": "Former Runner (سبق انفجر +65% في يوم)",
+    "drawdown": 0.631,
+    "rsi_min": 27.5,
+    "rsi_now": 37.8,
     "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
+    "macd": "تقاطع إيجابي حديث"
    },
    "news": [
     [
-     "Feb 6, 2025",
-     "FBS Global Limited Prices Initial Public Offering at $4.50 per Share, Raising $10.1 Million"
+     "Mar 12, 2025",
+     "Prestige Wealth Inc. Announces Major Upgrade of InnoSphere Tech Inc. with Integration of DeepSeek AI Technology"
+    ],
+    [
+     "Feb 13, 2025",
+     "Prestige Wealth Inc. Reports Financial Results for First Half of Fiscal Year 2024, Highlights Strategic Initiatives and Revenue Growth"
     ]
    ],
    "levels": {
-    "bottom": 2.06,
-    "demand_low": 2.2,
-    "demand_high": 2.2144,
-    "wash_low": 1.87,
-    "wash_high": 1.98,
+    "bottom": 0.85,
+    "demand_low": 0.85,
+    "demand_high": 0.8843,
+    "wash_low": 0.7225,
+    "wash_high": 0.765,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 2.4100000858306885,
-    "t1": 2.4100000858306885,
-    "t2": 2.700000047683716,
-    "r1": 2.41,
-    "stop": 1.8139,
-    "stop_tight": 2.0188
+    "pivot": 1.0,
+    "t1": 1.0,
+    "t2": 1.0367399901151657,
+    "r1": 1.0,
+    "stop": 0.7008,
+    "stop_tight": 0.833
    },
    "not_ready": [
-    "استرداد الدعم 2.20 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "السعر ابتعد 8% فوق منطقة الطلب — ضع Limit عند 0.85–0.88 ولا تطارد"
    ],
-   "ready_when": "استرداد 2.2 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 1.87–1.98",
-   "flags": [],
+   "ready_when": "نزول لمنطقة الطلب 0.85–0.884 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.723–0.765 ثم استرداد 0.85 (ص17، ص86)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 1.73 وأغلق 1.14 بفوليوم 233x)",
+    "سهم صيني عالي التذبذب"
+   ],
    "tags": [
-    "Former Runner (سبق انفجر +57% في يوم)",
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +65% في يوم)",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
-   "ticker": "VRXA",
+   "ticker": "TII",
    "score": 7.12,
-   "price": 1.05,
+   "price": 1.935,
    "ext_price": null,
-   "name": "Veraxa Biotech AG Ordinary Shares",
+   "name": "Titan Mining Corporation Common Shares",
    "type": [
-    "طبي — الخبر يحرّكه"
+    "ارتكاز"
    ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
     "float": null,
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +60% في يوم)",
-    "drawdown": 0.951,
-    "rsi_min": 25.3,
-    "rsi_now": 37.8,
+    "runner": "Former Runner (سبق انفجر +71% في يوم)",
+    "drawdown": 0.428,
+    "rsi_min": 27.6,
+    "rsi_now": 32.3,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Oct 7, 2026",
-     "Biotech Stocks In Focus - SXTC +536% On Sharp Move; VRXA, AVBP, SPRC On Key Developments"
+     "Oct 8, 2026",
+     "TII Stock Crowded With Sellers"
     ],
     [
-     "Oct 7, 2026",
-     "VERAXA Biotech Adopts FDA-Aligned Models To Support Oncology Development"
+     "Apr 9, 2026",
+     "Titan Mining (TII) Price Target Increased by 37.61% to 0.37"
     ],
     [
-     "Sep 4, 2026",
-     "VERAXA Appoints Willener CFO As Pipeline Advances; Stock Up"
+     "Feb 25, 2026",
+     "Titan Mining (TII) Price Target Decreased by 92.03% to 0.27"
     ]
    ],
    "levels": {
-    "bottom": 0.99,
-    "demand_low": 1.04,
-    "demand_high": 1.04,
-    "wash_low": 0.884,
-    "wash_high": 0.936,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.100000023841858,
-    "t1": 1.100000023841858,
-    "t2": 1.1600000023841859,
-    "r1": 1.09,
-    "stop": 0.8575,
-    "stop_tight": 0.9702
+    "bottom": 1.87,
+    "demand_low": 1.895,
+    "demand_high": 1.95,
+    "wash_low": 1.7919,
+    "wash_high": 1.8462,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 2.059999942779541,
+    "t1": 2.059999942779541,
+    "t2": 2.119999885559082,
+    "r1": 2.06,
+    "stop": 1.7381,
+    "stop_tight": 1.8571
    },
    "not_ready": [
-    "إغلاق وثبات فوق 1.04 بعد سحب السيولة",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.89 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.04–1.04 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.884–0.936 ثم استرداد 1.04 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 1.89–1.95 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.79–1.85 ثم استرداد 1.89 (ص17، ص86)",
+   "flags": [
+    "اختراق وهمي سابق لخط العنق (Bull Trap)"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +71% في يوم)",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
+   "ticker": "ALDX",
+   "score": 7.12,
+   "price": 0.6651,
+   "ext_price": null,
+   "name": "Aldeyra Therapeutics Inc. Common Stock",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +36% في يوم)",
+    "drawdown": 0.737,
+    "rsi_min": 21.4,
+    "rsi_now": 25.9,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 15, 2026",
+     "RARE's Fayuvi Approval Spurs Second PRV Sale Worth $203M in a Week"
+    ],
+    [
+     "Oct 14, 2026",
+     "Here's Why You Should Add ANRO Stock to Your Portfolio Now"
+    ],
+    [
+     "Oct 14, 2026",
+     "Syndax Stock Falls 16% as Phase II Fibrosis Study Misses Primary Goal"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.65,
+    "demand_low": 0.65,
+    "demand_high": 0.6565,
+    "wash_low": 0.5525,
+    "wash_high": 0.585,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.7200000286102295,
+    "t1": 0.7200000286102295,
+    "t2": 0.7379999756813049,
+    "r1": 0.72,
+    "stop": 0.5359,
+    "stop_tight": 0.637
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.65 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 0.65–0.656 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.552–0.585 ثم استرداد 0.65 (ص17، ص86)",
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +60% في يوم)"
+    "Former Runner (سبق انفجر +36% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
    "ticker": "TRAW",
    "score": 7.12,
-   "price": 0.3662,
+   "price": 0.3692,
    "ext_price": null,
    "name": "Traws Pharma Inc. Common Stock",
    "type": [
@@ -3050,9 +3248,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +57% في يوم)",
-    "drawdown": 0.615,
+    "drawdown": 0.611,
     "rsi_min": 27.1,
-    "rsi_now": 28.1,
+    "rsi_now": 28.5,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -3101,9 +3299,138 @@
    ]
   },
   {
+   "ticker": "PETS",
+   "score": 7.12,
+   "price": 1.18,
+   "ext_price": null,
+   "name": "PetMed Express Inc. Common Stock",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +129% في يوم)",
+    "drawdown": 0.498,
+    "rsi_min": 14.7,
+    "rsi_now": 24.8,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "تقاطع إيجابي حديث"
+   },
+   "news": [
+    [
+     "Sep 22, 2026",
+     "PetMeds Appoints Tamar Elkeles As Independent Director"
+    ],
+    [
+     "Sep 17, 2026",
+     "PetMeds CEO Transition: Jeff Willard To Succeed Leslie Campbell"
+    ],
+    [
+     "Aug 20, 2026",
+     "PetMed Express (PETS) Q1 2027 Earnings Call Transcript"
+    ]
+   ],
+   "levels": {
+    "bottom": 1.15,
+    "demand_low": 1.15,
+    "demand_high": 1.1615,
+    "wash_low": 0.9775,
+    "wash_high": 1.035,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 1.2000000476837158,
+    "t1": 1.2000000476837158,
+    "t2": 1.288999992609024,
+    "r1": 1.2,
+    "stop": 0.9482,
+    "stop_tight": 1.127
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.15 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 1.15–1.16 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.977–1.03 ثم استرداد 1.15 (ص17، ص86)",
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +129% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
+   "ticker": "CISS",
+   "score": 7.12,
+   "price": 0.5264,
+   "ext_price": null,
+   "name": "C3is Inc. Common Stock",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +116% في يوم)",
+    "drawdown": 0.994,
+    "rsi_min": 16.7,
+    "rsi_now": 18.6,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "إيجابي (الخط فوق الإشارة)"
+   },
+   "news": [
+    [
+     "May 18, 2026",
+     "C3is (CISS) Q1 2026 Earnings Call Transcript"
+    ],
+    [
+     "Nov 18, 2025",
+     "C3is (CISS) Q3 2025 Earnings Call Transcript"
+    ],
+    [
+     "May 15, 2025",
+     "C3is Inc. Reports Q1 2025 Financial Results with Decrease in Revenues and Adjusted Net Income"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.5002,
+    "demand_low": 0.513,
+    "demand_high": 0.5264,
+    "wash_low": 0.4361,
+    "wash_high": 0.4617,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.5649999976158142,
+    "t1": 0.5649999976158142,
+    "t2": 0.6000000238418579,
+    "r1": 0.565,
+    "stop": 0.423,
+    "stop_tight": 0.4902
+   },
+   "not_ready": [
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 0.513–0.526 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.436–0.462 ثم استرداد 0.513 (ص17، ص86)",
+   "flags": [],
+   "tags": [
+    "Former Runner (سبق انفجر +116% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
    "ticker": "AMSS",
    "score": 7.12,
-   "price": 0.3287,
+   "price": 0.3286,
    "ext_price": null,
    "name": "AMASS Brands Inc. Common Stock",
    "type": [
@@ -3118,7 +3445,7 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +111% في يوم)",
-    "drawdown": 0.867,
+    "drawdown": 0.868,
     "rsi_min": 20.7,
     "rsi_now": 22.6,
     "ma": "تحت كل المتوسطات (ضغط)",
@@ -3169,141 +3496,12 @@
    ]
   },
   {
-   "ticker": "TII",
+   "ticker": "STKH",
    "score": 7.12,
-   "price": 1.955,
+   "price": 0.5064,
    "ext_price": null,
-   "name": "Titan Mining Corporation Common Shares",
+   "name": "Steakholder Foods Ltd. American Depositary Shares",
    "type": [
-    "ارتكاز"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +71% في يوم)",
-    "drawdown": 0.422,
-    "rsi_min": 27.6,
-    "rsi_now": 32.8,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Oct 8, 2026",
-     "TII Stock Crowded With Sellers"
-    ],
-    [
-     "Apr 9, 2026",
-     "Titan Mining (TII) Price Target Increased by 37.61% to 0.37"
-    ],
-    [
-     "Feb 25, 2026",
-     "Titan Mining (TII) Price Target Decreased by 92.03% to 0.27"
-    ]
-   ],
-   "levels": {
-    "bottom": 1.87,
-    "demand_low": 1.895,
-    "demand_high": 1.95,
-    "wash_low": 1.7919,
-    "wash_high": 1.8462,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 2.059999942779541,
-    "t1": 2.059999942779541,
-    "t2": 2.119999885559082,
-    "r1": 2.06,
-    "stop": 1.7381,
-    "stop_tight": 1.8571
-   },
-   "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.89 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 1.89–1.95 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.79–1.85 ثم استرداد 1.89 (ص17، ص86)",
-   "flags": [
-    "اختراق وهمي سابق لخط العنق (Bull Trap)"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +71% في يوم)",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
-   "ticker": "TVRD",
-   "score": 7.12,
-   "price": 1.0,
-   "ext_price": null,
-   "name": "Tvardi Therapeutics Inc. Common Stock",
-   "type": [
-    "طبي — الخبر يحرّكه"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +92% في يوم)",
-    "drawdown": 0.824,
-    "rsi_min": 27.1,
-    "rsi_now": 33.3,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Sep 15, 2026",
-     "Tvardi Therapeutics Consensus Price Target Increased by 11.76% to $9.69"
-    ],
-    [
-     "Jul 9, 2026",
-     "TVRD Stock Rallies 149% So Far This Week: Here's What You Should Know"
-    ],
-    [
-     "Jul 7, 2026",
-     "Tvardi's TTI-109 Shows Improved Tolerability And Target Engagement In Phase 1 Study"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.93,
-    "demand_low": 0.969,
-    "demand_high": 0.9787,
-    "wash_low": 0.9207,
-    "wash_high": 0.9486,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.027999997138977,
-    "t1": 1.027999997138977,
-    "t2": 1.090000033378601,
-    "r1": 1.028,
-    "stop": 0.8931,
-    "stop_tight": 0.9496
-   },
-   "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.97 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.969–0.979 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.921–0.949 ثم استرداد 0.969 (ص17، ص86)",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +92% في يوم)",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
-   "ticker": "ALDX",
-   "score": 7.12,
-   "price": 0.6713,
-   "ext_price": null,
-   "name": "Aldeyra Therapeutics Inc. Common Stock",
-   "type": [
-    "طبي — الخبر يحرّكه",
     "قاع نظيف"
    ],
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
@@ -3313,51 +3511,51 @@
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +36% في يوم)",
-    "drawdown": 0.735,
-    "rsi_min": 21.4,
-    "rsi_now": 26.2,
+    "runner": "Former Runner (سبق انفجر +367% في يوم)",
+    "drawdown": 0.929,
+    "rsi_min": 20.9,
+    "rsi_now": 23.7,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Oct 15, 2026",
-     "RARE's Fayuvi Approval Spurs Second PRV Sale Worth $203M in a Week"
+     "Sep 22, 2025",
+     "Steakholder Foods To Acquire Twine Solutions"
     ],
     [
-     "Oct 14, 2026",
-     "Here's Why You Should Add ANRO Stock to Your Portfolio Now"
+     "Jul 16, 2025",
+     "Steakholder Foods Ltd. Announces Pricing of Public Offering of American Depository Shares and Warrants"
     ],
     [
-     "Oct 14, 2026",
-     "Syndax Stock Falls 16% as Phase II Fibrosis Study Misses Primary Goal"
+     "Apr 23, 2025",
+     "Steakholder Foods Ltd. Announces One-for-Five Reverse ADS Split Effective April 28, 2025"
     ]
    ],
    "levels": {
-    "bottom": 0.65,
-    "demand_low": 0.65,
-    "demand_high": 0.6565,
-    "wash_low": 0.5525,
-    "wash_high": 0.585,
+    "bottom": 0.491,
+    "demand_low": 0.491,
+    "demand_high": 0.5,
+    "wash_low": 0.4173,
+    "wash_high": 0.4419,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.7200000286102295,
-    "t1": 0.7200000286102295,
-    "t2": 0.7379999756813049,
-    "r1": 0.72,
-    "stop": 0.5359,
-    "stop_tight": 0.637
+    "pivot": 0.5600000023841858,
+    "t1": 0.5600000023841858,
+    "t2": 0.5870000123977661,
+    "r1": 0.56,
+    "stop": 0.4048,
+    "stop_tight": 0.4812
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.65 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.49 ثم استرداد",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.65–0.656 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.552–0.585 ثم استرداد 0.65 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.491–0.5 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.417–0.442 ثم استرداد 0.491 (ص17، ص86)",
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "شمعة ضخ/تصريف قبل 15 يوم (طار إلى 2.3 وأغلق 0.768 بفوليوم 109x)"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +36% في يوم)",
+    "Former Runner (سبق انفجر +367% في يوم)",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
@@ -3426,14 +3624,13 @@
    ]
   },
   {
-   "ticker": "IVF",
+   "ticker": "TVRD",
    "score": 7.12,
-   "price": 0.529,
+   "price": 1.01,
    "ext_price": null,
-   "name": "INVO Fertility Inc. Common Stock",
+   "name": "Tvardi Therapeutics Inc. Common Stock",
    "type": [
-    "طبي — الخبر يحرّكه",
-    "قاع نظيف"
+    "طبي — الخبر يحرّكه"
    ],
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
@@ -3442,186 +3639,57 @@
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +464% في يوم)",
-    "drawdown": 0.83,
-    "rsi_min": 16.6,
-    "rsi_now": 20.9,
+    "runner": "Former Runner (سبق انفجر +92% في يوم)",
+    "drawdown": 0.822,
+    "rsi_min": 27.1,
+    "rsi_now": 33.8,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Aug 17, 2026",
-     "After-Hours Gainers: PFSA Executes Another Reverse Split, IVF Jumps On Q2 Results, AMLX Faces D-Day"
+     "Sep 15, 2026",
+     "Tvardi Therapeutics Consensus Price Target Increased by 11.76% to $9.69"
     ],
     [
-     "Aug 17, 2026",
-     "INVO Fertility Soars After Q2 Revenue Rises 17%; Swings To Profit"
+     "Jul 9, 2026",
+     "TVRD Stock Rallies 149% So Far This Week: Here's What You Should Know"
     ],
     [
-     "Jun 23, 2026",
-     "INVO Records Q1 Net Loss Of $5 Mln; Stock Down"
+     "Jul 7, 2026",
+     "Tvardi's TTI-109 Shows Improved Tolerability And Target Engagement In Phase 1 Study"
     ]
    ],
    "levels": {
-    "bottom": 0.51,
-    "demand_low": 0.51,
-    "demand_high": 0.5151,
-    "wash_low": 0.4335,
-    "wash_high": 0.459,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.5979999899864197,
-    "t1": 0.5979999899864197,
-    "t2": 0.6439999938011169,
-    "r1": 0.6,
-    "stop": 0.4205,
-    "stop_tight": 0.4998
+    "bottom": 0.93,
+    "demand_low": 0.969,
+    "demand_high": 0.9787,
+    "wash_low": 0.9207,
+    "wash_high": 0.9486,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.027999997138977,
+    "t1": 1.027999997138977,
+    "t2": 1.090000033378601,
+    "r1": 1.028,
+    "stop": 0.8931,
+    "stop_tight": 0.9496
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.51 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.97 ثم استرداد",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.51–0.515 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.433–0.459 ثم استرداد 0.51 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.969–0.979 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.921–0.949 ثم استرداد 0.969 (ص17، ص86)",
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +464% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
-   "ticker": "UAVS",
-   "score": 7.12,
-   "price": 0.6185,
-   "ext_price": null,
-   "name": "AgEagle Aerial Systems Inc. Common Stock",
-   "type": [
-    "قاع نظيف"
-   ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +58% في يوم)",
-    "drawdown": 0.467,
-    "rsi_min": 21.3,
-    "rsi_now": 21.3,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Oct 12, 2026",
-     "The Zacks Analyst Blog Highlights JPMorgan, ASML, Chevron, Blue Dolphin Energy and AgEagle Aerial Systems"
-    ],
-    [
-     "Oct 9, 2026",
-     "Top Research Reports for JPMorgan, ASML & Chevron"
-    ],
-    [
-     "Aug 31, 2026",
-     "UAVS Q2 Loss Narrows Y/Y, Revenues Fall 36% on Drone Sales Slide"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.615,
-    "demand_low": 0.65,
-    "demand_high": 0.65,
-    "wash_low": 0.5525,
-    "wash_high": 0.585,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.6800000071525574,
-    "t1": 0.6800000071525574,
-    "t2": 0.7599999904632568,
-    "r1": 0.68,
-    "stop": 0.5359,
-    "stop_tight": 0.6027
-   },
-   "not_ready": [
-    "استرداد الدعم 0.65 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "الدخول تحت مقاومة مباشرة (0.68) — انتظر اختراقها والثبات"
-   ],
-   "ready_when": "استرداد 0.65 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.552–0.585",
-   "flags": [],
-   "tags": [
-    "Former Runner (سبق انفجر +58% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
-   "ticker": "CISS",
-   "score": 7.12,
-   "price": 0.5399,
-   "ext_price": null,
-   "name": "C3is Inc. Common Stock",
-   "type": [
-    "قاع نظيف"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +116% في يوم)",
-    "drawdown": 0.994,
-    "rsi_min": 16.7,
-    "rsi_now": 18.7,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "إيجابي (الخط فوق الإشارة)"
-   },
-   "news": [
-    [
-     "May 18, 2026",
-     "C3is (CISS) Q1 2026 Earnings Call Transcript"
-    ],
-    [
-     "Nov 18, 2025",
-     "C3is (CISS) Q3 2025 Earnings Call Transcript"
-    ],
-    [
-     "May 15, 2025",
-     "C3is Inc. Reports Q1 2025 Financial Results with Decrease in Revenues and Adjusted Net Income"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.5002,
-    "demand_low": 0.513,
-    "demand_high": 0.5276,
-    "wash_low": 0.4361,
-    "wash_high": 0.4617,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.5649999976158142,
-    "t1": 0.5649999976158142,
-    "t2": 0.6000000238418579,
-    "r1": 0.565,
-    "stop": 0.423,
-    "stop_tight": 0.4902
-   },
-   "not_ready": [
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.513–0.528 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.436–0.462 ثم استرداد 0.513 (ص17، ص86)",
-   "flags": [],
-   "tags": [
-    "Former Runner (سبق انفجر +116% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
+    "Former Runner (سبق انفجر +92% في يوم)"
    ]
   },
   {
    "ticker": "ICCM",
    "score": 7.12,
-   "price": 1.02,
+   "price": 1.015,
    "ext_price": null,
    "name": "IceCure Medical Ltd. Ordinary Shares",
    "type": [
@@ -3636,9 +3704,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +348% في يوم)",
-    "drawdown": 0.893,
+    "drawdown": 0.894,
     "rsi_min": 15.2,
-    "rsi_now": 20.7,
+    "rsi_now": 20.5,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -3685,12 +3753,13 @@
    ]
   },
   {
-   "ticker": "STKH",
+   "ticker": "IVF",
    "score": 7.12,
-   "price": 0.5262,
+   "price": 0.54,
    "ext_price": null,
-   "name": "Steakholder Foods Ltd. American Depositary Shares",
+   "name": "INVO Fertility Inc. Common Stock",
    "type": [
+    "طبي — الخبر يحرّكه",
     "قاع نظيف"
    ],
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
@@ -3700,117 +3769,51 @@
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +367% في يوم)",
-    "drawdown": 0.926,
-    "rsi_min": 20.9,
-    "rsi_now": 24.1,
+    "runner": "Former Runner (سبق انفجر +464% في يوم)",
+    "drawdown": 0.826,
+    "rsi_min": 16.6,
+    "rsi_now": 21.5,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Sep 22, 2025",
-     "Steakholder Foods To Acquire Twine Solutions"
+     "Aug 17, 2026",
+     "After-Hours Gainers: PFSA Executes Another Reverse Split, IVF Jumps On Q2 Results, AMLX Faces D-Day"
     ],
     [
-     "Jul 16, 2025",
-     "Steakholder Foods Ltd. Announces Pricing of Public Offering of American Depository Shares and Warrants"
+     "Aug 17, 2026",
+     "INVO Fertility Soars After Q2 Revenue Rises 17%; Swings To Profit"
     ],
     [
-     "Apr 23, 2025",
-     "Steakholder Foods Ltd. Announces One-for-Five Reverse ADS Split Effective April 28, 2025"
+     "Jun 23, 2026",
+     "INVO Records Q1 Net Loss Of $5 Mln; Stock Down"
     ]
    ],
    "levels": {
-    "bottom": 0.491,
-    "demand_low": 0.491,
-    "demand_high": 0.5,
-    "wash_low": 0.4173,
-    "wash_high": 0.4419,
+    "bottom": 0.51,
+    "demand_low": 0.51,
+    "demand_high": 0.5151,
+    "wash_low": 0.4335,
+    "wash_high": 0.459,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.5600000023841858,
-    "t1": 0.5600000023841858,
-    "t2": 0.5870000123977661,
-    "r1": 0.56,
-    "stop": 0.4048,
-    "stop_tight": 0.4812
+    "pivot": 0.5979999899864197,
+    "t1": 0.5979999899864197,
+    "t2": 0.6439999938011169,
+    "r1": 0.6,
+    "stop": 0.4205,
+    "stop_tight": 0.4998
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.49 ثم استرداد",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.491–0.5 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.417–0.442 ثم استرداد 0.491 (ص17، ص86)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 15 يوم (طار إلى 2.3 وأغلق 0.768 بفوليوم 109x)"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +367% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
-   "ticker": "MCRP",
-   "score": 7.12,
-   "price": 0.3876,
-   "ext_price": null,
-   "name": "Micropolis AI Robotics Ordinary Shares",
-   "type": [
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +58% في يوم)",
-    "drawdown": 0.841,
-    "rsi_min": 17.4,
-    "rsi_now": 23.8,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "تقاطع إيجابي حديث"
-   },
-   "news": [
-    [
-     "Mar 2, 2026",
-     "Maxim Group Initiates Coverage of Micropolis AI Robotics (MCRP) with Buy Recommendation"
-    ],
-    [
-     "Jul 16, 2025",
-     "Micropolis Holding Co. and Hader Security Forge Strategic Partnership for AI and Autonomous Solutions in UAE"
-    ],
-    [
-     "Jun 10, 2025",
-     "Micropolis Holding Company Files Annual Report on Form 20-F for Fiscal Year 2024"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.36,
-    "demand_low": 0.36,
-    "demand_high": 0.3636,
-    "wash_low": 0.306,
-    "wash_high": 0.324,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.4099999964237213,
-    "t1": 0.4099999964237213,
-    "t2": 0.46000000834465027,
-    "r1": 0.41,
-    "stop": 0.2968,
-    "stop_tight": 0.3528
-   },
-   "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.36 ثم استرداد",
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.51 ثم استرداد",
     "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.36–0.364 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.306–0.324 ثم استرداد 0.36 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.51–0.515 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.433–0.459 ثم استرداد 0.51 (ص17، ص86)",
    "flags": [
-    "سعر منخفض جداً — سبريد واسع"
+    "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +58% في يوم)",
-    "قيعان أعلى",
+    "Former Runner (سبق انفجر +464% في يوم)",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
@@ -3818,7 +3821,7 @@
   {
    "ticker": "CLRB",
    "score": 7.12,
-   "price": 1.2198,
+   "price": 1.22,
    "ext_price": null,
    "name": "Cellectar Biosciences Inc.  Common Stock",
    "type": [
@@ -3881,74 +3884,76 @@
    ]
   },
   {
-   "ticker": "VCIG",
+   "ticker": "SILO",
    "score": 7.12,
-   "price": 0.2407,
+   "price": 1.205,
    "ext_price": null,
-   "name": "VCI Global Limited Ordinary Share",
+   "name": "Silo Pharma Inc. Common Stock",
    "type": [
+    "طبي — الخبر يحرّكه",
     "قاع نظيف"
    ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
     "float": null,
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +191% في يوم)",
-    "drawdown": 0.997,
-    "rsi_min": 19.8,
-    "rsi_now": 23.0,
+    "runner": "Former Runner (سبق انفجر +77% في يوم)",
+    "drawdown": 0.848,
+    "rsi_min": 15.7,
+    "rsi_now": 23.3,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Jul 16, 2025",
-     "VCI Global To Acquire V Capital, Launch Bitcoin Fund Via Labuan License; Stock Surges"
+     "Sep 18, 2026",
+     "Biotech Stocks In Focus - IMCC +245%, XRTX +12%, SILO, BFRI"
     ],
     [
-     "Jul 16, 2025",
-     "VCI Global Limited Announces Agreement to Acquire V Capital Fund Management Limited"
+     "Sep 18, 2026",
+     "Silo Pharma Gets U.S. Patent Allowance For SPC-15 PTSD Treatment"
     ],
     [
-     "Jul 10, 2025",
-     "VCI Global Limited Appoints Jane Teh as Chief AI Security Officer to Strengthen Cybersecurity Leadership"
+     "Sep 9, 2026",
+     "Silo Pharma To Highlight SPC-15 Nose-To-Brain Technology At 2026 Nasal Innovation Forum"
     ]
    ],
    "levels": {
-    "bottom": 0.215,
-    "demand_low": 0.22,
-    "demand_high": 0.2289,
-    "wash_low": 0.187,
-    "wash_high": 0.198,
+    "bottom": 1.1,
+    "demand_low": 1.1,
+    "demand_high": 1.13,
+    "wash_low": 0.935,
+    "wash_high": 0.99,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.26899999380111694,
-    "t1": 0.26899999380111694,
-    "t2": 0.33899998664855957,
-    "r1": 0.269,
-    "stop": 0.1814,
-    "stop_tight": 0.2107
+    "pivot": 1.2300000190734863,
+    "t1": 1.2300000190734863,
+    "t2": 1.3901500165462495,
+    "r1": 1.205,
+    "stop": 0.907,
+    "stop_tight": 1.078
    },
    "not_ready": [
-    "إغلاق وثبات فوق 0.22 بعد سحب السيولة",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.10 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.22–0.229 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.187–0.198 ثم استرداد 0.22 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 1.1–1.13 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.935–0.99 ثم استرداد 1.1 (ص17، ص86)",
    "flags": [
-    "شمعة ضخ/تصريف قبل 1 يوم (طار إلى 0.339 وأغلق 0.251 بفوليوم 244x)",
-    "سعر منخفض جداً — سبريد واسع"
+    "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +191% في يوم)",
+    "Former Runner (سبق انفجر +77% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
    "ticker": "TNYA",
    "score": 7.12,
-   "price": 0.3961,
+   "price": 0.397,
    "ext_price": null,
    "name": "Tenaya Therapeutics Inc. Common Stock",
    "type": [
@@ -3963,9 +3968,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +41% في يوم)",
-    "drawdown": 0.582,
+    "drawdown": 0.581,
     "rsi_min": 19.9,
-    "rsi_now": 28.7,
+    "rsi_now": 28.9,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -4014,9 +4019,74 @@
    ]
   },
   {
+   "ticker": "LIDR",
+   "score": 7.12,
+   "price": 0.9002,
+   "ext_price": null,
+   "name": "AEye Inc. Class A Common Stock",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +80% في يوم)",
+    "drawdown": 0.451,
+    "rsi_min": 18.7,
+    "rsi_now": 36.5,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 22, 2026",
+     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+    ],
+    [
+     "Oct 22, 2026",
+     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+    ],
+    [
+     "Oct 22, 2026",
+     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.81,
+    "demand_low": 0.81,
+    "demand_high": 0.8181,
+    "wash_low": 0.6885,
+    "wash_high": 0.729,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.9049999713897705,
+    "t1": 0.9049999713897705,
+    "t2": 0.9865000247955322,
+    "r1": 0.89,
+    "stop": 0.6678,
+    "stop_tight": 0.7938
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.81 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 0.81–0.818 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.689–0.729 ثم استرداد 0.81 (ص17، ص86)",
+   "flags": [
+    "اختراق وهمي سابق لخط العنق (Bull Trap)"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +80% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
    "ticker": "KITT",
    "score": 7.12,
-   "price": 1.336,
+   "price": 1.35,
    "ext_price": null,
    "name": "Nauticus Robotics Inc. Common stock",
    "type": [
@@ -4030,9 +4100,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +135% في يوم)",
-    "drawdown": 0.85,
+    "drawdown": 0.848,
     "rsi_min": 17.2,
-    "rsi_now": 21.5,
+    "rsi_now": 22.3,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -4077,70 +4147,131 @@
    ]
   },
   {
-   "ticker": "SILO",
-   "score": 7.12,
-   "price": 1.22,
+   "ticker": "RMSG",
+   "score": 7.0,
+   "price": 0.2499,
    "ext_price": null,
-   "name": "Silo Pharma Inc. Common Stock",
+   "name": "Real Messenger Corporation",
    "type": [
-    "طبي — الخبر يحرّكه",
-    "قاع نظيف"
+    "ارتكاز"
    ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "status": "WATCH",
+   "data": {
+    "float": 9830990,
+    "shares": 9830990.0,
+    "short_pct_float": 0.1577,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +481% في يوم)",
+    "drawdown": 0.627,
+    "rsi_min": 34.0,
+    "rsi_now": 38.8,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 22, 2026",
+     "Tech Stocks Lead Broad Market Lower as Meta Slides -6%"
+    ],
+    [
+     "Oct 22, 2026",
+     "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought"
+    ],
+    [
+     "Oct 22, 2026",
+     "Ping An Biomedical Sets 1-For-40 Reverse Stock Split For October 23; Stock Up"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.24,
+    "demand_low": 0.251,
+    "demand_high": 0.2555,
+    "wash_low": 0.2376,
+    "wash_high": 0.2448,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.2750000059604645,
+    "t1": 0.2750000059604645,
+    "t2": 0.27859499752521516,
+    "r1": 0.26,
+    "stop": 0.2305,
+    "stop_tight": 0.2361
+   },
+   "not_ready": [
+    "استرداد الدعم 0.25 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)"
+   ],
+   "ready_when": "استرداد 0.251 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.238–0.245",
+   "flags": [
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +481% في يوم)"
+   ]
+  },
+  {
+   "ticker": "BIVI",
+   "score": 7.0,
+   "price": 1.27,
+   "ext_price": null,
+   "name": "BioVie Inc. Class A Common Stock",
+   "type": [
+    "طبي — الخبر يحرّكه"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
     "float": null,
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +77% في يوم)",
-    "drawdown": 0.847,
-    "rsi_min": 15.7,
-    "rsi_now": 24.9,
+    "runner": "Former Runner (سبق انفجر +198% في يوم)",
+    "drawdown": 0.665,
+    "rsi_min": 28.8,
+    "rsi_now": 41.5,
     "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
+    "macd": "تقاطع إيجابي حديث"
    },
    "news": [
     [
-     "Sep 18, 2026",
-     "Biotech Stocks In Focus - IMCC +245%, XRTX +12%, SILO, BFRI"
+     "Oct 19, 2026",
+     "BioVie's Bezisterim Shows Positive Signals In Long COVID Patients With Greater Symptom Burden"
     ],
     [
-     "Sep 18, 2026",
-     "Silo Pharma Gets U.S. Patent Allowance For SPC-15 PTSD Treatment"
+     "Sep 15, 2026",
+     "BioVie's Bezisterim Shows Phase 2 Signal In Long COVID; Stock Down"
     ],
     [
-     "Sep 9, 2026",
-     "Silo Pharma To Highlight SPC-15 Nose-To-Brain Technology At 2026 Nasal Innovation Forum"
+     "Sep 15, 2026",
+     "BioVie To Present Phase 2 ADDRESS-LC Topline Data On Bezisterim's Potential In Long COVID; Today"
     ]
    ],
    "levels": {
-    "bottom": 1.1,
-    "demand_low": 1.1,
-    "demand_high": 1.13,
-    "wash_low": 0.935,
-    "wash_high": 0.99,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.2300000190734863,
-    "t1": 1.2300000190734863,
-    "t2": 1.3909000158309937,
-    "r1": 1.205,
-    "stop": 0.907,
-    "stop_tight": 1.078
+    "bottom": 0.82,
+    "demand_low": 1.259,
+    "demand_high": 1.259,
+    "wash_low": 1.188,
+    "wash_high": 1.224,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.2769999504089355,
+    "t1": 1.2769999504089355,
+    "t2": 1.3200000524520874,
+    "r1": 1.277,
+    "stop": 1.127,
+    "stop_tight": 1.127
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.10 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.1–1.13 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.935–0.99 ثم استرداد 1.1 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 1.26–1.26 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.19–1.22 ثم استرداد 1.26 (ص17، ص86)",
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +77% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
+    "Former Runner (سبق انفجر +198% في يوم)",
+    "قيعان أعلى"
    ]
   },
   {
@@ -4208,9 +4339,73 @@
    ]
   },
   {
+   "ticker": "UAVS",
+   "score": 7.0,
+   "price": 0.6171,
+   "ext_price": null,
+   "name": "AgEagle Aerial Systems Inc. Common Stock",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +58% في يوم)",
+    "drawdown": 0.468,
+    "rsi_min": 21.2,
+    "rsi_now": 21.2,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 12, 2026",
+     "The Zacks Analyst Blog Highlights JPMorgan, ASML, Chevron, Blue Dolphin Energy and AgEagle Aerial Systems"
+    ],
+    [
+     "Oct 9, 2026",
+     "Top Research Reports for JPMorgan, ASML & Chevron"
+    ],
+    [
+     "Aug 31, 2026",
+     "UAVS Q2 Loss Narrows Y/Y, Revenues Fall 36% on Drone Sales Slide"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.6118,
+    "demand_low": 0.65,
+    "demand_high": 0.65,
+    "wash_low": 0.5525,
+    "wash_high": 0.585,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.6800000071525574,
+    "t1": 0.6800000071525574,
+    "t2": 0.7599999904632568,
+    "r1": 0.68,
+    "stop": 0.5359,
+    "stop_tight": 0.5996
+   },
+   "not_ready": [
+    "استرداد الدعم 0.65 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+    "الدخول تحت مقاومة مباشرة (0.68) — انتظر اختراقها والثبات"
+   ],
+   "ready_when": "استرداد 0.65 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.552–0.585",
+   "flags": [],
+   "tags": [
+    "Former Runner (سبق انفجر +58% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
    "ticker": "YYAI",
    "score": 7.0,
-   "price": 0.7089,
+   "price": 0.697,
    "ext_price": null,
    "name": "AiRWA Inc. Common Stock",
    "type": [
@@ -4226,7 +4421,7 @@
     "runner": "Former Runner (سبق انفجر +69% في يوم)",
     "drawdown": 0.997,
     "rsi_min": 27.3,
-    "rsi_now": 28.1,
+    "rsi_now": 28.0,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "إيجابي (الخط فوق الإشارة)"
    },
@@ -4259,8 +4454,8 @@
     "stop_tight": 0.6292
    },
    "not_ready": [
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+    "إغلاق وثبات فوق 0.66 بعد سحب السيولة",
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
    ],
    "ready_when": "نزول لمنطقة الطلب 0.659–0.679 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.56–0.593 ثم استرداد 0.659 (ص17، ص86)",
    "flags": [
@@ -4273,65 +4468,70 @@
    ]
   },
   {
-   "ticker": "AURE",
+   "ticker": "PMAX",
    "score": 6.88,
-   "price": 0.9033,
+   "price": 0.5131,
    "ext_price": null,
-   "name": "Aurelion Inc.",
+   "name": "Powell Max Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
+    "فلووت منخفض جداً",
     "قاع نظيف"
    ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
-    "float": 10466284,
-    "shares": 22348486.0,
-    "short_pct_float": 0.00090000004,
+    "float": 1017107,
+    "shares": 1308311.0,
+    "short_pct_float": 0.066599995,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +65% في يوم)",
-    "drawdown": 0.653,
-    "rsi_min": 27.5,
-    "rsi_now": 34.8,
+    "runner": "Former Runner (سبق انفجر +214% في يوم)",
+    "drawdown": 0.821,
+    "rsi_min": 34.2,
+    "rsi_now": 34.6,
     "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "تقاطع إيجابي حديث"
+    "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Mar 12, 2025",
-     "Prestige Wealth Inc. Announces Major Upgrade of InnoSphere Tech Inc. with Integration of DeepSeek AI Technology"
+     "Apr 28, 2025",
+     "Powell Max Limited Reports 2024 Financial Results: Revenue Decreases 25.7% and Net Loss of HK$18.1 Million"
     ],
     [
-     "Feb 13, 2025",
-     "Prestige Wealth Inc. Reports Financial Results for First Half of Fiscal Year 2024, Highlights Strategic Initiatives and Revenue Growth"
+     "Mar 11, 2025",
+     "Powell Max Limited Faces Nasdaq Minimum Bid Price Compliance Issue"
+    ],
+    [
+     "Jan 15, 2025",
+     "Powell Max Limited Initiates Acquisition Strategy to Expand Financial Communications Services in Asia"
     ]
    ],
    "levels": {
-    "bottom": 0.85,
-    "demand_low": 0.85,
-    "demand_high": 0.8585,
-    "wash_low": 0.7225,
-    "wash_high": 0.765,
+    "bottom": 0.4904,
+    "demand_low": 0.504,
+    "demand_high": 0.5131,
+    "wash_low": 0.4284,
+    "wash_high": 0.4536,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.9800000190734863,
-    "t1": 0.9800000190734863,
-    "t2": 1.0339649885892868,
-    "r1": 1.0,
-    "stop": 0.7008,
-    "stop_tight": 0.833
+    "pivot": 0.5723999738693237,
+    "t1": 0.5723999738693237,
+    "t2": 0.6449999809265137,
+    "r1": 0.59,
+    "stop": 0.4155,
+    "stop_tight": 0.4806
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.85 ثم استرداد",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
+    "إغلاق وثبات فوق 0.50 بعد سحب السيولة",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.85–0.859 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.723–0.765 ثم استرداد 0.85 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.504–0.513 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.428–0.454 ثم استرداد 0.504 (ص17، ص86)",
    "flags": [
-    "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 1.73 وأغلق 1.14 بفوليوم 233x)",
+    "شمعة ضخ/تصريف قبل 15 يوم (طار إلى 1.08 وأغلق 0.938 بفوليوم 227x)",
     "سهم صيني عالي التذبذب"
    ],
    "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +65% في يوم)",
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +214% في يوم)",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
@@ -4339,7 +4539,7 @@
   {
    "ticker": "RKTO",
    "score": 6.75,
-   "price": 0.5407,
+   "price": 0.5313,
    "ext_price": null,
    "name": "Rocket One Inc.",
    "type": [
@@ -4354,9 +4554,9 @@
     "short_pct_float": 0.040799998,
     "split": "",
     "runner": "Former Runner (سبق انفجر +119% في يوم)",
-    "drawdown": 0.546,
+    "drawdown": 0.554,
     "rsi_min": 24.7,
-    "rsi_now": 34.9,
+    "rsi_now": 33.0,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -4381,8 +4581,8 @@
     "wash_low": 0.4106,
     "wash_high": 0.4347,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.546999990940094,
-    "t1": 0.546999990940094,
+    "pivot": 0.5389999747276306,
+    "t1": 0.5389999747276306,
     "t2": 0.5799999833106995,
     "r1": 0.539,
     "stop": 0.3982,
@@ -4404,7 +4604,7 @@
   {
    "ticker": "TYGO",
    "score": 6.62,
-   "price": 0.9581,
+   "price": 0.9632,
    "ext_price": null,
    "name": "Tigo Energy Inc. Common Stock",
    "type": [
@@ -4418,9 +4618,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +178% في يوم)",
-    "drawdown": 0.666,
+    "drawdown": 0.664,
     "rsi_min": 21.6,
-    "rsi_now": 54.1,
+    "rsi_now": 54.6,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -4441,7 +4641,7 @@
    "levels": {
     "bottom": 0.79,
     "demand_low": 0.95,
-    "demand_high": 0.9581,
+    "demand_high": 0.9632,
     "wash_low": 0.8207,
     "wash_high": 0.8456,
     "wash_note": "قاع سابق تحت الدعم",
@@ -4465,7 +4665,7 @@
   {
    "ticker": "NIXX",
    "score": 6.62,
-   "price": 0.3018,
+   "price": 0.3023,
    "ext_price": null,
    "name": "Nixxy, Inc.",
    "type": [
@@ -4479,7 +4679,7 @@
     "short_pct_float": 0.0037,
     "split": "",
     "runner": "Former Runner (سبق انفجر +41% في يوم)",
-    "drawdown": 0.828,
+    "drawdown": 0.827,
     "rsi_min": 16.0,
     "rsi_now": 44.4,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
@@ -4506,8 +4706,8 @@
     "wash_low": 0.2337,
     "wash_high": 0.2474,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.3268933340907097,
-    "t1": 0.3268933340907097,
+    "pivot": 0.3269100005427996,
+    "t1": 0.3269100005427996,
     "t2": 0.3400000035762787,
     "r1": 0.2943,
     "stop": 0.2267,
@@ -4530,7 +4730,7 @@
   {
    "ticker": "SPRU",
    "score": 6.62,
-   "price": 1.31,
+   "price": 1.32,
    "ext_price": null,
    "name": "Spruce Power Holding Corporation",
    "type": [
@@ -4544,9 +4744,9 @@
     "short_pct_float": 0.060100004,
     "split": "",
     "runner": "Former Runner (سبق انفجر +63% في يوم)",
-    "drawdown": 0.559,
+    "drawdown": 0.556,
     "rsi_min": 27.0,
-    "rsi_now": 29.0,
+    "rsi_now": 29.4,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -4595,7 +4795,7 @@
   {
    "ticker": "IBIO",
    "score": 6.62,
-   "price": 0.7805,
+   "price": 0.784,
    "ext_price": null,
    "name": "iBio, Inc.",
    "type": [
@@ -4610,9 +4810,9 @@
     "short_pct_float": 0.0656,
     "split": "",
     "runner": "Former Runner (سبق انفجر +90% في يوم)",
-    "drawdown": 0.63,
+    "drawdown": 0.628,
     "rsi_min": 19.0,
-    "rsi_now": 28.0,
+    "rsi_now": 28.2,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -4727,7 +4927,7 @@
   {
    "ticker": "ANTX",
    "score": 6.62,
-   "price": 3.62,
+   "price": 3.63,
    "ext_price": null,
    "name": "AN2 Therapeutics, Inc.",
    "type": [
@@ -4742,9 +4942,9 @@
     "short_pct_float": 0.0784,
     "split": "",
     "runner": "Former Runner (سبق انفجر +142% في يوم)",
-    "drawdown": 0.497,
+    "drawdown": 0.495,
     "rsi_min": 22.7,
-    "rsi_now": 30.5,
+    "rsi_now": 30.8,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -4792,7 +4992,7 @@
   {
    "ticker": "KLTR",
    "score": 6.5,
-   "price": 1.44,
+   "price": 1.435,
    "ext_price": null,
    "name": "Kaltura Inc. Common Stock",
    "type": [
@@ -4806,9 +5006,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +46% في يوم)",
-    "drawdown": 0.298,
+    "drawdown": 0.3,
     "rsi_min": 29.9,
-    "rsi_now": 56.9,
+    "rsi_now": 56.4,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "بداية تحسن"
    },
@@ -4918,7 +5118,7 @@
   {
    "ticker": "PLBY",
    "score": 6.38,
-   "price": 1.08,
+   "price": 1.09,
    "ext_price": null,
    "name": "Playboy Inc. Common Stock",
    "type": [
@@ -4932,9 +5132,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +42% في يوم)",
-    "drawdown": 0.327,
+    "drawdown": 0.321,
     "rsi_min": 29.8,
-    "rsi_now": 51.5,
+    "rsi_now": 53.2,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "إيجابي (الخط فوق الإشارة)"
    },
@@ -5046,7 +5246,7 @@
   {
    "ticker": "BNGO",
    "score": 6.38,
-   "price": 1.21,
+   "price": 1.205,
    "ext_price": null,
    "name": "Bionano Genomics, Inc.",
    "type": [
@@ -5060,9 +5260,9 @@
     "short_pct_float": 0.1728,
     "split": "",
     "runner": "Former Runner (سبق انفجر +68% في يوم)",
-    "drawdown": 0.457,
+    "drawdown": 0.46,
     "rsi_min": 32.4,
-    "rsi_now": 33.2,
+    "rsi_now": 32.9,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -5110,76 +5310,9 @@
    ]
   },
   {
-   "ticker": "VIVS",
-   "score": 6.38,
-   "price": 0.1555,
-   "ext_price": null,
-   "name": "VivoSim Labs, Inc.",
-   "type": [
-    "طبي — الخبر يحرّكه",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 14463605,
-    "shares": 16586495.0,
-    "short_pct_float": 0.0427,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +100% في يوم)",
-    "drawdown": 0.901,
-    "rsi_min": 22.2,
-    "rsi_now": 31.0,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "إيجابي (الخط فوق الإشارة)"
-   },
-   "news": [
-    [
-     "Oct 7, 2026",
-     "VivoSim Labs Highlights FDA Pathway For Human-Based Safety Testing;Stock Up"
-    ],
-    [
-     "Sep 16, 2026",
-     "VivoSim Labs Presents New NAMkind Data At EUROTOX 2026"
-    ],
-    [
-     "Jul 16, 2026",
-     "VivoSim Prices $4.0 Million Private Placement To Support NAM Technology Development; Stock Down"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.15,
-    "demand_low": 0.15,
-    "demand_high": 0.1515,
-    "wash_low": 0.1275,
-    "wash_high": 0.135,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.1599999964237213,
-    "t1": 0.1599999964237213,
-    "t2": 0.1818999946117401,
-    "r1": 0.16,
-    "stop": 0.1237,
-    "stop_tight": 0.147
-   },
-   "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.15 ثم استرداد",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.15–0.152 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.128–0.135 ثم استرداد 0.15 (ص17، ص86)",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +100% في يوم)",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
    "ticker": "TORO",
    "score": 6.25,
-   "price": 3.72,
+   "price": 3.74,
    "ext_price": null,
    "name": "Toro Corp. Common Shares",
    "type": [
@@ -5193,9 +5326,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +97% في يوم)",
-    "drawdown": 0.463,
-    "rsi_min": 25.3,
-    "rsi_now": 25.3,
+    "drawdown": 0.46,
+    "rsi_min": 25.5,
+    "rsi_now": 25.5,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -5222,7 +5355,7 @@
     "wash_note": "قاع سابق تحت الدعم",
     "pivot": 4.0,
     "t1": 4.0,
-    "t2": 4.67649998664856,
+    "t2": 4.677499985694885,
     "r1": 4.0,
     "stop": 3.3995,
     "stop_tight": 3.577
@@ -5242,9 +5375,74 @@
    ]
   },
   {
+   "ticker": "TGHL",
+   "score": 6.25,
+   "price": 0.585,
+   "ext_price": null,
+   "name": "The Growhub Limited",
+   "type": [
+    "ارتكاز"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 12722768,
+    "shares": 14866470.0,
+    "short_pct_float": 0.0047999998,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +613% في يوم)",
+    "drawdown": 0.656,
+    "rsi_min": 24.9,
+    "rsi_now": 38.7,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 22, 2026",
+     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+    ],
+    [
+     "Oct 22, 2026",
+     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+    ],
+    [
+     "Oct 22, 2026",
+     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.482,
+    "demand_low": 0.53,
+    "demand_high": 0.5395,
+    "wash_low": 0.4772,
+    "wash_high": 0.4916,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.5889999866485596,
+    "t1": 0.5889999866485596,
+    "t2": 0.6159999966621399,
+    "r1": 0.544,
+    "stop": 0.4629,
+    "stop_tight": 0.49
+   },
+   "not_ready": [
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
+    "الدخول تحت مقاومة مباشرة (0.59) — انتظر اختراقها والثبات"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 0.53–0.539 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.477–0.492 ثم استرداد 0.53 (ص17، ص86)",
+   "flags": [
+    "سيولة ضعيفة: متوسط الفوليوم 87.1K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +613% في يوم)",
+    "فوليوم يتحسن"
+   ]
+  },
+  {
    "ticker": "WOK",
    "score": 6.25,
-   "price": 1.13,
+   "price": 1.1288,
    "ext_price": null,
    "name": "WORK Medical Technology Group LTD",
    "type": [
@@ -5313,7 +5511,7 @@
   {
    "ticker": "EDVA",
    "score": 6.25,
-   "price": 0.1515,
+   "price": 0.151,
    "ext_price": null,
    "name": "Endovia Health Sciences Inc. Common Stock",
    "type": [
@@ -5327,9 +5525,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +174% في يوم)",
-    "drawdown": 0.881,
+    "drawdown": 0.882,
     "rsi_min": 24.5,
-    "rsi_now": 35.5,
+    "rsi_now": 35.3,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -5354,9 +5552,9 @@
     "wash_low": 0.1139,
     "wash_high": 0.1206,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.15800000727176666,
-    "t1": 0.15800000727176666,
-    "t2": 0.17900000512599945,
+    "pivot": 0.15199999511241913,
+    "t1": 0.15199999511241913,
+    "t2": 0.15600000321865082,
     "r1": 0.147,
     "stop": 0.1105,
     "stop_tight": 0.1313
@@ -5378,80 +5576,15 @@
    ]
   },
   {
-   "ticker": "TGHL",
-   "score": 6.25,
-   "price": 0.6039,
-   "ext_price": null,
-   "name": "The Growhub Limited",
-   "type": [
-    "ارتكاز"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 12722768,
-    "shares": 14866470.0,
-    "short_pct_float": 0.0047999998,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +613% في يوم)",
-    "drawdown": 0.645,
-    "rsi_min": 24.9,
-    "rsi_now": 40.7,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
-    ],
-    [
-     "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
-    ],
-    [
-     "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.482,
-    "demand_low": 0.53,
-    "demand_high": 0.553,
-    "wash_low": 0.4772,
-    "wash_high": 0.4916,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.6159999966621399,
-    "t1": 0.6159999966621399,
-    "t2": 0.6380000114440918,
-    "r1": 0.589,
-    "stop": 0.4629,
-    "stop_tight": 0.49
-   },
-   "not_ready": [
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "مساحة صعود أكبر حتى المقاومات القادمة"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.53–0.553 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.477–0.492 ثم استرداد 0.53 (ص17، ص86)",
-   "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 87.1K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +613% في يوم)",
-    "فوليوم يتحسن"
-   ]
-  },
-  {
    "ticker": "LSTA",
    "score": 6.12,
-   "price": 1.02,
+   "price": 1.01,
    "ext_price": null,
    "name": "Lisata Therapeutics Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه"
    ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
    "status": "WATCH",
    "data": {
     "float": null,
@@ -5459,9 +5592,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +93% في يوم)",
-    "drawdown": 0.738,
+    "drawdown": 0.741,
     "rsi_min": 31.5,
-    "rsi_now": 34.9,
+    "rsi_now": 34.5,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -5482,27 +5615,91 @@
    "levels": {
     "bottom": 0.96,
     "demand_low": 1.02,
-    "demand_high": 1.02,
+    "demand_high": 1.025,
     "wash_low": 0.9702,
     "wash_high": 0.9996,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.0399999618530273,
-    "t1": 1.0399999618530273,
-    "t2": 1.0800000429153442,
+    "pivot": 1.0700000524520874,
+    "t1": 1.0700000524520874,
+    "t2": 1.2100000023841857,
     "r1": 1.04,
     "stop": 0.9411,
     "stop_tight": 0.98
    },
    "not_ready": [
-    "إغلاق وثبات فوق 1.02 بعد سحب السيولة",
+    "استرداد الدعم 1.02 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 32)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.02–1.02 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.97–1 ثم استرداد 1.02 (ص17، ص86)",
+   "ready_when": "استرداد 1.02 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.97–1",
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
     "Former Runner (سبق انفجر +93% في يوم)",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
+   "ticker": "MNOV",
+   "score": 6.12,
+   "price": 1.4,
+   "ext_price": null,
+   "name": "Medicinova Inc Common Stock",
+   "type": [
+    "طبي — الخبر يحرّكه"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +65% في يوم)",
+    "drawdown": 0.641,
+    "rsi_min": 34.1,
+    "rsi_now": 36.6,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Sep 28, 2026",
+     "MediciNova Reports Phase 2 MN-001 Data In T2DM-Associated NAFLD; Stock Plunges In Premarket"
+    ],
+    [
+     "Sep 24, 2026",
+     "MNOV Stock In Focus As COMBAT-ALS Completes Double-Blind Phase; Results Due By Year-End"
+    ],
+    [
+     "Sep 18, 2026",
+     "Biotech Stocks At 52-Week Highs - MNOV +36%, PBLS +10%, ABCL +9%, HAE, NEO"
+    ]
+   ],
+   "levels": {
+    "bottom": 1.29,
+    "demand_low": 1.37,
+    "demand_high": 1.3714,
+    "wash_low": 1.2969,
+    "wash_high": 1.3362,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.409999966621399,
+    "t1": 1.409999966621399,
+    "t2": 1.4500000476837158,
+    "r1": 1.41,
+    "stop": 1.258,
+    "stop_tight": 1.3328
+   },
+   "not_ready": [
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 1.37–1.37 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.3–1.34 ثم استرداد 1.37 (ص17، ص86)",
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +65% في يوم)",
     "فوليوم البيع يضعف"
    ]
   },
@@ -5573,7 +5770,7 @@
   {
    "ticker": "CYAB",
    "score": 6.12,
-   "price": 0.1451,
+   "price": 0.1448,
    "ext_price": null,
    "name": "Cyabra Inc. Common Stock",
    "type": [
@@ -5609,7 +5806,7 @@
     ]
    ],
    "levels": {
-    "bottom": 0.14,
+    "bottom": 0.1396,
     "demand_low": 0.14,
     "demand_high": 0.1414,
     "wash_low": 0.119,
@@ -5700,68 +5897,6 @@
    ]
   },
   {
-   "ticker": "LIDR",
-   "score": 6.12,
-   "price": 0.9485,
-   "ext_price": null,
-   "name": "AEye Inc. Class A Common Stock",
-   "type": [
-    "🚩 علم/اختراق بعد قاعدة"
-   ],
-   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +80% في يوم)",
-    "drawdown": 0.422,
-    "rsi_min": 18.7,
-    "rsi_now": 39.9,
-    "ma": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
-    ],
-    [
-     "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
-    ],
-    [
-     "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.81,
-    "demand_low": 0.91,
-    "demand_high": 0.9373,
-    "wash_low": 0.8019,
-    "wash_high": 0.8262,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.0099999904632568,
-    "t1": 1.0099999904632568,
-    "t2": 1.0895833373069763,
-    "r1": 1.02,
-    "stop": 0.7778,
-    "stop_tight": 0.865
-   },
-   "not_ready": [
-    "اخترق المقاومة القريبة 0.91 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "ready_when": "🚩 رجوع لاختبار 0.91 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
-   "flags": [],
-   "tags": [
-    "Former Runner (سبق انفجر +80% في يوم)",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
    "ticker": "FTEK",
    "score": 6.12,
    "price": 1.35,
@@ -5827,7 +5962,7 @@
   {
    "ticker": "FLWS",
    "score": 6.12,
-   "price": 2.705,
+   "price": 2.79,
    "ext_price": null,
    "name": "1-800-FLOWERS.COM Inc. Common Stock",
    "type": [
@@ -5841,11 +5976,11 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +39% في يوم)",
-    "drawdown": 0.381,
+    "drawdown": 0.362,
     "rsi_min": 19.5,
-    "rsi_now": 44.9,
+    "rsi_now": 49.1,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-    "macd": "إيجابي (الخط فوق الإشارة)"
+    "macd": "بداية تحسن"
    },
    "news": [
     [
@@ -5869,7 +6004,7 @@
     "wash_high": 2.133,
     "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 2.930000066757202,
-    "t1": 3.130900001525879,
+    "t1": 3.1326000022888185,
     "t2": 3.450000047683716,
     "r1": 2.71,
     "stop": 1.9541,
@@ -5888,9 +6023,76 @@
    ]
   },
   {
+   "ticker": "XAIR",
+   "score": 6.12,
+   "price": 2.25,
+   "ext_price": null,
+   "name": "Beyond Air Inc. Common Stock",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +204% في يوم)",
+    "drawdown": 0.786,
+    "rsi_min": 27.1,
+    "rsi_now": 35.8,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Sep 1, 2026",
+     "Lake Street Initiates Coverage of Beyond Air (XAIR) with Buy Recommendation"
+    ],
+    [
+     "Aug 31, 2026",
+     "Beyond Air Receives FDA Breakthrough Device Designation For LungFit GO In NTM-PD"
+    ],
+    [
+     "Aug 25, 2026",
+     "Beyond Air Enters Definitive Agreement With UNIVO For NeuroNOS Stake; Stock Down"
+    ]
+   ],
+   "levels": {
+    "bottom": 2.05,
+    "demand_low": 2.05,
+    "demand_high": 2.0705,
+    "wash_low": 1.7425,
+    "wash_high": 1.845,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 2.2699999809265137,
+    "t1": 2.2699999809265137,
+    "t2": 2.3399999141693115,
+    "r1": 2.22,
+    "stop": 1.6902,
+    "stop_tight": 2.009
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 2.05 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 2.05–2.07 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.74–1.84 ثم استرداد 2.05 (ص17، ص86)",
+   "flags": [
+    "سيولة ضعيفة: متوسط الفوليوم 87.5K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +204% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
    "ticker": "BGL",
    "score": 6.12,
-   "price": 0.1316,
+   "price": 0.1318,
    "ext_price": null,
    "name": "Blue Gold Limited Class A Ordinary Shares",
    "type": [
@@ -5933,7 +6135,7 @@
     "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 0.14399999380111694,
     "t1": 0.14399999380111694,
-    "t2": 0.16998000144958497,
+    "t2": 0.1699900008738041,
     "r1": 0.144,
     "stop": 0.0989,
     "stop_tight": 0.1176
@@ -6020,11 +6222,11 @@
    ]
   },
   {
-   "ticker": "AUST",
+   "ticker": "YCBD",
    "score": 6.12,
-   "price": 0.7801,
+   "price": 0.363,
    "ext_price": null,
-   "name": "Austin Gold Corp. Common Shares",
+   "name": "cbdMD Inc. Common Stock",
    "type": [
     "قاع نظيف"
    ],
@@ -6035,51 +6237,61 @@
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +101% في يوم)",
-    "drawdown": 0.458,
-    "rsi_min": 18.2,
-    "rsi_now": 30.1,
+    "runner": "Former Runner (سبق انفجر +136% في يوم)",
+    "drawdown": 0.557,
+    "rsi_min": 27.1,
+    "rsi_now": 36.8,
     "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
+    "macd": "تقاطع إيجابي حديث"
    },
    "news": [
     [
-     "Sep 28, 2026",
-     "AUST Crosses Critical Technical Indicator"
+     "Sep 4, 2026",
+     "Weekly Buzz: IONS, MIST, BIIB, AZN Win Nods; TCRX, NVS Cut Jobs; OVID, VIR Data; REGN, PASG Deals"
+    ],
+    [
+     "Sep 2, 2026",
+     "CbdMD Enters Definitive Agreement To Acquire Twinlab Brands To Expand Wellness Platform;  Stock Up"
+    ],
+    [
+     "Jan 3, 2025",
+     "cbdMD discloses NYSE listing compliance notice"
     ]
    ],
    "levels": {
-    "bottom": 0.708,
-    "demand_low": 0.708,
-    "demand_high": 0.7151,
-    "wash_low": 0.6018,
-    "wash_high": 0.6372,
+    "bottom": 0.33,
+    "demand_low": 0.33,
+    "demand_high": 0.3333,
+    "wash_low": 0.2805,
+    "wash_high": 0.297,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.8100000023841858,
-    "t1": 0.8100000023841858,
-    "t2": 0.9208049982786178,
-    "r1": 0.81,
-    "stop": 0.5837,
-    "stop_tight": 0.6938
+    "pivot": 0.36800000071525574,
+    "t1": 0.36800000071525574,
+    "t2": 0.3869999945163727,
+    "r1": 0.368,
+    "stop": 0.2721,
+    "stop_tight": 0.3234
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.71 ثم استرداد",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.33 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.708–0.715 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.602–0.637 ثم استرداد 0.708 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.33–0.333 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.281–0.297 ثم استرداد 0.33 (ص17، ص86)",
    "flags": [
-    "شمعة ضخ/تصريف قبل 5 يوم (طار إلى 1.03 وأغلق 0.84 بفوليوم 18x)",
-    "سيولة ضعيفة: متوسط الفوليوم 58.9K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
+    "سيولة ضعيفة: متوسط الفوليوم 88.4K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +101% في يوم)",
+    "Former Runner (سبق انفجر +136% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
    "ticker": "CDXS",
    "score": 6.12,
-   "price": 1.3,
+   "price": 1.305,
    "ext_price": null,
    "name": "Codexis Inc. Common Stock",
    "type": [
@@ -6093,9 +6305,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +68% في يوم)",
-    "drawdown": 0.519,
+    "drawdown": 0.517,
     "rsi_min": 33.4,
-    "rsi_now": 45.0,
+    "rsi_now": 45.4,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -6138,13 +6350,12 @@
    ]
   },
   {
-   "ticker": "XAIR",
+   "ticker": "AUST",
    "score": 6.12,
-   "price": 2.2788,
+   "price": 0.7831,
    "ext_price": null,
-   "name": "Beyond Air Inc. Common Stock",
+   "name": "Austin Gold Corp. Common Shares",
    "type": [
-    "طبي — الخبر يحرّكه",
     "قاع نظيف"
    ],
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
@@ -6154,53 +6365,45 @@
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +204% في يوم)",
-    "drawdown": 0.783,
-    "rsi_min": 27.1,
-    "rsi_now": 36.4,
+    "runner": "Former Runner (سبق انفجر +101% في يوم)",
+    "drawdown": 0.456,
+    "rsi_min": 18.2,
+    "rsi_now": 30.3,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Sep 1, 2026",
-     "Lake Street Initiates Coverage of Beyond Air (XAIR) with Buy Recommendation"
-    ],
-    [
-     "Aug 31, 2026",
-     "Beyond Air Receives FDA Breakthrough Device Designation For LungFit GO In NTM-PD"
-    ],
-    [
-     "Aug 25, 2026",
-     "Beyond Air Enters Definitive Agreement With UNIVO For NeuroNOS Stake; Stock Down"
+     "Sep 28, 2026",
+     "AUST Crosses Critical Technical Indicator"
     ]
    ],
    "levels": {
-    "bottom": 2.05,
-    "demand_low": 2.05,
-    "demand_high": 2.0705,
-    "wash_low": 1.7425,
-    "wash_high": 1.845,
+    "bottom": 0.708,
+    "demand_low": 0.708,
+    "demand_high": 0.7151,
+    "wash_low": 0.6018,
+    "wash_high": 0.6372,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 2.3399999141693115,
-    "t1": 2.3399999141693115,
-    "t2": 2.459189975261688,
-    "r1": 2.22,
-    "stop": 1.6902,
-    "stop_tight": 2.009
+    "pivot": 0.8100000023841858,
+    "t1": 0.8100000023841858,
+    "t2": 0.9209549993276596,
+    "r1": 0.81,
+    "stop": 0.5837,
+    "stop_tight": 0.6938
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 2.05 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.71 ثم استرداد",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
    ],
-   "ready_when": "نزول لمنطقة الطلب 2.05–2.07 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.74–1.84 ثم استرداد 2.05 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.708–0.715 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.602–0.637 ثم استرداد 0.708 (ص17، ص86)",
    "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 87.5K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "شمعة ضخ/تصريف قبل 5 يوم (طار إلى 1.03 وأغلق 0.84 بفوليوم 18x)",
+    "سيولة ضعيفة: متوسط الفوليوم 58.9K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +204% في يوم)",
-    "فوليوم البيع يضعف",
+    "Former Runner (سبق انفجر +101% في يوم)",
+    "قيعان أعلى",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
@@ -6267,76 +6470,9 @@
    ]
   },
   {
-   "ticker": "YCBD",
-   "score": 6.12,
-   "price": 0.3739,
-   "ext_price": null,
-   "name": "cbdMD Inc. Common Stock",
-   "type": [
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +136% في يوم)",
-    "drawdown": 0.544,
-    "rsi_min": 27.1,
-    "rsi_now": 39.0,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "تقاطع إيجابي حديث"
-   },
-   "news": [
-    [
-     "Sep 4, 2026",
-     "Weekly Buzz: IONS, MIST, BIIB, AZN Win Nods; TCRX, NVS Cut Jobs; OVID, VIR Data; REGN, PASG Deals"
-    ],
-    [
-     "Sep 2, 2026",
-     "CbdMD Enters Definitive Agreement To Acquire Twinlab Brands To Expand Wellness Platform;  Stock Up"
-    ],
-    [
-     "Jan 3, 2025",
-     "cbdMD discloses NYSE listing compliance notice"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.33,
-    "demand_low": 0.33,
-    "demand_high": 0.3333,
-    "wash_low": 0.2805,
-    "wash_high": 0.297,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.3869999945163727,
-    "t1": 0.3869999945163727,
-    "t2": 0.4029449999332428,
-    "r1": 0.368,
-    "stop": 0.2721,
-    "stop_tight": 0.3234
-   },
-   "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.33 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.33–0.333 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.281–0.297 ثم استرداد 0.33 (ص17، ص86)",
-   "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 88.4K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +136% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
    "ticker": "SOS",
    "score": 6.12,
-   "price": 0.2157,
+   "price": 0.2127,
    "ext_price": null,
    "name": "SOS Limited",
    "type": [
@@ -6351,9 +6487,9 @@
     "short_pct_float": 0.0388,
     "split": "",
     "runner": "Former Runner (سبق انفجر +123% في يوم)",
-    "drawdown": 0.819,
+    "drawdown": 0.821,
     "rsi_min": 21.8,
-    "rsi_now": 27.8,
+    "rsi_now": 27.6,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -6403,11 +6539,11 @@
    ]
   },
   {
-   "ticker": "MNOV",
-   "score": 6.0,
-   "price": 1.39,
+   "ticker": "FBLG",
+   "score": 6.12,
+   "price": 1.045,
    "ext_price": null,
-   "name": "Medicinova Inc Common Stock",
+   "name": "FibroBiologics Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه"
    ],
@@ -6418,58 +6554,60 @@
     "shares": null,
     "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +65% في يوم)",
-    "drawdown": 0.644,
-    "rsi_min": 34.1,
-    "rsi_now": 36.2,
-    "ma": "تحت كل المتوسطات (ضغط)",
+    "runner": "Former Runner (سبق انفجر +40% في يوم)",
+    "drawdown": 0.525,
+    "rsi_min": 29.3,
+    "rsi_now": 42.3,
+    "ma": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Sep 28, 2026",
-     "MediciNova Reports Phase 2 MN-001 Data In T2DM-Associated NAFLD; Stock Plunges In Premarket"
+     "Sep 30, 2026",
+     "FibroBiologics Secures European Patent For Fibroblast Therapeutic Technology; Stock Up"
     ],
     [
-     "Sep 24, 2026",
-     "MNOV Stock In Focus As COMBAT-ALS Completes Double-Blind Phase; Results Due By Year-End"
+     "Sep 17, 2026",
+     "FibroBiologics Secures $0.5 Mln Private Placement; Stock Up"
     ],
     [
-     "Sep 18, 2026",
-     "Biotech Stocks At 52-Week Highs - MNOV +36%, PBLS +10%, ABCL +9%, HAE, NEO"
+     "Sep 3, 2026",
+     "FibroBiologics Secures U.S. Patent For Fibroblast-Based Wound Healing Therapy; Stock Down"
     ]
    ],
    "levels": {
-    "bottom": 1.29,
-    "demand_low": 1.37,
-    "demand_high": 1.3714,
-    "wash_low": 1.2969,
-    "wash_high": 1.3362,
+    "bottom": 0.655,
+    "demand_low": 0.925,
+    "demand_high": 0.9797,
+    "wash_low": 0.797,
+    "wash_high": 0.8211,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.409999966621399,
-    "t1": 1.409999966621399,
-    "t2": 1.440000057220459,
-    "r1": 1.41,
-    "stop": 1.258,
-    "stop_tight": 1.3328
+    "pivot": 1.0959999561309814,
+    "t1": 1.0959999561309814,
+    "t2": 1.1699999570846558,
+    "r1": 1.0,
+    "stop": 0.773,
+    "stop_tight": 0.8634
    },
    "not_ready": [
-    "إغلاق وثبات فوق 1.37 بعد سحب السيولة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)"
+    "إغلاق وثبات فوق 0.93 بعد سحب السيولة",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.37–1.37 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.3–1.34 ثم استرداد 1.37 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.925–0.98 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.797–0.821 ثم استرداد 0.925 (ص17، ص86)",
    "flags": [
+    "فشل عند MA20",
     "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +65% في يوم)",
-    "فوليوم البيع يضعف"
+    "Former Runner (سبق انفجر +40% في يوم)",
+    "فوليوم البيع يضعف",
+    "فوليوم يتحسن"
    ]
   },
   {
    "ticker": "MSS",
    "score": 6.0,
-   "price": 1.26,
+   "price": 1.27,
    "ext_price": null,
    "name": "Maison Solutions Inc. Class A Common Stock",
    "type": [
@@ -6483,9 +6621,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +131% في يوم)",
-    "drawdown": 0.713,
+    "drawdown": 0.71,
     "rsi_min": 32.6,
-    "rsi_now": 38.3,
+    "rsi_now": 38.9,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -6510,9 +6648,9 @@
     "wash_low": 1.054,
     "wash_high": 1.116,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.2699999809265137,
-    "t1": 1.2699999809265137,
-    "t2": 1.5164999842643738,
+    "pivot": 1.2999999523162842,
+    "t1": 1.2999999523162842,
+    "t2": 1.5169999837875365,
     "r1": 1.262,
     "stop": 1.0224,
     "stop_tight": 1.127
@@ -6528,6 +6666,73 @@
    "tags": [
     "Former Runner (سبق انفجر +131% في يوم)",
     "فوليوم البيع يضعف"
+   ]
+  },
+  {
+   "ticker": "VNRX",
+   "score": 6.0,
+   "price": 0.164,
+   "ext_price": null,
+   "name": "VolitionRX Limited Common Stock",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "قاع نظيف"
+   ],
+   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +112% في يوم)",
+    "drawdown": 0.895,
+    "rsi_min": 22.7,
+    "rsi_now": 23.0,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "إيجابي (الخط فوق الإشارة)"
+   },
+   "news": [
+    [
+     "Oct 2, 2026",
+     "VolitionRx Consensus Price Target Decreased by 17.44% to $13.89"
+    ],
+    [
+     "Aug 26, 2026",
+     "Volition Validates Nu.Q NETs Biomarker In Sepsis; Stock Down"
+    ],
+    [
+     "Aug 20, 2026",
+     "Volition (VNRX) Q2 2026 Earnings Call Transcript"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.1564,
+    "demand_low": 0.17,
+    "demand_high": 0.17,
+    "wash_low": 0.1445,
+    "wash_high": 0.153,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.18000000715255737,
+    "t1": 0.18000000715255737,
+    "t2": 0.20000000298023224,
+    "r1": 0.18,
+    "stop": 0.1402,
+    "stop_tight": 0.1533
+   },
+   "not_ready": [
+    "استرداد الدعم 0.17 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
+   ],
+   "ready_when": "استرداد 0.17 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.145–0.153",
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +112% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
@@ -6594,76 +6799,9 @@
    ]
   },
   {
-   "ticker": "VNRX",
-   "score": 6.0,
-   "price": 0.1572,
-   "ext_price": null,
-   "name": "VolitionRX Limited Common Stock",
-   "type": [
-    "طبي — الخبر يحرّكه",
-    "قاع نظيف"
-   ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +112% في يوم)",
-    "drawdown": 0.899,
-    "rsi_min": 22.1,
-    "rsi_now": 22.1,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "إيجابي (الخط فوق الإشارة)"
-   },
-   "news": [
-    [
-     "Oct 2, 2026",
-     "VolitionRx Consensus Price Target Decreased by 17.44% to $13.89"
-    ],
-    [
-     "Aug 26, 2026",
-     "Volition Validates Nu.Q NETs Biomarker In Sepsis; Stock Down"
-    ],
-    [
-     "Aug 20, 2026",
-     "Volition (VNRX) Q2 2026 Earnings Call Transcript"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.1564,
-    "demand_low": 0.17,
-    "demand_high": 0.17,
-    "wash_low": 0.1445,
-    "wash_high": 0.153,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.18000000715255737,
-    "t1": 0.18000000715255737,
-    "t2": 0.20000000298023224,
-    "r1": 0.18,
-    "stop": 0.1402,
-    "stop_tight": 0.1533
-   },
-   "not_ready": [
-    "استرداد الدعم 0.17 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
-   ],
-   "ready_when": "استرداد 0.17 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.145–0.153",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +112% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
    "ticker": "MTEN",
    "score": 5.88,
-   "price": 0.975,
+   "price": 0.99,
    "ext_price": null,
    "name": "Mingteng International Corporation Inc.",
    "type": [
@@ -6679,9 +6817,9 @@
     "short_pct_float": 0.019,
     "split": "",
     "runner": "Former Runner (سبق انفجر +391% في يوم)",
-    "drawdown": 0.756,
+    "drawdown": 0.752,
     "rsi_min": 33.8,
-    "rsi_now": 49.9,
+    "rsi_now": 51.2,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -6722,7 +6860,7 @@
   {
    "ticker": "SLGB",
    "score": 5.88,
-   "price": 0.2237,
+   "price": 0.2298,
    "ext_price": null,
    "name": "Smart Logistics Global Limited Class A Ordinary Shares",
    "type": [
@@ -6737,9 +6875,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +227% في يوم)",
-    "drawdown": 0.82,
+    "drawdown": 0.815,
     "rsi_min": 27.7,
-    "rsi_now": 31.4,
+    "rsi_now": 32.8,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -6764,9 +6902,9 @@
     "wash_low": 0.1717,
     "wash_high": 0.1818,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.22699999809265137,
-    "t1": 0.22699999809265137,
-    "t2": 0.2591849975287914,
+    "pivot": 0.25099998712539673,
+    "t1": 0.25099998712539673,
+    "t2": 0.25948999747633933,
     "r1": 0.223,
     "stop": 0.1665,
     "stop_tight": 0.198
@@ -6789,7 +6927,7 @@
   {
    "ticker": "TAOP",
    "score": 5.88,
-   "price": 0.3299,
+   "price": 0.331,
    "ext_price": null,
    "name": "Taoping Inc. Ordinary Shares ",
    "type": [
@@ -6804,9 +6942,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +58% في يوم)",
-    "drawdown": 0.793,
+    "drawdown": 0.792,
     "rsi_min": 22.5,
-    "rsi_now": 27.6,
+    "rsi_now": 27.8,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -6836,7 +6974,7 @@
    },
    "not_ready": [
     "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "السعر ابتعد 9% فوق منطقة الطلب — ضع Limit عند 0.29–0.30 ولا تطارد"
+    "السعر ابتعد 10% فوق منطقة الطلب — ضع Limit عند 0.29–0.30 ولا تطارد"
    ],
    "ready_when": "نزول لمنطقة الطلب 0.29–0.302 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.246–0.261 ثم استرداد 0.29 (ص17، ص86)",
    "flags": [
@@ -6850,9 +6988,136 @@
    ]
   },
   {
+   "ticker": "QUCY",
+   "score": 5.88,
+   "price": 1.03,
+   "ext_price": null,
+   "name": "Quantum Cyber N.V. Ordinary Shares",
+   "type": [
+    "طبي — الخبر يحرّكه"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +402% في يوم)",
+    "drawdown": 0.505,
+    "rsi_min": 32.2,
+    "rsi_now": 37.0,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Feb 17, 2026",
+     "Mainz Biomed Announces $6 Mln Private Placement In Two Tranches To Fund Operations, Stock Down"
+    ],
+    [
+     "Dec 12, 2025",
+     "2 Small-Cap Biotechs That Could Reward Patient Investors"
+    ],
+    [
+     "Nov 12, 2025",
+     "Mainz Biomed To Present Flagship Product, ColoAlert, At MEDICA 2025"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.9,
+    "demand_low": 1.03,
+    "demand_high": 1.03,
+    "wash_low": 0.9851,
+    "wash_high": 1.0145,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.090000033378601,
+    "t1": 1.090000033378601,
+    "t2": 1.1299999952316284,
+    "r1": 1.09,
+    "stop": 0.9555,
+    "stop_tight": 0.9996
+   },
+   "not_ready": [
+    "إغلاق وثبات فوق 1.03 بعد سحب السيولة",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 32)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 1.03–1.03 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.985–1.01 ثم استرداد 1.03 (ص17، ص86)",
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +402% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
+   "ticker": "SHMD",
+   "score": 5.88,
+   "price": 2.775,
+   "ext_price": null,
+   "name": "SCHMID Group N.V. Class A Ordinary Shares",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +50% في يوم)",
+    "drawdown": 0.615,
+    "rsi_min": 31.5,
+    "rsi_now": 34.3,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 21, 2026",
+     "SCHMID Q3 Order Intake More Than Doubles, Lifts FY26 Order Guidance; Bags $25 Mln Order, Shares Up"
+    ],
+    [
+     "Aug 25, 2026",
+     "SCHMID Group Q2 Earnings Call Highlights"
+    ],
+    [
+     "May 18, 2026",
+     "SCHMID Group Q4 Earnings Call Highlights"
+    ]
+   ],
+   "levels": {
+    "bottom": 2.635,
+    "demand_low": 2.765,
+    "demand_high": 2.7662,
+    "wash_low": 2.3503,
+    "wash_high": 2.4885,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 2.950000047683716,
+    "t1": 2.950000047683716,
+    "t2": 3.059999942779541,
+    "r1": 2.95,
+    "stop": 2.2797,
+    "stop_tight": 2.5823
+   },
+   "not_ready": [
+    "إغلاق وثبات فوق 2.77 بعد سحب السيولة",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 32)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 2.77–2.77 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 2.35–2.49 ثم استرداد 2.77 (ص17، ص86)",
+   "flags": [],
+   "tags": [
+    "Former Runner (سبق انفجر +50% في يوم)",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
    "ticker": "IVDA",
    "score": 5.88,
-   "price": 0.2364,
+   "price": 0.2369,
    "ext_price": null,
    "name": "Iveda Solutions Inc. Common Stock",
    "type": [
@@ -6868,7 +7133,7 @@
     "runner": "Former Runner (سبق انفجر +119% في يوم)",
     "drawdown": 0.662,
     "rsi_min": 30.8,
-    "rsi_now": 38.9,
+    "rsi_now": 39.0,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -6914,139 +7179,9 @@
    ]
   },
   {
-   "ticker": "CWD",
-   "score": 5.88,
-   "price": 0.3878,
-   "ext_price": null,
-   "name": "CaliberCos Inc. Class A Common Stock",
-   "type": [
-    "قاع نظيف"
-   ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +136% في يوم)",
-    "drawdown": 0.745,
-    "rsi_min": 33.5,
-    "rsi_now": 33.5,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Aug 20, 2026",
-     "Caliber (CWD) Q2 2026 Earnings Call Transcript"
-    ],
-    [
-     "May 14, 2026",
-     "CaliberCos (CWD) Q1 2026 Earnings Transcript"
-    ],
-    [
-     "Nov 13, 2025",
-     "CaliberCos (CWD) Q3 2025 Earnings Call Transcript"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.3744,
-    "demand_low": 0.401,
-    "demand_high": 0.401,
-    "wash_low": 0.3408,
-    "wash_high": 0.3609,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.414000004529953,
-    "t1": 0.414000004529953,
-    "t2": 0.5064900040626525,
-    "r1": 0.414,
-    "stop": 0.3306,
-    "stop_tight": 0.3669
-   },
-   "not_ready": [
-    "استرداد الدعم 0.40 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)"
-   ],
-   "ready_when": "استرداد 0.401 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.341–0.361",
-   "flags": [
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +136% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
-   "ticker": "DTSS",
-   "score": 5.88,
-   "price": 0.5999,
-   "ext_price": null,
-   "name": "Datasea Intelligent Technology Ltd.",
-   "type": [
-    "صيني عالي التذبذب ⚠️"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 9232443,
-    "shares": 10424881.0,
-    "short_pct_float": 0.0215,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +287% في يوم)",
-    "drawdown": 0.738,
-    "rsi_min": 34.6,
-    "rsi_now": 43.4,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "May 15, 2025",
-     "Datasea Posts Narrower Loss In Q3"
-    ],
-    [
-     "May 8, 2025",
-     "Datasea Q3 Revenue To Rise Approx. 164.6%"
-    ],
-    [
-     "Feb 14, 2025",
-     "Datasea Q2 Revenue Increases"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.522,
-    "demand_low": 0.58,
-    "demand_high": 0.58,
-    "wash_low": 0.5247,
-    "wash_high": 0.5406,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.6230000257492065,
-    "t1": 0.6230000257492065,
-    "t2": 0.6460000276565552,
-    "r1": 0.623,
-    "stop": 0.509,
-    "stop_tight": 0.5194
-   },
-   "not_ready": [
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 35)",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.58–0.58 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.525–0.541 ثم استرداد 0.58 (ص17، ص86)",
-   "flags": [
-    "سهم صيني عالي التذبذب"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +287% في يوم)",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
    "ticker": "GTEC",
    "score": 5.75,
-   "price": 0.6004,
+   "price": 0.6006,
    "ext_price": null,
    "name": "Greenland Technologies Holding Corporation Class A Ordinary Shares",
    "type": [
@@ -7110,7 +7245,7 @@
   {
    "ticker": "IPSC",
    "score": 5.62,
-   "price": 1.6008,
+   "price": 1.585,
    "ext_price": null,
    "name": "Century Therapeutics Inc. Common Stock",
    "type": [
@@ -7125,9 +7260,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +49% في يوم)",
-    "drawdown": 0.372,
+    "drawdown": 0.378,
     "rsi_min": 20.1,
-    "rsi_now": 49.6,
+    "rsi_now": 48.8,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -7152,8 +7287,8 @@
     "wash_low": 1.2969,
     "wash_high": 1.3362,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.8005159974098206,
-    "t1": 1.8005159974098206,
+    "pivot": 1.8001999974250793,
+    "t1": 1.8001999974250793,
     "t2": 1.940000057220459,
     "r1": 1.67,
     "stop": 1.258,
@@ -7174,7 +7309,7 @@
   {
    "ticker": "NEOV",
    "score": 5.62,
-   "price": 2.1,
+   "price": 2.075,
    "ext_price": null,
    "name": "NeoVolta Inc.",
    "type": [
@@ -7188,9 +7323,9 @@
     "short_pct_float": 0.1282,
     "split": "",
     "runner": "Former Runner (سبق انفجر +46% في يوم)",
-    "drawdown": 0.517,
+    "drawdown": 0.523,
     "rsi_min": 33.9,
-    "rsi_now": 35.7,
+    "rsi_now": 35.3,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -7234,66 +7369,68 @@
    ]
   },
   {
-   "ticker": "ARAI",
+   "ticker": "NCT",
    "score": 5.62,
-   "price": 0.1201,
+   "price": 1.3112,
    "ext_price": null,
-   "name": "Arrive AI Inc. Common Stock",
+   "name": "Intercont (Cayman) Limited Class A Ordinary shares",
    "type": [
+    "صيني عالي التذبذب ⚠️",
     "قاع نظيف"
    ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
-    "float": 27186765,
-    "shares": 52260824.0,
-    "short_pct_float": 0.0673,
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +112% في يوم)",
-    "drawdown": 0.765,
-    "rsi_min": 22.0,
-    "rsi_now": 23.4,
+    "runner": "Former Runner (سبق انفجر +142% في يوم)",
+    "drawdown": 0.991,
+    "rsi_min": 22.5,
+    "rsi_now": 22.9,
     "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
+    "macd": "إيجابي (الخط فوق الإشارة)"
    },
    "news": [
     [
-     "Aug 13, 2026",
-     "Arrive AI (ARAI) Q2 2026 Earnings Call Transcript"
+     "Oct 22, 2026",
+     "Stocks Rally on Positive AI News, with SpaceX up +7%"
     ],
     [
-     "Jan 26, 2026",
-     "Pre-Market Most Active for Jan 26, 2026 :  ARAI, USAR, CRWG, TSLL, NAMM, TQQQ, IONQ, LAC, RDW, AG, HL, NIO"
+     "Oct 22, 2026",
+     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
     ],
     [
-     "Nov 4, 2025",
-     "Maxim Group Initiates Coverage of Arrive AI (ARAI) with Buy Recommendation"
+     "Oct 22, 2026",
+     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
     ]
    ],
    "levels": {
-    "bottom": 0.113,
-    "demand_low": 0.113,
-    "demand_high": 0.1141,
-    "wash_low": 0.096,
-    "wash_high": 0.1017,
+    "bottom": 1.22,
+    "demand_low": 1.25,
+    "demand_high": 1.2828,
+    "wash_low": 1.0625,
+    "wash_high": 1.125,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.12399999797344208,
-    "t1": 0.12399999797344208,
-    "t2": 0.13500000536441803,
-    "r1": 0.124,
-    "stop": 0.0932,
-    "stop_tight": 0.1107
+    "pivot": 1.3700000047683716,
+    "t1": 1.3700000047683716,
+    "t2": 1.6848099827766418,
+    "r1": 1.37,
+    "stop": 1.0306,
+    "stop_tight": 1.1956
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.11 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+    "إغلاق وثبات فوق 1.25 بعد سحب السيولة",
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.113–0.114 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.096–0.102 ثم استرداد 0.113 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 1.25–1.28 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.06–1.12 ثم استرداد 1.25 (ص17، ص86)",
    "flags": [
-    "سعر منخفض جداً — سبريد واسع"
+    "شمعة ضخ/تصريف قبل 10 يوم (طار إلى 2.24 وأغلق 1.65 بفوليوم 104x)",
+    "سهم صيني عالي التذبذب"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +112% في يوم)",
+    "Former Runner (سبق انفجر +142% في يوم)",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
@@ -7301,7 +7438,7 @@
   {
    "ticker": "FTHM",
    "score": 5.62,
-   "price": 0.186,
+   "price": 0.1853,
    "ext_price": null,
    "name": "Fathom Holdings Inc.",
    "type": [
@@ -7317,7 +7454,7 @@
     "runner": "Former Runner (سبق انفجر +126% في يوم)",
     "drawdown": 0.87,
     "rsi_min": 17.2,
-    "rsi_now": 19.7,
+    "rsi_now": 19.6,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "تقاطع إيجابي حديث"
    },
@@ -7364,134 +7501,66 @@
    ]
   },
   {
-   "ticker": "SDA",
+   "ticker": "ARAI",
    "score": 5.62,
-   "price": 0.29,
+   "price": 0.125,
    "ext_price": null,
-   "name": "SunCar Technology Group Inc.",
+   "name": "Arrive AI Inc. Common Stock",
    "type": [
-    "صيني عالي التذبذب ⚠️",
     "قاع نظيف"
    ],
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
-    "float": 35276877,
-    "shares": 55969794.0,
-    "short_pct_float": 0.0092,
+    "float": 27186765,
+    "shares": 52260824.0,
+    "short_pct_float": 0.0673,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +50% في يوم)",
-    "drawdown": 0.701,
-    "rsi_min": 27.2,
-    "rsi_now": 28.1,
+    "runner": "Former Runner (سبق انفجر +112% في يوم)",
+    "drawdown": 0.756,
+    "rsi_min": 22.0,
+    "rsi_now": 25.4,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Dec 22, 2025",
-     "BTIG Reiterates SunCar Technology Group (SDA) Buy Recommendation"
+     "Aug 13, 2026",
+     "Arrive AI (ARAI) Q2 2026 Earnings Call Transcript"
     ],
     [
-     "Oct 29, 2025",
-     "BTIG Maintains SunCar Technology Group (SDA) Buy Recommendation"
+     "Jan 26, 2026",
+     "Pre-Market Most Active for Jan 26, 2026 :  ARAI, USAR, CRWG, TSLL, NAMM, TQQQ, IONQ, LAC, RDW, AG, HL, NIO"
     ],
     [
-     "Feb 7, 2025",
-     "SunCar Technology To Buyback $30 Mln Class A Ordinary Shares"
+     "Nov 4, 2025",
+     "Maxim Group Initiates Coverage of Arrive AI (ARAI) with Buy Recommendation"
     ]
    ],
    "levels": {
-    "bottom": 0.27,
-    "demand_low": 0.27,
-    "demand_high": 0.2727,
-    "wash_low": 0.2295,
-    "wash_high": 0.243,
+    "bottom": 0.113,
+    "demand_low": 0.113,
+    "demand_high": 0.1141,
+    "wash_low": 0.096,
+    "wash_high": 0.1017,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.3240000009536743,
-    "t1": 0.3240000009536743,
-    "t2": 0.33399999141693115,
-    "r1": 0.324,
-    "stop": 0.2226,
-    "stop_tight": 0.2646
+    "pivot": 0.12700000405311584,
+    "t1": 0.12700000405311584,
+    "t2": 0.13500000536441803,
+    "r1": 0.124,
+    "stop": 0.0932,
+    "stop_tight": 0.1107
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.27 ثم استرداد",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.11 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.27–0.273 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.23–0.243 ثم استرداد 0.27 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.113–0.114 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.096–0.102 ثم استرداد 0.113 (ص17، ص86)",
    "flags": [
-    "سهم صيني عالي التذبذب",
     "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +50% في يوم)",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
-   "ticker": "NCT",
-   "score": 5.62,
-   "price": 1.36,
-   "ext_price": null,
-   "name": "Intercont (Cayman) Limited Class A Ordinary shares",
-   "type": [
-    "صيني عالي التذبذب ⚠️",
-    "قاع نظيف"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +142% في يوم)",
-    "drawdown": 0.991,
-    "rsi_min": 22.5,
-    "rsi_now": 23.2,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "إيجابي (الخط فوق الإشارة)"
-   },
-   "news": [
-    [
-     "Oct 22, 2026",
-     "Stocks Rally on Positive AI News, with SpaceX up +7%"
-    ],
-    [
-     "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
-    ],
-    [
-     "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
-    ]
-   ],
-   "levels": {
-    "bottom": 1.22,
-    "demand_low": 1.25,
-    "demand_high": 1.2828,
-    "wash_low": 1.0625,
-    "wash_high": 1.125,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.3700000047683716,
-    "t1": 1.3700000047683716,
-    "t2": 1.687249982357025,
-    "r1": 1.37,
-    "stop": 1.0306,
-    "stop_tight": 1.1956
-   },
-   "not_ready": [
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 1.25–1.28 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.06–1.12 ثم استرداد 1.25 (ص17، ص86)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 10 يوم (طار إلى 2.24 وأغلق 1.65 بفوليوم 104x)",
-    "سهم صيني عالي التذبذب"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +142% في يوم)",
+    "Former Runner (سبق انفجر +112% في يوم)",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
@@ -7499,7 +7568,7 @@
   {
    "ticker": "TENX",
    "score": 5.38,
-   "price": 1.79,
+   "price": 1.815,
    "ext_price": null,
    "name": "Tenax Therapeutics, Inc.",
    "type": [
@@ -7514,9 +7583,9 @@
     "short_pct_float": 0.1935,
     "split": "",
     "runner": "Former Runner (سبق انفجر +34% في يوم)",
-    "drawdown": 0.908,
+    "drawdown": 0.906,
     "rsi_min": 22.1,
-    "rsi_now": 42.3,
+    "rsi_now": 43.3,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -7541,16 +7610,16 @@
     "wash_low": 1.3464,
     "wash_high": 1.3872,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.846500005722046,
-    "t1": 1.846500005722046,
-    "t2": 1.9600000381469727,
+    "pivot": 1.9600000381469727,
+    "t1": 1.9600000381469727,
+    "t2": 2.1050000190734863,
     "r1": 1.7,
     "stop": 1.306,
     "stop_tight": 1.47
    },
    "not_ready": [
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "السعر ابتعد 8% فوق منطقة الطلب — ضع Limit عند 1.59–1.65 ولا تطارد"
+    "السعر ابتعد 10% فوق منطقة الطلب — ضع Limit عند 1.59–1.65 ولا تطارد"
    ],
    "ready_when": "نزول لمنطقة الطلب 1.59–1.65 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.35–1.39 ثم استرداد 1.59 (ص17، ص86)",
    "flags": [
@@ -7563,7 +7632,7 @@
   {
    "ticker": "NTHI",
    "score": 5.38,
-   "price": 2.9101,
+   "price": 2.96,
    "ext_price": null,
    "name": "NeOnc Technologies Holdings Inc. Common Stock",
    "type": [
@@ -7578,9 +7647,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +48% في يوم)",
-    "drawdown": 0.5,
+    "drawdown": 0.491,
     "rsi_min": 32.6,
-    "rsi_now": 45.6,
+    "rsi_now": 47.1,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -7605,8 +7674,8 @@
     "wash_low": 2.476,
     "wash_high": 2.551,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 3.054003341992696,
-    "t1": 3.054003341992696,
+    "pivot": 3.055666677157084,
+    "t1": 3.055666677157084,
     "t2": 3.369999885559082,
     "r1": null,
     "stop": 2.4017,
@@ -7626,68 +7695,64 @@
    ]
   },
   {
-   "ticker": "WLDS",
-   "score": 5.25,
-   "price": 1.39,
+   "ticker": "CVGI",
+   "score": 5.38,
+   "price": 2.865,
    "ext_price": null,
-   "name": "Wearable Devices Ltd. Ordinary Share",
+   "name": "Commercial Vehicle Group, Inc.",
    "type": [
     "ارتكاز"
    ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "status": "WATCH",
    "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
+    "float": 27260584,
+    "shares": 40632682.0,
+    "short_pct_float": 0.0383,
     "split": "",
-    "runner": "Former Runner (سبق انفجر +115% في يوم)",
-    "drawdown": 0.786,
-    "rsi_min": 29.4,
-    "rsi_now": 43.8,
-    "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
+    "runner": "Former Runner (سبق انفجر +78% في يوم)",
+    "drawdown": 0.477,
+    "rsi_min": 32.8,
+    "rsi_now": 44.1,
+    "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
    "news": [
     [
-     "Jul 1, 2025",
-     "Wearable Devices Ltd. to Exhibit Mudra Link at XR Fair Tokyo 2025 in Japan"
+     "Aug 10, 2026",
+     "Commercial Vehicle Group (CVGI) Q2 2026 Earnings Call Transcript"
     ],
     [
-     "Jun 25, 2025",
-     "Wearable Devices Ltd. Expands AI-Powered Bio-Signal Technology into Predictive Health Monitoring and Cognitive State Analytics"
+     "Aug 4, 2026",
+     "Commercial Vehicle Group Q2 Earnings Call Highlights"
     ],
     [
-     "May 30, 2025",
-     "Wearable Devices Ltd. Secures Patent for Gesture and Voice-Controlled Interface, Advancing Touchless Sensing Wearables"
+     "Aug 3, 2026",
+     "Commercial Vehicle Group (CVGI) Reports Q2 Loss, Beats Revenue Estimates"
     ]
    ],
    "levels": {
-    "bottom": 1.15,
-    "demand_low": 1.3,
-    "demand_high": 1.337,
-    "wash_low": 1.1385,
-    "wash_high": 1.173,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.399999976158142,
-    "t1": 1.399999976158142,
-    "t2": 1.4441666642824809,
-    "r1": 1.4,
-    "stop": 1.1043,
-    "stop_tight": 1.274
+    "bottom": 2.64,
+    "demand_low": 2.86,
+    "demand_high": 2.86,
+    "wash_low": 2.431,
+    "wash_high": 2.574,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 2.890000104904175,
+    "t1": 2.890000104904175,
+    "t2": 3.0240999937057493,
+    "r1": 2.89,
+    "stop": 2.3581,
+    "stop_tight": 2.5872
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.30 ثم استرداد",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)"
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 33)",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.3–1.34 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.14–1.17 ثم استرداد 1.3 (ص17، ص86)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 21 يوم (طار إلى 2.15 وأغلق 1.64 بفوليوم 36x)",
-    "سيولة ضعيفة: متوسط الفوليوم 54.3K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
-   ],
+   "ready_when": "نزول لمنطقة الطلب 2.86–2.86 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 2.43–2.57 ثم استرداد 2.86 (ص17، ص86)",
+   "flags": [],
    "tags": [
-    "Former Runner (سبق انفجر +115% في يوم)",
-    "فوليوم البيع يضعف"
+    "Former Runner (سبق انفجر +78% في يوم)"
    ]
   },
   {
@@ -7823,9 +7888,73 @@
    ]
   },
   {
+   "ticker": "ORBS",
+   "score": 5.12,
+   "price": 0.7886,
+   "ext_price": null,
+   "name": "Eightco Holdings Inc. Common Stock",
+   "type": [
+    "ارتكاز"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +52% في يوم)",
+    "drawdown": 0.418,
+    "rsi_min": 34.2,
+    "rsi_now": 39.9,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 8, 2026",
+     "Thursday Sector Laggards: Biotechnology, Packaging & Containers"
+    ],
+    [
+     "Aug 21, 2026",
+     "Why BitMine Immersion Technologies Stock Skyrocketed by 26% This Week"
+    ],
+    [
+     "Jun 23, 2026",
+     "BitMine’s Ethereum Bet Is Only Part of the Story"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.585,
+    "demand_low": 0.725,
+    "demand_high": 0.734,
+    "wash_low": 0.6732,
+    "wash_high": 0.6936,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.7990000247955322,
+    "t1": 0.7990000247955322,
+    "t2": 0.8399999737739563,
+    "r1": 0.782,
+    "stop": 0.653,
+    "stop_tight": 0.7105
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.73 ثم استرداد",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 0.725–0.734 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.673–0.694 ثم استرداد 0.725 (ص17، ص86)",
+   "flags": [
+    "اختراق وهمي سابق لخط العنق (Bull Trap)"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +52% في يوم)",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "AGMH",
    "score": 5.0,
-   "price": 0.4842,
+   "price": 0.482,
    "ext_price": null,
    "name": "AGM Group Holdings Inc. Class A Ordinary Shares",
    "type": [
@@ -7840,9 +7969,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +103% في يوم)",
-    "drawdown": 0.659,
+    "drawdown": 0.661,
     "rsi_min": 23.4,
-    "rsi_now": 32.3,
+    "rsi_now": 32.0,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -7868,7 +7997,7 @@
     "wash_high": 0.369,
     "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 0.5479999780654907,
-    "t1": 0.5972099989652634,
+    "t1": 0.5970999985933304,
     "t2": 0.6399999856948853,
     "r1": 0.485,
     "stop": 0.338,
@@ -7893,7 +8022,7 @@
   {
    "ticker": "GELS",
    "score": 4.88,
-   "price": 0.4302,
+   "price": 0.4349,
    "ext_price": null,
    "name": "Gelteq Limited Ordinary Shares",
    "type": [
@@ -7907,9 +8036,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +290% في يوم)",
-    "drawdown": 0.684,
+    "drawdown": 0.68,
     "rsi_min": 33.9,
-    "rsi_now": 36.2,
+    "rsi_now": 36.7,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -7956,74 +8085,9 @@
    ]
   },
   {
-   "ticker": "QUCY",
-   "score": 4.88,
-   "price": 1.045,
-   "ext_price": null,
-   "name": "Quantum Cyber N.V. Ordinary Shares",
-   "type": [
-    "طبي — الخبر يحرّكه"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +402% في يوم)",
-    "drawdown": 0.498,
-    "rsi_min": 32.2,
-    "rsi_now": 38.2,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Feb 17, 2026",
-     "Mainz Biomed Announces $6 Mln Private Placement In Two Tranches To Fund Operations, Stock Down"
-    ],
-    [
-     "Dec 12, 2025",
-     "2 Small-Cap Biotechs That Could Reward Patient Investors"
-    ],
-    [
-     "Nov 12, 2025",
-     "Mainz Biomed To Present Flagship Product, ColoAlert, At MEDICA 2025"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.9,
-    "demand_low": 1.03,
-    "demand_high": 1.0448,
-    "wash_low": 0.9851,
-    "wash_high": 1.0145,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.090000033378601,
-    "t1": 1.090000033378601,
-    "t2": 1.1299999952316284,
-    "r1": 1.09,
-    "stop": 0.9555,
-    "stop_tight": 0.9996
-   },
-   "not_ready": [
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 32)",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 1.03–1.04 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.985–1.01 ثم استرداد 1.03 (ص17، ص86)",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +402% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
    "ticker": "CCTG",
    "score": 4.75,
-   "price": 0.3599,
+   "price": 0.3598,
    "ext_price": null,
    "name": "CCSC Technology International Holdings Limited Class A Ordinary Shares",
    "type": [
@@ -8148,6 +8212,64 @@
    ]
   },
   {
+   "ticker": "FAMI",
+   "score": 4.62,
+   "price": 0.1129,
+   "ext_price": null,
+   "name": "Farmmi Inc. Class A Ordinary Shares",
+   "type": [
+    "صيني عالي التذبذب ⚠️",
+    "🚩 علم/اختراق بعد قاعدة"
+   ],
+   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +317% في يوم)",
+    "drawdown": 0.927,
+    "rsi_min": 22.5,
+    "rsi_now": 41.4,
+    "ma": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
+    "macd": "تقاطع إيجابي حديث"
+   },
+   "news": [
+    [
+     "Jun 27, 2026",
+     "Farmmi Plans Public Offering Of Class A Shares"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.09,
+    "demand_low": 0.11,
+    "demand_high": 0.1133,
+    "wash_low": 0.099,
+    "wash_high": 0.102,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.11945799797773361,
+    "t1": 0.11945799797773361,
+    "t2": 0.12999999523162842,
+    "r1": 0.12,
+    "stop": 0.096,
+    "stop_tight": 0.1046
+   },
+   "not_ready": [
+    "اخترق المقاومة القريبة 0.11 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
+    "فوليوم أعلى عند الاختراق (الاختراق بدون فوليوم ضعيف — ص19)"
+   ],
+   "ready_when": "🚩 رجوع لاختبار 0.11 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
+   "flags": [
+    "حركة السعر متقطعة (5 أسعار إغلاق مختلفة في 20 يوم) — قراءة الشموع غير موثوقة",
+    "سهم صيني عالي التذبذب",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +317% في يوم)"
+   ]
+  },
+  {
    "ticker": "CNEY",
    "score": 4.62,
    "price": 0.45,
@@ -8217,7 +8339,7 @@
   {
    "ticker": "SCAG",
    "score": 4.62,
-   "price": 0.17,
+   "price": 0.1699,
    "ext_price": null,
    "name": "Scage Future American Depositary Shares",
    "type": [
@@ -8280,7 +8402,7 @@
   {
    "ticker": "HURA",
    "score": 4.38,
-   "price": 1.9852,
+   "price": 1.97,
    "ext_price": null,
    "name": "TuHURA Biosciences Inc. Common Stock",
    "type": [
@@ -8295,9 +8417,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +69% في يوم)",
-    "drawdown": 0.291,
+    "drawdown": 0.296,
     "rsi_min": 32.8,
-    "rsi_now": 51.7,
+    "rsi_now": 51.0,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "تقاطع إيجابي حديث"
    },
@@ -8343,76 +8465,9 @@
    ]
   },
   {
-   "ticker": "FRTT",
-   "score": 4.38,
-   "price": 0.7428,
-   "ext_price": null,
-   "name": "Fort Technology Inc.",
-   "type": [
-    "طرح جديد/تاريخ قصير",
-    "بعد ارتداد أول — ينتظر Retest",
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 4243231,
-    "shares": 15042582.0,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +121% في يوم)",
-    "drawdown": 0.811,
-    "rsi_min": 12.8,
-    "rsi_now": 45.8,
-    "ma": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
-    "macd": "تقاطع إيجابي حديث"
-   },
-   "news": [
-    [
-     "Oct 22, 2026",
-     "Stocks Rally on Positive AI News, with SpaceX up +7%"
-    ],
-    [
-     "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
-    ],
-    [
-     "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.5,
-    "demand_low": 0.72,
-    "demand_high": 0.74,
-    "wash_low": 0.612,
-    "wash_high": 0.648,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.7799999713897705,
-    "t1": 0.7799999713897705,
-    "t2": 0.8060933331648509,
-    "r1": 0.78,
-    "stop": 0.5936,
-    "stop_tight": 0.7056
-   },
-   "not_ready": [
-    "نزول السعر لمنطقة الطلب 0.72–0.74",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 13)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.72–0.74 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.612–0.648 ثم استرداد 0.72 (ص17، ص86)",
-   "flags": [
-    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
-    "فشل عند MA20"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +121% في يوم)"
-   ]
-  },
-  {
    "ticker": "SURG",
-   "score": 4.12,
-   "price": 0.1332,
+   "score": 4.38,
+   "price": 0.1399,
    "ext_price": null,
    "name": "SurgePays Inc. Common Stock",
    "type": [
@@ -8426,10 +8481,10 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +77% في يوم)",
-    "drawdown": 0.804,
+    "drawdown": 0.794,
     "rsi_min": 30.4,
-    "rsi_now": 43.6,
-    "ma": "تحت كل المتوسطات (ضغط)",
+    "rsi_now": 47.6,
+    "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "تقاطع إيجابي حديث"
    },
    "news": [
@@ -8453,9 +8508,9 @@
     "wash_low": 0.1139,
     "wash_high": 0.1173,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.14310666670401892,
-    "t1": 0.14310666670401892,
-    "t2": 0.15700000524520874,
+    "pivot": 0.15700000524520874,
+    "t1": 0.15700000524520874,
+    "t2": 0.1632179996371269,
     "r1": null,
     "stop": 0.1104,
     "stop_tight": 0.1236
@@ -8477,7 +8532,7 @@
   {
    "ticker": "ESLA",
    "score": 4.12,
-   "price": 0.7137,
+   "price": 0.6991,
    "ext_price": null,
    "name": "Estrella Immunopharma, Inc.",
    "type": [
@@ -8492,9 +8547,9 @@
     "short_pct_float": 0.0123000005,
     "split": "",
     "runner": "Former Runner (سبق انفجر +167% في يوم)",
-    "drawdown": 0.357,
+    "drawdown": 0.37,
     "rsi_min": 17.5,
-    "rsi_now": 65.6,
+    "rsi_now": 64.9,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -8519,8 +8574,8 @@
     "wash_low": 0.6188,
     "wash_high": 0.6375,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.7400000095367432,
-    "t1": 0.7400000095367432,
+    "pivot": 0.7250000238418579,
+    "t1": 0.7250000238418579,
     "t2": 0.7699999809265137,
     "r1": 0.85,
     "stop": 0.6002,
@@ -8541,76 +8596,9 @@
    ]
   },
   {
-   "ticker": "FBLG",
-   "score": 4.12,
-   "price": 1.025,
-   "ext_price": null,
-   "name": "FibroBiologics Inc. Common Stock",
-   "type": [
-    "طبي — الخبر يحرّكه"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +40% في يوم)",
-    "drawdown": 0.534,
-    "rsi_min": 29.3,
-    "rsi_now": 40.6,
-    "ma": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Sep 30, 2026",
-     "FibroBiologics Secures European Patent For Fibroblast Therapeutic Technology; Stock Up"
-    ],
-    [
-     "Sep 17, 2026",
-     "FibroBiologics Secures $0.5 Mln Private Placement; Stock Up"
-    ],
-    [
-     "Sep 3, 2026",
-     "FibroBiologics Secures U.S. Patent For Fibroblast-Based Wound Healing Therapy; Stock Down"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.655,
-    "demand_low": 0.925,
-    "demand_high": 0.9517,
-    "wash_low": 0.797,
-    "wash_high": 0.8211,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.0399999618530273,
-    "t1": 1.0399999618530273,
-    "t2": 1.0959999561309814,
-    "r1": 0.971,
-    "stop": 0.773,
-    "stop_tight": 0.8634
-   },
-   "not_ready": [
-    "إغلاق وثبات فوق 0.93 بعد سحب السيولة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.925–0.952 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.797–0.821 ثم استرداد 0.925 (ص17، ص86)",
-   "flags": [
-    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
-    "فشل عند MA20",
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +40% في يوم)",
-    "فوليوم البيع يضعف",
-    "فوليوم يتحسن"
-   ]
-  },
-  {
    "ticker": "XLAB",
    "score": 3.38,
-   "price": 4.25,
+   "price": 4.39,
    "ext_price": null,
    "name": "Exascale Labs Holdings Inc.",
    "type": [
@@ -8624,9 +8612,9 @@
     "short_pct_float": 0.002,
     "split": "",
     "runner": "Former Runner (سبق انفجر +182% في يوم)",
-    "drawdown": 0.609,
+    "drawdown": 0.596,
     "rsi_min": 16.7,
-    "rsi_now": 69.4,
+    "rsi_now": 70.3,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -8667,7 +8655,7 @@
   {
    "ticker": "STFS",
    "score": 2.88,
-   "price": 4.6773,
+   "price": 4.66,
    "ext_price": null,
    "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares",
    "type": [
@@ -8683,9 +8671,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +181% في يوم)",
-    "drawdown": 0.777,
+    "drawdown": 0.778,
     "rsi_min": 30.5,
-    "rsi_now": 66.1,
+    "rsi_now": 65.8,
     "ma": "استعاد المتوسطات 20/30/50",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -8726,7 +8714,7 @@
   {
    "ticker": "ZYBT",
    "score": 2.62,
-   "price": 1.475,
+   "price": 1.5,
    "ext_price": null,
    "name": "Zhengye Biotechnology Holding Limited Class A Ordinary Shares",
    "type": [
@@ -8743,9 +8731,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +1048% في يوم)",
-    "drawdown": 0.816,
+    "drawdown": 0.813,
     "rsi_min": 34.9,
-    "rsi_now": 52.2,
+    "rsi_now": 53.2,
     "ma": "فوق MA20",
     "macd": "إيجابي (الخط فوق الإشارة)"
    },
@@ -8778,7 +8766,7 @@
     "stop_tight": 1.3118
    },
    "not_ready": [
-    "ابتعد 7% عن مستوى الاختراق — انتظر إعادة اختبار 1.38",
+    "ابتعد 9% عن مستوى الاختراق — انتظر إعادة اختبار 1.38",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 35)"
    ],
    "ready_when": "🚩 رجوع لاختبار 1.38 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
@@ -8795,8 +8783,8 @@
   },
   {
    "ticker": "CLIK",
-   "score": 1.75,
-   "price": 1.27,
+   "score": 0.5,
+   "price": 1.3102,
    "ext_price": null,
    "name": "Click Holdings Limited Class A Ordinary Share",
    "type": [
@@ -8811,9 +8799,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +93% في يوم)",
-    "drawdown": 0.404,
+    "drawdown": 0.385,
     "rsi_min": 29.2,
-    "rsi_now": 62.9,
+    "rsi_now": 66.1,
     "ma": "يستعيد MA20 بعد أن كان تحت المتوسطات",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -8833,25 +8821,25 @@
    ],
    "levels": {
     "bottom": 0.96,
-    "demand_low": 1.18,
-    "demand_high": 1.2154,
+    "demand_low": 1.27,
+    "demand_high": 1.3081,
     "wash_low": 1.0692,
     "wash_high": 1.1016,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.3300000429153442,
-    "t1": 1.3300000429153442,
-    "t2": 1.399999976158142,
+    "pivot": 1.399999976158142,
+    "t1": 1.399999976158142,
+    "t2": 1.4900000095367432,
     "r1": null,
     "stop": 1.0371,
-    "stop_tight": 1.1217
+    "stop_tight": 1.2073
    },
    "not_ready": [
-    "اخترق المقاومة القريبة 1.18 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
+    "اخترق المقاومة القريبة 1.27 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)"
    ],
-   "ready_when": "🚩 رجوع لاختبار 1.18 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
+   "ready_when": "🚩 رجوع لاختبار 1.27 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
    "flags": [
-    "شمعة ضخ/تصريف قبل 0 يوم (طار إلى 1.65 وأغلق 1.27 بفوليوم 206x)",
+    "شمعة ضخ/تصريف قبل 0 يوم (طار إلى 1.65 وأغلق 1.31 بفوليوم 180x)",
     "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
     "سيولة ضعيفة: متوسط الفوليوم 53.5K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
     "سهم صيني عالي التذبذب"

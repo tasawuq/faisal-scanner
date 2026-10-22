@@ -1,0 +1,451 @@
+{
+ "ticker": "CYCU",
+ "generated_at_et": "2026-10-22T16:00:59.767060-04:00",
+ "session": "post",
+ "quote": {
+  "reg_price": 2.0,
+  "reg_chg": -0.08256883999999999,
+  "reg_vol": 194183,
+  "prev_close": 2.18,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 3068746,
+  "state": "POST"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 2996025,
+  "sharesOutstanding": 3230041,
+  "marketCap": 6847688,
+  "shortPercentOfFloat": 0.0813,
+  "longName": "Cycurion, Inc.",
+  "country": "United States",
+  "industry": "Information Technology Services",
+  "sector": "Technology",
+  "lastSplitFactor": "1:8",
+  "lastSplitDate": 1787875200
+ },
+ "daily": {
+  "price": 2.0,
+  "chg_1d": -0.0826,
+  "ma": {
+   "MA20": 2.748,
+   "MA30": 2.913,
+   "MA50": 3.5118
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 30.8,
+  "rsi_min15": 30.8,
+  "rsi_min30": 30.8,
+  "macd": {
+   "line": -0.37073,
+   "signal": -0.31477,
+   "hist_last3": [
+    -0.05598,
+    -0.05228,
+    -0.05596
+   ],
+   "state": "سلبي"
+  },
+  "candles": [
+   {
+    "d": "2026-10-21",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.21582722707064053,
+    "close_pos": 0.06474868269389099,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-22",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.30909094061732184,
+    "close_pos": 0.0,
+    "green": "False",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.3782,
+  "avg_vol20": 2745540,
+  "last_vol": 194183,
+  "drawdown_90d": 0.864,
+  "high_90d": 14.72,
+  "low_10d": 2.0,
+  "gain_from_low10": 0.0,
+  "sell_drying": true,
+  "vol_improving": false,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_jump": 4.963,
+  "runner_spike": 5.815,
+  "distinct_closes20": 19,
+  "support_zones": [
+   {
+    "low": 6.68,
+    "high": 6.768,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-05-11",
+    "last": "2026-06-01"
+   },
+   {
+    "low": 6.328,
+    "high": 6.3913,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-05-19",
+    "last": "2026-05-19"
+   },
+   {
+    "low": 4.656,
+    "high": 4.7026,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-06-12",
+    "last": "2026-06-12"
+   },
+   {
+    "low": 4.328,
+    "high": 4.4,
+    "touches": 3,
+    "is_bottom": false,
+    "first": "2026-06-25",
+    "last": "2026-08-10"
+   },
+   {
+    "low": 3.216,
+    "high": 3.25,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-08-26",
+    "last": "2026-09-10"
+   },
+   {
+    "low": 3.08,
+    "high": 3.176,
+    "touches": 6,
+    "is_bottom": false,
+    "first": "2026-07-13",
+    "last": "2026-09-16"
+   },
+   {
+    "low": 2.903,
+    "high": 2.932,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-09-02",
+    "last": "2026-09-02"
+   },
+   {
+    "low": 2.575,
+    "high": 2.6008,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-09-29",
+    "last": "2026-09-29"
+   }
+  ],
+  "support_selected": {
+   "low": 2.08,
+   "high": 2.136,
+   "touches": 3,
+   "interacting": true
+  },
+  "w": null,
+  "resistances": [
+   [
+    2.19,
+    "رأس شمعة هابطة"
+   ],
+   [
+    2.4,
+    "رأس شمعة هابطة"
+   ],
+   [
+    2.52,
+    "رأس شمعة هابطة"
+   ],
+   [
+    2.624,
+    "رأس شمعة هابطة"
+   ],
+   [
+    2.748,
+    "MA20"
+   ],
+   [
+    2.872,
+    "رأس شمعة هابطة + MA30"
+   ]
+  ],
+  "high_52w": 56.0314,
+  "low_52w": 2.0,
+  "last_bars": [
+   {
+    "d": "2026-10-07",
+    "o": 3.26,
+    "h": 3.36,
+    "l": 3.13,
+    "c": 3.13,
+    "v": 268800,
+    "rsi": 45.7,
+    "hist": 0.09859
+   },
+   {
+    "d": "2026-10-08",
+    "o": 3.1,
+    "h": 3.18,
+    "l": 2.97,
+    "c": 3.0,
+    "v": 220900,
+    "rsi": 44.0,
+    "hist": 0.07934
+   },
+   {
+    "d": "2026-10-09",
+    "o": 3.05,
+    "h": 3.1,
+    "l": 2.95,
+    "c": 2.97,
+    "v": 155100,
+    "rsi": 43.6,
+    "hist": 0.06384
+   },
+   {
+    "d": "2026-10-12",
+    "o": 3.0,
+    "h": 3.071,
+    "l": 2.715,
+    "c": 2.89,
+    "v": 140700,
+    "rsi": 42.4,
+    "hist": 0.04815
+   },
+   {
+    "d": "2026-10-13",
+    "o": 2.81,
+    "h": 2.85,
+    "l": 2.73,
+    "c": 2.78,
+    "v": 131600,
+    "rsi": 40.9,
+    "hist": 0.03114
+   },
+   {
+    "d": "2026-10-14",
+    "o": 2.77,
+    "h": 2.8,
+    "l": 2.59,
+    "c": 2.62,
+    "v": 375600,
+    "rsi": 38.6,
+    "hist": 0.01094
+   },
+   {
+    "d": "2026-10-15",
+    "o": 2.54,
+    "h": 2.698,
+    "l": 2.44,
+    "c": 2.49,
+    "v": 141600,
+    "rsi": 36.9,
+    "hist": -0.00832
+   },
+   {
+    "d": "2026-10-16",
+    "o": 2.55,
+    "h": 2.555,
+    "l": 2.15,
+    "c": 2.19,
+    "v": 203500,
+    "rsi": 33.1,
+    "hist": -0.0368
+   },
+   {
+    "d": "2026-10-19",
+    "o": 2.24,
+    "h": 2.3,
+    "l": 2.11,
+    "c": 2.18,
+    "v": 96500,
+    "rsi": 33.0,
+    "hist": -0.05098
+   },
+   {
+    "d": "2026-10-20",
+    "o": 2.22,
+    "h": 2.495,
+    "l": 2.14,
+    "c": 2.16,
+    "v": 98500,
+    "rsi": 32.7,
+    "hist": -0.05598
+   },
+   {
+    "d": "2026-10-21",
+    "o": 2.28,
+    "h": 2.31,
+    "l": 2.171,
+    "c": 2.18,
+    "v": 175600,
+    "rsi": 33.3,
+    "hist": -0.05228
+   },
+   {
+    "d": "2026-10-22",
+    "o": 2.19,
+    "h": 2.275,
+    "l": 2.0,
+    "c": 2.0,
+    "v": 194183,
+    "rsi": 30.8,
+    "hist": -0.05596
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 2.0,
+  "at_price": [
+   "قاع يوم 2026-10-22",
+   "قاعدة آخر ساعة 2026-10-22"
+  ],
+  "above": [
+   {
+    "level": 2.0738,
+    "why": "فواب جلسة 2026-10-22 + قاع يوم 2026-10-19",
+    "confluence": 2
+   },
+   {
+    "level": 2.14,
+    "why": "قاع يوم 2026-10-20 + قيعان سابقة متجمعة (4) + قاع يوم 2026-10-16 + قاع يوم 2026-10-21 + إغلاقات سابقة متجمعة (4)",
+    "confluence": 5
+   },
+   {
+    "level": 2.19,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   },
+   {
+    "level": 2.275,
+    "why": "قمة يوم 2026-10-22 + قمة يوم 2026-10-19 + قمة يوم 2026-10-21",
+    "confluence": 3
+   },
+   {
+    "level": 2.4,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   },
+   {
+    "level": 2.495,
+    "why": "قمة يوم 2026-10-20 + رأس شمعة هابطة",
+    "confluence": 2
+   },
+   {
+    "level": 2.555,
+    "why": "قمة يوم 2026-10-16 + قيعان سابقة متجمعة (4)",
+    "confluence": 2
+   },
+   {
+    "level": 2.624,
+    "why": "رأس شمعة هابطة + قيعان سابقة متجمعة (3) + إغلاقات سابقة متجمعة (4)",
+    "confluence": 3
+   }
+  ],
+  "below": []
+ },
+ "pivot": {
+  "ticker": "CYCU",
+  "kind": "pivot",
+  "status": "WATCH",
+  "setup": "BROKE_SUPPORT",
+  "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+  "price": 2.0,
+  "score": 2.5,
+  "conditions": {
+   "ma": {
+    "score": 0.5,
+    "note": "تحت كل المتوسطات (ضغط)"
+   },
+   "rsi": {
+    "score": 0.25,
+    "note": "أدنى RSI 31 والحالي 31"
+   },
+   "macd": {
+    "score": 0.0,
+    "note": "سلبي"
+   },
+   "candle": {
+    "score": 0.0,
+    "note": "لا توجد شمعة إيجابية عند الدعم"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 86% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 0.75,
+    "note": "العائد/المخاطرة 2.8"
+   }
+  },
+  "support_low": 2.0799999237060547,
+  "support_high": 2.135999917984009,
+  "support_touches": 3,
+  "trigger_level": 2.0799999237060547,
+  "stop": 1.96,
+  "entry_low": 2.0799999237060547,
+  "entry_high": 2.129999976158142,
+  "t1": 2.299999952316284,
+  "t1_label": "قمة يوم قريبة",
+  "t2": 2.4000000953674316,
+  "t2_label": "رأس شمعة هابطة",
+  "rr": 1.3,
+  "risk_pct": 0.0702,
+  "rsi_now": 30.8,
+  "rsi_min": 30.8,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "macd_state": "سلبي",
+  "candle": "",
+  "volume_note": "فوليوم البيع يضعف",
+  "waiting_for": [
+   "استرداد الدعم 2.08 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+   "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 31)",
+   "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+   "اكتمال الشروط الأساسية (2.5 من 6، المطلوب 4.5)"
+  ],
+  "flags": [
+   "تقسيم عكسي حديث 1:8 (2026-08-28)"
+  ],
+  "tags": [
+   "فلووت أقل من 5M 🔥",
+   "Former Runner (سبق انفجر +581% في يوم)",
+   "فوليوم البيع يضعف",
+   "قاع الفترة (قاع تاريخي/سنوي)"
+  ],
+  "rank": 3.3076924840374167,
+  "meta": {
+   "avg_volume": 2745540.0,
+   "drawdown": 0.864,
+   "rr_best": 2.78,
+   "gain_from_low10": 0.0,
+   "higher_lows": "False",
+   "float": 2996025,
+   "market_cap": 6847688,
+   "exchange": "",
+   "name": "Cycurion, Inc.",
+   "short_pct_float": 0.0813
+  },
+  "news": []
+ },
+ "momentum": null
+}

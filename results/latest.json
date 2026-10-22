@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T09:18:08.224227+00:00",
- "generated_at_et": "2026-10-22T05:18:08.224227-04:00",
+ "generated_at_utc": "2026-10-22T09:28:08.224381+00:00",
+ "generated_at_et": "2026-10-22T05:28:08.224381-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -652,7 +652,10 @@
     "float": null,
     "market_cap": 59352122.0,
     "exchange": "NASDAQ",
-    "name": "Aptera Motors Corp. Class B Common Stock"
+    "name": "Aptera Motors Corp. Class B Common Stock",
+    "ext_price": 1.38,
+    "ext_chg": -0.048275862068965614,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2046,8 +2049,8 @@
     "market_cap": 1087928.0,
     "exchange": "AMEX",
     "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
-    "ext_price": 0.3245,
-    "ext_chg": -0.0015384418,
+    "ext_price": 0.3249,
+    "ext_chg": -0.02373798,
     "ext_session": "pre"
    },
    "news": []
@@ -2614,8 +2617,8 @@
     "market_cap": 66396801.0,
     "exchange": "NASDAQ",
     "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares",
-    "ext_price": 4.31,
-    "ext_chg": -0.013729977116704872,
+    "ext_price": 4.3556,
+    "ext_chg": -0.0032951945080091916,
     "ext_session": "pre"
    },
    "news": []
@@ -3499,7 +3502,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.385,
+   "price": 0.4045,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3535,8 +3538,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 148021.0,
-   "price": 344.5975
+   "volume": 159060.0,
+   "price": 344.32
   },
   "SNDL": {
    "volume": 5.0,

@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-10-22T06:08:08.224991-04:00",
+ "generated_at_et": "2026-10-22T07:11:54.876205-04:00",
  "items": [
   {
    "ticker": "ALP",
@@ -201,7 +201,7 @@
    "ticker": "TYGO",
    "score": 7.88,
    "price": 0.89,
-   "ext_price": null,
+   "ext_price": 0.902,
    "name": "Tigo Energy Inc. Common Stock",
    "type": [
     "نموذج W"
@@ -328,7 +328,7 @@
    "ticker": "ALDX",
    "score": 7.62,
    "price": 0.67,
-   "ext_price": 0.6703,
+   "ext_price": 0.6704,
    "name": "Aldeyra Therapeutics Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -708,6 +708,72 @@
    ]
   },
   {
+   "ticker": "RLMD",
+   "score": 7.38,
+   "price": 3.21,
+   "ext_price": 3.31,
+   "name": "Relmada Therapeutics Inc. Common Stock",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +67% في يوم)",
+    "drawdown": 0.549,
+    "rsi_min": 21.4,
+    "rsi_now": 36.7,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "تقاطع إيجابي حديث"
+   },
+   "news": [
+    [
+     "Sep 14, 2026",
+     "5 Small Drug Stocks Poised to Benefit From a Biotech Recovery"
+    ],
+    [
+     "Sep 11, 2026",
+     "Friday 9/11 Insider Buying Report: RLMD, CELH"
+    ],
+    [
+     "Aug 31, 2026",
+     "After Plunging 18.5% in 4 Weeks, Here's Why the Trend Might Reverse for Relmada Therapeutics (RLMD)"
+    ]
+   ],
+   "levels": {
+    "bottom": 3.07,
+    "demand_low": 3.07,
+    "demand_high": 3.1007,
+    "wash_low": 2.6095,
+    "wash_high": 2.763,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 3.2899999618530273,
+    "t1": 3.2899999618530273,
+    "t2": 3.3949999809265137,
+    "r1": 3.21,
+    "stop": 2.5312,
+    "stop_tight": 3.0086
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 3.07 ثم استرداد",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 3.07–3.1 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 2.61–2.76 ثم استرداد 3.07 (ص17، ص86)",
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 3.31 بعيداً عن منطقة الطلب"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +67% في يوم)",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
    "ticker": "STIM",
    "score": 7.38,
    "price": 2.01,
@@ -904,7 +970,7 @@
    "ticker": "UAVS",
    "score": 7.25,
    "price": 0.65,
-   "ext_price": 0.6463,
+   "ext_price": 0.6486,
    "name": "AgEagle Aerial Systems Inc. Common Stock",
    "type": [
     "قاع نظيف"
@@ -1413,7 +1479,7 @@
    "ticker": "IMSR",
    "score": 7.25,
    "price": 2.94,
-   "ext_price": 2.85,
+   "ext_price": 2.93,
    "name": "Terrestrial Energy Inc. Common Stock  ",
    "type": [
     "قاع نظيف"
@@ -1539,7 +1605,7 @@
    "ticker": "BRNX",
    "score": 7.25,
    "price": 0.862,
-   "ext_price": 0.781,
+   "ext_price": 0.8203,
    "name": "BrenX Ltd. Ordinary Shares",
    "type": [
     "قاع نظيف"
@@ -1587,13 +1653,10 @@
     "stop_tight": 0.784
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.80 ثم استرداد",
-    "السعر في البري 0.781 تحت الوقف — الدعم مكسور حالياً"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.80 ثم استرداد"
    ],
    "ready_when": "نزول لمنطقة الطلب 0.8–0.808 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.68–0.72 ثم استرداد 0.8 (ص17، ص86)",
-   "flags": [
-    "نزل في البري تحت الوقف (0.781)"
-   ],
+   "flags": [],
    "tags": [
     "Former Runner (سبق انفجر +66% في يوم)",
     "فوليوم البيع يضعف",
@@ -1604,7 +1667,7 @@
    "ticker": "FRSX",
    "score": 7.25,
    "price": 0.8,
-   "ext_price": 0.84,
+   "ext_price": 0.8,
    "name": "Foresight Autonomous Holdings Ltd. American Depositary Shares",
    "type": [
     "قاع نظيف"
@@ -1657,7 +1720,7 @@
    ],
    "ready_when": "نزول لمنطقة الطلب 0.73–0.737 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.621–0.657 ثم استرداد 0.73 (ص17، ص86)",
    "flags": [
-    "صعد في البري إلى 0.84 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 0.8 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +57% في يوم)",
@@ -2054,7 +2117,7 @@
    "ticker": "BNKK",
    "score": 7.12,
    "price": 1.23,
-   "ext_price": 1.33,
+   "ext_price": 1.29,
    "name": "Bonk Inc. Common Stock",
    "type": [
     "🚩 علم/اختراق بعد قاعدة"
@@ -2565,7 +2628,7 @@
    "ticker": "PRSO",
    "score": 7.12,
    "price": 0.39,
-   "ext_price": 0.3851,
+   "ext_price": 0.3949,
    "name": "Peraso Inc. Common Stock",
    "type": [
     "قاع نظيف"
@@ -2620,7 +2683,7 @@
    "flags": [
     "اختراق وهمي سابق لخط العنق (Bull Trap)",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في البري إلى 0.385 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 0.395 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +159% في يوم)",
@@ -3614,7 +3677,7 @@
    "ticker": "AIM",
    "score": 6.75,
    "price": 0.17,
-   "ext_price": 0.166,
+   "ext_price": 0.1698,
    "name": "AIM ImmunoTech Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -4328,7 +4391,7 @@
    "ticker": "HYFM",
    "score": 6.25,
    "price": 0.75,
-   "ext_price": 0.8625,
+   "ext_price": 0.7503,
    "name": "Hydrofarm Holdings Group Inc. Common Stock",
    "type": [
     "🚩 علم/اختراق بعد قاعدة"
@@ -4459,7 +4522,7 @@
    "ticker": "VNRX",
    "score": 6.12,
    "price": 0.17,
-   "ext_price": 0.1664,
+   "ext_price": 0.1727,
    "name": "VolitionRX Limited Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5737,7 +5800,7 @@
    "ticker": "SHMD",
    "score": 6.0,
    "price": 3.11,
-   "ext_price": 2.91,
+   "ext_price": 2.98,
    "name": "SCHMID Group N.V. Class A Ordinary Shares",
    "type": [
     "ارتكاز"
@@ -6621,7 +6684,7 @@
    "ticker": "NCT",
    "score": 5.62,
    "price": 1.305,
-   "ext_price": 1.27,
+   "ext_price": 1.2842,
    "name": "Intercont (Cayman) Limited Class A Ordinary shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -7075,7 +7138,7 @@
    "ticker": "AGRZ",
    "score": 5.38,
    "price": 2.9,
-   "ext_price": 2.82,
+   "ext_price": 2.9,
    "name": "Agroz Inc. Class A Ordinary Shares",
    "type": [
     "قاع نظيف"
@@ -7128,7 +7191,8 @@
    ],
    "ready_when": "نزول لمنطقة الطلب 2.71–2.74 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 2.31–2.44 ثم استرداد 2.71 (ص17، ص86)",
    "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 93.6K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
+    "سيولة ضعيفة: متوسط الفوليوم 93.6K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
+    "صعد في البري إلى 2.9 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +195% في يوم)",
@@ -7651,7 +7715,7 @@
    "ticker": "GMHS",
    "score": 5.0,
    "price": 0.612,
-   "ext_price": 0.6125,
+   "ext_price": 0.6182,
    "name": "Gamehaus Holdings Inc. Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -8358,7 +8422,7 @@
    "ticker": "CCTG",
    "score": 4.75,
    "price": 0.37,
-   "ext_price": 0.3502,
+   "ext_price": 0.3396,
    "name": "CCSC Technology International Holdings Limited Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️"
@@ -8613,7 +8677,7 @@
    "ticker": "FAMI",
    "score": 4.5,
    "price": 0.11,
-   "ext_price": 0.1145,
+   "ext_price": 0.113,
    "name": "Farmmi Inc. Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -8802,7 +8866,7 @@
    "ticker": "HURA",
    "score": 4.25,
    "price": 2.085,
-   "ext_price": 2.24,
+   "ext_price": 2.26,
    "name": "TuHURA Biosciences Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -8868,7 +8932,7 @@
    "ticker": "DVLT",
    "score": 4.12,
    "price": 0.14,
-   "ext_price": 0.1387,
+   "ext_price": 0.14,
    "name": "Datavault AI Inc. Common Stock",
    "type": [
     "ارتكاز"
@@ -9067,7 +9131,7 @@
    "ticker": "STFS",
    "score": 3.88,
    "price": 4.58,
-   "ext_price": 4.3556,
+   "ext_price": 4.5003,
    "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -9255,7 +9319,7 @@
    "ticker": "HKPD",
    "score": 3.75,
    "price": 0.102,
-   "ext_price": 0.095,
+   "ext_price": 0.0959,
    "name": "Cellyan Biotechnology Co. Ltd Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -9308,7 +9372,7 @@
     "سهم صيني عالي التذبذب",
     "سهم طبي — الخبر قد يغير الاتجاه",
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في البري تحت الوقف (0.095)"
+    "نزل في البري تحت الوقف (0.0959)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +48% في يوم)",
@@ -9321,7 +9385,7 @@
    "ticker": "GDHG",
    "score": 3.62,
    "price": 1.06,
-   "ext_price": 1.05,
+   "ext_price": 1.04,
    "name": "Golden Heaven Group Holdings Ltd. Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️"

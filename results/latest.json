@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T11:21:54.876370+00:00",
- "generated_at_et": "2026-10-22T07:21:54.876370-04:00",
+ "generated_at_utc": "2026-10-22T11:31:54.876532+00:00",
+ "generated_at_et": "2026-10-22T07:31:54.876532-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -92,7 +92,10 @@
     "float": null,
     "market_cap": 291531267.0,
     "exchange": "NASDAQ",
-    "name": "Century Therapeutics Inc. Common Stock"
+    "name": "Century Therapeutics Inc. Common Stock",
+    "ext_price": 1.61,
+    "ext_chg": -0.018292682926829174,
+    "ext_session": "pre"
    },
    "news": []
   }
@@ -170,8 +173,8 @@
     "market_cap": 68320925.0,
     "exchange": "NASDAQ",
     "name": "Tigo Energy Inc. Common Stock",
-    "ext_price": 0.902,
-    "ext_chg": 0.06543822348216399,
+    "ext_price": 0.89,
+    "ext_chg": 0.05126387904559415,
     "ext_session": "pre"
    },
    "news": []
@@ -231,10 +234,12 @@
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
     "إغلاق وثبات فوق 0.42 بعد سحب السيولة",
-    "الدخول تحت مقاومة مباشرة (0.44) — انتظر اختراقها والثبات"
+    "الدخول تحت مقاومة مباشرة (0.44) — انتظر اختراقها والثبات",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.443 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +96% في يوم)",
@@ -252,8 +257,8 @@
     "market_cap": 4751379.0,
     "exchange": "NASDAQ",
     "name": "Gaxos.ai Inc. Common Stock",
-    "ext_price": 0.44,
-    "ext_chg": 0.011494252873563315,
+    "ext_price": 0.443,
+    "ext_chg": 0.030472199999999998,
     "ext_session": "pre"
    },
    "news": []
@@ -889,8 +894,8 @@
     "market_cap": 46387469.0,
     "exchange": "NASDAQ",
     "name": "AEye Inc. Class A Common Stock",
-    "ext_price": 0.9701,
-    "ext_chg": -0.023946087,
+    "ext_price": 0.9999,
+    "ext_chg": 0.006036807,
     "ext_session": "pre"
    },
    "news": []
@@ -1051,7 +1056,10 @@
     "float": null,
     "market_cap": 135382687.0,
     "exchange": "NASDAQ",
-    "name": "Playboy Inc. Common Stock"
+    "name": "Playboy Inc. Common Stock",
+    "ext_price": 1.11,
+    "ext_chg": -0.017699115044247593,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1132,8 +1140,8 @@
     "market_cap": 9834097.0,
     "exchange": "NASDAQ",
     "name": "iQSTEL Inc. Common Stock",
-    "ext_price": 0.8999,
-    "ext_chg": 0.007613929011308862,
+    "ext_price": 0.88,
+    "ext_chg": -0.023199036,
     "ext_session": "pre"
    },
    "news": []
@@ -1298,8 +1306,8 @@
     "market_cap": 40655958.0,
     "exchange": "AMEX",
     "name": "AgEagle Aerial Systems Inc. Common Stock",
-    "ext_price": 0.6499,
-    "ext_chg": 0.0061929214,
+    "ext_price": 0.65,
+    "ext_chg": 0.006347678,
     "ext_session": "pre"
    },
    "news": []
@@ -2624,8 +2632,8 @@
     "market_cap": 132869996.0,
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences Inc. Common Stock",
-    "ext_price": 2.2254,
-    "ext_chg": 0.067338095,
+    "ext_price": 2.22,
+    "ext_chg": 0.06474819700000001,
     "ext_session": "pre"
    },
    "news": []
@@ -3042,8 +3050,8 @@
     "market_cap": 136665946.0,
     "exchange": "NASDAQ",
     "name": "Datavault AI Inc. Common Stock",
-    "ext_price": 0.1416,
-    "ext_chg": -0.015983385000000003,
+    "ext_price": 0.1417,
+    "ext_chg": -0.015288446,
     "ext_session": "pre"
    },
    "news": []
@@ -3431,7 +3439,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.77,
+   "price": 1.8007,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3449,7 +3457,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 13%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 11%",
    "alert": false,
    "session": "pre",
    "scanner": null
@@ -3481,7 +3489,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.98,
+   "price": 2.94,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3499,9 +3507,9 @@
      3.8
     ]
    },
-   "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 1% — ينتظر النزول لـ 2.93–2.96؛ تحت مستوى الاختراق 3.12 بـ 5%",
+   "state": "IN_ZONE",
    "alert": false,
+   "state_ar": "داخل منطقة المتابعة 2.93–2.96 — ينتظر شمعة 15 دقيقة خضراء تثبت داخل المنطقة (لا دخول قبلها)",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3515,7 +3523,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3948,
+   "price": 0.3949,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3551,11 +3559,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 319056.0,
-   "price": 343.8
+   "volume": 337703.0,
+   "price": 343.17
   },
   "SNDL": {
-   "volume": 2000.0,
+   "volume": 2010.0,
    "price": 1.2701
   }
  }

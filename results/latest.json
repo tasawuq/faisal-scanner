@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T21:49:07.981898+00:00",
- "generated_at_et": "2026-10-22T17:49:07.981898-04:00",
+ "generated_at_utc": "2026-10-22T21:59:07.982035+00:00",
+ "generated_at_et": "2026-10-22T17:59:07.982035-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -666,8 +666,8 @@
     "market_cap": 5002095.0,
     "exchange": "AMEX",
     "name": "VolitionRX Limited Common Stock",
-    "ext_price": 0.1618,
-    "ext_chg": -0.043169746,
+    "ext_price": 0.1619,
+    "ext_chg": -0.042578373,
     "ext_session": "post"
    },
    "news": []
@@ -1392,11 +1392,11 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.32 ثم استرداد",
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "السعر في الأفتر 0.309 تحت الوقف — الدعم مكسور حالياً"
+    "السعر في الأفتر 0.302 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في الأفتر تحت الوقف (0.309)"
+    "نزل في الأفتر تحت الوقف (0.302)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +214% في يوم)",
@@ -1414,8 +1414,8 @@
     "market_cap": 1051686.0,
     "exchange": "AMEX",
     "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
-    "ext_price": 0.3094,
-    "ext_chg": -0.09000003,
+    "ext_price": 0.3025,
+    "ext_chg": -0.1102941,
     "ext_session": "post"
    },
    "news": []
@@ -1659,8 +1659,8 @@
     "market_cap": 15327148.0,
     "exchange": "NASDAQ",
     "name": "Loop Industries Inc. Common Stock",
-    "ext_price": 0.305,
-    "ext_chg": -0.0286624203821656,
+    "ext_price": 0.31,
+    "ext_chg": 0.013403056,
     "ext_session": "post"
    },
    "news": []
@@ -1990,8 +1990,8 @@
     "market_cap": 86321676.0,
     "exchange": "NASDAQ",
     "name": "NeOnc Technologies Holdings Inc. Common Stock",
-    "ext_price": 2.9,
-    "ext_chg": 0.0,
+    "ext_price": 2.95,
+    "ext_chg": 0.017241379310344973,
     "ext_session": "post"
    },
    "news": []
@@ -3399,7 +3399,10 @@
     "market_cap": 1905760,
     "exchange": "NASDAQ",
     "name": "Tianci International, Inc.",
-    "short_pct_float": 0.0176
+    "short_pct_float": 0.0176,
+    "ext_price": 1.9,
+    "ext_chg": -0.007832898172323799,
+    "ext_session": "post"
    },
    "news": []
   }
@@ -3428,8 +3431,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   },
@@ -3460,7 +3463,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.76,
+   "price": 1.77,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3478,7 +3481,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 14%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 13%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -3552,7 +3555,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3808,
+   "price": 0.3814,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3571,8 +3574,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

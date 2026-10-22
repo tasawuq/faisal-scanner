@@ -1,11 +1,11 @@
 {
  "ticker": "OLB",
- "generated_at_et": "2026-10-22T12:02:24.689854-04:00",
+ "generated_at_et": "2026-10-22T13:01:32.512602-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 0.2895,
-  "reg_chg": -0.14433598,
-  "reg_vol": 997622,
+  "reg_price": 0.2904,
+  "reg_chg": -0.14159027999999999,
+  "reg_vol": 1102086,
   "prev_close": 0.3383,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,24 +28,24 @@
   "lastSplitDate": 1714953600
  },
  "daily": {
-  "price": 0.2895,
-  "chg_1d": -0.1443,
+  "price": 0.2904,
+  "chg_1d": -0.1416,
   "ma": {
    "MA20": 0.3591,
    "MA30": 0.3137,
    "MA50": 0.3062
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 44.5,
+  "rsi_now": 44.6,
   "rsi_min15": 32.4,
   "rsi_min30": 32.1,
   "macd": {
-   "line": 0.03235,
-   "signal": 0.04499,
+   "line": 0.03242,
+   "signal": 0.045,
    "hist_last3": [
     0.00748,
     -0.00279,
-    -0.01264
+    -0.01259
    ],
    "state": "سلبي"
   },
@@ -68,18 +68,18 @@
     "lower_wick": "False",
     "strong_green": "False",
     "upper_wick_ratio": 0.017208417360107173,
-    "close_pos": 0.11281060939758858,
+    "close_pos": 0.13001902675769575,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.0942,
   "avg_vol20": 75770390,
-  "last_vol": 1036580,
-  "drawdown_90d": 0.609,
+  "last_vol": 1142101,
+  "drawdown_90d": 0.608,
   "high_90d": 0.74,
   "low_10d": 0.2836,
-  "gain_from_low10": 0.021,
+  "gain_from_low10": 0.024,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": true,
@@ -318,15 +318,15 @@
     "o": 0.335,
     "h": 0.3359,
     "l": 0.2836,
-    "c": 0.2895,
-    "v": 1036580,
-    "rsi": 44.5,
-    "hist": -0.01264
+    "c": 0.2904,
+    "v": 1142101,
+    "rsi": 44.6,
+    "hist": -0.01259
    }
   ]
  },
  "levels_map": {
-  "price": 0.2895,
+  "price": 0.2904,
   "at_price": [],
   "above": [
    {
@@ -335,19 +335,19 @@
     "confluence": 2
    },
    {
-    "level": 0.301,
-    "why": "فواب جلسة 2026-10-22 + MA50 + إغلاقات سابقة متجمعة (6)",
+    "level": 0.3001,
+    "why": "فواب جلسة 2026-10-22",
+    "confluence": 1
+   },
+   {
+    "level": 0.3062,
+    "why": "MA50 + إغلاقات سابقة متجمعة (6) + رأس شمعة هابطة",
     "confluence": 3
    },
    {
-    "level": 0.3076,
-    "why": "رأس شمعة هابطة + MA30",
+    "level": 0.3137,
+    "why": "MA30 + إغلاقات سابقة متجمعة (3)",
     "confluence": 2
-   },
-   {
-    "level": 0.3174,
-    "why": "إغلاقات سابقة متجمعة (3)",
-    "confluence": 1
    },
    {
     "level": 0.3314,
@@ -414,7 +414,7 @@
   "status": "WATCH",
   "setup": "AT_SUPPORT",
   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-  "price": 0.28949999809265137,
+  "price": 0.2903999984264374,
   "score": 2.75,
   "conditions": {
    "ma": {
@@ -449,13 +449,13 @@
   "stop": 0.2691079992055893,
   "entry_low": 0.27459999918937683,
   "entry_high": 0.2773459991812706,
-  "t1": 0.30617599993944167,
+  "t1": 0.3061939999461174,
   "t1_label": "MA50 + رأس شمعة هابطة + MA30",
   "t2": 0.33500000834465027,
   "t2_label": "قمة سابقة + رأس شمعة هابطة",
   "rr": 4.4,
   "risk_pct": 0.0249,
-  "rsi_now": 44.5,
+  "rsi_now": 44.6,
   "rsi_min": 32.4,
   "ma_state": "تحت كل المتوسطات (ضغط)",
   "macd_state": "سلبي",
@@ -478,12 +478,12 @@
    "قيعان أعلى",
    "فوليوم البيع يضعف"
   ],
-  "rank": 3.4786963046748074,
+  "rank": 3.46230882586121,
   "meta": {
    "avg_volume": 75770390.0,
-   "drawdown": 0.609,
-   "rr_best": 12.1,
-   "gain_from_low10": 0.021,
+   "drawdown": 0.608,
+   "rr_best": 12.11,
+   "gain_from_low10": 0.024,
    "higher_lows": "True",
    "float": 17187014,
    "market_cap": 6953880,

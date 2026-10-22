@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T12:41:54.877655+00:00",
- "generated_at_et": "2026-10-22T08:41:54.877655-04:00",
+ "generated_at_utc": "2026-10-22T12:51:54.877814+00:00",
+ "generated_at_et": "2026-10-22T08:51:54.877814-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -92,7 +92,10 @@
     "float": null,
     "market_cap": 291531267.0,
     "exchange": "NASDAQ",
-    "name": "Century Therapeutics Inc. Common Stock"
+    "name": "Century Therapeutics Inc. Common Stock",
+    "ext_price": 1.61,
+    "ext_chg": -0.018292682926829174,
+    "ext_session": "pre"
    },
    "news": []
   }
@@ -576,8 +579,8 @@
     "market_cap": 6782123.0,
     "exchange": "AMEX",
     "name": "AIM ImmunoTech Inc. Common Stock",
-    "ext_price": 0.1666,
-    "ext_chg": -0.024018717000000002,
+    "ext_price": 0.166,
+    "ext_chg": -0.027533715,
     "ext_session": "pre"
    },
    "news": []
@@ -1060,8 +1063,8 @@
     "market_cap": 135382687.0,
     "exchange": "NASDAQ",
     "name": "Playboy Inc. Common Stock",
-    "ext_price": 1.1064,
-    "ext_chg": -0.020884939999999998,
+    "ext_price": 1.1,
+    "ext_chg": -0.026548647999999998,
     "ext_session": "pre"
    },
    "news": []
@@ -1309,8 +1312,8 @@
     "market_cap": 40655958.0,
     "exchange": "AMEX",
     "name": "AgEagle Aerial Systems Inc. Common Stock",
-    "ext_price": 0.6476,
-    "ext_chg": 0.0026319617,
+    "ext_price": 0.6499,
+    "ext_chg": 0.0061929214,
     "ext_session": "pre"
    },
    "news": []
@@ -1474,7 +1477,10 @@
     "float": null,
     "market_cap": 4924857.0,
     "exchange": "NASDAQ",
-    "name": "Processa Pharmaceuticals Inc. Common Stock"
+    "name": "Processa Pharmaceuticals Inc. Common Stock",
+    "ext_price": 1.71,
+    "ext_chg": -0.011560693641618491,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2636,8 +2642,8 @@
     "market_cap": 132869996.0,
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences Inc. Common Stock",
-    "ext_price": 2.2199,
-    "ext_chg": 0.06470017,
+    "ext_price": 2.2157,
+    "ext_chg": 0.06268579,
     "ext_session": "pre"
    },
    "news": []
@@ -3054,8 +3060,8 @@
     "market_cap": 136665946.0,
     "exchange": "NASDAQ",
     "name": "Datavault AI Inc. Common Stock",
-    "ext_price": 0.141,
-    "ext_chg": -0.020152915,
+    "ext_price": 0.1427,
+    "ext_chg": -0.008339162,
     "ext_session": "pre"
    },
    "news": []
@@ -3446,7 +3452,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.8049,
+   "price": 1.8137,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3464,7 +3470,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 11%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 10%",
    "alert": false,
    "session": "pre",
    "scanner": null
@@ -3496,7 +3502,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.95,
+   "price": 2.954,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3514,9 +3520,9 @@
      3.8
     ]
    },
-   "state": "IN_ZONE",
+   "state": "ZONE_WEAK",
    "alert": false,
-   "state_ar": "داخل منطقة المتابعة 2.93–2.96 — ينتظر شمعة 15 دقيقة خضراء تثبت داخل المنطقة (لا دخول قبلها)",
+   "state_ar": "⚪ شمعة خضراء داخل منطقة المتابعة 2.93–2.96 لكن التأكيد ضعيف — بدون تنبيه: خارج الجلسة الرسمية (ص10)؛ شمعة التأكيد بدون سيولة (0.0K سهم ≈ $0K)",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3530,7 +3536,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.389,
+   "price": 0.3875,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3566,8 +3572,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 473781.0,
-   "price": 343.5
+   "volume": 508627.0,
+   "price": 344.03
   },
   "SNDL": {
    "volume": 2501.0,

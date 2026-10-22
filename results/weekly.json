@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-10-22T18:19:07.982355-04:00",
+ "generated_at_et": "2026-10-22T19:19:07.983177-04:00",
  "items": [
   {
    "ticker": "DFSC",
    "score": 10.62,
    "price": 0.7549,
-   "ext_price": 0.74,
+   "ext_price": 0.745,
    "name": "DEFSEC Technologies Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -55,7 +55,7 @@
    ],
    "ready_when": "نزول لمنطقة الطلب 0.66–0.687 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.561–0.594 ثم استرداد 0.66 (ص17، ص86)",
    "flags": [
-    "صعد في الأفتر إلى 0.74 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.745 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -724,7 +724,7 @@
    "ticker": "CIIT",
    "score": 8.88,
    "price": 1.96,
-   "ext_price": 1.86,
+   "ext_price": 2.0,
    "name": "Tianci International, Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -794,7 +794,7 @@
    "ticker": "CMMB",
    "score": 8.75,
    "price": 1.08,
-   "ext_price": null,
+   "ext_price": 1.17,
    "name": "Chemomab Therapeutics Ltd.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -848,7 +848,8 @@
    ],
    "ready_when": "نزول لمنطقة الطلب 1.05–1.08 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.893–0.946 ثم استرداد 1.05 (ص17، ص86)",
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في الأفتر إلى 1.17 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -919,75 +920,6 @@
     "فلووت أقل من 5M 🔥",
     "Former Runner (سبق انفجر +388% في يوم)",
     "قيعان أعلى",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
-   "ticker": "LNAI",
-   "score": 8.62,
-   "price": 0.47,
-   "ext_price": 0.47,
-   "name": "Lunai Bioworks Inc.",
-   "type": [
-    "طبي — الخبر يحرّكه",
-    "فلووت منخفض جداً",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 3099712,
-    "shares": 4533890.0,
-    "short_pct_float": 0.0375,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +249% في يوم)",
-    "drawdown": 0.906,
-    "rsi_min": 15.2,
-    "rsi_now": 17.3,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Sep 23, 2026",
-     "Lunai Bioworks Partners With Tanaist On Parkinson's Research"
-    ],
-    [
-     "Sep 18, 2026",
-     "Weekly Buzz: RARE, BAYRY Win Approvals; SION Cuts Jobs, GSK Deals; AZN, RHHBY Lead"
-    ],
-    [
-     "Sep 16, 2026",
-     "Lunai Bioworks Demonstrates AI Chemical-Risk Screening Using Tox21 Data"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.462,
-    "demand_low": 0.462,
-    "demand_high": 0.4666,
-    "wash_low": 0.3927,
-    "wash_high": 0.4158,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.5450000166893005,
-    "t1": 0.5450000166893005,
-    "t2": 0.6949999928474426,
-    "r1": 0.545,
-    "stop": 0.3809,
-    "stop_tight": 0.4528
-   },
-   "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.46 ثم استرداد",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.462–0.467 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.393–0.416 ثم استرداد 0.462 (ص17، ص86)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 9 يوم (طار إلى 1.68 وأغلق 1.23 بفوليوم 23x)",
-    "سهم طبي — الخبر قد يغير الاتجاه",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +249% في يوم)",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
@@ -1128,7 +1060,7 @@
    "ticker": "CVV",
    "score": 8.38,
    "price": 3.81,
-   "ext_price": 3.76,
+   "ext_price": 3.74,
    "name": "CVD Equipment Corporation",
    "type": [
     "فلووت منخفض جداً",
@@ -1194,7 +1126,7 @@
    "ticker": "TPET",
    "score": 8.38,
    "price": 1.52,
-   "ext_price": 1.53,
+   "ext_price": 1.5628,
    "name": "Trio Petroleum Corp.",
    "type": [
     "نموذج W"
@@ -1656,7 +1588,7 @@
    "ticker": "HCTI",
    "score": 7.75,
    "price": 0.3785,
-   "ext_price": 0.3828,
+   "ext_price": 0.3808,
    "name": "Healthcare Triangle, Inc.",
    "type": [
     "قاع نظيف"
@@ -1710,8 +1642,7 @@
    "ready_when": "نزول لمنطقة الطلب 0.36–0.364 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.306–0.324 ثم استرداد 0.36 (ص17، ص86)",
    "flags": [
     "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 0.93 وأغلق 0.718 بفوليوم 106x)",
-    "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.383 بعيداً عن منطقة الطلب"
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1853,7 +1784,7 @@
    "ticker": "FBGL",
    "score": 7.62,
    "price": 2.245,
-   "ext_price": 2.09,
+   "ext_price": 2.3,
    "name": "FBS Global Limited Ordinary Shares",
    "type": [
     "قاع نظيف"
@@ -2167,7 +2098,7 @@
    "ticker": "DXF",
    "score": 7.5,
    "price": 0.34,
-   "ext_price": 0.3108,
+   "ext_price": 0.2971,
    "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
    "type": [
     "قاع نظيف"
@@ -2221,7 +2152,7 @@
    "ready_when": "نزول لمنطقة الطلب 0.32–0.323 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.272–0.288 ثم استرداد 0.32 (ص17، ص86)",
    "flags": [
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في الأفتر تحت الوقف (0.311)"
+    "نزل في الأفتر تحت الوقف (0.297)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +214% في يوم)",
@@ -2297,7 +2228,7 @@
    "ticker": "IMSR",
    "score": 7.38,
    "price": 2.86,
-   "ext_price": 2.87,
+   "ext_price": 2.8699,
    "name": "Terrestrial Energy Inc. Common Stock  ",
    "type": [
     "قاع نظيف"
@@ -2610,7 +2541,7 @@
    "ticker": "HCWB",
    "score": 7.25,
    "price": 1.12,
-   "ext_price": 1.11,
+   "ext_price": 1.1,
    "name": "HCW Biologics Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2712,7 +2643,7 @@
     ]
    ],
    "levels": {
-    "bottom": 2.53,
+    "bottom": 2.5,
     "demand_low": 2.44,
     "demand_high": 2.4644,
     "wash_low": 2.074,
@@ -2802,7 +2733,7 @@
    "ticker": "FEMY",
    "score": 7.25,
    "price": 1.56,
-   "ext_price": 1.59,
+   "ext_price": 1.56,
    "name": "Femasys Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2857,7 +2788,7 @@
    "ready_when": "نزول لمنطقة الطلب 1.46–1.47 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.24–1.31 ثم استرداد 1.46 (ص17، ص86)",
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "صعد في الأفتر إلى 1.59 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 1.56 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +68% في يوم)",
@@ -3115,7 +3046,7 @@
    "ticker": "RMSG",
    "score": 7.12,
    "price": 0.251,
-   "ext_price": 0.2466,
+   "ext_price": 0.256,
    "name": "Real Messenger Corporation",
    "type": [
     "ارتكاز"
@@ -3243,7 +3174,7 @@
    "ticker": "VTIX",
    "score": 7.12,
    "price": 0.7098,
-   "ext_price": 0.729,
+   "ext_price": 0.72,
    "name": "Virtuix Holdings Inc. Class A Common Stock",
    "type": [
     "قاع نظيف"
@@ -3434,7 +3365,7 @@
    "ticker": "TII",
    "score": 7.12,
    "price": 1.92,
-   "ext_price": 1.913192,
+   "ext_price": 1.92,
    "name": "Titan Mining Corporation Common Shares",
    "type": [
     "ارتكاز"
@@ -4610,7 +4541,7 @@
    "ticker": "TYGO",
    "score": 6.88,
    "price": 0.9261,
-   "ext_price": 0.9261,
+   "ext_price": 0.9694,
    "name": "Tigo Energy Inc. Common Stock",
    "type": [
     "نموذج W"
@@ -5194,7 +5125,7 @@
    "ticker": "VNRX",
    "score": 6.5,
    "price": 0.1691,
-   "ext_price": 0.1646,
+   "ext_price": 0.1609,
    "name": "VolitionRX Limited Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5652,7 +5583,7 @@
    "ticker": "TORO",
    "score": 6.25,
    "price": 3.66,
-   "ext_price": 3.65,
+   "ext_price": 3.63,
    "name": "Toro Corp. Common Shares",
    "type": [
     "قاع نظيف"
@@ -5917,7 +5848,7 @@
    "ticker": "TENX",
    "score": 6.12,
    "price": 1.76,
-   "ext_price": 1.8023,
+   "ext_price": 1.7985,
    "name": "Tenax Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -7070,7 +7001,7 @@
    "ticker": "SLGB",
    "score": 5.88,
    "price": 0.2253,
-   "ext_price": 0.2305,
+   "ext_price": 0.22,
    "name": "Smart Logistics Global Limited Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -7127,7 +7058,7 @@
     "شمعة ضخ/تصريف قبل 20 يوم (طار إلى 0.425 وأغلق 0.33 بفوليوم 87x)",
     "سهم صيني عالي التذبذب",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.231 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.22 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +227% في يوم)",
@@ -7972,7 +7903,7 @@
    "ticker": "WLDS",
    "score": 5.25,
    "price": 1.39,
-   "ext_price": null,
+   "ext_price": 1.37,
    "name": "Wearable Devices Ltd. Ordinary Share",
    "type": [
     "ارتكاز"
@@ -8167,7 +8098,7 @@
    "ticker": "AGMH",
    "score": 5.0,
    "price": 0.495,
-   "ext_price": 0.4794,
+   "ext_price": 0.489,
    "name": "AGM Group Holdings Inc. Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -8617,7 +8548,7 @@
    "ticker": "HURA",
    "score": 4.38,
    "price": 2.01,
-   "ext_price": 2.08,
+   "ext_price": 2.05,
    "name": "TuHURA Biosciences Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -8934,7 +8865,7 @@
    "ticker": "STFS",
    "score": 2.88,
    "price": 4.68,
-   "ext_price": 4.8,
+   "ext_price": 4.69,
    "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -9117,7 +9048,7 @@
    ],
    "ready_when": "🚩 رجوع لاختبار 1.27 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
    "flags": [
-    "شمعة ضخ/تصريف قبل 0 يوم (طار إلى 1.65 وأغلق 1.29 بفوليوم 165x)",
+    "شمعة ضخ/تصريف قبل 0 يوم (طار إلى 1.65 وأغلق 1.29 بفوليوم 168x)",
     "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
     "سيولة ضعيفة: متوسط الفوليوم 53.5K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
     "سهم صيني عالي التذبذب"

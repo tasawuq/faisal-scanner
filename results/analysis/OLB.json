@@ -1,14 +1,14 @@
 {
  "ticker": "OLB",
- "generated_at_et": "2026-10-22T08:01:33.143843-04:00",
+ "generated_at_et": "2026-10-22T09:01:25.591371-04:00",
  "session": "pre",
  "quote": {
   "reg_price": 0.3383,
   "reg_chg": -0.21178899999999998,
   "reg_vol": 2296493,
   "prev_close": 0.4292,
-  "pre_price": 0.337,
-  "pre_chg": -0.0038426763000000003,
+  "pre_price": 0.333,
+  "pre_chg": -0.015666525,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 30078831,
@@ -326,23 +326,23 @@
   ]
  },
  "levels_map": {
-  "price": 0.337,
+  "price": 0.333,
   "at_price": [],
   "above": [
    {
-    "level": 0.345,
-    "why": "قمة سابقة + قمة الأفتر/البري",
-    "confluence": 2
-   },
-   {
-    "level": 0.3551,
-    "why": "MA20 + قاع يوم 2026-10-15",
-    "confluence": 2
-   },
-   {
-    "level": 0.3683,
-    "why": "فواب جلسة 2026-10-21",
+    "level": 0.335,
+    "why": "قمة سابقة",
     "confluence": 1
+   },
+   {
+    "level": 0.3503,
+    "why": "قمة الأفتر/البري + MA20",
+    "confluence": 2
+   },
+   {
+    "level": 0.362,
+    "why": "قاع يوم 2026-10-15 + فواب جلسة 2026-10-21",
+    "confluence": 2
    },
    {
     "level": 0.3899,

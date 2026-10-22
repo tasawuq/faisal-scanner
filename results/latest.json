@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T08:53:43.918804+00:00",
- "generated_at_et": "2026-10-22T04:53:43.918804-04:00",
+ "generated_at_utc": "2026-10-22T09:03:43.918987+00:00",
+ "generated_at_et": "2026-10-22T05:03:43.918987-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1455,8 +1455,8 @@
     "market_cap": 119112313.0,
     "exchange": "NASDAQ",
     "name": "QumulusAI Inc. Common Stock",
-    "ext_price": 3.71,
-    "ext_chg": 0.042134831460674205,
+    "ext_price": 3.5,
+    "ext_chg": -0.016853932584269704,
     "ext_session": "pre"
    },
    "news": []
@@ -1540,8 +1540,8 @@
     "market_cap": 2596807.0,
     "exchange": "NASDAQ",
     "name": "AGM Group Holdings Inc. Class A Ordinary Shares",
-    "ext_price": 0.4618,
-    "ext_chg": -0.034497168,
+    "ext_price": 0.46,
+    "ext_chg": -0.038260498,
     "ext_session": "pre"
    },
    "news": []
@@ -2047,7 +2047,7 @@
     "exchange": "AMEX",
     "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
     "ext_price": 0.3245,
-    "ext_chg": -0.024939923,
+    "ext_chg": -0.0015384418,
     "ext_session": "pre"
    },
    "news": []
@@ -2530,8 +2530,8 @@
     "market_cap": 112158846.0,
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences Inc. Common Stock",
-    "ext_price": 2.24,
-    "ext_chg": 0.07434051,
+    "ext_price": 2.27,
+    "ext_chg": 0.08872899000000001,
     "ext_session": "pre"
    },
    "news": []
@@ -2613,7 +2613,10 @@
     "float": null,
     "market_cap": 66396801.0,
     "exchange": "NASDAQ",
-    "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares"
+    "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares",
+    "ext_price": 4.31,
+    "ext_chg": -0.013729977116704872,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2859,8 +2862,8 @@
     "market_cap": 52711582.0,
     "exchange": "AMEX",
     "name": "Westwater Resources Inc. Common Stock",
-    "ext_price": 0.4,
-    "ext_chg": -0.036840851,
+    "ext_price": 0.4001,
+    "ext_chg": -0.036600091,
     "ext_session": "pre"
    },
    "news": []
@@ -2945,8 +2948,8 @@
     "market_cap": 132867032.0,
     "exchange": "NASDAQ",
     "name": "Datavault AI Inc. Common Stock",
-    "ext_price": 0.1375,
-    "ext_chg": -0.044475355,
+    "ext_price": 0.1376,
+    "ext_chg": -0.043780416999999995,
     "ext_session": "pre"
    },
    "news": []
@@ -3462,7 +3465,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.9032,
+   "price": 2.892,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3481,7 +3484,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 7%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 8%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3496,7 +3499,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3902,
+   "price": 0.3901,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3532,8 +3535,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 123080.0,
-   "price": 344.58
+   "volume": 140717.0,
+   "price": 344.52
   },
   "SNDL": {
    "volume": 5.0,

@@ -1,17 +1,17 @@
 {
- "generated_at_et": "2026-10-22T16:14:35.802467-04:00",
+ "generated_at_et": "2026-10-22T17:15:03.672933-04:00",
  "items": [
   {
    "ticker": "DFSC",
    "score": 10.62,
-   "price": 0.74,
-   "ext_price": null,
+   "price": 0.7549,
+   "ext_price": 0.74,
    "name": "DEFSEC Technologies Inc.",
    "type": [
     "فلووت منخفض جداً",
     "قاع نظيف"
    ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "setup_ar": "ارتداد مؤكد من الدعم",
    "status": "WATCH",
    "data": {
     "float": 2461115,
@@ -19,9 +19,9 @@
     "short_pct_float": 0.0067000003,
     "split": "",
     "runner": "Former Runner (سبق انفجر +188% في يوم)",
-    "drawdown": 0.811,
+    "drawdown": 0.807,
     "rsi_min": 21.9,
-    "rsi_now": 33.0,
+    "rsi_now": 33.6,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "تقاطع إيجابي حديث"
    },
@@ -38,7 +38,7 @@
    "levels": {
     "bottom": 0.66,
     "demand_low": 0.66,
-    "demand_high": 0.6666,
+    "demand_high": 0.6866,
     "wash_low": 0.561,
     "wash_high": 0.594,
     "wash_note": "10–15% تحت الدعم (ص54)",
@@ -50,11 +50,13 @@
     "stop_tight": 0.6468
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.66 ثم استرداد",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "السعر ابتعد 10% فوق منطقة الطلب — ضع Limit عند 0.66–0.69 ولا تطارد"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.66–0.667 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.561–0.594 ثم استرداد 0.66 (ص17، ص86)",
-   "flags": [],
+   "ready_when": "نزول لمنطقة الطلب 0.66–0.687 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.561–0.594 ثم استرداد 0.66 (ص17، ص86)",
+   "flags": [
+    "صعد في الأفتر إلى 0.74 بعيداً عن منطقة الطلب"
+   ],
    "tags": [
     "فلووت أقل من 5M 🔥",
     "Former Runner (سبق انفجر +188% في يوم)",
@@ -64,7 +66,7 @@
   {
    "ticker": "KIDZ",
    "score": 10.62,
-   "price": 1.64,
+   "price": 1.65,
    "ext_price": null,
    "name": "KIDZ AI Inc.",
    "type": [
@@ -81,7 +83,7 @@
     "runner": "Former Runner (سبق انفجر +152% في يوم)",
     "drawdown": 0.935,
     "rsi_min": 19.8,
-    "rsi_now": 25.8,
+    "rsi_now": 26.2,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -102,9 +104,9 @@
     "wash_low": 1.258,
     "wash_high": 1.332,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.649999976158142,
-    "t1": 1.649999976158142,
-    "t2": 2.0629999935626984,
+    "pivot": 1.7039999961853027,
+    "t1": 1.7039999961853027,
+    "t2": 2.0634999930858613,
     "r1": 1.61,
     "stop": 1.2203,
     "stop_tight": 1.4504
@@ -261,7 +263,7 @@
   {
    "ticker": "AIMD",
    "score": 10.12,
-   "price": 0.852,
+   "price": 0.8441,
    "ext_price": null,
    "name": "Ainos, Inc.",
    "type": [
@@ -276,9 +278,9 @@
     "short_pct_float": 0.0113,
     "split": "",
     "runner": "Former Runner (سبق انفجر +154% في يوم)",
-    "drawdown": 0.631,
-    "rsi_min": 19.8,
-    "rsi_now": 19.8,
+    "drawdown": 0.635,
+    "rsi_min": 19.5,
+    "rsi_now": 19.5,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -295,8 +297,8 @@
     "wash_low": 0.68,
     "wash_high": 0.72,
     "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.9309999942779541,
-    "t1": 0.9309999942779541,
+    "pivot": 0.9243999719619751,
+    "t1": 0.9243999719619751,
     "t2": 0.9900000095367432,
     "r1": 0.931,
     "stop": 0.6596,
@@ -319,7 +321,7 @@
    "ticker": "WCT",
    "score": 9.88,
    "price": 0.3357,
-   "ext_price": 0.3243,
+   "ext_price": 0.3241,
    "name": "Wellchange Holdings Company Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -611,16 +613,16 @@
    },
    "news": [
     [
+     "Oct 22, 2026",
+     "Ernexa Therapeutics Focuses On Clinical Readiness Of Lead Cancer Candidate"
+    ],
+    [
      "Sep 30, 2026",
      "Ernexa Therapeutics Advances ERNA-101 Toward Planned Q4 2026 IND"
     ],
     [
      "Sep 30, 2026",
      "Ernexa Reports Positive ERNA-101 Safety Data Ahead Of Q4 IND"
-    ],
-    [
-     "Sep 29, 2026",
-     "Ernexa Selected For Emerging Track At 2026 Cell & Gene Meeting On The Mesa"
     ]
    ],
    "levels": {
@@ -657,7 +659,7 @@
    "ticker": "LZMH",
    "score": 8.88,
    "price": 0.7501,
-   "ext_price": null,
+   "ext_price": 0.7502,
    "name": "LZ Technology Holdings Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -746,15 +748,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Edible Garden AG Incorporated Enters into Produce Supply Agreement Effective October 15, 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "MSC Industrial Direct Co., Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results"
+     "Weave Communications, Inc. Stockholders Approve Merger Agreement on October 22, 2026"
     ],
     [
      "Oct 22, 2026",
-     "AstraZeneca PLC Announces US FDA Accelerated Approval of Ultomiris for IgAN on 22 October 2026"
+     "Burke & Herbert Financial Services Corp. Announces Third Quarter 2026 Results and Declares Common Stock Dividend"
     ]
    ],
    "levels": {
@@ -917,6 +919,75 @@
     "فلووت أقل من 5M 🔥",
     "Former Runner (سبق انفجر +388% في يوم)",
     "قيعان أعلى",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
+   "ticker": "LNAI",
+   "score": 8.62,
+   "price": 0.47,
+   "ext_price": 0.47,
+   "name": "Lunai Bioworks Inc.",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "فلووت منخفض جداً",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 3099712,
+    "shares": 4533890.0,
+    "short_pct_float": 0.0375,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +249% في يوم)",
+    "drawdown": 0.906,
+    "rsi_min": 15.2,
+    "rsi_now": 17.3,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Sep 23, 2026",
+     "Lunai Bioworks Partners With Tanaist On Parkinson's Research"
+    ],
+    [
+     "Sep 18, 2026",
+     "Weekly Buzz: RARE, BAYRY Win Approvals; SION Cuts Jobs, GSK Deals; AZN, RHHBY Lead"
+    ],
+    [
+     "Sep 16, 2026",
+     "Lunai Bioworks Demonstrates AI Chemical-Risk Screening Using Tox21 Data"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.462,
+    "demand_low": 0.462,
+    "demand_high": 0.4666,
+    "wash_low": 0.3927,
+    "wash_high": 0.4158,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.5450000166893005,
+    "t1": 0.5450000166893005,
+    "t2": 0.6949999928474426,
+    "r1": 0.545,
+    "stop": 0.3809,
+    "stop_tight": 0.4528
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.46 ثم استرداد",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 0.462–0.467 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.393–0.416 ثم استرداد 0.462 (ص17، ص86)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 9 يوم (طار إلى 1.68 وأغلق 1.23 بفوليوم 23x)",
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +249% في يوم)",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
@@ -1123,7 +1194,7 @@
    "ticker": "TPET",
    "score": 8.38,
    "price": 1.52,
-   "ext_price": 1.52,
+   "ext_price": 1.49,
    "name": "Trio Petroleum Corp.",
    "type": [
     "نموذج W"
@@ -1212,15 +1283,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Edible Garden AG Incorporated Enters into Produce Supply Agreement Effective October 15, 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "MSC Industrial Direct Co., Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results"
+     "Weave Communications, Inc. Stockholders Approve Merger Agreement on October 22, 2026"
     ],
     [
      "Oct 22, 2026",
-     "AstraZeneca PLC Announces US FDA Accelerated Approval of Ultomiris for IgAN on 22 October 2026"
+     "Burke & Herbert Financial Services Corp. Announces Third Quarter 2026 Results and Declares Common Stock Dividend"
     ]
    ],
    "levels": {
@@ -1257,7 +1328,7 @@
    "ticker": "IDN",
    "score": 8.25,
    "price": 2.4,
-   "ext_price": 2.4,
+   "ext_price": 2.427,
    "name": "Intellicheck, Inc.",
    "type": [
     "🚩 علم/اختراق بعد قاعدة"
@@ -1319,7 +1390,7 @@
    "ticker": "TMDE",
    "score": 8.25,
    "price": 0.5688,
-   "ext_price": null,
+   "ext_price": 0.5688,
    "name": "TMD Energy Limited",
    "type": [
     "فلووت منخفض جداً",
@@ -1516,7 +1587,7 @@
    "ticker": "ONMD",
    "score": 7.75,
    "price": 4.91,
-   "ext_price": null,
+   "ext_price": 4.94,
    "name": "OneMedNet Corporation",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -1585,7 +1656,7 @@
    "ticker": "HCTI",
    "score": 7.75,
    "price": 0.3785,
-   "ext_price": 0.4023,
+   "ext_price": 0.3751,
    "name": "Healthcare Triangle, Inc.",
    "type": [
     "قاع نظيف"
@@ -1639,8 +1710,7 @@
    "ready_when": "نزول لمنطقة الطلب 0.36–0.364 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.306–0.324 ثم استرداد 0.36 (ص17، ص86)",
    "flags": [
     "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 0.93 وأغلق 0.718 بفوليوم 106x)",
-    "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.402 بعيداً عن منطقة الطلب"
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1675,15 +1745,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Tech Stocks Lead Broad Market Lower as Meta Slides -6%"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Ping An Biomedical Sets 1-For-40 Reverse Stock Split For October 23; Stock Up"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -1836,7 +1906,7 @@
    "ticker": "OMH",
    "score": 7.62,
    "price": 3.12,
-   "ext_price": 3.12,
+   "ext_price": 3.1,
    "name": "Ohmyhome Limited",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -1966,7 +2036,7 @@
    "ticker": "UFG",
    "score": 7.5,
    "price": 0.3531,
-   "ext_price": null,
+   "ext_price": 0.3521,
    "name": "Uni-Fuels Holdings Limited Class A Ordinary Shares",
    "type": [
     "ارتكاز"
@@ -2095,7 +2165,7 @@
    "ticker": "DXF",
    "score": 7.5,
    "price": 0.34,
-   "ext_price": 0.4349,
+   "ext_price": 0.3065,
    "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
    "type": [
     "قاع نظيف"
@@ -2117,15 +2187,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -2144,15 +2214,16 @@
    },
    "not_ready": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.32 ثم استرداد",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
    ],
    "ready_when": "نزول لمنطقة الطلب 0.32–0.323 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.272–0.288 ثم استرداد 0.32 (ص17، ص86)",
    "flags": [
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.435 بعيداً عن منطقة الطلب"
+    "نزل في الأفتر تحت الوقف (0.306)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +214% في يوم)",
+    "فوليوم يتحسن",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
@@ -2160,7 +2231,7 @@
    "ticker": "LOOP",
    "score": 7.38,
    "price": 0.3059,
-   "ext_price": null,
+   "ext_price": 0.3059,
    "name": "Loop Industries Inc. Common Stock",
    "type": [
     "قاع نظيف"
@@ -2224,7 +2295,7 @@
    "ticker": "IMSR",
    "score": 7.38,
    "price": 2.86,
-   "ext_price": 2.91,
+   "ext_price": 2.87,
    "name": "Terrestrial Energy Inc. Common Stock  ",
    "type": [
     "قاع نظيف"
@@ -2308,15 +2379,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Edible Garden AG Incorporated Enters into Produce Supply Agreement Effective October 15, 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "MSC Industrial Direct Co., Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "AstraZeneca PLC Announces US FDA Accelerated Approval of Ultomiris for IgAN on 22 October 2026"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -2349,7 +2420,7 @@
    "ticker": "GXAI",
    "score": 7.25,
    "price": 0.454,
-   "ext_price": null,
+   "ext_price": 0.44,
    "name": "Gaxos.ai Inc. Common Stock",
    "type": [
     "ارتكاز"
@@ -2412,7 +2483,7 @@
    "ticker": "STI",
    "score": 7.25,
    "price": 4.34,
-   "ext_price": 4.42,
+   "ext_price": 4.3354,
    "name": "Solidion Technology Inc. Common Stock",
    "type": [
     "ارتكاز"
@@ -2434,15 +2505,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -2473,7 +2544,7 @@
    "ticker": "WWR",
    "score": 7.25,
    "price": 0.3952,
-   "ext_price": 0.3983,
+   "ext_price": 0.4027,
    "name": "Westwater Resources Inc. Common Stock",
    "type": [
     "ارتكاز"
@@ -2537,7 +2608,7 @@
    "ticker": "HCWB",
    "score": 7.25,
    "price": 1.12,
-   "ext_price": null,
+   "ext_price": 1.12,
    "name": "HCW Biologics Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2603,7 +2674,7 @@
   {
    "ticker": "AMIX",
    "score": 7.25,
-   "price": 2.5101,
+   "price": 2.5,
    "ext_price": 2.5097,
    "name": "Autonomix Medical Inc. Common Stock",
    "type": [
@@ -2618,9 +2689,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +576% في يوم)",
-    "drawdown": 0.898,
-    "rsi_min": 25.3,
-    "rsi_now": 25.3,
+    "drawdown": 0.899,
+    "rsi_min": 25.2,
+    "rsi_now": 25.2,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -2639,7 +2710,7 @@
     ]
    ],
    "levels": {
-    "bottom": 2.5,
+    "bottom": 2.53,
     "demand_low": 2.44,
     "demand_high": 2.4644,
     "wash_low": 2.074,
@@ -2816,15 +2887,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -2972,75 +3043,10 @@
    ]
   },
   {
-   "ticker": "SPRU",
-   "score": 7.12,
-   "price": 1.33,
-   "ext_price": 1.33,
-   "name": "Spruce Power Holding Corporation",
-   "type": [
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 14920252,
-    "shares": 19252186.0,
-    "short_pct_float": 0.060100004,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +63% في يوم)",
-    "drawdown": 0.552,
-    "rsi_min": 27.0,
-    "rsi_now": 29.9,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Sep 3, 2026",
-     "The Zacks Analyst Blog Highlights AMD, Costco, AstraZeneca, Peoples Bancorp of North Carolina and Spruce Power"
-    ],
-    [
-     "Sep 2, 2026",
-     "Top Stock Reports for AMD, Costco & AstraZeneca"
-    ],
-    [
-     "Aug 19, 2026",
-     "SPRU Posts Q2 Earnings, Cost Cuts and PPA-Lease Growth Aid"
-    ]
-   ],
-   "levels": {
-    "bottom": 1.29,
-    "demand_low": 1.29,
-    "demand_high": 1.3121,
-    "wash_low": 1.0965,
-    "wash_high": 1.161,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.3600000143051147,
-    "t1": 1.3600000143051147,
-    "t2": 1.4500000476837158,
-    "r1": 1.36,
-    "stop": 1.0636,
-    "stop_tight": 1.2642
-   },
-   "not_ready": [
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 1.29–1.31 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.1–1.16 ثم استرداد 1.29 (ص17، ص86)",
-   "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 75.4K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +63% في يوم)",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
    "ticker": "AURE",
    "score": 7.12,
    "price": 0.9589,
-   "ext_price": null,
+   "ext_price": 1.0299,
    "name": "Aurelion Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -3091,7 +3097,8 @@
    "ready_when": "نزول لمنطقة الطلب 0.85–0.884 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.723–0.765 ثم استرداد 0.85 (ص17، ص86)",
    "flags": [
     "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 1.73 وأغلق 1.14 بفوليوم 233x)",
-    "سهم صيني عالي التذبذب"
+    "سهم صيني عالي التذبذب",
+    "صعد في الأفتر إلى 1.03 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -3104,7 +3111,7 @@
    "ticker": "RMSG",
    "score": 7.12,
    "price": 0.251,
-   "ext_price": null,
+   "ext_price": 0.2466,
    "name": "Real Messenger Corporation",
    "type": [
     "ارتكاز"
@@ -3126,15 +3133,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Tech Stocks Lead Broad Market Lower as Meta Slides -6%"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Ping An Biomedical Sets 1-For-40 Reverse Stock Split For October 23; Stock Up"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -3232,7 +3239,7 @@
    "ticker": "VTIX",
    "score": 7.12,
    "price": 0.7098,
-   "ext_price": 0.7098,
+   "ext_price": 0.73,
    "name": "Virtuix Holdings Inc. Class A Common Stock",
    "type": [
     "قاع نظيف"
@@ -3294,7 +3301,7 @@
    "ticker": "ALDX",
    "score": 7.12,
    "price": 0.6453,
-   "ext_price": 0.6453,
+   "ext_price": 0.6354,
    "name": "Aldeyra Therapeutics Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -3360,7 +3367,7 @@
    "ticker": "VRXA",
    "score": 7.12,
    "price": 1.03,
-   "ext_price": 1.03,
+   "ext_price": 1.021,
    "name": "Veraxa Biotech AG Ordinary Shares",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -3423,7 +3430,7 @@
    "ticker": "TII",
    "score": 7.12,
    "price": 1.92,
-   "ext_price": 1.95,
+   "ext_price": 1.9,
    "name": "Titan Mining Corporation Common Shares",
    "type": [
     "ارتكاز"
@@ -3484,78 +3491,10 @@
    ]
   },
   {
-   "ticker": "AMSS",
-   "score": 7.12,
-   "price": 0.325,
-   "ext_price": 0.3287,
-   "name": "AMASS Brands Inc. Common Stock",
-   "type": [
-    "طرح جديد/تاريخ قصير",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": null,
-    "short_pct_float": null,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +111% في يوم)",
-    "drawdown": 0.869,
-    "rsi_min": 20.7,
-    "rsi_now": 22.4,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Oct 6, 2026",
-     "AMASS Brands Q3 Preliminary Net Revenue At $5.3 Million"
-    ],
-    [
-     "May 27, 2026",
-     "AMASS Brands Shares Surge 85% As Good Twin Brand Tops U.S. Organic Non-Alcoholic Wine Market"
-    ],
-    [
-     "May 27, 2026",
-     "Pre-Market Most Active for May 27, 2026 :  NOK, RDW, AMSS, TSLL, MU, TQQQ, F, TE, SQQQ, NVDA, GCTS, SPCE"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.32,
-    "demand_low": 0.32,
-    "demand_high": 0.3232,
-    "wash_low": 0.272,
-    "wash_high": 0.288,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.3700000047683716,
-    "t1": 0.3700000047683716,
-    "t2": 0.3799999952316284,
-    "r1": 0.37,
-    "stop": 0.2638,
-    "stop_tight": 0.3136
-   },
-   "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.32 ثم استرداد",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.32–0.323 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.272–0.288 ثم استرداد 0.32 (ص17، ص86)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 0.62 وأغلق 0.47 بفوليوم 67x)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "Former Runner (سبق انفجر +111% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
    "ticker": "TRAW",
    "score": 7.12,
    "price": 0.3667,
-   "ext_price": 0.3847,
+   "ext_price": 0.3663,
    "name": "Traws Pharma Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -3611,8 +3550,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 20 يوم (طار إلى 0.7 وأغلق 0.56 بفوليوم 304x)",
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.385 بعيداً عن منطقة الطلب"
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
     "Former Runner (سبق انفجر +57% في يوم)",
@@ -3682,6 +3620,74 @@
    ],
    "tags": [
     "Former Runner (سبق انفجر +129% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
+   "ticker": "AMSS",
+   "score": 7.12,
+   "price": 0.3287,
+   "ext_price": null,
+   "name": "AMASS Brands Inc. Common Stock",
+   "type": [
+    "طرح جديد/تاريخ قصير",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": null,
+    "short_pct_float": null,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +111% في يوم)",
+    "drawdown": 0.867,
+    "rsi_min": 20.7,
+    "rsi_now": 22.6,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Oct 6, 2026",
+     "AMASS Brands Q3 Preliminary Net Revenue At $5.3 Million"
+    ],
+    [
+     "May 27, 2026",
+     "AMASS Brands Shares Surge 85% As Good Twin Brand Tops U.S. Organic Non-Alcoholic Wine Market"
+    ],
+    [
+     "May 27, 2026",
+     "Pre-Market Most Active for May 27, 2026 :  NOK, RDW, AMSS, TSLL, MU, TQQQ, F, TE, SQQQ, NVDA, GCTS, SPCE"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.32,
+    "demand_low": 0.32,
+    "demand_high": 0.3232,
+    "wash_low": 0.272,
+    "wash_high": 0.288,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.3700000047683716,
+    "t1": 0.3700000047683716,
+    "t2": 0.3799999952316284,
+    "r1": 0.37,
+    "stop": 0.2638,
+    "stop_tight": 0.3136
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.32 ثم استرداد",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 0.32–0.323 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.272–0.288 ثم استرداد 0.32 (ص17، ص86)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 0.62 وأغلق 0.47 بفوليوم 67x)",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +111% في يوم)",
+    "قيعان أعلى",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
@@ -4301,15 +4307,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -4658,6 +4664,71 @@
    ]
   },
   {
+   "ticker": "SPRU",
+   "score": 6.88,
+   "price": 1.33,
+   "ext_price": 1.33,
+   "name": "Spruce Power Holding Corporation",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتداد مؤكد من الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 14920252,
+    "shares": 19252186.0,
+    "short_pct_float": 0.060100004,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +63% في يوم)",
+    "drawdown": 0.552,
+    "rsi_min": 27.0,
+    "rsi_now": 29.9,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Sep 3, 2026",
+     "The Zacks Analyst Blog Highlights AMD, Costco, AstraZeneca, Peoples Bancorp of North Carolina and Spruce Power"
+    ],
+    [
+     "Sep 2, 2026",
+     "Top Stock Reports for AMD, Costco & AstraZeneca"
+    ],
+    [
+     "Aug 19, 2026",
+     "SPRU Posts Q2 Earnings, Cost Cuts and PPA-Lease Growth Aid"
+    ]
+   ],
+   "levels": {
+    "bottom": 1.29,
+    "demand_low": 1.29,
+    "demand_high": 1.3121,
+    "wash_low": 1.0965,
+    "wash_high": 1.161,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 1.3600000143051147,
+    "t1": 1.3600000143051147,
+    "t2": 1.4500000476837158,
+    "r1": 1.36,
+    "stop": 1.0636,
+    "stop_tight": 1.2642
+   },
+   "not_ready": [
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 1.29–1.31 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.1–1.16 ثم استرداد 1.29 (ص17، ص86)",
+   "flags": [
+    "سيولة ضعيفة: متوسط الفوليوم 75.4K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +63% في يوم)",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
    "ticker": "PRLD",
    "score": 6.88,
    "price": 3.6,
@@ -4786,6 +4857,74 @@
    ]
   },
   {
+   "ticker": "LOBO",
+   "score": 6.75,
+   "price": 0.45,
+   "ext_price": null,
+   "name": "Lobo Technologies Ltd.",
+   "type": [
+    "صيني عالي التذبذب ⚠️",
+    "نموذج W"
+   ],
+   "setup_ar": "نموذج W قيد التكوين",
+   "status": "WATCH",
+   "data": {
+    "float": 10563556,
+    "shares": 10711618.0,
+    "short_pct_float": 0.0126,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +143% في يوم)",
+    "drawdown": 0.651,
+    "rsi_min": 29.4,
+    "rsi_now": 37.7,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "تقاطع إيجابي حديث"
+   },
+   "news": [
+    [
+     "Apr 21, 2026",
+     "Lobo Technologies Stock Gains 68% Over Claw AI Agent Platform Upgrade"
+    ],
+    [
+     "May 29, 2025",
+     "LOBO EV Technologies Ltd. Launches Second-Generation Multi-Functional Robotic Platform"
+    ],
+    [
+     "May 16, 2025",
+     "LOBO EV Technologies Ltd. Faces Nasdaq Compliance Challenge Over Bid Price Requirement"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.406,
+    "demand_low": 0.406,
+    "demand_high": 0.441,
+    "wash_low": 0.3732,
+    "wash_high": 0.3845,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.49000000953674316,
+    "t1": 0.550000011920929,
+    "t2": 0.574999988079071,
+    "r1": 0.455,
+    "stop": 0.362,
+    "stop_tight": 0.3979
+   },
+   "not_ready": [
+    "كسر خط العنق 0.49 والثبات فوقه أكثر من ربع ساعة",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)"
+   ],
+   "ready_when": "من تحت: شمعة ارتداد عند القاع الثاني 0.406؛ أو كسر خط العنق 0.49 والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)",
+   "flags": [
+    "سهم صيني عالي التذبذب",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +143% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "RKTO",
    "score": 6.75,
    "price": 0.5325,
@@ -4854,7 +4993,7 @@
    "ticker": "NIXX",
    "score": 6.62,
    "price": 0.3148,
-   "ext_price": null,
+   "ext_price": 0.3101,
    "name": "Nixxy, Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest"
@@ -4876,15 +5015,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -5051,7 +5190,7 @@
    "ticker": "VNRX",
    "score": 6.5,
    "price": 0.1691,
-   "ext_price": null,
+   "ext_price": 0.1697,
    "name": "VolitionRX Limited Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5181,7 +5320,7 @@
    "ticker": "KUST",
    "score": 6.5,
    "price": 3.77,
-   "ext_price": 3.7,
+   "ext_price": 3.6,
    "name": "Kustom Entertainment Inc. Common Stock",
    "type": [
     "قاع نظيف"
@@ -5440,76 +5579,10 @@
    ]
   },
   {
-   "ticker": "PMEC",
-   "score": 6.38,
-   "price": 0.406,
-   "ext_price": null,
-   "name": "Primech Holdings Ltd.",
-   "type": [
-    "ارتكاز"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 5254812,
-    "shares": 38417987.0,
-    "short_pct_float": 0.0014,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +67% في يوم)",
-    "drawdown": 0.486,
-    "rsi_min": 33.8,
-    "rsi_now": 36.2,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "بداية تحسن"
-   },
-   "news": [
-    [
-     "Aug 26, 2025",
-     "Primech Holdings Wins $19.6 Mln Multi-Year Contract"
-    ],
-    [
-     "Jul 8, 2025",
-     "Primech Holdings Limited Announces S$10.65 Million Contract Extension for Cleaning Services in Singapore"
-    ],
-    [
-     "Jun 3, 2025",
-     "Primech AI Pte. Ltd. Secures Two-Year Lease for HYTRON LITE Autonomous Cleaning Robot in Major Singapore Hospital"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.31,
-    "demand_low": 0.4,
-    "demand_high": 0.4013,
-    "wash_low": 0.3069,
-    "wash_high": 0.3162,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.4399999976158142,
-    "t1": 0.4399999976158142,
-    "t2": 0.4560000002384186,
-    "r1": 0.44,
-    "stop": 0.2977,
-    "stop_tight": 0.3627
-   },
-   "not_ready": [
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.4–0.401 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.307–0.316 ثم استرداد 0.4 (ص17، ص86)",
-   "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 81.2K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +67% في يوم)",
-    "قيعان أعلى"
-   ]
-  },
-  {
    "ticker": "ELTX",
    "score": 6.25,
    "price": 1.94,
-   "ext_price": 1.953,
+   "ext_price": 1.84,
    "name": "Elicio Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5533,15 +5606,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Tech Stocks Lead Broad Market Lower as Meta Slides -6%"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Unusual Machines Receives $16.9 Million Purchase Order from Powerus"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "CXApp Inc. Enters Standstill Agreement with Avondale Capital and Authorizes $1,000,000 Share Repurchase Program"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -5661,15 +5734,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -5726,15 +5799,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -5840,7 +5913,7 @@
    "ticker": "TENX",
    "score": 6.12,
    "price": 1.76,
-   "ext_price": 1.8,
+   "ext_price": 1.79,
    "name": "Tenax Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -5894,7 +5967,7 @@
    "ready_when": "نزول لمنطقة الطلب 1.59–1.65 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.35–1.39 ثم استرداد 1.59 (ص17، ص86)",
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "صعد في الأفتر إلى 1.8 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 1.79 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +34% في يوم)",
@@ -5905,7 +5978,7 @@
    "ticker": "TAOP",
    "score": 6.12,
    "price": 0.33,
-   "ext_price": null,
+   "ext_price": 0.3363,
    "name": "Taoping Inc. Ordinary Shares ",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -5950,12 +6023,14 @@
     "stop_tight": 0.2842
    },
    "not_ready": [
-    "السعر ابتعد 9% فوق منطقة الطلب — ضع Limit عند 0.29–0.30 ولا تطارد"
+    "السعر ابتعد 9% فوق منطقة الطلب — ضع Limit عند 0.29–0.30 ولا تطارد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "ready_when": "نزول لمنطقة الطلب 0.29–0.302 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.246–0.261 ثم استرداد 0.29 (ص17، ص86)",
    "flags": [
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.336 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +58% في يوم)",
@@ -5989,15 +6064,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Stocks Rally on Positive AI News, with SpaceX up +7%"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -6054,15 +6129,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries"
     ],
     [
      "Oct 22, 2026",
-     "Civista Bancshares, Inc. Announces Third Quarter 2026 Net Income of $16.0 million"
+     "Great News for AbbVie Stock Investors"
     ]
    ],
    "levels": {
@@ -6286,13 +6361,13 @@
   {
    "ticker": "GOAI",
    "score": 6.12,
-   "price": 1.52,
+   "price": 1.53,
    "ext_price": null,
    "name": "Eva Live, Inc.",
    "type": [
     "قاع نظيف"
    ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "setup_ar": "ارتداد مؤكد من الدعم",
    "status": "WATCH",
    "data": {
     "float": 11141733,
@@ -6300,9 +6375,9 @@
     "short_pct_float": 0.0143,
     "split": "",
     "runner": "Former Runner (سبق انفجر +56% في يوم)",
-    "drawdown": 0.553,
+    "drawdown": 0.55,
     "rsi_min": 31.2,
-    "rsi_now": 38.5,
+    "rsi_now": 39.0,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -6319,22 +6394,22 @@
    "levels": {
     "bottom": 1.42,
     "demand_low": 1.42,
-    "demand_high": 1.4342,
+    "demand_high": 1.4658,
     "wash_low": 1.207,
     "wash_high": 1.278,
     "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 1.5399999618530273,
     "t1": 1.5399999618530273,
-    "t2": 1.7004999935626983,
+    "t2": 1.7009999930858613,
     "r1": 1.52,
     "stop": 1.1708,
     "stop_tight": 1.3916
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.42 ثم استرداد",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 31)"
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 31)",
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 1.42–1.43 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.21–1.28 ثم استرداد 1.42 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 1.42–1.47 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.21–1.28 ثم استرداد 1.42 (ص17، ص86)",
    "flags": [
     "اختراق وهمي سابق لخط العنق (Bull Trap)",
     "سيولة ضعيفة: متوسط الفوليوم 62.2K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
@@ -6606,75 +6681,6 @@
    ]
   },
   {
-   "ticker": "SOS",
-   "score": 6.12,
-   "price": 0.2116,
-   "ext_price": null,
-   "name": "SOS Limited",
-   "type": [
-    "صيني عالي التذبذب ⚠️",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 12399840,
-    "shares": 13469901.0,
-    "short_pct_float": 0.0388,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +123% في يوم)",
-    "drawdown": 0.822,
-    "rsi_min": 21.8,
-    "rsi_now": 27.5,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Oct 22, 2026",
-     "Stocks Rally on Positive AI News, with SpaceX up +7%"
-    ],
-    [
-     "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
-    ],
-    [
-     "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.19,
-    "demand_low": 0.19,
-    "demand_high": 0.1919,
-    "wash_low": 0.1615,
-    "wash_high": 0.171,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.21699999272823334,
-    "t1": 0.21699999272823334,
-    "t2": 0.22300000488758087,
-    "r1": 0.212,
-    "stop": 0.1567,
-    "stop_tight": 0.1862
-   },
-   "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.19 ثم استرداد",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.19–0.192 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.161–0.171 ثم استرداد 0.19 (ص17، ص86)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 21 يوم (طار إلى 0.78 وأغلق 0.344 بفوليوم 196x)",
-    "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +123% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
    "ticker": "XAIR",
    "score": 6.12,
    "price": 2.2992,
@@ -6795,13 +6801,14 @@
    ],
    "tags": [
     "Former Runner (سبق انفجر +101% في يوم)",
+    "قيعان أعلى",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
    "ticker": "IVDA",
    "score": 6.0,
-   "price": 0.2335,
+   "price": 0.2311,
    "ext_price": null,
    "name": "Iveda Solutions Inc. Common Stock",
    "type": [
@@ -6815,9 +6822,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +119% في يوم)",
-    "drawdown": 0.666,
+    "drawdown": 0.67,
     "rsi_min": 30.8,
-    "rsi_now": 38.1,
+    "rsi_now": 37.4,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -7059,7 +7066,7 @@
    "ticker": "SLGB",
    "score": 5.88,
    "price": 0.2253,
-   "ext_price": null,
+   "ext_price": 0.2267,
    "name": "Smart Logistics Global Limited Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -7082,15 +7089,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Stocks Rally on Positive AI News, with SpaceX up +7%"
+     "United Community Banks: 3 Key Takeaways for Long-Term Investors"
     ],
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Comfort Systems USA, Inc. Announces Retirement of CFO William George and Promotion of Julie Shaeff"
     ]
    ],
    "levels": {
@@ -7115,7 +7122,8 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 20 يوم (طار إلى 0.425 وأغلق 0.33 بفوليوم 87x)",
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.227 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +227% في يوم)",
@@ -7190,7 +7198,7 @@
   {
    "ticker": "IQST",
    "score": 5.88,
-   "price": 0.8827,
+   "price": 0.8853,
    "ext_price": null,
    "name": "iQSTEL Inc. Common Stock",
    "type": [
@@ -7204,9 +7212,9 @@
     "short_pct_float": null,
     "split": "",
     "runner": "Former Runner (سبق انفجر +58% في يوم)",
-    "drawdown": 0.484,
+    "drawdown": 0.482,
     "rsi_min": 34.9,
-    "rsi_now": 34.9,
+    "rsi_now": 35.2,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "الهيستوجرام يتحسن"
    },
@@ -7233,7 +7241,7 @@
     "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 0.9089999794960022,
     "t1": 0.9089999794960022,
-    "t2": 0.9780849903821945,
+    "t2": 0.9782149881124497,
     "r1": 0.909,
     "stop": 0.7107,
     "stop_tight": 0.8448
@@ -7318,7 +7326,7 @@
    "ticker": "GTEC",
    "score": 5.75,
    "price": 0.6026,
-   "ext_price": null,
+   "ext_price": 0.6026,
    "name": "Greenland Technologies Holding Corporation Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️"
@@ -7598,15 +7606,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Stocks Rally on Positive AI News, with SpaceX up +7%"
+     "United Community Banks: 3 Key Takeaways for Long-Term Investors"
     ],
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Comfort Systems USA, Inc. Announces Retirement of CFO William George and Promotion of Julie Shaeff"
     ]
    ],
    "levels": {
@@ -7896,7 +7904,7 @@
    "ticker": "NTHI",
    "score": 5.38,
    "price": 2.95,
-   "ext_price": 2.96,
+   "ext_price": 2.9999,
    "name": "NeOnc Technologies Holdings Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -7982,16 +7990,16 @@
    },
    "news": [
     [
+     "Oct 22, 2026",
+     "Wearable Devices Ltd. Enters Commercial Collaboration and Data License Agreement with Encord on October 16, 2026"
+    ],
+    [
      "Jul 1, 2025",
      "Wearable Devices Ltd. to Exhibit Mudra Link at XR Fair Tokyo 2025 in Japan"
     ],
     [
      "Jun 25, 2025",
      "Wearable Devices Ltd. Expands AI-Powered Bio-Signal Technology into Predictive Health Monitoring and Cognitive State Analytics"
-    ],
-    [
-     "May 30, 2025",
-     "Wearable Devices Ltd. Secures Patent for Gesture and Voice-Controlled Interface, Advancing Touchless Sensing Wearables"
     ]
    ],
    "levels": {
@@ -8048,15 +8056,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Tech Stocks Lead Broad Market Lower as Meta Slides -6%"
+     "United Community Banks: 3 Key Takeaways for Long-Term Investors"
     ],
     [
      "Oct 22, 2026",
-     "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Ping An Biomedical Sets 1-For-40 Reverse Stock Split For October 23; Stock Up"
+     "Comfort Systems USA, Inc. Announces Retirement of CFO William George and Promotion of Julie Shaeff"
     ]
    ],
    "levels": {
@@ -8156,7 +8164,7 @@
    "ticker": "AGMH",
    "score": 5.0,
    "price": 0.495,
-   "ext_price": null,
+   "ext_price": 0.47,
    "name": "AGM Group Holdings Inc. Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -8289,7 +8297,7 @@
    "ticker": "CCTG",
    "score": 4.75,
    "price": 0.3719,
-   "ext_price": null,
+   "ext_price": 0.368,
    "name": "CCSC Technology International Holdings Limited Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️"
@@ -8311,15 +8319,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Tech Stocks Lead Broad Market Lower as Meta Slides -6%"
+     "United Community Banks: 3 Key Takeaways for Long-Term Investors"
     ],
     [
      "Oct 22, 2026",
-     "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Ping An Biomedical Sets 1-For-40 Reverse Stock Split For October 23; Stock Up"
+     "Comfort Systems USA, Inc. Announces Retirement of CFO William George and Promotion of Julie Shaeff"
     ]
    ],
    "levels": {
@@ -8561,15 +8569,15 @@
    "news": [
     [
      "Oct 22, 2026",
-     "Stocks Rally on Positive AI News, with SpaceX up +7%"
+     "United Community Banks: 3 Key Takeaways for Long-Term Investors"
     ],
     [
      "Oct 22, 2026",
-     "Lloyds Banking Group plc Announces Board Appointment of Chris Rhodes Effective 1 November 2026"
+     "Stocks Fall Sharply on Risk-Off as Meta Slides -5%"
     ],
     [
      "Oct 22, 2026",
-     "Sagimet Biosciences Inc. Announces Clinical Updates for Denifanstat and TVB-3567"
+     "Comfort Systems USA, Inc. Announces Retirement of CFO William George and Promotion of Julie Shaeff"
     ]
    ],
    "levels": {
@@ -8606,7 +8614,7 @@
    "ticker": "HURA",
    "score": 4.38,
    "price": 2.01,
-   "ext_price": 2.01,
+   "ext_price": 2.08,
    "name": "TuHURA Biosciences Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -8923,7 +8931,7 @@
    "ticker": "STFS",
    "score": 2.88,
    "price": 4.68,
-   "ext_price": 4.77,
+   "ext_price": 4.68,
    "name": "Star Fashion Culture Holdings Limited Class A Ordinary Shares",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -9106,7 +9114,7 @@
    ],
    "ready_when": "🚩 رجوع لاختبار 1.27 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
    "flags": [
-    "شمعة ضخ/تصريف قبل 0 يوم (طار إلى 1.65 وأغلق 1.29 بفوليوم 163x)",
+    "شمعة ضخ/تصريف قبل 0 يوم (طار إلى 1.65 وأغلق 1.29 بفوليوم 165x)",
     "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
     "سيولة ضعيفة: متوسط الفوليوم 53.5K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
     "سهم صيني عالي التذبذب"

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T21:05:03.672774+00:00",
- "generated_at_et": "2026-10-22T17:05:03.672774-04:00",
+ "generated_at_utc": "2026-10-22T21:15:03.672933+00:00",
+ "generated_at_et": "2026-10-22T17:15:03.672933-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -95,8 +95,8 @@
     "market_cap": 4751379.0,
     "exchange": "NASDAQ",
     "name": "Gaxos.ai Inc. Common Stock",
-    "ext_price": 0.4355,
-    "ext_chg": -0.0407489,
+    "ext_price": 0.44,
+    "ext_chg": -0.030837002,
     "ext_session": "post"
    },
    "news": []
@@ -582,8 +582,8 @@
     "exchange": "NASDAQ",
     "name": "Nixxy, Inc.",
     "short_pct_float": 0.0037,
-    "ext_price": 0.315,
-    "ext_chg": -0.015625,
+    "ext_price": 0.3101,
+    "ext_chg": -0.030937500000000062,
     "ext_session": "post"
    },
    "news": []
@@ -1390,11 +1390,11 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.32 ثم استرداد",
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "السعر في الأفتر 0.294 تحت الوقف — الدعم مكسور حالياً"
+    "السعر في الأفتر 0.306 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في الأفتر تحت الوقف (0.294)"
+    "نزل في الأفتر تحت الوقف (0.306)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +214% في يوم)",
@@ -1412,8 +1412,8 @@
     "market_cap": 1051686.0,
     "exchange": "AMEX",
     "name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares)",
-    "ext_price": 0.2939,
-    "ext_chg": -0.13558821,
+    "ext_price": 0.3065,
+    "ext_chg": -0.09852945,
     "ext_session": "post"
    },
    "news": []
@@ -2140,7 +2140,7 @@
    "flags": [
     "سهم صيني عالي التذبذب",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.33 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.336 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +58% في يوم)",
@@ -2158,8 +2158,8 @@
     "market_cap": 3068354.0,
     "exchange": "NASDAQ",
     "name": "Taoping Inc. Ordinary Shares ",
-    "ext_price": 0.3298,
-    "ext_chg": 0.06387096774193535,
+    "ext_price": 0.3363,
+    "ext_chg": 0.08483870967741924,
     "ext_session": "post"
    },
    "news": []
@@ -2410,8 +2410,8 @@
     "market_cap": 2471255.0,
     "exchange": "NASDAQ",
     "name": "AGM Group Holdings Inc. Class A Ordinary Shares",
-    "ext_price": 0.48,
-    "ext_chg": -0.03030306,
+    "ext_price": 0.47,
+    "ext_chg": -0.050505060000000004,
     "ext_session": "post"
    },
    "news": []
@@ -3067,7 +3067,10 @@
     "float": null,
     "market_cap": 2594136.0,
     "exchange": "NASDAQ",
-    "name": "HCW Biologics Inc. Common Stock"
+    "name": "HCW Biologics Inc. Common Stock",
+    "ext_price": 1.12,
+    "ext_chg": -0.0344827586206895,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3404,7 +3407,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.41,
+   "price": 1.4095,
    "price_label": "سعر الأفتر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -3454,7 +3457,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.7799,
+   "price": 1.78,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3546,7 +3549,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.38,
+   "price": 0.387,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

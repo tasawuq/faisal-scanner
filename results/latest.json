@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-22T08:43:43.918625+00:00",
- "generated_at_et": "2026-10-22T04:43:43.918625-04:00",
+ "generated_at_utc": "2026-10-22T08:53:43.918804+00:00",
+ "generated_at_et": "2026-10-22T04:53:43.918804-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1294,8 +1294,8 @@
     "market_cap": 10766560.0,
     "exchange": "NASDAQ",
     "name": "BioVie Inc. Class A Common Stock",
-    "ext_price": 1.35,
-    "ext_chg": 0.08870967741935498,
+    "ext_price": 1.3497,
+    "ext_chg": 0.07119046,
     "ext_session": "pre"
    },
    "news": []
@@ -2530,8 +2530,8 @@
     "market_cap": 112158846.0,
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences Inc. Common Stock",
-    "ext_price": 2.28,
-    "ext_chg": 0.09352513999999999,
+    "ext_price": 2.24,
+    "ext_chg": 0.07434051,
     "ext_session": "pre"
    },
    "news": []
@@ -2777,7 +2777,10 @@
     "float": null,
     "market_cap": 5069483.0,
     "exchange": "NASDAQ",
-    "name": "CCSC Technology International Holdings Limited Class A Ordinary Shares"
+    "name": "CCSC Technology International Holdings Limited Class A Ordinary Shares",
+    "ext_price": 0.3491,
+    "ext_chg": -0.06482721671577818,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2857,7 +2860,7 @@
     "exchange": "AMEX",
     "name": "Westwater Resources Inc. Common Stock",
     "ext_price": 0.4,
-    "ext_chg": -0.048525186,
+    "ext_chg": -0.036840851,
     "ext_session": "pre"
    },
    "news": []
@@ -2942,8 +2945,8 @@
     "market_cap": 132867032.0,
     "exchange": "NASDAQ",
     "name": "Datavault AI Inc. Common Stock",
-    "ext_price": 0.1409,
-    "ext_chg": -0.020847851999999997,
+    "ext_price": 0.1375,
+    "ext_chg": -0.044475355,
     "ext_session": "pre"
    },
    "news": []
@@ -3384,7 +3387,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.3,
+   "price": 2.44,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3402,7 +3405,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2.48 بـ 8%",
+   "state_ar": "تحت مستوى الاختراق 2.48 بـ 2%",
    "alert": false,
    "session": "pre",
    "scanner": null
@@ -3459,7 +3462,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.94,
+   "price": 2.9032,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3477,9 +3480,9 @@
      3.8
     ]
    },
-   "state": "ZONE_WEAK",
+   "state": "WAITING",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 7%",
    "alert": false,
-   "state_ar": "⚪ شمعة خضراء داخل منطقة المتابعة 2.93–2.96 لكن التأكيد ضعيف — بدون تنبيه: خارج الجلسة الرسمية (ص10)؛ شمعة التأكيد بدون سيولة (0.0K سهم ≈ $0K)",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3493,7 +3496,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3999,
+   "price": 0.3902,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3529,8 +3532,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 118160.0,
-   "price": 344.39
+   "volume": 123080.0,
+   "price": 344.58
   },
   "SNDL": {
    "volume": 5.0,

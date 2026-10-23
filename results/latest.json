@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T09:20:20.935401+00:00",
- "generated_at_et": "2026-10-23T05:20:20.935401-04:00",
+ "generated_at_utc": "2026-10-23T09:30:20.935567+00:00",
+ "generated_at_et": "2026-10-23T05:30:20.935567-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -925,8 +925,8 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1691,
-    "ext_chg": 0.0,
+    "ext_price": 0.162,
+    "ext_chg": -0.041986995,
     "ext_session": "pre"
    },
    "news": []
@@ -2587,8 +2587,8 @@
     "exchange": "NASDAQ",
     "name": "Solidion Technology, Inc.",
     "short_pct_float": 0.0548,
-    "ext_price": 4.52,
-    "ext_chg": -0.00877192982456143,
+    "ext_price": 4.37,
+    "ext_chg": -0.04166666666666652,
     "ext_session": "pre"
    },
    "news": []
@@ -3089,8 +3089,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.5,
-    "ext_chg": -0.018324605,
+    "ext_price": 1.53,
+    "ext_chg": 0.0013088837,
     "ext_session": "pre"
    },
    "news": []
@@ -3408,7 +3408,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.781,
+   "price": 1.8,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3426,7 +3426,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 12%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 11%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3500,7 +3500,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.379,
+   "price": 0.3786,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3536,12 +3536,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 138389.0,
-   "price": 346.2392
+   "volume": 145749.0,
+   "price": 345.95
   },
   "SNDL": {
    "volume": 300.0,
-   "price": 1.28
+   "price": 1.3027
   }
  }
 }

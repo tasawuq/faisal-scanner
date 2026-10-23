@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T22:17:56.001595+00:00",
- "generated_at_et": "2026-10-23T18:17:56.001595-04:00",
+ "generated_at_utc": "2026-10-23T22:27:56.001739+00:00",
+ "generated_at_et": "2026-10-23T18:27:56.001739-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -92,8 +92,8 @@
     "market_cap": 58942796,
     "exchange": "NASDAQ",
     "name": "Aptera Motors Corp.",
-    "ext_price": 1.48,
-    "ext_chg": 0.0277777777777779,
+    "ext_price": 1.5,
+    "ext_chg": 0.04166666666666674,
     "ext_session": "post"
    },
    "news": []
@@ -847,8 +847,8 @@
     "exchange": "NASDAQ",
     "name": "Tenax Therapeutics, Inc.",
     "short_pct_float": 0.1935,
-    "ext_price": 1.7128,
-    "ext_chg": -0.004186048,
+    "ext_price": 1.73,
+    "ext_chg": 0.005813948,
     "ext_session": "post"
    },
    "news": []
@@ -1506,8 +1506,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.7399,
-    "ext_chg": 0.011569746999999998,
+    "ext_price": 1.7492,
+    "ext_chg": 0.016976719,
     "ext_session": "post"
    },
    "news": []
@@ -1566,12 +1566,14 @@
    "candle": "شمعة خضراء بإغلاق قوي (شمعة صغيرة غير واضحة)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.30 ثم استرداد"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.30 ثم استرداد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "سهم صيني عالي التذبذب",
     "تقسيم عكسي حديث 1:5 (2026-09-08)",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.345 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1591,8 +1593,8 @@
     "exchange": "NASDAQ",
     "name": "Wellchange Holdings Company Limited",
     "short_pct_float": 0.0272,
-    "ext_price": 0.3124,
-    "ext_chg": 0.001282073,
+    "ext_price": 0.3449,
+    "ext_chg": 0.10544873,
     "ext_session": "post"
    },
    "news": []
@@ -2098,8 +2100,8 @@
     "exchange": "NASDAQ",
     "name": "NRx Pharmaceuticals, Inc.",
     "short_pct_float": 0.2359,
-    "ext_price": 2.4662,
-    "ext_chg": -0.0095581913,
+    "ext_price": 2.4888,
+    "ext_chg": -0.00048191193,
     "ext_session": "post"
    },
    "news": []
@@ -3077,7 +3079,7 @@
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.43 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.42 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3097,8 +3099,8 @@
     "exchange": "NASDAQ",
     "name": "Biodexa Pharmaceuticals Plc",
     "short_pct_float": 0.0083,
-    "ext_price": 0.43,
-    "ext_chg": 0.01582804,
+    "ext_price": 0.42,
+    "ext_chg": -0.0077959156,
     "ext_session": "post"
    },
    "news": []
@@ -3645,7 +3647,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.7108,
+   "price": 2.7399,
    "price_label": "سعر الأفتر",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3664,7 +3666,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 15%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 14%",
    "alert": false,
    "session": "post",
    "scanner": {

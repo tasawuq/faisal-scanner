@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T12:00:20.938018+00:00",
- "generated_at_et": "2026-10-23T08:00:20.938018-04:00",
+ "generated_at_utc": "2026-10-23T12:10:20.938205+00:00",
+ "generated_at_et": "2026-10-23T08:10:20.938205-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -930,8 +930,8 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1604,
-    "ext_chg": -0.051448836,
+    "ext_price": 0.168,
+    "ext_chg": -0.007092230299999999,
     "ext_session": "pre"
    },
    "news": []
@@ -1246,12 +1246,12 @@
    "volume_note": "فوليوم يتحسن مع الارتداد",
    "waiting_for": [
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "السعر في البري 0.305 تحت الوقف — الدعم مكسور حالياً"
+    "السعر في البري 0.296 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "سهم صيني عالي التذبذب",
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في البري تحت الوقف (0.305)"
+    "نزل في البري تحت الوقف (0.296)"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1271,8 +1271,8 @@
     "exchange": "AMEX",
     "name": "Eason Technology Limited",
     "short_pct_float": 0.0126,
-    "ext_price": 0.305,
-    "ext_chg": -0.10294116,
+    "ext_price": 0.2957,
+    "ext_chg": -0.13003817,
     "ext_session": "pre"
    },
    "news": []
@@ -2109,8 +2109,8 @@
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences, Inc.",
     "short_pct_float": 0.1237,
-    "ext_price": 2.1,
-    "ext_chg": 0.044776077,
+    "ext_price": 2.0897,
+    "ext_chg": 0.039651737,
     "ext_session": "pre"
    },
    "news": []
@@ -2605,8 +2605,8 @@
     "exchange": "NASDAQ",
     "name": "Solidion Technology, Inc.",
     "short_pct_float": 0.0548,
-    "ext_price": 4.44,
-    "ext_chg": -0.02631578947368407,
+    "ext_price": 4.4384,
+    "ext_chg": 0.022672727,
     "ext_session": "pre"
    },
    "news": []
@@ -2692,8 +2692,8 @@
     "exchange": "NASDAQ",
     "name": "HCW Biologics Inc.",
     "short_pct_float": 0.028499998,
-    "ext_price": 1.0973,
-    "ext_chg": -0.020267813000000003,
+    "ext_price": 1.1,
+    "ext_chg": -0.017857126,
     "ext_session": "pre"
    },
    "news": []
@@ -3107,8 +3107,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.5,
-    "ext_chg": -0.018324605,
+    "ext_price": 1.53,
+    "ext_chg": 0.0013088837,
     "ext_session": "pre"
    },
    "news": []
@@ -3403,7 +3403,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.31,
+   "price": 2.26,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3421,7 +3421,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2.48 بـ 7%",
+   "state_ar": "تحت مستوى الاختراق 2.48 بـ 10%",
    "alert": false,
    "session": "pre",
    "scanner": null
@@ -3520,7 +3520,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3737,
+   "price": 0.366,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3556,11 +3556,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 308842.0,
-   "price": 348.17
+   "volume": 335747.0,
+   "price": 348.08
   },
   "SNDL": {
-   "volume": 727.0,
+   "volume": 729.0,
    "price": 1.31
   }
  }

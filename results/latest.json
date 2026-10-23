@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T21:17:56.000672+00:00",
- "generated_at_et": "2026-10-23T17:17:56.000672-04:00",
+ "generated_at_utc": "2026-10-23T21:27:56.000817+00:00",
+ "generated_at_et": "2026-10-23T17:27:56.000817-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -429,8 +429,8 @@
     "exchange": "NASDAQ",
     "name": "FBS Global Limited",
     "short_pct_float": 0.0432,
-    "ext_price": 2.04,
-    "ext_chg": -0.09131403118040093,
+    "ext_price": 2.05,
+    "ext_chg": -0.08685968819599121,
     "ext_session": "post"
    },
    "news": []
@@ -1505,8 +1505,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.75,
-    "ext_chg": 0.017441843999999998,
+    "ext_price": 1.74,
+    "ext_chg": 0.011627896,
     "ext_session": "post"
    },
    "news": []
@@ -3074,7 +3074,7 @@
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.42 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.425 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3094,8 +3094,8 @@
     "exchange": "NASDAQ",
     "name": "Biodexa Pharmaceuticals Plc",
     "short_pct_float": 0.0083,
-    "ext_price": 0.42,
-    "ext_chg": -0.0077959156,
+    "ext_price": 0.425,
+    "ext_chg": 0.0040160972,
     "ext_session": "post"
    },
    "news": []
@@ -3468,14 +3468,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 2.3497,
+   "price": 2.24,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3493,14 +3493,14 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2.48 بـ 6%",
+   "state_ar": "تحت مستوى الاختراق 2.48 بـ 11%",
    "alert": false,
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "SMX",
-   "price": 1.75,
+   "price": 1.76,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

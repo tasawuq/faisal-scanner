@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T12:20:20.938392+00:00",
- "generated_at_et": "2026-10-23T08:20:20.938392-04:00",
+ "generated_at_utc": "2026-10-23T12:30:20.938502+00:00",
+ "generated_at_et": "2026-10-23T08:30:20.938502-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1185,8 +1185,8 @@
     "exchange": "NASDAQ",
     "name": "Tenax Therapeutics, Inc.",
     "short_pct_float": 0.1935,
-    "ext_price": 1.751,
-    "ext_chg": -0.0051136047,
+    "ext_price": 1.75,
+    "ext_chg": -0.005681813,
     "ext_session": "pre"
    },
    "news": []
@@ -1245,13 +1245,11 @@
    "candle": "ابتلاعية شرائية (Engulfing)",
    "volume_note": "فوليوم يتحسن مع الارتداد",
    "waiting_for": [
-    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "السعر في البري 0.307 تحت الوقف — الدعم مكسور حالياً"
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
    ],
    "flags": [
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع",
-    "نزل في البري تحت الوقف (0.307)"
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1271,8 +1269,8 @@
     "exchange": "AMEX",
     "name": "Eason Technology Limited",
     "short_pct_float": 0.0126,
-    "ext_price": 0.307,
-    "ext_chg": -0.09679311,
+    "ext_price": 0.3296,
+    "ext_chg": -0.030302975,
     "ext_session": "pre"
    },
    "news": []
@@ -1441,7 +1439,10 @@
     "market_cap": 19461070,
     "exchange": "NASDAQ",
     "name": "NextTrip, Inc.",
-    "short_pct_float": 0.0198
+    "short_pct_float": 0.0198,
+    "ext_price": 1.28,
+    "ext_chg": -0.007751931,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2109,8 +2110,8 @@
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences, Inc.",
     "short_pct_float": 0.1237,
-    "ext_price": 2.0897,
-    "ext_chg": 0.039651737,
+    "ext_price": 2.1,
+    "ext_chg": 0.044776077,
     "ext_session": "pre"
    },
    "news": []
@@ -3107,8 +3108,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.55,
-    "ext_chg": 0.014397876,
+    "ext_price": 1.54,
+    "ext_chg": 0.00785338,
     "ext_session": "pre"
    },
    "news": []
@@ -3190,8 +3191,8 @@
     "market_cap": 3914270,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.1448,
-    "ext_chg": 0.011879902,
+    "ext_price": 0.1423,
+    "ext_chg": -0.005590487,
     "ext_session": "pre"
    },
    "news": []
@@ -3426,7 +3427,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.8181,
+   "price": 1.784,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3444,7 +3445,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 10%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 12%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3518,7 +3519,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3661,
+   "price": 0.3631,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3554,12 +3555,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 349245.0,
-   "price": 348.07
+   "volume": 366797.0,
+   "price": 347.9732
   },
   "SNDL": {
-   "volume": 943.0,
-   "price": 1.2798
+   "volume": 959.0,
+   "price": 1.2715
   }
  }
 }

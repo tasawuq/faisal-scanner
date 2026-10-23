@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-10-23T16:17:55.999817-04:00",
+ "generated_at_et": "2026-10-23T17:17:56.000672-04:00",
  "items": [
   {
    "ticker": "HCWB",
@@ -210,7 +210,7 @@
    "ticker": "FBGL",
    "score": 11.12,
    "price": 2.25,
-   "ext_price": 2.19,
+   "ext_price": 2.04,
    "name": "FBS Global Limited",
    "type": [
     "فلووت منخفض جداً",
@@ -333,7 +333,7 @@
    "ticker": "IVF",
    "score": 10.62,
    "price": 0.5703,
-   "ext_price": 0.5899,
+   "ext_price": 0.59,
    "name": "INVO Fertility, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -666,7 +666,7 @@
    "ext_price": null,
    "name": "Wheeler Real Estate Investment Trust, Inc.",
    "type": [
-    "ارتكاز"
+    "قاع نظيف"
    ],
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
@@ -675,10 +675,10 @@
     "shares": 1506932.0,
     "short_pct_float": 0.159,
     "split": "تقسيم عكسي حديث 1:9 (2026-09-22)",
-    "runner": "Former Runner (سبق انفجر +819% في يوم)",
+    "runner": "Former Runner (سبق انفجر +366% في يوم)",
     "drawdown": 0.999,
-    "rsi_min": 26.9,
-    "rsi_now": 27.7,
+    "rsi_min": 24.2,
+    "rsi_now": 25.1,
     "ma": "تحت كل المتوسطات (ضغط)",
     "macd": "إيجابي (الخط فوق الإشارة)"
    },
@@ -697,32 +697,33 @@
     ]
    ],
    "levels": {
-    "bottom": 0.32,
+    "bottom": 0.339,
     "demand_low": 0.34,
     "demand_high": 0.3434,
-    "wash_low": 0.3168,
-    "wash_high": 0.3264,
-    "wash_note": "قاع سابق تحت الدعم",
+    "wash_low": 0.289,
+    "wash_high": 0.306,
+    "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 0.36000001430511475,
     "t1": 0.36000001430511475,
     "t2": 0.4309999942779541,
     "r1": 0.36,
-    "stop": 0.3073,
+    "stop": 0.2803,
     "stop_tight": 0.3332
    },
    "not_ready": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.34 ثم استرداد",
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)"
    ],
-   "ready_when": "نزول لمنطقة الطلب 0.34–0.343 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.317–0.326 ثم استرداد 0.34 (ص17، ص86)",
+   "ready_when": "نزول لمنطقة الطلب 0.34–0.343 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.289–0.306 ثم استرداد 0.34 (ص17، ص86)",
    "flags": [
     "بيانات الفلووت غير موثوقة — تحقق يدوياً",
     "تقسيم عكسي حديث 1:9 (2026-09-22)",
     "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
-    "Former Runner (سبق انفجر +819% في يوم)",
-    "فوليوم البيع يضعف"
+    "Former Runner (سبق انفجر +366% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
    ]
   },
   {
@@ -863,7 +864,7 @@
    "ticker": "AMIX",
    "score": 10.25,
    "price": 2.42,
-   "ext_price": 2.4229,
+   "ext_price": 2.42,
    "name": "Autonomix Medical, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -1329,68 +1330,10 @@
    ]
   },
   {
-   "ticker": "AIMD",
-   "score": 9.62,
-   "price": 0.8372,
-   "ext_price": null,
-   "name": "Ainos, Inc.",
-   "type": [
-    "فلووت منخفض جداً",
-    "قاع نظيف"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 2404254,
-    "shares": 7384073.0,
-    "short_pct_float": 0.0113,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +154% في يوم)",
-    "drawdown": 0.638,
-    "rsi_min": 19.3,
-    "rsi_now": 19.3,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Aug 13, 2025",
-     "Ainos Posts Wider Loss in Fiscal Q2"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.785,
-    "demand_low": 0.8,
-    "demand_high": 0.8322,
-    "wash_low": 0.68,
-    "wash_high": 0.72,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.9240000247955322,
-    "t1": 0.9240000247955322,
-    "t2": 0.9900000095367432,
-    "r1": 0.931,
-    "stop": 0.6596,
-    "stop_tight": 0.7693
-   },
-   "not_ready": [
-    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
-   ],
-   "ready_when": "نزول لمنطقة الطلب 0.8–0.832 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.68–0.72 ثم استرداد 0.8 (ص17، ص86)",
-   "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 61.3K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +154% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ]
-  },
-  {
    "ticker": "MDCX",
    "score": 9.62,
    "price": 2.5,
-   "ext_price": null,
+   "ext_price": 2.55,
    "name": "Medicus Pharma Ltd.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -1441,7 +1384,7 @@
    },
    "not_ready": [
     "استرداد الدعم 2.55 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
    ],
    "ready_when": "استرداد 2.55 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 2.17–2.29",
    "flags": [
@@ -1520,7 +1463,7 @@
    "ticker": "BDRX",
    "score": 9.5,
    "price": 0.4233,
-   "ext_price": 0.4202,
+   "ext_price": 0.42,
    "name": "Biodexa Pharmaceuticals Plc",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -1721,69 +1664,6 @@
    ]
   },
   {
-   "ticker": "AVX",
-   "score": 9.25,
-   "price": 4.17,
-   "ext_price": 4.16,
-   "name": "Avax One Technology Ltd.",
-   "type": [
-    "فلووت منخفض جداً",
-    "🚩 علم/اختراق بعد قاعدة"
-   ],
-   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
-   "status": "WATCH",
-   "data": {
-    "float": 4546284,
-    "shares": 9987248.0,
-    "short_pct_float": 0.011,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +34% في يوم)",
-    "drawdown": 0.448,
-    "rsi_min": 24.9,
-    "rsi_now": 42.7,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Aug 18, 2026",
-     "Avax One Technology Stock Getting Very Oversold"
-    ],
-    [
-     "May 27, 2026",
-     "Avax One (AVX) Q4 2025 Earnings Transcript"
-    ],
-    [
-     "May 18, 2026",
-     "Avax One (AVX) Q1 2026 Earnings Transcript"
-    ]
-   ],
-   "levels": {
-    "bottom": 2.81,
-    "demand_low": 4.0,
-    "demand_high": 4.12,
-    "wash_low": 3.3363,
-    "wash_high": 3.4374,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 4.311999797821045,
-    "t1": 4.311999797821045,
-    "t2": 4.75,
-    "r1": 4.39,
-    "stop": 3.2362,
-    "stop_tight": 3.8024
-   },
-   "not_ready": [
-    "اخترق المقاومة القريبة 4.00 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
-    "الدخول تحت مقاومة مباشرة (4.31) — انتظر اختراقها والثبات"
-   ],
-   "ready_when": "🚩 رجوع لاختبار 4 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
-   "flags": [],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +34% في يوم)"
-   ]
-  },
-  {
    "ticker": "FRSX",
    "score": 9.25,
    "price": 0.7935,
@@ -1851,7 +1731,7 @@
    "ticker": "PCSA",
    "score": 9.12,
    "price": 1.81,
-   "ext_price": 1.81,
+   "ext_price": 1.8003,
    "name": "Processa Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -1918,7 +1798,7 @@
    "ticker": "NCT",
    "score": 9.12,
    "price": 1.26,
-   "ext_price": 1.26,
+   "ext_price": 0.91,
    "name": "Intercont (Cayman) Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -1979,6 +1859,128 @@
    ],
    "tags": [
     "Former Runner (سبق انفجر +142% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ]
+  },
+  {
+   "ticker": "AVX",
+   "score": 9.12,
+   "price": 4.17,
+   "ext_price": null,
+   "name": "Avax One Technology Ltd.",
+   "type": [
+    "فلووت منخفض جداً",
+    "🚩 علم/اختراق بعد قاعدة"
+   ],
+   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
+   "status": "WATCH",
+   "data": {
+    "float": 4546284,
+    "shares": 9987248.0,
+    "short_pct_float": 0.011,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +34% في يوم)",
+    "drawdown": 0.448,
+    "rsi_min": 24.9,
+    "rsi_now": 42.7,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Aug 18, 2026",
+     "Avax One Technology Stock Getting Very Oversold"
+    ],
+    [
+     "May 27, 2026",
+     "Avax One (AVX) Q4 2025 Earnings Transcript"
+    ],
+    [
+     "May 18, 2026",
+     "Avax One (AVX) Q1 2026 Earnings Transcript"
+    ]
+   ],
+   "levels": {
+    "bottom": 2.81,
+    "demand_low": 4.0,
+    "demand_high": 4.12,
+    "wash_low": 3.3363,
+    "wash_high": 3.4374,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 4.311999797821045,
+    "t1": 4.311999797821045,
+    "t2": 4.545000076293945,
+    "r1": 4.39,
+    "stop": 3.2362,
+    "stop_tight": 3.8024
+   },
+   "not_ready": [
+    "اخترق المقاومة القريبة 4.00 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
+    "الدخول تحت مقاومة مباشرة (4.31) — انتظر اختراقها والثبات"
+   ],
+   "ready_when": "🚩 رجوع لاختبار 4 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
+   "flags": [],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +34% في يوم)"
+   ]
+  },
+  {
+   "ticker": "AIMD",
+   "score": 9.12,
+   "price": 0.8372,
+   "ext_price": null,
+   "name": "Ainos, Inc.",
+   "type": [
+    "فلووت منخفض جداً",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 2404254,
+    "shares": 7384073.0,
+    "short_pct_float": 0.0113,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +154% في يوم)",
+    "drawdown": 0.638,
+    "rsi_min": 19.3,
+    "rsi_now": 19.3,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Aug 13, 2025",
+     "Ainos Posts Wider Loss in Fiscal Q2"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.8,
+    "demand_low": 0.8,
+    "demand_high": 0.808,
+    "wash_low": 0.68,
+    "wash_high": 0.72,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.9240000247955322,
+    "t1": 0.9240000247955322,
+    "t2": 0.9900000095367432,
+    "r1": 0.931,
+    "stop": 0.6596,
+    "stop_tight": 0.784
+   },
+   "not_ready": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.80 ثم استرداد",
+    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 0.8–0.808 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.68–0.72 ثم استرداد 0.8 (ص17، ص86)",
+   "flags": [
+    "سيولة ضعيفة: متوسط الفوليوم 61.3K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +154% في يوم)",
     "فوليوم البيع يضعف",
     "قاع الفترة (قاع تاريخي/سنوي)"
    ]
@@ -2190,7 +2192,7 @@
    "ticker": "CLRB",
    "score": 8.88,
    "price": 1.22,
-   "ext_price": 1.24,
+   "ext_price": 1.2498,
    "name": "Cellectar Biosciences, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2245,7 +2247,7 @@
    "ready_when": "نزول لمنطقة الطلب 1.12–1.17 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.952–1.01 ثم استرداد 1.12 (ص17، ص86)",
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "صعد في الأفتر إلى 1.24 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 1.25 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2392,13 +2394,13 @@
    "ticker": "ATER",
    "score": 8.5,
    "price": 0.6225,
-   "ext_price": 0.6225,
+   "ext_price": 0.6166,
    "name": "Aterian, Inc.",
    "type": [
     "فلووت منخفض جداً",
     "🚩 علم/اختراق بعد قاعدة"
    ],
-   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
+   "setup_ar": "🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة",
    "status": "WATCH",
    "data": {
     "float": 4977581,
@@ -2438,17 +2440,16 @@
     "t2": 0.6899999976158142,
     "r1": 0.57,
     "stop": 0.4994,
-    "stop_tight": 0.5219
+    "stop_tight": 0.5096
    },
    "not_ready": [
-    "اخترق المقاومة القريبة 0.55 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)"
+    "ابتعد 13% عن مستوى الاختراق — انتظر إعادة اختبار 0.55"
    ],
    "ready_when": "🚩 رجوع لاختبار 0.549 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)",
    "flags": [],
    "tags": [
     "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +185% في يوم)",
-    "فوليوم البيع يضعف"
+    "Former Runner (سبق انفجر +185% في يوم)"
    ]
   },
   {
@@ -2718,7 +2719,7 @@
    "ticker": "GXAI",
    "score": 8.38,
    "price": 0.4551,
-   "ext_price": null,
+   "ext_price": 0.4403,
    "name": "Gaxos.ai Inc.",
    "type": [
     "نموذج W"
@@ -2958,7 +2959,7 @@
     "wash_note": "قاع سابق تحت الدعم",
     "pivot": 1.027999997138977,
     "t1": 1.027999997138977,
-    "t2": 1.070199966430664,
+    "t2": 1.0877000004053117,
     "r1": 1.028,
     "stop": 0.8931,
     "stop_tight": 0.9113
@@ -2974,73 +2975,6 @@
    "tags": [
     "فلووت أقل من 20M",
     "Former Runner (سبق انفجر +92% في يوم)",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
-   "ticker": "UFG",
-   "score": 8.25,
-   "price": 0.3544,
-   "ext_price": null,
-   "name": "Uni-Fuels Holdings Limited",
-   "type": [
-    "ارتكاز"
-   ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "status": "WATCH",
-   "data": {
-    "float": 9815143,
-    "shares": 9815000.0,
-    "short_pct_float": 0.0307,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +103% في يوم)",
-    "drawdown": 0.624,
-    "rsi_min": 28.7,
-    "rsi_now": 33.3,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Apr 22, 2025",
-     "Uni-Fuels Holdings Limited Reports 119% Revenue Growth for 2024 Amid IPO Milestone"
-    ],
-    [
-     "Feb 12, 2025",
-     "Uni-Fuels Holdings Limited Secures ISCC EU and ISCC PLUS Certifications for Sustainable Biofuels"
-    ],
-    [
-     "Jan 15, 2025",
-     "Uni-Fuels Holdings Limited Completes Initial Public Offering Raising $8.4 Million"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.34,
-    "demand_low": 0.355,
-    "demand_high": 0.355,
-    "wash_low": 0.3366,
-    "wash_high": 0.3468,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.36500000953674316,
-    "t1": 0.36500000953674316,
-    "t2": 0.3949700012803078,
-    "r1": 0.365,
-    "stop": 0.3265,
-    "stop_tight": 0.3342
-   },
-   "not_ready": [
-    "استرداد الدعم 0.35 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)"
-   ],
-   "ready_when": "استرداد 0.355 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.337–0.347",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 11 يوم (طار إلى 0.505 وأغلق 0.369 بفوليوم 25x)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +103% في يوم)",
-    "قيعان أعلى",
     "فوليوم البيع يضعف"
    ]
   },
@@ -3373,6 +3307,73 @@
    ]
   },
   {
+   "ticker": "UFG",
+   "score": 8.0,
+   "price": 0.3544,
+   "ext_price": null,
+   "name": "Uni-Fuels Holdings Limited",
+   "type": [
+    "ارتكاز"
+   ],
+   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "status": "WATCH",
+   "data": {
+    "float": 9815143,
+    "shares": 9815000.0,
+    "short_pct_float": 0.0307,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +103% في يوم)",
+    "drawdown": 0.624,
+    "rsi_min": 28.7,
+    "rsi_now": 33.3,
+    "ma": "تحت كل المتوسطات (ضغط)",
+    "macd": "الهيستوجرام يتحسن"
+   },
+   "news": [
+    [
+     "Apr 22, 2025",
+     "Uni-Fuels Holdings Limited Reports 119% Revenue Growth for 2024 Amid IPO Milestone"
+    ],
+    [
+     "Feb 12, 2025",
+     "Uni-Fuels Holdings Limited Secures ISCC EU and ISCC PLUS Certifications for Sustainable Biofuels"
+    ],
+    [
+     "Jan 15, 2025",
+     "Uni-Fuels Holdings Limited Completes Initial Public Offering Raising $8.4 Million"
+    ]
+   ],
+   "levels": {
+    "bottom": 0.34,
+    "demand_low": 0.355,
+    "demand_high": 0.355,
+    "wash_low": 0.3366,
+    "wash_high": 0.3468,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.36500000953674316,
+    "t1": 0.36500000953674316,
+    "t2": 0.3949700012803078,
+    "r1": 0.365,
+    "stop": 0.3265,
+    "stop_tight": 0.3342
+   },
+   "not_ready": [
+    "استرداد الدعم 0.35 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)"
+   ],
+   "ready_when": "استرداد 0.355 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.337–0.347",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 11 يوم (طار إلى 0.505 وأغلق 0.369 بفوليوم 25x)",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +103% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "BIVI",
    "score": 8.0,
    "price": 1.24,
@@ -3506,7 +3507,7 @@
    "ticker": "AQMS",
    "score": 7.88,
    "price": 1.47,
-   "ext_price": null,
+   "ext_price": 1.47,
    "name": "Aqua Metals, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -3572,7 +3573,7 @@
    "ticker": "SLGB",
    "score": 7.88,
    "price": 0.22,
-   "ext_price": null,
+   "ext_price": 0.2168,
    "name": "Smart Logistics Global Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -3629,7 +3630,8 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 21 يوم (طار إلى 0.425 وأغلق 0.33 بفوليوم 90x)",
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.217 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3642,7 +3644,7 @@
    "ticker": "LEXX",
    "score": 7.88,
    "price": 3.08,
-   "ext_price": 3.08,
+   "ext_price": 3.2,
    "name": "Lexaria Bioscience Corp.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -3699,7 +3701,7 @@
     "سيولة ضعيفة: متوسط الفوليوم 64.6K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
     "سهم طبي — الخبر قد يغير الاتجاه",
     "تقسيم عكسي حديث 1:15 (2026-08-03)",
-    "صعد في الأفتر إلى 3.08 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 3.2 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3780,7 +3782,7 @@
    "ticker": "CCTG",
    "score": 7.75,
    "price": 0.3578,
-   "ext_price": null,
+   "ext_price": 0.3578,
    "name": "CCSC Technology International Holdings Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -3847,7 +3849,7 @@
    "ticker": "ONMD",
    "score": 7.75,
    "price": 4.71,
-   "ext_price": null,
+   "ext_price": 4.6,
    "name": "OneMedNet Corporation",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -3916,7 +3918,7 @@
    "ticker": "HCTI",
    "score": 7.75,
    "price": 0.3355,
-   "ext_price": 0.3501,
+   "ext_price": 0.3499,
    "name": "Healthcare Triangle, Inc.",
    "type": [
     "قاع نظيف"
@@ -4176,7 +4178,7 @@
    "ticker": "VTIX",
    "score": 7.62,
    "price": 0.6922,
-   "ext_price": null,
+   "ext_price": 0.7,
    "name": "Virtuix Holdings Inc.",
    "type": [
     "قاع نظيف"
@@ -4428,76 +4430,10 @@
    ]
   },
   {
-   "ticker": "LSTA",
-   "score": 7.62,
-   "price": 0.9959,
-   "ext_price": null,
-   "name": "Lisata Therapeutics, Inc.",
-   "type": [
-    "طبي — الخبر يحرّكه",
-    "نموذج W"
-   ],
-   "setup_ar": "نموذج W قيد التكوين",
-   "status": "WATCH",
-   "data": {
-    "float": 6758924,
-    "shares": 10804066.0,
-    "short_pct_float": 0.0043,
-    "split": "",
-    "runner": "Former Runner (سبق انفجر +93% في يوم)",
-    "drawdown": 0.745,
-    "rsi_min": 31.5,
-    "rsi_now": 33.9,
-    "ma": "تحت كل المتوسطات (ضغط)",
-    "macd": "الهيستوجرام يتحسن"
-   },
-   "news": [
-    [
-     "Oct 23, 2026",
-     "Stocks See Continued Downward Pressure from AI Anxiety and Oil Prices"
-    ],
-    [
-     "Oct 23, 2026",
-     "FreeCast Consensus Price Target Raised by 54.64% to $9.46"
-    ],
-    [
-     "Oct 23, 2026",
-     "NOV Makes Bullish Cross Above Critical Moving Average"
-    ]
-   ],
-   "levels": {
-    "bottom": 0.96,
-    "demand_low": 0.96,
-    "demand_high": 0.98,
-    "wash_low": 0.816,
-    "wash_high": 0.864,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.149999976158142,
-    "t1": 1.2799999713897705,
-    "t2": 1.4013180029392243,
-    "r1": 1.04,
-    "stop": 0.7915,
-    "stop_tight": 0.9408
-   },
-   "not_ready": [
-    "كسر خط العنق 1.15 والثبات فوقه أكثر من ربع ساعة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 32)"
-   ],
-   "ready_when": "من تحت: شمعة ارتداد عند القاع الثاني 0.96؛ أو كسر خط العنق 1.15 والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +93% في يوم)",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
    "ticker": "TGHL",
    "score": 7.5,
    "price": 0.551,
-   "ext_price": null,
+   "ext_price": 0.5501,
    "name": "The Growhub Limited",
    "type": [
     "ارتكاز"
@@ -4561,7 +4497,7 @@
    "ticker": "CWD",
    "score": 7.38,
    "price": 0.3976,
-   "ext_price": null,
+   "ext_price": 0.407,
    "name": "CaliberCos Inc.",
    "type": [
     "قاع نظيف"
@@ -4627,7 +4563,7 @@
    "ticker": "TPET",
    "score": 7.38,
    "price": 1.72,
-   "ext_price": 1.7,
+   "ext_price": 1.75,
    "name": "Trio Petroleum Corp.",
    "type": [
     "🚩 علم/اختراق بعد قاعدة"
@@ -4819,7 +4755,7 @@
    "ticker": "IDN",
    "score": 7.25,
    "price": 2.44,
-   "ext_price": 2.44,
+   "ext_price": 2.5,
    "name": "Intellicheck, Inc.",
    "type": [
     "🚩 علم/اختراق بعد قاعدة"
@@ -5009,7 +4945,7 @@
    "ticker": "SPRU",
    "score": 7.12,
    "price": 1.33,
-   "ext_price": 1.33,
+   "ext_price": 1.32,
    "name": "Spruce Power Holding Corporation",
    "type": [
     "قاع نظيف"
@@ -5074,7 +5010,7 @@
    "ticker": "CYAB",
    "score": 7.12,
    "price": 0.137,
-   "ext_price": null,
+   "ext_price": 0.1361,
    "name": "Cyabra, Inc.",
    "type": [
     "طرح جديد/تاريخ قصير",
@@ -5472,7 +5408,7 @@
    "ticker": "NIXX",
    "score": 6.88,
    "price": 0.3019,
-   "ext_price": null,
+   "ext_price": 0.2756,
    "name": "Nixxy, Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest"
@@ -5537,7 +5473,7 @@
    "ticker": "ALDX",
    "score": 6.88,
    "price": 0.6497,
-   "ext_price": 0.6497,
+   "ext_price": 0.65,
    "name": "Aldeyra Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5735,7 +5671,7 @@
    "ticker": "PMEC",
    "score": 6.75,
    "price": 0.4,
-   "ext_price": null,
+   "ext_price": 0.4,
    "name": "Primech Holdings Ltd.",
    "type": [
     "ارتكاز"
@@ -5800,7 +5736,7 @@
    "ticker": "NRXP",
    "score": 6.75,
    "price": 2.49,
-   "ext_price": 2.49,
+   "ext_price": 2.4662,
    "name": "NRx Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5997,7 +5933,7 @@
    "ticker": "NTHI",
    "score": 6.62,
    "price": 3.27,
-   "ext_price": 3.27,
+   "ext_price": 3.32,
    "name": "NeOnc Technologies Holdings, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -6454,7 +6390,7 @@
    "ticker": "AGMH",
    "score": 6.5,
    "price": 0.4921,
-   "ext_price": 0.4938,
+   "ext_price": 0.4707,
    "name": "AGM Group Holdings Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -7182,13 +7118,13 @@
    "ticker": "SEV",
    "score": 6.0,
    "price": 1.51,
-   "ext_price": 1.51,
+   "ext_price": 1.54,
    "name": "Aptera Motors Corp.",
    "type": [
     "قاع نظيف"
    ],
    "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "READY",
+   "status": "WATCH",
    "data": {
     "float": 28949488,
     "shares": 28949488.0,
@@ -7229,9 +7165,13 @@
     "stop": 1.2388,
     "stop_tight": 1.3426
    },
-   "not_ready": [],
+   "not_ready": [
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
    "ready_when": "نزول لمنطقة الطلب 1.4–1.44 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.28–1.32 ثم استرداد 1.4 (ص17، ص86)",
-   "flags": [],
+   "flags": [
+    "صعد في الأفتر إلى 1.54 بعيداً عن منطقة الطلب"
+   ],
    "tags": [
     "Former Runner (سبق انفجر +41% في يوم)",
     "فوليوم البيع يضعف",
@@ -7307,7 +7247,7 @@
    "ticker": "JUNS",
    "score": 5.88,
    "price": 2.98,
-   "ext_price": 2.98,
+   "ext_price": 2.99,
    "name": "Jupiter Neurosciences Inc. Common Stock",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -7369,6 +7309,69 @@
     "Former Runner (سبق انفجر +117% في يوم)",
     "قيعان أعلى",
     "فوليوم البيع يضعف"
+   ]
+  },
+  {
+   "ticker": "STIM",
+   "score": 5.88,
+   "price": 2.11,
+   "ext_price": null,
+   "name": "Neuronetics, Inc.",
+   "type": [
+    "طبي — الخبر يحرّكه"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 37151480,
+    "shares": 76197222.0,
+    "short_pct_float": 0.1725,
+    "split": "",
+    "runner": "Former Runner (سبق انفجر +59% في يوم)",
+    "drawdown": 0.387,
+    "rsi_min": 22.8,
+    "rsi_now": 42.1,
+    "ma": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
+    "macd": "تقاطع إيجابي حديث"
+   },
+   "news": [
+    [
+     "Oct 21, 2026",
+     "Integra LifeSciences (IART) Surpasses Q3 Earnings Estimates"
+    ],
+    [
+     "Sep 11, 2026",
+     "B. Riley Securities Initiates Coverage of Neuronetics at Buy"
+    ],
+    [
+     "Aug 18, 2026",
+     "Neuronetics (STIM) Q2 2026 Earnings Call Transcript"
+    ]
+   ],
+   "levels": {
+    "bottom": 1.84,
+    "demand_low": 1.99,
+    "demand_high": 2.0702,
+    "wash_low": 1.8216,
+    "wash_high": 1.8768,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 2.3299999237060547,
+    "t1": 2.3299999237060547,
+    "t2": 2.430000066757202,
+    "r1": 2.105,
+    "stop": 1.767,
+    "stop_tight": 1.9257
+   },
+   "not_ready": [
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+   ],
+   "ready_when": "نزول لمنطقة الطلب 1.99–2.07 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.82–1.88 ثم استرداد 1.99 (ص17، ص86)",
+   "flags": [
+    "فشل عند MA20",
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +59% في يوم)"
    ]
   },
   {
@@ -7441,7 +7444,7 @@
    "ticker": "TORO",
    "score": 5.75,
    "price": 4.35,
-   "ext_price": 4.35,
+   "ext_price": 4.38,
    "name": "Toro Corp.",
    "type": [
     "نموذج W"
@@ -7832,7 +7835,7 @@
    "ticker": "LHAI",
    "score": 5.38,
    "price": 1.05,
-   "ext_price": 1.03,
+   "ext_price": 0.9986,
    "name": "Linkhome Holdings Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -8082,7 +8085,7 @@
    "ticker": "DTSS",
    "score": 4.38,
    "price": 0.719,
-   "ext_price": 0.7262,
+   "ext_price": 0.7,
    "name": "Datasea Intelligent Technology Ltd.",
    "type": [
     "صيني عالي التذبذب ⚠️",

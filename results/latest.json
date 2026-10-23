@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T13:10:20.939177+00:00",
- "generated_at_et": "2026-10-23T09:10:20.939177-04:00",
+ "generated_at_utc": "2026-10-23T13:20:20.939292+00:00",
+ "generated_at_et": "2026-10-23T09:20:20.939292-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -262,8 +262,8 @@
     "exchange": "NASDAQ",
     "name": "Elicio Therapeutics, Inc.",
     "short_pct_float": 0.096999995,
-    "ext_price": 1.98,
-    "ext_chg": 0.020618536,
+    "ext_price": 1.9,
+    "ext_chg": -0.020618598000000002,
     "ext_session": "pre"
    },
    "news": []
@@ -933,8 +933,8 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1623,
-    "ext_chg": -0.040780125,
+    "ext_price": 0.1655,
+    "ext_chg": -0.02186763,
     "ext_session": "pre"
    },
    "news": []
@@ -1272,8 +1272,8 @@
     "exchange": "AMEX",
     "name": "Eason Technology Limited",
     "short_pct_float": 0.0126,
-    "ext_price": 0.3164,
-    "ext_chg": -0.06913796999999999,
+    "ext_price": 0.33,
+    "ext_chg": -0.029126139000000002,
     "ext_session": "pre"
    },
    "news": []
@@ -1334,12 +1334,10 @@
    "waiting_for": [
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 26)",
     "السعر ابتعد 7% فوق منطقة الطلب — ضع Limit عند 1.67–1.74 ولا تطارد",
-    "صعد 79% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+    "صعد 79% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه",
-    "صعد في البري إلى 1.88 بعيداً عن منطقة الطلب"
+    "سهم طبي — الخبر قد يغير الاتجاه"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1359,8 +1357,8 @@
     "exchange": "NASDAQ",
     "name": "Processa Pharmaceuticals, Inc.",
     "short_pct_float": 0.0017,
-    "ext_price": 1.8838,
-    "ext_chg": 0.012795707,
+    "ext_price": 1.7103,
+    "ext_chg": -0.08048389,
     "ext_session": "pre"
    },
    "news": []
@@ -2113,8 +2111,8 @@
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences, Inc.",
     "short_pct_float": 0.1237,
-    "ext_price": 2.0994,
-    "ext_chg": 0.044477640000000006,
+    "ext_price": 2.059,
+    "ext_chg": 0.02437812,
     "ext_session": "pre"
    },
    "news": []
@@ -2776,8 +2774,8 @@
     "exchange": "NASDAQ",
     "name": "Greenland Technologies Holding Corporation",
     "short_pct_float": 0.0068,
-    "ext_price": 0.6026,
-    "ext_chg": -0.01552033981375589,
+    "ext_price": 0.61,
+    "ext_chg": -0.0034308119588302155,
     "ext_session": "pre"
    },
    "news": []
@@ -3114,8 +3112,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.5697,
-    "ext_chg": 0.027290580000000002,
+    "ext_price": 1.5152,
+    "ext_chg": -0.0083769494,
     "ext_session": "pre"
    },
    "news": []
@@ -3197,8 +3195,8 @@
     "market_cap": 3914270,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.1402,
-    "ext_chg": -0.020265477,
+    "ext_price": 0.1413,
+    "ext_chg": -0.012578622,
     "ext_session": "pre"
    },
    "news": []
@@ -3433,7 +3431,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.7801,
+   "price": 1.79,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3491,7 +3489,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.69,
+   "price": 2.74,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3509,9 +3507,9 @@
      3.8
     ]
    },
-   "state": "BELOW_STOP",
+   "state": "WAITING",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 14%",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 2.71 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3525,7 +3523,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3714,
+   "price": 0.38,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3561,12 +3559,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 512058.0,
-   "price": 347.61
+   "volume": 531856.0,
+   "price": 347.2695
   },
   "SNDL": {
-   "volume": 2030.0,
-   "price": 1.2801
+   "volume": 2046.0,
+   "price": 1.3
   }
  }
 }

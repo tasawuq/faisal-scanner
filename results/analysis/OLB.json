@@ -1,11 +1,11 @@
 {
  "ticker": "OLB",
- "generated_at_et": "2026-10-23T13:00:52.461150-04:00",
+ "generated_at_et": "2026-10-23T14:01:01.028049-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 0.2837,
-  "reg_chg": -0.09358033,
-  "reg_vol": 581433,
+  "reg_price": 0.2839,
+  "reg_chg": -0.09297124999999999,
+  "reg_vol": 596712,
   "prev_close": 0.313,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,8 +28,8 @@
   "lastSplitDate": 1714953600
  },
  "daily": {
-  "price": 0.2837,
-  "chg_1d": -0.0936,
+  "price": 0.2839,
+  "chg_1d": -0.093,
   "ma": {
    "MA20": 0.3642,
    "MA30": 0.3145,
@@ -40,12 +40,12 @@
   "rsi_min15": 32.4,
   "rsi_min30": 32.1,
   "macd": {
-   "line": 0.02277,
-   "signal": 0.04084,
+   "line": 0.02279,
+   "signal": 0.04085,
    "hist_last3": [
     -0.00279,
     -0.01114,
-    -0.01808
+    -0.01806
    ],
    "state": "سلبي"
   },
@@ -68,18 +68,18 @@
     "lower_wick": "False",
     "strong_green": "False",
     "upper_wick_ratio": 0.15838541796820407,
-    "close_pos": 0.2173912238662857,
+    "close_pos": 0.2236025074667755,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.0901,
   "avg_vol20": 75823175,
-  "last_vol": 591136,
-  "drawdown_90d": 0.617,
+  "last_vol": 613541,
+  "drawdown_90d": 0.616,
   "high_90d": 0.74,
   "low_10d": 0.2767,
-  "gain_from_low10": 0.025,
+  "gain_from_low10": 0.026,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": true,
@@ -318,19 +318,19 @@
     "o": 0.3038,
     "h": 0.3089,
     "l": 0.2767,
-    "c": 0.2837,
-    "v": 591136,
+    "c": 0.2839,
+    "v": 613541,
     "rsi": 44.0,
-    "hist": -0.01808
+    "hist": -0.01806
    }
   ]
  },
  "levels_map": {
-  "price": 0.2837,
+  "price": 0.2839,
   "at_price": [],
   "above": [
    {
-    "level": 0.2891,
+    "level": 0.2888,
     "why": "فواب جلسة 2026-10-23 + قيعان سابقة متجمعة (12)",
     "confluence": 2
    },
@@ -419,7 +419,7 @@
   "status": "WATCH",
   "setup": "AT_SUPPORT",
   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-  "price": 0.28369998931884766,
+  "price": 0.2838999927043915,
   "score": 3.25,
   "conditions": {
    "ma": {
@@ -454,11 +454,11 @@
   "stop": 0.2691079992055893,
   "entry_low": 0.27459999918937683,
   "entry_high": 0.2773459991812706,
-  "t1": 0.3060739997029305,
+  "t1": 0.3060779997706413,
   "t1_label": "MA50 + رأس شمعة هابطة + MA30",
   "t2": 0.33500000834465027,
   "t2_label": "قمة سابقة",
-  "rr": 4.38,
+  "rr": 4.39,
   "risk_pct": 0.0249,
   "rsi_now": 44.0,
   "rsi_min": 32.4,
@@ -483,12 +483,12 @@
    "قيعان أعلى",
    "فوليوم البيع يضعف"
   ],
-  "rank": 4.08430462206238,
+  "rank": 4.080662899809389,
   "meta": {
    "avg_volume": 75823175.0,
-   "drawdown": 0.617,
+   "drawdown": 0.616,
    "rr_best": 12.86,
-   "gain_from_low10": 0.025,
+   "gain_from_low10": 0.026,
    "higher_lows": "True",
    "float": 17187014,
    "market_cap": 6814562,

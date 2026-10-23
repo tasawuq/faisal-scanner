@@ -173,8 +173,12 @@ def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
     t, L, st = ev["ticker"], ev.get("levels") or {}, ev.get("state")
     lo, hi, stop, brk = L.get("demand_low"), L.get("demand_high"), L.get("stop"), L.get("breakout")
     head = WATCH_HEAD.get(st, ev.get("state_ar", ""))
-    src = "مستويات فيصل" if "فيصل" in (ev.get("label") or "") else "متابعة Claude"
-    title = f"🚨 {t} {head}" + (f" ({seg})" if seg else "")
+    lab = ev.get("label") or ""
+    # 23 أكتوبر: تنبيه TPET طلع «المصدر: متابعة Claude» وهو من قائمة الارتكاز → المستخدم ما عرف نوعه
+    src = ("قائمة الارتكاز (أسلوب فيصل) — ارتكاز وليس زخم" if lab == "قائمة الارتكاز"
+           else "مستويات فيصل" if "فيصل" in lab else "متابعة Claude")
+    kind = " · ارتكاز" if lab == "قائمة الارتكاز" else ""
+    title = f"🚨 {t}{kind} {head}" + (f" ({seg})" if seg else "")
     lines = [f"🚨 {t} — {head}", f"الوقت: {when}" + (f" · {seg}" if seg else ""),
              f"السعر الحالي: {fmt_price(ev.get('price'))}"]
     if st in ("RETEST_HOLD", "BREAKOUT_HOLD") and brk:

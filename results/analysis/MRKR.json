@@ -1,24 +1,24 @@
 {
  "ticker": "MRKR",
- "generated_at_et": "2026-10-22T16:03:37.637792-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-23T09:02:29.083088-04:00",
+ "session": "pre",
  "quote": {
   "reg_price": 1.07,
-  "reg_chg": -0.053097295999999995,
-  "reg_vol": 91408,
+  "reg_chg": -0.0530973,
+  "reg_vol": 91561,
   "prev_close": 1.13,
-  "pre_price": null,
-  "pre_chg": 0.0,
+  "pre_price": 1.05,
+  "pre_chg": -0.018691682,
   "post_price": null,
   "post_chg": 0.0,
-  "avg_vol": 101176,
-  "state": "POST"
+  "avg_vol": 102382,
+  "state": "PRE"
  },
  "news": [],
  "fund": {
   "floatShares": 13743992,
   "sharesOutstanding": 16673127,
-  "marketCap": 18507172,
+  "marketCap": 17840246,
   "shortPercentOfFloat": 0.0125,
   "longName": "Marker Therapeutics, Inc.",
   "country": "United States",
@@ -75,7 +75,7 @@
   ],
   "atr": 0.1046,
   "avg_vol20": 181100,
-  "last_vol": 91408,
+  "last_vol": 91500,
   "drawdown_90d": 0.378,
   "high_90d": 1.72,
   "low_10d": 0.88,
@@ -305,19 +305,25 @@
     "h": 1.17,
     "l": 1.07,
     "c": 1.07,
-    "v": 91408,
+    "v": 91500,
     "rsi": 48.6,
     "hist": 0.02196
    }
   ]
  },
  "levels_map": {
-  "price": 1.07,
+  "price": 1.05,
   "at_price": [
-   "قاع يوم 2026-10-22",
-   "قاعدة آخر ساعة 2026-10-22"
+   "قاع يوم 2026-10-19",
+   "قيعان سابقة متجمعة (5)",
+   "قاع الأفتر/البري"
   ],
   "above": [
+   {
+    "level": 1.055,
+    "why": "إغلاقات سابقة متجمعة (4) + قمة الأفتر/البري + قاع يوم 2026-10-22 + قاعدة آخر ساعة 2026-10-22",
+    "confluence": 4
+   },
    {
     "level": 1.09,
     "why": "قيعان سابقة متجمعة (8) + MA30 + فواب جلسة 2026-10-22 + قاع يوم 2026-10-20",
@@ -352,18 +358,13 @@
     "level": 1.31,
     "why": "قمة سابقة",
     "confluence": 1
-   },
-   {
-    "level": 1.39,
-    "why": "قمة سابقة",
-    "confluence": 1
    }
   ],
   "below": [
    {
-    "level": 1.055,
-    "why": "إغلاقات سابقة متجمعة (4) + قاع يوم 2026-10-19 + قيعان سابقة متجمعة (5) + MA20",
-    "confluence": 4
+    "level": 1.046,
+    "why": "MA20",
+    "confluence": 1
    },
    {
     "level": 1.025,
@@ -456,7 +457,7 @@
    "gain_from_low10": 0.216,
    "higher_lows": "False",
    "float": 13743992,
-   "market_cap": 18507172,
+   "market_cap": 17840246,
    "exchange": "",
    "name": "Marker Therapeutics, Inc.",
    "short_pct_float": 0.0125

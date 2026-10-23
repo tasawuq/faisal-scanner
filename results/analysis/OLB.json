@@ -1,24 +1,24 @@
 {
  "ticker": "OLB",
- "generated_at_et": "2026-10-22T16:03:37.637792-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-23T09:02:29.083088-04:00",
+ "session": "pre",
  "quote": {
   "reg_price": 0.313,
-  "reg_chg": -0.074785686,
-  "reg_vol": 1464880,
+  "reg_chg": -0.07478570000000001,
+  "reg_vol": 1534784,
   "prev_close": 0.3383,
-  "pre_price": null,
-  "pre_chg": 0.0,
-  "post_price": 0.315,
-  "post_chg": 0.0063897896,
-  "avg_vol": 30078831,
-  "state": "POST"
+  "pre_price": 0.3,
+  "pre_chg": -0.041533490000000006,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 30100800,
+  "state": "PRE"
  },
  "news": [],
  "fund": {
   "floatShares": 17187014,
   "sharesOutstanding": 24020313,
-  "marketCap": 6953880,
+  "marketCap": 7518357,
   "shortPercentOfFloat": 0.0097,
   "longName": "The OLB Group, Inc.",
   "country": "United States",
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "True",
     "strong_green": "False",
-    "upper_wick_ratio": 0.017208417360107173,
-    "close_pos": 0.562141253874159,
+    "upper_wick_ratio": 0.017013233579150775,
+    "close_pos": 0.5671075981814392,
     "green": "False",
     "bullish_reversal": "True"
    }
   ],
   "atr": 0.0942,
   "avg_vol20": 75773675,
-  "last_vol": 1464880,
+  "last_vol": 1533900,
   "drawdown_90d": 0.577,
   "high_90d": 0.74,
-  "low_10d": 0.2836,
-  "gain_from_low10": 0.104,
+  "low_10d": 0.283,
+  "gain_from_low10": 0.106,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": true,
@@ -317,24 +317,36 @@
     "d": "2026-10-22",
     "o": 0.335,
     "h": 0.3359,
-    "l": 0.2836,
+    "l": 0.283,
     "c": 0.313,
-    "v": 1464880,
+    "v": 1533900,
     "rsi": 46.1,
     "hist": -0.01114
    }
   ]
  },
  "levels_map": {
-  "price": 0.315,
-  "at_price": [
-   "MA30",
-   "قمة الأفتر/البري"
-  ],
+  "price": 0.3,
+  "at_price": [],
   "above": [
    {
-    "level": 0.3174,
-    "why": "إغلاقات سابقة متجمعة (3)",
+    "level": 0.3009,
+    "why": "فواب جلسة 2026-10-22 + إغلاقات سابقة متجمعة (6) + MA50",
+    "confluence": 3
+   },
+   {
+    "level": 0.3076,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   },
+   {
+    "level": 0.3145,
+    "why": "MA30 + إغلاقات سابقة متجمعة (3)",
+    "confluence": 2
+   },
+   {
+    "level": 0.321,
+    "why": "قمة الأفتر/البري",
     "confluence": 1
    },
    {
@@ -356,38 +368,13 @@
     "level": 0.4109,
     "why": "قاع يوم 2026-10-16 + قيعان سابقة متجمعة (4) + رأس شمعة هابطة + قمة سابقة + قاع يوم 2026-10-19 + قاع يوم 2026-10-20",
     "confluence": 5
-   },
-   {
-    "level": 0.4215,
-    "why": "قمة يوم 2026-10-21",
-    "confluence": 1
-   },
-   {
-    "level": 0.44,
-    "why": "قمة سابقة",
-    "confluence": 1
-   },
-   {
-    "level": 0.4521,
-    "why": "قمة يوم 2026-10-20",
-    "confluence": 1
    }
   ],
   "below": [
    {
-    "level": 0.313,
-    "why": "قاع الأفتر/البري",
-    "confluence": 1
-   },
-   {
-    "level": 0.3066,
-    "why": "MA50 + إغلاقات سابقة متجمعة (6) + فواب جلسة 2026-10-22",
-    "confluence": 3
-   },
-   {
     "level": 0.299,
-    "why": "قاعدة آخر ساعة 2026-10-22 + إغلاقات سابقة متجمعة (10)",
-    "confluence": 2
+    "why": "قاعدة آخر ساعة 2026-10-22 + إغلاقات سابقة متجمعة (10) + قاع الأفتر/البري",
+    "confluence": 3
    },
    {
     "level": 0.2921,
@@ -413,6 +400,16 @@
     "level": 0.2117,
     "why": "إغلاقات سابقة متجمعة (3)",
     "confluence": 1
+   },
+   {
+    "level": 0.2034,
+    "why": "إغلاقات سابقة متجمعة (4) + قيعان سابقة متجمعة (3)",
+    "confluence": 2
+   },
+   {
+    "level": 0.1931,
+    "why": "قيعان سابقة متجمعة (3) + إغلاقات سابقة متجمعة (4)",
+    "confluence": 2
    }
   ]
  },
@@ -492,10 +489,10 @@
    "avg_volume": 75773675.0,
    "drawdown": 0.577,
    "rr_best": 9.96,
-   "gain_from_low10": 0.104,
+   "gain_from_low10": 0.106,
    "higher_lows": "True",
    "float": 17187014,
-   "market_cap": 6953880,
+   "market_cap": 7518357,
    "exchange": "",
    "name": "The OLB Group, Inc.",
    "short_pct_float": 0.0097

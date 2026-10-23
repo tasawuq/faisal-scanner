@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T08:01:38.313133+00:00",
- "generated_at_et": "2026-10-23T04:01:38.313133-04:00",
+ "generated_at_utc": "2026-10-23T08:20:20.934450+00:00",
+ "generated_at_et": "2026-10-23T04:20:20.934450-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -14,17 +14,18 @@
  "counts": {
   "universe": 5855,
   "analyzed": 1121,
-  "ready": 1,
-  "watch": 130,
+  "ready": 0,
+  "watch": 131,
   "momentum": 0,
-  "ext_quotes": 66,
+  "ext_quotes": 40,
   "ext_movers_5pct": 0
  },
- "ready": [
+ "ready": [],
+ "watch": [
   {
    "ticker": "GXAI",
    "kind": "pivot",
-   "status": "READY",
+   "status": "WATCH",
    "setup": "SWEEP",
    "setup_ar": "سحب سيولة ثم استرداد الدعم",
    "price": 0.45399999618530273,
@@ -74,10 +75,13 @@
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "ابتلاعية شرائية (Engulfing)",
    "volume_note": "فوليوم البيع يضعف، فوليوم يتحسن مع الارتداد",
-   "waiting_for": [],
+   "waiting_for": [
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
    "flags": [
     "فشل عند MA20",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.454 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -96,12 +100,13 @@
     "market_cap": 5017738,
     "exchange": "NASDAQ",
     "name": "Gaxos.ai Inc.",
-    "short_pct_float": 0.0209
+    "short_pct_float": 0.0209,
+    "ext_price": 0.454,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
-  }
- ],
- "watch": [
+  },
   {
    "ticker": "TYGO",
    "kind": "pivot",
@@ -174,7 +179,10 @@
     "market_cap": 71100136,
     "exchange": "NASDAQ",
     "name": "Tigo Energy, Inc.",
-    "short_pct_float": 0.066300005
+    "short_pct_float": 0.066300005,
+    "ext_price": 0.9292,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -253,7 +261,10 @@
     "market_cap": 52556908,
     "exchange": "NASDAQ",
     "name": "Elicio Therapeutics, Inc.",
-    "short_pct_float": 0.096999995
+    "short_pct_float": 0.096999995,
+    "ext_price": 1.95,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -628,11 +639,13 @@
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 16)",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
-    "صعد 83% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة"
+    "صعد 83% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
+    "السعر في البري 0.29 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 5 يوم (طار إلى 0.294 وأغلق 0.245 بفوليوم 6x)",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "نزل في البري تحت الوقف (0.29)"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -649,7 +662,10 @@
     "market_cap": 9100503,
     "exchange": "NASDAQ",
     "name": "Nixxy, Inc.",
-    "short_pct_float": 0.0037
+    "short_pct_float": 0.0037,
+    "ext_price": 0.29,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -733,7 +749,10 @@
     "market_cap": 11463392,
     "exchange": "NASDAQ",
     "name": "Uni-Fuels Holdings Limited",
-    "short_pct_float": 0.0307
+    "short_pct_float": 0.0307,
+    "ext_price": 0.3826,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -816,7 +835,10 @@
     "market_cap": 6017618,
     "exchange": "NASDAQ",
     "name": "Ohmyhome Limited",
-    "short_pct_float": 0.0226
+    "short_pct_float": 0.0226,
+    "ext_price": 3.28,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -898,7 +920,10 @@
     "market_cap": 5083258,
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
-    "short_pct_float": 0.0405
+    "short_pct_float": 0.0405,
+    "ext_price": 0.1691,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -982,7 +1007,10 @@
     "market_cap": 6734773,
     "exchange": "NASDAQ",
     "name": "LZ Technology Holdings Limited",
-    "short_pct_float": 0.0197
+    "short_pct_float": 0.0197,
+    "ext_price": 0.7275,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1063,7 +1091,10 @@
     "market_cap": 4180861,
     "exchange": "NASDAQ",
     "name": "CaliberCos Inc.",
-    "short_pct_float": 0.0785
+    "short_pct_float": 0.0785,
+    "ext_price": 0.391,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1145,8 +1176,8 @@
     "exchange": "NASDAQ",
     "name": "Tenax Therapeutics, Inc.",
     "short_pct_float": 0.1935,
-    "ext_price": 1.7897,
-    "ext_chg": 0.016875024000000002,
+    "ext_price": 1.79,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -1206,12 +1237,12 @@
    "volume_note": "فوليوم يتحسن مع الارتداد",
    "waiting_for": [
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "السعر في البري 0.302 تحت الوقف — الدعم مكسور حالياً"
+    "السعر في البري 0.305 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "سهم صيني عالي التذبذب",
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في البري تحت الوقف (0.302)"
+    "نزل في البري تحت الوقف (0.305)"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1231,8 +1262,8 @@
     "exchange": "AMEX",
     "name": "Eason Technology Limited",
     "short_pct_float": 0.0126,
-    "ext_price": 0.3019,
-    "ext_chg": -0.11179755,
+    "ext_price": 0.3049,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -1639,7 +1670,10 @@
     "market_cap": 84975872,
     "exchange": "NASDAQ",
     "name": "NeOnc Technologies Holdings, Inc.",
-    "short_pct_float": 0.0552
+    "short_pct_float": 0.0552,
+    "ext_price": 2.8402,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1880,8 +1914,8 @@
     "exchange": "NASDAQ",
     "name": "CVD Equipment Corporation",
     "short_pct_float": 0.026800001,
-    "ext_price": 3.85,
-    "ext_chg": 0.010498677000000001,
+    "ext_price": 3.63,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -1966,8 +2000,8 @@
     "exchange": "NASDAQ",
     "name": "AGM Group Holdings Inc.",
     "short_pct_float": 0.0399,
-    "ext_price": 0.4209,
-    "ext_chg": -0.14969701000000002,
+    "ext_price": 0.4893,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2047,8 +2081,8 @@
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences, Inc.",
     "short_pct_float": 0.1237,
-    "ext_price": 2.19,
-    "ext_chg": 0.08955228,
+    "ext_price": 2.11,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2210,8 +2244,8 @@
     "exchange": "AMEX",
     "name": "TMD Energy Limited",
     "short_pct_float": 0.0094,
-    "ext_price": 0.5965,
-    "ext_chg": 0.07905206,
+    "ext_price": 0.5995,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2537,7 +2571,10 @@
     "market_cap": 38981416,
     "exchange": "NASDAQ",
     "name": "Solidion Technology, Inc.",
-    "short_pct_float": 0.0548
+    "short_pct_float": 0.0548,
+    "ext_price": 4.36,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2778,7 +2815,10 @@
     "market_cap": 4899845,
     "exchange": "NASDAQ",
     "name": "Autonomix Medical, Inc.",
-    "short_pct_float": 0.0145000005
+    "short_pct_float": 0.0145000005,
+    "ext_price": 2.51,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2837,10 +2877,12 @@
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
     "إغلاق وثبات فوق 1.05 بعد سحب السيولة",
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 1.17 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2859,7 +2901,10 @@
     "market_cap": 7913873,
     "exchange": "NASDAQ",
     "name": "Chemomab Therapeutics Ltd.",
-    "short_pct_float": 0.0015
+    "short_pct_float": 0.0015,
+    "ext_price": 1.17,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2943,8 +2988,8 @@
     "exchange": "NASDAQ",
     "name": "Tianci International, Inc.",
     "short_pct_float": 0.0176,
-    "ext_price": 1.91,
-    "ext_chg": -0.02551024,
+    "ext_price": 1.95,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -3025,7 +3070,10 @@
     "market_cap": 8092338,
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
-    "short_pct_float": 0.1097
+    "short_pct_float": 0.1097,
+    "ext_price": 1.48,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3106,8 +3154,8 @@
     "market_cap": 3914270,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.143,
-    "ext_chg": -0.0006987198,
+    "ext_price": 0.1473,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -3256,7 +3304,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 0.93 وأغلق 0.718 بفوليوم 106x)",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في البري إلى 0.395 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 0.39 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -3276,95 +3324,17 @@
     "exchange": "NASDAQ",
     "name": "Healthcare Triangle, Inc.",
     "short_pct_float": 0.0512,
-    "ext_price": 0.395,
-    "ext_chg": 0.04359312,
+    "ext_price": 0.39,
+    "ext_chg": null,
     "ext_session": "pre"
-   },
-   "news": []
-  },
-  {
-   "ticker": "TVRD",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.972000002861023,
-   "score": 4.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 27 والحالي 32"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.0,
-     "note": "لا توجد شمعة إيجابية عند الدعم"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 83% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 11.4"
-    }
-   },
-   "support_low": 0.968999981880188,
-   "support_high": 0.9786899816989899,
-   "support_touches": 2,
-   "trigger_level": 0.968999981880188,
-   "stop": 0.9496199822425843,
-   "entry_low": 0.968999981880188,
-   "entry_high": 0.9786899816989899,
-   "t1": 1.027999997138977,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.090000033378601,
-   "t2_label": "قمة سابقة + MA20",
-   "rr": 2.24,
-   "risk_pct": 0.0249,
-   "rsi_now": 32.0,
-   "rsi_min": 27.1,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.97 ثم استرداد",
-    "اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)"
-   ],
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +92% في يوم)",
-    "فوليوم البيع يضعف"
-   ],
-   "rank": 5.2345200152892986,
-   "meta": {
-    "avg_volume": 229505.0,
-    "drawdown": 0.829,
-    "rr_best": 11.4,
-    "gain_from_low10": 0.003,
-    "higher_lows": "False",
-    "float": 9628849,
-    "market_cap": 12968120,
-    "exchange": "NASDAQ",
-    "name": "Tvardi Therapeutics, Inc.",
-    "short_pct_float": 0.016900001
    },
    "news": []
   }
  ],
  "momentum": [],
- "errors": [],
+ "errors": [
+  "yahoo quotes empty in pre — nasdaq fallback 36/66"
+ ],
  "ext_debug": [],
  "faisal": [
   {
@@ -3387,8 +3357,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
+   "alert": true,
    "session": "pre",
    "scanner": null
   },
@@ -3419,7 +3389,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.72,
+   "price": 1.83,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3437,7 +3407,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 16%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 9%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3477,7 +3447,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.77,
+   "price": 2.9,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3496,7 +3466,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 13%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 8%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3511,7 +3481,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3812,
+   "price": 0.387,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3530,8 +3500,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3547,8 +3517,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 106043.0,
-   "price": 346.72
+   "volume": 111684.0,
+   "price": 346.45
   },
   "SNDL": {
    "volume": 8.0,

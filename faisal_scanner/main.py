@@ -435,7 +435,11 @@ def run_once(force=False, demo=False, limit=None) -> dict:
                     tb = b[[ts.date() == now_et.date() for ts in b.index]]
                     if len(tb):
                         px = float(tb["close"].iloc[-1])
-                why = faisal_watch.scanner_confirm(b, px, x.stop, x.t1, x.entry_low, daily.get(x.ticker), now_c)
+                try:
+                    why = faisal_watch.scanner_confirm(b, px, x.stop, x.t1, x.entry_low, daily.get(x.ticker), now_c)
+                except Exception as e:  # noqa
+                    errors.append(f"confirm gate {x.ticker}: {str(e)[:80]}")
+                    why = ["تأكيد 15 دقيقة: تعذر التحقق من الشموع"]
                 if why:
                     x.waiting_for.extend(why)
                     refresh_status(x)

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T23:30:32.092615+00:00",
- "generated_at_et": "2026-10-23T19:30:32.092615-04:00",
+ "generated_at_utc": "2026-10-23T23:40:32.092761+00:00",
+ "generated_at_et": "2026-10-23T19:40:32.092761-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -429,8 +429,8 @@
     "exchange": "NASDAQ",
     "name": "FBS Global Limited",
     "short_pct_float": 0.0432,
-    "ext_price": 2.08,
-    "ext_chg": -0.07349665924276172,
+    "ext_price": 2.1,
+    "ext_chg": -0.06666671,
     "ext_session": "post"
    },
    "news": []
@@ -2104,8 +2104,8 @@
     "exchange": "NASDAQ",
     "name": "NRx Pharmaceuticals, Inc.",
     "short_pct_float": 0.2359,
-    "ext_price": 2.57,
-    "ext_chg": 0.032128484,
+    "ext_price": 2.55,
+    "ext_chg": 0.024096363,
     "ext_session": "post"
    },
    "news": []
@@ -2684,8 +2684,8 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1741,
-    "ext_chg": 0.0,
+    "ext_price": 0.1757,
+    "ext_chg": 0.009190104999999999,
     "ext_session": "post"
    },
    "news": []
@@ -3459,7 +3459,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.2989,
+   "price": 1.23,
    "price_label": "سعر الأفتر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -3484,7 +3484,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.3,
+   "price": 2.24,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3502,7 +3502,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2.48 بـ 8%",
+   "state_ar": "تحت مستوى الاختراق 2.48 بـ 11%",
    "alert": false,
    "session": "post",
    "scanner": null
@@ -3542,7 +3542,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.605,
+   "price": 1.6005,
    "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3567,7 +3567,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.7399,
+   "price": 2.71,
    "price_label": "سعر الأفتر",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3586,7 +3586,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 14%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 15%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -3620,8 +3620,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

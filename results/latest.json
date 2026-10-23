@@ -1,19 +1,19 @@
 {
- "generated_at_utc": "2026-10-23T09:00:20.935090+00:00",
- "generated_at_et": "2026-10-23T05:00:20.935090-04:00",
+ "generated_at_utc": "2026-10-23T09:10:20.935274+00:00",
+ "generated_at_et": "2026-10-23T05:10:20.935274-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1593,
   "with_data": 1593,
-  "short_history": 16,
+  "short_history": 17,
   "price_out": 98,
   "low_volume": 358,
   "watch_only_volume": 161
  },
  "counts": {
   "universe": 5855,
-  "analyzed": 1121,
+  "analyzed": 1120,
   "ready": 0,
   "watch": 131,
   "momentum": 0,
@@ -500,7 +500,10 @@
     "market_cap": 3030749,
     "exchange": "NASDAQ",
     "name": "FBS Global Limited",
-    "short_pct_float": 0.0432
+    "short_pct_float": 0.0432,
+    "ext_price": 2.24,
+    "ext_chg": -0.0344827586206895,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1159,7 +1162,7 @@
    ],
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "صعد في البري إلى 1.79 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 1.78 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +34% في يوم)",
@@ -1177,8 +1180,8 @@
     "exchange": "NASDAQ",
     "name": "Tenax Therapeutics, Inc.",
     "short_pct_float": 0.1935,
-    "ext_price": 1.79,
-    "ext_chg": 0.017045438,
+    "ext_price": 1.7824,
+    "ext_chg": 0.012727285999999999,
     "ext_session": "pre"
    },
    "news": []
@@ -1507,7 +1510,10 @@
     "market_cap": 14799556,
     "exchange": "NASDAQ",
     "name": "Loop Industries, Inc.",
-    "short_pct_float": 0.025999999
+    "short_pct_float": 0.025999999,
+    "ext_price": 0.3061,
+    "ext_chg": -0.02515923566878986,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2313,14 +2319,12 @@
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 28)",
     "مساحة صعود أكبر حتى المقاومات القادمة",
     "صعد 36% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
    ],
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 62.5K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "تقسيم عكسي حديث 1:10 (2026-09-29)",
-    "صعد في البري إلى 5.29 بعيداً عن منطقة الطلب"
+    "تقسيم عكسي حديث 1:10 (2026-09-29)"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -2339,8 +2343,8 @@
     "exchange": "NASDAQ",
     "name": "OneMedNet Corporation",
     "short_pct_float": 0.0365,
-    "ext_price": 5.29,
-    "ext_chg": 0.14875135722041244,
+    "ext_price": 4.91,
+    "ext_chg": 0.0662323561346363,
     "ext_session": "pre"
    },
    "news": []
@@ -3086,7 +3090,7 @@
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
     "ext_price": 1.504,
-    "ext_chg": -0.015706838,
+    "ext_chg": -0.010526338,
     "ext_session": "pre"
    },
    "news": []
@@ -3168,8 +3172,8 @@
     "market_cap": 3914270,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.1449,
-    "ext_chg": 0.012578622,
+    "ext_price": 0.1442,
+    "ext_chg": 0.0076869582999999995,
     "ext_session": "pre"
    },
    "news": []
@@ -3532,11 +3536,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 133255.0,
-   "price": 345.95
+   "volume": 135599.0,
+   "price": 345.82
   },
   "SNDL": {
-   "volume": 19.0,
+   "volume": 300.0,
    "price": 1.28
   }
  }

@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-10-23T04:01:38.313133-04:00",
+ "generated_at_et": "2026-10-23T05:10:20.935274-04:00",
  "items": [
   {
    "ticker": "HCWB",
    "score": 11.25,
    "price": 1.12,
-   "ext_price": null,
+   "ext_price": 1.11,
    "name": "HCW Biologics Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -141,7 +141,7 @@
    "ticker": "FBGL",
    "score": 11.12,
    "price": 2.245,
-   "ext_price": null,
+   "ext_price": 2.24,
    "name": "FBS Global Limited",
    "type": [
     "فلووت منخفض جداً",
@@ -456,7 +456,7 @@
    "ticker": "AMIX",
    "score": 10.25,
    "price": 2.5,
-   "ext_price": null,
+   "ext_price": 2.51,
    "name": "Autonomix Medical, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -851,7 +851,7 @@
    "ticker": "WCT",
    "score": 9.88,
    "price": 0.336,
-   "ext_price": null,
+   "ext_price": 0.3357,
    "name": "Wellchange Holdings Company Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -897,13 +897,15 @@
     "stop_tight": 0.294
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.30 ثم استرداد"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.30 ثم استرداد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "ready_when": "نزول لمنطقة الطلب 0.3–0.303 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.255–0.27 ثم استرداد 0.3 (ص17، ص86)",
    "flags": [
     "سهم صيني عالي التذبذب",
     "تقسيم عكسي حديث 1:5 (2026-09-08)",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.336 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1726,7 +1728,7 @@
    "ticker": "LZMH",
    "score": 8.88,
    "price": 0.75,
-   "ext_price": null,
+   "ext_price": 0.7275,
    "name": "LZ Technology Holdings Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -1861,7 +1863,7 @@
    "ticker": "STI",
    "score": 8.75,
    "price": 4.34,
-   "ext_price": null,
+   "ext_price": 4.52,
    "name": "Solidion Technology, Inc.",
    "type": [
     "فلووت منخفض جداً"
@@ -1923,7 +1925,7 @@
    "ticker": "CMMB",
    "score": 8.75,
    "price": 1.08,
-   "ext_price": null,
+   "ext_price": 1.17,
    "name": "Chemomab Therapeutics Ltd.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -1977,7 +1979,8 @@
    ],
    "ready_when": "نزول لمنطقة الطلب 1.05–1.08 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.893–0.946 ثم استرداد 1.05 (ص17، ص86)",
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 1.17 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2193,7 +2196,7 @@
    "ticker": "TVRD",
    "score": 8.62,
    "price": 0.972,
-   "ext_price": null,
+   "ext_price": 0.99,
    "name": "Tvardi Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -2456,7 +2459,7 @@
    "ticker": "UFG",
    "score": 8.5,
    "price": 0.353,
-   "ext_price": null,
+   "ext_price": 0.3826,
    "name": "Uni-Fuels Holdings Limited",
    "type": [
     "ارتكاز"
@@ -2720,7 +2723,7 @@
    "ticker": "TPET",
    "score": 8.38,
    "price": 1.52,
-   "ext_price": null,
+   "ext_price": 1.504,
    "name": "Trio Petroleum Corp.",
    "type": [
     "نموذج W"
@@ -2854,13 +2857,13 @@
    "ticker": "GXAI",
    "score": 8.25,
    "price": 0.454,
-   "ext_price": null,
+   "ext_price": 0.454,
    "name": "Gaxos.ai Inc.",
    "type": [
     "ارتكاز"
    ],
    "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "READY",
+   "status": "WATCH",
    "data": {
     "float": 10544569,
     "shares": 11052288.0,
@@ -2901,11 +2904,14 @@
     "stop": 0.3446,
     "stop_tight": 0.4018
    },
-   "not_ready": [],
+   "not_ready": [
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
    "ready_when": "نزول لمنطقة الطلب 0.418–0.43 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.355–0.376 ثم استرداد 0.418 (ص17، ص86)",
    "flags": [
     "فشل عند MA20",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.454 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2980,7 +2986,7 @@
    "ticker": "TMDE",
    "score": 8.25,
    "price": 0.569,
-   "ext_price": 0.5965,
+   "ext_price": 0.5862,
    "name": "TMD Energy Limited",
    "type": [
     "فلووت منخفض جداً",
@@ -3112,7 +3118,7 @@
    "ticker": "WLDS",
    "score": 8.25,
    "price": 1.39,
-   "ext_price": 1.42,
+   "ext_price": 1.416,
    "name": "Wearable Devices Ltd.",
    "type": [
     "فلووت منخفض جداً"
@@ -3441,7 +3447,7 @@
    "ticker": "DXF",
    "score": 8.0,
    "price": 0.34,
-   "ext_price": 0.3019,
+   "ext_price": 0.302,
    "name": "Eason Technology Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -3640,7 +3646,7 @@
    "ticker": "SLGB",
    "score": 7.88,
    "price": 0.225,
-   "ext_price": null,
+   "ext_price": 0.2185,
    "name": "Smart Logistics Global Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -3697,7 +3703,8 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 20 يوم (طار إلى 0.425 وأغلق 0.33 بفوليوم 87x)",
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.218 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3776,7 +3783,7 @@
    "ticker": "ONMD",
    "score": 7.75,
    "price": 4.91,
-   "ext_price": null,
+   "ext_price": 4.91,
    "name": "OneMedNet Corporation",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -4164,7 +4171,7 @@
    "ticker": "OMH",
    "score": 7.62,
    "price": 3.12,
-   "ext_price": null,
+   "ext_price": 3.06,
    "name": "Ohmyhome Limited",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -4292,7 +4299,7 @@
    "ticker": "LSTA",
    "score": 7.62,
    "price": 1.01,
-   "ext_price": null,
+   "ext_price": 1.0,
    "name": "Lisata Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -4616,7 +4623,7 @@
    "ticker": "CWD",
    "score": 7.38,
    "price": 0.403,
-   "ext_price": null,
+   "ext_price": 0.385,
    "name": "CaliberCos Inc.",
    "type": [
     "قاع نظيف"
@@ -4682,7 +4689,7 @@
    "ticker": "LOOP",
    "score": 7.38,
    "price": 0.306,
-   "ext_price": null,
+   "ext_price": 0.3061,
    "name": "Loop Industries, Inc.",
    "type": [
     "قاع نظيف"
@@ -5189,7 +5196,7 @@
    "ticker": "AURE",
    "score": 7.12,
    "price": 0.959,
-   "ext_price": null,
+   "ext_price": 0.952,
    "name": "Aurelion Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -5244,7 +5251,8 @@
    "ready_when": "نزول لمنطقة الطلب 0.85–0.884 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.723–0.765 ثم استرداد 0.85 (ص17، ص86)",
    "flags": [
     "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 1.73 وأغلق 1.14 بفوليوم 233x)",
-    "سهم صيني عالي التذبذب"
+    "سهم صيني عالي التذبذب",
+    "صعد في البري إلى 0.952 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -5257,7 +5265,7 @@
    "ticker": "CYAB",
    "score": 7.12,
    "price": 0.14,
-   "ext_price": 0.143,
+   "ext_price": 0.1442,
    "name": "Cyabra, Inc.",
    "type": [
     "طرح جديد/تاريخ قصير",
@@ -5324,7 +5332,7 @@
    "ticker": "RMSG",
    "score": 7.12,
    "price": 0.251,
-   "ext_price": null,
+   "ext_price": 0.24,
    "name": "Real Messenger Corporation",
    "type": [
     "ارتكاز"
@@ -5521,7 +5529,7 @@
    "ticker": "VNRX",
    "score": 6.88,
    "price": 0.17,
-   "ext_price": null,
+   "ext_price": 0.1691,
    "name": "VolitionRx Limited",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5589,7 +5597,7 @@
    "ticker": "CCTG",
    "score": 6.75,
    "price": 0.372,
-   "ext_price": null,
+   "ext_price": 0.3831,
    "name": "CCSC Technology International Holdings Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -5644,7 +5652,8 @@
    "ready_when": "نزول لمنطقة الطلب 0.353–0.358 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.308–0.317 ثم استرداد 0.353 (ص17، ص86)",
    "flags": [
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.383 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -5788,7 +5797,7 @@
    "ticker": "NIXX",
    "score": 6.62,
    "price": 0.3148,
-   "ext_price": null,
+   "ext_price": 0.3,
    "name": "Nixxy, Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest"
@@ -5853,7 +5862,7 @@
    "ticker": "ALDX",
    "score": 6.62,
    "price": 0.645,
-   "ext_price": null,
+   "ext_price": 0.638,
    "name": "Aldeyra Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5919,7 +5928,7 @@
    "ticker": "TII",
    "score": 6.62,
    "price": 1.92,
-   "ext_price": null,
+   "ext_price": 1.92,
    "name": "Titan Mining Corporation",
    "type": [
     "ارتكاز"
@@ -6384,7 +6393,7 @@
    "ticker": "TYGO",
    "score": 6.38,
    "price": 0.926,
-   "ext_price": null,
+   "ext_price": 0.8743,
    "name": "Tigo Energy, Inc.",
    "type": [
     "نموذج W"
@@ -6432,10 +6441,13 @@
     "stop_tight": 0.785
    },
    "not_ready": [
-    "كسر خط العنق 0.95 والثبات فوقه أكثر من ربع ساعة"
+    "كسر خط العنق 0.95 والثبات فوقه أكثر من ربع ساعة",
+    "السعر في البري 0.874 تحت الوقف — الدعم مكسور حالياً"
    ],
    "ready_when": "من تحت: شمعة ارتداد عند القاع الثاني 0.801؛ أو كسر خط العنق 0.95 والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)",
-   "flags": [],
+   "flags": [
+    "نزل في البري تحت الوقف (0.874)"
+   ],
    "tags": [
     "Former Runner (سبق انفجر +178% في يوم)",
     "فوليوم البيع يضعف"
@@ -6445,7 +6457,7 @@
    "ticker": "NTHI",
    "score": 6.38,
    "price": 2.95,
-   "ext_price": null,
+   "ext_price": 2.8402,
    "name": "NeOnc Technologies Holdings, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -6772,7 +6784,7 @@
    "ticker": "ELTX",
    "score": 6.25,
    "price": 1.94,
-   "ext_price": null,
+   "ext_price": 1.95,
    "name": "Elicio Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -6972,7 +6984,7 @@
    "ticker": "TENX",
    "score": 6.12,
    "price": 1.76,
-   "ext_price": 1.7897,
+   "ext_price": 1.7824,
    "name": "Tenax Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -7026,7 +7038,7 @@
    "ready_when": "نزول لمنطقة الطلب 1.59–1.65 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.35–1.39 ثم استرداد 1.59 (ص17، ص86)",
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "صعد في البري إلى 1.79 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 1.78 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +34% في يوم)",
@@ -7424,7 +7436,7 @@
    "ticker": "STFS",
    "score": 5.88,
    "price": 4.68,
-   "ext_price": null,
+   "ext_price": 4.69,
    "name": "Star Fashion Culture Holdings Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -8066,7 +8078,7 @@
    "ticker": "MTEN",
    "score": 4.62,
    "price": 1.02,
-   "ext_price": null,
+   "ext_price": 0.936,
    "name": "Mingteng International Corporation Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T10:30:20.936590+00:00",
- "generated_at_et": "2026-10-23T06:30:20.936590-04:00",
+ "generated_at_utc": "2026-10-23T10:40:20.936721+00:00",
+ "generated_at_et": "2026-10-23T06:40:20.936721-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -402,9 +402,12 @@
    "candle": "مطرقة (Hammer)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "الدخول تحت مقاومة مباشرة (1.47) — انتظر اختراقها والثبات"
+    "الدخول تحت مقاومة مباشرة (1.47) — انتظر اختراقها والثبات",
+    "السعر في البري 1.29 تحت الوقف — الدعم مكسور حالياً"
    ],
-   "flags": [],
+   "flags": [
+    "نزل في البري تحت الوقف (1.29)"
+   ],
    "tags": [
     "Former Runner (سبق انفجر +41% في يوم)",
     "فوليوم البيع يضعف",
@@ -421,8 +424,8 @@
     "market_cap": 58942796,
     "exchange": "NASDAQ",
     "name": "Aptera Motors Corp.",
-    "ext_price": 1.44,
-    "ext_chg": 0.04347826086956519,
+    "ext_price": 1.29,
+    "ext_chg": -0.06521739130434778,
     "ext_session": "pre"
    },
    "news": []
@@ -587,8 +590,8 @@
     "exchange": "NYSE",
     "name": "Spruce Power Holding Corporation",
     "short_pct_float": 0.060100004,
-    "ext_price": 1.31,
-    "ext_chg": -0.015037593984962405,
+    "ext_price": 1.35,
+    "ext_chg": 0.015037593984962516,
     "ext_session": "pre"
    },
    "news": []
@@ -2595,8 +2598,8 @@
     "exchange": "NASDAQ",
     "name": "Solidion Technology, Inc.",
     "short_pct_float": 0.0548,
-    "ext_price": 4.38,
-    "ext_chg": -0.039473684210526216,
+    "ext_price": 4.45,
+    "ext_chg": -0.024122807017543768,
     "ext_session": "pre"
    },
    "news": []
@@ -3097,8 +3100,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.53,
-    "ext_chg": 0.0013088837,
+    "ext_price": 1.5,
+    "ext_chg": -0.018324605,
     "ext_session": "pre"
    },
    "news": []
@@ -3335,7 +3338,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 0.93 وأغلق 0.718 بفوليوم 106x)",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في البري إلى 0.395 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 0.4 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -3355,8 +3358,8 @@
     "exchange": "NASDAQ",
     "name": "Healthcare Triangle, Inc.",
     "short_pct_float": 0.0512,
-    "ext_price": 0.395,
-    "ext_chg": 0.04359312,
+    "ext_price": 0.3997,
+    "ext_chg": 0.056010489999999996,
     "ext_session": "pre"
    },
    "news": []
@@ -3510,7 +3513,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3776,
+   "price": 0.379,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3529,8 +3532,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3546,8 +3549,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 177507.0,
-   "price": 346.82
+   "volume": 181540.0,
+   "price": 346.6
   },
   "SNDL": {
    "volume": 300.0,

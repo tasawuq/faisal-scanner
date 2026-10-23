@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T23:18:23.081341+00:00",
- "generated_at_et": "2026-10-23T19:18:23.081341-04:00",
+ "generated_at_utc": "2026-10-23T23:30:32.092615+00:00",
+ "generated_at_et": "2026-10-23T19:30:32.092615-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -14,90 +14,13 @@
  "counts": {
   "universe": 5856,
   "analyzed": 1116,
-  "ready": 2,
-  "watch": 126,
+  "ready": 1,
+  "watch": 127,
   "momentum": 0,
   "ext_quotes": 66,
   "ext_movers_5pct": 0
  },
  "ready": [
-  {
-   "ticker": "SEV",
-   "kind": "pivot",
-   "status": "READY",
-   "setup": "SWEEP",
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "price": 1.5099999904632568,
-   "score": 5.0,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 1.0,
-     "note": "أدنى RSI 25 والحالي 37"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "تقاطع إيجابي حديث"
-    },
-    "candle": {
-     "score": 1.0,
-     "note": "مطرقة (Hammer)"
-    },
-    "pressure": {
-     "score": 0.5,
-     "note": "هبط 40% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 3.9"
-    }
-   },
-   "support_low": 1.399999976158142,
-   "support_high": 1.4139999759197235,
-   "support_touches": 1,
-   "trigger_level": 1.399999976158142,
-   "stop": 1.3426000046730042,
-   "entry_low": 1.399999976158142,
-   "entry_high": 1.4412999832630158,
-   "t1": 1.5399999618530273,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.6145000100135802,
-   "t2_label": "MA20 + قمة سابقة",
-   "rr": 1.31,
-   "risk_pct": 0.0599,
-   "rsi_now": 37.4,
-   "rsi_min": 24.7,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "تقاطع إيجابي حديث",
-   "candle": "مطرقة (Hammer)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [],
-   "flags": [],
-   "tags": [
-    "Former Runner (سبق انفجر +41% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 7.607142799362843,
-   "meta": {
-    "avg_volume": 309755.0,
-    "drawdown": 0.396,
-    "rr_best": 3.91,
-    "gain_from_low10": 0.102,
-    "higher_lows": "False",
-    "float": 28949488,
-    "market_cap": 58942796,
-    "exchange": "NASDAQ",
-    "name": "Aptera Motors Corp.",
-    "ext_price": 1.51,
-    "ext_chg": 0.04861111111111116,
-    "ext_session": "post"
-   },
-   "news": []
-  },
   {
    "ticker": "PETS",
    "kind": "pivot",
@@ -183,6 +106,87 @@
   }
  ],
  "watch": [
+  {
+   "ticker": "SEV",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "SWEEP",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "price": 1.5099999904632568,
+   "score": 5.0,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 1.0,
+     "note": "أدنى RSI 25 والحالي 37"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "تقاطع إيجابي حديث"
+    },
+    "candle": {
+     "score": 1.0,
+     "note": "مطرقة (Hammer)"
+    },
+    "pressure": {
+     "score": 0.5,
+     "note": "هبط 40% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 3.9"
+    }
+   },
+   "support_low": 1.399999976158142,
+   "support_high": 1.4139999759197235,
+   "support_touches": 1,
+   "trigger_level": 1.399999976158142,
+   "stop": 1.3426000046730042,
+   "entry_low": 1.399999976158142,
+   "entry_high": 1.4412999832630158,
+   "t1": 1.5399999618530273,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 1.6145000100135802,
+   "t2_label": "MA20 + قمة سابقة",
+   "rr": 1.31,
+   "risk_pct": 0.0599,
+   "rsi_now": 37.4,
+   "rsi_min": 24.7,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "تقاطع إيجابي حديث",
+   "candle": "مطرقة (Hammer)",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
+   "flags": [
+    "صعد في الأفتر إلى 1.54 بعيداً عن منطقة الطلب"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +41% في يوم)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 7.607142799362843,
+   "meta": {
+    "avg_volume": 309755.0,
+    "drawdown": 0.396,
+    "rr_best": 3.91,
+    "gain_from_low10": 0.102,
+    "higher_lows": "False",
+    "float": 28949488,
+    "market_cap": 58942796,
+    "exchange": "NASDAQ",
+    "name": "Aptera Motors Corp.",
+    "ext_price": 1.54,
+    "ext_chg": 0.06944444444444442,
+    "ext_session": "post"
+   },
+   "news": []
+  },
   {
    "ticker": "IDN",
    "kind": "pivot",
@@ -2100,8 +2104,8 @@
     "exchange": "NASDAQ",
     "name": "NRx Pharmaceuticals, Inc.",
     "short_pct_float": 0.2359,
-    "ext_price": 2.4886,
-    "ext_chg": -0.0005622465499999999,
+    "ext_price": 2.57,
+    "ext_chg": 0.032128484,
     "ext_session": "post"
    },
    "news": []
@@ -2264,8 +2268,8 @@
     "market_cap": 317432832,
     "exchange": "NASDAQ",
     "name": "Powerus Corporation",
-    "ext_price": 2.0099,
-    "ext_chg": 0.02545921,
+    "ext_price": 1.9617,
+    "ext_chg": 0.0008673084,
     "ext_session": "post"
    },
    "news": []
@@ -3447,90 +3451,6 @@
     "ext_session": "post"
    },
    "news": []
-  },
-  {
-   "ticker": "DTSS",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "BASE_BREAK",
-   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
-   "price": 0.718999981880188,
-   "score": 4.75,
-   "conditions": {
-    "ma": {
-     "score": 1.0,
-     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
-    },
-    "rsi": {
-     "score": 0.25,
-     "note": "أدنى RSI 35 والحالي 55"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "تقاطع إيجابي حديث"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "شمعة خضراء بإغلاق قوي"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 69% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 3.8"
-    }
-   },
-   "support_low": 0.6468000257015228,
-   "support_high": 0.6666000264883042,
-   "support_touches": 2,
-   "trigger_level": 0.6600000262260437,
-   "stop": 0.6273960249304771,
-   "entry_low": 0.6600000262260437,
-   "entry_high": 0.679800027012825,
-   "t1": 0.7459999918937683,
-   "t1_label": "قمة سابقة",
-   "t2": 0.800000011920929,
-   "t2_label": "قمة سابقة + رأس شمعة هابطة",
-   "rr": 1.79,
-   "risk_pct": 0.0634,
-   "rsi_now": 55.2,
-   "rsi_min": 34.6,
-   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-   "macd_state": "تقاطع إيجابي حديث",
-   "candle": "شمعة خضراء بإغلاق قوي",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "اخترق المقاومة القريبة 0.66 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 35)",
-    "فوليوم أعلى عند الاختراق (الاختراق بدون فوليوم ضعيف — ص19)"
-   ],
-   "flags": [
-    "سهم صيني عالي التذبذب"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +287% في يوم)",
-    "فوليوم البيع يضعف"
-   ],
-   "rank": 5.3030306567447205,
-   "meta": {
-    "avg_volume": 229470.0,
-    "drawdown": 0.686,
-    "rr_best": 3.77,
-    "gain_from_low10": 0.377,
-    "higher_lows": "False",
-    "float": 9232443,
-    "market_cap": 9420890,
-    "exchange": "NASDAQ",
-    "name": "Datasea Intelligent Technology Ltd.",
-    "short_pct_float": 0.0215,
-    "ext_price": 0.6722,
-    "ext_chg": -0.06509034,
-    "ext_session": "post"
-   },
-   "news": []
   }
  ],
  "momentum": [],
@@ -3681,7 +3601,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3695,
+   "price": 0.3694,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3700,8 +3620,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

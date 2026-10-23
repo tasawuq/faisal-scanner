@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T20:27:55.999967+00:00",
- "generated_at_et": "2026-10-23T16:27:55.999967-04:00",
+ "generated_at_utc": "2026-10-23T20:37:56.000123+00:00",
+ "generated_at_et": "2026-10-23T16:37:56.000123-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -759,7 +759,7 @@
     "name": "HCW Biologics Inc.",
     "short_pct_float": 0.028499998,
     "ext_price": 1.17,
-    "ext_chg": 0.044642857142856984,
+    "ext_chg": 0.0,
     "ext_session": "post"
    },
    "news": []
@@ -1492,8 +1492,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.7,
-    "ext_chg": -0.011627896,
+    "ext_price": 1.7469,
+    "ext_chg": 0.015639496,
     "ext_session": "post"
    },
    "news": []
@@ -2005,8 +2005,8 @@
     "exchange": "NASDAQ",
     "name": "AGM Group Holdings Inc.",
     "short_pct_float": 0.0399,
-    "ext_price": 0.4938,
-    "ext_chg": -0.002424242424242329,
+    "ext_price": 0.4639,
+    "ext_chg": -0.05730543,
     "ext_session": "post"
    },
    "news": []
@@ -2088,8 +2088,8 @@
     "exchange": "NASDAQ",
     "name": "NRx Pharmaceuticals, Inc.",
     "short_pct_float": 0.2359,
-    "ext_price": 2.49,
-    "ext_chg": 0.03750000000000009,
+    "ext_price": 2.48,
+    "ext_chg": 0.03333333333333344,
     "ext_session": "post"
    },
    "news": []
@@ -2171,8 +2171,8 @@
     "exchange": "NASDAQ",
     "name": "Autonomix Medical, Inc.",
     "short_pct_float": 0.0145000005,
-    "ext_price": 2.42,
-    "ext_chg": -0.03589498426357518,
+    "ext_price": 2.47,
+    "ext_chg": -0.01597545914505394,
     "ext_session": "post"
    },
    "news": []
@@ -2833,8 +2833,8 @@
     "exchange": "NASDAQ",
     "name": "Toro Corp.",
     "short_pct_float": 0.0036000002,
-    "ext_price": 4.35,
-    "ext_chg": 0.1885245901639343,
+    "ext_price": 4.4,
+    "ext_chg": 0.20218579234972678,
     "ext_session": "post"
    },
    "news": []
@@ -2843,8 +2843,8 @@
    "ticker": "ATER",
    "kind": "pivot",
    "status": "WATCH",
-   "setup": "BASE_BREAK",
-   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
+   "setup": "BASE_RETEST",
+   "setup_ar": "🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة",
    "price": 0.6225000023841858,
    "score": 5.0,
    "conditions": {
@@ -2870,42 +2870,41 @@
     },
     "space": {
      "score": 1.0,
-     "note": "العائد/المخاطرة 9.4"
+     "note": "العائد/المخاطرة 7.0"
     }
    },
    "support_low": 0.5380200242996216,
    "support_high": 0.5544900250434875,
    "support_touches": 2,
    "trigger_level": 0.5490000247955322,
-   "stop": 0.5218794235706329,
+   "stop": 0.5095999813079833,
    "entry_low": 0.5490000247955322,
    "entry_high": 0.5654700255393982,
    "t1": 0.6499999761581421,
    "t1_label": "قمة سابقة",
    "t2": 0.6899999976158142,
    "t2_label": "قمة سابقة",
-   "rr": 2.62,
-   "risk_pct": 0.0634,
+   "rr": 1.95,
+   "risk_pct": 0.0855,
    "rsi_now": 52.0,
    "rsi_min": 23.9,
    "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
    "macd_state": "تقاطع إيجابي حديث",
    "candle": "",
-   "volume_note": "فوليوم البيع يضعف",
+   "volume_note": "",
    "waiting_for": [
-    "اخترق المقاومة القريبة 0.55 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)"
+    "ابتعد 13% عن مستوى الاختراق — انتظر إعادة اختبار 0.55"
    ],
    "flags": [],
    "tags": [
     "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +185% في يوم)",
-    "فوليوم البيع يضعف"
+    "Former Runner (سبق انفجر +185% في يوم)"
    ],
    "rank": 5.3306013272401245,
    "meta": {
     "avg_volume": 126725.0,
     "drawdown": 0.577,
-    "rr_best": 9.41,
+    "rr_best": 6.99,
     "gain_from_low10": 0.197,
     "higher_lows": "False",
     "float": 4977581,
@@ -3064,7 +3063,7 @@
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.42 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.41 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3084,8 +3083,8 @@
     "exchange": "NASDAQ",
     "name": "Biodexa Pharmaceuticals Plc",
     "short_pct_float": 0.0083,
-    "ext_price": 0.4202,
-    "ext_chg": -0.0073234295999999996,
+    "ext_price": 0.4101,
+    "ext_chg": -0.031183521999999998,
     "ext_session": "post"
    },
    "news": []
@@ -3166,8 +3165,8 @@
     "exchange": "NASDAQ",
     "name": "Gaxos.ai Inc.",
     "short_pct_float": 0.0209,
-    "ext_price": 0.4551,
-    "ext_chg": 0.0024229074889867697,
+    "ext_price": 0.449,
+    "ext_chg": -0.013403646,
     "ext_session": "post"
    },
    "news": []
@@ -3506,8 +3505,8 @@
     "exchange": "NASDAQ",
     "name": "Datasea Intelligent Technology Ltd.",
     "short_pct_float": 0.0215,
-    "ext_price": 0.7262,
-    "ext_chg": 0.010013912,
+    "ext_price": 0.7,
+    "ext_chg": -0.026425583000000002,
     "ext_session": "post"
    },
    "news": []
@@ -3602,7 +3601,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.65,
+   "price": 1.66,
    "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3620,14 +3619,14 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 4%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 3%",
    "alert": false,
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "SHMD",
-   "price": 2.71,
+   "price": 2.7101,
    "price_label": "سعر الأفتر",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3680,8 +3679,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

@@ -1,24 +1,24 @@
 {
  "ticker": "ELTX",
- "generated_at_et": "2026-10-23T12:47:39.393038-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-23T16:01:21.565868-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 1.905,
-  "reg_chg": -0.01804128,
-  "reg_vol": 256545,
+  "reg_price": 1.9,
+  "reg_chg": -0.020618596,
+  "reg_vol": 455517,
   "prev_close": 1.94,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 308950,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
   "floatShares": 19204960,
   "sharesOutstanding": 27091187,
-  "marketCap": 52556908,
+  "marketCap": 51473256,
   "shortPercentOfFloat": 0.096999995,
   "longName": "Elicio Therapeutics, Inc.",
   "country": "United States",
@@ -28,24 +28,24 @@
   "lastSplitDate": 1685664000
  },
  "daily": {
-  "price": 1.905,
-  "chg_1d": -0.018,
+  "price": 1.9,
+  "chg_1d": -0.0206,
   "ma": {
-   "MA20": 1.8057,
-   "MA30": 1.8333,
-   "MA50": 2.1937
+   "MA20": 1.8055,
+   "MA30": 1.8332,
+   "MA50": 2.1936
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 49.9,
+  "rsi_now": 49.6,
   "rsi_min15": 23.2,
   "rsi_min30": 17.2,
   "macd": {
-   "line": -0.1146,
-   "signal": -0.15701,
+   "line": -0.115,
+   "signal": -0.15709,
    "hist_last3": [
     0.00936,
     0.03111,
-    0.0424
+    0.04208
    ],
    "state": "الهيستوجرام يتحسن"
   },
@@ -68,18 +68,18 @@
     "lower_wick": "True",
     "strong_green": "False",
     "upper_wick_ratio": 0.21052605161384233,
-    "close_pos": 0.6052630258069212,
+    "close_pos": 0.5789472693551909,
     "green": "False",
     "bullish_reversal": "True"
    }
   ],
   "atr": 0.1584,
   "avg_vol20": 270180,
-  "last_vol": 257209,
-  "drawdown_90d": 0.713,
+  "last_vol": 455517,
+  "drawdown_90d": 0.714,
   "high_90d": 6.64,
   "low_10d": 1.44,
-  "gain_from_low10": 0.323,
+  "gain_from_low10": 0.319,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -169,7 +169,7 @@
     "قمة سابقة"
    ],
    [
-    2.1937,
+    2.1936,
     "MA50"
    ],
    [
@@ -307,15 +307,15 @@
     "o": 1.94,
     "h": 1.98,
     "l": 1.79,
-    "c": 1.905,
-    "v": 257209,
-    "rsi": 49.9,
-    "hist": 0.0424
+    "c": 1.9,
+    "v": 455517,
+    "rsi": 49.6,
+    "hist": 0.04208
    }
   ]
  },
  "levels_map": {
-  "price": 1.905,
+  "price": 1.9,
   "at_price": [],
   "above": [
    {
@@ -329,7 +329,7 @@
     "confluence": 3
    },
    {
-    "level": 2.1937,
+    "level": 2.1936,
     "why": "MA50",
     "confluence": 1
    },
@@ -361,19 +361,24 @@
   ],
   "below": [
    {
-    "level": 1.8783,
-    "why": "فواب جلسة 2026-10-23 + إغلاقات سابقة متجمعة (12) + قيعان سابقة متجمعة (4)",
+    "level": 1.8935,
+    "why": "فواب جلسة 2026-10-23 + إغلاقات سابقة متجمعة (12)",
+    "confluence": 2
+   },
+   {
+    "level": 1.855,
+    "why": "قيعان سابقة متجمعة (4) + قاعدة آخر ساعة 2026-10-23 + MA30",
     "confluence": 3
    },
    {
-    "level": 1.8333,
-    "why": "MA30 + قيعان سابقة متجمعة (10) + MA20",
-    "confluence": 3
+    "level": 1.815,
+    "why": "قيعان سابقة متجمعة (10) + MA20 + قاع يوم 2026-10-23 + إغلاقات سابقة متجمعة (6)",
+    "confluence": 4
    },
    {
-    "level": 1.79,
-    "why": "قاع يوم 2026-10-23 + إغلاقات سابقة متجمعة (6) + قيعان سابقة متجمعة (6)",
-    "confluence": 3
+    "level": 1.7565,
+    "why": "قيعان سابقة متجمعة (6)",
+    "confluence": 1
    },
    {
     "level": 1.68,
@@ -394,11 +399,6 @@
     "level": 1.52,
     "why": "قاع يوم 2026-10-21 + قاع يوم 2026-10-20",
     "confluence": 2
-   },
-   {
-    "level": 1.44,
-    "why": "قاع يوم 2026-10-19",
-    "confluence": 1
    }
   ]
  },

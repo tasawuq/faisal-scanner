@@ -1,24 +1,24 @@
 {
  "ticker": "TYGO",
- "generated_at_et": "2026-10-23T12:47:39.393038-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-23T16:01:21.565868-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 0.9853,
-  "reg_chg": 0.063923974,
-  "reg_vol": 484943,
+  "reg_price": 1.03,
+  "reg_chg": 0.11219086,
+  "reg_vol": 893413,
   "prev_close": 0.9261,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 1044526,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
   "floatShares": 36462906,
   "sharesOutstanding": 76773711,
-  "marketCap": 71100136,
+  "marketCap": 79076920,
   "shortPercentOfFloat": 0.066300005,
   "longName": "Tigo Energy, Inc.",
   "country": "United States",
@@ -28,24 +28,24 @@
   "lastSplitDate": null
  },
  "daily": {
-  "price": 0.9853,
-  "chg_1d": 0.064,
+  "price": 1.03,
+  "chg_1d": 0.1123,
   "ma": {
-   "MA20": 0.8791,
-   "MA30": 0.9083,
-   "MA50": 0.9786
+   "MA20": 0.8814,
+   "MA30": 0.9098,
+   "MA50": 0.9795
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 57.3,
+  "rsi_now": 61.4,
   "rsi_min15": 32.4,
   "rsi_min30": 21.6,
   "macd": {
-   "line": -0.02883,
-   "signal": -0.05042,
+   "line": -0.02527,
+   "signal": -0.04971,
    "hist_last3": [
     0.01137,
     0.01551,
-    0.02159
+    0.02444
    ],
    "state": "الهيستوجرام يتحسن"
   },
@@ -66,22 +66,22 @@
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
-    "strong_green": "False",
-    "upper_wick_ratio": 0.46214272850623445,
-    "close_pos": 0.5378572714937656,
+    "strong_green": "True",
+    "upper_wick_ratio": 0.14285708203604466,
+    "close_pos": 0.8571429179639554,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.0762,
   "avg_vol20": 618400,
-  "last_vol": 489523,
-  "drawdown_90d": 0.657,
+  "last_vol": 893413,
+  "drawdown_90d": 0.641,
   "high_90d": 2.87,
   "low_10d": 0.801,
-  "gain_from_low10": 0.23,
+  "gain_from_low10": 0.286,
   "sell_drying": true,
-  "vol_improving": false,
+  "vol_improving": true,
   "higher_lows": false,
   "pump_recent": false,
   "distribution_recent": false,
@@ -313,31 +313,24 @@
     "o": 0.9647,
     "h": 1.05,
     "l": 0.91,
-    "c": 0.9853,
-    "v": 489523,
-    "rsi": 57.3,
-    "hist": 0.02159
+    "c": 1.03,
+    "v": 893413,
+    "rsi": 61.4,
+    "hist": 0.02444
    }
   ]
  },
  "levels_map": {
-  "price": 0.9853,
-  "at_price": [],
+  "price": 1.03,
+  "at_price": [
+   "إغلاقات سابقة متجمعة (8)",
+   "قيعان سابقة متجمعة (7)"
+  ],
   "above": [
    {
-    "level": 0.9988,
-    "why": "فواب جلسة 2026-10-23",
-    "confluence": 1
-   },
-   {
-    "level": 1.03,
-    "why": "إغلاقات سابقة متجمعة (8) + قيعان سابقة متجمعة (7) + قمة يوم 2026-10-23 + قيعان سابقة متجمعة (11)",
-    "confluence": 4
-   },
-   {
-    "level": 1.06,
-    "why": "إغلاقات سابقة متجمعة (8)",
-    "confluence": 1
+    "level": 1.05,
+    "why": "قمة يوم 2026-10-23 + قيعان سابقة متجمعة (11) + إغلاقات سابقة متجمعة (8)",
+    "confluence": 3
    },
    {
     "level": 1.09,
@@ -363,11 +356,26 @@
     "level": 1.28,
     "why": "إغلاقات سابقة متجمعة (3)",
     "confluence": 1
+   },
+   {
+    "level": 1.91,
+    "why": "فجوة لم تُغطَّ + قمة سابقة",
+    "confluence": 1
+   },
+   {
+    "level": 2.07,
+    "why": "رأس شمعة هابطة + قمة سابقة",
+    "confluence": 1
    }
   ],
   "below": [
    {
-    "level": 0.9786,
+    "level": 1.0104,
+    "why": "قاعدة آخر ساعة 2026-10-23 + فواب جلسة 2026-10-23",
+    "confluence": 2
+   },
+   {
+    "level": 0.9795,
     "why": "MA50 + إغلاقات سابقة متجمعة (3) + قمة يوم 2026-10-22 + قيعان سابقة متجمعة (5)",
     "confluence": 4
    },
@@ -401,11 +409,11 @@
  "pivot": {
   "ticker": "TYGO",
   "kind": "pivot",
-  "status": "READY",
+  "status": "WATCH",
   "setup": "W_BREAK",
   "setup_ar": "كسر خط العنق (W) والثبات",
-  "price": 0.9853000044822693,
-  "score": 4.75,
+  "price": 1.0299999713897705,
+  "score": 5.25,
   "conditions": {
    "ma": {
     "score": 1.0,
@@ -413,19 +421,19 @@
    },
    "rsi": {
     "score": 0.75,
-    "note": "أدنى RSI 22 والحالي 57"
+    "note": "أدنى RSI 22 والحالي 61"
    },
    "macd": {
     "score": 1.0,
     "note": "الهيستوجرام يتحسن"
    },
    "candle": {
-    "score": 0.0,
-    "note": "لا توجد شمعة إيجابية عند الدعم"
+    "score": 0.5,
+    "note": "شمعة خضراء بإغلاق قوي"
    },
    "pressure": {
     "score": 1.0,
-    "note": "هبط 66% من قمة 90 يوم"
+    "note": "هبط 64% من قمة 90 يوم"
    },
    "space": {
     "score": 1.0,
@@ -445,83 +453,35 @@
   "t2_label": "قمة سابقة",
   "rr": 1.74,
   "risk_pct": 0.0751,
-  "rsi_now": 57.3,
+  "rsi_now": 61.4,
   "rsi_min": 21.6,
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
   "macd_state": "الهيستوجرام يتحسن",
-  "candle": "",
+  "candle": "شمعة خضراء بإغلاق قوي",
   "volume_note": "فوليوم البيع يضعف، فوليوم يتحسن مع الارتداد",
-  "waiting_for": [],
+  "waiting_for": [
+   "ابتعد 8% عن مستوى الاختراق — انتظر إعادة اختبار 0.95"
+  ],
   "flags": [],
   "tags": [
    "Former Runner (سبق انفجر +178% في يوم)",
    "فوليوم البيع يضعف",
    "فوليوم يتحسن"
   ],
-  "rank": 7.564210437651816,
+  "rank": 5.828947450975964,
   "meta": {
    "avg_volume": 618400.0,
-   "drawdown": 0.657,
+   "drawdown": 0.641,
    "rr_best": 13.05,
-   "gain_from_low10": 0.23,
+   "gain_from_low10": 0.286,
    "higher_lows": "False",
    "float": 36462906,
-   "market_cap": 71100136,
+   "market_cap": 79076920,
    "exchange": "",
    "name": "Tigo Energy, Inc.",
    "short_pct_float": 0.066300005
   },
   "news": []
  },
- "momentum": {
-  "ticker": "TYGO",
-  "kind": "momentum",
-  "status": "WATCH",
-  "setup": "MOM_BELOW_VWAP",
-  "setup_ar": "زخم الجلسة — تحت الفواب — لا دخول",
-  "price": 0.9853000044822693,
-  "score": 0.63,
-  "conditions": {},
-  "support_low": 0.9646999835968018,
-  "support_high": null,
-  "support_touches": 0,
-  "trigger_level": 1.0009472459453064,
-  "stop": null,
-  "entry_low": 1.0009472459453064,
-  "entry_high": 1.0209661908642125,
-  "t1": 1.0499999523162842,
-  "t1_label": "قمة الجلسة",
-  "t2": 1.090000033378601,
-  "t2_label": "قمة سابقة",
-  "rr": null,
-  "risk_pct": null,
-  "rsi_now": null,
-  "rsi_min": null,
-  "ma_state": "",
-  "macd_state": "",
-  "candle": "",
-  "volume_note": "RVOL 1.6x",
-  "waiting_for": [
-   "استرداد الفواب 1.00 والثبات فوقه",
-   "فوليوم نسبي أعلى (الحالي 1.6x)"
-  ],
-  "flags": [],
-  "tags": [],
-  "rank": 0.63,
-  "meta": {
-   "segment": "regular",
-   "change": 0.064,
-   "gap": 0.0418,
-   "rvol": 0.79,
-   "rvol_pace": 1.57,
-   "vwap": 1.0009,
-   "hod": 1.0499999523162842,
-   "move_base": 0.9646999835968018,
-   "segment_volume": 489523.0,
-   "pullback_from_hod": 0.0616,
-   "dist_vwap": -0.0156,
-   "volume_known": true
-  },
-  "news": []
- }
+ "momentum": null
 }

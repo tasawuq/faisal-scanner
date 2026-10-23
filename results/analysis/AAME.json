@@ -1,24 +1,24 @@
 {
  "ticker": "AAME",
- "generated_at_et": "2026-10-23T12:47:39.393038-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-23T16:01:21.565868-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 1.265,
-  "reg_chg": -0.19936712,
-  "reg_vol": 146814,
+  "reg_price": 1.24,
+  "reg_chg": -0.2151899,
+  "reg_vol": 271115,
   "prev_close": 1.58,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 858237,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
   "floatShares": 4033552,
   "sharesOutstanding": 20397228,
-  "marketCap": 27138512,
+  "marketCap": 25292562,
   "shortPercentOfFloat": 0.0068,
   "longName": "Atlantic American Corporation",
   "country": "United States",
@@ -28,24 +28,24 @@
   "lastSplitDate": 531446400
  },
  "daily": {
-  "price": 1.265,
-  "chg_1d": -0.1994,
+  "price": 1.24,
+  "chg_1d": -0.2152,
   "ma": {
-   "MA20": 1.2732,
-   "MA30": 1.2972,
-   "MA50": 1.3223
+   "MA20": 1.272,
+   "MA30": 1.2963,
+   "MA50": 1.3218
   },
-  "ma_state": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
-  "rsi_now": 48.0,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 47.0,
   "rsi_min15": 23.6,
   "rsi_min30": 23.6,
   "macd": {
-   "line": 0.01765,
-   "signal": -0.01509,
+   "line": 0.01566,
+   "signal": -0.01548,
    "hist_last3": [
     0.03849,
     0.04875,
-    0.03274
+    0.03114
    ],
    "state": "إيجابي (الخط فوق الإشارة)"
   },
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.5450781565062716,
-    "close_pos": 0.0,
+    "upper_wick_ratio": 0.37464454076971665,
+    "close_pos": 0.17055130405081204,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.1283,
-  "avg_vol20": 2559405,
-  "last_vol": 147497,
-  "drawdown_90d": 0.331,
+  "atr": 0.1322,
+  "avg_vol20": 2563415,
+  "last_vol": 271115,
+  "drawdown_90d": 0.344,
   "high_90d": 1.89,
   "low_10d": 1.03,
-  "gain_from_low10": 0.228,
+  "gain_from_low10": 0.204,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -157,8 +157,8 @@
   "w": null,
   "resistances": [
    [
-    1.3223,
-    "MA50"
+    1.2963,
+    "MA30 + MA50"
    ],
    [
     1.4,
@@ -290,7 +290,7 @@
     "h": 1.63,
     "l": 1.43,
     "c": 1.58,
-    "v": 165600,
+    "v": 245800,
     "rsi": 64.4,
     "hist": 0.04875
    },
@@ -298,32 +298,30 @@
     "d": "2026-10-23",
     "o": 1.32,
     "h": 1.3859,
-    "l": 1.265,
-    "c": 1.265,
-    "v": 147497,
-    "rsi": 48.0,
-    "hist": 0.03274
+    "l": 1.21,
+    "c": 1.24,
+    "v": 271115,
+    "rsi": 47.0,
+    "hist": 0.03114
    }
   ]
  },
  "levels_map": {
-  "price": 1.265,
-  "at_price": [
-   "قاع يوم 2026-10-23"
-  ],
+  "price": 1.24,
+  "at_price": [],
   "above": [
    {
     "level": 1.27,
-    "why": "قيعان سابقة متجمعة (13) + MA20 + إغلاقات سابقة متجمعة (12)",
-    "confluence": 3
+    "why": "قيعان سابقة متجمعة (13) + MA20 + إغلاقات سابقة متجمعة (12) + قاعدة آخر ساعة 2026-10-23",
+    "confluence": 4
    },
    {
-    "level": 1.2972,
+    "level": 1.2963,
     "why": "MA30 + إغلاقات سابقة متجمعة (6) + قيعان سابقة متجمعة (10) + MA50",
     "confluence": 4
    },
    {
-    "level": 1.3234,
+    "level": 1.3252,
     "why": "فواب جلسة 2026-10-23 + قيعان سابقة متجمعة (10)",
     "confluence": 2
    },
@@ -355,9 +353,9 @@
   ],
   "below": [
    {
-    "level": 1.19,
-    "why": "قاع يوم 2026-10-19 + قيعان سابقة متجمعة (3)",
-    "confluence": 2
+    "level": 1.21,
+    "why": "قاع يوم 2026-10-23 + قاع يوم 2026-10-19 + قيعان سابقة متجمعة (3)",
+    "confluence": 3
    },
    {
     "level": 1.13,
@@ -366,6 +364,89 @@
    }
   ]
  },
- "pivot": null,
+ "pivot": {
+  "ticker": "AAME",
+  "kind": "pivot",
+  "status": "WATCH",
+  "setup": "BROKE_SUPPORT",
+  "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+  "price": 1.2400000095367432,
+  "score": 2.75,
+  "conditions": {
+   "ma": {
+    "score": 0.5,
+    "note": "تحت كل المتوسطات (ضغط)"
+   },
+   "rsi": {
+    "score": 0.25,
+    "note": "أدنى RSI 24 والحالي 47 (ارتفع — جزء من الارتداد حصل)"
+   },
+   "macd": {
+    "score": 0.5,
+    "note": "إيجابي (الخط فوق الإشارة)"
+   },
+   "candle": {
+    "score": 0.0,
+    "note": "لا توجد شمعة إيجابية عند الدعم"
+   },
+   "pressure": {
+    "score": 0.5,
+    "note": "هبط 34% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 1.0,
+    "note": "العائد/المخاطرة 3.9"
+   }
+  },
+  "support_low": 1.25,
+  "support_high": 1.2799999713897705,
+  "support_touches": 5,
+  "trigger_level": 1.25,
+  "stop": 1.1858000373840332,
+  "entry_low": 1.25,
+  "entry_high": 1.253800014257431,
+  "t1": 1.321799991130829,
+  "t1_label": "MA50",
+  "t2": 1.399999976158142,
+  "t2_label": "قمة سابقة + فجوة لم تُغطَّ",
+  "rr": 0.72,
+  "risk_pct": 0.0626,
+  "rsi_now": 47.0,
+  "rsi_min": 23.6,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "macd_state": "إيجابي (الخط فوق الإشارة)",
+  "candle": "",
+  "volume_note": "",
+  "waiting_for": [
+   "استرداد الدعم 1.25 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+   "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 24)",
+   "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+   "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+   "الدخول تحت مقاومة مباشرة (1.32) — انتظر اختراقها والثبات",
+   "صعد 20% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
+   "اكتمال الشروط الأساسية (2.8 من 6، المطلوب 4.5)"
+  ],
+  "flags": [
+   "اختراق وهمي سابق لخط العنق (Bull Trap)"
+  ],
+  "tags": [
+   "فلووت أقل من 5M 🔥",
+   "Former Runner (سبق انفجر +49% في يوم)"
+  ],
+  "rank": 3.7100000381469727,
+  "meta": {
+   "avg_volume": 2563415.0,
+   "drawdown": 0.344,
+   "rr_best": 3.85,
+   "gain_from_low10": 0.204,
+   "higher_lows": "False",
+   "float": 4033552,
+   "market_cap": 25292562,
+   "exchange": "",
+   "name": "Atlantic American Corporation",
+   "short_pct_float": 0.0068
+  },
+  "news": []
+ },
  "momentum": null
 }

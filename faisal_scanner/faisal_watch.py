@@ -134,6 +134,66 @@ def entry_quality(bars15, entry: dict, price: float, now_et, seg: str = "regular
     return why
 
 
+def scanner_confirm(bars15, price: float, stop: float, t1: float, entry_low: float, daily=None, now_et=None) -> list:
+    """بوابة الجودة لتنبيهات «جاهز» من الماسح (23 أكتوبر، طلب المستخدم «نعم وموكده»):
+    نفس بوابة القائمة — كانت تنبيهات الماسح تكفيها الشروط اليومية (ELTX نبّه 1.98 وكسر الوقف، TYGO نبّه 0.986
+    والمساحة لهدفه 1.09 تساوي المخاطرة تقريباً). الجاهز فعلياً لازم:
+    1) شمعة 15 دقيقة خضراء مكتملة (من آخر شمعتين) أغلقت فوق أسفل منطقة الطلب، فوليومها ≥1.5× المعتاد و≥ $20K،
+       وما تراجع السعر بعدها تحت افتتاحها.
+    2) المسافة من السعر الحالي لأول مقاومة (الهدف الأول أو أقرب قمة يومية من آخر 5 أيام) ≥ 1.5× المسافة للوقف.
+    ترجع الأسباب (فاضية = جاهز ومؤكد)."""
+    why = []
+    done = _done(bars15, now_et, "regular") if bars15 is not None and now_et is not None else None
+    if done is None or not len(done):
+        why.append("تأكيد 15 دقيقة: ما فيه شمعة مكتملة اليوم بعد (بوابة الجودة)")
+    else:
+        reg_all = bars15[[SEG["regular"][0] <= ts.time() < SEG["regular"][1] for ts in bars15.index]]
+        ok, reasons = False, []  # السبب المعروض = سبب آخر شمعة مكتملة
+        for i in (len(done) - 1, len(done) - 2):
+            if i < 0:
+                continue
+            last_reason = ""
+            b = done.iloc[i]
+            o, c, v = float(b["open"]), float(b["close"]), float(b["volume"] or 0)
+            prev = reg_all[reg_all.index < done.index[i]]
+            med = float(prev["volume"].median()) if len(prev) >= 6 else 0.0
+            if c <= o:
+                last_reason = "آخر شمعة 15 دقيقة مو خضراء"
+            elif entry_low and c < entry_low:
+                last_reason = f"شمعة التأكيد أغلقت تحت المنطقة {entry_low:.3g}"
+            elif v * c < MIN_CONFIRM_DOLLARS:
+                last_reason = f"شمعة التأكيد بدون سيولة (≈ ${v * c / 1e3:.0f}K)"
+            elif med and v < MIN_CONFIRM_VOL_X * med:
+                last_reason = f"فوليوم شمعة التأكيد ضعيف ({v / 1e3:.0f}K مقابل المعتاد {med / 1e3:.0f}K — ص19)"
+            elif i < len(done) - 1 and float(done["close"].iloc[-1]) < o:
+                last_reason = "السعر رجع تحت افتتاح شمعة التأكيد"
+            else:
+                ok = True
+                break
+            reasons.append(last_reason)
+        if not ok:
+            why.append(f"تأكيد 15 دقيقة: شمعة خضراء بفوليوم ≥1.5× المعتاد و≥ $20K — {reasons[0] if reasons else 'غير متحقق'}")
+    if price and stop:
+        if price <= stop:
+            why.append(f"السعر تحت الوقف {stop:.3g}")
+        else:
+            obst = [t1] if t1 else []
+            if daily is not None and len(daily):
+                d = daily
+                if now_et is not None and d.index[-1].date() == now_et.date():
+                    d = d.iloc[:-1]
+                obst += [float(h) for h in d["high"].values[-5:]]
+            obst = [x for x in obst if x and x > price * 1.005]
+            if obst:
+                r = min(obst)
+                reward, risk = r - price, price - stop
+                if reward < MIN_RR * risk:
+                    pmax = (r + MIN_RR * stop) / (1 + MIN_RR)
+                    why.append(f"المساحة لأول مقاومة {r:.3g} (+{reward / price * 100:.1f}%) أقل من 1.5× المخاطرة "
+                               f"(−{risk / price * 100:.1f}%) — الدخول عند {pmax:.3g} أو أقل")
+    return why
+
+
 def evaluate(entry: dict, price: float, last_close: float = None, price_label: str = "",
              hold_ok: bool = None, zone_ok: bool = None, alerts_on: bool = True, stop_ok: bool = None,
              retest_ok: bool = None, weak: list = None) -> dict:

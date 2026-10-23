@@ -422,6 +422,23 @@ def run_once(force=False, demo=False, limit=None) -> dict:
             delay = C.ALPACA_SIP_DELAY_MIN
         for x in ready_p:
             check_intraday_hold(x, bars.get(x.ticker), now_et, delay)
+        # بوابة الجودة على «جاهز» الماسح (23 أكتوبر «نعم وموكده»): شمعة 15د خضراء بفوليوم + مساحة ≥1.5× المخاطرة
+        # من السعر الحالي — وإلا يرجع «مراقبة» مع السبب، فلا يطلع بالقائمة كجاهز ولا ينبّه
+        if os.getenv("SCANNER_CONFIRM_GATE", "1") != "0":
+            now_c = now_et - timedelta(minutes=delay)
+            for x in ready_p:
+                if x.status != READY:
+                    continue
+                b = bars.get(x.ticker)
+                px = x.price
+                if b is not None and len(b):
+                    tb = b[[ts.date() == now_et.date() for ts in b.index]]
+                    if len(tb):
+                        px = float(tb["close"].iloc[-1])
+                why = faisal_watch.scanner_confirm(b, px, x.stop, x.t1, x.entry_low, daily.get(x.ticker), now_c)
+                if why:
+                    x.waiting_for.extend(why)
+                    refresh_status(x)
     elif ready_p and demo:
         for x in ready_p:
             check_intraday_hold(x, (intraday15 or {}).get(x.ticker), now_et, 0)

@@ -479,3 +479,39 @@ def test_pivot_alert_regular_session_only(tmp_path, monkeypatch):
     assert main.update_alert_state({"ready": [s], "faisal": [], "session": "pre"}, now) == []
     assert main.update_alert_state({"ready": [s], "faisal": [], "session": "regular"},
                                    now.replace(hour=10)) == ["IPSC"]
+
+
+def test_scanner_ready_needs_15m_confirmation_and_space():
+    """23 أكتوبر «نعم وموكده»: تنبيه «جاهز» من الماسح يحتاج شمعة 15د خضراء بفوليوم + مساحة ≥1.5× المخاطرة."""
+    from faisal_scanner import faisal_watch as fw
+    day = datetime(2026, 10, 23).date()
+    prev = [(f"{h:02d}:{m:02d}", 0.95, 0.96, 0.94, 0.95, 30_000) for h in range(10, 15) for m in (0, 15, 30, 45)]
+    base = _bars15(day - timedelta(days=1), prev)
+    now = datetime.combine(day, datetime.strptime("11:46", "%H:%M").time(), tzinfo=ET)
+    dly = pd.DataFrame({"high": [1.2, 1.15, 1.1, 1.12, 1.18, 0.99]},
+                       index=pd.DatetimeIndex([datetime.combine(day - timedelta(days=6 - i), datetime.min.time(), tzinfo=ET)
+                                               for i in range(5)] + [datetime.combine(day, datetime.min.time(), tzinfo=ET)]))
+    # شمعة خضراء بفوليوم 90K (3×) عند 0.955، الوقف 0.892، الهدف 1.09 → مساحة 2.2× → جاهز فعلياً
+    good = pd.concat([base, _bars15(day, [("11:15", 0.95, 0.955, 0.945, 0.95, 20_000),
+                                          ("11:30", 0.948, 0.958, 0.946, 0.955, 90_000)])])
+    assert fw.scanner_confirm(good, 0.955, 0.8918, 1.09, 0.95, dly, now) == []
+    # نفس الشموع والسعر 0.99 (TYGO 23 أكتوبر): المساحة 1.0× → لا تنبيه، ويقترح سعر الدخول
+    w = fw.scanner_confirm(good, 0.99, 0.8918, 1.09, 0.95, dly, now)
+    assert len(w) == 1 and "المساحة" in w[0] and "الدخول عند" in w[0]
+    # شمعة حمراء أو بدون فوليوم → لا تنبيه
+    red = pd.concat([base, _bars15(day, [("11:15", 0.95, 0.955, 0.945, 0.95, 20_000),
+                                         ("11:30", 0.958, 0.96, 0.95, 0.952, 90_000)])])
+    assert any("تأكيد 15 دقيقة" in x for x in fw.scanner_confirm(red, 0.952, 0.8918, 1.09, 0.95, dly, now))
+    thin = pd.concat([base, _bars15(day, [("11:15", 0.95, 0.955, 0.945, 0.95, 20_000),
+                                          ("11:30", 0.948, 0.958, 0.946, 0.955, 35_000)])])
+    assert any("ضعيف" in x for x in fw.scanner_confirm(thin, 0.955, 0.8918, 1.09, 0.95, dly, now))
+    # التأكيد من الشمعة قبل الأخيرة مقبول إذا ما رجع السعر تحت افتتاحها
+    prev_ok = pd.concat([base, _bars15(day, [("11:15", 0.948, 0.958, 0.946, 0.955, 90_000),
+                                             ("11:30", 0.955, 0.957, 0.952, 0.953, 20_000)])])
+    assert fw.scanner_confirm(prev_ok, 0.953, 0.8918, 1.09, 0.95, dly, now) == []
+    # بدون شموع اليوم → مو مؤكد
+    assert any("ما فيه شمعة" in x for x in fw.scanner_confirm(base, 0.955, 0.8918, 1.09, 0.95, dly, now))
+    # أقرب قمة يومية (آخر 5 أيام) تعتبر مقاومة: قمة 1.0 فوق 0.955 → مساحة 0.045 مقابل 0.063 → لا تنبيه
+    dly2 = dly.copy()
+    dly2.iloc[3, 0] = 1.0
+    assert any("المساحة لأول مقاومة 1" in x for x in fw.scanner_confirm(good, 0.955, 0.8918, 1.09, 0.95, dly2, now))

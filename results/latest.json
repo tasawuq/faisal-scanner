@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T23:08:23.081185+00:00",
- "generated_at_et": "2026-10-23T19:08:23.081185-04:00",
+ "generated_at_utc": "2026-10-23T23:18:23.081341+00:00",
+ "generated_at_et": "2026-10-23T19:18:23.081341-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -1506,8 +1506,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.74,
-    "ext_chg": 0.011627896,
+    "ext_price": 1.749,
+    "ext_chg": 0.016860421,
     "ext_session": "post"
    },
    "news": []
@@ -2182,7 +2182,10 @@
     "market_cap": 4899845,
     "exchange": "NASDAQ",
     "name": "Autonomix Medical, Inc.",
-    "short_pct_float": 0.0145000005
+    "short_pct_float": 0.0145000005,
+    "ext_price": 2.46,
+    "ext_chg": -0.01995936416875821,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3523,8 +3526,8 @@
     "exchange": "NASDAQ",
     "name": "Datasea Intelligent Technology Ltd.",
     "short_pct_float": 0.0215,
-    "ext_price": 0.672,
-    "ext_chg": -0.06536855,
+    "ext_price": 0.6722,
+    "ext_chg": -0.06509034,
     "ext_session": "post"
    },
    "news": []
@@ -3586,7 +3589,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.7752,
+   "price": 1.76,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3604,7 +3607,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 13%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 14%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -3619,8 +3622,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.6200000047683716,
-   "price_label": "آخر سعر",
+   "price": 1.605,
+   "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3637,15 +3640,15 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 6%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 7%",
    "alert": false,
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "SHMD",
-   "price": 2.7100000381469727,
-   "price_label": "آخر سعر",
+   "price": 2.7399,
+   "price_label": "سعر الأفتر",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-21",
@@ -3663,7 +3666,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 15%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 14%",
    "alert": false,
    "session": "post",
    "scanner": {

@@ -1,19 +1,19 @@
 {
- "generated_at_utc": "2026-10-23T10:40:20.936721+00:00",
- "generated_at_et": "2026-10-23T06:40:20.936721-04:00",
+ "generated_at_utc": "2026-10-23T10:50:20.936810+00:00",
+ "generated_at_et": "2026-10-23T06:50:20.936810-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 1593,
-  "with_data": 1593,
+  "prefiltered": 1599,
+  "with_data": 1599,
   "short_history": 17,
-  "price_out": 98,
+  "price_out": 99,
   "low_volume": 358,
   "watch_only_volume": 161
  },
  "counts": {
-  "universe": 5855,
-  "analyzed": 1120,
+  "universe": 5856,
+  "analyzed": 1125,
   "ready": 0,
   "watch": 131,
   "momentum": 0,
@@ -590,8 +590,8 @@
     "exchange": "NYSE",
     "name": "Spruce Power Holding Corporation",
     "short_pct_float": 0.060100004,
-    "ext_price": 1.35,
-    "ext_chg": 0.015037593984962516,
+    "ext_price": 1.31,
+    "ext_chg": -0.015037593984962405,
     "ext_session": "pre"
    },
    "news": []
@@ -1339,10 +1339,12 @@
    "waiting_for": [
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 26)",
     "السعر ابتعد 7% فوق منطقة الطلب — ضع Limit عند 1.67–1.74 ولا تطارد",
-    "صعد 79% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة"
+    "صعد 79% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 1.88 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1361,7 +1363,10 @@
     "market_cap": 5204678,
     "exchange": "NASDAQ",
     "name": "Processa Pharmaceuticals, Inc.",
-    "short_pct_float": 0.0017
+    "short_pct_float": 0.0017,
+    "ext_price": 1.8838,
+    "ext_chg": 0.012795707,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1836,9 +1841,12 @@
    "volume_note": "",
    "waiting_for": [
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "السعر ابتعد 10% فوق منطقة الطلب — ضع Limit عند 0.66–0.69 ولا تطارد"
+    "السعر ابتعد 10% فوق منطقة الطلب — ضع Limit عند 0.66–0.69 ولا تطارد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
-   "flags": [],
+   "flags": [
+    "صعد في البري إلى 0.755 بعيداً عن منطقة الطلب"
+   ],
    "tags": [
     "فلووت أقل من 5M 🔥",
     "Former Runner (سبق انفجر +188% في يوم)",
@@ -1855,7 +1863,10 @@
     "market_cap": 4093471,
     "exchange": "NASDAQ",
     "name": "DEFSEC Technologies Inc.",
-    "short_pct_float": 0.0067000003
+    "short_pct_float": 0.0067000003,
+    "ext_price": 0.755,
+    "ext_chg": -0.04707812697210656,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2598,8 +2609,8 @@
     "exchange": "NASDAQ",
     "name": "Solidion Technology, Inc.",
     "short_pct_float": 0.0548,
-    "ext_price": 4.45,
-    "ext_chg": -0.024122807017543768,
+    "ext_price": 4.46,
+    "ext_chg": -0.021929824561403466,
     "ext_session": "pre"
    },
    "news": []
@@ -2685,8 +2696,8 @@
     "exchange": "NASDAQ",
     "name": "HCW Biologics Inc.",
     "short_pct_float": 0.028499998,
-    "ext_price": 1.11,
-    "ext_chg": -0.04310344827586188,
+    "ext_price": 1.12,
+    "ext_chg": -0.0344827586206895,
     "ext_session": "pre"
    },
    "news": []
@@ -3532,8 +3543,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3549,8 +3560,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 181540.0,
-   "price": 346.6
+   "volume": 186666.0,
+   "price": 346.79
   },
   "SNDL": {
    "volume": 300.0,

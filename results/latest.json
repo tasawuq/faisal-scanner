@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T12:40:20.938633+00:00",
- "generated_at_et": "2026-10-23T08:40:20.938633-04:00",
+ "generated_at_utc": "2026-10-23T12:50:20.938815+00:00",
+ "generated_at_et": "2026-10-23T08:50:20.938815-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -652,12 +652,12 @@
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
     "صعد 83% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "السعر في البري 0.29 تحت الوقف — الدعم مكسور حالياً"
+    "السعر في البري 0.291 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 5 يوم (طار إلى 0.294 وأغلق 0.245 بفوليوم 6x)",
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في البري تحت الوقف (0.29)"
+    "نزل في البري تحت الوقف (0.291)"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -675,8 +675,8 @@
     "exchange": "NASDAQ",
     "name": "Nixxy, Inc.",
     "short_pct_float": 0.0037,
-    "ext_price": 0.2903,
-    "ext_chg": -0.070742636,
+    "ext_price": 0.291,
+    "ext_chg": -0.06850193,
     "ext_session": "pre"
    },
    "news": []
@@ -1272,8 +1272,8 @@
     "exchange": "AMEX",
     "name": "Eason Technology Limited",
     "short_pct_float": 0.0126,
-    "ext_price": 0.3299,
-    "ext_chg": -0.029420389999999998,
+    "ext_price": 0.3359,
+    "ext_chg": -0.011768104,
     "ext_session": "pre"
    },
    "news": []
@@ -1525,8 +1525,8 @@
     "exchange": "NASDAQ",
     "name": "Loop Industries, Inc.",
     "short_pct_float": 0.025999999,
-    "ext_price": 0.3059,
-    "ext_chg": -0.025796178343948983,
+    "ext_price": 0.314,
+    "ext_chg": 0.0,
     "ext_session": "pre"
    },
    "news": []
@@ -2276,8 +2276,8 @@
     "exchange": "AMEX",
     "name": "TMD Energy Limited",
     "short_pct_float": 0.0094,
-    "ext_price": 0.5693,
-    "ext_chg": 0.02984804,
+    "ext_price": 0.5694,
+    "ext_chg": 0.030028968,
     "ext_session": "pre"
    },
    "news": []
@@ -3114,8 +3114,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.55,
-    "ext_chg": 0.014397876,
+    "ext_price": 1.52,
+    "ext_chg": -0.005235613,
     "ext_session": "pre"
    },
    "news": []
@@ -3197,8 +3197,8 @@
     "market_cap": 3914270,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.1423,
-    "ext_chg": -0.005590487,
+    "ext_price": 0.1401,
+    "ext_chg": -0.020964299999999998,
     "ext_session": "pre"
    },
    "news": []
@@ -3433,7 +3433,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.78,
+   "price": 1.82,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3451,7 +3451,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 12%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 10%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3510,8 +3510,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 2.71 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 2.71 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3525,7 +3525,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3637,
+   "price": 0.3715,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3561,12 +3561,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 378119.0,
-   "price": 347.7398
+   "volume": 398008.0,
+   "price": 347.81
   },
   "SNDL": {
-   "volume": 1384.0,
-   "price": 1.29
+   "volume": 1484.0,
+   "price": 1.27
   }
  }
 }

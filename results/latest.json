@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T08:50:20.934974+00:00",
- "generated_at_et": "2026-10-23T04:50:20.934974-04:00",
+ "generated_at_utc": "2026-10-23T09:00:20.935090+00:00",
+ "generated_at_et": "2026-10-23T05:00:20.935090-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -81,7 +81,7 @@
    "flags": [
     "فشل عند MA20",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في البري إلى 0.453 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 0.454 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -101,8 +101,8 @@
     "exchange": "NASDAQ",
     "name": "Gaxos.ai Inc.",
     "short_pct_float": 0.0209,
-    "ext_price": 0.453,
-    "ext_chg": 0.05373342637822742,
+    "ext_price": 0.454,
+    "ext_chg": 0.056059548732263265,
     "ext_session": "pre"
    },
    "news": []
@@ -922,8 +922,8 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1659,
-    "ext_chg": -0.0030048076923077094,
+    "ext_price": 0.1691,
+    "ext_chg": 0.0,
     "ext_session": "pre"
    },
    "news": []
@@ -1093,8 +1093,8 @@
     "exchange": "NASDAQ",
     "name": "CaliberCos Inc.",
     "short_pct_float": 0.0785,
-    "ext_price": 0.391,
-    "ext_chg": -0.02493765586034913,
+    "ext_price": 0.385,
+    "ext_chg": -0.03990024937655867,
     "ext_session": "pre"
    },
    "news": []
@@ -1238,12 +1238,12 @@
    "volume_note": "فوليوم يتحسن مع الارتداد",
    "waiting_for": [
     "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-    "السعر في البري 0.3 تحت الوقف — الدعم مكسور حالياً"
+    "السعر في البري 0.302 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "سهم صيني عالي التذبذب",
     "سعر منخفض جداً — سبريد واسع",
-    "نزل في البري تحت الوقف (0.3)"
+    "نزل في البري تحت الوقف (0.302)"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -1263,8 +1263,8 @@
     "exchange": "AMEX",
     "name": "Eason Technology Limited",
     "short_pct_float": 0.0126,
-    "ext_price": 0.3,
-    "ext_chg": -0.11738739000000001,
+    "ext_price": 0.302,
+    "ext_chg": -0.11150338,
     "ext_session": "pre"
    },
    "news": []
@@ -2251,7 +2251,7 @@
     "name": "TMD Energy Limited",
     "short_pct_float": 0.0094,
     "ext_price": 0.5862,
-    "ext_chg": 0.060419679999999996,
+    "ext_chg": 0.030590765000000002,
     "ext_session": "pre"
    },
    "news": []
@@ -2583,8 +2583,8 @@
     "exchange": "NASDAQ",
     "name": "Solidion Technology, Inc.",
     "short_pct_float": 0.0548,
-    "ext_price": 4.5,
-    "ext_chg": -0.013157894736842035,
+    "ext_price": 4.52,
+    "ext_chg": -0.00877192982456143,
     "ext_session": "pre"
    },
    "news": []
@@ -3253,7 +3253,10 @@
     "market_cap": 4058336,
     "exchange": "NASDAQ",
     "name": "Real Messenger Corporation",
-    "short_pct_float": 0.1577
+    "short_pct_float": 0.1577,
+    "ext_price": 0.24,
+    "ext_chg": -0.030694668820678506,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3401,7 +3404,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.8,
+   "price": 1.81,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3419,7 +3422,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 11%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 10%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3529,11 +3532,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 131190.0,
-   "price": 345.74
+   "volume": 133255.0,
+   "price": 345.95
   },
   "SNDL": {
-   "volume": 8.0,
+   "volume": 19.0,
    "price": 1.28
   }
  }

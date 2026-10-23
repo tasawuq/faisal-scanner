@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T10:00:20.936100+00:00",
- "generated_at_et": "2026-10-23T06:00:20.936100-04:00",
+ "generated_at_utc": "2026-10-23T10:10:20.936288+00:00",
+ "generated_at_et": "2026-10-23T06:10:20.936288-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1266,8 +1266,8 @@
     "exchange": "AMEX",
     "name": "Eason Technology Limited",
     "short_pct_float": 0.0126,
-    "ext_price": 0.3068,
-    "ext_chg": -0.09764705,
+    "ext_price": 0.307,
+    "ext_chg": -0.0970588,
     "ext_session": "pre"
    },
    "news": []
@@ -3502,7 +3502,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3779,
+   "price": 0.3776,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3521,8 +3521,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3538,8 +3538,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 161697.0,
-   "price": 346.32
+   "volume": 165948.0,
+   "price": 346.5
   },
   "SNDL": {
    "volume": 300.0,

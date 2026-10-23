@@ -1,11 +1,11 @@
 {
- "generated_at_utc": "2026-10-23T20:17:55.999817+00:00",
- "generated_at_et": "2026-10-23T16:17:55.999817-04:00",
+ "generated_at_utc": "2026-10-23T20:27:55.999967+00:00",
+ "generated_at_et": "2026-10-23T16:27:55.999967-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1599,
-  "with_data": 1598,
+  "with_data": 1599,
   "short_history": 17,
   "price_out": 97,
   "low_volume": 369,
@@ -13,7 +13,7 @@
  },
  "counts": {
   "universe": 5856,
-  "analyzed": 1115,
+  "analyzed": 1116,
   "ready": 2,
   "watch": 126,
   "momentum": 0,
@@ -512,86 +512,6 @@
    "news": []
   },
   {
-   "ticker": "AIMD",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "SWEEP",
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "price": 0.8371999859809875,
-   "score": 5.25,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 19 والحالي 19"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 1.0,
-     "note": "مطرقة (Hammer)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 64% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 5.8"
-    }
-   },
-   "support_low": 0.800000011920929,
-   "support_high": 0.8080000120401383,
-   "support_touches": 1,
-   "trigger_level": 0.800000011920929,
-   "stop": 0.7693000257015228,
-   "entry_low": 0.800000011920929,
-   "entry_high": 0.8322400124013425,
-   "t1": 0.9240000247955322,
-   "t1_label": "رأس شمعة هابطة",
-   "t2": 0.9900000095367432,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 2.3,
-   "risk_pct": 0.0574,
-   "rsi_now": 19.3,
-   "rsi_min": 19.3,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "مطرقة (Hammer)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
-   ],
-   "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 61.3K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +154% في يوم)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 6.017500165589151,
-   "meta": {
-    "avg_volume": 61290.0,
-    "drawdown": 0.638,
-    "rr_best": 5.85,
-    "gain_from_low10": 0.066,
-    "higher_lows": "False",
-    "float": 2404254,
-    "market_cap": 6232896,
-    "exchange": "NASDAQ",
-    "name": "Ainos, Inc.",
-    "short_pct_float": 0.0113
-   },
-   "news": []
-  },
-  {
    "ticker": "JUNS",
    "kind": "pivot",
    "status": "WATCH",
@@ -1028,7 +948,7 @@
     },
     "candle": {
      "score": 1.0,
-     "note": "ذيل سفلي طويل (رفض كسر)"
+     "note": "مطرقة (Hammer)"
     },
     "pressure": {
      "score": 1.0,
@@ -1056,7 +976,7 @@
    "rsi_min": 24.9,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
-   "candle": "ذيل سفلي طويل (رفض كسر)",
+   "candle": "مطرقة (Hammer)",
    "volume_note": "",
    "waiting_for": [
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
@@ -1326,8 +1246,8 @@
     "exchange": "NASDAQ",
     "name": "INVO Fertility, Inc.",
     "short_pct_float": 0.0109,
-    "ext_price": 0.5899,
-    "ext_chg": 0.10675422138836765,
+    "ext_price": 0.59,
+    "ext_chg": 0.10694183864915563,
     "ext_session": "post"
    },
    "news": []
@@ -1744,8 +1664,8 @@
     "exchange": "NASDAQ",
     "name": "NeOnc Technologies Holdings, Inc.",
     "short_pct_float": 0.0552,
-    "ext_price": 3.27,
-    "ext_chg": 0.10847457627118628,
+    "ext_price": 3.32,
+    "ext_chg": 0.015290505999999999,
     "ext_session": "post"
    },
    "news": []
@@ -1911,7 +1831,10 @@
     "market_cap": 5345296,
     "exchange": "NASDAQ",
     "name": "Aqua Metals, Inc.",
-    "short_pct_float": 0.0577
+    "short_pct_float": 0.0577,
+    "ext_price": 1.47,
+    "ext_chg": -0.01342281879194629,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -1972,11 +1895,13 @@
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "الدخول تحت مقاومة مباشرة (0.41) — انتظر اختراقها والثبات",
-    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
+    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 80.7K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.44 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1993,91 +1918,10 @@
     "market_cap": 15597703,
     "exchange": "NASDAQ",
     "name": "Primech Holdings Ltd.",
-    "short_pct_float": 0.0014
-   },
-   "news": []
-  },
-  {
-   "ticker": "UFG",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "BROKE_SUPPORT",
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-   "price": 0.35440000891685486,
-   "score": 4.5,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.5,
-     "note": "أدنى RSI 29 والحالي 33"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "ابتلاعية شرائية (Engulfing) (شمعة صغيرة غير واضحة)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 62% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 3.7"
-    }
-   },
-   "support_low": 0.35499998927116394,
-   "support_high": 0.3585499891638756,
-   "support_touches": 2,
-   "trigger_level": 0.35499998927116394,
-   "stop": 0.3341799908876419,
-   "entry_low": 0.35499998927116394,
-   "entry_high": 0.35499998927116394,
-   "t1": 0.36500000953674316,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 0.3949700012803078,
-   "t2_label": "MA20 + قمة سابقة",
-   "rr": 0.36,
-   "risk_pct": 0.0633,
-   "rsi_now": 33.3,
-   "rsi_min": 28.7,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "ابتلاعية شرائية (Engulfing) (شمعة صغيرة غير واضحة)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "استرداد الدعم 0.35 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
-    "الدخول تحت مقاومة مباشرة (0.37) — انتظر اختراقها والثبات"
-   ],
-   "flags": [
-    "شمعة ضخ/تصريف قبل 11 يوم (طار إلى 0.505 وأغلق 0.369 بفوليوم 25x)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +103% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف"
-   ],
-   "rank": 5.491549572219131,
-   "meta": {
-    "avg_volume": 196915.0,
-    "drawdown": 0.624,
-    "rr_best": 3.69,
-    "gain_from_low10": 0.042,
-    "higher_lows": "True",
-    "float": 9815143,
-    "market_cap": 11463392,
-    "exchange": "NASDAQ",
-    "name": "Uni-Fuels Holdings Limited",
-    "short_pct_float": 0.0307
+    "short_pct_float": 0.0014,
+    "ext_price": 0.44,
+    "ext_chg": 0.08374384236453203,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2327,8 +2171,8 @@
     "exchange": "NASDAQ",
     "name": "Autonomix Medical, Inc.",
     "short_pct_float": 0.0145000005,
-    "ext_price": 2.4229,
-    "ext_chg": -0.03473965180670102,
+    "ext_price": 2.42,
+    "ext_chg": -0.03589498426357518,
     "ext_session": "post"
    },
    "news": []
@@ -2411,6 +2255,84 @@
     "ext_price": 1.9692,
     "ext_chg": 0.0046938658,
     "ext_session": "post"
+   },
+   "news": []
+  },
+  {
+   "ticker": "STIM",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "SWEEP",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "price": 2.109999895095825,
+   "score": 4.75,
+   "conditions": {
+    "ma": {
+     "score": 0.0,
+     "note": "تحت كل المتوسطات (ضغط) — رفض عند MA20"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 23 والحالي 42"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "تقاطع إيجابي حديث"
+    },
+    "candle": {
+     "score": 1.0,
+     "note": "ذيل سفلي طويل (رفض كسر)"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 39% من قمة 90 يوم، شورت 17% من الفلووت"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 5.6"
+    }
+   },
+   "support_low": 1.9900000095367432,
+   "support_high": 2.0099000096321107,
+   "support_touches": 4,
+   "trigger_level": 1.9900000095367432,
+   "stop": 1.925700032711029,
+   "entry_low": 1.9900000095367432,
+   "entry_high": 2.070197009921074,
+   "t1": 2.3299999237060547,
+   "t1_label": "قمة سابقة + MA30",
+   "t2": 2.430000066757202,
+   "t2_label": "قمة سابقة",
+   "rr": 2.87,
+   "risk_pct": 0.0514,
+   "rsi_now": 42.1,
+   "rsi_min": 22.8,
+   "ma_state": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
+   "macd_state": "تقاطع إيجابي حديث",
+   "candle": "ذيل سفلي طويل (رفض كسر)",
+   "volume_note": "",
+   "waiting_for": [
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+   ],
+   "flags": [
+    "فشل عند MA20",
+    "سهم طبي — الخبر قد يغير الاتجاه"
+   ],
+   "tags": [
+    "Former Runner (سبق انفجر +59% في يوم)"
+   ],
+   "rank": 5.448492751296476,
+   "meta": {
+    "avg_volume": 752820.0,
+    "drawdown": 0.387,
+    "rr_best": 5.6,
+    "gain_from_low10": 0.147,
+    "higher_lows": "False",
+    "float": 37151480,
+    "market_cap": 156204304,
+    "exchange": "NASDAQ",
+    "name": "Neuronetics, Inc.",
+    "short_pct_float": 0.1725
    },
    "news": []
   },
@@ -2576,7 +2498,10 @@
     "market_cap": 5050471,
     "exchange": "NASDAQ",
     "name": "CCSC Technology International Holdings Limited",
-    "short_pct_float": 0.0013
+    "short_pct_float": 0.0013,
+    "ext_price": 0.3578,
+    "ext_chg": -0.037913417585372367,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2657,8 +2582,8 @@
     "exchange": "NASDAQ",
     "name": "Linkhome Holdings Inc.",
     "short_pct_float": 0.0305,
-    "ext_price": 1.03,
-    "ext_chg": -0.019047601,
+    "ext_price": 0.9986,
+    "ext_chg": -0.04895233,
     "ext_session": "post"
    },
    "news": []
@@ -2988,8 +2913,8 @@
     "exchange": "NASDAQ",
     "name": "Aterian, Inc.",
     "short_pct_float": 0.0023999999,
-    "ext_price": 0.6225,
-    "ext_chg": -0.006226053639846629,
+    "ext_price": 0.6166,
+    "ext_chg": -0.009477952,
     "ext_session": "post"
    },
    "news": []
@@ -3073,7 +2998,7 @@
     "name": "BrenX Ltd.",
     "short_pct_float": 0.0174,
     "ext_price": 0.7726,
-    "ext_chg": -0.09785147127510518,
+    "ext_chg": 0.0,
     "ext_session": "post"
    },
    "news": []
@@ -3240,7 +3165,10 @@
     "market_cap": 5017738,
     "exchange": "NASDAQ",
     "name": "Gaxos.ai Inc.",
-    "short_pct_float": 0.0209
+    "short_pct_float": 0.0209,
+    "ext_price": 0.4551,
+    "ext_chg": 0.0024229074889867697,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3325,7 +3253,10 @@
     "market_cap": 28599992,
     "exchange": "NASDAQ",
     "name": "OneMedNet Corporation",
-    "short_pct_float": 0.0365
+    "short_pct_float": 0.0365,
+    "ext_price": 4.6,
+    "ext_chg": -0.023354591999999997,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3496,6 +3427,90 @@
     "ext_session": "post"
    },
    "news": []
+  },
+  {
+   "ticker": "DTSS",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "BASE_BREAK",
+   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
+   "price": 0.718999981880188,
+   "score": 4.75,
+   "conditions": {
+    "ma": {
+     "score": 1.0,
+     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
+    },
+    "rsi": {
+     "score": 0.25,
+     "note": "أدنى RSI 35 والحالي 55"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "تقاطع إيجابي حديث"
+    },
+    "candle": {
+     "score": 0.5,
+     "note": "شمعة خضراء بإغلاق قوي"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 69% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 3.8"
+    }
+   },
+   "support_low": 0.6468000257015228,
+   "support_high": 0.6666000264883042,
+   "support_touches": 2,
+   "trigger_level": 0.6600000262260437,
+   "stop": 0.6273960249304771,
+   "entry_low": 0.6600000262260437,
+   "entry_high": 0.679800027012825,
+   "t1": 0.7459999918937683,
+   "t1_label": "قمة سابقة",
+   "t2": 0.800000011920929,
+   "t2_label": "قمة سابقة + رأس شمعة هابطة",
+   "rr": 1.79,
+   "risk_pct": 0.0634,
+   "rsi_now": 55.2,
+   "rsi_min": 34.6,
+   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
+   "macd_state": "تقاطع إيجابي حديث",
+   "candle": "شمعة خضراء بإغلاق قوي",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "اخترق المقاومة القريبة 0.66 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 35)",
+    "فوليوم أعلى عند الاختراق (الاختراق بدون فوليوم ضعيف — ص19)"
+   ],
+   "flags": [
+    "سهم صيني عالي التذبذب"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +287% في يوم)",
+    "فوليوم البيع يضعف"
+   ],
+   "rank": 5.3030306567447205,
+   "meta": {
+    "avg_volume": 229470.0,
+    "drawdown": 0.686,
+    "rr_best": 3.77,
+    "gain_from_low10": 0.377,
+    "higher_lows": "False",
+    "float": 9232443,
+    "market_cap": 9420890,
+    "exchange": "NASDAQ",
+    "name": "Datasea Intelligent Technology Ltd.",
+    "short_pct_float": 0.0215,
+    "ext_price": 0.7262,
+    "ext_chg": 0.010013912,
+    "ext_session": "post"
+   },
+   "news": []
   }
  ],
  "momentum": [],
@@ -3504,7 +3519,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.42,
+   "price": 1.3,
    "price_label": "سعر الأفتر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -3529,7 +3544,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.25,
+   "price": 2.24,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3547,14 +3562,14 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2.48 بـ 10%",
+   "state_ar": "تحت مستوى الاختراق 2.48 بـ 11%",
    "alert": false,
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "SMX",
-   "price": 1.75,
+   "price": 1.76,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3587,7 +3602,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.62,
+   "price": 1.65,
    "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3605,14 +3620,14 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 6%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 4%",
    "alert": false,
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "SHMD",
-   "price": 2.7101,
+   "price": 2.71,
    "price_label": "سعر الأفتر",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

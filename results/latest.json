@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T20:37:56.000123+00:00",
- "generated_at_et": "2026-10-23T16:37:56.000123-04:00",
+ "generated_at_utc": "2026-10-23T20:47:56.000276+00:00",
+ "generated_at_et": "2026-10-23T16:47:56.000276-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -341,7 +341,10 @@
     "market_cap": 9100503,
     "exchange": "NASDAQ",
     "name": "Nixxy, Inc.",
-    "short_pct_float": 0.0037
+    "short_pct_float": 0.0037,
+    "ext_price": 0.2756,
+    "ext_chg": -0.11779769526248396,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -422,8 +425,8 @@
     "exchange": "NASDAQ",
     "name": "FBS Global Limited",
     "short_pct_float": 0.0432,
-    "ext_price": 2.19,
-    "ext_chg": -0.024498886414254017,
+    "ext_price": 2.07,
+    "ext_chg": -0.07795100222717166,
     "ext_session": "post"
    },
    "news": []
@@ -589,8 +592,8 @@
     "market_cap": 3401784.0,
     "exchange": "NASDAQ",
     "name": "Jupiter Neurosciences Inc. Common Stock",
-    "ext_price": 2.98,
-    "ext_chg": 0.15503875968992253,
+    "ext_price": 2.9897,
+    "ext_chg": 0.15879844961240308,
     "ext_session": "post"
    },
    "news": []
@@ -1081,8 +1084,8 @@
     "exchange": "NASDAQ",
     "name": "Aldeyra Therapeutics, Inc.",
     "short_pct_float": 0.0594,
-    "ext_price": 0.6497,
-    "ext_chg": 0.00681853401518695,
+    "ext_price": 0.65,
+    "ext_chg": 0.007283434061676752,
     "ext_session": "post"
    },
    "news": []
@@ -1165,7 +1168,10 @@
     "market_cap": 4180861,
     "exchange": "NASDAQ",
     "name": "CaliberCos Inc.",
-    "short_pct_float": 0.0785
+    "short_pct_float": 0.0785,
+    "ext_price": 0.4055,
+    "ext_chg": 0.0072031793343270145,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -1331,7 +1337,7 @@
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
     "ext_price": 0.7001,
-    "ext_chg": -0.011158192,
+    "ext_chg": -0.011158191,
     "ext_session": "post"
    },
    "news": []
@@ -1895,13 +1901,11 @@
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "الدخول تحت مقاومة مباشرة (0.41) — انتظر اختراقها والثبات",
-    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
    ],
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 80.7K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.44 بعيداً عن منطقة الطلب"
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1919,8 +1923,8 @@
     "exchange": "NASDAQ",
     "name": "Primech Holdings Ltd.",
     "short_pct_float": 0.0014,
-    "ext_price": 0.44,
-    "ext_chg": 0.08374384236453203,
+    "ext_price": 0.4,
+    "ext_chg": -0.014778325123152691,
     "ext_session": "post"
    },
    "news": []
@@ -2171,8 +2175,8 @@
     "exchange": "NASDAQ",
     "name": "Autonomix Medical, Inc.",
     "short_pct_float": 0.0145000005,
-    "ext_price": 2.47,
-    "ext_chg": -0.01597545914505394,
+    "ext_price": 2.43,
+    "ext_chg": -0.03191107923987091,
     "ext_session": "post"
    },
    "news": []
@@ -2833,8 +2837,8 @@
     "exchange": "NASDAQ",
     "name": "Toro Corp.",
     "short_pct_float": 0.0036000002,
-    "ext_price": 4.4,
-    "ext_chg": 0.20218579234972678,
+    "ext_price": 4.43,
+    "ext_chg": 0.2103825136612021,
     "ext_session": "post"
    },
    "news": []
@@ -3518,7 +3522,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.3,
+   "price": 1.2989,
    "price_label": "سعر الأفتر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -3568,7 +3572,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.76,
+   "price": 1.78,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3586,7 +3590,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 14%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 12%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -3601,7 +3605,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.66,
+   "price": 1.7097,
    "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3619,7 +3623,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 3%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 0%",
    "alert": false,
    "session": "post",
    "scanner": null
@@ -3679,8 +3683,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

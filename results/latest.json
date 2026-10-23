@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T11:30:20.937489+00:00",
- "generated_at_et": "2026-10-23T07:30:20.937489-04:00",
+ "generated_at_utc": "2026-10-23T11:40:20.937673+00:00",
+ "generated_at_et": "2026-10-23T07:40:20.937673-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -178,8 +178,8 @@
     "exchange": "NASDAQ",
     "name": "Tigo Energy, Inc.",
     "short_pct_float": 0.066300005,
-    "ext_price": 0.97,
-    "ext_chg": 0.047403100000000004,
+    "ext_price": 0.96,
+    "ext_chg": 0.036605077,
     "ext_session": "pre"
    },
    "news": []
@@ -499,8 +499,8 @@
     "exchange": "NASDAQ",
     "name": "FBS Global Limited",
     "short_pct_float": 0.0432,
-    "ext_price": 2.19,
-    "ext_chg": -0.05603448275862066,
+    "ext_price": 2.1,
+    "ext_chg": -0.09482758620689646,
     "ext_session": "pre"
    },
    "news": []
@@ -930,8 +930,8 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1667,
-    "ext_chg": -0.014192761,
+    "ext_price": 0.1604,
+    "ext_chg": -0.051448836,
     "ext_session": "pre"
    },
    "news": []
@@ -1016,10 +1016,7 @@
     "market_cap": 6734773,
     "exchange": "NASDAQ",
     "name": "LZ Technology Holdings Limited",
-    "short_pct_float": 0.0197,
-    "ext_price": 0.7275,
-    "ext_chg": -0.04951659263130381,
-    "ext_session": "pre"
+    "short_pct_float": 0.0197
    },
    "news": []
   },
@@ -1588,7 +1585,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 1.73 وأغلق 1.14 بفوليوم 233x)",
     "سهم صيني عالي التذبذب",
-    "صعد في البري إلى 0.931 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 0.947 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1608,8 +1605,8 @@
     "exchange": "NASDAQ",
     "name": "Aurelion Inc.",
     "short_pct_float": 0.00090000004,
-    "ext_price": 0.931,
-    "ext_chg": -0.03020833333333328,
+    "ext_price": 0.9474,
+    "ext_chg": -0.01199291,
     "ext_session": "pre"
    },
    "news": []
@@ -2109,8 +2106,8 @@
     "exchange": "NASDAQ",
     "name": "TuHURA Biosciences, Inc.",
     "short_pct_float": 0.1237,
-    "ext_price": 2.0982,
-    "ext_chg": 0.043880644,
+    "ext_price": 2.0753,
+    "ext_chg": 0.032487557,
     "ext_session": "pre"
    },
    "news": []
@@ -2272,8 +2269,8 @@
     "exchange": "AMEX",
     "name": "TMD Energy Limited",
     "short_pct_float": 0.0094,
-    "ext_price": 0.5862,
-    "ext_chg": 0.030590765000000002,
+    "ext_price": 0.5694,
+    "ext_chg": 0.030028968,
     "ext_session": "pre"
    },
    "news": []
@@ -3190,8 +3187,8 @@
     "market_cap": 3914270,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.1425,
-    "ext_chg": -0.0041928393,
+    "ext_price": 0.1426,
+    "ext_chg": -0.0034940153,
     "ext_session": "pre"
    },
    "news": []
@@ -3511,7 +3508,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.83,
+   "price": 1.8316,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3603,7 +3600,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3737,
+   "price": 0.371,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3639,12 +3636,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 233403.0,
-   "price": 347.79
+   "volume": 249422.0,
+   "price": 347.77
   },
   "SNDL": {
    "volume": 697.0,
-   "price": 1.29
+   "price": 1.31
   }
  }
 }

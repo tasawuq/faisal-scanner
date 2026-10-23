@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-23T22:58:23.081004+00:00",
- "generated_at_et": "2026-10-23T18:58:23.081004-04:00",
+ "generated_at_utc": "2026-10-23T23:08:23.081185+00:00",
+ "generated_at_et": "2026-10-23T19:08:23.081185-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -425,8 +425,8 @@
     "exchange": "NASDAQ",
     "name": "FBS Global Limited",
     "short_pct_float": 0.0432,
-    "ext_price": 2.05,
-    "ext_chg": -0.08685968819599121,
+    "ext_price": 2.08,
+    "ext_chg": -0.07349665924276172,
     "ext_session": "post"
    },
    "news": []
@@ -1177,8 +1177,8 @@
     "exchange": "NASDAQ",
     "name": "CaliberCos Inc.",
     "short_pct_float": 0.0785,
-    "ext_price": 0.407,
-    "ext_chg": 0.01092896174863367,
+    "ext_price": 0.4177,
+    "ext_chg": 0.03750620963735729,
     "ext_session": "post"
    },
    "news": []
@@ -1344,8 +1344,8 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.7001,
-    "ext_chg": -0.011158191,
+    "ext_price": 0.708,
+    "ext_chg": 0.0,
     "ext_session": "post"
    },
    "news": []
@@ -1506,8 +1506,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.75,
-    "ext_chg": 0.017441843999999998,
+    "ext_price": 1.74,
+    "ext_chg": 0.011627896,
     "ext_session": "post"
    },
    "news": []
@@ -2182,10 +2182,7 @@
     "market_cap": 4899845,
     "exchange": "NASDAQ",
     "name": "Autonomix Medical, Inc.",
-    "short_pct_float": 0.0145000005,
-    "ext_price": 2.46,
-    "ext_chg": -0.01995936416875821,
-    "ext_session": "post"
+    "short_pct_float": 0.0145000005
    },
    "news": []
   },
@@ -2763,8 +2760,8 @@
     "exchange": "NASDAQ",
     "name": "Snail, Inc.",
     "short_pct_float": 0.0301,
-    "ext_price": 2.23,
-    "ext_chg": -0.0044642815,
+    "ext_price": 2.2232,
+    "ext_chg": -0.007499967,
     "ext_session": "post"
    },
    "news": []
@@ -3622,8 +3619,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.605,
-   "price_label": "سعر الأفتر",
+   "price": 1.6200000047683716,
+   "price_label": "آخر سعر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3640,15 +3637,15 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 7%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 6%",
    "alert": false,
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "SHMD",
-   "price": 2.7399,
-   "price_label": "سعر الأفتر",
+   "price": 2.7100000381469727,
+   "price_label": "آخر سعر",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-21",
@@ -3666,7 +3663,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 14%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 15%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -3700,8 +3697,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

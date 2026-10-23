@@ -1,19 +1,19 @@
 {
- "generated_at_utc": "2026-10-23T12:50:20.938815+00:00",
- "generated_at_et": "2026-10-23T08:50:20.938815-04:00",
+ "generated_at_utc": "2026-10-23T13:00:20.939000+00:00",
+ "generated_at_et": "2026-10-23T09:00:20.939000-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1599,
-  "with_data": 1599,
+  "with_data": 1595,
   "short_history": 17,
-  "price_out": 99,
-  "low_volume": 358,
+  "price_out": 98,
+  "low_volume": 357,
   "watch_only_volume": 161
  },
  "counts": {
   "universe": 5856,
-  "analyzed": 1125,
+  "analyzed": 1123,
   "ready": 0,
   "watch": 131,
   "momentum": 0,
@@ -933,8 +933,8 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1689,
-    "ext_chg": -0.0017730795999999999,
+    "ext_price": 0.1688,
+    "ext_chg": -0.0017741281999999999,
     "ext_session": "pre"
    },
    "news": []
@@ -1170,7 +1170,7 @@
    ],
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
-    "صعد في البري إلى 1.75 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 1.77 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +34% في يوم)",
@@ -1188,8 +1188,8 @@
     "exchange": "NASDAQ",
     "name": "Tenax Therapeutics, Inc.",
     "short_pct_float": 0.1935,
-    "ext_price": 1.75,
-    "ext_chg": -0.005681813,
+    "ext_price": 1.77,
+    "ext_chg": 0.005681813,
     "ext_session": "pre"
    },
    "news": []
@@ -1272,8 +1272,8 @@
     "exchange": "AMEX",
     "name": "Eason Technology Limited",
     "short_pct_float": 0.0126,
-    "ext_price": 0.3359,
-    "ext_chg": -0.011768104,
+    "ext_price": 0.3194,
+    "ext_chg": -0.060311779999999995,
     "ext_session": "pre"
    },
    "news": []
@@ -3115,7 +3115,7 @@
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
     "ext_price": 1.52,
-    "ext_chg": -0.005235613,
+    "ext_chg": 0.0,
     "ext_session": "pre"
    },
    "news": []
@@ -3525,7 +3525,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3715,
+   "price": 0.38,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3561,12 +3561,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 398008.0,
-   "price": 347.81
+   "volume": 487081.0,
+   "price": 347.9527
   },
   "SNDL": {
-   "volume": 1484.0,
-   "price": 1.27
+   "volume": 2030.0,
+   "price": 1.28
   }
  }
 }

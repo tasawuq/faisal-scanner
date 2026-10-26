@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T11:04:50.580115+00:00",
- "generated_at_et": "2026-10-26T07:04:50.580115-04:00",
+ "generated_at_utc": "2026-10-26T11:08:33.925123+00:00",
+ "generated_at_et": "2026-10-26T07:08:33.925123-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -22,6 +22,91 @@
  },
  "ready": [],
  "watch": [
+  {
+   "ticker": "PETS",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "BOUNCE",
+   "setup_ar": "ارتداد مؤكد من الدعم",
+   "price": 1.2200000286102295,
+   "score": 4.75,
+   "conditions": {
+    "ma": {
+     "score": 0.0,
+     "note": "تحت كل المتوسطات (ضغط) — رفض عند MA20"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 15 والحالي 32"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "تقاطع إيجابي حديث"
+    },
+    "candle": {
+     "score": 1.0,
+     "note": "ابتلاعية شرائية (Engulfing)"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 48% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 4.5"
+    }
+   },
+   "support_low": 1.149999976158142,
+   "support_high": 1.1614999759197235,
+   "support_touches": 1,
+   "trigger_level": 1.149999976158142,
+   "stop": 1.1269999766349792,
+   "entry_low": 1.149999976158142,
+   "entry_high": 1.1602000012397766,
+   "t1": 1.2100000381469727,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 1.273499995470047,
+   "t2_label": "MA20 + قمة سابقة",
+   "rr": 1.5,
+   "risk_pct": 0.0394,
+   "rsi_now": 32.5,
+   "rsi_min": 14.7,
+   "ma_state": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
+   "macd_state": "تقاطع إيجابي حديث",
+   "candle": "ابتلاعية شرائية (Engulfing)",
+   "volume_note": "فوليوم البيع يضعف، فوليوم يتحسن مع الارتداد",
+   "waiting_for": [
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
+   "flags": [
+    "فشل عند MA20",
+    "صعد في البري إلى 1.22 بعيداً عن منطقة الطلب"
+   ],
+   "tags": [
+    "فلووت أقل من 20M",
+    "Former Runner (سبق انفجر +129% في يوم)",
+    "فوليوم البيع يضعف",
+    "فوليوم يتحسن",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 7.44565193955073,
+   "meta": {
+    "avg_volume": 125410.0,
+    "drawdown": 0.481,
+    "rr_best": 4.48,
+    "gain_from_low10": 0.061,
+    "higher_lows": "False",
+    "float": 13259882,
+    "market_cap": 26448276,
+    "exchange": "NASDAQ",
+    "name": "PetMed Express, Inc.",
+    "short_pct_float": 0.042600002,
+    "ext_price": 1.22,
+    "ext_chg": 0.038297872340425476,
+    "ext_session": "pre"
+   },
+   "news": []
+  },
   {
    "ticker": "IDN",
    "kind": "pivot",
@@ -859,8 +944,8 @@
     "exchange": "NASDAQ",
     "name": "Tigo Energy, Inc.",
     "short_pct_float": 0.066300005,
-    "ext_price": 1.0,
-    "ext_chg": 0.07979699816434516,
+    "ext_price": 1.03,
+    "ext_chg": 0.11219090810927534,
     "ext_session": "pre"
    },
    "news": []
@@ -1114,8 +1199,8 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.1078,
-    "ext_chg": 0.009363315,
+    "ext_price": 0.1051,
+    "ext_chg": -0.015917593,
     "ext_session": "pre"
    },
    "news": []
@@ -1848,7 +1933,6 @@
    "waiting_for": [
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 3.64 ثم استرداد",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "الدخول تحت مقاومة مباشرة (3.78) — انتظر اختراقها والثبات",
     "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم",
     "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
@@ -2217,8 +2301,8 @@
     "exchange": "NASDAQ",
     "name": "AGM Group Holdings Inc.",
     "short_pct_float": 0.0399,
-    "ext_price": 0.46,
-    "ext_chg": -0.065230627,
+    "ext_price": 0.4639,
+    "ext_chg": -0.05730543,
     "ext_session": "pre"
    },
    "news": []
@@ -2644,92 +2728,6 @@
    "news": []
   },
   {
-   "ticker": "PETS",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "BOUNCE",
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "price": 1.2200000286102295,
-   "score": 4.75,
-   "conditions": {
-    "ma": {
-     "score": 0.0,
-     "note": "تحت كل المتوسطات (ضغط) — رفض عند MA20"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 15 والحالي 32"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "تقاطع إيجابي حديث"
-    },
-    "candle": {
-     "score": 1.0,
-     "note": "ابتلاعية شرائية (Engulfing)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 48% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 4.5"
-    }
-   },
-   "support_low": 1.149999976158142,
-   "support_high": 1.1614999759197235,
-   "support_touches": 1,
-   "trigger_level": 1.149999976158142,
-   "stop": 1.1269999766349792,
-   "entry_low": 1.149999976158142,
-   "entry_high": 1.1602000012397766,
-   "t1": 1.2100000381469727,
-   "t1_label": "قمة يوم قريبة",
-   "t2": 1.273499995470047,
-   "t2_label": "MA20 + قمة سابقة",
-   "rr": 1.5,
-   "risk_pct": 0.0394,
-   "rsi_now": 32.5,
-   "rsi_min": 14.7,
-   "ma_state": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
-   "macd_state": "تقاطع إيجابي حديث",
-   "candle": "ابتلاعية شرائية (Engulfing)",
-   "volume_note": "فوليوم البيع يضعف، فوليوم يتحسن مع الارتداد",
-   "waiting_for": [
-    "الدخول تحت مقاومة مباشرة (1.21) — انتظر اختراقها والثبات",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
-   ],
-   "flags": [
-    "فشل عند MA20",
-    "صعد في البري إلى 1.22 بعيداً عن منطقة الطلب"
-   ],
-   "tags": [
-    "فلووت أقل من 20M",
-    "Former Runner (سبق انفجر +129% في يوم)",
-    "فوليوم البيع يضعف",
-    "فوليوم يتحسن",
-    "قاع الفترة (قاع تاريخي/سنوي)"
-   ],
-   "rank": 5.44565193955073,
-   "meta": {
-    "avg_volume": 125410.0,
-    "drawdown": 0.481,
-    "rr_best": 4.48,
-    "gain_from_low10": 0.061,
-    "higher_lows": "False",
-    "float": 13259882,
-    "market_cap": 26448276,
-    "exchange": "NASDAQ",
-    "name": "PetMed Express, Inc.",
-    "short_pct_float": 0.042600002,
-    "ext_price": 1.22,
-    "ext_chg": 0.038297872340425476,
-    "ext_session": "pre"
-   },
-   "news": []
-  },
-  {
    "ticker": "CCTG",
    "kind": "pivot",
    "status": "WATCH",
@@ -2810,8 +2808,8 @@
     "exchange": "NASDAQ",
     "name": "CCSC Technology International Holdings Limited",
     "short_pct_float": 0.0013,
-    "ext_price": 0.3481,
-    "ext_chg": -0.027110116,
+    "ext_price": 0.3493,
+    "ext_chg": -0.023756316000000003,
     "ext_session": "pre"
    },
    "news": []
@@ -3588,8 +3586,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 371357.0,
-   "price": 343.77
+   "volume": 378609.0,
+   "price": 343.73
   },
   "SNDL": {
    "volume": 489.0,

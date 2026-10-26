@@ -69,7 +69,8 @@ def enrich(sig, fund: dict, urow: dict) -> bool:
     industry = ((f.get("industry") or "") + " " + (urow.get("industry") or "")).lower()
     if "china" in country or "hong kong" in country:
         sig.flags.append("سهم صيني عالي التذبذب")
-    if any(w in industry for w in ("biotech", "pharma", "medical", "drug", "diagnostic")):
+    # ص72: الخطر الطبي = خبر/موافقة دواء؛ «Pharmaceutical Retailers» (PETS صيدلية حيوانات أونلاين) مو شركة طبية
+    if any(w in industry for w in ("biotech", "pharma", "medical", "drug", "diagnostic")) and "retail" not in industry:
         sig.flags.append("سهم طبي — الخبر قد يغير الاتجاه")
     rs = _split_reverse(f)
     if rs:

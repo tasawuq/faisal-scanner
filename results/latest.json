@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T11:41:08.052971+00:00",
- "generated_at_et": "2026-10-26T07:41:08.052971-04:00",
+ "generated_at_utc": "2026-10-26T11:51:08.053135+00:00",
+ "generated_at_et": "2026-10-26T07:51:08.053135-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -17,7 +17,7 @@
   "ready": 0,
   "watch": 128,
   "momentum": 0,
-  "ext_quotes": 60,
+  "ext_quotes": 61,
   "ext_movers_5pct": 0
  },
  "ready": [],
@@ -413,7 +413,7 @@
    ],
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 61.3K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "صعد في البري إلى 0.93 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 0.919 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -433,7 +433,7 @@
     "exchange": "NASDAQ",
     "name": "Ainos, Inc.",
     "short_pct_float": 0.0113,
-    "ext_price": 0.9299,
+    "ext_price": 0.919,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -693,7 +693,7 @@
     "exchange": "NASDAQ",
     "name": "Gamehaus Holdings Inc.",
     "short_pct_float": 0.0046,
-    "ext_price": 0.635,
+    "ext_price": 0.6347,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -864,7 +864,7 @@
     "exchange": "NASDAQ",
     "name": "Tenax Therapeutics, Inc.",
     "short_pct_float": 0.1935,
-    "ext_price": 1.7208,
+    "ext_price": 1.7224,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -1699,7 +1699,7 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.63,
+    "ext_price": 1.7,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2213,7 +2213,7 @@
     "exchange": "AMEX",
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
-    "ext_price": 0.1748,
+    "ext_price": 0.1754,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2301,7 +2301,7 @@
     "exchange": "NASDAQ",
     "name": "AGM Group Holdings Inc.",
     "short_pct_float": 0.0399,
-    "ext_price": 0.4639,
+    "ext_price": 0.485,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2974,7 +2974,7 @@
     "exchange": "NASDAQ",
     "name": "Snail, Inc.",
     "short_pct_float": 0.0301,
-    "ext_price": 2.1532,
+    "ext_price": 2.1815,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -3393,7 +3393,7 @@
     "exchange": "NASDAQ",
     "name": "Gaxos.ai Inc.",
     "short_pct_float": 0.0209,
-    "ext_price": 0.4551,
+    "ext_price": 0.441,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -3550,8 +3550,8 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3799999952316284,
-   "price_label": "آخر سعر",
+   "price": 0.365,
+   "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-21",
@@ -3569,8 +3569,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3586,12 +3586,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 475218.0,
-   "price": 343.6
+   "volume": 533847.0,
+   "price": 347.725
   },
   "SNDL": {
    "volume": 725.0,
-   "price": 1.28
+   "price": 1.29
   }
  }
 }

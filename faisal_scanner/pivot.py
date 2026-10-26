@@ -301,6 +301,25 @@ def score_conditions(ctx: Ctx, rsi_lb: int, zone_low: float, zone_high: float, r
     return cond
 
 
+def file_six(conditions: dict, tags=(), rr=None) -> tuple:
+    """شروط الملف الستة حرفياً (ص82/ص85، قواعد faisal_rules.md) — 26 أكتوبر «هل متاكد من الجاهزية»:
+    1 المتوسطات، 2 RSI، 3 MACD، 4 شمعة إيجابية من الدعم أو ضغط بيع سابق (ص82/ص85)، 5 خبر/محفز إيجابي، 6 مساحة صعود
+    بدون مقاومة مباشرة فوق الدخول (ص88). الشرط متحقق إذا درجته ≥ 0.75. ترجع (عدد المتحقق، الناقص)."""
+    sc = lambda k: float((conditions.get(k) or {}).get("score", 0) if isinstance(conditions.get(k), dict)  # noqa: E731
+                         else (conditions.get(k) or (0,))[0])
+    six = {"المتوسطات": sc("ma") >= 0.75, "RSI 23–27": sc("rsi") >= 0.75, "MACD": sc("macd") >= 0.75,
+           "شمعة/ضغط بيع": max(sc("candle"), sc("pressure")) >= 0.75,
+           "خبر/محفز": any("محفز" in t for t in (tags or [])),
+           "مساحة صعود": sc("space") >= 0.75 and (rr is None or rr >= C.MIN_RR_T1)}
+    miss = [k for k, v in six.items() if not v]
+    return 6 - len(miss), miss
+
+
+def file_six_text(met: int, miss: list) -> str:
+    return (f"اكتمال الشروط الأساسية ({met} من 6 حسب الملف، المطلوب {C.MIN_FILE_CONDITIONS} — ص81) — ناقص: "
+            + "، ".join(miss))
+
+
 def total(cond: dict) -> float:
     return round(sum(v[0] for v in cond.values()), 2)
 
@@ -529,10 +548,13 @@ def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, short_pct):
     entry_ref = (entry_low + entry_high) / 2
     if entry_ref <= stop:
         return None
-    res = resistance_levels(ctx.df, max(price, entry_high), C.LOOKBACK_LEVELS, C.SWING_K, ma_vals)
+    # الدخول Limit داخل المنطقة → المقاومات تُحسب فوق منطقة الدخول، مو فوق السعر الحالي
+    # (SEV 26 أكتوبر: المنطقة 1.40–1.44 وقمم 1.45/1.47 بينها وبين السعر 1.51 كانت تُتجاهل → «جاهز» وهو تحت مقاومة مباشرة)
+    base_px = max(price, entry_high) if cd.get("breakout") else entry_high
+    res = resistance_levels(ctx.df, base_px, C.LOOKBACK_LEVELS, C.SWING_K, ma_vals)
     # مقاومة مباشرة يفوّتها تحليل القمم: قمم آخر 5 أيام (قبل شمعة الإشارة) فوق السعر ولو كانت قريبة جداً
     # (مثال SVRE/VIP: قمة أمس فوق السعر بـ 2–4% = أول هدف حقيقي، والدخول تحتها "تحت مقاومة مباشرة")
-    ref_px = max(price, entry_high) * 1.005
+    ref_px = base_px * 1.005
     # (في نماذج الاختراق W قمة ما بعد الكسر هي الهدف الطبيعي، وحماية المطاردة موجودة أصلاً)
     near = [] if cd.get("breakout") else [float(x) for x in ctx.h[-6:-1] if x > ref_px]
     if near:
@@ -561,6 +583,8 @@ def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, short_pct):
         cap = (t1[0] + C.MIN_RR_T1 * stop) / (1 + C.MIN_RR_T1)
         if s.entry_high > cap:
             s.entry_high = float(max(entry_low, cap))
+        # العائد/المخاطرة عند أعلى منطقة الدخول بعد القص: إذا حتى أسفل المنطقة ما يعطي 1.5× → المنطقة كلها تحت مقاومة مباشرة
+        rr = (t1[0] - s.entry_high) / (s.entry_high - stop) if s.entry_high > stop else 0.0
     if t1:
         s.t1, s.t1_label = float(t1[0]), t1[1]
     if t2:
@@ -651,8 +675,9 @@ def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, short_pct):
         wait.append("هدوء بعد شمعة الضخ وتكوين دعم جديد")
     if ctx.fail_at_ma20 and not cd["breakout"]:
         s.flags.append("فشل عند MA20")
-    if score < C.MIN_SCORE_READY:
-        wait.append(f"اكتمال الشروط الأساسية ({score:.1f} من 6، المطلوب {C.MIN_SCORE_READY:.1f})")
+    met, miss = file_six(s.conditions, s.tags, rr)
+    if met < C.MIN_FILE_CONDITIONS:
+        wait.append(file_six_text(met, miss))
 
     s.waiting_for = list(dict.fromkeys(wait))
     s.status = READY if not s.waiting_for else WATCH

@@ -18,8 +18,25 @@ END = pd.Timestamp("2026-10-15")
 def test_liquidity_sweep_bounce_is_ready():
     s = analyze_pivot("A", demo.scenario_bounce(END))
     assert s is not None and s.status == READY and s.setup in ("SWEEP", "BOUNCE")
-    assert s.stop < s.support_low < s.price and s.t1 > s.price
+    # الهدف الأول = أول مقاومة فوق منطقة الـ Limit (ص86–88)، والعائد له ≥ 1.5× المخاطرة من أعلى المنطقة
+    assert s.stop < s.support_low < s.price and s.t1 > s.entry_high
+    assert (s.t1 - s.entry_high) >= 1.5 * (s.entry_high - s.stop) - 1e-9
     assert s.risk_pct <= 0.12
+
+
+def test_ready_needs_four_of_the_files_six_conditions():
+    """26 أكتوبر «هل متاكد من الجاهزية»: SEV كان «جاهز» بـ 5/6 من حساب الماسح، لكنه حرفياً 3/6 —
+    ما فيه خبر، وما استعاد المتوسطات، ومنطقته تحت قمم 1.45/1.47 (مقاومة مباشرة ص88)."""
+    from faisal_scanner.pivot import file_six
+    cond = {"ma": {"score": 0.5}, "rsi": {"score": 1.0}, "macd": {"score": 1.0}, "candle": {"score": 1.0},
+            "pressure": {"score": 0.5}, "space": {"score": 1.0}}
+    met, miss = file_six(cond, [], rr=(1.45 - 1.40) / (1.40 - 1.3426))  # SEV: أسفل المنطقة 1.40 تحت قمة 1.45
+    assert met == 3 and "خبر/محفز" in miss and "مساحة صعود" in miss and "المتوسطات" in miss
+    # PETS: RSI 0.75 + MACD + ابتلاعية + مساحة 1.5× عند أعلى المنطقة بعد القص = 4 → جاهز (أغلب الإشارات ص81)
+    pets = {**cond, "ma": {"score": 0.0}, "rsi": {"score": 0.75}, "pressure": {"score": 1.0}}
+    assert file_six(pets, [], rr=1.5)[0] == 4
+    # الخبر المحفز يحتسب شرطاً (ص82 الشرط 5)
+    assert file_six(cond, ["محفز: خبر حديث"], rr=(1.45 - 1.40) / (1.40 - 1.3426))[0] == 4
 
 
 def test_w_neckline_retest_is_ready():
@@ -321,7 +338,7 @@ def test_entry_zone_capped_below_first_resistance():
     import faisal_scanner.config as C
     t1, stop = 1.32, 1.1956
     cap = (t1 + C.MIN_RR_T1 * stop) / (1 + C.MIN_RR_T1)
-    assert abs(cap - 1.2578) < 0.001
+    assert abs(cap - (1.32 + 1.5 * 1.1956) / 2.5) < 0.001  # 26 أكتوبر: 1.5× (كان 1× → 1.258)
     assert (t1 - cap) / (cap - stop) >= C.MIN_RR_T1 - 1e-9
 
 

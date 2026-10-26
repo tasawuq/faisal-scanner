@@ -87,8 +87,10 @@ def refresh_status(sig):
     if sig.kind == "pivot":
         sig.score = round(sum(v["score"] for v in sig.conditions.values()), 2)
         sig.waiting_for = [w for w in sig.waiting_for if not w.startswith("اكتمال الشروط الأساسية")]
-        if sig.score < C.MIN_SCORE_READY:
-            sig.waiting_for.append(f"اكتمال الشروط الأساسية ({sig.score:.1f} من 6، المطلوب {C.MIN_SCORE_READY:.1f})")
+        from .pivot import file_six, file_six_text
+        met, miss = file_six(sig.conditions, sig.tags, sig.rr)
+        if met < C.MIN_FILE_CONDITIONS:
+            sig.waiting_for.append(file_six_text(met, miss))
     sig.status = READY if not sig.waiting_for and sig.setup not in (
         "AT_SUPPORT", "BROKE_SUPPORT", "W_FORMING", "MA_RECLAIM", "BASE_BREAK", "MOM_ABOVE_VWAP", "MOM_EXTENDED", "MOM_BELOW_VWAP") else WATCH
 

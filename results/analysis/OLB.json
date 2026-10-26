@@ -1,11 +1,11 @@
 {
  "ticker": "OLB",
- "generated_at_et": "2026-10-26T13:01:08.862663-04:00",
+ "generated_at_et": "2026-10-26T14:01:43.526739-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 0.2789,
-  "reg_chg": -0.036282009999999996,
-  "reg_vol": 230126,
+  "reg_price": 0.2778,
+  "reg_chg": -0.04008299,
+  "reg_vol": 267492,
   "prev_close": 0.2894,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -28,24 +28,24 @@
   "lastSplitDate": 1714953600
  },
  "daily": {
-  "price": 0.2789,
-  "chg_1d": -0.0363,
+  "price": 0.2778,
+  "chg_1d": -0.0401,
   "ma": {
    "MA20": 0.3687,
    "MA30": 0.3152,
    "MA50": 0.3058
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 43.6,
-  "rsi_min15": 43.6,
+  "rsi_now": 43.5,
+  "rsi_min15": 43.5,
   "rsi_min30": 32.1,
   "macd": {
-   "line": 0.01351,
-   "signal": 0.03545,
+   "line": 0.01342,
+   "signal": 0.03543,
    "hist_last3": [
     -0.01114,
     -0.01771,
-    -0.02194
+    -0.02201
    ],
    "state": "سلبي"
   },
@@ -68,18 +68,18 @@
     "lower_wick": "False",
     "strong_green": "False",
     "upper_wick_ratio": 0.16867562890033105,
-    "close_pos": 0.09638530423479903,
+    "close_pos": 0.03012007095101651,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.0849,
   "avg_vol20": 75834080,
-  "last_vol": 231396,
-  "drawdown_90d": 0.623,
+  "last_vol": 270680,
+  "drawdown_90d": 0.625,
   "high_90d": 0.74,
   "low_10d": 0.2765,
-  "gain_from_low10": 0.009,
+  "gain_from_low10": 0.005,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": false,
@@ -318,16 +318,18 @@
     "o": 0.2911,
     "h": 0.2939,
     "l": 0.2773,
-    "c": 0.2789,
-    "v": 231396,
-    "rsi": 43.6,
-    "hist": -0.02194
+    "c": 0.2778,
+    "v": 270680,
+    "rsi": 43.5,
+    "hist": -0.02201
    }
   ]
  },
  "levels_map": {
-  "price": 0.2789,
-  "at_price": [],
+  "price": 0.2778,
+  "at_price": [
+   "قاع يوم 2026-10-26"
+  ],
   "above": [
    {
     "level": 0.2811,
@@ -372,9 +374,9 @@
   ],
   "below": [
    {
-    "level": 0.2773,
-    "why": "قاع يوم 2026-10-26 + قاع يوم 2026-10-23 + إغلاقات سابقة متجمعة (4)",
-    "confluence": 3
+    "level": 0.2765,
+    "why": "قاع يوم 2026-10-23 + إغلاقات سابقة متجمعة (4)",
+    "confluence": 2
    },
    {
     "level": 0.27,

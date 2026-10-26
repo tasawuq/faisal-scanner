@@ -1,4 +1,4 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-10-26T05:05 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-10-26T06:08 نيويورك
 
 كل الأسهم هنا **غير جاهزة للدخول الآن — متابعة فقط** (تغريدة فيصل ص54). الدخول بأوامر Limit من تحت عند الشرط.
 
@@ -12,9 +12,9 @@
 - ⚠️ شمعة ضخ/تصريف قبل 21 يوم (طار إلى 3.12 وأغلق 1.99 بفوليوم 202x)، سهم طبي — الخبر قد يغير الاتجاه، تقسيم عكسي حديث 1:6 (2026-06-30)، صعد في البري إلى 1.2 بعيداً عن منطقة الطلب
 
 ## $VJET — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 0.71 (بري/أفتر 0.708) | ارتداد مؤكد من الدعم
+- السعر 0.71 (بري/أفتر 0.7) | ارتداد مؤكد من الدعم
 - البيانات: فلووت 1.18M — شورت 1.2% من الفلووت — تقسيم عكسي حديث 1:10 (2026-10-05) — Former Runner (سبق انفجر +145% في يوم) — هبط 96% من قمة 90 يوم، أدنى RSI 25.3
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.66 | منطقة الطلب (Limit) 0.66–0.6866 | منطقة الغسل 0.561–0.594 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.73 | الأهداف 0.73 / 0.98 | الوقف: تحت 0.6468 لدخول منطقة الطلب، وتحت 0.5442 لدخول الغسل
 - غير جاهز لأن: شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)
 - يصير جاهز: نزول لمنطقة الطلب 0.66–0.687 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.561–0.594 ثم استرداد 0.66 (ص17، ص86)
@@ -23,14 +23,14 @@
 ## $BRNX — فلووت منخفض جداً / قاع نظيف
 - السعر 0.773 (بري/أفتر 0.8258) | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: فلووت 0.35M — شورت 1.7% من الفلووت — تقسيم عكسي حديث 1:6 (2026-08-13) — Former Runner (سبق انفجر +66% في يوم) — هبط 92% من قمة 90 يوم، أدنى RSI 25.5
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.763 | منطقة الطلب (Limit) 0.8–0.8014 | منطقة الغسل 0.68–0.72 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.855 | الأهداف 0.855 / 0.939 | الوقف: تحت 0.7477 لدخول منطقة الطلب، وتحت 0.6596 لدخول الغسل
 - غير جاهز لأن: استرداد الدعم 0.80 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة؛ الدخول تحت مقاومة مباشرة (0.86) — انتظر اختراقها والثبات
 - يصير جاهز: استرداد 0.8 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.68–0.72
 - ⚠️ تقسيم عكسي حديث 1:6 (2026-08-13)
 
 ## $FBGL — فلووت منخفض جداً / قاع نظيف
-- السعر 2.25 (بري/أفتر 2.25) | سحب سيولة ثم استرداد الدعم
+- السعر 2.25 (بري/أفتر 2.2) | سحب سيولة ثم استرداد الدعم
 - البيانات: فلووت 0.66M — شورت 4.3% من الفلووت — تقسيم عكسي حديث 1:10 (2026-09-28) — Former Runner (سبق انفجر +57% في يوم) — هبط 65% من قمة 90 يوم، أدنى RSI 27.9
 - الأخبار: FBS Global Limited Prices Initial Public Offering at $4.50 per Share, Raising $10.1 Million (Feb 6, 2025)
 - القاع 2.04 | منطقة الطلب (Limit) 2.2–2.2 | منطقة الغسل 1.87–1.98 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 2.33 | الأهداف 2.33 / 2.7 | الوقف: تحت 1.999 لدخول منطقة الطلب، وتحت 1.814 لدخول الغسل
@@ -41,7 +41,7 @@
 ## $LGHL — قاع نظيف
 - السعر 2.48 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: فلووت 0.05M — شورت 12.4% من الفلووت — تقسيم عكسي حديث 1:20 (2026-09-10) — Former Runner (سبق انفجر +169% في يوم) — هبط 98% من قمة 90 يوم، أدنى RSI 25.9
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 2.3 | منطقة الطلب (Limit) 2.3–2.323 | منطقة الغسل 1.955–2.07 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 2.56 | الأهداف 2.56 / 2.72 | الوقف: تحت 2.254 لدخول منطقة الطلب، وتحت 1.896 لدخول الغسل
 - غير جاهز لأن: شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 2.30 ثم استرداد
 - يصير جاهز: نزول لمنطقة الطلب 2.3–2.32 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.95–2.07 ثم استرداد 2.3 (ص17، ص86)
@@ -281,7 +281,7 @@
 ## $NCT — صيني عالي التذبذب ⚠️ / قاع نظيف
 - السعر 1.26 | سحب سيولة ثم استرداد الدعم
 - البيانات: فلووت 1.02M — شورت 3.6% من الفلووت — تقسيم عكسي حديث 1:25 (2026-09-17) — Former Runner (سبق انفجر +142% في يوم) — هبط 99% من قمة 90 يوم، أدنى RSI 22.5
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 1.22 | منطقة الطلب (Limit) 1.25–1.26 | منطقة الغسل 1.062–1.125 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 1.37 | الأهداف 1.37 / 1.41 | الوقف: تحت 1.196 لدخول منطقة الطلب، وتحت 1.031 لدخول الغسل
 - غير جاهز لأن: إغلاق وثبات فوق 1.25 بعد سحب السيولة؛ تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)
 - يصير جاهز: نزول لمنطقة الطلب 1.25–1.26 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 1.06–1.12 ثم استرداد 1.25 (ص17، ص86)
@@ -290,7 +290,7 @@
 ## $AGRZ — فلووت منخفض جداً / قاع نظيف
 - السعر 2.89 | ارتداد مؤكد من الدعم
 - البيانات: فلووت 0.46M — شورت 2.4% من الفلووت — تقسيم عكسي حديث 1:20 (2026-09-29) — Former Runner (سبق انفجر +195% في يوم) — هبط 78% من قمة 90 يوم، أدنى RSI 33.9
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 2.712 | منطقة الطلب (Limit) 2.712–2.794 | منطقة الغسل 2.305–2.441 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 2.93 | الأهداف 2.93 / 3.17 | الوقف: تحت 2.658 لدخول منطقة الطلب، وتحت 2.236 لدخول الغسل
 - غير جاهز لأن: ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)؛ شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)
 - يصير جاهز: نزول لمنطقة الطلب 2.71–2.79 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 2.31–2.44 ثم استرداد 2.71 (ص17، ص86)
@@ -326,7 +326,7 @@
 ## $RCON — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
 - السعر 0.9 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: فلووت 0.35M — شورت 12.1% من الفلووت — تقسيم عكسي حديث 1:200 (2026-08-18) — Former Runner (سبق انفجر +61% في يوم) — هبط 99% من قمة 90 يوم، أدنى RSI 20.4
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.88 | منطقة الطلب (Limit) 0.88–0.9 | منطقة الغسل 0.748–0.792 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.99 | الأهداف 0.99 / 1.08 | الوقف: تحت 0.8624 لدخول منطقة الطلب، وتحت 0.7256 لدخول الغسل
 - غير جاهز لأن: شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.88 ثم استرداد؛ تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)
 - يصير جاهز: نزول لمنطقة الطلب 0.88–0.9 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.748–0.792 ثم استرداد 0.88 (ص17، ص86)
@@ -388,7 +388,7 @@
 ## $GYGY — طرح جديد/تاريخ قصير / فلووت منخفض جداً / قاع نظيف
 - السعر 0.37 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: فلووت 4.41M — Former Runner (سبق انفجر +131% في يوم) — هبط 99% من قمة 90 يوم، أدنى RSI 5.1
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.37 | منطقة الطلب (Limit) 0.37–0.3737 | منطقة الغسل 0.3145–0.333 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.4 | الأهداف 0.4 / 0.43 | الوقف: تحت 0.3626 لدخول منطقة الطلب، وتحت 0.3051 لدخول الغسل
 - غير جاهز لأن: شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.37 ثم استرداد؛ تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)
 - يصير جاهز: نزول لمنطقة الطلب 0.37–0.374 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.315–0.333 ثم استرداد 0.37 (ص17، ص86)
@@ -473,13 +473,13 @@
 - يصير جاهز: استرداد 1.26 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 1.19–1.22
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه
 
-## $PETS — طبي — الخبر يحرّكه / قاع نظيف
+## $PETS — قاع نظيف
 - السعر 1.22 | ارتداد مؤكد من الدعم
 - البيانات: فلووت 13.26M — شورت 4.3% من الفلووت — Former Runner (سبق انفجر +129% في يوم) — هبط 48% من قمة 90 يوم، أدنى RSI 14.7
 - الأخبار: PetMeds Appoints Tamar Elkeles As Independent Director (Sep 22, 2026) | PetMeds CEO Transition: Jeff Willard To Succeed Leslie Campbell (Sep 17, 2026)
 - القاع 1.15 | منطقة الطلب (Limit) 1.15–1.196 | منطقة الغسل 0.9775–1.035 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 1.273 | الأهداف 1.273 / 1.38 | الوقف: تحت 1.127 لدخول منطقة الطلب، وتحت 0.9482 لدخول الغسل
 - يصير جاهز: نزول لمنطقة الطلب 1.15–1.2 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.977–1.03 ثم استرداد 1.15 (ص17، ص86)
-- ⚠️ فشل عند MA20، سهم طبي — الخبر قد يغير الاتجاه
+- ⚠️ فشل عند MA20
 
 ## $CVV — قاع نظيف
 - السعر 3.79 (بري/أفتر 3.9) | ارتكاز عند الدعم — بانتظار التأكيد
@@ -502,7 +502,7 @@
 ## $SLGB — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
 - السعر 0.22 (بري/أفتر 0.2251) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: فلووت 4.78M — شورت 2.9% من الفلووت — Former Runner (سبق انفجر +227% في يوم) — هبط 82% من قمة 90 يوم، أدنى RSI 27.7
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.202 | منطقة الطلب (Limit) 0.202–0.204 | منطقة الغسل 0.1717–0.1818 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.223 | الأهداف 0.223 / 0.234 | الوقف: تحت 0.198 لدخول منطقة الطلب، وتحت 0.1665 لدخول الغسل
 - غير جاهز لأن: شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.20 ثم استرداد؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)
 - يصير جاهز: نزول لمنطقة الطلب 0.202–0.204 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.172–0.182 ثم استرداد 0.202 (ص17، ص86)
@@ -590,7 +590,7 @@
 ## $LSTA — طبي — الخبر يحرّكه / نموذج W
 - السعر 1 | نموذج W قيد التكوين
 - البيانات: فلووت 6.76M — شورت 0.4% من الفلووت — Former Runner (سبق انفجر +93% في يوم) — هبط 74% من قمة 90 يوم، أدنى RSI 31.5
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.96 | منطقة الطلب (Limit) 0.96–0.98 | منطقة الغسل 0.816–0.864 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 1.15 | الأهداف 1.28 / 1.401 | الوقف: تحت 0.9408 لدخول منطقة الطلب، وتحت 0.7915 لدخول الغسل
 - غير جاهز لأن: كسر خط العنق 1.15 والثبات فوقه أكثر من ربع ساعة؛ ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 32)
 - يصير جاهز: من تحت: شمعة ارتداد عند القاع الثاني 0.96؛ أو كسر خط العنق 1.15 والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)
@@ -599,16 +599,16 @@
 ## $TGHL — ارتكاز
 - السعر 0.551 (بري/أفتر 0.551) | سحب سيولة ثم استرداد الدعم
 - البيانات: فلووت 12.72M — شورت 0.5% من الفلووت — Former Runner (سبق انفجر +613% في يوم) — هبط 68% من قمة 90 يوم، أدنى RSI 24.9
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.482 | منطقة الطلب (Limit) 0.53–0.5395 | منطقة الغسل 0.4772–0.4916 (قاع سابق تحت الدعم) | المستوى الفاصل 0.589 | الأهداف 0.589 / 0.597 | الوقف: تحت 0.49 لدخول منطقة الطلب، وتحت 0.4629 لدخول الغسل
 - غير جاهز لأن: تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع؛ الدخول تحت مقاومة مباشرة (0.59) — انتظر اختراقها والثبات
 - يصير جاهز: نزول لمنطقة الطلب 0.53–0.539 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.477–0.492 ثم استرداد 0.53 (ص17، ص86)
 - ⚠️ سيولة ضعيفة: متوسط الفوليوم 96.7K أقل من 100K (فلتر الملف ص6) — مراقبة فقط
 
 ## $CYAB — طرح جديد/تاريخ قصير / قاع نظيف
-- السعر 0.14 (بري/أفتر 0.1362) | سحب سيولة ثم استرداد الدعم
+- السعر 0.14 (بري/أفتر 0.14) | سحب سيولة ثم استرداد الدعم
 - البيانات: فلووت 5.38M — Former Runner (سبق انفجر +103% في يوم) — هبط 78% من قمة 90 يوم، أدنى RSI 27.8
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.13 | منطقة الطلب (Limit) 0.14–0.14 | منطقة الغسل 0.119–0.126 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.15 | الأهداف 0.15 / 0.17 | الوقف: تحت 0.1274 لدخول منطقة الطلب، وتحت 0.1154 لدخول الغسل
 - غير جاهز لأن: سعر يتحرك بتكات كبيرة — الشموع والمؤشرات غير موثوقة على هذا السهم؛ شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)
 - يصير جاهز: نزول لمنطقة الطلب 0.14–0.14 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.119–0.126 ثم استرداد 0.14 (ص17، ص86)
@@ -688,7 +688,7 @@
 ## $RMSG — ارتكاز
 - السعر 0.242 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: فلووت 9.83M — شورت 15.8% من الفلووت — Former Runner (سبق انفجر +481% في يوم) — هبط 64% من قمة 90 يوم، أدنى RSI 34.0
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.24 | منطقة الطلب (Limit) 0.251–0.2557 | منطقة الغسل 0.2376–0.2448 (قاع سابق تحت الدعم) | المستوى الفاصل 0.2761 | الأهداف 0.2761 / 0.31 | الوقف: تحت 0.2352 لدخول منطقة الطلب، وتحت 0.2305 لدخول الغسل
 - غير جاهز لأن: استرداد الدعم 0.25 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة؛ ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)
 - يصير جاهز: استرداد 0.251 والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند 0.238–0.245
@@ -697,7 +697,7 @@
 ## $GCDT — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
 - السعر 0.176 | ارتداد مؤكد من الدعم
 - البيانات: فلووت 1.33M — شورت 76.5% من الفلووت — تقسيم عكسي حديث 1:6 (2026-10-07) — Former Runner (سبق انفجر +213% في يوم) — هبط 98% من قمة 90 يوم، أدنى RSI 30.5
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.161 | منطقة الطلب (Limit) 0.161–0.1675 | منطقة الغسل 0.1368–0.1449 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.185 | الأهداف 0.185 / 0.257 | الوقف: تحت 0.1578 لدخول منطقة الطلب، وتحت 0.1327 لدخول الغسل
 - غير جاهز لأن: ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 30)؛ تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع
 - يصير جاهز: نزول لمنطقة الطلب 0.161–0.167 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.137–0.145 ثم استرداد 0.161 (ص17، ص86)
@@ -722,7 +722,7 @@
 - ⚠️ فشل عند MA20، سعر منخفض جداً — سبريد واسع
 
 ## $NIXX — بعد ارتداد أول — ينتظر Retest
-- السعر 0.3019 (بري/أفتر 0.2756) | سحب سيولة ثم استرداد الدعم
+- السعر 0.3019 (بري/أفتر 0.276) | سحب سيولة ثم استرداد الدعم
 - البيانات: فلووت 18.78M — شورت 0.4% من الفلووت — Former Runner (سبق انفجر +41% في يوم) — هبط 83% من قمة 90 يوم، أدنى RSI 16.0
 - الأخبار: Nixxy, Inc. Appoints Robert Reda to Board of Directors on October 19, 2026 (Oct 23, 2026)
 - القاع 0.1716 | منطقة الطلب (Limit) 0.2749–0.286 | منطقة الغسل 0.2337–0.2474 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.3195 | الأهداف 0.3195 / 0.34 | الوقف: تحت 0.2558 لدخول منطقة الطلب، وتحت 0.2267 لدخول الغسل
@@ -731,7 +731,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 6 يوم (طار إلى 0.294 وأغلق 0.245 بفوليوم 6x)، سعر منخفض جداً — سبريد واسع
 
 ## $ALDX — طبي — الخبر يحرّكه / قاع نظيف
-- السعر 0.65 (بري/أفتر 0.6572) | سحب سيولة ثم استرداد الدعم
+- السعر 0.65 (بري/أفتر 0.66) | سحب سيولة ثم استرداد الدعم
 - البيانات: فلووت 48.95M — شورت 5.9% من الفلووت — Former Runner (سبق انفجر +36% في يوم) — هبط 74% من قمة 90 يوم، أدنى RSI 21.4
 - الأخبار: RARE's Fayuvi Approval Spurs Second PRV Sale Worth $203M in a Week (Oct 15, 2026) | Here's Why You Should Add ANRO Stock to Your Portfolio Now (Oct 14, 2026)
 - القاع 0.604 | منطقة الطلب (Limit) 0.65–0.65 | منطقة الغسل 0.5525–0.585 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.72 | الأهداف 0.72 / 0.738 | الوقف: تحت 0.5919 لدخول منطقة الطلب، وتحت 0.5359 لدخول الغسل
@@ -785,13 +785,13 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه
 
 ## $CCTG — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
-- السعر 0.358 (بري/أفتر 0.375) | سحب سيولة ثم استرداد الدعم
+- السعر 0.358 (بري/أفتر 0.3481) | سحب سيولة ثم استرداد الدعم
 - البيانات: فلووت 3.39M — شورت 0.1% من الفلووت — Former Runner (سبق انفجر +1077% في يوم) — هبط 74% من قمة 90 يوم، أدنى RSI 28.5
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.311 | منطقة الطلب (Limit) 0.353–0.3541 | منطقة الغسل 0.3079–0.3172 (قاع سابق تحت الدعم) | المستوى الفاصل 0.372 | الأهداف 0.372 / 0.386 | الوقف: تحت 0.3361 لدخول منطقة الطلب، وتحت 0.2987 لدخول الغسل
 - غير جاهز لأن: ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 28)؛ تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع
 - يصير جاهز: نزول لمنطقة الطلب 0.353–0.354 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.308–0.317 ثم استرداد 0.353 (ص17، ص86)
-- ⚠️ سهم صيني عالي التذبذب، سعر منخفض جداً — سبريد واسع، صعد في البري إلى 0.375 بعيداً عن منطقة الطلب
+- ⚠️ سهم صيني عالي التذبذب، سعر منخفض جداً — سبريد واسع
 
 ## $RKTO — طبي — الخبر يحرّكه / قاع نظيف
 - السعر 0.548 | ارتكاز عند الدعم — بانتظار التأكيد
@@ -911,7 +911,7 @@
 - ⚠️ سيولة ضعيفة: متوسط الفوليوم 51.3K أقل من 100K (فلتر الملف ص6) — مراقبة فقط، بيانات الفلووت غير موثوقة — تحقق يدوياً، سهم صيني عالي التذبذب، سهم طبي — الخبر قد يغير الاتجاه
 
 ## $TENX — طبي — الخبر يحرّكه
-- السعر 1.72 (بري/أفتر 1.72) | ارتداد مؤكد من الدعم
+- السعر 1.72 (بري/أفتر 1.721) | ارتداد مؤكد من الدعم
 - البيانات: فلووت 29.86M — شورت 19.4% من الفلووت — Former Runner (سبق انفجر +34% في يوم) — هبط 91% من قمة 90 يوم، أدنى RSI 22.1
 - الأخبار: Monday 9/21 Insider Buying Report: TH, TENX (Sep 21, 2026) | Tenax's Phase 3 Study For TNX-103 Fails To Meet Primary Endpoint; Shows Success In Other Measures (Aug 30, 2026)
 - القاع 1.31 | منطقة الطلب (Limit) 1.59–1.654 | منطقة الغسل 1.346–1.387 (قاع سابق تحت الدعم) | المستوى الفاصل 1.79 | الأهداف 1.79 / 1.844 | الوقف: تحت 1.558 لدخول منطقة الطلب، وتحت 1.306 لدخول الغسل
@@ -1067,7 +1067,7 @@
 - يصير جاهز: 🚩 رجوع لاختبار 0.98 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)
 
 ## $SURG — 🚩 علم/اختراق بعد قاعدة
-- السعر 0.13 (بري/أفتر 0.1347) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 0.13 (بري/أفتر 0.1374) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: فلووت 43.65M — شورت 7.1% من الفلووت — Former Runner (سبق انفجر +77% في يوم) — هبط 81% من قمة 90 يوم، أدنى RSI 30.4
 - الأخبار: SurgePays, Inc. (SURG) Q2 Earnings and Revenues Surpass Estimates (Aug 14, 2026) | Blink Charging (BLNK) Reports Q2 Loss, Lags Revenue Estimates (Aug 6, 2026)
 - القاع 0.114 | منطقة الطلب (Limit) 0.13–0.13 | منطقة الغسل 0.1139–0.1173 (قاع سابق تحت الدعم) | المستوى الفاصل 0.1363 | الأهداف 0.1363 / 0.1418 | الوقف: تحت 0.1196 لدخول منطقة الطلب، وتحت 0.1104 لدخول الغسل
@@ -1078,7 +1078,7 @@
 ## $BAOS — صيني عالي التذبذب ⚠️ / قاع نظيف
 - السعر 0.166 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: فلووت 31.36M — شورت 1.8% من الفلووت — Former Runner (سبق انفجر +67% في يوم) — هبط 94% من قمة 90 يوم، أدنى RSI 22.4
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.16 | منطقة الطلب (Limit) 0.16–0.1616 | منطقة الغسل 0.136–0.144 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.177 | الأهداف 0.177 / 0.2125 | الوقف: تحت 0.1568 لدخول منطقة الطلب، وتحت 0.1319 لدخول الغسل
 - غير جاهز لأن: شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.16 ثم استرداد؛ تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)
 - يصير جاهز: نزول لمنطقة الطلب 0.16–0.162 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.136–0.144 ثم استرداد 0.16 (ص17، ص86)
@@ -1087,7 +1087,7 @@
 ## $GSUN — صيني عالي التذبذب ⚠️ / قاع نظيف
 - السعر 0.185 | ارتداد مؤكد من الدعم
 - البيانات: فلووت 9.37M — شورت 7.9% من الفلووت — Former Runner (سبق انفجر +109% في يوم) — هبط 72% من قمة 90 يوم، أدنى RSI 34.4
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.17 | منطقة الطلب (Limit) 0.17–0.1772 | منطقة الغسل 0.1445–0.153 (10–15% تحت الدعم (ص54)) | المستوى الفاصل 0.193 | الأهداف 0.193 / 0.205 | الوقف: تحت 0.1666 لدخول منطقة الطلب، وتحت 0.1402 لدخول الغسل
 - غير جاهز لأن: ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 34)؛ شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)
 - يصير جاهز: نزول لمنطقة الطلب 0.17–0.177 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.145–0.153 ثم استرداد 0.17 (ص17، ص86)
@@ -1096,7 +1096,7 @@
 ## $LIDR — 🚩 علم/اختراق بعد قاعدة
 - السعر 0.991 | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
 - البيانات: فلووت 44.96M — شورت 5.7% من الفلووت — Former Runner (سبق انفجر +80% في يوم) — هبط 40% من قمة 90 يوم، أدنى RSI 18.7
-- الأخبار: An EV Business Revival and Potential SpaceX Merger: Is Tesla Stock a Buy? (Oct 26, 2026) | Elon Musk and SpaceX Just Delivered Incredible News to Nvidia That Could Help the Stock Double in the Next Year (Oct 26, 2026)
+- الأخبار: Amgen And AstraZeneca's IMDELLTRA Plus IMFINZI Cuts Death Risk By 58% In Small Cell Lung Cancer (Oct 26, 2026) | BioNTech, DualityBio Breast Cancer Drug Meets Phase 3 Trial Goal But Shows Higher Lung Disease Rate (Oct 26, 2026)
 - القاع 0.81 | منطقة الطلب (Limit) 0.91–0.9373 | منطقة الغسل 0.8019–0.8262 (قاع سابق تحت الدعم) | المستوى الفاصل 1.03 | الأهداف 1.03 / 1.078 | الوقف: تحت 0.865 لدخول منطقة الطلب، وتحت 0.7778 لدخول الغسل
 - غير جاهز لأن: اخترق المقاومة القريبة 0.91 — انتظر رجوعه لاختبارها والثبات فوقها (لا تشتري الاختراق، ص20)؛ اكتمال الشروط الأساسية (4.2 من 6، المطلوب 4.5)
 - يصير جاهز: 🚩 رجوع لاختبار 0.91 والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)

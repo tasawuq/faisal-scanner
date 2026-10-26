@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T22:30:03.417119+00:00",
- "generated_at_et": "2026-10-26T18:30:03.417119-04:00",
+ "generated_at_utc": "2026-10-26T22:40:03.417245+00:00",
+ "generated_at_et": "2026-10-26T18:40:03.417245-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -258,7 +258,7 @@
     "market_cap": 29315236,
     "exchange": "NASDAQ",
     "name": "BioStem Technologies, Inc.",
-    "ext_price": 1.521,
+    "ext_price": 1.53,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -690,7 +690,7 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.6523,
+    "ext_price": 0.64,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -755,11 +755,13 @@
     "فوليوم أعلى عند الاختراق (الاختراق بدون فوليوم ضعيف — ص19)",
     "الدخول تحت مقاومة مباشرة (0.70) — انتظر اختراقها والثبات",
     "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم",
+    "السعر في الأفتر 0.607 تحت الوقف — الدعم مكسور حالياً",
     "اكتمال الشروط الأساسية (3 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: RSI 23–27، خبر/محفز، مساحة صعود"
    ],
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 64.0K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سهم صيني عالي التذبذب"
+    "سهم صيني عالي التذبذب",
+    "نزل في الأفتر تحت الوقف (0.607)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +59% في يوم)",
@@ -778,7 +780,7 @@
     "exchange": "NASDAQ",
     "name": "Gamehaus Holdings Inc.",
     "short_pct_float": 0.0046,
-    "ext_price": 0.6535,
+    "ext_price": 0.6066,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -949,7 +951,7 @@
     "exchange": "NASDAQ",
     "name": "Lipocine Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 1.44,
+    "ext_price": 1.41,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1778,7 +1780,7 @@
     "exchange": "NASDAQ",
     "name": "Zhengye Biotechnology Holding Limited",
     "short_pct_float": 0.0025,
-    "ext_price": 1.44,
+    "ext_price": 1.41,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2112,7 +2114,7 @@
     "exchange": "NASDAQ",
     "name": "Linkhome Holdings Inc.",
     "short_pct_float": 0.0305,
-    "ext_price": 1.04,
+    "ext_price": 0.9505,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2283,7 +2285,7 @@
     "market_cap": 6962481.0,
     "exchange": "AMEX",
     "name": "Reed's Inc. Common Stock",
-    "ext_price": 0.6117,
+    "ext_price": 0.6118,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2536,7 +2538,7 @@
     "market_cap": 2412094.0,
     "exchange": "NASDAQ",
     "name": "Akanda Corp. Common Shares",
-    "ext_price": 1.0607,
+    "ext_price": 1.0699,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2708,7 +2710,7 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.3367,
+    "ext_price": 0.3439,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2792,7 +2794,7 @@
     "market_cap": 3747414,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.138,
+    "ext_price": 0.1362,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3127,7 +3129,7 @@
     "exchange": "NASDAQ",
     "name": "IceCure Medical Ltd",
     "short_pct_float": 0.0148,
-    "ext_price": 1.03,
+    "ext_price": 1.0363,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3552,7 +3554,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3926,
+   "price": 0.45,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3571,8 +3573,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

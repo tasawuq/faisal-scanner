@@ -1,11 +1,11 @@
 {
  "ticker": "MRKR",
- "generated_at_et": "2026-10-26T11:02:00.965088-04:00",
+ "generated_at_et": "2026-10-26T12:01:23.690172-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 0.9002,
-  "reg_chg": -0.06238932,
-  "reg_vol": 79726,
+  "reg_price": 0.9,
+  "reg_chg": -0.06259767,
+  "reg_vol": 124912,
   "prev_close": 0.9601,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -18,7 +18,7 @@
  "fund": {
   "floatShares": 13743992,
   "sharesOutstanding": 16673127,
-  "marketCap": 16007869,
+  "marketCap": 15005814,
   "shortPercentOfFloat": 0.0125,
   "longName": "Marker Therapeutics, Inc.",
   "country": "United States",
@@ -28,24 +28,24 @@
   "lastSplitDate": 1674777600
  },
  "daily": {
-  "price": 0.9002,
-  "chg_1d": -0.0623,
+  "price": 0.9,
+  "chg_1d": -0.0625,
   "ma": {
    "MA20": 1.025,
    "MA30": 1.0767,
    "MA50": 1.1624
   },
   "ma_state": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
-  "rsi_now": 38.4,
+  "rsi_now": 38.3,
   "rsi_min15": 30.1,
   "rsi_min30": 30.1,
   "macd": {
-   "line": -0.03843,
+   "line": -0.03845,
    "signal": -0.04047,
    "hist_last3": [
     0.02196,
     0.01223,
-    0.00204
+    0.00203
    ],
    "state": "إيجابي (الخط فوق الإشارة)"
   },
@@ -68,14 +68,14 @@
     "lower_wick": "False",
     "strong_green": "False",
     "upper_wick_ratio": 0.569201784423639,
-    "close_pos": 0.12842907919355348,
+    "close_pos": 0.12718198928676935,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.1122,
   "avg_vol20": 182835,
-  "last_vol": 81719,
+  "last_vol": 125882,
   "drawdown_90d": 0.477,
   "high_90d": 1.72,
   "low_10d": 0.8796,
@@ -304,19 +304,19 @@
     "o": 0.9487,
     "h": 1.04,
     "l": 0.8796,
-    "c": 0.9002,
-    "v": 81719,
-    "rsi": 38.4,
-    "hist": 0.00204
+    "c": 0.9,
+    "v": 125882,
+    "rsi": 38.3,
+    "hist": 0.00203
    }
   ]
  },
  "levels_map": {
-  "price": 0.9002,
+  "price": 0.9,
   "at_price": [],
   "above": [
    {
-    "level": 0.9172,
+    "level": 0.9098,
     "why": "فواب جلسة 2026-10-26",
     "confluence": 1
    },
@@ -370,7 +370,7 @@
   "status": "WATCH",
   "setup": "AT_SUPPORT",
   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-  "price": 0.9002000093460083,
+  "price": 0.8999999761581421,
   "score": 2.75,
   "conditions": {
    "ma": {
@@ -405,13 +405,13 @@
   "stop": 0.8623999953269958,
   "entry_low": 0.8799999952316284,
   "entry_high": 0.8887999951839447,
-  "t1": 1.025009995698929,
+  "t1": 1.0249999940395356,
   "t1_label": "MA20 + رأس شمعة هابطة",
   "t2": 1.0700000524520874,
   "t2_label": "رأس شمعة هابطة + MA30",
   "rr": 5.16,
   "risk_pct": 0.0249,
-  "rsi_now": 38.4,
+  "rsi_now": 38.3,
   "rsi_min": 30.1,
   "ma_state": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
   "macd_state": "إيجابي (الخط فوق الإشارة)",
@@ -436,7 +436,7 @@
    "فلووت أقل من 20M",
    "قاع الفترة (قاع تاريخي/سنوي)"
   ],
-  "rank": 1.6352271919100243,
+  "rank": 1.636363744119968,
   "meta": {
    "avg_volume": 182835.0,
    "drawdown": 0.477,
@@ -444,7 +444,7 @@
    "gain_from_low10": 0.023,
    "higher_lows": "False",
    "float": 13743992,
-   "market_cap": 16007869,
+   "market_cap": 15005814,
    "exchange": "",
    "name": "Marker Therapeutics, Inc.",
    "short_pct_float": 0.0125

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T08:35:33.444798+00:00",
- "generated_at_et": "2026-10-26T04:35:33.444798-04:00",
+ "generated_at_utc": "2026-10-26T08:45:33.444954+00:00",
+ "generated_at_et": "2026-10-26T04:45:33.444954-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -926,7 +926,10 @@
     "market_cap": 64369136,
     "exchange": "NASDAQ",
     "name": "Tenax Therapeutics, Inc.",
-    "short_pct_float": 0.1935
+    "short_pct_float": 0.1935,
+    "ext_price": 1.72,
+    "ext_chg": -0.022727272727272707,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1254,8 +1257,8 @@
     "market_cap": 3747414,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.1383,
-    "ext_chg": 0.0094891036,
+    "ext_price": 0.1362,
+    "ext_chg": -0.005839406,
     "ext_session": "pre"
    },
    "news": []
@@ -1752,8 +1755,8 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.65,
-    "ext_chg": -0.035087755,
+    "ext_price": 1.66,
+    "ext_chg": -0.034883757,
     "ext_session": "pre"
    },
    "news": []
@@ -1991,7 +1994,7 @@
    ],
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 54.6K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "صعد في البري إلى 3.92 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 3.9 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2010,8 +2013,8 @@
     "exchange": "NASDAQ",
     "name": "CVD Equipment Corporation",
     "short_pct_float": 0.026800001,
-    "ext_price": 3.92,
-    "ext_chg": 0.02887139107611536,
+    "ext_price": 3.9,
+    "ext_chg": 0.023622047244094446,
     "ext_session": "pre"
    },
    "news": []
@@ -2767,8 +2770,8 @@
     "exchange": "NASDAQ",
     "name": "DarkHorse Technologies Inc.",
     "short_pct_float": 0.0049,
-    "ext_price": 1.95,
-    "ext_chg": 0.010362694300518172,
+    "ext_price": 2.04,
+    "ext_chg": 0.05699481865284972,
     "ext_session": "pre"
    },
    "news": []
@@ -2830,11 +2833,13 @@
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 28)",
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "الدخول تحت مقاومة مباشرة (0.37) — انتظر اختراقها والثبات"
+    "الدخول تحت مقاومة مباشرة (0.37) — انتظر اختراقها والثبات",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.375 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -2853,8 +2858,8 @@
     "exchange": "NASDAQ",
     "name": "CCSC Technology International Holdings Limited",
     "short_pct_float": 0.0013,
-    "ext_price": 0.347,
-    "ext_chg": -0.06695348211884922,
+    "ext_price": 0.375,
+    "ext_chg": 0.008335574079053387,
     "ext_session": "pre"
    },
    "news": []
@@ -3019,8 +3024,8 @@
     "exchange": "NASDAQ",
     "name": "Snail, Inc.",
     "short_pct_float": 0.0301,
-    "ext_price": 2.22,
-    "ext_chg": -0.004484304932735328,
+    "ext_price": 2.14,
+    "ext_chg": -0.04035874439461873,
     "ext_session": "pre"
    },
    "news": []
@@ -3356,8 +3361,8 @@
     "exchange": "NASDAQ",
     "name": "Zhengye Biotechnology Holding Limited",
     "short_pct_float": 0.0025,
-    "ext_price": 1.48,
-    "ext_chg": -0.013333321,
+    "ext_price": 1.4705,
+    "ext_chg": -0.019666672,
     "ext_session": "pre"
    },
    "news": []
@@ -3647,7 +3652,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.7163,
+   "price": 2.71,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3717,8 +3722,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 153268.0,
-   "price": 344.465
+   "volume": 196584.0,
+   "price": 343.8
   },
   "SNDL": {
    "volume": 5.0,

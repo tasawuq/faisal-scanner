@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T21:40:03.416443+00:00",
- "generated_at_et": "2026-10-26T17:40:03.416443-04:00",
+ "generated_at_utc": "2026-10-26T21:50:03.416580+00:00",
+ "generated_at_et": "2026-10-26T17:50:03.416580-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -17,7 +17,7 @@
   "ready": 1,
   "watch": 128,
   "momentum": 0,
-  "ext_quotes": 66,
+  "ext_quotes": 61,
   "ext_movers_5pct": 0
  },
  "ready": [
@@ -95,7 +95,7 @@
     "exchange": "AMEX",
     "name": "Titan Mining Corporation",
     "ext_price": 1.95,
-    "ext_chg": 0.0,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -175,8 +175,8 @@
     "exchange": "NASDAQ",
     "name": "Intellicheck, Inc.",
     "short_pct_float": 0.0717,
-    "ext_price": 2.47,
-    "ext_chg": 0.0,
+    "ext_price": 2.51,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -256,8 +256,8 @@
     "market_cap": 29315236,
     "exchange": "NASDAQ",
     "name": "BioStem Technologies, Inc.",
-    "ext_price": 1.52,
-    "ext_chg": -0.012987001,
+    "ext_price": 1.5001,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -341,7 +341,7 @@
     "name": "FBS Global Limited",
     "short_pct_float": 0.0432,
     "ext_price": 2.16,
-    "ext_chg": -0.011441647597253968,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -427,7 +427,7 @@
     "name": "Ainos, Inc.",
     "short_pct_float": 0.0113,
     "ext_price": 0.7655,
-    "ext_chg": -0.05318491032776751,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -517,7 +517,7 @@
     "name": "Snail, Inc.",
     "short_pct_float": 0.0301,
     "ext_price": 2.37,
-    "ext_chg": -0.016597593,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -685,8 +685,8 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.6401,
-    "ext_chg": -0.008365611,
+    "ext_price": 0.64,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -774,7 +774,7 @@
     "name": "Gamehaus Holdings Inc.",
     "short_pct_float": 0.0046,
     "ext_price": 0.6535,
-    "ext_chg": 0.0289718154621319,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -860,7 +860,7 @@
     "name": "HCW Biologics Inc.",
     "short_pct_float": 0.028499998,
     "ext_price": 1.14,
-    "ext_chg": -0.02564102564102566,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -944,8 +944,8 @@
     "exchange": "NASDAQ",
     "name": "Lipocine Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 1.41,
-    "ext_chg": -0.027586262,
+    "ext_price": 1.4523,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1026,7 +1026,7 @@
     "exchange": "AMEX",
     "name": "Endovia Health Sciences Inc. Common Stock",
     "ext_price": 0.1618,
-    "ext_chg": 0.0259987,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1106,7 +1106,7 @@
     "exchange": "NASDAQ",
     "name": "Prelude Therapeutics Incorporated Common Stock",
     "ext_price": 3.7,
-    "ext_chg": 0.0,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1165,10 +1165,12 @@
    "candle": "مطرقة (Hammer)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "السعر ابتعد 5% فوق منطقة الطلب — ضع Limit عند 1.85–1.92 ولا تطارد"
+    "السعر ابتعد 5% فوق منطقة الطلب — ضع Limit عند 1.85–1.92 ولا تطارد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
-    "بيانات الفلووت غير موثوقة — تحقق يدوياً"
+    "بيانات الفلووت غير موثوقة — تحقق يدوياً",
+    "صعد في الأفتر إلى 2 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +36% في يوم)",
@@ -1186,8 +1188,8 @@
     "market_cap": 324586976,
     "exchange": "NASDAQ",
     "name": "Powerus Corporation",
-    "ext_price": 1.95,
-    "ext_chg": -0.03940883,
+    "ext_price": 2.0,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1270,7 +1272,7 @@
     "exchange": "NYSE",
     "name": "Annovis Bio Inc. Common Stock",
     "ext_price": 0.957,
-    "ext_chg": -0.042329630741519075,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1354,7 +1356,7 @@
     "name": "Aldeyra Therapeutics, Inc.",
     "short_pct_float": 0.0594,
     "ext_price": 0.65,
-    "ext_chg": 0.0004617515776512704,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1413,12 +1415,9 @@
    "candle": "مطرقة (Hammer)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "السعر ابتعد 7% فوق منطقة الطلب — ضع Limit عند 0.50–0.53 ولا تطارد",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+    "السعر ابتعد 7% فوق منطقة الطلب — ضع Limit عند 0.50–0.53 ولا تطارد"
    ],
-   "flags": [
-    "صعد في الأفتر إلى 0.562 بعيداً عن منطقة الطلب"
-   ],
+   "flags": [],
    "tags": [
     "Former Runner (سبق انفجر +369% في يوم)",
     "فوليوم البيع يضعف",
@@ -1435,8 +1434,8 @@
     "market_cap": 1552719.0,
     "exchange": "NASDAQ",
     "name": "Nexentis Technologies Inc. Common Stock",
-    "ext_price": 0.5623,
-    "ext_chg": 0.0,
+    "ext_price": 0.5325,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1520,8 +1519,8 @@
     "exchange": "NASDAQ",
     "name": "INVO Fertility, Inc.",
     "short_pct_float": 0.0109,
-    "ext_price": 0.5709,
-    "ext_chg": -0.01568965517241383,
+    "ext_price": 0.57,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1604,8 +1603,8 @@
     "exchange": "NYSE",
     "name": "Spruce Power Holding Corporation",
     "short_pct_float": 0.060100004,
-    "ext_price": 1.3485,
-    "ext_chg": 0.02159088,
+    "ext_price": 1.3496,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1686,7 +1685,7 @@
     "exchange": "NASDAQ",
     "name": "Upexi Inc. Common Stock",
     "ext_price": 0.76,
-    "ext_chg": 0.0,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1775,7 +1774,7 @@
     "name": "Zhengye Biotechnology Holding Limited",
     "short_pct_float": 0.0025,
     "ext_price": 1.4106,
-    "ext_chg": -0.059599999999999986,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1857,8 +1856,8 @@
     "exchange": "NASDAQ",
     "name": "Lion Group Holding Ltd.",
     "short_pct_float": 0.1242,
-    "ext_price": 2.4497,
-    "ext_chg": -0.016184696000000002,
+    "ext_price": 2.45,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -1920,15 +1919,13 @@
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.10 ثم استرداد",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 33)",
     "سعر يتحرك بتكات كبيرة — الشموع والمؤشرات غير موثوقة على هذا السهم",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب",
     "اكتمال الشروط الأساسية (3 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: المتوسطات، RSI 23–27، خبر/محفز"
    ],
    "flags": [
     "حركة السعر متقطعة (5 أسعار إغلاق مختلفة في 20 يوم) — قراءة الشموع غير موثوقة",
     "اختراق وهمي سابق لخط العنق (Bull Trap)",
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.107 بعيداً عن منطقة الطلب"
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1947,8 +1944,8 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.107,
-    "ext_chg": 0.001872659176029856,
+    "ext_price": 0.105,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2111,7 +2108,7 @@
     "name": "Linkhome Holdings Inc.",
     "short_pct_float": 0.0305,
     "ext_price": 0.9996,
-    "ext_chg": -0.04800000000000004,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2195,7 +2192,7 @@
     "name": "Aqua Metals, Inc.",
     "short_pct_float": 0.0577,
     "ext_price": 1.445,
-    "ext_chg": -0.017006786,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2259,11 +2256,13 @@
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
     "صعد 99% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "هدوء بعد شمعة الضخ وتكوين دعم جديد"
+    "هدوء بعد شمعة الضخ وتكوين دعم جديد",
+    "السعر في الأفتر 0.592 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 3 يوم (طار إلى 1.07 وأغلق 0.4 بفوليوم 1434x)",
-    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)"
+    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
+    "نزل في الأفتر تحت الوقف (0.592)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +133% في يوم)"
@@ -2279,8 +2278,8 @@
     "market_cap": 6962481.0,
     "exchange": "AMEX",
     "name": "Reed's Inc. Common Stock",
-    "ext_price": 0.6587,
-    "ext_chg": 0.0015204303999999998,
+    "ext_price": 0.592,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2365,8 +2364,8 @@
     "exchange": "NASDAQ",
     "name": "Datasea Intelligent Technology Ltd.",
     "short_pct_float": 0.0215,
-    "ext_price": 0.7392,
-    "ext_chg": 0.07130435,
+    "ext_price": 0.7391,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2450,8 +2449,8 @@
     "exchange": "NASDAQ",
     "name": "Acumen Pharmaceuticals, Inc.",
     "short_pct_float": 0.061100002,
-    "ext_price": 2.29,
-    "ext_chg": 0.008810564,
+    "ext_price": 2.28,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2532,8 +2531,8 @@
     "market_cap": 2412094.0,
     "exchange": "NASDAQ",
     "name": "Akanda Corp. Common Shares",
-    "ext_price": 1.06,
-    "ext_chg": 0.0095238006,
+    "ext_price": 1.07,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2618,7 +2617,7 @@
     "name": "DarkHorse Technologies Inc.",
     "short_pct_float": 0.0049,
     "ext_price": 1.98,
-    "ext_chg": 0.010204081632652962,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2704,8 +2703,8 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.3366,
-    "ext_chg": -0.011744003999999999,
+    "ext_price": 0.3384,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2789,7 +2788,7 @@
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
     "ext_price": 0.1379,
-    "ext_chg": 0.039969838,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2872,8 +2871,8 @@
     "market_cap": 51473255.0,
     "exchange": "NASDAQ",
     "name": "Elicio Therapeutics Inc. Common Stock",
-    "ext_price": 1.7,
-    "ext_chg": 0.0,
+    "ext_price": 1.73,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -2956,7 +2955,7 @@
     "exchange": "NASDAQ",
     "name": "SmartKem Inc. Common Stock",
     "ext_price": 0.4626,
-    "ext_chg": -0.05360065466448449,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -3041,7 +3040,7 @@
     "exchange": "NASDAQ",
     "name": "InflaRx N.V. Common Stock",
     "ext_price": 1.575,
-    "ext_chg": 0.0,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -3124,7 +3123,7 @@
     "name": "IceCure Medical Ltd",
     "short_pct_float": 0.0148,
     "ext_price": 1.03,
-    "ext_chg": 0.01980198019801982,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -3208,7 +3207,7 @@
     "name": "NRx Pharmaceuticals, Inc.",
     "short_pct_float": 0.2359,
     "ext_price": 2.55,
-    "ext_chg": 0.0,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -3292,7 +3291,7 @@
     "exchange": "NASDAQ",
     "name": "Golden Heaven Group Holdings Ltd. Class A Ordinary Shares",
     "ext_price": 1.0669,
-    "ext_chg": -0.072260833,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -3378,7 +3377,7 @@
     "name": "Cellectar Biosciences, Inc.",
     "short_pct_float": 0.0176,
     "ext_price": 1.1903,
-    "ext_chg": -0.016281033,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
@@ -3447,7 +3446,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 1 يوم (طار إلى 0.36 وأغلق 0.24 بفوليوم 3861x)",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.287 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.29 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3465,21 +3464,23 @@
     "exchange": "AMEX",
     "name": "Mynd.ai, Inc.",
     "short_pct_float": 0.0043,
-    "ext_price": 0.2875,
-    "ext_chg": 0.011611475,
+    "ext_price": 0.29,
+    "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
   }
  ],
  "momentum": [],
- "errors": [],
+ "errors": [
+  "yahoo quotes empty in post — nasdaq fallback 59/66"
+ ],
  "ext_debug": [],
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.18,
-   "price_label": "سعر الأفتر",
+   "price": 1.090000033378601,
+   "price_label": "آخر سعر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
    "added": "2026-10-16",
@@ -3496,8 +3497,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",
@@ -3511,8 +3512,8 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.23,
-   "price_label": "سعر الأفتر",
+   "price": 2.2950000762939453,
+   "price_label": "آخر سعر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3529,7 +3530,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2.48 بـ 11%",
+   "state_ar": "تحت مستوى الاختراق 2.48 بـ 8%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -3544,8 +3545,8 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.7514,
-   "price_label": "سعر الأفتر",
+   "price": 1.6799999475479126,
+   "price_label": "آخر سعر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3562,7 +3563,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 14%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 19%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -3577,8 +3578,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.49,
-   "price_label": "سعر الأفتر",
+   "price": 1.5800000429153442,
+   "price_label": "آخر سعر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3595,7 +3596,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 15%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 8%",
    "alert": false,
    "session": "post",
    "scanner": null
@@ -3636,7 +3637,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.41,
+   "price": 0.4093,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

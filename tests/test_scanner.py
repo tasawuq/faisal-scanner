@@ -43,10 +43,14 @@ def test_ready_needs_four_of_the_files_six_conditions():
     assert file_six(cond, ["محفز: خبر حديث"], rr=(1.45 - 1.40) / (1.40 - 1.3426))[0] == 4
 
 
-def test_w_neckline_retest_is_ready():
+def test_w_neckline_retest_under_recent_high_is_watch():
+    """26 أكتوبر (IDN): إعادة اختبار بعد الكسر والقمم الأخيرة 1.31 فوق الدخول 1.285 مباشرة (+2%) والوقف −7%
+    = «تحت مقاومة مباشرة» (ص88، نفس بوابة التنبيه 1.5×) → مراقبة، والهدف الأول = القمة القريبة."""
     s = analyze_pivot("C", demo.scenario_w(END))
-    assert s is not None and s.status == READY and s.setup in ("W_RETEST", "W_BREAK", "BASE_RETEST")
+    assert s is not None and s.setup in ("W_RETEST", "W_BREAK", "BASE_RETEST")
     assert s.stop < s.trigger_level <= s.price
+    assert s.status == WATCH and any("مقاومة مباشرة" in w for w in s.waiting_for)
+    assert abs(s.t1 - 1.31) < 0.01
 
 
 def test_w_forming_is_watch_with_neckline_condition():
@@ -146,10 +150,14 @@ def test_demo_end_to_end(tmp_path, monkeypatch):
     monkeypatch.setattr(C, "RESULTS_DIR", str(tmp_path))
     res = main.run_once(demo=True)
     md = main.write_outputs(res)
-    assert {"DEMOA", "DEMOC"} <= {s["ticker"] for s in res["ready"]}
+    assert "DEMOA" in {s["ticker"] for s in res["ready"]}
+    # DEMOC (W) صار مراقبة: قمة 1.31 فوق الدخول مباشرة (ص88)
+    assert "DEMOC" in {s["ticker"] for s in res["watch"]}
     assert "جاهز الآن" in md
     data = json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
-    assert data["new_alerts"]
+    # التنبيه فقط والسعر داخل منطقة الـ Limit (≤ 1% فوقها) — DEMOA جاهز يومياً لكن سعره فوق المنطقة المقصوصة → بدون تنبيه
+    rd = {s["ticker"]: s for s in res["ready"]}
+    assert all(rd[t]["price"] <= rd[t]["entry_high"] * 1.01 for t in data["new_alerts"] if t in rd)
     # second run the same day: no duplicate urgent alerts
     res2 = main.run_once(demo=True)
     assert res2["new_alerts"] == []
@@ -400,9 +408,11 @@ def test_fill_missing_prices_fallback(monkeypatch):
 def test_base_breakout_retest_flag_setup():
     """🚩 ص79 مثال 4: قاعدة → اختراق مقاومة قريبة بفوليوم → إعادة اختبار ناجحة = جاهز، والوقف تحت منطقة الاختبار."""
     s = analyze_pivot("F", demo.scenario_base_flag(END))
-    assert s is not None and s.setup == "BASE_RETEST" and s.status == READY
+    assert s is not None and s.setup == "BASE_RETEST"
     assert s.stop < s.trigger_level <= s.entry_low <= s.price <= s.trigger_level * 1.06
     assert s.t1 > s.price
+    # MA50 1.197 وقمم ما بعد الكسر 1.20–1.25 فوق الدخول مباشرة → العائد للهدف الأول < 1.5× المخاطرة → مراقبة (ص88)
+    assert (s.status == READY) == ((s.t1 - s.entry_high) >= 1.5 * (s.entry_high - s.stop) - 1e-6)
 
 
 def test_base_breakout_without_retest_is_watch():

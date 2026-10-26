@@ -550,13 +550,14 @@ def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, short_pct):
         return None
     # الدخول Limit داخل المنطقة → المقاومات تُحسب فوق منطقة الدخول، مو فوق السعر الحالي
     # (SEV 26 أكتوبر: المنطقة 1.40–1.44 وقمم 1.45/1.47 بينها وبين السعر 1.51 كانت تُتجاهل → «جاهز» وهو تحت مقاومة مباشرة)
-    base_px = max(price, entry_high) if cd.get("breakout") else entry_high
+    # (IDN 26 أكتوبر: نموذج العلم، إعادة الاختبار عند 2.34–2.41 وقمم ما بعد الكسر 2.44/2.53 فوقها مباشرة → نفس القاعدة
+    #  على نماذج الاختراق: قمة ما بعد الكسر هي الهدف الأول الطبيعي، فالعائد لها لازم ≥ 1.5× المخاطرة، ص68/ص88)
+    base_px = entry_high
     res = resistance_levels(ctx.df, base_px, C.LOOKBACK_LEVELS, C.SWING_K, ma_vals)
     # مقاومة مباشرة يفوّتها تحليل القمم: قمم آخر 5 أيام (قبل شمعة الإشارة) فوق السعر ولو كانت قريبة جداً
     # (مثال SVRE/VIP: قمة أمس فوق السعر بـ 2–4% = أول هدف حقيقي، والدخول تحتها "تحت مقاومة مباشرة")
     ref_px = base_px * 1.005
-    # (في نماذج الاختراق W قمة ما بعد الكسر هي الهدف الطبيعي، وحماية المطاردة موجودة أصلاً)
-    near = [] if cd.get("breakout") else [float(x) for x in ctx.h[-6:-1] if x > ref_px]
+    near = [float(x) for x in ctx.h[-6:-1] if x > ref_px]
     if near:
         nr = min(near)
         if not res or nr < res[0][0] * 0.99:

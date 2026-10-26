@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T23:30:03.418104+00:00",
- "generated_at_et": "2026-10-26T19:30:03.418104-04:00",
+ "generated_at_utc": "2026-10-26T23:40:03.418225+00:00",
+ "generated_at_et": "2026-10-26T19:40:03.418225-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -688,7 +688,7 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.658,
+    "ext_price": 0.641,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1439,7 +1439,7 @@
     "market_cap": 1552719.0,
     "exchange": "NASDAQ",
     "name": "Nexentis Technologies Inc. Common Stock",
-    "ext_price": 0.5325,
+    "ext_price": 0.53,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1861,7 +1861,7 @@
     "exchange": "NASDAQ",
     "name": "Lion Group Holding Ltd.",
     "short_pct_float": 0.1242,
-    "ext_price": 2.4,
+    "ext_price": 2.38,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2452,7 +2452,7 @@
     "exchange": "NASDAQ",
     "name": "Acumen Pharmaceuticals, Inc.",
     "short_pct_float": 0.061100002,
-    "ext_price": 2.28,
+    "ext_price": 2.3,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2790,7 +2790,7 @@
     "market_cap": 3747414,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.1413,
+    "ext_price": 0.1412,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3209,7 +3209,7 @@
     "exchange": "NASDAQ",
     "name": "NRx Pharmaceuticals, Inc.",
     "short_pct_float": 0.2359,
-    "ext_price": 2.5923,
+    "ext_price": 2.6,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3353,10 +3353,12 @@
    "candle": "ذيل سفلي طويل (رفض كسر) (شمعة صغيرة غير واضحة)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.12 ثم استرداد"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.12 ثم استرداد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في الأفتر إلى 1.2 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -3377,7 +3379,7 @@
     "exchange": "NASDAQ",
     "name": "Cellectar Biosciences, Inc.",
     "short_pct_float": 0.0176,
-    "ext_price": 1.1803,
+    "ext_price": 1.2011,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3447,7 +3449,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 1 يوم (طار إلى 0.36 وأغلق 0.24 بفوليوم 3861x)",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.295 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.297 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3465,7 +3467,7 @@
     "exchange": "AMEX",
     "name": "Mynd.ai, Inc.",
     "short_pct_float": 0.0043,
-    "ext_price": 0.295,
+    "ext_price": 0.2975,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3638,7 +3640,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.405,
+   "price": 0.4,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

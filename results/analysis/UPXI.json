@@ -1,51 +1,51 @@
 {
  "ticker": "UPXI",
- "generated_at_et": "2026-10-26T11:03:07.688559-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-26T16:01:41.071498-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 0.7521,
-  "reg_chg": -0.017633274,
-  "reg_vol": 626924,
+  "reg_price": 0.76,
+  "reg_chg": -0.00731457,
+  "reg_vol": 1178501,
   "prev_close": 0.7656,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 3113857,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
-  "floatShares": 71163961,
-  "sharesOutstanding": 82102474,
-  "marketCap": 61749268,
-  "shortPercentOfFloat": 0.1571,
-  "longName": "Upexi, Inc.",
-  "country": "United States",
-  "industry": "Internet Content & Information",
-  "sector": "Communication Services",
-  "lastSplitFactor": "1:20",
-  "lastSplitDate": 1727913600
+  "floatShares": null,
+  "sharesOutstanding": null,
+  "marketCap": null,
+  "shortPercentOfFloat": null,
+  "longName": null,
+  "country": null,
+  "industry": null,
+  "sector": null,
+  "lastSplitFactor": null,
+  "lastSplitDate": null
  },
  "daily": {
-  "price": 0.7521,
-  "chg_1d": -0.0181,
+  "price": 0.76,
+  "chg_1d": -0.0078,
   "ma": {
-   "MA20": 1.0192,
-   "MA30": 1.0661,
-   "MA50": 1.0464
+   "MA20": 1.0196,
+   "MA30": 1.0664,
+   "MA50": 1.0466
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 24.5,
-  "rsi_min15": 24.5,
-  "rsi_min30": 24.5,
+  "rsi_now": 24.9,
+  "rsi_min15": 24.9,
+  "rsi_min30": 24.9,
   "macd": {
-   "line": -0.07828,
-   "signal": -0.03876,
+   "line": -0.07765,
+   "signal": -0.03864,
    "hist_last3": [
     -0.03734,
     -0.03957,
-    -0.03952
+    -0.03901
    ],
    "state": "بداية تحسن"
   },
@@ -63,24 +63,24 @@
    },
    {
     "d": "2026-10-26",
-    "hammer": "False",
+    "hammer": "True",
     "engulfing": "False",
     "lower_wick": "True",
     "strong_green": "False",
-    "upper_wick_ratio": 0.0,
-    "close_pos": 0.6294110359754943,
+    "upper_wick_ratio": 0.09893954232879454,
+    "close_pos": 0.7067134236881181,
     "green": "False",
     "bullish_reversal": "True"
    }
   ],
-  "atr": 0.0773,
+  "atr": 0.0777,
   "avg_vol20": 2182570,
-  "last_vol": 630372,
-  "drawdown_90d": 0.438,
+  "last_vol": 1178501,
+  "drawdown_90d": 0.432,
   "high_90d": 1.338,
   "low_10d": 0.72,
-  "gain_from_low10": 0.045,
-  "sell_drying": true,
+  "gain_from_low10": 0.056,
+  "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
   "pump_recent": false,
@@ -185,7 +185,7 @@
     "رأس شمعة هابطة + MA20"
    ],
    [
-    1.0464,
+    1.0466,
     "MA50 + رأس شمعة هابطة + MA30"
    ]
   ],
@@ -305,30 +305,30 @@
    {
     "d": "2026-10-26",
     "o": 0.771,
-    "h": 0.771,
+    "h": 0.7766,
     "l": 0.72,
-    "c": 0.7521,
-    "v": 630372,
-    "rsi": 24.5,
-    "hist": -0.03952
+    "c": 0.76,
+    "v": 1178501,
+    "rsi": 24.9,
+    "hist": -0.03901
    }
   ]
  },
  "levels_map": {
-  "price": 0.7521,
+  "price": 0.76,
   "at_price": [
-   "قيعان سابقة متجمعة (4)"
+   "قاع يوم 2026-10-23"
   ],
   "above": [
    {
-    "level": 0.76,
-    "why": "قاع يوم 2026-10-23 + قمة يوم 2026-10-26",
+    "level": 0.7766,
+    "why": "قمة يوم 2026-10-26 + قاع يوم 2026-10-22",
     "confluence": 2
    },
    {
-    "level": 0.789,
-    "why": "قاع يوم 2026-10-22 + قيعان سابقة متجمعة (6) + إغلاقات سابقة متجمعة (6)",
-    "confluence": 3
+    "level": 0.7965,
+    "why": "قيعان سابقة متجمعة (6) + إغلاقات سابقة متجمعة (6)",
+    "confluence": 2
    },
    {
     "level": 0.82,
@@ -363,9 +363,9 @@
   ],
   "below": [
    {
-    "level": 0.748,
-    "why": "إغلاقات سابقة متجمعة (3) + فواب جلسة 2026-10-26",
-    "confluence": 2
+    "level": 0.7543,
+    "why": "فواب جلسة 2026-10-26 + قاعدة آخر ساعة 2026-10-26 + قيعان سابقة متجمعة (4) + إغلاقات سابقة متجمعة (3)",
+    "confluence": 4
    },
    {
     "level": 0.72,
@@ -380,7 +380,7 @@
   "status": "WATCH",
   "setup": "SWEEP",
   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-  "price": 0.7520999908447266,
+  "price": 0.7599999904632568,
   "score": 4.75,
   "conditions": {
    "ma": {
@@ -397,15 +397,15 @@
    },
    "candle": {
     "score": 1.0,
-    "note": "ذيل سفلي طويل (رفض كسر)"
+    "note": "مطرقة (Hammer)"
    },
    "pressure": {
     "score": 1.0,
-    "note": "هبط 44% من قمة 90 يوم"
+    "note": "هبط 43% من قمة 90 يوم"
    },
    "space": {
     "score": 0.75,
-    "note": "العائد/المخاطرة 3.0"
+    "note": "العائد/المخاطرة 2.6"
    }
   },
   "support_low": 0.7400000095367432,
@@ -420,14 +420,15 @@
   "t2": 0.8299999833106995,
   "t2_label": "رأس شمعة هابطة",
   "rr": 1.5,
-  "risk_pct": 0.0542,
-  "rsi_now": 24.5,
-  "rsi_min": 24.5,
+  "risk_pct": 0.0592,
+  "rsi_now": 24.9,
+  "rsi_min": 24.9,
   "ma_state": "تحت كل المتوسطات (ضغط)",
   "macd_state": "بداية تحسن",
-  "candle": "ذيل سفلي طويل (رفض كسر)",
-  "volume_note": "فوليوم البيع يضعف",
+  "candle": "مطرقة (Hammer)",
+  "volume_note": "",
   "waiting_for": [
+   "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
    "اكتمال الشروط الأساسية (3 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: المتوسطات، MACD، خبر/محفز"
   ],
@@ -435,20 +436,19 @@
    "اختراق وهمي سابق لخط العنق (Bull Trap)"
   ],
   "tags": [
-   "Former Runner (سبق انفجر +49% في يوم)",
-   "فوليوم البيع يضعف"
+   "Former Runner (سبق انفجر +49% في يوم)"
   ],
-  "rank": 5.668243370594291,
+  "rank": 5.614864995481324,
   "meta": {
    "avg_volume": 2182570.0,
-   "drawdown": 0.438,
-   "rr_best": 2.97,
-   "gain_from_low10": 0.045,
+   "drawdown": 0.432,
+   "rr_best": 2.61,
+   "gain_from_low10": 0.056,
    "higher_lows": "False",
-   "float": 71163961,
-   "market_cap": 61749268,
+   "float": null,
+   "market_cap": null,
    "exchange": "",
-   "name": "Upexi, Inc."
+   "name": ""
   },
   "news": []
  },

@@ -1,24 +1,24 @@
 {
  "ticker": "BRTX",
- "generated_at_et": "2026-10-23T16:01:21.565868-04:00",
+ "generated_at_et": "2026-10-26T16:01:41.071498-04:00",
  "session": "post",
  "quote": {
-  "reg_price": 1.62,
-  "reg_chg": 0.08,
-  "reg_vol": 32823,
-  "prev_close": 1.5,
+  "reg_price": 1.49,
+  "reg_chg": -0.08024691,
+  "reg_vol": 34705,
+  "prev_close": 1.62,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
-  "avg_vol": 27222,
+  "avg_vol": 27506,
   "state": "POST"
  },
  "news": [],
  "fund": {
   "floatShares": 1208761,
   "sharesOutstanding": 1381128,
-  "marketCap": 2237427,
+  "marketCap": 2057880,
   "shortPercentOfFloat": 0.0097,
   "longName": "BioRestorative Therapies, Inc.",
   "country": "United States",
@@ -28,39 +28,28 @@
   "lastSplitDate": 1788825600
  },
  "daily": {
-  "price": 1.62,
-  "chg_1d": 0.08,
+  "price": 1.49,
+  "chg_1d": -0.0802,
   "ma": {
-   "MA20": 1.879,
-   "MA30": 2.1245,
-   "MA50": 1.5077
+   "MA20": 1.838,
+   "MA30": 2.0842,
+   "MA50": 1.5331
   },
-  "ma_state": "بين المتوسطات",
-  "rsi_now": 45.8,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 42.6,
   "rsi_min15": 40.8,
   "rsi_min30": 40.8,
   "macd": {
-   "line": -0.09334,
-   "signal": -0.02335,
+   "line": -0.1011,
+   "signal": -0.0389,
    "hist_last3": [
-    -0.10073,
     -0.08946,
-    -0.06999
+    -0.06999,
+    -0.0622
    ],
    "state": "الهيستوجرام يتحسن"
   },
   "candles": [
-   {
-    "d": "2026-10-22",
-    "hammer": "False",
-    "engulfing": "False",
-    "lower_wick": "False",
-    "strong_green": "False",
-    "upper_wick_ratio": 0.41666625274553887,
-    "close_pos": 0.0,
-    "green": "False",
-    "bullish_reversal": "False"
-   },
    {
     "d": "2026-10-23",
     "hammer": "False",
@@ -71,18 +60,29 @@
     "close_pos": 0.880000114440918,
     "green": "True",
     "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-26",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.0,
+    "close_pos": 0.30715961827360483,
+    "green": "False",
+    "bullish_reversal": "False"
    }
   ],
-  "atr": 0.2355,
-  "avg_vol20": 32275,
-  "last_vol": 32823,
-  "drawdown_90d": 0.714,
+  "atr": 0.2308,
+  "avg_vol20": 32510,
+  "last_vol": 34705,
+  "drawdown_90d": 0.737,
   "high_90d": 5.668,
   "low_10d": 1.28,
-  "gain_from_low10": 0.266,
+  "gain_from_low10": 0.164,
   "sell_drying": true,
-  "vol_improving": true,
-  "higher_lows": false,
+  "vol_improving": false,
+  "higher_lows": true,
   "pump_recent": false,
   "distribution_recent": false,
   "pump_month": null,
@@ -160,16 +160,20 @@
   "w": null,
   "resistances": [
    [
-    1.67,
+    1.65,
     "قمة سابقة"
    ],
    [
-    1.879,
+    1.838,
     "MA20"
    ],
    [
-    2.1245,
-    "MA30 + رأس شمعة هابطة"
+    2.0842,
+    "MA30"
+   ],
+   [
+    2.18,
+    "رأس شمعة هابطة"
    ],
    [
     2.905,
@@ -178,25 +182,11 @@
    [
     4.12,
     "فجوة لم تُغطَّ"
-   ],
-   [
-    4.4,
-    "قمة سابقة"
    ]
   ],
   "high_52w": 5.668,
   "low_52w": 0.1425,
   "last_bars": [
-   {
-    "d": "2026-10-08",
-    "o": 2.18,
-    "h": 2.18,
-    "l": 1.7501,
-    "c": 1.89,
-    "v": 95600,
-    "rsi": 48.1,
-    "hist": -0.11582
-   },
    {
     "d": "2026-10-09",
     "o": 1.92,
@@ -303,30 +293,53 @@
     "h": 1.65,
     "l": 1.4,
     "c": 1.62,
-    "v": 32823,
+    "v": 33200,
     "rsi": 45.8,
     "hist": -0.06999
+   },
+   {
+    "d": "2026-10-26",
+    "o": 1.58,
+    "h": 1.58,
+    "l": 1.4501,
+    "c": 1.49,
+    "v": 34705,
+    "rsi": 42.6,
+    "hist": -0.0622
    }
   ]
  },
  "levels_map": {
-  "price": 1.62,
-  "at_price": [
-   "قمة يوم 2026-10-22"
-  ],
+  "price": 1.49,
+  "at_price": [],
   "above": [
    {
-    "level": 1.65,
-    "why": "قمة يوم 2026-10-20 + قمة يوم 2026-10-23 + قمة يوم 2026-10-19 + قمة سابقة",
+    "level": 1.5,
+    "why": "قاع يوم 2026-10-22 + إغلاقات سابقة متجمعة (3) + قيعان سابقة متجمعة (4) + قاع يوم 2026-10-21",
     "confluence": 4
    },
    {
-    "level": 1.879,
+    "level": 1.5331,
+    "why": "MA50 + قاع يوم 2026-10-20 + إغلاقات سابقة متجمعة (3)",
+    "confluence": 3
+   },
+   {
+    "level": 1.58,
+    "why": "قمة يوم 2026-10-21 + قمة يوم 2026-10-26 + إغلاقات سابقة متجمعة (3)",
+    "confluence": 3
+   },
+   {
+    "level": 1.62,
+    "why": "قمة يوم 2026-10-22 + قمة يوم 2026-10-20 + قمة يوم 2026-10-23 + قمة سابقة",
+    "confluence": 4
+   },
+   {
+    "level": 1.838,
     "why": "MA20",
     "confluence": 1
    },
    {
-    "level": 2.1245,
+    "level": 2.0842,
     "why": "MA30",
     "confluence": 1
    },
@@ -339,47 +352,27 @@
     "level": 2.255,
     "why": "إغلاقات سابقة متجمعة (4) + قيعان سابقة متجمعة (4)",
     "confluence": 2
-   },
-   {
-    "level": 2.33,
-    "why": "إغلاقات سابقة متجمعة (3)",
-    "confluence": 1
-   },
-   {
-    "level": 2.5,
-    "why": "قيعان سابقة متجمعة (3) + إغلاقات سابقة متجمعة (4)",
-    "confluence": 2
-   },
-   {
-    "level": 2.6439,
-    "why": "قيعان سابقة متجمعة (6) + إغلاقات سابقة متجمعة (4)",
-    "confluence": 2
    }
   ],
   "below": [
    {
-    "level": 1.5865,
-    "why": "فواب جلسة 2026-10-23 + قمة يوم 2026-10-21 + قاعدة آخر ساعة 2026-10-23",
-    "confluence": 3
-   },
-   {
-    "level": 1.54,
-    "why": "قاع يوم 2026-10-20 + إغلاقات سابقة متجمعة (3) + قاع يوم 2026-10-19 + قاع يوم 2026-10-21",
-    "confluence": 4
-   },
-   {
-    "level": 1.5077,
-    "why": "MA50 + قيعان سابقة متجمعة (4) + قاع يوم 2026-10-22 + إغلاقات سابقة متجمعة (3)",
-    "confluence": 4
-   },
-   {
-    "level": 1.4,
-    "why": "قاع يوم 2026-10-23",
+    "level": 1.4837,
+    "why": "فواب جلسة 2026-10-26",
     "confluence": 1
    },
    {
-    "level": 0.2215,
-    "why": "إغلاقات سابقة متجمعة (6) + قيعان سابقة متجمعة (4)",
+    "level": 1.4501,
+    "why": "قاع يوم 2026-10-26",
+    "confluence": 1
+   },
+   {
+    "level": 1.4201,
+    "why": "قيعان سابقة متجمعة (3) + قاع يوم 2026-10-23",
+    "confluence": 2
+   },
+   {
+    "level": 0.2206,
+    "why": "إغلاقات سابقة متجمعة (5) + قيعان سابقة متجمعة (3)",
     "confluence": 2
    },
    {
@@ -396,6 +389,11 @@
     "level": 0.201,
     "why": "قيعان سابقة متجمعة (5) + إغلاقات سابقة متجمعة (6)",
     "confluence": 2
+   },
+   {
+    "level": 0.1951,
+    "why": "قيعان سابقة متجمعة (5)",
+    "confluence": 1
    }
   ]
  },

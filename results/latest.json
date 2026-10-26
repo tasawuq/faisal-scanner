@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T08:15:33.444500+00:00",
- "generated_at_et": "2026-10-26T04:15:33.444500-04:00",
+ "generated_at_utc": "2026-10-26T08:25:33.444642+00:00",
+ "generated_at_et": "2026-10-26T04:25:33.444642-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -91,7 +91,10 @@
     "float": 28949488,
     "market_cap": 61808068,
     "exchange": "NASDAQ",
-    "name": "Aptera Motors Corp."
+    "name": "Aptera Motors Corp.",
+    "ext_price": 1.42,
+    "ext_chg": -0.01388888888888895,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -756,8 +759,8 @@
     "exchange": "NASDAQ",
     "name": "Gamehaus Holdings Inc.",
     "short_pct_float": 0.0046,
-    "ext_price": 0.69,
-    "ext_chg": 0.16142063625652248,
+    "ext_price": 0.7,
+    "ext_chg": 0.10218859999999999,
     "ext_session": "pre"
    },
    "news": []
@@ -1003,8 +1006,8 @@
     "exchange": "NASDAQ",
     "name": "Tigo Energy, Inc.",
     "short_pct_float": 0.066300005,
-    "ext_price": 1.04,
-    "ext_chg": 0.12298887809091896,
+    "ext_price": 1.0,
+    "ext_chg": 0.07979699816434516,
     "ext_session": "pre"
    },
    "news": []
@@ -1421,7 +1424,10 @@
     "market_cap": 4128938,
     "exchange": "NASDAQ",
     "name": "CaliberCos Inc.",
-    "short_pct_float": 0.0785
+    "short_pct_float": 0.0785,
+    "ext_price": 0.39,
+    "ext_chg": -0.03129657228017879,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2261,7 +2267,7 @@
     "name": "VolitionRx Limited",
     "short_pct_float": 0.0405,
     "ext_price": 0.1737,
-    "ext_chg": 0.027202838557066844,
+    "ext_chg": -0.0022974835,
     "ext_session": "pre"
    },
    "news": []
@@ -3015,8 +3021,8 @@
     "exchange": "NASDAQ",
     "name": "Snail, Inc.",
     "short_pct_float": 0.0301,
-    "ext_price": 2.15,
-    "ext_chg": -0.0358744394618834,
+    "ext_price": 2.22,
+    "ext_chg": -0.004484304932735328,
     "ext_session": "pre"
    },
    "news": []
@@ -3643,7 +3649,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.71,
+   "price": 2.7163,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3677,7 +3683,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3702,
+   "price": 0.3701,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3713,8 +3719,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 92908.0,
-   "price": 345.89
+   "volume": 125378.0,
+   "price": 345.38
   },
   "SNDL": {
    "volume": 5.0,

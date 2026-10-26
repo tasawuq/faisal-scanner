@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T23:40:03.418225+00:00",
- "generated_at_et": "2026-10-26T19:40:03.418225-04:00",
+ "generated_at_utc": "2026-10-26T23:50:03.418392+00:00",
+ "generated_at_et": "2026-10-26T19:50:03.418392-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -14,17 +14,18 @@
  "counts": {
   "universe": 5854,
   "analyzed": 1087,
-  "ready": 1,
-  "watch": 128,
+  "ready": 0,
+  "watch": 129,
   "momentum": 0,
   "ext_quotes": 61,
   "ext_movers_5pct": 0
  },
- "ready": [
+ "ready": [],
+ "watch": [
   {
    "ticker": "TII",
    "kind": "pivot",
-   "status": "READY",
+   "status": "WATCH",
    "setup": "BOUNCE",
    "setup_ar": "ارتداد مؤكد من الدعم",
    "price": 1.9500000476837158,
@@ -74,9 +75,12 @@
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "ابتلاعية شرائية (Engulfing)",
    "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [],
+   "waiting_for": [
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
    "flags": [
-    "اختراق وهمي سابق لخط العنق (Bull Trap)"
+    "اختراق وهمي سابق لخط العنق (Bull Trap)",
+    "صعد في الأفتر إلى 1.97 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +71% في يوم)",
@@ -94,14 +98,12 @@
     "market_cap": 186083024,
     "exchange": "AMEX",
     "name": "Titan Mining Corporation",
-    "ext_price": 1.92,
+    "ext_price": 1.969,
     "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
-  }
- ],
- "watch": [
+  },
   {
    "ticker": "IDN",
    "kind": "pivot",
@@ -175,7 +177,7 @@
     "exchange": "NASDAQ",
     "name": "Intellicheck, Inc.",
     "short_pct_float": 0.0717,
-    "ext_price": 2.44,
+    "ext_price": 2.51,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -256,7 +258,7 @@
     "market_cap": 29315236,
     "exchange": "NASDAQ",
     "name": "BioStem Technologies, Inc.",
-    "ext_price": 1.53,
+    "ext_price": 1.521,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -340,7 +342,7 @@
     "exchange": "NASDAQ",
     "name": "FBS Global Limited",
     "short_pct_float": 0.0432,
-    "ext_price": 2.16,
+    "ext_price": 2.24,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -496,7 +498,7 @@
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 56.3K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
     "تقسيم عكسي حديث 1:5 (2026-07-06)",
-    "صعد في الأفتر إلى 2.37 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 2.42 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -514,7 +516,7 @@
     "exchange": "NASDAQ",
     "name": "Snail, Inc.",
     "short_pct_float": 0.0301,
-    "ext_price": 2.37,
+    "ext_price": 2.4189,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -688,7 +690,7 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.641,
+    "ext_price": 0.6312,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1030,7 +1032,7 @@
     "market_cap": 1772694.0,
     "exchange": "AMEX",
     "name": "Endovia Health Sciences Inc. Common Stock",
-    "ext_price": 0.16,
+    "ext_price": 0.1586,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1170,12 +1172,10 @@
    "candle": "مطرقة (Hammer)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "السعر ابتعد 5% فوق منطقة الطلب — ضع Limit عند 1.85–1.92 ولا تطارد",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+    "السعر ابتعد 5% فوق منطقة الطلب — ضع Limit عند 1.85–1.92 ولا تطارد"
    ],
    "flags": [
-    "بيانات الفلووت غير موثوقة — تحقق يدوياً",
-    "صعد في الأفتر إلى 2.01 بعيداً عن منطقة الطلب"
+    "بيانات الفلووت غير موثوقة — تحقق يدوياً"
    ],
    "tags": [
     "Former Runner (سبق انفجر +36% في يوم)",
@@ -1193,7 +1193,7 @@
     "market_cap": 324586976,
     "exchange": "NASDAQ",
     "name": "Powerus Corporation",
-    "ext_price": 2.0073,
+    "ext_price": 1.95,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1524,7 +1524,7 @@
     "exchange": "NASDAQ",
     "name": "INVO Fertility, Inc.",
     "short_pct_float": 0.0109,
-    "ext_price": 0.5709,
+    "ext_price": 0.568,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1861,7 +1861,7 @@
     "exchange": "NASDAQ",
     "name": "Lion Group Holding Ltd.",
     "short_pct_float": 0.1242,
-    "ext_price": 2.38,
+    "ext_price": 2.355,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2112,7 +2112,7 @@
     "exchange": "NASDAQ",
     "name": "Linkhome Holdings Inc.",
     "short_pct_float": 0.0305,
-    "ext_price": 0.9505,
+    "ext_price": 1.02,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2196,7 +2196,7 @@
     "exchange": "NASDAQ",
     "name": "Aqua Metals, Inc.",
     "short_pct_float": 0.0577,
-    "ext_price": 1.45,
+    "ext_price": 1.445,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2452,7 +2452,7 @@
     "exchange": "NASDAQ",
     "name": "Acumen Pharmaceuticals, Inc.",
     "short_pct_float": 0.061100002,
-    "ext_price": 2.3,
+    "ext_price": 2.28,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2534,7 +2534,7 @@
     "market_cap": 2412094.0,
     "exchange": "NASDAQ",
     "name": "Akanda Corp. Common Shares",
-    "ext_price": 1.06,
+    "ext_price": 1.07,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2619,7 +2619,7 @@
     "exchange": "NASDAQ",
     "name": "DarkHorse Technologies Inc.",
     "short_pct_float": 0.0049,
-    "ext_price": 1.998,
+    "ext_price": 1.94,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2790,7 +2790,7 @@
     "market_cap": 3747414,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.1412,
+    "ext_price": 0.1411,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2874,7 +2874,7 @@
     "market_cap": 51473255.0,
     "exchange": "NASDAQ",
     "name": "Elicio Therapeutics Inc. Common Stock",
-    "ext_price": 1.72,
+    "ext_price": 1.7,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3209,7 +3209,7 @@
     "exchange": "NASDAQ",
     "name": "NRx Pharmaceuticals, Inc.",
     "short_pct_float": 0.2359,
-    "ext_price": 2.6,
+    "ext_price": 2.5923,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3379,95 +3379,7 @@
     "exchange": "NASDAQ",
     "name": "Cellectar Biosciences, Inc.",
     "short_pct_float": 0.0176,
-    "ext_price": 1.2011,
-    "ext_chg": null,
-    "ext_session": "post"
-   },
-   "news": []
-  },
-  {
-   "ticker": "MYND",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.2842000126838684,
-   "score": 4.75,
-   "conditions": {
-    "ma": {
-     "score": 1.0,
-     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
-    },
-    "rsi": {
-     "score": 0.25,
-     "note": "أدنى RSI 21 والحالي 50 (ارتفع — جزء من الارتداد حصل)"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "تقاطع إيجابي حديث"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "شمعة خضراء بإغلاق قوي"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 56% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 11.1"
-    }
-   },
-   "support_low": 0.26100000739097595,
-   "support_high": 0.2636100074648857,
-   "support_touches": 2,
-   "trigger_level": 0.26100000739097595,
-   "stop": 0.2557800072431564,
-   "entry_low": 0.26100000739097595,
-   "entry_high": 0.2636100074648857,
-   "t1": 0.2760600008070469,
-   "t1_label": "MA20 + قمة سابقة",
-   "t2": 0.28999999165534973,
-   "t2_label": "رأس شمعة هابطة + MA30",
-   "rr": 1.59,
-   "risk_pct": 0.0249,
-   "rsi_now": 50.2,
-   "rsi_min": 21.1,
-   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-   "macd_state": "تقاطع إيجابي حديث",
-   "candle": "شمعة خضراء بإغلاق قوي",
-   "volume_note": "",
-   "waiting_for": [
-    "نزول السعر لمنطقة الطلب 0.26–0.26",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 21)",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
-    "صعد 77% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
-   ],
-   "flags": [
-    "شمعة ضخ/تصريف قبل 1 يوم (طار إلى 0.36 وأغلق 0.24 بفوليوم 3861x)",
-    "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.297 بعيداً عن منطقة الطلب"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +132% في يوم)"
-   ],
-   "rank": 5.305555466744892,
-   "meta": {
-    "avg_volume": 3427130.0,
-    "drawdown": 0.563,
-    "rr_best": 11.14,
-    "gain_from_low10": 0.765,
-    "higher_lows": "False",
-    "float": 4014363,
-    "market_cap": 12606467,
-    "exchange": "AMEX",
-    "name": "Mynd.ai, Inc.",
-    "short_pct_float": 0.0043,
-    "ext_price": 0.2975,
+    "ext_price": 1.2017,
     "ext_chg": null,
     "ext_session": "post"
    },

@@ -1,0 +1,456 @@
+{
+ "ticker": "UPXI",
+ "generated_at_et": "2026-10-26T11:03:07.688559-04:00",
+ "session": "regular",
+ "quote": {
+  "reg_price": 0.7521,
+  "reg_chg": -0.017633274,
+  "reg_vol": 626924,
+  "prev_close": 0.7656,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 3113857,
+  "state": "REGULAR"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 71163961,
+  "sharesOutstanding": 82102474,
+  "marketCap": 61749268,
+  "shortPercentOfFloat": 0.1571,
+  "longName": "Upexi, Inc.",
+  "country": "United States",
+  "industry": "Internet Content & Information",
+  "sector": "Communication Services",
+  "lastSplitFactor": "1:20",
+  "lastSplitDate": 1727913600
+ },
+ "daily": {
+  "price": 0.7521,
+  "chg_1d": -0.0181,
+  "ma": {
+   "MA20": 1.0192,
+   "MA30": 1.0661,
+   "MA50": 1.0464
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 24.5,
+  "rsi_min15": 24.5,
+  "rsi_min30": 24.5,
+  "macd": {
+   "line": -0.07828,
+   "signal": -0.03876,
+   "hist_last3": [
+    -0.03734,
+    -0.03957,
+    -0.03952
+   ],
+   "state": "بداية تحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-10-23",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.11666615340446816,
+    "close_pos": 0.09999970197678797,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-26",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "True",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.0,
+    "close_pos": 0.6294110359754943,
+    "green": "False",
+    "bullish_reversal": "True"
+   }
+  ],
+  "atr": 0.0773,
+  "avg_vol20": 2182570,
+  "last_vol": 630372,
+  "drawdown_90d": 0.438,
+  "high_90d": 1.338,
+  "low_10d": 0.72,
+  "gain_from_low10": 0.045,
+  "sell_drying": true,
+  "vol_improving": false,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_jump": 0.376,
+  "runner_spike": 0.49,
+  "distinct_closes20": 16,
+  "support_zones": [
+   {
+    "low": 1.25,
+    "high": 1.2625,
+    "touches": 4,
+    "is_bottom": false,
+    "first": "2026-05-18",
+    "last": "2026-05-18"
+   },
+   {
+    "low": 1.11,
+    "high": 1.1211,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-09-24",
+    "last": "2026-10-01"
+   },
+   {
+    "low": 1.02,
+    "high": 1.0302,
+    "touches": 6,
+    "is_bottom": false,
+    "first": "2026-10-08",
+    "last": "2026-10-08"
+   },
+   {
+    "low": 0.94,
+    "high": 0.971,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-09-02",
+    "last": "2026-09-16"
+   },
+   {
+    "low": 0.846,
+    "high": 0.8545,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-06-10",
+    "last": "2026-06-10"
+   },
+   {
+    "low": 0.78,
+    "high": 0.7878,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-07-24",
+    "last": "2026-07-24"
+   },
+   {
+    "low": 0.74,
+    "high": 0.755,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-06-25",
+    "last": "2026-07-31"
+   },
+   {
+    "low": 0.7,
+    "high": 0.707,
+    "touches": 1,
+    "is_bottom": true,
+    "first": "2026-08-14",
+    "last": "2026-08-14"
+   }
+  ],
+  "support_selected": {
+   "low": 0.74,
+   "high": 0.755,
+   "touches": 5,
+   "interacting": true
+  },
+  "w": null,
+  "resistances": [
+   [
+    0.83,
+    "رأس شمعة هابطة"
+   ],
+   [
+    0.866,
+    "قمة سابقة"
+   ],
+   [
+    0.91,
+    "قمة سابقة"
+   ],
+   [
+    0.96,
+    "قمة سابقة"
+   ],
+   [
+    0.99,
+    "رأس شمعة هابطة + MA20"
+   ],
+   [
+    1.0464,
+    "MA50 + رأس شمعة هابطة + MA30"
+   ]
+  ],
+  "high_52w": 5.04,
+  "low_52w": 0.54,
+  "last_bars": [
+   {
+    "d": "2026-10-09",
+    "o": 1.08,
+    "h": 1.105,
+    "l": 1.07,
+    "c": 1.1,
+    "v": 1167000,
+    "rsi": 49.6,
+    "hist": -0.01823
+   },
+   {
+    "d": "2026-10-12",
+    "o": 1.09,
+    "h": 1.12,
+    "l": 1.065,
+    "c": 1.09,
+    "v": 1973400,
+    "rsi": 48.5,
+    "hist": -0.01818
+   },
+   {
+    "d": "2026-10-13",
+    "o": 1.06,
+    "h": 1.1,
+    "l": 1.06,
+    "c": 1.08,
+    "v": 969200,
+    "rsi": 47.4,
+    "hist": -0.01814
+   },
+   {
+    "d": "2026-10-14",
+    "o": 1.05,
+    "h": 1.075,
+    "l": 1.02,
+    "c": 1.03,
+    "v": 2207900,
+    "rsi": 42.2,
+    "hist": -0.02063
+   },
+   {
+    "d": "2026-10-15",
+    "o": 0.971,
+    "h": 1.08,
+    "l": 0.94,
+    "c": 1.06,
+    "v": 3454700,
+    "rsi": 46.0,
+    "hist": -0.01943
+   },
+   {
+    "d": "2026-10-16",
+    "o": 1.06,
+    "h": 1.07,
+    "l": 0.95,
+    "c": 0.974,
+    "v": 1865400,
+    "rsi": 38.2,
+    "hist": -0.02332
+   },
+   {
+    "d": "2026-10-19",
+    "o": 0.99,
+    "h": 0.99,
+    "l": 0.901,
+    "c": 0.91,
+    "v": 1450700,
+    "rsi": 33.6,
+    "hist": -0.02875
+   },
+   {
+    "d": "2026-10-20",
+    "o": 0.913,
+    "h": 0.943,
+    "l": 0.871,
+    "c": 0.881,
+    "v": 1567300,
+    "rsi": 31.7,
+    "hist": -0.03257
+   },
+   {
+    "d": "2026-10-21",
+    "o": 0.89,
+    "h": 0.92,
+    "l": 0.86,
+    "c": 0.87,
+    "v": 2739000,
+    "rsi": 31.0,
+    "hist": -0.03394
+   },
+   {
+    "d": "2026-10-22",
+    "o": 0.86,
+    "h": 0.865,
+    "l": 0.789,
+    "c": 0.801,
+    "v": 1879300,
+    "rsi": 27.0,
+    "hist": -0.03734
+   },
+   {
+    "d": "2026-10-23",
+    "o": 0.813,
+    "h": 0.82,
+    "l": 0.76,
+    "c": 0.766,
+    "v": 1208000,
+    "rsi": 25.2,
+    "hist": -0.03957
+   },
+   {
+    "d": "2026-10-26",
+    "o": 0.771,
+    "h": 0.771,
+    "l": 0.72,
+    "c": 0.7521,
+    "v": 630372,
+    "rsi": 24.5,
+    "hist": -0.03952
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 0.7521,
+  "at_price": [
+   "قيعان سابقة متجمعة (4)"
+  ],
+  "above": [
+   {
+    "level": 0.76,
+    "why": "قاع يوم 2026-10-23 + قمة يوم 2026-10-26",
+    "confluence": 2
+   },
+   {
+    "level": 0.789,
+    "why": "قاع يوم 2026-10-22 + قيعان سابقة متجمعة (6) + إغلاقات سابقة متجمعة (6)",
+    "confluence": 3
+   },
+   {
+    "level": 0.82,
+    "why": "قمة يوم 2026-10-23 + إغلاقات سابقة متجمعة (3) + رأس شمعة هابطة",
+    "confluence": 3
+   },
+   {
+    "level": 0.851,
+    "why": "إغلاقات سابقة متجمعة (3) + قاع يوم 2026-10-21 + قمة يوم 2026-10-22 + قمة سابقة",
+    "confluence": 4
+   },
+   {
+    "level": 0.871,
+    "why": "قاع يوم 2026-10-20",
+    "confluence": 1
+   },
+   {
+    "level": 0.91,
+    "why": "قمة سابقة + قمة يوم 2026-10-21",
+    "confluence": 2
+   },
+   {
+    "level": 0.94,
+    "why": "قيعان سابقة متجمعة (5) + قمة يوم 2026-10-20",
+    "confluence": 2
+   },
+   {
+    "level": 0.96,
+    "why": "قمة سابقة",
+    "confluence": 1
+   }
+  ],
+  "below": [
+   {
+    "level": 0.748,
+    "why": "إغلاقات سابقة متجمعة (3) + فواب جلسة 2026-10-26",
+    "confluence": 2
+   },
+   {
+    "level": 0.72,
+    "why": "قاع يوم 2026-10-26",
+    "confluence": 1
+   }
+  ]
+ },
+ "pivot": {
+  "ticker": "UPXI",
+  "kind": "pivot",
+  "status": "WATCH",
+  "setup": "SWEEP",
+  "setup_ar": "سحب سيولة ثم استرداد الدعم",
+  "price": 0.7520999908447266,
+  "score": 4.75,
+  "conditions": {
+   "ma": {
+    "score": 0.5,
+    "note": "تحت كل المتوسطات (ضغط)"
+   },
+   "rsi": {
+    "score": 1.0,
+    "note": "أدنى RSI 25 والحالي 25"
+   },
+   "macd": {
+    "score": 0.5,
+    "note": "بداية تحسن"
+   },
+   "candle": {
+    "score": 1.0,
+    "note": "ذيل سفلي طويل (رفض كسر)"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 44% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 0.75,
+    "note": "العائد/المخاطرة 3.0"
+   }
+  },
+  "support_low": 0.7400000095367432,
+  "support_high": 0.7549999952316284,
+  "support_touches": 5,
+  "trigger_level": 0.7400000095367432,
+  "stop": 0.7056000280380249,
+  "entry_low": 0.7400000095367432,
+  "entry_high": 0.751360013961792,
+  "t1": 0.8199999928474426,
+  "t1_label": "قمة يوم قريبة",
+  "t2": 0.8299999833106995,
+  "t2_label": "رأس شمعة هابطة",
+  "rr": 1.5,
+  "risk_pct": 0.0542,
+  "rsi_now": 24.5,
+  "rsi_min": 24.5,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "macd_state": "بداية تحسن",
+  "candle": "ذيل سفلي طويل (رفض كسر)",
+  "volume_note": "فوليوم البيع يضعف",
+  "waiting_for": [
+   "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+   "اكتمال الشروط الأساسية (3 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: المتوسطات، MACD، خبر/محفز"
+  ],
+  "flags": [
+   "اختراق وهمي سابق لخط العنق (Bull Trap)"
+  ],
+  "tags": [
+   "Former Runner (سبق انفجر +49% في يوم)",
+   "فوليوم البيع يضعف"
+  ],
+  "rank": 5.668243370594291,
+  "meta": {
+   "avg_volume": 2182570.0,
+   "drawdown": 0.438,
+   "rr_best": 2.97,
+   "gain_from_low10": 0.045,
+   "higher_lows": "False",
+   "float": 71163961,
+   "market_cap": 61749268,
+   "exchange": "",
+   "name": "Upexi, Inc."
+  },
+  "news": []
+ },
+ "momentum": null
+}

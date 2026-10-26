@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T20:25:23.375079+00:00",
- "generated_at_et": "2026-10-26T16:25:23.375079-04:00",
+ "generated_at_utc": "2026-10-26T20:35:23.375243+00:00",
+ "generated_at_et": "2026-10-26T16:35:23.375243-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -255,7 +255,7 @@
     "exchange": "NASDAQ",
     "name": "BioStem Technologies, Inc.",
     "ext_price": 1.54,
-    "ext_chg": -0.019108280254777066,
+    "ext_chg": 0.0,
     "ext_session": "post"
    },
    "news": []
@@ -743,8 +743,8 @@
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 28)",
     "فوليوم أعلى عند الاختراق (الاختراق بدون فوليوم ضعيف — ص19)",
     "الدخول تحت مقاومة مباشرة (0.70) — انتظر اختراقها والثبات",
-    "اكتمال الشروط الأساسية (3 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: RSI 23–27، خبر/محفز، مساحة صعود",
-    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
+    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم",
+    "اكتمال الشروط الأساسية (3 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: RSI 23–27، خبر/محفز، مساحة صعود"
    ],
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 64.0K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
@@ -766,7 +766,10 @@
     "market_cap": 36074412,
     "exchange": "NASDAQ",
     "name": "Gamehaus Holdings Inc.",
-    "short_pct_float": 0.0046
+    "short_pct_float": 0.0046,
+    "ext_price": 0.6535,
+    "ext_chg": 0.0289718154621319,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -849,7 +852,10 @@
     "market_cap": 2616499,
     "exchange": "NASDAQ",
     "name": "HCW Biologics Inc.",
-    "short_pct_float": 0.028499998
+    "short_pct_float": 0.028499998,
+    "ext_price": 1.1726,
+    "ext_chg": 0.0022222222222223476,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -1670,8 +1676,8 @@
     "market_cap": 67509427.0,
     "exchange": "NASDAQ",
     "name": "Upexi Inc. Common Stock",
-    "ext_price": 0.7699,
-    "ext_chg": 0.013026359999999999,
+    "ext_price": 0.77,
+    "ext_chg": 0.013157882999999999,
     "ext_session": "post"
    },
    "news": []
@@ -1819,11 +1825,13 @@
    "candle": "مطرقة (Hammer) (شمعة صغيرة غير واضحة)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+    "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
     "بيانات الفلووت غير موثوقة — تحقق يدوياً",
-    "تقسيم عكسي حديث 1:20 (2026-09-10)"
+    "تقسيم عكسي حديث 1:20 (2026-09-10)",
+    "صعد في الأفتر إلى 2.48 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +169% في يوم)",
@@ -1842,8 +1850,8 @@
     "exchange": "NASDAQ",
     "name": "Lion Group Holding Ltd.",
     "short_pct_float": 0.1242,
-    "ext_price": 2.3,
-    "ext_chg": -0.07630524,
+    "ext_price": 2.48,
+    "ext_chg": -0.0040160605,
     "ext_session": "post"
    },
    "news": []
@@ -2433,8 +2441,8 @@
     "exchange": "NASDAQ",
     "name": "Acumen Pharmaceuticals, Inc.",
     "short_pct_float": 0.061100002,
-    "ext_price": 2.29,
-    "ext_chg": 0.008810564,
+    "ext_price": 2.2992,
+    "ext_chg": 0.012863469999999998,
     "ext_session": "post"
    },
    "news": []
@@ -2515,8 +2523,8 @@
     "market_cap": 2412094.0,
     "exchange": "NASDAQ",
     "name": "Akanda Corp. Common Shares",
-    "ext_price": 1.0617,
-    "ext_chg": 0.01114289,
+    "ext_price": 1.06,
+    "ext_chg": 0.0095238006,
     "ext_session": "post"
    },
    "news": []
@@ -2687,8 +2695,8 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.3504,
-    "ext_chg": 0.028772714,
+    "ext_price": 0.34,
+    "ext_chg": -0.0017616269000000002,
     "ext_session": "post"
    },
    "news": []
@@ -2857,89 +2865,6 @@
     "name": "Elicio Therapeutics Inc. Common Stock",
     "ext_price": 1.7,
     "ext_chg": 0.0,
-    "ext_session": "post"
-   },
-   "news": []
-  },
-  {
-   "ticker": "KITT",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "W_FORMING",
-   "setup_ar": "نموذج W قيد التكوين",
-   "price": 1.309999942779541,
-   "score": 4.75,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 17 والحالي 24"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "مطرقة (Hammer) (شمعة صغيرة غير واضحة)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 85% من قمة 90 يوم، شورت 17% من الفلووت"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 9.7"
-    }
-   },
-   "support_low": 1.2100000381469727,
-   "support_high": 1.2200000286102295,
-   "support_touches": 2,
-   "trigger_level": 1.3990000486373901,
-   "stop": 1.3570300471782684,
-   "entry_low": 1.3990000486373901,
-   "entry_high": 1.440970050096512,
-   "t1": 1.6200000047683716,
-   "t1_label": "قمة سابقة",
-   "t2": 1.9500000476837158,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 3.18,
-   "risk_pct": 0.0443,
-   "rsi_now": 23.6,
-   "rsi_min": 17.2,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "مطرقة (Hammer) (شمعة صغيرة غير واضحة)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "كسر خط العنق 1.40 والثبات فوقه أكثر من ربع ساعة"
-   ],
-   "flags": [
-    "تقسيم عكسي حديث 1:6 (2026-09-25)"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +135% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف"
-   ],
-   "rank": 5.4319152867630915,
-   "meta": {
-    "avg_volume": 186390.0,
-    "drawdown": 0.851,
-    "rr_best": 9.69,
-    "gain_from_low10": 0.083,
-    "higher_lows": "True",
-    "float": 759861,
-    "market_cap": 1556658,
-    "exchange": "NASDAQ",
-    "name": "Nauticus Robotics, Inc.",
-    "short_pct_float": 0.1731,
-    "ext_price": 1.31,
-    "ext_chg": 0.04800000000000004,
     "ext_session": "post"
    },
    "news": []
@@ -3273,8 +3198,8 @@
     "exchange": "NASDAQ",
     "name": "NRx Pharmaceuticals, Inc.",
     "short_pct_float": 0.2359,
-    "ext_price": 2.55,
-    "ext_chg": 0.02409638554216853,
+    "ext_price": 2.6,
+    "ext_chg": 0.04417670682730912,
     "ext_session": "post"
    },
    "news": []
@@ -3510,7 +3435,7 @@
    "flags": [
     "شمعة ضخ/تصريف قبل 1 يوم (طار إلى 0.36 وأغلق 0.24 بفوليوم 3861x)",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.295 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.28 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -3528,8 +3453,90 @@
     "exchange": "AMEX",
     "name": "Mynd.ai, Inc.",
     "short_pct_float": 0.0043,
-    "ext_price": 0.2948,
-    "ext_chg": 0.037297678,
+    "ext_price": 0.2801,
+    "ext_chg": -0.014426546,
+    "ext_session": "post"
+   },
+   "news": []
+  },
+  {
+   "ticker": "FRSX",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 0.7601000070571899,
+   "score": 4.5,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 1.0,
+     "note": "أدنى RSI 24 والحالي 27"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الهيستوجرام يتحسن"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "لا توجد شمعة إيجابية عند الدعم"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 63% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 9.9"
+    }
+   },
+   "support_low": 0.7300000190734863,
+   "support_high": 0.7373000192642212,
+   "support_touches": 2,
+   "trigger_level": 0.7300000190734863,
+   "stop": 0.7154000186920166,
+   "entry_low": 0.7300000190734863,
+   "entry_high": 0.7373000192642212,
+   "t1": 0.8050000071525574,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 0.8339999914169312,
+   "t2_label": "قمة سابقة",
+   "rr": 3.09,
+   "risk_pct": 0.0249,
+   "rsi_now": 27.0,
+   "rsi_min": 23.9,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "الهيستوجرام يتحسن",
+   "candle": "",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.73 ثم استرداد"
+   ],
+   "flags": [],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +57% في يوم)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع تاريخي/سنوي)"
+   ],
+   "rank": 5.29383570412843,
+   "meta": {
+    "avg_volume": 253540.0,
+    "drawdown": 0.629,
+    "rr_best": 9.86,
+    "gain_from_low10": 0.041,
+    "higher_lows": "True",
+    "float": 3947582,
+    "market_cap": 3274383,
+    "exchange": "NASDAQ",
+    "name": "Foresight Autonomous Holdings Ltd.",
+    "short_pct_float": 0.0034999999,
+    "ext_price": 0.7601,
+    "ext_chg": -0.04221270161290325,
     "ext_session": "post"
    },
    "news": []
@@ -3541,7 +3548,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.1,
+   "price": 1.15,
    "price_label": "سعر الأفتر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -3574,7 +3581,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.23,
+   "price": 2.2303,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3699,7 +3706,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3925,
+   "price": 0.405,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

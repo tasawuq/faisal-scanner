@@ -1,11 +1,11 @@
 {
- "generated_at_utc": "2026-10-26T10:44:50.579742+00:00",
- "generated_at_et": "2026-10-26T06:44:50.579742-04:00",
+ "generated_at_utc": "2026-10-26T10:54:50.579890+00:00",
+ "generated_at_et": "2026-10-26T06:54:50.579890-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1594,
-  "with_data": 1593,
+  "with_data": 1594,
   "short_history": 30,
   "price_out": 99,
   "low_volume": 369,
@@ -13,7 +13,7 @@
  },
  "counts": {
   "universe": 5854,
-  "analyzed": 1095,
+  "analyzed": 1096,
   "ready": 0,
   "watch": 128,
   "momentum": 0,
@@ -262,7 +262,10 @@
     "market_cap": 25605408,
     "exchange": "NYSE",
     "name": "Spruce Power Holding Corporation",
-    "short_pct_float": 0.060100004
+    "short_pct_float": 0.060100004,
+    "ext_price": 1.32,
+    "ext_chg": -0.014925358,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1111,8 +1114,8 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.1068,
-    "ext_chg": 0.0,
+    "ext_price": 0.1078,
+    "ext_chg": 0.009363315,
     "ext_session": "pre"
    },
    "news": []
@@ -3546,7 +3549,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.373,
+   "price": 0.3706,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3565,8 +3568,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -3582,11 +3585,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 353493.0,
-   "price": 343.2352
+   "volume": 356861.0,
+   "price": 343.8185
   },
   "SNDL": {
-   "volume": 487.0,
+   "volume": 489.0,
    "price": 1.3
   }
  }

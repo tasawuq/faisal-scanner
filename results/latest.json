@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T21:05:51.348160+00:00",
- "generated_at_et": "2026-10-26T17:05:51.348160-04:00",
+ "generated_at_utc": "2026-10-26T21:15:51.348305+00:00",
+ "generated_at_et": "2026-10-26T17:15:51.348305-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -681,8 +681,8 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.6499,
-    "ext_chg": 0.0068164444,
+    "ext_price": 0.6455,
+    "ext_chg": 0.0,
     "ext_session": "post"
    },
    "news": []
@@ -1678,8 +1678,8 @@
     "market_cap": 67509427.0,
     "exchange": "NASDAQ",
     "name": "Upexi Inc. Common Stock",
-    "ext_price": 0.7699,
-    "ext_chg": 0.013026359999999999,
+    "ext_price": 0.753,
+    "ext_chg": -0.0092104864,
     "ext_session": "post"
    },
    "news": []
@@ -2103,8 +2103,8 @@
     "exchange": "NASDAQ",
     "name": "Linkhome Holdings Inc.",
     "short_pct_float": 0.0305,
-    "ext_price": 1.03,
-    "ext_chg": -0.01904761904761909,
+    "ext_price": 1.0399,
+    "ext_chg": -0.009619047619047638,
     "ext_session": "post"
    },
    "news": []
@@ -2187,8 +2187,8 @@
     "exchange": "NASDAQ",
     "name": "Aqua Metals, Inc.",
     "short_pct_float": 0.0577,
-    "ext_price": 1.47,
-    "ext_chg": 0.0,
+    "ext_price": 1.445,
+    "ext_chg": -0.017006786,
     "ext_session": "post"
    },
    "news": []
@@ -2358,8 +2358,8 @@
     "exchange": "NASDAQ",
     "name": "Datasea Intelligent Technology Ltd.",
     "short_pct_float": 0.0215,
-    "ext_price": 0.68,
-    "ext_chg": -0.05424200278164104,
+    "ext_price": 0.694,
+    "ext_chg": -0.03477051460361613,
     "ext_session": "post"
    },
    "news": []
@@ -2443,8 +2443,8 @@
     "exchange": "NASDAQ",
     "name": "Acumen Pharmaceuticals, Inc.",
     "short_pct_float": 0.061100002,
-    "ext_price": 2.2869,
-    "ext_chg": 0.0074449617,
+    "ext_price": 2.29,
+    "ext_chg": 0.008810564,
     "ext_session": "post"
    },
    "news": []
@@ -2697,8 +2697,8 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.333,
-    "ext_chg": -0.022313589999999998,
+    "ext_price": 0.33,
+    "ext_chg": -0.03112155,
     "ext_session": "post"
    },
    "news": []
@@ -2781,8 +2781,8 @@
     "market_cap": 3747414,
     "exchange": "NASDAQ",
     "name": "Cyabra, Inc.",
-    "ext_price": 0.138,
-    "ext_chg": 0.040724,
+    "ext_price": 0.1355,
+    "ext_chg": 0.02187032,
     "ext_session": "post"
    },
    "news": []
@@ -2872,89 +2872,6 @@
    "news": []
   },
   {
-   "ticker": "KITT",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "W_FORMING",
-   "setup_ar": "نموذج W قيد التكوين",
-   "price": 1.309999942779541,
-   "score": 4.75,
-   "conditions": {
-    "ma": {
-     "score": 0.5,
-     "note": "تحت كل المتوسطات (ضغط)"
-    },
-    "rsi": {
-     "score": 0.75,
-     "note": "أدنى RSI 17 والحالي 24"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الهيستوجرام يتحسن"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "مطرقة (Hammer) (شمعة صغيرة غير واضحة)"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 85% من قمة 90 يوم، شورت 17% من الفلووت"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 9.7"
-    }
-   },
-   "support_low": 1.2100000381469727,
-   "support_high": 1.2200000286102295,
-   "support_touches": 2,
-   "trigger_level": 1.3990000486373901,
-   "stop": 1.3570300471782684,
-   "entry_low": 1.3990000486373901,
-   "entry_high": 1.440970050096512,
-   "t1": 1.6200000047683716,
-   "t1_label": "قمة سابقة",
-   "t2": 1.9500000476837158,
-   "t2_label": "رأس شمعة هابطة",
-   "rr": 3.18,
-   "risk_pct": 0.0443,
-   "rsi_now": 23.6,
-   "rsi_min": 17.2,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "الهيستوجرام يتحسن",
-   "candle": "مطرقة (Hammer) (شمعة صغيرة غير واضحة)",
-   "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "كسر خط العنق 1.40 والثبات فوقه أكثر من ربع ساعة"
-   ],
-   "flags": [
-    "تقسيم عكسي حديث 1:6 (2026-09-25)"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +135% في يوم)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف"
-   ],
-   "rank": 5.4319152867630915,
-   "meta": {
-    "avg_volume": 186390.0,
-    "drawdown": 0.851,
-    "rr_best": 9.69,
-    "gain_from_low10": 0.083,
-    "higher_lows": "True",
-    "float": 759861,
-    "market_cap": 1556658,
-    "exchange": "NASDAQ",
-    "name": "Nauticus Robotics, Inc.",
-    "short_pct_float": 0.1731,
-    "ext_price": 1.3079,
-    "ext_chg": 0.04632000000000014,
-    "ext_session": "post"
-   },
-   "news": []
-  },
-  {
    "ticker": "SMTK",
    "kind": "pivot",
    "status": "WATCH",
@@ -3013,7 +2930,7 @@
    ],
    "flags": [
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.47 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.464 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +182% في يوم)",
@@ -3031,8 +2948,8 @@
     "market_cap": 506299.0,
     "exchange": "NASDAQ",
     "name": "SmartKem Inc. Common Stock",
-    "ext_price": 0.4696,
-    "ext_chg": -0.039279869067103124,
+    "ext_price": 0.4635,
+    "ext_chg": -0.051759410801964,
     "ext_session": "post"
    },
    "news": []
@@ -3458,6 +3375,94 @@
     "ext_session": "post"
    },
    "news": []
+  },
+  {
+   "ticker": "MYND",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "AT_SUPPORT",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "price": 0.2842000126838684,
+   "score": 4.75,
+   "conditions": {
+    "ma": {
+     "score": 1.0,
+     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
+    },
+    "rsi": {
+     "score": 0.25,
+     "note": "أدنى RSI 21 والحالي 50 (ارتفع — جزء من الارتداد حصل)"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "تقاطع إيجابي حديث"
+    },
+    "candle": {
+     "score": 0.5,
+     "note": "شمعة خضراء بإغلاق قوي"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 56% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 1.0,
+     "note": "العائد/المخاطرة 11.1"
+    }
+   },
+   "support_low": 0.26100000739097595,
+   "support_high": 0.2636100074648857,
+   "support_touches": 2,
+   "trigger_level": 0.26100000739097595,
+   "stop": 0.2557800072431564,
+   "entry_low": 0.26100000739097595,
+   "entry_high": 0.2636100074648857,
+   "t1": 0.2760600008070469,
+   "t1_label": "MA20 + قمة سابقة",
+   "t2": 0.28999999165534973,
+   "t2_label": "رأس شمعة هابطة + MA30",
+   "rr": 1.59,
+   "risk_pct": 0.0249,
+   "rsi_now": 50.2,
+   "rsi_min": 21.1,
+   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
+   "macd_state": "تقاطع إيجابي حديث",
+   "candle": "شمعة خضراء بإغلاق قوي",
+   "volume_note": "",
+   "waiting_for": [
+    "نزول السعر لمنطقة الطلب 0.26–0.26",
+    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 21)",
+    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
+    "صعد 77% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
+   "flags": [
+    "شمعة ضخ/تصريف قبل 1 يوم (طار إلى 0.36 وأغلق 0.24 بفوليوم 3861x)",
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في الأفتر إلى 0.307 بعيداً عن منطقة الطلب"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +132% في يوم)"
+   ],
+   "rank": 5.305555466744892,
+   "meta": {
+    "avg_volume": 3427130.0,
+    "drawdown": 0.563,
+    "rr_best": 11.14,
+    "gain_from_low10": 0.765,
+    "higher_lows": "False",
+    "float": 4014363,
+    "market_cap": 12606467,
+    "exchange": "AMEX",
+    "name": "Mynd.ai, Inc.",
+    "short_pct_float": 0.0043,
+    "ext_price": 0.307,
+    "ext_chg": 0.08022518,
+    "ext_session": "post"
+   },
+   "news": []
   }
  ],
  "momentum": [],
@@ -3466,7 +3471,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.13,
+   "price": 1.22,
    "price_label": "سعر الأفتر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -3484,8 +3489,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
+   "alert": true,
    "session": "post",
    "scanner": {
     "status": "WATCH",
@@ -3624,7 +3629,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.4003,
+   "price": 0.405,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3643,8 +3648,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

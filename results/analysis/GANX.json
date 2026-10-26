@@ -1,0 +1,420 @@
+{
+ "ticker": "GANX",
+ "generated_at_et": "2026-10-26T14:30:28.870220-04:00",
+ "session": "regular",
+ "quote": {
+  "reg_price": 1.15,
+  "reg_chg": -0.08730161,
+  "reg_vol": 590522,
+  "prev_close": 1.26,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 503006,
+  "state": "REGULAR"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": null,
+  "sharesOutstanding": null,
+  "marketCap": null,
+  "shortPercentOfFloat": null,
+  "longName": null,
+  "country": null,
+  "industry": null,
+  "sector": null,
+  "lastSplitFactor": null,
+  "lastSplitDate": null
+ },
+ "daily": {
+  "price": 1.15,
+  "chg_1d": -0.0873,
+  "ma": {
+   "MA20": 1.4673,
+   "MA30": 1.5778,
+   "MA50": 1.6905
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 25.6,
+  "rsi_min15": 19.9,
+  "rsi_min30": 19.9,
+  "macd": {
+   "line": -0.15163,
+   "signal": -0.12837,
+   "hist_last3": [
+    -0.03148,
+    -0.02356,
+    -0.02326
+   ],
+   "state": "الهيستوجرام يتحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-10-23",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.10569112782625298,
+    "close_pos": 0.32520287381553964,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-26",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.0,
+    "close_pos": 0.0,
+    "green": "False",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.1078,
+  "avg_vol20": 676120,
+  "last_vol": 597977,
+  "drawdown_90d": 0.515,
+  "high_90d": 2.37,
+  "low_10d": 1.15,
+  "gain_from_low10": 0.0,
+  "sell_drying": false,
+  "vol_improving": false,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_jump": 0.311,
+  "runner_spike": 0.431,
+  "distinct_closes20": 17,
+  "support_zones": [
+   {
+    "low": 1.75,
+    "high": 1.7675,
+    "touches": 12,
+    "is_bottom": false,
+    "first": "2026-09-02",
+    "last": "2026-09-02"
+   },
+   {
+    "low": 1.68,
+    "high": 1.72,
+    "touches": 14,
+    "is_bottom": false,
+    "first": "2026-06-26",
+    "last": "2026-09-10"
+   },
+   {
+    "low": 1.6,
+    "high": 1.66,
+    "touches": 8,
+    "is_bottom": false,
+    "first": "2026-07-30",
+    "last": "2026-09-29"
+   },
+   {
+    "low": 1.53,
+    "high": 1.59,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-05-19",
+    "last": "2026-07-15"
+   },
+   {
+    "low": 1.15,
+    "high": 1.1615,
+    "touches": 1,
+    "is_bottom": true,
+    "first": "2026-10-21",
+    "last": "2026-10-21"
+   }
+  ],
+  "support_selected": {
+   "low": 1.15,
+   "high": 1.1615,
+   "touches": 1,
+   "interacting": true
+  },
+  "w": null,
+  "resistances": [
+   [
+    1.27,
+    "رأس شمعة هابطة"
+   ],
+   [
+    1.343,
+    "قمة سابقة"
+   ],
+   [
+    1.4673,
+    "MA20"
+   ],
+   [
+    1.5778,
+    "MA30 + رأس شمعة هابطة"
+   ],
+   [
+    1.6905,
+    "MA50"
+   ],
+   [
+    1.85,
+    "قمة سابقة"
+   ]
+  ],
+  "high_52w": 4.34,
+  "low_52w": 1.15,
+  "last_bars": [
+   {
+    "d": "2026-10-09",
+    "o": 1.61,
+    "h": 1.66,
+    "l": 1.61,
+    "c": 1.64,
+    "v": 328600,
+    "rsi": 39.4,
+    "hist": -0.01189
+   },
+   {
+    "d": "2026-10-12",
+    "o": 1.65,
+    "h": 1.65,
+    "l": 1.565,
+    "c": 1.57,
+    "v": 319600,
+    "rsi": 34.6,
+    "hist": -0.01494
+   },
+   {
+    "d": "2026-10-13",
+    "o": 1.58,
+    "h": 1.58,
+    "l": 1.4,
+    "c": 1.41,
+    "v": 790900,
+    "rsi": 26.7,
+    "hist": -0.02592
+   },
+   {
+    "d": "2026-10-14",
+    "o": 1.37,
+    "h": 1.42,
+    "l": 1.295,
+    "c": 1.32,
+    "v": 849300,
+    "rsi": 23.4,
+    "hist": -0.03678
+   },
+   {
+    "d": "2026-10-15",
+    "o": 1.32,
+    "h": 1.41,
+    "l": 1.31,
+    "c": 1.33,
+    "v": 501300,
+    "rsi": 24.5,
+    "hist": -0.04053
+   },
+   {
+    "d": "2026-10-16",
+    "o": 1.32,
+    "h": 1.377,
+    "l": 1.235,
+    "c": 1.26,
+    "v": 464400,
+    "rsi": 22.1,
+    "hist": -0.04464
+   },
+   {
+    "d": "2026-10-19",
+    "o": 1.26,
+    "h": 1.29,
+    "l": 1.21,
+    "c": 1.25,
+    "v": 532200,
+    "rsi": 21.8,
+    "hist": -0.04482
+   },
+   {
+    "d": "2026-10-20",
+    "o": 1.23,
+    "h": 1.295,
+    "l": 1.17,
+    "c": 1.19,
+    "v": 511400,
+    "rsi": 19.9,
+    "hist": -0.04562
+   },
+   {
+    "d": "2026-10-21",
+    "o": 1.2,
+    "h": 1.23,
+    "l": 1.15,
+    "c": 1.19,
+    "v": 609500,
+    "rsi": 19.9,
+    "hist": -0.04284
+   },
+   {
+    "d": "2026-10-22",
+    "o": 1.18,
+    "h": 1.33,
+    "l": 1.16,
+    "c": 1.29,
+    "v": 2746800,
+    "rsi": 31.5,
+    "hist": -0.03148
+   },
+   {
+    "d": "2026-10-23",
+    "o": 1.33,
+    "h": 1.343,
+    "l": 1.22,
+    "c": 1.26,
+    "v": 641000,
+    "rsi": 30.1,
+    "hist": -0.02356
+   },
+   {
+    "d": "2026-10-26",
+    "o": 1.27,
+    "h": 1.27,
+    "l": 1.15,
+    "c": 1.15,
+    "v": 597977,
+    "rsi": 25.6,
+    "hist": -0.02326
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 1.15,
+  "at_price": [
+   "قاع يوم 2026-10-21",
+   "قاع يوم 2026-10-26"
+  ],
+  "above": [
+   {
+    "level": 1.16,
+    "why": "قاع يوم 2026-10-22 + قيعان سابقة متجمعة (3) + قاع يوم 2026-10-20",
+    "confluence": 3
+   },
+   {
+    "level": 1.211,
+    "why": "فواب جلسة 2026-10-26 + قاع يوم 2026-10-23 + قيعان سابقة متجمعة (3) + قمة يوم 2026-10-21",
+    "confluence": 4
+   },
+   {
+    "level": 1.26,
+    "why": "إغلاقات سابقة متجمعة (3) + قمة يوم 2026-10-26 + رأس شمعة هابطة",
+    "confluence": 3
+   },
+   {
+    "level": 1.295,
+    "why": "قمة يوم 2026-10-20",
+    "confluence": 1
+   },
+   {
+    "level": 1.33,
+    "why": "قمة يوم 2026-10-22 + قمة يوم 2026-10-23 + قمة سابقة",
+    "confluence": 3
+   },
+   {
+    "level": 1.4673,
+    "why": "MA20",
+    "confluence": 1
+   },
+   {
+    "level": 1.5778,
+    "why": "MA30 + رأس شمعة هابطة + قيعان سابقة متجمعة (4)",
+    "confluence": 3
+   },
+   {
+    "level": 1.6575,
+    "why": "قيعان سابقة متجمعة (4) + إغلاقات سابقة متجمعة (4) + MA50",
+    "confluence": 3
+   }
+  ],
+  "below": []
+ },
+ "pivot": {
+  "ticker": "GANX",
+  "kind": "pivot",
+  "status": "WATCH",
+  "setup": "AT_SUPPORT",
+  "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+  "price": 1.149999976158142,
+  "score": 4.25,
+  "conditions": {
+   "ma": {
+    "score": 0.5,
+    "note": "تحت كل المتوسطات (ضغط)"
+   },
+   "rsi": {
+    "score": 0.75,
+    "note": "أدنى RSI 20 والحالي 26"
+   },
+   "macd": {
+    "score": 1.0,
+    "note": "الهيستوجرام يتحسن"
+   },
+   "candle": {
+    "score": 0.0,
+    "note": "لا توجد شمعة إيجابية عند الدعم"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 51% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 1.0,
+    "note": "العائد/المخاطرة 6.5"
+   }
+  },
+  "support_low": 1.149999976158142,
+  "support_high": 1.1614999759197235,
+  "support_touches": 1,
+  "trigger_level": 1.149999976158142,
+  "stop": 1.1269999766349792,
+  "entry_low": 1.149999976158142,
+  "entry_high": 1.1614999759197235,
+  "t1": 1.2300000190734863,
+  "t1_label": "قمة يوم قريبة",
+  "t2": 1.2699999809265137,
+  "t2_label": "رأس شمعة هابطة",
+  "rr": 1.99,
+  "risk_pct": 0.0249,
+  "rsi_now": 25.6,
+  "rsi_min": 19.9,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "macd_state": "الهيستوجرام يتحسن",
+  "candle": "",
+  "volume_note": "",
+  "waiting_for": [
+   "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.15 ثم استرداد",
+   "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع"
+  ],
+  "flags": [],
+  "tags": [
+   "Former Runner (سبق انفجر +43% في يوم)",
+   "قاع الفترة (قاع تاريخي/سنوي)"
+  ],
+  "rank": 5.25,
+  "meta": {
+   "avg_volume": 676120.0,
+   "drawdown": 0.515,
+   "rr_best": 6.51,
+   "gain_from_low10": 0.0,
+   "higher_lows": "False",
+   "float": null,
+   "market_cap": null,
+   "exchange": "",
+   "name": ""
+  },
+  "news": []
+ },
+ "momentum": null
+}

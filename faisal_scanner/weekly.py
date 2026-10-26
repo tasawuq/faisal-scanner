@@ -149,6 +149,14 @@ def due(now_et, max_age_hours=1):
     return t.date() != now_et.date() or (now_et - t).total_seconds() > max_age_hours * 3600
 
 
+def _file_six(sig):
+    from .pivot import file_six
+    try:
+        return file_six(sig.conditions, sig.tags, sig.rr)
+    except Exception:  # noqa
+        return None, []
+
+
 def build(pivots, daily, fund, now_et, news=None):
     rows = []
     for sig in pivots:
@@ -199,6 +207,8 @@ def build(pivots, daily, fund, now_et, news=None):
                        "wash_high": round(w_hi, 4), "wash_note": w_note, "pivot": pivot, "t1": sig.t1, "t2": sig.t2, "r1": r1,
                        "stop": round(min(stop_t, w_lo * 0.97), 4), "stop_tight": round(stop_t, 4)},
             "not_ready": sig.waiting_for[:2], "ready_when": ready_when(sig, (w_lo, w_hi)),
+            # شروط الملف الستة حرفياً (ص81/ص82/ص85) — تنبيه القائمة يحتاج 4 من 6 (UPXI 26 أكتوبر نبّه وهو 3/6)
+            "file": dict(zip(("met", "miss"), _file_six(sig))),
             "flags": sig.flags[:4], "tags": sig.tags[:4],
         })
     out = {"generated_at_et": now_et.isoformat(), "items": items}
@@ -271,5 +281,6 @@ def load_entries(path=FILE, max_age_days=4):
                     "demand_low": lv["demand_low"], "demand_high": lv["demand_high"], "stop": lv["stop_tight"],
                     "breakout": lv.get("pivot"), "targets": sorted({x for x in (lv.get("r1"), lv.get("t1"), lv.get("t2")) if x}),
                     "note": it["ready_when"], "warn": "، ".join(it.get("flags") or []),
-                    "last_price": it.get("ext_price") or it["price"], "wash_low": lv["wash_low"]})
+                    "last_price": it.get("ext_price") or it["price"], "wash_low": lv["wash_low"],
+                    "file_met": (it.get("file") or {}).get("met"), "file_miss": (it.get("file") or {}).get("miss") or []})
     return out

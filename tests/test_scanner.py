@@ -536,3 +536,18 @@ def test_scanner_ready_needs_15m_confirmation_and_space():
     dly2 = dly.copy()
     dly2.iloc[3, 0] = 1.0
     assert any("المساحة لأول مقاومة 1" in x for x in fw.scanner_confirm(good, 0.955, 0.8918, 1.09, 0.95, dly2, now))
+
+
+def test_list_alert_needs_four_of_six_file_conditions():
+    """26 أكتوبر: UPXI نبّه من القائمة (شمعة مؤكدة + مساحة) وهو 3/6 من شروط الملف → لازم يطلع ⚪ بدون تنبيه."""
+    from faisal_scanner import faisal_watch as fw
+    day = datetime(2026, 10, 26).date()
+    prev = [(f"{h:02d}:{m:02d}", 0.75, 0.76, 0.74, 0.75, 20_000) for h in range(10, 15) for m in (0, 15, 30, 45)]
+    bars = pd.concat([_bars15(day - timedelta(days=3), prev),
+                      _bars15(day, [("10:30", 0.742, 0.75, 0.74, 0.745, 30_000), ("10:45", 0.743, 0.752, 0.742, 0.7472, 90_000)])])
+    now = datetime.combine(day, datetime.strptime("11:01", "%H:%M").time(), tzinfo=ET)
+    upxi = {"ticker": "UPXI", "kind": "weekly", "demand_low": 0.74, "demand_high": 0.751, "stop": 0.7056,
+            "breakout": 0.82, "targets": [0.82, 0.83], "file_met": 3, "file_miss": ["المتوسطات", "MACD", "خبر/محفز"]}
+    why = fw.entry_quality(bars, upxi, 0.7472, now, "regular")
+    assert len(why) == 1 and "شروط الملف 3/6" in why[0]
+    assert fw.entry_quality(bars, {**upxi, "file_met": 4, "file_miss": ["المتوسطات", "خبر/محفز"]}, 0.7472, now, "regular") == []

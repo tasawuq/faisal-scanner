@@ -124,6 +124,9 @@ def entry_quality(bars15, entry: dict, price: float, now_et, seg: str = "regular
             why.append(f"شمعة التأكيد بدون سيولة ({vol / 1e3:.1f}K سهم ≈ ${vol * float(b['close']) / 1e3:.0f}K)")
         elif med and vol < MIN_CONFIRM_VOL_X * med:
             why.append(f"فوليوم شمعة التأكيد ضعيف ({vol / 1e3:.0f}K مقابل المعتاد {med / 1e3:.0f}K — ص19)")
+    # 26 أكتوبر (UPXI نبّه وهو 3/6): سهم القائمة ما ينبّه إلا إذا اجتمعت أغلب شروط الملف الستة (4 من 6، ص81)
+    if entry.get("kind") == "weekly" and entry.get("file_met") is not None and entry["file_met"] < 4:
+        why.append(f"شروط الملف {entry['file_met']}/6 — ناقص: {'، '.join(entry.get('file_miss') or [])} (ص81)")
     if entry.get("kind") == "weekly" and price and entry.get("stop") and price > entry["stop"]:
         obst = [x for x in [entry.get("breakout")] + list(entry.get("targets") or []) if x and x > price * 1.005]
         if obst:

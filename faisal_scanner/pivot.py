@@ -310,7 +310,7 @@ def file_six(conditions: dict, tags=(), rr=None) -> tuple:
     six = {"المتوسطات": sc("ma") >= 0.75, "RSI 23–27": sc("rsi") >= 0.75, "MACD": sc("macd") >= 0.75,
            "شمعة/ضغط بيع": max(sc("candle"), sc("pressure")) >= 0.75,
            "خبر/محفز": any("محفز" in t for t in (tags or [])),
-           "مساحة صعود": sc("space") >= 0.75 and (rr is None or rr >= C.MIN_RR_T1)}
+           "مساحة صعود": sc("space") >= 0.75 and (rr is None or rr >= C.MIN_RR_T1 - 1e-6)}
     miss = [k for k, v in six.items() if not v]
     return 6 - len(miss), miss
 
@@ -657,7 +657,7 @@ def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, short_pct):
         wait.append("مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)")
     if rr is None:
         wait.append("هدف علوي واضح")
-    elif rr < C.MIN_RR_T1:
+    elif rr < C.MIN_RR_T1 - 1e-6:  # المنطقة مقصوصة على 1.5× بالضبط — بدون هامش تطلع 1.4999 (PETS 26 أكتوبر)
         wait.append(f"الدخول تحت مقاومة مباشرة ({t1[0]:.2f}) — انتظر اختراقها والثبات")
     elif rr_best < C.MIN_RR_SPACE:
         wait.append("مساحة صعود أكبر حتى المقاومات القادمة")

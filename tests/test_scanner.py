@@ -35,6 +35,10 @@ def test_ready_needs_four_of_the_files_six_conditions():
     # PETS: RSI 0.75 + MACD + ابتلاعية + مساحة 1.5× عند أعلى المنطقة بعد القص = 4 → جاهز (أغلب الإشارات ص81)
     pets = {**cond, "ma": {"score": 0.0}, "rsi": {"score": 0.75}, "pressure": {"score": 1.0}}
     assert file_six(pets, [], rr=1.5)[0] == 4
+    # المنطقة المقصوصة على 1.5× بالضبط (فاصلة عائمة) ما تُعتبر «تحت مقاومة مباشرة»
+    t1, stop = 1.21, 1.127
+    cap = (t1 + 1.5 * stop) / 2.5
+    assert file_six(pets, [], rr=(t1 - cap) / (cap - stop))[0] == 4
     # الخبر المحفز يحتسب شرطاً (ص82 الشرط 5)
     assert file_six(cond, ["محفز: خبر حديث"], rr=(1.45 - 1.40) / (1.40 - 1.3426))[0] == 4
 

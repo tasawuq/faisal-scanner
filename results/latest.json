@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T12:01:08.053313+00:00",
- "generated_at_et": "2026-10-26T08:01:08.053313-04:00",
+ "generated_at_utc": "2026-10-26T12:11:08.053448+00:00",
+ "generated_at_et": "2026-10-26T08:11:08.053448-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -265,7 +265,7 @@
     "exchange": "NASDAQ",
     "name": "FBS Global Limited",
     "short_pct_float": 0.0432,
-    "ext_price": 2.0303,
+    "ext_price": 2.07,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -670,11 +670,13 @@
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 28)",
     "الدخول تحت مقاومة مباشرة (0.69) — انتظر اختراقها والثبات",
     "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم",
+    "السعر في البري 0.62 تحت الوقف — الدعم مكسور حالياً",
     "اكتمال الشروط الأساسية (3 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: RSI 23–27، خبر/محفز، مساحة صعود"
    ],
    "flags": [
     "سيولة ضعيفة: متوسط الفوليوم 64.0K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
-    "سهم صيني عالي التذبذب"
+    "سهم صيني عالي التذبذب",
+    "نزل في البري تحت الوقف (0.62)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +59% في يوم)",
@@ -693,7 +695,7 @@
     "exchange": "NASDAQ",
     "name": "Gamehaus Holdings Inc.",
     "short_pct_float": 0.0046,
-    "ext_price": 0.6347,
+    "ext_price": 0.62,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -1699,7 +1701,7 @@
     "exchange": "AMEX",
     "name": "Trio Petroleum Corp.",
     "short_pct_float": 0.1097,
-    "ext_price": 1.67,
+    "ext_price": 1.63,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -1871,7 +1873,7 @@
     "exchange": "NASDAQ",
     "name": "NeOnc Technologies Holdings, Inc.",
     "short_pct_float": 0.0552,
-    "ext_price": 3.21,
+    "ext_price": 3.15,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2019,10 +2021,12 @@
    "waiting_for": [
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
-    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم"
+    "متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
-    "سيولة ضعيفة: متوسط الفوليوم 54.0K أقل من 100K (فلتر الملف ص6) — مراقبة فقط"
+    "سيولة ضعيفة: متوسط الفوليوم 54.0K أقل من 100K (فلتر الملف ص6) — مراقبة فقط",
+    "صعد في البري إلى 1.58 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -2041,7 +2045,7 @@
     "exchange": "NASDAQ",
     "name": "Aqua Metals, Inc.",
     "short_pct_float": 0.0577,
-    "ext_price": 1.4195,
+    "ext_price": 1.58,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2808,7 +2812,7 @@
     "exchange": "NASDAQ",
     "name": "CCSC Technology International Holdings Limited",
     "short_pct_float": 0.0013,
-    "ext_price": 0.35,
+    "ext_price": 0.3493,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2974,7 +2978,7 @@
     "exchange": "NASDAQ",
     "name": "Snail, Inc.",
     "short_pct_float": 0.0301,
-    "ext_price": 2.1532,
+    "ext_price": 2.17,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -3588,11 +3592,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 568453.0,
-   "price": 341.9699
+   "volume": 609754.0,
+   "price": 342.11
   },
   "SNDL": {
-   "volume": 726.0,
+   "volume": 776.0,
    "price": 1.28
   }
  }

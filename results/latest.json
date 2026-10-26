@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T21:50:03.416580+00:00",
- "generated_at_et": "2026-10-26T17:50:03.416580-04:00",
+ "generated_at_utc": "2026-10-26T22:00:03.416722+00:00",
+ "generated_at_et": "2026-10-26T18:00:03.416722-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -14,17 +14,18 @@
  "counts": {
   "universe": 5854,
   "analyzed": 1087,
-  "ready": 1,
-  "watch": 128,
+  "ready": 0,
+  "watch": 129,
   "momentum": 0,
   "ext_quotes": 61,
   "ext_movers_5pct": 0
  },
- "ready": [
+ "ready": [],
+ "watch": [
   {
    "ticker": "TII",
    "kind": "pivot",
-   "status": "READY",
+   "status": "WATCH",
    "setup": "BOUNCE",
    "setup_ar": "ارتداد مؤكد من الدعم",
    "price": 1.9500000476837158,
@@ -74,9 +75,12 @@
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "ابتلاعية شرائية (Engulfing)",
    "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [],
+   "waiting_for": [
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+   ],
    "flags": [
-    "اختراق وهمي سابق لخط العنق (Bull Trap)"
+    "اختراق وهمي سابق لخط العنق (Bull Trap)",
+    "صعد في الأفتر إلى 1.97 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +71% في يوم)",
@@ -94,14 +98,12 @@
     "market_cap": 186083024,
     "exchange": "AMEX",
     "name": "Titan Mining Corporation",
-    "ext_price": 1.95,
+    "ext_price": 1.97,
     "ext_chg": null,
     "ext_session": "post"
    },
    "news": []
-  }
- ],
- "watch": [
+  },
   {
    "ticker": "IDN",
    "kind": "pivot",
@@ -256,7 +258,7 @@
     "market_cap": 29315236,
     "exchange": "NASDAQ",
     "name": "BioStem Technologies, Inc.",
-    "ext_price": 1.5001,
+    "ext_price": 1.521,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -685,7 +687,7 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.64,
+    "ext_price": 0.665,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -944,7 +946,7 @@
     "exchange": "NASDAQ",
     "name": "Lipocine Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 1.4523,
+    "ext_price": 1.4557,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1025,7 +1027,7 @@
     "market_cap": 1772694.0,
     "exchange": "AMEX",
     "name": "Endovia Health Sciences Inc. Common Stock",
-    "ext_price": 0.1618,
+    "ext_price": 0.1616,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1519,7 +1521,7 @@
     "exchange": "NASDAQ",
     "name": "INVO Fertility, Inc.",
     "short_pct_float": 0.0109,
-    "ext_price": 0.57,
+    "ext_price": 0.5941,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1603,7 +1605,7 @@
     "exchange": "NYSE",
     "name": "Spruce Power Holding Corporation",
     "short_pct_float": 0.060100004,
-    "ext_price": 1.3496,
+    "ext_price": 1.33,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1856,7 +1858,7 @@
     "exchange": "NASDAQ",
     "name": "Lion Group Holding Ltd.",
     "short_pct_float": 0.1242,
-    "ext_price": 2.45,
+    "ext_price": 2.35,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1944,7 +1946,7 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.105,
+    "ext_price": 0.1051,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2256,13 +2258,11 @@
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
     "صعد 99% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "هدوء بعد شمعة الضخ وتكوين دعم جديد",
-    "السعر في الأفتر 0.592 تحت الوقف — الدعم مكسور حالياً"
+    "هدوء بعد شمعة الضخ وتكوين دعم جديد"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 3 يوم (طار إلى 1.07 وأغلق 0.4 بفوليوم 1434x)",
-    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
-    "نزل في الأفتر تحت الوقف (0.592)"
+    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +133% في يوم)"
@@ -2278,7 +2278,7 @@
     "market_cap": 6962481.0,
     "exchange": "AMEX",
     "name": "Reed's Inc. Common Stock",
-    "ext_price": 0.592,
+    "ext_price": 0.6192,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2531,7 +2531,7 @@
     "market_cap": 2412094.0,
     "exchange": "NASDAQ",
     "name": "Akanda Corp. Common Shares",
-    "ext_price": 1.07,
+    "ext_price": 1.06,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2703,7 +2703,7 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.3384,
+    "ext_price": 0.344,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2936,7 +2936,7 @@
    ],
    "flags": [
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.463 بعيداً عن منطقة الطلب"
+    "صعد في الأفتر إلى 0.5 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +182% في يوم)",
@@ -2954,7 +2954,7 @@
     "market_cap": 506299.0,
     "exchange": "NASDAQ",
     "name": "SmartKem Inc. Common Stock",
-    "ext_price": 0.4626,
+    "ext_price": 0.5,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3381,94 +3381,6 @@
     "ext_session": "post"
    },
    "news": []
-  },
-  {
-   "ticker": "MYND",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.2842000126838684,
-   "score": 4.75,
-   "conditions": {
-    "ma": {
-     "score": 1.0,
-     "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
-    },
-    "rsi": {
-     "score": 0.25,
-     "note": "أدنى RSI 21 والحالي 50 (ارتفع — جزء من الارتداد حصل)"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "تقاطع إيجابي حديث"
-    },
-    "candle": {
-     "score": 0.5,
-     "note": "شمعة خضراء بإغلاق قوي"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 56% من قمة 90 يوم"
-    },
-    "space": {
-     "score": 1.0,
-     "note": "العائد/المخاطرة 11.1"
-    }
-   },
-   "support_low": 0.26100000739097595,
-   "support_high": 0.2636100074648857,
-   "support_touches": 2,
-   "trigger_level": 0.26100000739097595,
-   "stop": 0.2557800072431564,
-   "entry_low": 0.26100000739097595,
-   "entry_high": 0.2636100074648857,
-   "t1": 0.2760600008070469,
-   "t1_label": "MA20 + قمة سابقة",
-   "t2": 0.28999999165534973,
-   "t2_label": "رأس شمعة هابطة + MA30",
-   "rr": 1.59,
-   "risk_pct": 0.0249,
-   "rsi_now": 50.2,
-   "rsi_min": 21.1,
-   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-   "macd_state": "تقاطع إيجابي حديث",
-   "candle": "شمعة خضراء بإغلاق قوي",
-   "volume_note": "",
-   "waiting_for": [
-    "نزول السعر لمنطقة الطلب 0.26–0.26",
-    "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 21)",
-    "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
-    "صعد 77% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
-   ],
-   "flags": [
-    "شمعة ضخ/تصريف قبل 1 يوم (طار إلى 0.36 وأغلق 0.24 بفوليوم 3861x)",
-    "سعر منخفض جداً — سبريد واسع",
-    "صعد في الأفتر إلى 0.29 بعيداً عن منطقة الطلب"
-   ],
-   "tags": [
-    "فلووت أقل من 5M 🔥",
-    "Former Runner (سبق انفجر +132% في يوم)"
-   ],
-   "rank": 5.305555466744892,
-   "meta": {
-    "avg_volume": 3427130.0,
-    "drawdown": 0.563,
-    "rr_best": 11.14,
-    "gain_from_low10": 0.765,
-    "higher_lows": "False",
-    "float": 4014363,
-    "market_cap": 12606467,
-    "exchange": "AMEX",
-    "name": "Mynd.ai, Inc.",
-    "short_pct_float": 0.0043,
-    "ext_price": 0.29,
-    "ext_chg": null,
-    "ext_session": "post"
-   },
-   "news": []
   }
  ],
  "momentum": [],
@@ -3637,7 +3549,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.4093,
+   "price": 0.399,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

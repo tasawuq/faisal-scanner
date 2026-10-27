@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-27T22:43:40.062203+00:00",
- "generated_at_et": "2026-10-27T18:43:40.062203-04:00",
+ "generated_at_utc": "2026-10-27T22:53:40.062374+00:00",
+ "generated_at_et": "2026-10-27T18:53:40.062374-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -220,8 +220,8 @@
     "last_split": "عكسي 1:10 (2024-07-18)",
     "short_available": null,
     "short_pct_float": 0.0036000002,
-    "ext_price": 2.441,
-    "ext_chg": 0.1849515,
+    "ext_price": 2.15,
+    "ext_chg": 0.043689394000000006,
     "ext_session": "post"
    },
    "news": []
@@ -1621,7 +1621,10 @@
     },
     "last_split": "عكسي 1:15 (2026-06-03)",
     "short_available": null,
-    "short_pct_float": 0.0218
+    "short_pct_float": 0.0218,
+    "ext_price": 1.26,
+    "ext_chg": 0.0862068965517242,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2223,8 +2226,8 @@
     "last_split": "عكسي 1:50 (2026-08-21)",
     "short_available": null,
     "short_pct_float": 0.0983,
-    "ext_price": 0.4356,
-    "ext_chg": 0.0,
+    "ext_price": 0.4455,
+    "ext_chg": 0.022727213000000003,
     "ext_session": "post"
    },
    "news": []
@@ -3636,8 +3639,8 @@
     "last_split": "عكسي 1:5 (2026-03-27)",
     "short_available": null,
     "short_pct_float": 0.0109,
-    "ext_price": 0.6089,
-    "ext_chg": -0.011686418,
+    "ext_price": 0.6096,
+    "ext_chg": -0.010550244,
     "ext_session": "post"
    },
    "news": []
@@ -5618,8 +5621,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.040999997,
-    "ext_price": 1.7576,
-    "ext_chg": -0.018100566,
+    "ext_price": 1.7999,
+    "ext_chg": 0.005530777999999999,
     "ext_session": "post"
    },
    "news": []
@@ -8057,7 +8060,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.7576,
+   "price": 1.7999,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8076,7 +8079,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 14%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 11%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -8160,7 +8163,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.4211,
+   "price": 0.4227,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8180,8 +8183,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

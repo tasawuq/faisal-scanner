@@ -261,6 +261,7 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
         else:
             res.update(state="WAITING", state_ar=f"تحت منطقة الطلب ({lo:g}) — ينتظر استرداد أو المنطقة الأعمق")
         return res
+    claude = "فيصل" not in (entry.get("source") or "")
     if stop and price < stop:
         if stop_ok is False:
             res.update(state="BELOW_STOP", alert=False,
@@ -304,4 +305,11 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
         if brk and price <= brk:
             parts.append(f"تحت مستوى الاختراق {brk:g} بـ {(brk / price - 1) * 100:.0f}%")
         res.update(state="WAITING", state_ar="؛ ".join(parts) or f"ينتظر مستويات {lab}", alert=False)
+    if claude and res.get("state") in ("ZONE_CONFIRMED", "IN_ZONE", "RETEST_HOLD", "BREAKOUT_HOLD", "ZONE_WEAK",
+                                       "RETEST_WEAK", "BREAKOUT_PENDING"):
+        # 27 أكتوبر (منهج الملف حرفياً): مستويات المتابعة من عندي ما تعطي دخول بشمعة 15 دقيقة (ص90: اقربها 4 ساعات) —
+        # متابعة فقط؛ الإشارة من الفحص عند اكتمال شروط ص86. (مستويات فيصل المنشورة تبقى بقاعدته هو: ثبات >ربع ساعة ص25)
+        res["alert"] = False
+        res["state_ar"] = (f"{res['state_ar'].split(' — ')[0]} — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 "
+                           f"(يومي/4 ساعات)")
     return res

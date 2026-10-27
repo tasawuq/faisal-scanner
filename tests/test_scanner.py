@@ -222,7 +222,7 @@ def test_telegram_alert_text_and_disabled_without_token(monkeypatch):
 def test_watch_zone_needs_green_15m_confirmation():
     from datetime import time as dtime
     from faisal_scanner import faisal_watch as fw
-    e = {"ticker": "W", "demand_low": 1.47, "demand_high": 1.50, "stop": 1.44, "breakout": 1.70}
+    e = {"ticker": "W", "demand_low": 1.47, "demand_high": 1.50, "stop": 1.44, "breakout": 1.70, "source": "مستويات فيصل"}
     now = datetime(2026, 10, 19, 10, 2, tzinfo=ET)
     idx = [pd.Timestamp(datetime(2026, 10, 19, 9, 30, tzinfo=ET)), pd.Timestamp(datetime(2026, 10, 19, 9, 45, tzinfo=ET))]
     red = pd.DataFrame({"open": [1.55, 1.50], "high": [1.56, 1.51], "low": [1.49, 1.46], "close": [1.50, 1.47],
@@ -237,6 +237,10 @@ def test_watch_zone_needs_green_15m_confirmation():
     # outside the regular session: information only, no alert
     assert fw.evaluate(e, 1.40, alerts_on=False)["alert"] is False
     assert fw.evaluate(e, 1.48, zone_ok=True, alerts_on=False)["alert"] is False
+    # 27 أكتوبر: مستويات المتابعة من عندي (مو فيصل) ما تعطي دخول بشمعة 15 دقيقة (ص90) — متابعة فقط
+    mine = fw.evaluate({**e, "source": "متابعة Claude"}, 1.48, zone_ok=True)
+    assert mine["alert"] is False and "ص86" in mine["state_ar"]
+    assert fw.evaluate({**e, "source": "متابعة Claude"}, 1.40)["alert"] is True  # كسر الوقف معلومة لمن عنده السهم
 
 
 def test_extended_session_confirmation_candle():

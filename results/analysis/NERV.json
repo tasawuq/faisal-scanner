@@ -1,0 +1,445 @@
+{
+ "ticker": "NERV",
+ "generated_at_et": "2026-10-27T10:31:14.939073-04:00",
+ "session": "regular",
+ "quote": {
+  "reg_price": 2.24,
+  "reg_chg": 0.018181801,
+  "reg_vol": 33917,
+  "prev_close": 2.2,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 178510,
+  "state": "REGULAR"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 34299936,
+  "sharesOutstanding": 47747559,
+  "marketCap": 105044632,
+  "shortPercentOfFloat": 0.053400002,
+  "longName": "Minerva Neurosciences, Inc.",
+  "country": "United States",
+  "industry": "Biotechnology",
+  "sector": "Healthcare",
+  "lastSplitFactor": "1:8",
+  "lastSplitDate": 1655769600
+ },
+ "daily": {
+  "price": 2.24,
+  "chg_1d": 0.0182,
+  "ma": {
+   "MA20": 2.7593,
+   "MA30": 3.0125,
+   "MA50": 3.6365
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 27.6,
+  "rsi_min15": 20.3,
+  "rsi_min30": 20.3,
+  "macd": {
+   "line": -0.38999,
+   "signal": -0.38408,
+   "hist_last3": [
+    -0.0155,
+    -0.01376,
+    -0.00591
+   ],
+   "state": "الهيستوجرام يتحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-10-26",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.29411764705882354,
+    "close_pos": 0.11764705882352941,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-27",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.6800003051757812,
+    "close_pos": 0.23999977111816406,
+    "green": "False",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.2496,
+  "avg_vol20": 124775,
+  "last_vol": 33666,
+  "drawdown_90d": 0.616,
+  "high_90d": 5.84,
+  "low_10d": 2.18,
+  "gain_from_low10": 0.028,
+  "sell_drying": false,
+  "vol_improving": false,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_jump": 0.331,
+  "runner_spike": 0.356,
+  "distinct_closes20": 19,
+  "support_zones": [
+   {
+    "low": 4.295,
+    "high": 4.45,
+    "touches": 11,
+    "is_bottom": false,
+    "first": "2026-05-19",
+    "last": "2026-06-05"
+   },
+   {
+    "low": 4.0,
+    "high": 4.06,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-06-18",
+    "last": "2026-06-25"
+   },
+   {
+    "low": 3.84,
+    "high": 3.95,
+    "touches": 5,
+    "is_bottom": false,
+    "first": "2026-07-15",
+    "last": "2026-08-13"
+   },
+   {
+    "low": 3.43,
+    "high": 3.4643,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-09-18",
+    "last": "2026-09-18"
+   },
+   {
+    "low": 3.17,
+    "high": 3.2017,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-10-01",
+    "last": "2026-10-01"
+   },
+   {
+    "low": 2.24,
+    "high": 2.2624,
+    "touches": 1,
+    "is_bottom": true,
+    "first": "2026-10-19",
+    "last": "2026-10-19"
+   }
+  ],
+  "support_selected": {
+   "low": 2.24,
+   "high": 2.2624,
+   "touches": 1,
+   "interacting": true
+  },
+  "w": {
+   "low1": 2.24,
+   "low2": 2.18,
+   "neck": 2.65,
+   "low1_d": "2026-10-19",
+   "low2_d": "2026-10-26"
+  },
+  "resistances": [
+   [
+    2.65,
+    "قمة سابقة"
+   ],
+   [
+    2.7593,
+    "MA20"
+   ],
+   [
+    2.88,
+    "رأس شمعة هابطة"
+   ],
+   [
+    3.0125,
+    "MA30"
+   ],
+   [
+    3.18,
+    "رأس شمعة هابطة"
+   ],
+   [
+    3.56,
+    "قمة سابقة + MA50"
+   ]
+  ],
+  "high_52w": 8.8,
+  "low_52w": 2.18,
+  "last_bars": [
+   {
+    "d": "2026-10-12",
+    "o": 3.18,
+    "h": 3.23,
+    "l": 2.87,
+    "c": 2.89,
+    "v": 84900,
+    "rsi": 27.5,
+    "hist": -0.00934
+   },
+   {
+    "d": "2026-10-13",
+    "o": 2.88,
+    "h": 3.08,
+    "l": 2.505,
+    "c": 2.515,
+    "v": 185500,
+    "rsi": 22.2,
+    "hist": -0.0405
+   },
+   {
+    "d": "2026-10-14",
+    "o": 2.51,
+    "h": 2.565,
+    "l": 2.31,
+    "c": 2.35,
+    "v": 254300,
+    "rsi": 20.3,
+    "hist": -0.06588
+   },
+   {
+    "d": "2026-10-15",
+    "o": 2.37,
+    "h": 2.495,
+    "l": 2.28,
+    "c": 2.42,
+    "v": 159400,
+    "rsi": 23.3,
+    "hist": -0.07116
+   },
+   {
+    "d": "2026-10-16",
+    "o": 2.42,
+    "h": 2.47,
+    "l": 2.3,
+    "c": 2.35,
+    "v": 85600,
+    "rsi": 22.4,
+    "hist": -0.07234
+   },
+   {
+    "d": "2026-10-19",
+    "o": 2.37,
+    "h": 2.47,
+    "l": 2.24,
+    "c": 2.32,
+    "v": 118300,
+    "rsi": 22.0,
+    "hist": -0.06816
+   },
+   {
+    "d": "2026-10-20",
+    "o": 2.33,
+    "h": 2.59,
+    "l": 2.32,
+    "c": 2.53,
+    "v": 194300,
+    "rsi": 31.0,
+    "hist": -0.04538
+   },
+   {
+    "d": "2026-10-21",
+    "o": 2.53,
+    "h": 2.59,
+    "l": 2.39,
+    "c": 2.39,
+    "v": 102600,
+    "rsi": 28.6,
+    "hist": -0.03436
+   },
+   {
+    "d": "2026-10-22",
+    "o": 2.39,
+    "h": 2.5,
+    "l": 2.37,
+    "c": 2.4,
+    "v": 121100,
+    "rsi": 29.1,
+    "hist": -0.02165
+   },
+   {
+    "d": "2026-10-23",
+    "o": 2.37,
+    "h": 2.65,
+    "l": 2.25,
+    "c": 2.3,
+    "v": 137600,
+    "rsi": 27.3,
+    "hist": -0.0155
+   },
+   {
+    "d": "2026-10-26",
+    "o": 2.3,
+    "h": 2.35,
+    "l": 2.18,
+    "c": 2.2,
+    "v": 173100,
+    "rsi": 25.7,
+    "hist": -0.01376
+   },
+   {
+    "d": "2026-10-27",
+    "o": 2.25,
+    "h": 2.335,
+    "l": 2.21,
+    "c": 2.24,
+    "v": 33666,
+    "rsi": 27.6,
+    "hist": -0.00591
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 2.24,
+  "at_price": [
+   "فواب جلسة 2026-10-27"
+  ],
+  "above": [
+   {
+    "level": 2.25,
+    "why": "قاع يوم 2026-10-23 + قيعان سابقة متجمعة (4)",
+    "confluence": 2
+   },
+   {
+    "level": 2.335,
+    "why": "إغلاقات سابقة متجمعة (4) + قمة يوم 2026-10-27 + قمة يوم 2026-10-26 + قاع يوم 2026-10-22",
+    "confluence": 4
+   },
+   {
+    "level": 2.39,
+    "why": "قاع يوم 2026-10-21 + إغلاقات سابقة متجمعة (3)",
+    "confluence": 2
+   },
+   {
+    "level": 2.5,
+    "why": "قمة يوم 2026-10-22",
+    "confluence": 1
+   },
+   {
+    "level": 2.59,
+    "why": "قمة يوم 2026-10-21",
+    "confluence": 1
+   },
+   {
+    "level": 2.65,
+    "why": "قمة يوم 2026-10-23 + قمة سابقة",
+    "confluence": 2
+   },
+   {
+    "level": 2.7593,
+    "why": "MA20",
+    "confluence": 1
+   },
+   {
+    "level": 2.88,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   }
+  ],
+  "below": [
+   {
+    "level": 2.21,
+    "why": "قاع يوم 2026-10-27 + قاع يوم 2026-10-26",
+    "confluence": 2
+   }
+  ]
+ },
+ "pivot": {
+  "ticker": "NERV",
+  "kind": "pivot",
+  "status": "WATCH",
+  "setup": "SWEEP",
+  "setup_ar": "سحب سيولة ثم استرداد الدعم",
+  "price": 2.240000009536743,
+  "score": 4.25,
+  "conditions": {
+   "ma": {
+    "score": 0.5,
+    "note": "تحت كل المتوسطات (ضغط)"
+   },
+   "rsi": {
+    "score": 0.75,
+    "note": "أدنى RSI 20 والحالي 28"
+   },
+   "macd": {
+    "score": 1.0,
+    "note": "الهيستوجرام يتحسن"
+   },
+   "candle": {
+    "score": 0.0,
+    "note": "لا توجد شمعة إيجابية عند الدعم"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 62% من قمة 90 يوم"
+   },
+   "space": {
+    "score": 1.0,
+    "note": "العائد/المخاطرة 5.0"
+   }
+  },
+  "support_low": 2.240000009536743,
+  "support_high": 2.2624000096321106,
+  "support_touches": 1,
+  "trigger_level": 2.240000009536743,
+  "stop": 2.136400065422058,
+  "entry_low": 2.240000009536743,
+  "entry_high": 2.240000009536743,
+  "t1": 2.3499999046325684,
+  "t1_label": "قمة يوم قريبة",
+  "t2": 2.6500000953674316,
+  "t2_label": "قمة سابقة",
+  "rr": 1.06,
+  "risk_pct": 0.0462,
+  "rsi_now": 27.6,
+  "rsi_min": 20.3,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "macd_state": "الهيستوجرام يتحسن",
+  "candle": "",
+  "volume_note": "فوليوم يتحسن مع الارتداد",
+  "waiting_for": [
+   "إغلاق وثبات فوق 2.24 بعد سحب السيولة",
+   "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)",
+   "الدخول تحت مقاومة مباشرة (2.35) — انتظر اختراقها والثبات",
+   "اكتمال الشروط الأساسية (3 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: المتوسطات، خبر/محفز، مساحة صعود"
+  ],
+  "flags": [
+   "سهم طبي — الخبر قد يغير الاتجاه"
+  ],
+  "tags": [
+   "Former Runner (سبق انفجر +36% في يوم)",
+   "فوليوم يتحسن",
+   "قاع الفترة (قاع تاريخي/سنوي)"
+  ],
+  "rank": 5.25,
+  "meta": {
+   "avg_volume": 124775.0,
+   "drawdown": 0.616,
+   "rr_best": 5.01,
+   "gain_from_low10": 0.028,
+   "higher_lows": "False",
+   "float": 34299936,
+   "market_cap": 105044632,
+   "exchange": "",
+   "name": "Minerva Neurosciences, Inc.",
+   "short_pct_float": 0.053400002
+  },
+  "news": []
+ },
+ "momentum": null
+}

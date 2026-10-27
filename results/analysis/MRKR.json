@@ -1,11 +1,11 @@
 {
  "ticker": "MRKR",
- "generated_at_et": "2026-10-27T14:01:23.799221-04:00",
+ "generated_at_et": "2026-10-27T15:02:13.849450-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 0.9529,
-  "reg_chg": 0.05130182,
-  "reg_vol": 80666,
+  "reg_price": 0.9532,
+  "reg_chg": 0.05163278,
+  "reg_vol": 93380,
   "prev_close": 0.9064,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -18,7 +18,7 @@
  "fund": {
   "floatShares": 13743992,
   "sharesOutstanding": 16673127,
-  "marketCap": 15887823,
+  "marketCap": 15892824,
   "shortPercentOfFloat": 0.0125,
   "longName": "Marker Therapeutics, Inc.",
   "country": "United States",
@@ -28,10 +28,10 @@
   "lastSplitDate": 1674777600
  },
  "daily": {
-  "price": 0.9529,
-  "chg_1d": 0.0471,
+  "price": 0.9532,
+  "chg_1d": 0.0475,
   "ma": {
-   "MA20": 1.0181,
+   "MA20": 1.0182,
    "MA30": 1.0698,
    "MA50": 1.1585
   },
@@ -40,12 +40,12 @@
   "rsi_min15": 30.1,
   "rsi_min30": 30.1,
   "macd": {
-   "line": -0.04076,
-   "signal": -0.04041,
+   "line": -0.04074,
+   "signal": -0.0404,
    "hist_last3": [
     0.01223,
     0.00267,
-    -0.00036
+    -0.00034
    ],
    "state": "سلبي"
   },
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "True",
-    "upper_wick_ratio": 0.3014462908546999,
-    "close_pos": 0.6985537091453,
+    "upper_wick_ratio": 0.29810935958500856,
+    "close_pos": 0.7018906404149915,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.1113,
   "avg_vol20": 185500,
-  "last_vol": 84497,
+  "last_vol": 105133,
   "drawdown_90d": 0.446,
   "high_90d": 1.72,
   "low_10d": 0.87,
-  "gain_from_low10": 0.095,
+  "gain_from_low10": 0.096,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -167,7 +167,7 @@
   },
   "resistances": [
    [
-    1.0181,
+    1.0182,
     "MA20 + رأس شمعة هابطة"
    ],
    [
@@ -309,15 +309,15 @@
     "o": 0.92,
     "h": 0.98,
     "l": 0.8901,
-    "c": 0.9529,
-    "v": 84497,
+    "c": 0.9532,
+    "v": 105133,
     "rsi": 42.4,
-    "hist": -0.00036
+    "hist": -0.00034
    }
   ]
  },
  "levels_map": {
-  "price": 0.9529,
+  "price": 0.9532,
   "at_price": [],
   "above": [
    {
@@ -331,7 +331,7 @@
     "confluence": 2
    },
    {
-    "level": 1.0181,
+    "level": 1.0182,
     "why": "MA20 + إغلاقات سابقة متجمعة (4) + رأس شمعة هابطة",
     "confluence": 3
    },
@@ -363,7 +363,7 @@
   ],
   "below": [
    {
-    "level": 0.9406,
+    "level": 0.9453,
     "why": "فواب جلسة 2026-10-27",
     "confluence": 1
    },
@@ -385,7 +385,7 @@
   "status": "WATCH",
   "setup": "SWEEP",
   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-  "price": 0.9528999924659729,
+  "price": 0.9531999826431274,
   "score": 4.0,
   "conditions": {
    "ma": {
@@ -445,14 +445,13 @@
   "flags": [
    "شمعة ضخ/تصريف قبل 6 يوم (طار إلى 1.2 وأغلق 1.04 بفوليوم 17x)",
    "رفض عند MA20 (ص64)",
-   "اختراق وهمي سابق (Bull Trap — ص19، ص57)",
-   "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
+   "اختراق وهمي سابق (Bull Trap — ص19، ص57)"
   ],
   "tags": [
    "Former Runner: صعد 189% من 1.41 (2025-06-23) إلى 4.07 (2025-07-17)",
    "قاع الفترة (قاع سنة)"
   ],
-  "rank": 4.585795468014996,
+  "rank": 4.584090978362837,
   "meta": {
    "avg_volume": 182835.0,
    "drawdown": 0.471,
@@ -470,8 +469,8 @@
     "open": 0.9200000166893005,
     "high": 0.9800000190734863,
     "low": 0.8901000022888184,
-    "close": 0.9528999924659729,
-    "volume": 84497.0
+    "close": 0.9531999826431274,
+    "volume": 105133.0
    },
    "zone": [
     0.8799999952316284,
@@ -540,21 +539,9 @@
    },
    "float": 13743992,
    "shares": 16673127,
-   "market_cap": 15887823,
+   "market_cap": 15892824,
    "exchange": "",
-   "name": "Marker Therapeutics, Inc.",
-   "country_ar": "أمريكي",
-   "industry": "Biotechnology",
-   "split": {
-    "factor": "1:10",
-    "date": "2023-01-27",
-    "reverse": true,
-    "days": 1369,
-    "recent": false
-   },
-   "last_split": "عكسي 1:10 (2023-01-27)",
-   "short_available": null,
-   "short_pct_float": 0.0125
+   "name": "Marker Therapeutics, Inc."
   },
   "news": []
  },

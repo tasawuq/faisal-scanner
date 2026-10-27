@@ -1,11 +1,11 @@
 {
  "ticker": "OLB",
- "generated_at_et": "2026-10-27T14:01:23.799221-04:00",
+ "generated_at_et": "2026-10-27T15:02:13.849450-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 0.286,
-  "reg_chg": 0.015140634,
-  "reg_vol": 106668,
+  "reg_price": 0.2856,
+  "reg_chg": 0.013484758,
+  "reg_vol": 162575,
   "prev_close": 0.2818,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -18,7 +18,7 @@
  "fund": {
   "floatShares": 17187014,
   "sharesOutstanding": 24020313,
-  "marketCap": 6764120,
+  "marketCap": 6860201,
   "shortPercentOfFloat": 0.0097,
   "longName": "The OLB Group, Inc.",
   "country": "United States",
@@ -28,24 +28,24 @@
   "lastSplitDate": 1714953600
  },
  "daily": {
-  "price": 0.2816,
-  "chg_1d": -0.0007,
+  "price": 0.2856,
+  "chg_1d": 0.0135,
   "ma": {
-   "MA20": 0.3734,
-   "MA30": 0.3175,
-   "MA50": 0.3057
+   "MA20": 0.3736,
+   "MA30": 0.3176,
+   "MA50": 0.3058
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 43.8,
+  "rsi_now": 44.2,
   "rsi_min15": 43.8,
   "rsi_min30": 32.1,
   "macd": {
-   "line": 0.00613,
-   "signal": 0.02962,
+   "line": 0.00645,
+   "signal": 0.02969,
    "hist_last3": [
     -0.01771,
     -0.02176,
-    -0.02349
+    -0.02324
    ],
    "state": "سلبي"
   },
@@ -65,21 +65,21 @@
     "d": "2026-10-27",
     "hammer": "False",
     "engulfing": "False",
-    "lower_wick": "False",
+    "lower_wick": "True",
     "strong_green": "False",
     "upper_wick_ratio": 0.0,
-    "close_pos": 0.31736440389107695,
+    "close_pos": 0.5568858535331814,
     "green": "False",
-    "bullish_reversal": "False"
+    "bullish_reversal": "True"
    }
   ],
   "atr": 0.0801,
   "avg_vol20": 75816190,
-  "last_vol": 107005,
-  "drawdown_90d": 0.619,
+  "last_vol": 163006,
+  "drawdown_90d": 0.614,
   "high_90d": 0.74,
   "low_10d": 0.2753,
-  "gain_from_low10": 0.023,
+  "gain_from_low10": 0.037,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": false,
@@ -167,11 +167,11 @@
   },
   "resistances": [
    [
-    0.3057,
+    0.3058,
     "MA50 + رأس شمعة هابطة"
    ],
    [
-    0.3175,
+    0.3176,
     "MA30"
    ],
    [
@@ -179,7 +179,7 @@
     "قمة سابقة"
    ],
    [
-    0.3734,
+    0.3736,
     "MA20"
    ],
    [
@@ -309,15 +309,15 @@
     "o": 0.293,
     "h": 0.293,
     "l": 0.2763,
-    "c": 0.2816,
-    "v": 107005,
-    "rsi": 43.8,
-    "hist": -0.02349
+    "c": 0.2856,
+    "v": 163006,
+    "rsi": 44.2,
+    "hist": -0.02324
    }
   ]
  },
  "levels_map": {
-  "price": 0.286,
+  "price": 0.2856,
   "at_price": [],
   "above": [
    {
@@ -331,7 +331,7 @@
     "confluence": 2
    },
    {
-    "level": 0.3057,
+    "level": 0.3058,
     "why": "MA50 + إغلاقات سابقة متجمعة (6) + رأس شمعة هابطة + قمة يوم 2026-10-23",
     "confluence": 4
    },
@@ -351,7 +351,7 @@
     "confluence": 3
    },
    {
-    "level": 0.3734,
+    "level": 0.3736,
     "why": "MA20",
     "confluence": 1
    },
@@ -363,7 +363,7 @@
   ],
   "below": [
    {
-    "level": 0.2846,
+    "level": 0.2844,
     "why": "فواب جلسة 2026-10-27 + قاع يوم 2026-10-22 + إغلاقات سابقة متجمعة (4) + قيعان سابقة متجمعة (5)",
     "confluence": 4
    },
@@ -410,7 +410,7 @@
   "status": "WATCH",
   "setup": "AT_SUPPORT",
   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-  "price": 0.2815999984741211,
+  "price": 0.2856000065803528,
   "score": 3.0,
   "conditions": {
    "ma": {
@@ -471,15 +471,14 @@
   ],
   "flags": [
    "توه مدبل: من 0.1831 إلى 0.455",
-   "شمعة ضخ/تصريف قبل 12 يوم (طار إلى 0.695 وأغلق 0.549 بفوليوم 534x)",
-   "سعر منخفض جداً — سبريد واسع"
+   "شمعة ضخ/تصريف قبل 12 يوم (طار إلى 0.695 وأغلق 0.549 بفوليوم 534x)"
   ],
   "tags": [
    "Former Runner: صعد 476% من 0.3125 (2026-02-12) إلى 1.8 (2026-02-17)",
    "قيعان أعلى",
    "فوليوم البيع يضعف"
   ],
-  "rank": 3.872541891744203,
+  "rank": 3.7997085319838284,
   "meta": {
    "avg_volume": 75834980.0,
    "drawdown": 0.619,
@@ -497,8 +496,8 @@
     "open": 0.2930000126361847,
     "high": 0.2930000126361847,
     "low": 0.27630001306533813,
-    "close": 0.2815999984741211,
-    "volume": 107005.0
+    "close": 0.2856000065803528,
+    "volume": 163006.0
    },
    "zone": [
     0.27459999918937683,
@@ -568,21 +567,9 @@
    },
    "float": 17187014,
    "shares": 24020313,
-   "market_cap": 6764120,
+   "market_cap": 6860201,
    "exchange": "",
-   "name": "The OLB Group, Inc.",
-   "country_ar": "أمريكي",
-   "industry": "Software - Infrastructure",
-   "split": {
-    "factor": "1:10",
-    "date": "2024-05-06",
-    "reverse": true,
-    "days": 904,
-    "recent": false
-   },
-   "last_split": "عكسي 1:10 (2024-05-06)",
-   "short_available": null,
-   "short_pct_float": 0.0097
+   "name": "The OLB Group, Inc."
   },
   "news": []
  },

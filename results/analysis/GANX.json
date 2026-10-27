@@ -1,24 +1,24 @@
 {
  "ticker": "GANX",
- "generated_at_et": "2026-10-27T10:31:14.939073-04:00",
- "session": "regular",
+ "generated_at_et": "2026-10-27T16:01:32.878529-04:00",
+ "session": "post",
  "quote": {
-  "reg_price": 1.1802,
-  "reg_chg": 0.026260874,
-  "reg_vol": 114256,
+  "reg_price": 1.17,
+  "reg_chg": 0.017391288,
+  "reg_vol": 488655,
   "prev_close": 1.15,
   "pre_price": null,
   "pre_chg": 0.0,
-  "post_price": null,
+  "post_price": 1.17,
   "post_chg": 0.0,
   "avg_vol": 509412,
-  "state": "REGULAR"
+  "state": "POST"
  },
  "news": [],
  "fund": {
   "floatShares": 42635015,
   "sharesOutstanding": 43643619,
-  "marketCap": 51508200,
+  "marketCap": 51063032,
   "shortPercentOfFloat": 0.0716,
   "longName": "Gain Therapeutics, Inc.",
   "country": "United States",
@@ -28,24 +28,24 @@
   "lastSplitDate": null
  },
  "daily": {
-  "price": 1.1802,
-  "chg_1d": 0.0263,
+  "price": 1.17,
+  "chg_1d": 0.0174,
   "ma": {
-   "MA20": 1.4423,
-   "MA30": 1.5602,
-   "MA50": 1.6733
+   "MA20": 1.4418,
+   "MA30": 1.5598,
+   "MA50": 1.6731
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 28.7,
+  "rsi_now": 27.7,
   "rsi_min15": 19.9,
   "rsi_min30": 19.9,
   "macd": {
-   "line": -0.15181,
-   "signal": -0.13306,
+   "line": -0.15263,
+   "signal": -0.13322,
    "hist_last3": [
     -0.02356,
     -0.02326,
-    -0.01876
+    -0.01941
    ],
    "state": "الهيستوجرام يتحسن"
   },
@@ -66,20 +66,20 @@
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
-    "strong_green": "True",
-    "upper_wick_ratio": 0.19600124931156734,
-    "close_pos": 0.8039987506884326,
+    "strong_green": "False",
+    "upper_wick_ratio": 0.5714293012808177,
+    "close_pos": 0.4285706987191823,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.105,
+  "atr": 0.1064,
   "avg_vol20": 689065,
-  "last_vol": 113530,
-  "drawdown_90d": 0.502,
+  "last_vol": 488655,
+  "drawdown_90d": 0.506,
   "high_90d": 2.37,
   "low_10d": 1.14,
-  "gain_from_low10": 0.035,
+  "gain_from_low10": 0.026,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -87,8 +87,7 @@
   "distribution_recent": false,
   "pump_month": null,
   "former_runner": true,
-  "runner_jump": 0.311,
-  "runner_spike": 0.431,
+  "runner_pct": 1.376,
   "distinct_closes20": 17,
   "support_zones": [
    {
@@ -136,15 +135,15 @@
     "قمة سابقة"
    ],
    [
-    1.4423,
+    1.4418,
     "MA20"
    ],
    [
-    1.5602,
+    1.5598,
     "MA30 + رأس شمعة هابطة"
    ],
    [
-    1.6733,
+    1.6731,
     "MA50"
    ],
    [
@@ -268,28 +267,30 @@
    {
     "d": "2026-10-27",
     "o": 1.16,
-    "h": 1.19,
+    "h": 1.21,
     "l": 1.14,
-    "c": 1.1802,
-    "v": 113530,
-    "rsi": 28.7,
-    "hist": -0.01876
+    "c": 1.17,
+    "v": 488655,
+    "rsi": 27.7,
+    "hist": -0.01941
    }
   ]
  },
  "levels_map": {
-  "price": 1.1802,
-  "at_price": [],
+  "price": 1.17,
+  "at_price": [
+   "قاعدة آخر ساعة 2026-10-27"
+  ],
   "above": [
    {
-    "level": 1.19,
-    "why": "قمة يوم 2026-10-27",
+    "level": 1.1794,
+    "why": "فواب جلسة 2026-10-27",
     "confluence": 1
    },
    {
-    "level": 1.22,
-    "why": "قاع يوم 2026-10-23 + قيعان سابقة متجمعة (3) + قمة يوم 2026-10-21",
-    "confluence": 3
+    "level": 1.21,
+    "why": "قمة يوم 2026-10-27 + قاع يوم 2026-10-23 + قيعان سابقة متجمعة (3) + قمة يوم 2026-10-21",
+    "confluence": 4
    },
    {
     "level": 1.26,
@@ -302,12 +303,12 @@
     "confluence": 3
    },
    {
-    "level": 1.4423,
+    "level": 1.4418,
     "why": "MA20",
     "confluence": 1
    },
    {
-    "level": 1.5602,
+    "level": 1.5598,
     "why": "MA30 + رأس شمعة هابطة",
     "confluence": 2
    },
@@ -324,9 +325,9 @@
   ],
   "below": [
    {
-    "level": 1.1615,
-    "why": "فواب جلسة 2026-10-27 + قاع يوم 2026-10-22 + قيعان سابقة متجمعة (4) + قاع يوم 2026-10-21 + قاع يوم 2026-10-26 + قاع يوم 2026-10-27",
-    "confluence": 6
+    "level": 1.16,
+    "why": "قاع يوم 2026-10-22 + قيعان سابقة متجمعة (4) + قاع يوم 2026-10-21 + قاع يوم 2026-10-26 + قاع يوم 2026-10-27",
+    "confluence": 5
    }
   ]
  },

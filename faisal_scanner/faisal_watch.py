@@ -137,6 +137,34 @@ def entry_quality(bars15, entry: dict, price: float, now_et, seg: str = "regular
     return why
 
 
+def confirm_info(bars15, entry: dict, price: float, now_et, seg: str = "regular") -> dict:
+    """27 أكتوبر («ابي نفس التنبيهات ذي صحيحة بدون اخطاء» بعد شرح GANX): تفاصيل «ليش طلع التنبيه» داخل نصه —
+    شمعة التأكيد (وقتها، افتتاح→إغلاق، فوليومها وقيمتها ونسبتها للمعتاد) والمساحة لأول مقاومة مقابل الوقف."""
+    out = {}
+    try:
+        done = _done(bars15, now_et, seg) if bars15 is not None else None
+        if done is not None and len(done):
+            b = done.iloc[-1]
+            vol, c = float(b["volume"] or 0), float(b["close"])
+            reg = bars15[[SEG["regular"][0] <= ts.time() < SEG["regular"][1] for ts in bars15.index]]
+            reg = reg[reg.index < done.index[-1]]
+            med = float(reg["volume"].median()) if len(reg) >= 6 else 0.0
+            out["candle"] = {"time": done.index[-1].strftime("%H:%M"), "open": float(b["open"]), "close": c,
+                             "vol": vol, "dollars": vol * c, "x_med": (vol / med) if med else None}
+        stop = entry.get("stop")
+        if price and stop and price > stop:
+            obst = [x for x in [entry.get("breakout")] + list(entry.get("targets") or []) if x and x > price * 1.005]
+            if obst:
+                r = min(obst)
+                out["space"] = {"t1": r, "up": (r / price - 1), "down": (1 - stop / price),
+                                "rr": (r - price) / (price - stop)}
+    except Exception:  # noqa
+        pass
+    if entry.get("file_met") is not None:
+        out["file"] = {"met": entry["file_met"], "miss": entry.get("file_miss") or []}
+    return out
+
+
 def scanner_confirm(bars15, price: float, stop: float, t1: float, entry_low: float, daily=None, now_et=None) -> list:
     """بوابة الجودة لتنبيهات «جاهز» من الماسح (23 أكتوبر، طلب المستخدم «نعم وموكده»):
     نفس بوابة القائمة — كانت تنبيهات الماسح تكفيها الشروط اليومية (ELTX نبّه 1.98 وكسر الوقف، TYGO نبّه 0.986

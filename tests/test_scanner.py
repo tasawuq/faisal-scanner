@@ -561,3 +561,21 @@ def test_list_alert_needs_four_of_six_file_conditions():
     why = fw.entry_quality(bars, upxi, 0.7472, now, "regular")
     assert len(why) == 1 and "شروط الملف 3/6" in why[0]
     assert fw.entry_quality(bars, {**upxi, "file_met": 4, "file_miss": ["المتوسطات", "خبر/محفز"]}, 0.7472, now, "regular") == []
+
+
+def test_list_alert_text_explains_why():
+    """27 أكتوبر: نص التنبيه يشرح ليش طلع (شروط الملف + شمعة التأكيد + المساحة) مثل شرح GANX."""
+    from faisal_scanner import faisal_watch as fw, notify
+    day = datetime(2026, 10, 26).date()
+    prev = [(f"{h:02d}:{m:02d}", 1.2, 1.21, 1.19, 1.2, 15_000) for h in range(10, 15) for m in (0, 15, 30, 45)]
+    bars = pd.concat([_bars15(day - timedelta(days=3), prev),
+                      _bars15(day, [("13:45", 1.18, 1.1863, 1.16, 1.16, 48_969), ("14:00", 1.15, 1.17, 1.15, 1.16, 31_543)])])
+    now = datetime.combine(day, datetime.strptime("14:24", "%H:%M").time(), tzinfo=ET)
+    ganx = {"ticker": "GANX", "kind": "weekly", "demand_low": 1.15, "demand_high": 1.1615, "stop": 1.127,
+            "breakout": 1.23, "targets": [1.21, 1.23], "file_met": 4, "file_miss": ["المتوسطات", "خبر/محفز"]}
+    assert fw.entry_quality(bars, ganx, 1.16, now, "regular") == []
+    ev = fw.evaluate(ganx, 1.16, zone_ok=True, weak=[])
+    ev["why"] = fw.confirm_info(bars, ganx, 1.16, now)
+    _, body = notify.watch_alert(ev, "21:24 الرياض")
+    assert "شروط الملف 4/6" in body and "شمعة التأكيد 14:00" in body and "1.15→1.16" in body
+    assert "أول مقاومة 1.21" in body and "× المخاطرة" in body

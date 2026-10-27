@@ -151,6 +151,13 @@ def alert_text(s: dict, when: str) -> str:
         lines.append(" · ".join(extra))
     if s.get("flags"):
         lines.append("⚠️ انتبه: " + " · ".join(s["flags"][:3]))
+    if not mom and s.get("conditions"):
+        try:
+            from .pivot import file_six
+            met, miss = file_six(s["conditions"], s.get("tags") or [], s.get("rr"))
+            lines.append(f"شروط الملف {met}/6" + (f" — ناقص: {'، '.join(miss)}" if miss else ""))
+        except Exception:  # noqa
+            pass
     if mom:
         act = (f"ادخل فقط بين {p(s.get('entry_low'))} و {p(s.get('entry_high'))} والسعر فوق الفواب، "
                f"والوقف {p(s.get('stop'))}. إذا ابتعد السعر عن المنطقة لا تطارده.")
@@ -195,6 +202,22 @@ def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
     if L.get("targets"):
         lines.append("الأهداف: " + " ثم ".join(_g(x) for x in L["targets"]))
     lines.append(f"المصدر: {src}")
+    why = ev.get("why") or {}
+    if why:
+        lines.append("")
+        lines.append("ليش التنبيه:")
+        f = why.get("file")
+        if f:
+            lines.append(f"• شروط الملف {f['met']}/6" + (f" — ناقص: {'، '.join(f['miss'])}" if f.get("miss") else ""))
+        c = why.get("candle")
+        if c:
+            lines.append(f"• شمعة التأكيد {c['time']} نيويورك: {_g(round(c['open'], 4))}→{_g(round(c['close'], 4))}"
+                         f"، فوليوم {c['vol'] / 1e3:.0f}K ≈ ${c['dollars'] / 1e3:.0f}K"
+                         + (f" ({c['x_med']:.1f}× المعتاد)" if c.get("x_med") else ""))
+        sp = why.get("space")
+        if sp:
+            lines.append(f"• المساحة: أول مقاومة {_g(round(sp['t1'], 4))} (+{sp['up'] * 100:.1f}%) مقابل الوقف"
+                         f" (−{sp['down'] * 100:.1f}%) = {sp['rr']:.1f}× المخاطرة")
     if ev.get("warn"):
         lines.append(f"⚠️ {ev['warn']}")
     wait_open = f"انتظر الافتتاح ({open_time_riyadh()})" if seg == "بري ماركت" else "انتظر جلسة بكرة" if seg else ""

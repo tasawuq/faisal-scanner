@@ -235,6 +235,8 @@ def watch_alerts(result, quotes, now_et, session="regular"):
         ev = faisal_watch.evaluate(w, float(px) if px else None, None, seg, hold_ok=bool(hok), zone_ok=zok, stop_ok=sok,
                                    retest_ok=rok, weak=weak)
         ev["session"] = session
+        if (zok or rok) and not weak:
+            ev["why"] = faisal_watch.confirm_info(b, w, float(px) if px else None, now_et, session)
         if w.get("kind") != "weekly" and b is not None and len(b):
             # ملخص شموع اليوم لمتابعة كل 5 دقائق (طلب المستخدم): أعلى/أدنى/فوليوم + آخر 4 شموع 15 دقيقة
             try:

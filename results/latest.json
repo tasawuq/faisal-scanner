@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-27T08:16:42.572325+00:00",
- "generated_at_et": "2026-10-27T04:16:42.572325-04:00",
+ "generated_at_utc": "2026-10-27T08:26:42.572465+00:00",
+ "generated_at_et": "2026-10-27T04:26:42.572465-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -254,8 +254,8 @@
     "exchange": "AMEX",
     "name": "Endovia Health Sciences, Inc.",
     "short_pct_float": 0.015700001,
-    "ext_price": 0.158,
-    "ext_chg": -0.012499932,
+    "ext_price": 0.1577,
+    "ext_chg": 0.0,
     "ext_session": "pre"
    },
    "news": []
@@ -500,8 +500,8 @@
     "exchange": "NASDAQ",
     "name": "Ainos, Inc.",
     "short_pct_float": 0.0113,
-    "ext_price": 0.88,
-    "ext_chg": 0.08843537414965996,
+    "ext_price": 0.822,
+    "ext_chg": 0.016697588126159513,
     "ext_session": "pre"
    },
    "news": []
@@ -1159,13 +1159,15 @@
     "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 0.10 ثم استرداد",
     "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 31)",
     "سعر يتحرك بتكات كبيرة — الشموع والمؤشرات غير موثوقة على هذا السهم",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب",
     "اكتمال الشروط الأساسية (3 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: المتوسطات، RSI 23–27، خبر/محفز"
    ],
    "flags": [
     "حركة السعر متقطعة (5 أسعار إغلاق مختلفة في 20 يوم) — قراءة الشموع غير موثوقة",
     "اختراق وهمي سابق لخط العنق (Bull Trap)",
     "سهم صيني عالي التذبذب",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "صعد في البري إلى 0.113 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -1184,8 +1186,8 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.1035,
-    "ext_chg": 0.0019361413,
+    "ext_price": 0.113,
+    "ext_chg": 0.09390126,
     "ext_session": "pre"
    },
    "news": []
@@ -2090,7 +2092,10 @@
     "market_cap": 7208535,
     "exchange": "NASDAQ",
     "name": "Datasea Intelligent Technology Ltd.",
-    "short_pct_float": 0.0215
+    "short_pct_float": 0.0215,
+    "ext_price": 0.69,
+    "ext_chg": -0.04033379694019479,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2347,8 +2352,8 @@
     "exchange": "NASDAQ",
     "name": "Akanda Corp.",
     "short_pct_float": 0.0845,
-    "ext_price": 1.0757,
-    "ext_chg": 0.06504950495049511,
+    "ext_price": 1.0798,
+    "ext_chg": 0.028381009999999998,
     "ext_session": "pre"
    },
    "news": []
@@ -2602,8 +2607,8 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.33,
-    "ext_chg": -0.03112155,
+    "ext_price": 0.32,
+    "ext_chg": -0.060481562999999995,
     "ext_session": "pre"
    },
    "news": []
@@ -3549,8 +3554,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.5800000429153442,
-   "price_label": "آخر سعر",
+   "price": 1.5,
+   "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3567,7 +3572,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 8%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 14%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3582,7 +3587,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.82,
+   "price": 2.87,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3601,7 +3606,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 11%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 9%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3652,8 +3657,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 31465.0,
-   "price": 343.0166
+   "volume": 35360.0,
+   "price": 343.2
   },
   "SNDL": {
    "volume": 3121.0,

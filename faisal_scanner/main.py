@@ -102,8 +102,8 @@ def enrich(sig, fund: dict, urow: dict, df=None) -> bool:
     sig.meta["exchange"] = urow.get("exchange", "")
     sig.meta["name"] = f.get("longName") or urow.get("name", "")
     known = flt or sh  # فيصل يكتب «فلوت» في القائمة الأسبوعية و«عدد اسهم» في الفرز — الفلوت أولاً وإلا عدد الأسهم
-    if known and known > M.MAX_FLOAT:
-        return False  # نفس مدى أسهم فيصل (≤8M — ص56، ص59، ص90–94)
+    if known and not (M.MIN_FLOAT <= known <= M.MAX_FLOAT):
+        return False  # نفس مدى أسهم فيصل (541 ألف – 7.84M — ص56، ص59، ص90–94)
     if sig.meta["market_cap"] and sig.meta["market_cap"] > M.MAX_MARKET_CAP:
         return False  # ص6: Under 300M
     if not known:

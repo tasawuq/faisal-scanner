@@ -529,6 +529,11 @@ def apply_gate(s: Signal):
     if lad["risk"] > M.MAX_LOSS:
         wait.append(f"الخسارة من متوسط الطلبات للوقف {lad['risk'] * 100:.0f}% أكبر من 15% (ص54)")
     px = s.price
+    td = s.meta.get("today") or {}
+    if td.get("low") is not None and td["low"] < lad["stop"] and px >= lad["stop"]:
+        # LGHL 27 أكتوبر: نزل اليوم إلى 2.00 تحت الوقف 2.24 ثم رجع 2.26 ونبّه على شمعة أمس — الدعم انكسر (ص17، ص89)
+        wait.append(f"نزل اليوم إلى {M.rnd(td['low'])} تحت الوقف {M.rnd(lad['stop'])} — الدعم انكسر؛ "
+                    f"ينتظر شمعة جديدة تكتمل (ص17، ص89)")
     if px < lad["stop"]:
         wait.append(f"السعر الآن {M.rnd(px)} تحت الوقف {M.rnd(lad['stop'])} — الدعم مكسور")
     elif px / p["critical"] - 1 >= M.CHASE_GAIN:

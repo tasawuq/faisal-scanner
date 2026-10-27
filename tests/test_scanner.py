@@ -454,6 +454,7 @@ def test_selection_follows_faisal_filter_and_template():
     s = Signal(ticker="B", price=1.6)  # BNKK (ص93): فلوت 7.84M داخل المدى، و9M خارجه
     assert enrich(s, {"B": {"floatShares": 7.84e6}}, {}) is True
     assert enrich(Signal(ticker="Z", price=1.6), {"Z": {"floatShares": 9e6}}, {}) is False
+    assert enrich(Signal(ticker="L", price=2.2), {"L": {"sharesOutstanding": 45_878}}, {}) is False  # LGHL: أصغر من HTCR 541K
     s = Signal(ticker="U", price=1.6)
     assert enrich(s, {"U": {}}, {}) is True and any("غير معروفين" in fl for fl in s.flags)
     s = Signal(ticker="Y", price=1.5)
@@ -547,3 +548,14 @@ def test_demo_end_to_end(tmp_path, monkeypatch):
     assert "DEMOA" in {s["ticker"] for s in res["ready"]}
     assert "اكتملت شروط ص86" in md and "جاهز الآن" not in md
     assert main.run_once(demo=True)["new_alerts"] == []
+
+
+def test_signal_blocked_when_today_already_broke_the_stop():
+    """LGHL 27 أكتوبر: شروط ص86 اكتملت على شمعة أمس، لكن اليوم نزل 2.00 تحت الوقف 2.24 ثم رجع 2.26 → الدعم انكسر،
+    ما فيه إشارة (ص17 «كسر الدعم وبقي تحته = ضعف»، ص89 «كسر الدعم بعد الدخول = خروج»)."""
+    df = demo.scenario_bounce(END)
+    lad_stop = analyze_pivot("A", df).stop
+    today = pd.DataFrame([[1.25, 1.27, lad_stop * 0.95, 1.20, 500_000.0]], columns=df.columns,
+                         index=[df.index[-1] + pd.Timedelta(days=1)])
+    s = analyze_pivot("A", pd.concat([df, today]), 0.8, True)
+    assert s.status == WATCH and any("نزل اليوم" in w for w in s.waiting_for)

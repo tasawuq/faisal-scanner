@@ -15,7 +15,7 @@ import sys
 from concurrent.futures import ProcessPoolExecutor
 
 import numpy as np
-import pandas as pd
+
 
 from . import config as C
 from . import method as M

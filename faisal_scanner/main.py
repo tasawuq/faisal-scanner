@@ -600,12 +600,17 @@ def update_alert_state(result, now_et, suffix=""):
             if result.get("session") not in (None, "regular", "post"):
                 continue
             p86 = (s.get("meta") or {}).get("p86") or {}
+            crit = round(float(((s.get("meta") or {}).get("ladder") or {}).get("critical") or 0), 4)
             key = f"{s['ticker']}:P86:{p86.get('bar_date', '')}"
-            if _seen_before(key, now_et):
+            # نفس النموذج (نفس الدعم الحرج) ما يتكرر تنبيهه كل يوم ولا بين شمعة 4 ساعات واليومي
+            same = lambda st: any(k.startswith(f"{s['ticker']}:P86:") and v.get("critical") == crit  # noqa: E731
+                                  for k, v in st.items())
+            if same(state) or _seen_before(key, now_et, match=same):
                 continue
         if key not in state:
             state[key] = {"first_seen_et": now_et.isoformat(), "price": s["price"], "stop": s["stop"],
-                          "t1": s.get("t1"), "setup_ar": s["setup_ar"]}
+                          "t1": s.get("t1"), "setup_ar": s["setup_ar"],
+                          "critical": round(float(((s.get("meta") or {}).get("ladder") or {}).get("critical") or 0), 4)}
             new.append(s["ticker"])
     for f_ in result.get("faisal", []):
         if f_.get("alert"):
@@ -620,16 +625,17 @@ def update_alert_state(result, now_et, suffix=""):
     return new
 
 
-def _seen_before(key, now_et, days=4):
+def _seen_before(key, now_et, days=14, match=None):
     d = os.path.join(C.RESULTS_DIR, "alerts")
     for k in range(1, days + 1):
         day = (now_et - timedelta(days=k)).date().isoformat()
         try:
             with open(os.path.join(d, f"{day}.json"), encoding="utf-8") as f:
-                if key in json.load(f):
-                    return True
+                st = json.load(f)
         except Exception:  # noqa
             continue
+        if key in st or (match is not None and match(st)):
+            return True
     return False
 
 

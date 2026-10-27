@@ -514,7 +514,7 @@ def test_pivot_signal_once_per_completion_bar(tmp_path, monkeypatch):
     assert main.update_alert_state({"ready": [s], "faisal": [], "session": "post"}, d1) == []
     d2 = datetime(2026, 10, 21, 10, 0, tzinfo=ET)
     assert main.update_alert_state({"ready": [s], "faisal": [], "session": "regular"}, d2) == []
-    s2 = dict(s, meta={"p86": {"bar_date": "2026-10-21 09:30"}})
+    s2 = dict(s, meta={"p86": {"bar_date": "2026-10-21 09:30"}, "ladder": {"critical": 1.2}})  # نموذج جديد (دعم مختلف)
     assert main.update_alert_state({"ready": [s2], "faisal": [], "session": "regular"}, d2) == ["VIP"]
 
 
@@ -559,3 +559,20 @@ def test_signal_blocked_when_today_already_broke_the_stop():
                          index=[df.index[-1] + pd.Timedelta(days=1)])
     s = analyze_pivot("A", pd.concat([df, today]), 0.8, True)
     assert s.status == WATCH and any("نزل اليوم" in w for w in s.waiting_for)
+
+
+def test_same_setup_alerts_once_not_every_day(tmp_path, monkeypatch):
+    """نفس النموذج (نفس الدعم الحرج) ما يتكرر تنبيهه كل يوم شمعة جديدة."""
+    from faisal_scanner import main
+    monkeypatch.setattr(main.C, "RESULTS_DIR", str(tmp_path))
+    base = {"ticker": "VIP", "setup": "BOUNCE", "kind": "pivot", "price": 1.25, "stop": 1.19, "t1": 1.34,
+            "entry_low": 1.22, "entry_high": 1.258, "setup_ar": "ارتداد"}
+    s1 = dict(base, meta={"p86": {"bar_date": "2026-10-20"}, "ladder": {"critical": 1.2}})
+    assert main.update_alert_state({"ready": [s1], "faisal": [], "session": "post"},
+                                   datetime(2026, 10, 20, 16, 30, tzinfo=ET)) == ["VIP"]
+    s2 = dict(base, meta={"p86": {"bar_date": "2026-10-21"}, "ladder": {"critical": 1.2}})
+    assert main.update_alert_state({"ready": [s2], "faisal": [], "session": "post"},
+                                   datetime(2026, 10, 21, 16, 30, tzinfo=ET)) == []
+    s3 = dict(base, meta={"p86": {"bar_date": "2026-10-22"}, "ladder": {"critical": 1.1}})
+    assert main.update_alert_state({"ready": [s3], "faisal": [], "session": "post"},
+                                   datetime(2026, 10, 22, 16, 30, tzinfo=ET)) == ["VIP"]

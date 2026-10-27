@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-27T11:31:56.728279+00:00",
- "generated_at_et": "2026-10-27T07:31:56.728279-04:00",
+ "generated_at_utc": "2026-10-27T11:41:56.728455+00:00",
+ "generated_at_et": "2026-10-27T07:41:56.728455-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1027,8 +1027,8 @@
     "exchange": "NASDAQ",
     "name": "Lipocine Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 1.42,
-    "ext_chg": -0.020689715999999997,
+    "ext_price": 1.4255,
+    "ext_chg": -0.01689656,
     "ext_session": "pre"
    },
    "news": []
@@ -1196,8 +1196,8 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.102,
-    "ext_chg": -0.012584702000000001,
+    "ext_price": 0.1015,
+    "ext_chg": -0.017424983,
     "ext_session": "pre"
    },
    "news": []
@@ -1278,7 +1278,10 @@
     "market_cap": 40843860,
     "exchange": "NYSE",
     "name": "Annovis Bio, Inc.",
-    "short_pct_float": 0.1566
+    "short_pct_float": 0.1566,
+    "ext_price": 0.9796,
+    "ext_chg": 0.02361546,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1420,12 +1423,9 @@
    "candle": "ذيل سفلي طويل (رفض كسر)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "السعر ابتعد 7% فوق منطقة الطلب — ضع Limit عند 0.50–0.53 ولا تطارد",
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
+    "السعر ابتعد 7% فوق منطقة الطلب — ضع Limit عند 0.50–0.53 ولا تطارد"
    ],
-   "flags": [
-    "صعد في البري إلى 0.555 بعيداً عن منطقة الطلب"
-   ],
+   "flags": [],
    "tags": [
     "فلووت أقل من 5M 🔥",
     "Former Runner (سبق انفجر +369% في يوم)",
@@ -1444,8 +1444,8 @@
     "exchange": "NASDAQ",
     "name": "Nexentis Technologies Inc.",
     "short_pct_float": 0.028199999,
-    "ext_price": 0.555,
-    "ext_chg": -0.012982427000000001,
+    "ext_price": 0.5406,
+    "ext_chg": -0.038591542,
     "ext_session": "pre"
    },
    "news": []
@@ -2267,13 +2267,11 @@
     "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)",
     "صعد 100% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة",
-    "هدوء بعد شمعة الضخ وتكوين دعم جديد",
-    "السعر في البري 0.61 تحت الوقف — الدعم مكسور حالياً"
+    "هدوء بعد شمعة الضخ وتكوين دعم جديد"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 3 يوم (طار إلى 1.07 وأغلق 0.4 بفوليوم 1434x)",
-    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
-    "نزل في البري تحت الوقف (0.61)"
+    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -2291,8 +2289,8 @@
     "exchange": "AMEX",
     "name": "Reed's, Inc.",
     "short_pct_float": 0.0174,
-    "ext_price": 0.6103,
-    "ext_chg": -0.07206933,
+    "ext_price": 0.6299,
+    "ext_chg": -0.026730546999999997,
     "ext_session": "pre"
    },
    "news": []
@@ -2631,8 +2629,8 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.3272,
-    "ext_chg": -0.03934239,
+    "ext_price": 0.321,
+    "ext_chg": -0.05754552,
     "ext_session": "pre"
    },
    "news": []
@@ -3692,12 +3690,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 163396.0,
-   "price": 342.98
+   "volume": 180487.0,
+   "price": 342.7712
   },
   "SNDL": {
-   "volume": 57279.0,
-   "price": 1.26
+   "volume": 78209.0,
+   "price": 1.28
   }
  }
 }

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-27T23:03:40.062552+00:00",
- "generated_at_et": "2026-10-27T19:03:40.062552-04:00",
+ "generated_at_utc": "2026-10-27T23:13:40.062707+00:00",
+ "generated_at_et": "2026-10-27T19:13:40.062707-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -220,8 +220,8 @@
     "last_split": "عكسي 1:10 (2024-07-18)",
     "short_available": null,
     "short_pct_float": 0.0036000002,
-    "ext_price": 2.24,
-    "ext_chg": 0.08737868,
+    "ext_price": 2.17,
+    "ext_chg": 0.053398123,
     "ext_session": "post"
    },
    "news": []
@@ -3236,8 +3236,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.053600002,
-    "ext_price": 0.7899,
-    "ext_chg": -0.0016430451,
+    "ext_price": 0.7822,
+    "ext_chg": -0.01137513,
     "ext_session": "post"
    },
    "news": []
@@ -5621,8 +5621,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.040999997,
-    "ext_price": 1.7999,
-    "ext_chg": 0.005530777999999999,
+    "ext_price": 1.76,
+    "ext_chg": -0.01675976,
     "ext_session": "post"
    },
    "news": []
@@ -8011,8 +8011,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",
@@ -8060,7 +8060,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.7999,
+   "price": 1.76,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8079,7 +8079,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 11%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 14%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -8094,7 +8094,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.4,
+   "price": 1.45,
    "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

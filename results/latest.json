@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-27T09:56:42.573713+00:00",
- "generated_at_et": "2026-10-27T05:56:42.573713-04:00",
+ "generated_at_utc": "2026-10-27T10:06:42.573840+00:00",
+ "generated_at_et": "2026-10-27T06:06:42.573840-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -17,7 +17,7 @@
   "ready": 1,
   "watch": 124,
   "momentum": 0,
-  "ext_quotes": 48,
+  "ext_quotes": 49,
   "ext_movers_5pct": 0
  },
  "ready": [
@@ -2622,7 +2622,7 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.3177,
+    "ext_price": 0.3199,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -3046,7 +3046,7 @@
     "exchange": "NASDAQ",
     "name": "NRx Pharmaceuticals, Inc.",
     "short_pct_float": 0.2359,
-    "ext_price": 2.57,
+    "ext_price": 2.55,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -3192,10 +3192,12 @@
    "candle": "ذيل سفلي طويل (رفض كسر) (شمعة صغيرة غير واضحة)",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.12 ثم استرداد"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.12 ثم استرداد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 1.21 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -3215,7 +3217,10 @@
     "market_cap": 11437051,
     "exchange": "NASDAQ",
     "name": "Cellectar Biosciences, Inc.",
-    "short_pct_float": 0.0176
+    "short_pct_float": 0.0176,
+    "ext_price": 1.21,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3472,7 +3477,7 @@
  ],
  "momentum": [],
  "errors": [
-  "yahoo quotes empty in pre — nasdaq fallback 47/66"
+  "yahoo quotes empty in pre — nasdaq fallback 48/66"
  ],
  "ext_debug": [],
  "faisal": [
@@ -3544,7 +3549,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.68,
+   "price": 1.727,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3562,7 +3567,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 19%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 16%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -3680,8 +3685,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 63211.0,
-   "price": 342.9147
+   "volume": 66105.0,
+   "price": 342.7722
   },
   "SNDL": {
    "volume": 4831.0,

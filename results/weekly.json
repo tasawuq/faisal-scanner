@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-10-27T05:06:42.573009-04:00",
+ "generated_at_et": "2026-10-27T06:06:42.573840-04:00",
  "items": [
   {
    "ticker": "VJET",
    "score": 11.5,
    "price": 0.65,
-   "ext_price": 0.648,
+   "ext_price": 0.647,
    "name": "Flyte Aviation, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -159,7 +159,7 @@
    "ticker": "FBGL",
    "score": 11.12,
    "price": 2.245,
-   "ext_price": 2.13,
+   "ext_price": 2.14,
    "name": "FBS Global Limited",
    "type": [
     "فلووت منخفض جداً",
@@ -302,7 +302,7 @@
    "ticker": "LGHL",
    "score": 11.0,
    "price": 2.49,
-   "ext_price": 2.28,
+   "ext_price": 2.37,
    "name": "Lion Group Holding Ltd.",
    "type": [
     "قاع نظيف"
@@ -374,7 +374,7 @@
    "ticker": "KITT",
    "score": 10.88,
    "price": 1.31,
-   "ext_price": 1.33,
+   "ext_price": 1.32,
    "name": "Nauticus Robotics, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -447,7 +447,7 @@
    "ticker": "SMTK",
    "score": 10.88,
    "price": 0.463,
-   "ext_price": 0.4626,
+   "ext_price": 0.47,
    "name": "SmartKem, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -510,7 +510,7 @@
    "flags": [
     "تقسيم عكسي حديث 1:50 (2026-08-21)",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في البري إلى 0.463 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 0.47 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -523,7 +523,7 @@
    "ticker": "WHLR",
    "score": 10.75,
    "price": 0.341,
-   "ext_price": 0.3177,
+   "ext_price": 0.3199,
    "name": "Wheeler Real Estate Investment Trust, Inc.",
    "type": [
     "قاع نظيف"
@@ -599,7 +599,7 @@
    "ticker": "CXAI",
    "score": 10.75,
    "price": 1.76,
-   "ext_price": null,
+   "ext_price": 1.8,
    "name": "CXApp Inc.",
    "type": [
     "فلووت منخفض جداً"
@@ -744,7 +744,7 @@
    "ticker": "IVF",
    "score": 10.62,
    "price": 0.57,
-   "ext_price": 0.57,
+   "ext_price": 0.5688,
    "name": "INVO Fertility, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -1401,7 +1401,7 @@
    "ticker": "AIMD",
    "score": 9.62,
    "price": 0.783,
-   "ext_price": 0.7826,
+   "ext_price": 0.81,
    "name": "Ainos, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -1758,7 +1758,7 @@
    "ticker": "BDRX",
    "score": 9.38,
    "price": 3.69,
-   "ext_price": 3.49,
+   "ext_price": 3.39,
    "name": "Biodexa Pharmaceuticals Plc",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2059,7 +2059,7 @@
    "ticker": "NXXT",
    "score": 9.12,
    "price": 0.511,
-   "ext_price": 0.53,
+   "ext_price": 0.511,
    "name": "NextNRG, Inc.",
    "type": [
     "قاع نظيف"
@@ -2210,7 +2210,7 @@
    "ticker": "LPCN",
    "score": 9.0,
    "price": 1.45,
-   "ext_price": 1.45,
+   "ext_price": 1.39,
    "name": "Lipocine Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2511,7 +2511,7 @@
    "ticker": "CLRB",
    "score": 8.88,
    "price": 1.21,
-   "ext_price": null,
+   "ext_price": 1.21,
    "name": "Cellectar Biosciences, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2560,7 +2560,8 @@
     "stop_tight": 1.0976
    },
    "not_ready": [
-    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.12 ثم استرداد"
+    "شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت 1.12 ثم استرداد",
+    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
    ],
    "ready_when": "نزول لمنطقة الطلب 1.12–1.13 ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى 0.952–1.01 ثم استرداد 1.12 (ص17، ص86)",
    "file": {
@@ -2571,7 +2572,8 @@
     ]
    },
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 1.21 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -2800,7 +2802,7 @@
    "ticker": "DRK",
    "score": 8.75,
    "price": 1.94,
-   "ext_price": 1.89,
+   "ext_price": 1.94,
    "name": "DarkHorse Technologies Inc.",
    "type": [
     "ارتكاز"
@@ -3018,7 +3020,7 @@
    "ticker": "EDVA",
    "score": 8.25,
    "price": 0.158,
-   "ext_price": 0.1611,
+   "ext_price": 0.158,
    "name": "Endovia Health Sciences, Inc.",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -4179,7 +4181,7 @@
    "ticker": "IDN",
    "score": 7.5,
    "price": 2.47,
-   "ext_price": null,
+   "ext_price": 2.39,
    "name": "Intellicheck, Inc.",
    "type": [
     "🚩 علم/اختراق بعد قاعدة"
@@ -4681,7 +4683,7 @@
    "ticker": "TII",
    "score": 7.12,
    "price": 1.95,
-   "ext_price": null,
+   "ext_price": 1.89,
    "name": "Titan Mining Corporation",
    "type": [
     "قاع نظيف"
@@ -5346,7 +5348,7 @@
    "ticker": "ALDX",
    "score": 6.88,
    "price": 0.642,
-   "ext_price": null,
+   "ext_price": 0.625,
    "name": "Aldeyra Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5640,7 +5642,7 @@
    "ticker": "NRXP",
    "score": 6.75,
    "price": 2.55,
-   "ext_price": 2.57,
+   "ext_price": 2.55,
    "name": "NRx Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5713,7 +5715,7 @@
    "ticker": "RKTO",
    "score": 6.75,
    "price": 0.51,
-   "ext_price": 0.5,
+   "ext_price": 0.555,
    "name": "Rocket One Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5774,7 +5776,8 @@
     ]
    },
    "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه"
+    "سهم طبي — الخبر قد يغير الاتجاه",
+    "صعد في البري إلى 0.555 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "Former Runner (سبق انفجر +119% في يوم)",
@@ -5785,7 +5788,7 @@
    "ticker": "VNRX",
    "score": 6.75,
    "price": 0.18,
-   "ext_price": 0.1895,
+   "ext_price": 0.1894,
    "name": "VolitionRx Limited",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -5848,7 +5851,7 @@
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه",
     "سعر منخفض جداً — سبريد واسع",
-    "صعد في البري إلى 0.19 بعيداً عن منطقة الطلب"
+    "صعد في البري إلى 0.189 بعيداً عن منطقة الطلب"
    ],
    "tags": [
     "فلووت أقل من 20M",
@@ -6681,7 +6684,7 @@
    "ticker": "PRLD",
    "score": 6.0,
    "price": 3.7,
-   "ext_price": null,
+   "ext_price": 3.61,
    "name": "Prelude Therapeutics Incorporated",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -7122,7 +7125,7 @@
    "ticker": "ARAI",
    "score": 5.62,
    "price": 0.112,
-   "ext_price": 0.114,
+   "ext_price": 0.1114,
    "name": "Arrive AI Inc. Common Stock",
    "type": [
     "قاع نظيف"
@@ -7771,7 +7774,7 @@
    "ticker": "FAMI",
    "score": 5.38,
    "price": 0.1,
-   "ext_price": 0.1029,
+   "ext_price": 0.1051,
    "name": "Farmmi, Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️"
@@ -7839,7 +7842,7 @@
    "ticker": "REED",
    "score": 5.38,
    "price": 0.66,
-   "ext_price": 0.6299,
+   "ext_price": 0.591,
    "name": "Reed's, Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -7901,7 +7904,8 @@
    },
    "flags": [
     "شمعة ضخ/تصريف قبل 3 يوم (طار إلى 1.07 وأغلق 0.4 بفوليوم 1434x)",
-    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)"
+    "شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)",
+    "نزل في البري تحت الوقف (0.591)"
    ],
    "tags": [
     "فلووت أقل من 5M 🔥",
@@ -8283,7 +8287,7 @@
    "ticker": "LHAI",
    "score": 4.88,
    "price": 1.02,
-   "ext_price": null,
+   "ext_price": 0.9674,
    "name": "Linkhome Holdings Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -8347,7 +8351,7 @@
    "ticker": "GDHG",
    "score": 4.88,
    "price": 1.15,
-   "ext_price": null,
+   "ext_price": 1.15,
    "name": "Golden Heaven Group Holdings Ltd.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -8643,7 +8647,7 @@
    "ticker": "DTSS",
    "score": 4.38,
    "price": 0.69,
-   "ext_price": 0.69,
+   "ext_price": 0.6801,
    "name": "Datasea Intelligent Technology Ltd.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -8795,7 +8799,7 @@
    "ticker": "ABOS",
    "score": 3.88,
    "price": 2.27,
-   "ext_price": 2.38,
+   "ext_price": 2.25,
    "name": "Acumen Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",

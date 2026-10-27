@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-27T09:06:42.573009+00:00",
- "generated_at_et": "2026-10-27T05:06:42.573009-04:00",
+ "generated_at_utc": "2026-10-27T09:16:42.573128+00:00",
+ "generated_at_et": "2026-10-27T05:16:42.573128-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -17,7 +17,7 @@
   "ready": 1,
   "watch": 124,
   "momentum": 0,
-  "ext_quotes": 41,
+  "ext_quotes": 44,
   "ext_movers_5pct": 0
  },
  "ready": [
@@ -586,7 +586,7 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.648,
+    "ext_price": 0.647,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -1928,7 +1928,10 @@
     "market_cap": 16860600,
     "exchange": "NASDAQ",
     "name": "Linkhome Holdings Inc.",
-    "short_pct_float": 0.0305
+    "short_pct_float": 0.0305,
+    "ext_price": 0.9674,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2093,7 +2096,7 @@
     "exchange": "NASDAQ",
     "name": "Datasea Intelligent Technology Ltd.",
     "short_pct_float": 0.0215,
-    "ext_price": 0.69,
+    "ext_price": 0.74,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2605,7 +2608,7 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.3177,
+    "ext_price": 0.3272,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -3114,7 +3117,10 @@
     "market_cap": 68414536,
     "exchange": "NASDAQ",
     "name": "Golden Heaven Group Holdings Ltd.",
-    "short_pct_float": 0.00059999997
+    "short_pct_float": 0.00059999997,
+    "ext_price": 1.15,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3449,7 +3455,7 @@
  ],
  "momentum": [],
  "errors": [
-  "yahoo quotes empty in pre — nasdaq fallback 40/66"
+  "yahoo quotes empty in pre — nasdaq fallback 42/66"
  ],
  "ext_debug": [],
  "faisal": [
@@ -3488,8 +3494,8 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.2950000762939453,
-   "price_label": "آخر سعر",
+   "price": 2.29,
+   "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3657,11 +3663,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 46963.0,
-   "price": 342.83
+   "volume": 50094.0,
+   "price": 342.8512
   },
   "SNDL": {
-   "volume": 3121.0,
+   "volume": 3151.0,
    "price": 1.26
   }
  }

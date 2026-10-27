@@ -42,14 +42,13 @@ BASE_WINDOW = 40             # اجتهاد: نافذة القاعدة على ا
 REGULAR = (time(9, 30), time(16, 0))
 H4_SPLIT = time(13, 30)      # شمعة 4 ساعات للجلسة الرسمية: 9:30–13:30 ثم 13:30–16:00
 
-PAGE = {"ma": "ص85/ص86", "rsi": "ص65/ص86", "macd": "ص85/ص86", "support": "ص86", "retest": "ص86/ص17",
-        "volume": "ص85/ص86", "candle": "ص82/ص86", "pressure": "ص85", "rsi_now": "ص65/ص78/ص88", "red": "ص88"}
-NAME = {"ma": "تحت المتوسطات 20/30/50 ثم تماسك", "rsi": "RSI وصل 23–27", "macd": "MACD يتحسن أو تقاطع",
+PAGE = {"ma": "ص66/ص82/ص84/ص86", "target": "ص66/ص84/ص88", "rsi": "ص65/ص86", "macd": "ص85/ص86", "support": "ص86", "retest": "ص86/ص17",
+        "volume": "ص85/ص86", "candle": "ص82/ص86", "pressure": "ص85", "red": "ص88"}
+NAME = {"ma": "تحت المتوسطات ثم بدأ يستعيدها", "target": "محفز أو هدف علوي", "rsi": "RSI وصل 23–27", "macd": "MACD يتحسن أو تقاطع",
         "support": "دعم/قاع واضح", "retest": "اختبار الدعم وفشل الكسر", "volume": "فوليوم يتحسن مع الارتداد",
         "candle": "شمعة انعكاس عند الدعم", "pressure": "ضغط بيع سابق ثم ضعف الهبوط",
-        "rsi_now": "RSI مو مرتفع وقت الدخول", "red": "ما فيه شموع حمراء طويلة قرب القاع"}
-ORDER = ("ma", "rsi", "macd", "support", "retest", "volume", "candle", "pressure", "rsi_now", "red")
-RSI_LATE = 40                # ص65 «RSI حول 40 يعني أن جزءاً من الارتداد حصل»، ص78 «لا في مناطق 40 وما فوق»
+        "red": "ما فيه شموع حمراء طويلة قرب القاع"}
+ORDER = ("ma", "rsi", "macd", "support", "retest", "volume", "candle", "pressure", "red", "target")
 PRESSURE_DROP = 0.25         # اجتهاد: «هبط بقوة» (ص85) = 25%+ من أعلى سعر في 90 يوم
 
 
@@ -188,7 +187,8 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
     out = {}
     mins = np.fmin(np.fmin(ma[20], ma[30]), ma[50])
     below = any(np.isfinite(mins[i]) and c[i] < mins[i] for i in range(st, n))
-    eps = [] if breakout else episodes(l, zh, st, n)
+    # زيارة الدعم = قاع الشمعة لمس المنطقة (هامش 1%)؛ الزيارات يفصلها يومان على الأقل فوقها (اختبار أول ثم ثاني)
+    eps = [] if breakout else episodes(l, z_high * 1.01, st, n)
     broke = False
     if breakout:
         crit = float(breakout.get("retest_low") or z_low)
@@ -199,9 +199,18 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
             # ص17: «إذا كسر الدعم وبقي تحته أو فشل في الرجوع فوقه → ليس سحب سيولة بل ضعف» (إغلاقان متتاليان تحته)
             broke = any(c[i] < z_low * 0.99 and c[i + 1] < z_low * 0.99 for i in range(last_ep[0], n - 1))
     holding = bool(np.all(c[-3:] >= crit))
-    out["ma"] = (below and holding,
-                 ("أغلق تحت المتوسطات خلال القاعدة" if below else "ما كان تحت المتوسطات الثلاثة خلال القاعدة")
-                 + ("، وثابت فوق الدعم الحرج آخر 3 أيام" if holding else f"، لكن أغلق تحت الدعم الحرج {rnd(crit)}"))
+    # المتوسطات (فهم الصفحات مع بعض): تحتها = ضغط (ص85، ص86 «السعر تحت المتوسطات ثم يبدأ التماسك») ثم «يبدأ يستعيدها»
+    # (ص66) / «بدأ يستعيد المتوسطات» (ص84) / «عودة السعر للإغلاق فوق متوسط 30 و50» (ص82) = تأكيد الخروج من الضعف.
+    # البداية = إغلاق فوق أقرب متوسط (MA20)؛ والإغلاق فوق 30 و50 تأكيد أقوى (ص82). المتوسطات فلتر تأكيد (ص64):
+    # الإشارة عند الاستعادة، والدخول بطلبات Limit راجعة للدعم (ص86 دخول 2: «بعد إعادة اختبار الدعم بنجاح»)
+    m20, m30, m50 = float(ma[20][-1]), float(ma[30][-1]), float(ma[50][-1])
+    reclaim = bool(np.isfinite(m20) and c[-1] > m20)
+    strong = bool(np.isfinite(m30) and np.isfinite(m50) and c[-1] > m30 and c[-1] > m50)
+    out["ma"] = (below and reclaim and holding,
+                 ("كان تحت المتوسطات الثلاثة خلال القاعدة" if below else "ما كان تحت المتوسطات الثلاثة خلال القاعدة")
+                 + (("، وأغلق فوق 30 و50 (ص82)" if strong else f"، وبدأ يستعيدها: أغلق فوق MA20 {rnd(m20)}")
+                    if reclaim else f"، وما بدأ يستعيدها (MA20 {rnd(m20)} فوق السعر)")
+                 + ("" if holding else f"، وأغلق تحت الدعم الحرج {rnd(crit)}"))
     rmin = float(np.nanmin(r[st:])) if n > st else float("nan")
     out["rsi"] = (bool(np.isfinite(rmin) and rmin <= RSI_PRESSURE), f"أدنى RSI {rmin:.0f} (الحالي {r[-1]:.0f})")
     mok, mnote = macd_ok(line, sig, hist)
@@ -261,9 +270,8 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
     weak = drying or bool(out.get("retest", (False,))[0])
     out["pressure"] = (bool(drop >= PRESSURE_DROP and weak),
                        f"هبط {drop * 100:.0f}% من أعلى 90 يوم" + ("، والبيع ضعف" if weak else "، والبيع ما ضعف بعد"))
-    # ص65/ص78/ص88: RSI مرتفع وقت الدخول = جزء من الارتداد حصل (الاختراق يُستثنى: RSI يرتفع طبيعياً بعده — ص79 مثال 4)
-    out["rsi_now"] = (bool(breakout) or float(r[-1]) < RSI_LATE, f"RSI الحالي {r[-1]:.0f}"
-                      + ("" if breakout or float(r[-1]) < RSI_LATE else " — جزء من الارتداد حصل"))
+    # (RSI «حول 40» في ص65/ص78/ص80 = RSI لما يبدأ النموذج «40+ من البداية» — يغطيه شرط «RSI وصل 23–27» في القاعدة.
+    #  والدخول نفسه بطلبات Limit راجعة للدعم (ص86 دخول 2)، فما فيه شراء والـRSI مرتفع بعد الارتداد)
     # ص88 «علامات سلبية: شموع حمراء طويلة قرب القاع»: آخر 3 شموع، جسم أحمر ≥ متوسط مدى 14 يوم وقريبة من المنطقة
     rngs = h[max(0, n - 15):n - 1] - l[max(0, n - 15):n - 1]
     atr = float(np.mean(rngs)) if len(rngs) else 0.0
@@ -271,6 +279,7 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
     out["red"] = (not bad, "ما فيه" if not bad else f"شمعة حمراء طويلة {str(df.index[bad[-1]])[:10]} عند القاع")
     return {"checks": out, "critical": crit, "complete": all(x[0] for x in out.values()),
             "bar_date": str(df.index[-1])[:10], "frame": "يومي", "below_ma": below, "broke": broke,
+            "ma20": float(ma[20][-1]),
             "episodes": len(eps), "breakout": bool(breakout)}
 
 
@@ -326,9 +335,11 @@ def p86_4h(daily_res: dict, bars15, z_low, z_high, prev_close, avg_vol, now_et, 
     ok_c, nm = reversal(info, bar["open"], bar["high"], bar["low"], bar["close"], z_low, z_high)
     chk["candle"] = (ok_c, (nm + " على فريم 4 ساعات عند الدعم") if ok_c else
                      "آخر شمعة 4 ساعات مو انعكاس عند الدعم")
-    chk["ma"] = (bool(daily_res.get("below_ma") and bar["close"] >= z_low and not daily_res.get("broke")),
-                 ("أغلق تحت المتوسطات خلال القاعدة" if daily_res.get("below_ma") else "ما كان تحت المتوسطات الثلاثة")
-                 + (f"، وشمعة 4 ساعات أغلقت فوق الدعم {rnd(z_low)}" if bar["close"] >= z_low else "، وتحت الدعم"))
+    m20 = daily_res.get("ma20")
+    rec = bool(m20 and bar["close"] > m20)
+    chk["ma"] = (bool(daily_res.get("below_ma") and rec and bar["close"] >= z_low and not daily_res.get("broke")),
+                 ("كان تحت المتوسطات خلال القاعدة" if daily_res.get("below_ma") else "ما كان تحت المتوسطات الثلاثة")
+                 + (f"، وشمعة 4 ساعات أغلقت فوق MA20 {rnd(m20)}" if rec else f"، وما بدأ يستعيدها (MA20 {rnd(m20 or 0)})"))
     return {"checks": chk, "critical": float(crit), "complete": all(x[0] for x in chk.values()),
             "bar_date": f"{now_et.date()} {b4.index[i].strftime('%H:%M')}", "frame": "4 ساعات"}
 

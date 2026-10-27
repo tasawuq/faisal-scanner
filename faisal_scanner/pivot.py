@@ -526,16 +526,21 @@ def apply_gate(s: Signal):
     s.risk_pct = round(float(lad["risk"]), 4)
     s.rr = round((s.t1 - lad["avg"]) / (lad["avg"] - lad["stop"]), 2) if s.t1 else None
     checks = p["checks"]
+    # ص66 «محفز أو هدف علوي» + ص84 «يوجد خبر إيجابي أو فجوة علوية» (+ ص88 «غياب المحفز» دخول غلط): خبر محفز، أو هدف
+    # علوي يعطي عائداً أكبر من الخسارة (ص82 «ارتداد أعلى من المخاطرة») — ولا دخول تحت مقاومة مباشرة (ص88)
+    news_ok = any("محفز" in t for t in s.tags)
+    tgt_ok = bool(s.t1 is not None and s.rr is not None and s.rr > 1.0)
+    checks["target"] = [bool(tgt_ok), ("خبر محفز + " if news_ok else "")
+                        + (f"هدف {M.rnd(s.t1)} (+{(s.t1 / lad['avg'] - 1) * 100:.1f}%) أكبر من الخسارة −{lad['risk'] * 100:.1f}%"
+                           if tgt_ok else
+                           (f"تحت مقاومة مباشرة {M.rnd(s.t1)} (+{(s.t1 / lad['avg'] - 1) * 100:.1f}%) والخسارة "
+                            f"−{lad['risk'] * 100:.1f}%" if s.t1 else "ما فيه هدف/مقاومة واضحة فوق"))]
+    p["complete"] = all(x[0] for x in checks.values())
     s.conditions = {k: {"score": 1.0 if v[0] else 0.0, "note": v[1]} for k, v in checks.items()}
     s.score = float(sum(1 for v in checks.values() if v[0]))
     s.candle = checks.get("candle", [False, ""])[1] if checks.get("candle", [False])[0] else ""
     wait = [f"{M.NAME[k]}: {checks[k][1]} ({M.PAGE[k]})" for k in M.summary(checks)[1]]
     wait += list(s.meta.get("static_wait") or [])
-    if s.t1 is not None and s.rr is not None and s.rr <= 1.0:
-        wait.append(f"تحت مقاومة مباشرة {M.rnd(s.t1)} (+{(s.t1 / lad['avg'] - 1) * 100:.1f}%) والخسارة للوقف "
-                    f"−{lad['risk'] * 100:.1f}% — العائد ما يتعدى المخاطرة (ص82، ص88)")
-    elif s.t1 is None:
-        wait.append("ما فيه هدف/مقاومة واضحة فوق لحساب العائد")
     if lad["risk"] > M.MAX_LOSS:
         wait.append(f"الخسارة من متوسط الطلبات للوقف {lad['risk'] * 100:.0f}% أكبر من 15% (ص54)")
     px = s.price

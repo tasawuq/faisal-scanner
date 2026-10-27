@@ -352,8 +352,8 @@ from faisal_scanner import method as M  # noqa: E402
 def test_bounce_completes_p86_with_limit_ladder_and_stop_under_critical():
     """ص86: قاع ← إعادة اختبار وفشل الكسر (سحب سيولة) ← شمعة انعكاس بفوليوم = اكتمال الشروط السبعة؛
     الدخول 3 طلبات Limit داخل المنطقة (ص15، ص57)، والوقف تحت الدعم الحرج بتك (BJDX: كسر 1.67 خروج)."""
-    s = analyze_pivot("A", demo.scenario_bounce(END))
-    assert s is not None and s.status == READY and s.setup in ("SWEEP", "BOUNCE")
+    s = analyze_pivot("A", demo.scenario_base_reclaim(END))
+    assert s is not None and s.status == READY and s.setup in ("SWEEP", "BOUNCE"), s.waiting_for
     ch = s.meta["p86"]["checks"]
     assert all(ch[k][0] for k in M.ORDER), ch
     lad = s.meta["ladder"]
@@ -365,10 +365,12 @@ def test_bounce_completes_p86_with_limit_ladder_and_stop_under_critical():
 
 
 def test_failed_support_lists_why_not_ready_with_pages():
-    """ص17: كسر الدعم وبقي تحته = ضعف وليس سحب سيولة → متابعة، مع «لماذا غير جاهز» بصفحاتها و«متى يكون جاهزاً» (ص70)."""
-    s = analyze_pivot("E", demo.scenario_failed(END))
+    """ص17: كسر الدعم وبقي تحته = ضعف وليس سحب سيولة → ما فيه إشارة؛ والسهم غير المكتمل يجي معه «لماذا غير جاهز»
+    بصفحاتها و«متى يكون جاهزاً» (ص70)."""
+    f = analyze_pivot("E", demo.scenario_failed(END))
+    assert f is None or (f.status == WATCH and any("ص17" in w for w in f.waiting_for))
+    s = analyze_pivot("A", demo.scenario_bounce(END))
     assert s is not None and s.status == WATCH
-    assert any("ص17" in w and "وبقي تحته" in w for w in s.waiting_for)
     assert all("(ص" in w for w in s.waiting_for[:3])
     assert "ص86" in s.meta["when_ready"] and "ص54" in s.meta["when_ready"]
 
@@ -377,8 +379,8 @@ def test_sweep_then_reclaim_and_flag_retest_complete():
     """سحب سيولة ثم استرداد (ص17، ص86) و🚩 اختراق بعد قاعدة ثم إعادة اختبار ناجحة (ص79، ص68، ص86 دخول 3)."""
     s = analyze_pivot("B", demo.scenario_sweep(END))
     assert s is not None and s.setup == "SWEEP"
-    # ص65: RSI الحالي 44 بعد الارتداد = «جزء من الارتداد حصل» → متابعة
-    assert s.status == WATCH and any("RSI الحالي 44" in w for w in s.waiting_for)
+    # ص66/ص84: ما بدأ يستعيد المتوسطات (MA20 فوق السعر) → متابعة
+    assert s.status == WATCH and any("بدأ يستعيدها" in w for w in s.waiting_for)
     f = analyze_pivot("F", demo.scenario_base_flag(END))
     assert f is not None and f.setup == "BASE_RETEST" and f.status == READY
     assert f.stop < f.entry_low <= f.trigger_level <= f.entry_high and f.t1 > f.entry_high
@@ -422,24 +424,24 @@ def test_direct_resistance_means_reward_not_above_risk():
 
 def test_four_hour_candle_completes_p86():
     """ص90 «قراءة الشموع تتم ع جميع الفريمات / اقربها 4 ساعات»: اليومي المكتمل ما فيه شمعة الانعكاس بعد،
-    وشمعة 4 ساعات (9:30–13:30) مطرقة عند الدعم بفوليوم فوق المعتاد → تكتمل الشروط على فريم 4 ساعات."""
+    وشمعة 4 ساعات (9:30–13:30) تسحب السيولة تحت الدعم وتغلق فوقه وفوق MA20 بفوليوم → تكتمل الشروط على 4 ساعات."""
     from faisal_scanner.main import upgrade_4h
-    df = demo.scenario_bounce(END).iloc[:-1].copy()
+    df = demo.scenario_base_reclaim(END).iloc[:-1].copy()
     df.index = df.index + pd.Timedelta(days=1)
     day = (df.index[-1] + pd.Timedelta(days=3)).date()
     s = analyze_pivot("A", df)
     assert s is not None and s.status == WATCH and not s.meta["p86"]["complete"]
-    rows = [("09:30", 1.214, 1.216, 1.17, 1.18, 400_000)]
-    rows += [(f"{h:02d}:{m:02d}", 1.18 + 0.006 * i, 1.19 + 0.006 * i, 1.175 + 0.006 * i, 1.186 + 0.006 * i, 60_000)
+    rows = [("09:30", 1.24, 1.242, 1.172, 1.18, 400_000)]
+    rows += [(f"{h:02d}:{m:02d}", 1.18 + 0.005 * i, 1.19 + 0.005 * i, 1.175 + 0.005 * i, 1.186 + 0.005 * i, 60_000)
              for i, (h, m) in enumerate([(9, 45)] + [(h, m) for h in (10, 11, 12) for m in (0, 15, 30, 45)]
                                         + [(13, 0), (13, 15)])]
     bars = _bars15(day, rows)
     early = datetime.combine(day, datetime.strptime("13:20", "%H:%M").time(), tzinfo=ET)
     assert upgrade_4h(s, bars, early, 0) is False  # الشمعة ما اكتملت
     now = datetime.combine(day, datetime.strptime("13:45", "%H:%M").time(), tzinfo=ET)
-    assert upgrade_4h(s, bars, now, 0) is True
+    assert upgrade_4h(s, bars, now, 0) is True, s.meta["p86"]
     assert s.meta["p86"]["frame"] == "4 ساعات" and s.status == READY, s.waiting_for
-    assert s.meta["ladder"]["critical"] <= 1.17 + 1e-9
+    assert s.meta["ladder"]["critical"] <= 1.172 + 1e-9
 
 
 def test_selection_follows_faisal_filter_and_template():
@@ -494,7 +496,8 @@ def test_runner_is_100_percent_and_just_doubled_is_unsafe():
 def test_pivot_alert_text_has_no_ready_word_and_explains():
     """نص الإشارة: بدون «جاهز»، فيه طلبات Limit 1/2/3، الخروج بكسر الدعم الحرج، وشروط ص86 كلها مع حالتها."""
     from faisal_scanner import notify
-    s = analyze_pivot("A", demo.scenario_bounce(END))
+    s = analyze_pivot("A", demo.scenario_base_reclaim(END))
+    assert s.status == READY
     s.meta.update({"float": 2e6, "country_ar": "أمريكي"})
     d = s.to_dict()
     body = notify.alert_text(d, "17:00 الرياض")

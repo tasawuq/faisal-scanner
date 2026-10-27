@@ -68,6 +68,21 @@ def scenario_bounce(end):
     return add_runner(df)
 
 
+def scenario_base_reclaim(end):
+    """منهج فيصل كامل (ص75، ص78، ص85، ص86): هبوط طويل تحت المتوسطات وRSI منخفض ← قاعدة 25 يوم عند دعم 1.20 لمسها مرتين
+    ← سحب سيولة تحت الدعم ثم إغلاق فوقه وفوق MA20 بشمعة ابتلاعية وفوليوم أعلى (بداية استعادة المتوسطات)."""
+    path = [4.0] + seg(4.0, 1.22, 100)
+    flat = [1.22, 1.24, 1.25, 1.23, 1.21, 1.20, 1.22, 1.24, 1.26, 1.25, 1.23, 1.22, 1.21, 1.205, 1.22, 1.24, 1.25,
+            1.24, 1.23, 1.22, 1.21, 1.20, 1.215, 1.23, 1.24]
+    df = make_daily(path + flat + [1.25], end, seed=21)
+    n = len(df)
+    for k in range(n - 26, n - 1):
+        c = flat[k - (n - 26)]
+        df.iloc[k] = [c * 1.002, c * 1.012, c * 0.992, c, 300_000 * (0.7 if k % 3 else 0.9)]
+    df.iloc[-1] = [1.215, 1.255, 1.172, 1.25, 700_000]
+    return add_runner(df, bars_ago=120, mult=2.2)
+
+
 def scenario_sweep(end):
     path = [3.0] + seg(3.0, 1.10, 110) + seg(1.10, 0.90, 10) + seg(0.90, 1.05, 8) + seg(1.05, 0.905, 8)
     path += seg(0.905, 1.10, 10) + seg(1.10, 1.03, 6) + seg(1.03, 0.92, 8)
@@ -148,7 +163,7 @@ def demo_data(now_et):
     today = now_et.date()
     end = pd.Timestamp(today)
     daily = {
-        "DEMOA": scenario_bounce(end),
+        "DEMOA": scenario_base_reclaim(end),
         "DEMOB": scenario_sweep(end),
         "DEMOC": scenario_w(end),
         "DEMOD": scenario_pump(end),

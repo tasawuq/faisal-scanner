@@ -1,24 +1,24 @@
 {
  "ticker": "OLB",
- "generated_at_et": "2026-10-26T16:01:41.071498-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-27T11:28:12.821086-04:00",
+ "session": "regular",
  "quote": {
-  "reg_price": 0.2818,
-  "reg_chg": -0.026261263,
-  "reg_vol": 397561,
-  "prev_close": 0.2894,
+  "reg_price": 0.2826,
+  "reg_chg": 0.002838835,
+  "reg_vol": 75243,
+  "prev_close": 0.2818,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
-  "avg_vol": 30110810,
-  "state": "POST"
+  "avg_vol": 30114685,
+  "state": "REGULAR"
  },
  "news": [],
  "fund": {
   "floatShares": 17187014,
   "sharesOutstanding": 24020313,
-  "marketCap": 6728089,
+  "marketCap": 6788140,
   "shortPercentOfFloat": 0.0097,
   "longName": "The OLB Group, Inc.",
   "country": "United States",
@@ -28,58 +28,58 @@
   "lastSplitDate": 1714953600
  },
  "daily": {
-  "price": 0.2818,
-  "chg_1d": -0.0263,
+  "price": 0.2826,
+  "chg_1d": 0.0028,
   "ma": {
-   "MA20": 0.3689,
-   "MA30": 0.3153,
-   "MA50": 0.3059
+   "MA20": 0.3735,
+   "MA30": 0.3175,
+   "MA50": 0.3058
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 43.8,
+  "rsi_now": 43.9,
   "rsi_min15": 43.8,
   "rsi_min30": 32.1,
   "macd": {
-   "line": 0.01374,
-   "signal": 0.0355,
+   "line": 0.00621,
+   "signal": 0.02964,
    "hist_last3": [
-    -0.01114,
     -0.01771,
-    -0.02176
+    -0.02176,
+    -0.02343
    ],
    "state": "سلبي"
   },
   "candles": [
-   {
-    "d": "2026-10-23",
-    "hammer": "False",
-    "engulfing": "False",
-    "lower_wick": "False",
-    "strong_green": "False",
-    "upper_wick_ratio": 0.1574077140155487,
-    "close_pos": 0.3981487613644308,
-    "green": "False",
-    "bullish_reversal": "False"
-   },
    {
     "d": "2026-10-26",
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.16867562890033105,
-    "close_pos": 0.2710842291976359,
+    "upper_wick_ratio": 0.1505384441599518,
+    "close_pos": 0.34946235697702177,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-10-27",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.0,
+    "close_pos": 0.19379789443529327,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.0849,
-  "avg_vol20": 75834080,
-  "last_vol": 397561,
-  "drawdown_90d": 0.619,
+  "atr": 0.0799,
+  "avg_vol20": 75816190,
+  "last_vol": 75034,
+  "drawdown_90d": 0.618,
   "high_90d": 0.74,
-  "low_10d": 0.2765,
-  "gain_from_low10": 0.019,
+  "low_10d": 0.2753,
+  "gain_from_low10": 0.027,
   "sell_drying": true,
   "vol_improving": false,
   "higher_lows": false,
@@ -96,14 +96,6 @@
   "runner_spike": 3.336,
   "distinct_closes20": 20,
   "support_zones": [
-   {
-    "low": 0.46,
-    "high": 0.4646,
-    "touches": 5,
-    "is_bottom": false,
-    "first": "2026-05-06",
-    "last": "2026-05-06"
-   },
    {
     "low": 0.439,
     "high": 0.4434,
@@ -176,11 +168,11 @@
   },
   "resistances": [
    [
-    0.3059,
+    0.3058,
     "MA50 + رأس شمعة هابطة"
    ],
    [
-    0.3153,
+    0.3175,
     "MA30"
    ],
    [
@@ -188,7 +180,7 @@
     "قمة سابقة"
    ],
    [
-    0.3689,
+    0.3735,
     "MA20"
    ],
    [
@@ -203,16 +195,6 @@
   "high_52w": 1.8,
   "low_52w": 0.1777,
   "last_bars": [
-   {
-    "d": "2026-10-09",
-    "o": 0.63,
-    "h": 0.666,
-    "l": 0.43,
-    "c": 0.495,
-    "v": 107868500,
-    "rsi": 71.9,
-    "hist": 0.039
-   },
    {
     "d": "2026-10-12",
     "o": 0.4747,
@@ -309,7 +291,7 @@
     "h": 0.3089,
     "l": 0.2765,
     "c": 0.2894,
-    "v": 748300,
+    "v": 766300,
     "rsi": 44.4,
     "hist": -0.01771
    },
@@ -317,44 +299,49 @@
     "d": "2026-10-26",
     "o": 0.2911,
     "h": 0.2939,
-    "l": 0.2773,
+    "l": 0.2753,
     "c": 0.2818,
-    "v": 397561,
+    "v": 400200,
     "rsi": 43.8,
     "hist": -0.02176
+   },
+   {
+    "d": "2026-10-27",
+    "o": 0.293,
+    "h": 0.293,
+    "l": 0.2801,
+    "c": 0.2826,
+    "v": 75034,
+    "rsi": 43.9,
+    "hist": -0.02343
    }
   ]
  },
  "levels_map": {
-  "price": 0.2818,
+  "price": 0.2826,
   "at_price": [
-   "إغلاقات سابقة متجمعة (3)",
-   "فواب جلسة 2026-10-26"
+   "قاع يوم 2026-10-22",
+   "إغلاقات سابقة متجمعة (4)"
   ],
   "above": [
    {
-    "level": 0.283,
-    "why": "قاع يوم 2026-10-22",
-    "confluence": 1
-   },
-   {
-    "level": 0.2902,
-    "why": "قيعان سابقة متجمعة (12) + قمة يوم 2026-10-26",
+    "level": 0.2859,
+    "why": "فواب جلسة 2026-10-27 + قيعان سابقة متجمعة (12)",
     "confluence": 2
    },
    {
-    "level": 0.296,
-    "why": "إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (3)",
-    "confluence": 2
+    "level": 0.293,
+    "why": "قمة يوم 2026-10-27 + قمة يوم 2026-10-26 + إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (3)",
+    "confluence": 4
    },
    {
-    "level": 0.3059,
+    "level": 0.3058,
     "why": "MA50 + إغلاقات سابقة متجمعة (6) + رأس شمعة هابطة + قمة يوم 2026-10-23",
     "confluence": 4
    },
    {
-    "level": 0.3126,
-    "why": "إغلاقات سابقة متجمعة (4) + MA30",
+    "level": 0.3123,
+    "why": "إغلاقات سابقة متجمعة (3) + MA30",
     "confluence": 2
    },
    {
@@ -368,21 +355,26 @@
     "confluence": 3
    },
    {
-    "level": 0.3689,
+    "level": 0.3735,
     "why": "MA20",
+    "confluence": 1
+   },
+   {
+    "level": 0.3899,
+    "why": "قمة سابقة + رأس شمعة هابطة",
     "confluence": 1
    }
   ],
   "below": [
    {
-    "level": 0.2811,
-    "why": "قيعان سابقة متجمعة (6) + قاعدة آخر ساعة 2026-10-26 + قاع يوم 2026-10-26 + قاع يوم 2026-10-23",
-    "confluence": 4
+    "level": 0.2812,
+    "why": "قيعان سابقة متجمعة (5) + قاع يوم 2026-10-27 + قاع يوم 2026-10-23",
+    "confluence": 3
    },
    {
-    "level": 0.2722,
-    "why": "إغلاقات سابقة متجمعة (4) + قيعان سابقة متجمعة (3)",
-    "confluence": 2
+    "level": 0.2753,
+    "why": "قاع يوم 2026-10-26 + إغلاقات سابقة متجمعة (4) + قيعان سابقة متجمعة (4)",
+    "confluence": 3
    },
    {
     "level": 0.2634,

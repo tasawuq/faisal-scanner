@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-27T11:21:56.728127+00:00",
- "generated_at_et": "2026-10-27T07:21:56.728127-04:00",
+ "generated_at_utc": "2026-10-27T11:31:56.728279+00:00",
+ "generated_at_et": "2026-10-27T07:31:56.728279-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -14,18 +14,17 @@
  "counts": {
   "universe": 5855,
   "analyzed": 1100,
-  "ready": 0,
-  "watch": 124,
+  "ready": 1,
+  "watch": 123,
   "momentum": 0,
   "ext_quotes": 66,
   "ext_movers_5pct": 0
  },
- "ready": [],
- "watch": [
+ "ready": [
   {
    "ticker": "TII",
    "kind": "pivot",
-   "status": "WATCH",
+   "status": "READY",
    "setup": "BOUNCE",
    "setup_ar": "ارتداد مؤكد من الدعم",
    "price": 1.9500000476837158,
@@ -75,12 +74,9 @@
    "macd_state": "الهيستوجرام يتحسن",
    "candle": "ابتلاعية شرائية (Engulfing)",
    "volume_note": "فوليوم البيع يضعف",
-   "waiting_for": [
-    "لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب"
-   ],
+   "waiting_for": [],
    "flags": [
-    "اختراق وهمي سابق لخط العنق (Bull Trap)",
-    "صعد في البري إلى 2 بعيداً عن منطقة الطلب"
+    "اختراق وهمي سابق لخط العنق (Bull Trap)"
    ],
    "tags": [
     "Former Runner (سبق انفجر +71% في يوم)",
@@ -98,12 +94,14 @@
     "market_cap": 193011648,
     "exchange": "AMEX",
     "name": "Titan Mining Corporation",
-    "ext_price": 2.0,
-    "ext_chg": 0.04712044,
+    "ext_price": 1.93,
+    "ext_chg": 0.010471194,
     "ext_session": "pre"
    },
    "news": []
-  },
+  }
+ ],
+ "watch": [
   {
    "ticker": "IDN",
    "kind": "pivot",
@@ -599,8 +597,8 @@
     "exchange": "AMEX",
     "name": "Flyte Aviation, Inc.",
     "short_pct_float": 0.0121,
-    "ext_price": 0.7176,
-    "ext_chg": 0.11169633,
+    "ext_price": 0.6844,
+    "ext_chg": 0.06026339,
     "ext_session": "pre"
    },
    "news": []
@@ -1198,8 +1196,8 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.1026,
-    "ext_chg": -0.0067763499999999996,
+    "ext_price": 0.102,
+    "ext_chg": -0.012584702000000001,
     "ext_session": "pre"
    },
    "news": []
@@ -1531,8 +1529,8 @@
     "exchange": "NASDAQ",
     "name": "INVO Fertility, Inc.",
     "short_pct_float": 0.0109,
-    "ext_price": 0.61,
-    "ext_chg": 0.07017547,
+    "ext_price": 0.5983,
+    "ext_chg": 0.049649099999999995,
     "ext_session": "pre"
    },
    "news": []
@@ -1701,8 +1699,8 @@
     "exchange": "NASDAQ",
     "name": "Zhengye Biotechnology Holding Limited",
     "short_pct_float": 0.0025,
-    "ext_price": 1.42,
-    "ext_chg": -0.053333333333333344,
+    "ext_price": 1.46,
+    "ext_chg": 0.028169072000000003,
     "ext_session": "pre"
    },
    "news": []
@@ -2032,7 +2030,10 @@
     "market_cap": 5238390,
     "exchange": "NASDAQ",
     "name": "Aqua Metals, Inc.",
-    "short_pct_float": 0.0577
+    "short_pct_float": 0.0577,
+    "ext_price": 1.47,
+    "ext_chg": 0.0,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2291,7 +2292,7 @@
     "name": "Reed's, Inc.",
     "short_pct_float": 0.0174,
     "ext_price": 0.6103,
-    "ext_chg": -0.05701481,
+    "ext_chg": -0.07206933,
     "ext_session": "pre"
    },
    "news": []
@@ -2630,8 +2631,8 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.3295,
-    "ext_chg": -0.032589617,
+    "ext_price": 0.3272,
+    "ext_chg": -0.03934239,
     "ext_session": "pre"
    },
    "news": []
@@ -2799,8 +2800,8 @@
     "exchange": "NASDAQ",
     "name": "Nauticus Robotics, Inc.",
     "short_pct_float": 0.1731,
-    "ext_price": 1.3,
-    "ext_chg": 0.01167314,
+    "ext_price": 1.3185,
+    "ext_chg": 0.0260701,
     "ext_session": "pre"
    },
    "news": []
@@ -3226,8 +3227,8 @@
     "exchange": "NASDAQ",
     "name": "Cellectar Biosciences, Inc.",
     "short_pct_float": 0.0176,
-    "ext_price": 1.2739,
-    "ext_chg": 0.05280991,
+    "ext_price": 1.27,
+    "ext_chg": 0.04958673,
     "ext_session": "pre"
    },
    "news": []
@@ -3312,8 +3313,8 @@
     "exchange": "AMEX",
     "name": "Mynd.ai, Inc.",
     "short_pct_float": 0.0043,
-    "ext_price": 0.27,
-    "ext_chg": -0.031911032,
+    "ext_price": 0.2691,
+    "ext_chg": -0.035137997,
     "ext_session": "pre"
    },
    "news": []
@@ -3396,6 +3397,91 @@
     "short_pct_float": 0.0034999999
    },
    "news": []
+  },
+  {
+   "ticker": "CXAI",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "BROKE_SUPPORT",
+   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "price": 1.7599999904632568,
+   "score": 4.5,
+   "conditions": {
+    "ma": {
+     "score": 0.5,
+     "note": "تحت كل المتوسطات (ضغط)"
+    },
+    "rsi": {
+     "score": 0.75,
+     "note": "أدنى RSI 20 والحالي 28"
+    },
+    "macd": {
+     "score": 0.5,
+     "note": "إيجابي (الخط فوق الإشارة)"
+    },
+    "candle": {
+     "score": 1.0,
+     "note": "مطرقة (Hammer)"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 87% من قمة 90 يوم"
+    },
+    "space": {
+     "score": 0.75,
+     "note": "العائد/المخاطرة 2.0"
+    }
+   },
+   "support_low": 1.840000033378601,
+   "support_high": 1.8584000337123872,
+   "support_touches": 2,
+   "trigger_level": 1.840000033378601,
+   "stop": 1.6963799476623536,
+   "entry_low": 1.840000033378601,
+   "entry_high": 1.840000033378601,
+   "t1": 1.899999976158142,
+   "t1_label": "قمة يوم قريبة",
+   "t2": 2.0389999985694884,
+   "t2_label": "MA20 + قمة سابقة",
+   "rr": 0.42,
+   "risk_pct": 0.0826,
+   "rsi_now": 28.4,
+   "rsi_min": 19.6,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "إيجابي (الخط فوق الإشارة)",
+   "candle": "مطرقة (Hammer)",
+   "volume_note": "فوليوم البيع يضعف",
+   "waiting_for": [
+    "استرداد الدعم 1.84 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
+    "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
+    "الدخول تحت مقاومة مباشرة (1.90) — انتظر اختراقها والثبات",
+    "اكتمال الشروط الأساسية (2 من 6 حسب الملف، المطلوب 4 — ص81) — ناقص: المتوسطات، MACD، خبر/محفز، مساحة صعود"
+   ],
+   "flags": [
+    "تقسيم عكسي حديث 1:50 (2026-08-18)"
+   ],
+   "tags": [
+    "فلووت أقل من 5M 🔥",
+    "Former Runner (سبق انفجر +111% في يوم)",
+    "فوليوم البيع يضعف"
+   ],
+   "rank": 5.282608582977989,
+   "meta": {
+    "avg_volume": 108330.0,
+    "drawdown": 0.867,
+    "rr_best": 2.03,
+    "gain_from_low10": 0.017,
+    "higher_lows": "False",
+    "float": 2220769,
+    "market_cap": 4113836,
+    "exchange": "NASDAQ",
+    "name": "CXApp Inc.",
+    "short_pct_float": 0.0682,
+    "ext_price": 1.8,
+    "ext_chg": -0.016393442622950838,
+    "ext_session": "pre"
+   },
+   "news": []
   }
  ],
  "momentum": [],
@@ -3404,7 +3490,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.12,
+   "price": 1.11,
    "price_label": "سعر البري",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -3606,12 +3692,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 156376.0,
-   "price": 342.91
+   "volume": 163396.0,
+   "price": 342.98
   },
   "SNDL": {
-   "volume": 44552.0,
-   "price": 1.2508
+   "volume": 57279.0,
+   "price": 1.26
   }
  }
 }

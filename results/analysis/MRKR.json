@@ -1,11 +1,11 @@
 {
  "ticker": "MRKR",
- "generated_at_et": "2026-10-27T13:01:52.117579-04:00",
+ "generated_at_et": "2026-10-27T14:01:23.799221-04:00",
  "session": "regular",
  "quote": {
-  "reg_price": 0.97,
-  "reg_chg": 0.07167812999999999,
-  "reg_vol": 74580,
+  "reg_price": 0.9529,
+  "reg_chg": 0.05130182,
+  "reg_vol": 80666,
   "prev_close": 0.9064,
   "pre_price": null,
   "pre_chg": 0.0,
@@ -18,7 +18,7 @@
  "fund": {
   "floatShares": 13743992,
   "sharesOutstanding": 16673127,
-  "marketCap": 16172934,
+  "marketCap": 15887823,
   "shortPercentOfFloat": 0.0125,
   "longName": "Marker Therapeutics, Inc.",
   "country": "United States",
@@ -28,26 +28,26 @@
   "lastSplitDate": 1674777600
  },
  "daily": {
-  "price": 0.97,
-  "chg_1d": 0.0659,
+  "price": 0.9529,
+  "chg_1d": 0.0471,
   "ma": {
-   "MA20": 1.019,
-   "MA30": 1.0703,
-   "MA50": 1.1588
+   "MA20": 1.0181,
+   "MA30": 1.0698,
+   "MA50": 1.1585
   },
   "ma_state": "تحت كل المتوسطات (ضغط) — رفض عند MA20",
-  "rsi_now": 43.6,
+  "rsi_now": 42.4,
   "rsi_min15": 30.1,
   "rsi_min30": 30.1,
   "macd": {
-   "line": -0.0394,
-   "signal": -0.04013,
+   "line": -0.04076,
+   "signal": -0.04041,
    "hist_last3": [
     0.01223,
     0.00267,
-    0.00073
+    -0.00036
    ],
-   "state": "إيجابي (الخط فوق الإشارة)"
+   "state": "سلبي"
   },
   "candles": [
    {
@@ -67,19 +67,19 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "True",
-    "upper_wick_ratio": 0.11123457837843571,
-    "close_pos": 0.8887654216215642,
+    "upper_wick_ratio": 0.3014462908546999,
+    "close_pos": 0.6985537091453,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
   "atr": 0.1113,
   "avg_vol20": 185500,
-  "last_vol": 78459,
-  "drawdown_90d": 0.436,
+  "last_vol": 84497,
+  "drawdown_90d": 0.446,
   "high_90d": 1.72,
   "low_10d": 0.87,
-  "gain_from_low10": 0.115,
+  "gain_from_low10": 0.095,
   "sell_drying": false,
   "vol_improving": false,
   "higher_lows": false,
@@ -93,7 +93,7 @@
   },
   "former_runner": true,
   "runner_pct": 1.887,
-  "distinct_closes20": 14,
+  "distinct_closes20": 15,
   "support_zones": [
    {
     "low": 1.37,
@@ -167,15 +167,15 @@
   },
   "resistances": [
    [
-    1.019,
+    1.0181,
     "MA20 + رأس شمعة هابطة"
    ],
    [
-    1.07,
-    "رأس شمعة هابطة + MA30"
+    1.0698,
+    "MA30 + رأس شمعة هابطة"
    ],
    [
-    1.1588,
+    1.1585,
     "MA50 + رأس شمعة هابطة"
    ],
    [
@@ -309,24 +309,29 @@
     "o": 0.92,
     "h": 0.98,
     "l": 0.8901,
-    "c": 0.97,
-    "v": 78459,
-    "rsi": 43.6,
-    "hist": 0.00073
+    "c": 0.9529,
+    "v": 84497,
+    "rsi": 42.4,
+    "hist": -0.00036
    }
   ]
  },
  "levels_map": {
-  "price": 0.97,
+  "price": 0.9529,
   "at_price": [],
   "above": [
+   {
+    "level": 0.96,
+    "why": "قاع يوم 2026-10-23 + إغلاقات سابقة متجمعة (3)",
+    "confluence": 2
+   },
    {
     "level": 0.98,
     "why": "قمة يوم 2026-10-27 + قيعان سابقة متجمعة (4)",
     "confluence": 2
    },
    {
-    "level": 1.019,
+    "level": 1.0181,
     "why": "MA20 + إغلاقات سابقة متجمعة (4) + رأس شمعة هابطة",
     "confluence": 3
    },
@@ -336,8 +341,8 @@
     "confluence": 3
    },
    {
-    "level": 1.07,
-    "why": "قاع يوم 2026-10-22 + رأس شمعة هابطة + MA30 + قيعان سابقة متجمعة (9)",
+    "level": 1.0698,
+    "why": "MA30 + قاع يوم 2026-10-22 + رأس شمعة هابطة + قيعان سابقة متجمعة (9)",
     "confluence": 4
    },
    {
@@ -354,21 +359,11 @@
     "level": 1.195,
     "why": "إغلاقات سابقة متجمعة (8) + قيعان سابقة متجمعة (4)",
     "confluence": 2
-   },
-   {
-    "level": 1.235,
-    "why": "إغلاقات سابقة متجمعة (6) + قيعان سابقة متجمعة (5)",
-    "confluence": 2
    }
   ],
   "below": [
    {
-    "level": 0.96,
-    "why": "قاع يوم 2026-10-23 + إغلاقات سابقة متجمعة (3)",
-    "confluence": 2
-   },
-   {
-    "level": 0.9392,
+    "level": 0.9406,
     "why": "فواب جلسة 2026-10-27",
     "confluence": 1
    },
@@ -390,7 +385,7 @@
   "status": "WATCH",
   "setup": "SWEEP",
   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-  "price": 0.9700000286102295,
+  "price": 0.9528999924659729,
   "score": 4.0,
   "conditions": {
    "ma": {
@@ -457,7 +452,7 @@
    "Former Runner: صعد 189% من 1.41 (2025-06-23) إلى 4.07 (2025-07-17)",
    "قاع الفترة (قاع سنة)"
   ],
-  "rank": 4.488636171214343,
+  "rank": 4.585795468014996,
   "meta": {
    "avg_volume": 182835.0,
    "drawdown": 0.471,
@@ -475,8 +470,8 @@
     "open": 0.9200000166893005,
     "high": 0.9800000190734863,
     "low": 0.8901000022888184,
-    "close": 0.9700000286102295,
-    "volume": 78459.0
+    "close": 0.9528999924659729,
+    "volume": 84497.0
    },
    "zone": [
     0.8799999952316284,
@@ -545,7 +540,7 @@
    },
    "float": 13743992,
    "shares": 16673127,
-   "market_cap": 16172934,
+   "market_cap": 15887823,
    "exchange": "",
    "name": "Marker Therapeutics, Inc.",
    "country_ar": "أمريكي",

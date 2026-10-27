@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-27T20:44:56.345588+00:00",
- "generated_at_et": "2026-10-27T16:44:56.345588-04:00",
+ "generated_at_utc": "2026-10-27T20:54:56.345753+00:00",
+ "generated_at_et": "2026-10-27T16:54:56.345753-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -1418,8 +1418,8 @@
     "last_split": "عكسي 1:12 (2026-08-13)",
     "short_available": null,
     "short_pct_float": 0.0069,
-    "ext_price": 4.35,
-    "ext_chg": 0.0235294117647058,
+    "ext_price": 4.43,
+    "ext_chg": 0.04235294117647048,
     "ext_session": "post"
    },
    "news": []
@@ -2804,8 +2804,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.0025,
-    "ext_price": 1.45,
-    "ext_chg": 0.0069444376,
+    "ext_price": 1.43,
+    "ext_chg": -0.0069445205,
     "ext_session": "post"
    },
    "news": []
@@ -4524,8 +4524,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.040999997,
-    "ext_price": 1.78,
-    "ext_chg": 0.059523809523809534,
+    "ext_price": 1.81,
+    "ext_chg": 0.011173174,
     "ext_session": "post"
    },
    "news": []
@@ -6952,8 +6952,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
+   "alert": true,
    "session": "post",
    "scanner": {
     "status": "WATCH",
@@ -6967,7 +6967,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.39,
+   "price": 2.4272,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -6986,7 +6986,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2.48 بـ 4%",
+   "state_ar": "تحت مستوى الاختراق 2.48 بـ 2%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -7001,7 +7001,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.78,
+   "price": 1.81,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -7020,7 +7020,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 12%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 10%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -7104,7 +7104,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.4146,
+   "price": 0.4212,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

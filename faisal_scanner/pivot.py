@@ -297,7 +297,9 @@ def detect_base_breakout(ctx: Ctx):
         held = bool(np.all(ctx.c[j:] >= res * 0.97)) and ctx.c[-1] >= res
         if not held:
             return {"trap": True, "res": res, "brk": j}  # اخترق ثم رجع تحت = اختراق وهمي (Bull Trap)
-        k_rt = next((k for k in range(j + 1, n) if ctx.l[k] <= res * 1.03), None)
+        # ص68/ص86: «يرجع لاختبار الدعم الجديد» = القاع يوصل المستوى نفسه (هامش 1%) — IDN 27 أكتوبر: قيعان 2.40 فوق 2.34
+        # بـ 2.6% ما هي إعادة اختبار
+        k_rt = next((k for k in range(j + 1, n) if ctx.l[k] <= res * 1.01), None)
         vol_ok = bool(ctx.v[j] >= 1.2 * max(ctx.avg_vol, 1)
                       or (j == n - 1 and ctx.v_last_adj >= 1.2 * max(ctx.avg_vol, 1)))
         out = {"res": res, "res_idx": i, "brk": j, "low_idx": lo_i, "base_low": base_low, "vol_ok": vol_ok,
@@ -370,7 +372,7 @@ def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last
                                   trigger=neck, touches=2, breakout=None, neck=neck))
         else:
             held = bool(np.all(ctx.c[brk:] >= neck * 0.98)) and ctx.c[-1] >= neck
-            retest = brk + 1 < ctx.n and np.min(ctx.l[brk + 1:]) <= neck * 1.03 and held
+            retest = brk + 1 < ctx.n and np.min(ctx.l[brk + 1:]) <= neck * 1.01 and held
             brk_vol_ok = bool(ctx.v[brk] >= 1.2 * max(ctx.avg_vol, 1))
             if held:
                 last = ctx.n - 1

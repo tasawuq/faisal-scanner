@@ -376,7 +376,9 @@ def test_failed_support_lists_why_not_ready_with_pages():
 def test_sweep_then_reclaim_and_flag_retest_complete():
     """سحب سيولة ثم استرداد (ص17، ص86) و🚩 اختراق بعد قاعدة ثم إعادة اختبار ناجحة (ص79، ص68، ص86 دخول 3)."""
     s = analyze_pivot("B", demo.scenario_sweep(END))
-    assert s is not None and s.status == READY and s.setup == "SWEEP"
+    assert s is not None and s.setup == "SWEEP"
+    # ص65: RSI الحالي 44 بعد الارتداد = «جزء من الارتداد حصل» → متابعة
+    assert s.status == WATCH and any("RSI الحالي 44" in w for w in s.waiting_for)
     f = analyze_pivot("F", demo.scenario_base_flag(END))
     assert f is not None and f.setup == "BASE_RETEST" and f.status == READY
     assert f.stop < f.entry_low <= f.trigger_level <= f.entry_high and f.t1 > f.entry_high
@@ -499,7 +501,7 @@ def test_pivot_alert_text_has_no_ready_word_and_explains():
     title = notify.alert_title(d)
     assert "جاهز" not in body and "جاهز" not in title
     assert "طلبات Limit" in body and "1)" in body and "3)" in body and "إغلاق شمعة يومية تحت الدعم الحرج" in body
-    assert body.count("✅") == 7 and "ص86" in body and "الشورت المتاح" in body
+    assert body.count("✅") == len(M.ORDER) and "ص86" in body and "الشورت المتاح" in body
 
 
 def test_pivot_signal_once_per_completion_bar(tmp_path, monkeypatch):

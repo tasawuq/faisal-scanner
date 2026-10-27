@@ -43,11 +43,14 @@ REGULAR = (time(9, 30), time(16, 0))
 H4_SPLIT = time(13, 30)      # شمعة 4 ساعات للجلسة الرسمية: 9:30–13:30 ثم 13:30–16:00
 
 PAGE = {"ma": "ص85/ص86", "rsi": "ص65/ص86", "macd": "ص85/ص86", "support": "ص86", "retest": "ص86/ص17",
-        "volume": "ص85/ص86", "candle": "ص82/ص86"}
+        "volume": "ص85/ص86", "candle": "ص82/ص86", "pressure": "ص85", "rsi_now": "ص65/ص78/ص88", "red": "ص88"}
 NAME = {"ma": "تحت المتوسطات 20/30/50 ثم تماسك", "rsi": "RSI وصل 23–27", "macd": "MACD يتحسن أو تقاطع",
         "support": "دعم/قاع واضح", "retest": "اختبار الدعم وفشل الكسر", "volume": "فوليوم يتحسن مع الارتداد",
-        "candle": "شمعة انعكاس عند الدعم"}
-ORDER = ("ma", "rsi", "macd", "support", "retest", "volume", "candle")
+        "candle": "شمعة انعكاس عند الدعم", "pressure": "ضغط بيع سابق ثم ضعف الهبوط",
+        "rsi_now": "RSI مو مرتفع وقت الدخول", "red": "ما فيه شموع حمراء طويلة قرب القاع"}
+ORDER = ("ma", "rsi", "macd", "support", "retest", "volume", "candle", "pressure", "rsi_now", "red")
+RSI_LATE = 40                # ص65 «RSI حول 40 يعني أن جزءاً من الارتداد حصل»، ص78 «لا في مناطق 40 وما فوق»
+PRESSURE_DROP = 0.25         # اجتهاد: «هبط بقوة» (ص85) = 25%+ من أعلى سعر في 90 يوم
 
 
 def tick(px: float) -> float:
@@ -248,6 +251,24 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
         out["candle"] = (ok_c, (nm + " عند الدعم") if ok_c else
                          ("آخر شمعة يومية مو انعكاس" if at else
                           "آخر شمعة يومية أغلقت تحت الدعم" if l[-1] <= zh else "آخر شمعة بعيدة عن منطقة الدعم"))
+    # ص85 الشرط 4: «وجود شورت أو ضغط بيع سابق ثم ضعف الهبوط» — هبوط قوي ثم ضعف البيع (فوليوم شموع البيع يقل أو الدعم صمد)
+    hi90 = float(np.nanmax(h[max(0, n - 90):n]))
+    drop = 1 - c[-1] / hi90 if hi90 > 0 else 0.0
+    red_i = [i for i in range(max(0, n - 20), n) if c[i] < o[i]]
+    rv5 = [v[i] for i in red_i if i >= n - 5]
+    rv15 = [v[i] for i in red_i if i < n - 5]
+    drying = bool(rv5 and rv15 and np.mean(rv5) < 0.8 * np.mean(rv15)) or bool(rv15 and not rv5)
+    weak = drying or bool(out.get("retest", (False,))[0])
+    out["pressure"] = (bool(drop >= PRESSURE_DROP and weak),
+                       f"هبط {drop * 100:.0f}% من أعلى 90 يوم" + ("، والبيع ضعف" if weak else "، والبيع ما ضعف بعد"))
+    # ص65/ص78/ص88: RSI مرتفع وقت الدخول = جزء من الارتداد حصل (الاختراق يُستثنى: RSI يرتفع طبيعياً بعده — ص79 مثال 4)
+    out["rsi_now"] = (bool(breakout) or float(r[-1]) < RSI_LATE, f"RSI الحالي {r[-1]:.0f}"
+                      + ("" if breakout or float(r[-1]) < RSI_LATE else " — جزء من الارتداد حصل"))
+    # ص88 «علامات سلبية: شموع حمراء طويلة قرب القاع»: آخر 3 شموع، جسم أحمر ≥ متوسط مدى 14 يوم وقريبة من المنطقة
+    rngs = h[max(0, n - 15):n - 1] - l[max(0, n - 15):n - 1]
+    atr = float(np.mean(rngs)) if len(rngs) else 0.0
+    bad = [i for i in range(max(0, n - 3), n) if c[i] < o[i] and (o[i] - c[i]) >= atr and l[i] <= zh]
+    out["red"] = (not bad, "ما فيه" if not bad else f"شمعة حمراء طويلة {str(df.index[bad[-1]])[:10]} عند القاع")
     return {"checks": out, "critical": crit, "complete": all(x[0] for x in out.values()),
             "bar_date": str(df.index[-1])[:10], "frame": "يومي", "below_ma": below, "broke": broke,
             "episodes": len(eps), "breakout": bool(breakout)}

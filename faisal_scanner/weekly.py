@@ -200,7 +200,7 @@ def markdown(w):
                      + " / ".join(_p(x) for x in o) + f" | الخروج: إغلاق يومي تحت {_p(lv.get('critical'))}"
                      + f" | الأهداف {_p(lv.get('t1'))} / {_p(lv.get('t2'))}"
                      + f" | منطقة أعمق (غسل) {_p(lv['wash_low'])}–{_p(lv['wash_high'])}")
-        lines.append(f"- شروط ص86 ({p.get('frame') or 'يومي'}): {len(p.get('met') or [])}/7"
+        lines.append(f"- شروط ص86 ({p.get('frame') or 'يومي'}): {len(p.get('met') or [])}/{len(M.ORDER)}"
                      + (" — ناقص: " + "، ".join(M.NAME[k] for k in p.get("miss") or []) if p.get("miss") else ""))
         if it["not_ready"]:
             lines.append("- لماذا غير جاهز: " + "؛ ".join(it["not_ready"]))

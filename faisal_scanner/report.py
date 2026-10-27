@@ -3,6 +3,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 from . import config as C
+from . import method as M
 
 RIYADH = ZoneInfo("Asia/Riyadh")
 SESSION_AR = {"pre": "قبل الافتتاح (بري ماركت)", "regular": "السوق مفتوح", "post": "بعد الإغلاق (أفتر ماركت)",
@@ -48,7 +49,7 @@ def ready_block(s: dict) -> str:
         if s.get("candle"):
             bits.append(s["candle"])
         lines.append("• " + " · ".join(bits))
-        extra = [_float_txt(s), f"شروط ص86 {s['score']:.0f}/7"]
+        extra = [_float_txt(s), f"شروط الملف {s['score']:.0f}/{len(M.ORDER)}"]
     else:
         m = s["meta"]
         lines.append(f"• دخول قرب {p(s['entry_low'])} | الوقف {p(s['stop'])} (−{(s['risk_pct'] or 0)*100:.1f}%) | "
@@ -71,7 +72,7 @@ def ready_block(s: dict) -> str:
 def watch_line(s: dict) -> str:
     zone = "منطقة الطلب" if s["setup"] in ("AT_SUPPORT", "SWEEP", "BOUNCE") else "الدخول بعد التأكيد"
     head = (f"• **{s['ticker']}** ${p(s['price'])} — {s['setup_ar']} | {zone} {p(s['entry_low'])}–{p(s['entry_high'])} "
-            f"| الوقف {p(s['stop'])} | RSI {s['rsi_now']:.0f} (أدنى {s['rsi_min']:.0f}) | ص86 {s['score']:.0f}/7")
+            f"| الوقف {p(s['stop'])} | RSI {s['rsi_now']:.0f} (أدنى {s['rsi_min']:.0f}) | الشروط {s['score']:.0f}/{len(M.ORDER)}")
     w = "؛ ".join(s.get("waiting_for", [])[:2])
     out = head + (f"\n   ينتظر: {w}" if w else "")
     if s.get("flags"):

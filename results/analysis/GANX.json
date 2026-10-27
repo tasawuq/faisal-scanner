@@ -1,29 +1,29 @@
 {
  "ticker": "GANX",
- "generated_at_et": "2026-10-26T16:01:41.071498-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-27T07:04:18.561983-04:00",
+ "session": "pre",
  "quote": {
   "reg_price": 1.15,
   "reg_chg": -0.0873016,
-  "reg_vol": 802916,
+  "reg_vol": 806010,
   "prev_close": 1.26,
-  "pre_price": null,
-  "pre_chg": 0.0,
+  "pre_price": 1.25,
+  "pre_chg": 0.08695654,
   "post_price": null,
   "post_chg": 0.0,
-  "avg_vol": 503006,
-  "state": "POST"
+  "avg_vol": 507667,
+  "state": "PRE"
  },
  "news": [],
  "fund": {
-  "floatShares": null,
-  "sharesOutstanding": null,
-  "marketCap": null,
-  "shortPercentOfFloat": null,
-  "longName": null,
-  "country": null,
-  "industry": null,
-  "sector": null,
+  "floatShares": 42635015,
+  "sharesOutstanding": 43643619,
+  "marketCap": 50190160,
+  "shortPercentOfFloat": 0.0716,
+  "longName": "Gain Therapeutics, Inc.",
+  "country": "United States",
+  "industry": "Biotechnology",
+  "sector": "Healthcare",
   "lastSplitFactor": null,
   "lastSplitDate": null
  },
@@ -75,7 +75,7 @@
   ],
   "atr": 0.1092,
   "avg_vol20": 676120,
-  "last_vol": 802916,
+  "last_vol": 806000,
   "drawdown_90d": 0.515,
   "high_90d": 2.37,
   "low_10d": 1.14,
@@ -271,33 +271,16 @@
     "h": 1.28,
     "l": 1.14,
     "c": 1.15,
-    "v": 802916,
+    "v": 806000,
     "rsi": 25.6,
     "hist": -0.02326
    }
   ]
  },
  "levels_map": {
-  "price": 1.15,
-  "at_price": [
-   "قاع يوم 2026-10-21"
-  ],
+  "price": 1.25,
+  "at_price": [],
   "above": [
-   {
-    "level": 1.16,
-    "why": "قاع يوم 2026-10-22 + قيعان سابقة متجمعة (3) + قاع يوم 2026-10-20",
-    "confluence": 3
-   },
-   {
-    "level": 1.1968,
-    "why": "فواب جلسة 2026-10-26 + قاع يوم 2026-10-23 + قيعان سابقة متجمعة (3)",
-    "confluence": 3
-   },
-   {
-    "level": 1.23,
-    "why": "قمة يوم 2026-10-21",
-    "confluence": 1
-   },
    {
     "level": 1.26,
     "why": "إغلاقات سابقة متجمعة (3) + قمة يوم 2026-10-26 + رأس شمعة هابطة",
@@ -322,9 +305,39 @@
     "level": 1.5778,
     "why": "MA30 + رأس شمعة هابطة + قيعان سابقة متجمعة (4)",
     "confluence": 3
+   },
+   {
+    "level": 1.6575,
+    "why": "قيعان سابقة متجمعة (4) + إغلاقات سابقة متجمعة (4) + MA50",
+    "confluence": 3
+   },
+   {
+    "level": 1.7,
+    "why": "قيعان سابقة متجمعة (13) + إغلاقات سابقة متجمعة (9)",
+    "confluence": 2
+   },
+   {
+    "level": 1.77,
+    "why": "إغلاقات سابقة متجمعة (15) + قيعان سابقة متجمعة (17)",
+    "confluence": 2
    }
   ],
   "below": [
+   {
+    "level": 1.2376,
+    "why": "قمة الأفتر/البري + قمة يوم 2026-10-21 + قاع يوم 2026-10-23 + قيعان سابقة متجمعة (3)",
+    "confluence": 4
+   },
+   {
+    "level": 1.1951,
+    "why": "فواب جلسة 2026-10-26",
+    "confluence": 1
+   },
+   {
+    "level": 1.17,
+    "why": "قاع يوم 2026-10-20 + قاع يوم 2026-10-22 + قيعان سابقة متجمعة (3) + قاع الأفتر/البري + قاع يوم 2026-10-21",
+    "confluence": 5
+   },
    {
     "level": 1.14,
     "why": "قاع يوم 2026-10-26 + قاعدة آخر ساعة 2026-10-26",

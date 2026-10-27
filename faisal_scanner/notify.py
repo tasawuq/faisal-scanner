@@ -149,8 +149,9 @@ def pivot_text(s: dict, when: str) -> str:
         lines.append(f"السعر الآن: {fmt_price(px)}{where}")
     lines.append("طلبات Limit (ص15، ص57 «لا تشتري من العرض»): " + " / ".join(f"{i + 1}) {fmt_price(x)}" for i, x in enumerate(o)))
     if lad:
-        lines.append(f"الخروج: كسر الدعم الحرج {fmt_price(lad.get('critical'))} — الوقف {fmt_price(lad.get('stop'))}"
-                     f" (الخسارة من متوسط الطلبات −{(lad.get('risk') or 0) * 100:.1f}%)")
+        lines.append(f"الخروج: إغلاق شمعة يومية تحت الدعم الحرج {fmt_price(lad.get('critical'))} (ص17: النزول اللحظي تحته "
+                     f"قد يكون سحب سيولة؛ الكسر اللي ما يسترد = فشل) — الخسارة المتوقعة من متوسط الطلبات "
+                     f"≈ −{(lad.get('risk') or 0) * 100:.1f}% (أكثر إذا أغلق بعيداً تحته)")
     tg = [x for x in (s.get("t1"), s.get("t2")) if x]
     if tg and lad.get("avg"):
         lines.append("الأهداف: " + " ثم ".join(f"{fmt_price(x)} (+{(x / lad['avg'] - 1) * 100:.1f}%)" for x in tg)

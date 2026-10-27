@@ -398,7 +398,7 @@ def test_daily_analysis_uses_completed_bars_only():
     s = analyze_pivot("A", pd.concat([df, today]), 0.5, True)
     assert s.meta["p86"]["bar_date"] == closed.meta["p86"]["bar_date"]
     assert s.price == pytest.approx(1.12) and s.status == WATCH
-    assert any("تحت الوقف" in w for w in s.waiting_for)
+    assert any("تحت الدعم الحرج" in w for w in s.waiting_for)
 
 
 def _gate_sig(t1):
@@ -498,7 +498,7 @@ def test_pivot_alert_text_has_no_ready_word_and_explains():
     body = notify.alert_text(d, "17:00 الرياض")
     title = notify.alert_title(d)
     assert "جاهز" not in body and "جاهز" not in title
-    assert "طلبات Limit" in body and "1)" in body and "3)" in body and "كسر الدعم الحرج" in body
+    assert "طلبات Limit" in body and "1)" in body and "3)" in body and "إغلاق شمعة يومية تحت الدعم الحرج" in body
     assert body.count("✅") == 7 and "ص86" in body and "الشورت المتاح" in body
 
 

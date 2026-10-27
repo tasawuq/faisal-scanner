@@ -197,7 +197,7 @@ def markdown(w):
             lines.append("- الأخبار: " + nl)
         o = lv.get("orders") or []
         lines.append(f"- منطقة الطلب {_p(lv['demand_low'])}–{_p(lv['demand_high'])} | طلبات Limit: "
-                     + " / ".join(_p(x) for x in o) + f" | الخروج بكسر {_p(lv.get('critical'))} (الوقف {_p(lv.get('stop'))})"
+                     + " / ".join(_p(x) for x in o) + f" | الخروج: إغلاق يومي تحت {_p(lv.get('critical'))}"
                      + f" | الأهداف {_p(lv.get('t1'))} / {_p(lv.get('t2'))}"
                      + f" | منطقة أعمق (غسل) {_p(lv['wash_low'])}–{_p(lv['wash_high'])}")
         lines.append(f"- شروط ص86 ({p.get('frame') or 'يومي'}): {len(p.get('met') or [])}/7"

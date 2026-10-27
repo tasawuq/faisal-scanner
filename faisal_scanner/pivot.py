@@ -532,10 +532,10 @@ def apply_gate(s: Signal):
     td = s.meta.get("today") or {}
     if td.get("low") is not None and td["low"] < lad["stop"] and px >= lad["stop"]:
         # LGHL 27 أكتوبر: نزل اليوم إلى 2.00 تحت الوقف 2.24 ثم رجع 2.26 ونبّه على شمعة أمس — الدعم انكسر (ص17، ص89)
-        wait.append(f"نزل اليوم إلى {M.rnd(td['low'])} تحت الوقف {M.rnd(lad['stop'])} — الدعم انكسر؛ "
-                    f"ينتظر شمعة جديدة تكتمل (ص17، ص89)")
+        wait.append(f"نزل اليوم إلى {M.rnd(td['low'])} تحت الدعم الحرج {M.rnd(lad['critical'])} — يا سحب سيولة يا كسر: "
+                    f"ينتظر إغلاق الشمعة (يومي/4 ساعات) فوق الدعم، والوقف يصير تحت قاع السحب (ص17)")
     if px < lad["stop"]:
-        wait.append(f"السعر الآن {M.rnd(px)} تحت الوقف {M.rnd(lad['stop'])} — الدعم مكسور")
+        wait.append(f"السعر الآن {M.rnd(px)} تحت الدعم الحرج {M.rnd(lad['critical'])} — ينتظر الاسترداد (ص17)")
     elif px < lad["orders"][-1]:
         # طلب Limit فوق السعر = شراء من العرض فوراً (ص57) — والسعر تحت المنطقة يعني الدعم ما استُرد
         wait.append(f"السعر الآن {M.rnd(px)} تحت منطقة الطلبات {M.rnd(lad['orders'][-1])} — ينتظر استردادها (ص17، ص57)")

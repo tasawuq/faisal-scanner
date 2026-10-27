@@ -30,7 +30,7 @@ HORIZON = 10
 def _outcome(df, i, sig):
     lad = sig.meta["ladder"]
     orders = lad["orders"]
-    stop, t1 = lad["stop"], sig.t1
+    t1 = sig.t1
     filled, fill_day, res, res_day, res_px = [], None, "لم تتنفذ", None, None
     for k in range(i + 1, min(len(df), i + 1 + HORIZON)):
         lo, hi = float(df["low"].iloc[k]), float(df["high"].iloc[k])
@@ -39,8 +39,9 @@ def _outcome(df, i, sig):
             filled += new
             fill_day = fill_day or str(df.index[k])[:10]
         if filled:
-            if lo <= stop:
-                res, res_day, res_px = "❌ وقف", str(df.index[k])[:10], stop
+            cl = float(df["close"].iloc[k])
+            if cl < lad["critical"]:  # ص17: الخروج = إغلاق تحت الدعم الحرج (النزول اللحظي قد يكون سحب سيولة)
+                res, res_day, res_px = "❌ خروج", str(df.index[k])[:10], cl
                 break
             if t1 and hi >= t1:
                 res, res_day, res_px = "✅ هدف1", str(df.index[k])[:10], t1
@@ -65,6 +66,8 @@ def replay_one(args):
         last_key = None
         for i in range(max(70, n - days), n):
             win = df.iloc[max(0, i - 259):i + 1]
+            if float(win["close"].iloc[-1]) > M.MAX_PRICE or float(win["volume"].iloc[-21:-1].mean()) < M.MIN_AVG_VOLUME:
+                continue  # فلتر فيصل وقتها (ص6): تحت 5$ وفوليوم فوق 100K
             sig = analyze_pivot(t, win)
             if sig is None or sig.status != READY:
                 continue
@@ -132,7 +135,7 @@ def run(days=120):
     summ = {"days": days, "symbols_in_range": len(rng), "signals": len(rows), "signals_new_setups": len(fresh),
             "filled": len(filled),
             "t1": sum(1 for r in filled if r["result"].startswith("✅")),
-            "stop": sum(1 for r in filled if r["result"].startswith("❌")),
+            "exit": sum(1 for r in filled if r["result"].startswith("❌")),
             "open": sum(1 for r in filled if r["result"] == "مفتوح"),
             "avg_pnl_filled": round(float(np.mean([r["pnl"] for r in filled if r["pnl"] is not None])), 4) if filled else None,
             "provider": provider.name, "universe_source": src}

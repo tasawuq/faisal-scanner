@@ -536,6 +536,9 @@ def apply_gate(s: Signal):
                     f"ينتظر شمعة جديدة تكتمل (ص17، ص89)")
     if px < lad["stop"]:
         wait.append(f"السعر الآن {M.rnd(px)} تحت الوقف {M.rnd(lad['stop'])} — الدعم مكسور")
+    elif px < lad["orders"][-1]:
+        # طلب Limit فوق السعر = شراء من العرض فوراً (ص57) — والسعر تحت المنطقة يعني الدعم ما استُرد
+        wait.append(f"السعر الآن {M.rnd(px)} تحت منطقة الطلبات {M.rnd(lad['orders'][-1])} — ينتظر استردادها (ص17، ص57)")
     elif px / p["critical"] - 1 >= M.CHASE_GAIN:
         wait.append(f"السعر صعد {(px / p['critical'] - 1) * 100:.0f}% فوق الدعم الحرج — لا مطاردة (ص67، ص88)")
     for fl in s.flags:

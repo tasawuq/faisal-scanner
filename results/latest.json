@@ -1,14 +1,14 @@
 {
- "generated_at_utc": "2026-10-27T21:22:25.537626+00:00",
- "generated_at_et": "2026-10-27T17:22:25.537626-04:00",
+ "generated_at_utc": "2026-10-27T21:32:25.537793+00:00",
+ "generated_at_et": "2026-10-27T17:32:25.537793-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1298,
-  "with_data": 1297,
+  "with_data": 1298,
   "short_history": 13,
   "price_out": 65,
-  "low_volume": 465,
+  "low_volume": 466,
   "outside_float": 291,
   "nasdaq": 3433,
   "all": 5855
@@ -220,8 +220,8 @@
     "last_split": "عكسي 1:10 (2024-07-18)",
     "short_available": null,
     "short_pct_float": 0.0036000002,
-    "ext_price": 2.0187,
-    "ext_chg": -0.052253521126760516,
+    "ext_price": 2.0393,
+    "ext_chg": -0.010048534,
     "ext_session": "post"
    },
    "news": []
@@ -1824,8 +1824,8 @@
     "last_split": "عكسي 1:25 (2026-09-17)",
     "short_available": null,
     "short_pct_float": 0.0358,
-    "ext_price": 1.54,
-    "ext_chg": 0.04054054054054057,
+    "ext_price": 1.58,
+    "ext_chg": 0.025974078,
     "ext_session": "post"
    },
    "news": []
@@ -3234,8 +3234,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.053600002,
-    "ext_price": 0.7857,
-    "ext_chg": -0.006951414299999999,
+    "ext_price": 0.79,
+    "ext_chg": -0.001516634,
     "ext_session": "post"
    },
    "news": []
@@ -7992,7 +7992,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.1405,
+   "price": 1.14,
    "price_label": "سعر الأفتر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -8011,8 +8011,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
+   "alert": true,
    "session": "post",
    "scanner": {
     "status": "WATCH",

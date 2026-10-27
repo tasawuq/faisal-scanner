@@ -197,7 +197,8 @@ def build(pivots, daily, fund, now_et, news=None):
             "ext_price": sig.meta.get("ext_price"),
             "name": sig.meta.get("name") or f.get("longName") or "",
             "type": stock_type(sig, df), "setup_ar": sig.setup_ar, "status": sig.status,
-            "data": {"float": sig.meta.get("float"), "shares": _num(f.get("sharesOutstanding")),
+            "data": {"float": sig.meta.get("float"), "shares": _num(f.get("sharesOutstanding")) or sig.meta.get("shares"),
+                     "last_split": sig.meta.get("last_split"),
                      "short_pct_float": sig.meta.get("short_pct_float"), "split": split, "runner": runner,
                      "drawdown": sig.meta.get("drawdown"), "rsi_min": sig.rsi_min, "rsi_now": sig.rsi_now,
                      "ma": sig.ma_state, "macd": sig.macd_state},
@@ -282,5 +283,6 @@ def load_entries(path=FILE, max_age_days=4):
                     "breakout": lv.get("pivot"), "targets": sorted({round(float(x), 4) for x in (lv.get("r1"), lv.get("t1"), lv.get("t2")) if x}),  # NERV: «2.47 ثم 2.47»
                     "note": it["ready_when"], "warn": "، ".join(it.get("flags") or []),
                     "last_price": it.get("ext_price") or it["price"], "wash_low": lv["wash_low"],
-                    "file_met": (it.get("file") or {}).get("met"), "file_miss": (it.get("file") or {}).get("miss") or []})
+                    "file_met": (it.get("file") or {}).get("met"), "file_miss": (it.get("file") or {}).get("miss") or [],
+                    "data": {k: (it.get("data") or {}).get(k) for k in ("float", "shares", "last_split", "short_pct_float")}})
     return out

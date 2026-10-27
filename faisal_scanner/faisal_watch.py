@@ -124,6 +124,11 @@ def entry_quality(bars15, entry: dict, price: float, now_et, seg: str = "regular
             why.append(f"شمعة التأكيد بدون سيولة ({vol / 1e3:.1f}K سهم ≈ ${vol * float(b['close']) / 1e3:.0f}K)")
         elif med and vol < MIN_CONFIRM_VOL_X * med:
             why.append(f"فوليوم شمعة التأكيد ضعيف ({vol / 1e3:.0f}K مقابل المعتاد {med / 1e3:.0f}K — ص19)")
+    # 27 أكتوبر («فيصل يقول بعد التقسيم... والعدد الأسهم»): ص6 فلتر الارتكاز Float Under 20M (50M فقط إذا ما طلعت نتائج)،
+    # ص8 «أقل من 20M مقبول للمضاربة» → سهم القائمة بفلووت أكبر من 20M مراقبة فقط بدون تنبيه (NERV 34M نبّه 10-27)
+    fl = (entry.get("data") or {}).get("float")
+    if entry.get("kind") == "weekly" and fl and fl > 20e6:
+        why.append(f"الفلووت {fl / 1e6:.1f}M أكبر من 20M (ص6/ص8)")
     # 26 أكتوبر (UPXI نبّه وهو 3/6): سهم القائمة ما ينبّه إلا إذا اجتمعت أغلب شروط الملف الستة (4 من 6، ص81)
     if entry.get("kind") == "weekly" and entry.get("file_met") is not None and entry["file_met"] < 4:
         why.append(f"شروط الملف {entry['file_met']}/6 — ناقص: {'، '.join(entry.get('file_miss') or [])} (ص81)")
@@ -236,7 +241,7 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
     stop, brk = entry.get("stop"), entry.get("breakout")
     res = {"ticker": entry["ticker"], "price": price, "price_label": price_label, "note": entry.get("note", ""),
            "source": entry.get("source", ""), "added": entry.get("added", ""), "label": alert_label(entry),
-           "warn": entry.get("warn", ""), "levels": {
+           "warn": entry.get("warn", ""), "data": entry.get("data") or {}, "levels": {
                "demand_low": lo, "demand_high": hi, "stop": stop, "breakout": brk, "targets": entry.get("targets", [])}}
     if price is None:
         res.update(state="NO_DATA", state_ar="لا توجد بيانات سعر", alert=False)

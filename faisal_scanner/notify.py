@@ -149,6 +149,12 @@ def alert_text(s: dict, when: str) -> str:
         extra.append(f"الأسهم الحرة {m['float'] / 1e6:.1f} مليون")
     if extra:
         lines.append(" · ".join(extra))
+    if not mom:
+        try:
+            from .main import data_line
+            lines.append("البيانات: " + data_line(m))
+        except Exception:  # noqa
+            pass
     if s.get("flags"):
         lines.append("⚠️ انتبه: " + " · ".join(s["flags"][:3]))
     if not mom and s.get("conditions"):
@@ -202,6 +208,9 @@ def watch_alert(ev: dict, when: str, seg: str = None) -> tuple:
     if L.get("targets"):
         lines.append("الأهداف: " + " ثم ".join(_g(x) for x in L["targets"]))
     lines.append(f"المصدر: {src}")
+    if ev.get("data"):
+        from .main import data_line
+        lines.append("البيانات: " + data_line(ev["data"]))
     why = ev.get("why") or {}
     if why:
         lines.append("")

@@ -44,6 +44,32 @@ def _split_reverse(f):
     return None
 
 
+def last_split(f):
+    """آخر تقسيم (أي تاريخ) بصيغة «عكسي 1:10 (2026-09-28)» — ص56: فيصل يكتب آخر تقسيم لكل سهم."""
+    fac, dt = f.get("lastSplitFactor"), f.get("lastSplitDate")
+    if not fac or not dt:
+        return None
+    try:
+        a, b = [float(x) for x in str(fac).split(":")]
+        when = datetime.fromtimestamp(float(dt), tz=timezone.utc)
+    except Exception:  # noqa
+        return None
+    return f"{'عكسي' if a < b else 'عادي'} {fac} ({when:%Y-%m-%d})"
+
+
+def data_line(meta: dict) -> str:
+    """سطر بيانات فيصل (ص8/ص38/ص56): الفلووت، عدد الأسهم، آخر تقسيم، الشورت."""
+    parts = []
+    flt, sh = meta.get("float"), meta.get("shares")
+    parts.append(f"فلووت {flt / 1e6:.1f}M" if flt else "فلووت غير معروف")
+    if sh:
+        parts.append(f"عدد الأسهم {float(sh) / 1e6:.1f}M")
+    parts.append(f"آخر تقسيم: {meta['last_split']}" if meta.get("last_split") else "بدون تقسيم مسجل")
+    if meta.get("short_pct_float"):
+        parts.append(f"شورت {float(meta['short_pct_float']) * 100:.1f}% من الفلووت")
+    return " · ".join(parts)
+
+
 def enrich(sig, fund: dict, urow: dict) -> bool:
     """Attach float/market-cap/flags. Returns False if the stock fails the universe filter."""
     f = fund.get(sig.ticker) or {}
@@ -75,6 +101,9 @@ def enrich(sig, fund: dict, urow: dict) -> bool:
     rs = _split_reverse(f)
     if rs:
         sig.flags.append(rs)
+    # ص56/ص38: فيصل يكتب لكل سهم «الشورت المتاح وعدد الأسهم وآخر تقسيم» → نحفظها لعرضها في كل قائمة وتنبيه
+    sig.meta["shares"] = f.get("sharesOutstanding")
+    sig.meta["last_split"] = last_split(f)
     if sig.price < 0.5:
         sig.flags.append("سعر منخفض جداً — سبريد واسع")
     sp = f.get("shortPercentOfFloat")
@@ -440,6 +469,9 @@ def run_once(force=False, demo=False, limit=None) -> dict:
                         px = float(tb["close"].iloc[-1])
                 try:
                     why = faisal_watch.scanner_confirm(b, px, x.stop, x.t1, x.entry_low, daily.get(x.ticker), now_c)
+                    fl_ = (x.meta or {}).get("float")
+                    if fl_ and fl_ > C.PREFERRED_FLOAT:
+                        why.append(f"الفلووت {fl_ / 1e6:.1f}M أكبر من 20M — الملف: أقل من 20M مقبول للمضاربة (ص6/ص8)")
                 except Exception as e:  # noqa
                     errors.append(f"confirm gate {x.ticker}: {str(e)[:80]}")
                     why = ["تأكيد 15 دقيقة: تعذر التحقق من الشموع"]

@@ -579,3 +579,21 @@ def test_list_alert_text_explains_why():
     _, body = notify.watch_alert(ev, "21:24 الرياض")
     assert "شروط الملف 4/6" in body and "شمعة التأكيد 14:00" in body and "1.15→1.16" in body
     assert "أول مقاومة 1.21" in body and "× المخاطرة" in body
+
+
+def test_float_over_20m_list_name_does_not_alert_and_data_line_shown():
+    """27 أكتوبر: NERV نبّه بفلووت 34M — الملف ص6/ص8: أقل من 20M للمضاربة. ونص التنبيه يعرض الفلووت وعدد الأسهم وآخر تقسيم (ص56)."""
+    from faisal_scanner import faisal_watch as fw, notify
+    from faisal_scanner.main import data_line, last_split
+    e = {"ticker": "NERV", "kind": "weekly", "demand_low": 2.24, "demand_high": 2.2624, "stop": 2.1364,
+         "breakout": 2.47, "targets": [2.47, 2.65], "file_met": 4, "file_miss": ["المتوسطات", "خبر/محفز"],
+         "data": {"float": 34.3e6, "shares": 47.7e6, "last_split": None, "short_pct_float": 0.053}}
+    why = fw.entry_quality(None, e, 2.25, None, "regular")
+    assert any("الفلووت 34.3M" in w for w in why)
+    e2 = {**e, "data": {"float": 4.2e6, "shares": 6.0e6, "last_split": "عكسي 1:10 (2026-09-28)"}}
+    assert not any("الفلووت" in w for w in fw.entry_quality(None, e2, 2.25, None, "regular"))
+    ev = fw.evaluate(e2, 2.25, zone_ok=True, weak=[])
+    _, body = notify.watch_alert(ev, "17:00 الرياض")
+    assert "فلووت 4.2M" in body and "عدد الأسهم 6.0M" in body and "آخر تقسيم: عكسي 1:10" in body
+    assert last_split({"lastSplitFactor": "1:10", "lastSplitDate": 1759017600}).startswith("عكسي 1:10")
+    assert "بدون تقسيم مسجل" in data_line({"float": 1e6})

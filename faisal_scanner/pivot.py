@@ -381,7 +381,9 @@ def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last
                 cands.append(dict(code="W_RETEST" if retest else "W_BREAK", zone=(neck * 0.98, neck * 1.01),
                                   trigger=neck, touches=2, neck=neck,
                                   breakout={"res": neck, "retest_ok": bool(retest and hold_bar), "vol_ok": brk_vol_ok,
-                                            "retest_low": float(np.min(ctx.l[brk:]))}))
+                                            # الدعم الحرج: قاع إعادة الاختبار إذا صارت، وإلا تحت خط العنق مباشرة
+                                            "retest_low": (float(np.min(ctx.l[brk + 1:])) if retest
+                                                           else neck * 0.97)}))
             elif ctx.c[-1] < neck and brk >= ctx.n - 10:
                 ctx.bull_trap = True
 

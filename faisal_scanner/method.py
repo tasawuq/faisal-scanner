@@ -208,7 +208,9 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
         out["retest"] = (bool(breakout.get("retest_ok")),
                          f"رجع لاختبار {rnd(res)} وثبت فوقه" if breakout.get("retest_ok")
                          else f"ما رجع لاختبار {rnd(res)} بعد أو ما ثبت فوقه")
-        out["volume"] = (bool(breakout.get("vol_ok")),
+        bar_ok = breakout.get("bar_ok", True)
+        out["volume"] = (bool(breakout.get("vol_ok") and bar_ok),
+                         "الاختراق بذيل علوي طويل وإغلاق ضعيف — علامة اختراق وهمي (ص19)" if not bar_ok else
                          "الاختراق كان بفوليوم أعلى من المعتاد" if breakout.get("vol_ok") else "الاختراق بدون فوليوم (ص19)")
         ok_c = bool(breakout.get("retest_ok"))
         out["candle"] = (ok_c, "شمعة ثبات فوق المستوى" if ok_c else "ما فيه شمعة ثبات على إعادة الاختبار")

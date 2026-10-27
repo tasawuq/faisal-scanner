@@ -303,6 +303,7 @@ def detect_base_breakout(ctx: Ctx):
         vol_ok = bool(ctx.v[j] >= 1.2 * max(ctx.avg_vol, 1)
                       or (j == n - 1 and ctx.v_last_adj >= 1.2 * max(ctx.avg_vol, 1)))
         out = {"res": res, "res_idx": i, "brk": j, "low_idx": lo_i, "base_low": base_low, "vol_ok": vol_ok,
+               "bar_ok": _strong_close(ctx, j),
                "retest": k_rt}
         if k_rt is not None:
             # نجاح إعادة الاختبار: إغلاق شمعة الاختبار فوق المقاومة تقريباً + آخر شمعة ثابتة (إغلاق فوق المقاومة
@@ -315,6 +316,13 @@ def detect_base_breakout(ctx: Ctx):
     return None
 
 
+
+
+def _strong_close(ctx, j) -> bool:
+    """ص19: علامات الاختراق الوهمي «ذيل علوي طويل؛ فوليوم عالي لكن الإغلاق ضعيف» — شمعة الاختراق لازم تغلق في نصفها
+    العلوي وبدون ذيل علوي أكبر من نصف مداها (BNKK 26 أغسطس: 1.21→1.438→1.28)."""
+    rng = max(ctx.h[j] - ctx.l[j], 1e-9)
+    return bool((ctx.c[j] - ctx.l[j]) / rng >= 0.5 and (ctx.h[j] - max(ctx.o[j], ctx.c[j])) / rng < 0.5)
 
 
 # ====================================================================== main entry
@@ -374,6 +382,7 @@ def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last
             held = bool(np.all(ctx.c[brk:] >= neck * 0.98)) and ctx.c[-1] >= neck
             retest = brk + 1 < ctx.n and np.min(ctx.l[brk + 1:]) <= neck * 1.01 and held
             brk_vol_ok = bool(ctx.v[brk] >= 1.2 * max(ctx.avg_vol, 1))
+            brk_bar_ok = _strong_close(ctx, brk)
             if held:
                 last = ctx.n - 1
                 rng = max(ctx.h[last] - ctx.l[last], 1e-9)
@@ -381,6 +390,7 @@ def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last
                 cands.append(dict(code="W_RETEST" if retest else "W_BREAK", zone=(neck * 0.98, neck * 1.01),
                                   trigger=neck, touches=2, neck=neck,
                                   breakout={"res": neck, "retest_ok": bool(retest and hold_bar), "vol_ok": brk_vol_ok,
+                                            "bar_ok": brk_bar_ok,
                                             # الدعم الحرج: قاع إعادة الاختبار إذا صارت، وإلا تحت خط العنق مباشرة
                                             "retest_low": (float(np.min(ctx.l[brk + 1:])) if retest
                                                            else neck * 0.97)}))
@@ -396,7 +406,7 @@ def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last
         ok = bool(bb.get("retest") is not None and bb.get("retest_ok"))
         cands.append(dict(code="BASE_RETEST" if ok else "BASE_BREAK", zone=(res * 0.98, res * 1.01), trigger=res,
                           touches=2, neck=res,
-                          breakout={"res": res, "retest_ok": ok, "vol_ok": bb["vol_ok"],
+                          breakout={"res": res, "retest_ok": ok, "vol_ok": bb["vol_ok"], "bar_ok": bb.get("bar_ok", True),
                                     "retest_low": bb.get("retest_low") or res * 0.97}))
 
     if not cands:

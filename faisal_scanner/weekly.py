@@ -279,7 +279,7 @@ def load_entries(path=FILE, max_age_days=4):
         no_alert = any(k in fl for k in ("ضخ/تصريف", "صيني", "سيولة ضعيفة", "متقطعة"))
         out.append({"ticker": it["ticker"], "kind": "weekly", "source": "قائمة الارتكاز (تطبيق الملف)", "no_alert": no_alert,
                     "demand_low": lv["demand_low"], "demand_high": lv["demand_high"], "stop": lv["stop_tight"],
-                    "breakout": lv.get("pivot"), "targets": sorted({x for x in (lv.get("r1"), lv.get("t1"), lv.get("t2")) if x}),
+                    "breakout": lv.get("pivot"), "targets": sorted({round(float(x), 4) for x in (lv.get("r1"), lv.get("t1"), lv.get("t2")) if x}),  # NERV: «2.47 ثم 2.47»
                     "note": it["ready_when"], "warn": "، ".join(it.get("flags") or []),
                     "last_price": it.get("ext_price") or it["price"], "wash_low": lv["wash_low"],
                     "file_met": (it.get("file") or {}).get("met"), "file_miss": (it.get("file") or {}).get("miss") or []})

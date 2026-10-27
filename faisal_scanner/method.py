@@ -37,6 +37,7 @@ RECENT_SPLIT_DAYS = 210      # أمثلة الملف: تقسيمات أسهم ف
 RSI_PRESSURE = 27            # ص65، ص78، ص86 «RSI في التشبع البيعي 23 - 27» (وصلها أو أعمق)
 CHASE_GAIN = 0.20            # ص67، ص88 «مطاردة السهم بعد ارتفاع 20-50%»
 MAX_LOSS = 0.15              # ص54 «نسبة الخطا الاسبوعيه الاصل لاتتجاوز خساره 15٪»
+MIN_BASE_DAYS = 5            # اجتهاد: القاعدة عمرها أسبوع تداول على الأقل (ص82 «بدأ يكوّن قاعدة سعرية»)
 BASE_WINDOW = 40             # اجتهاد: نافذة القاعدة على اليومي (~شهرين) لقراءة القاع وإعادة الاختبار وRSI
 REGULAR = (time(9, 30), time(16, 0))
 H4_SPLIT = time(13, 30)      # شمعة 4 ساعات للجلسة الرسمية: 9:30–13:30 ثم 13:30–16:00
@@ -215,7 +216,12 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
         ok_c = bool(breakout.get("retest_ok"))
         out["candle"] = (ok_c, "شمعة ثبات فوق المستوى" if ok_c else "ما فيه شمعة ثبات على إعادة الاختبار")
     else:
-        out["support"] = (len(eps) >= 1, f"منطقة {rnd(z_low)}–{rnd(z_high)}" + (f" لمسها {len(eps)} مرات" if eps else ""))
+        # «بدأ يكوّن قاعدة سعرية قرب دعم واضح» (ص82، ص66): الدعم عمره أسبوع على الأقل (اجتهاد في المدة — EDBL 22–25 سبتمبر:
+        # «دعم» عمره 3 أيام من شمعة انهيار خبر ما هو قاعدة)
+        age = (n - 1 - eps[0][0]) if eps else 0
+        out["support"] = (len(eps) >= 1 and age >= MIN_BASE_DAYS,
+                          f"منطقة {rnd(z_low)}–{rnd(z_high)}" + (f" لمسها {len(eps)} مرات خلال {age} يوم" if eps else "")
+                          + ("" if age >= MIN_BASE_DAYS else " — ما تكوّنت قاعدة بعد (أقل من أسبوع)"))
         ok5, note5 = False, "ما صار اختبار ثاني للدعم بعد القاع الأول"
         if len(eps) >= 2:
             a, b = eps[-1]

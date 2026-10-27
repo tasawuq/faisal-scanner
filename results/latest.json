@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-27T09:26:42.573279+00:00",
- "generated_at_et": "2026-10-27T05:26:42.573279-04:00",
+ "generated_at_utc": "2026-10-27T09:36:42.573425+00:00",
+ "generated_at_et": "2026-10-27T05:36:42.573425-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1103,7 +1103,10 @@
     "market_cap": 295272896,
     "exchange": "NASDAQ",
     "name": "Prelude Therapeutics Incorporated",
-    "short_pct_float": 0.1807
+    "short_pct_float": 0.1807,
+    "ext_price": 3.61,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1189,7 +1192,7 @@
     "exchange": "NASDAQ",
     "name": "Farmmi, Inc.",
     "short_pct_float": 0.025899999,
-    "ext_price": 0.103,
+    "ext_price": 0.1051,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -1769,7 +1772,7 @@
     "exchange": "NASDAQ",
     "name": "Lion Group Holding Ltd.",
     "short_pct_float": 0.1242,
-    "ext_price": 2.28,
+    "ext_price": 2.37,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2099,7 +2102,7 @@
     "exchange": "NASDAQ",
     "name": "Datasea Intelligent Technology Ltd.",
     "short_pct_float": 0.0215,
-    "ext_price": 0.6805,
+    "ext_price": 0.6801,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2613,7 +2616,7 @@
     "exchange": "NASDAQ",
     "name": "Wheeler Real Estate Investment Trust, Inc.",
     "short_pct_float": 0.159,
-    "ext_price": 0.3257,
+    "ext_price": 0.321,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2784,7 +2787,7 @@
     "exchange": "NASDAQ",
     "name": "Nauticus Robotics, Inc.",
     "short_pct_float": 0.1731,
-    "ext_price": 1.33,
+    "ext_price": 1.32,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -3465,7 +3468,7 @@
  ],
  "momentum": [],
  "errors": [
-  "yahoo quotes empty in pre — nasdaq fallback 44/66"
+  "yahoo quotes empty in pre — nasdaq fallback 45/66"
  ],
  "ext_debug": [],
  "faisal": [
@@ -3504,8 +3507,8 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.29,
-   "price_label": "سعر البري",
+   "price": 2.2950000762939453,
+   "price_label": "آخر سعر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -3537,7 +3540,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.6784,
+   "price": 1.68,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -3673,8 +3676,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 52059.0,
-   "price": 342.93
+   "volume": 55530.0,
+   "price": 343.27
   },
   "SNDL": {
    "volume": 3151.0,

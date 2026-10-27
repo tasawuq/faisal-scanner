@@ -390,7 +390,7 @@ def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last
                 cands.append(dict(code="W_RETEST" if retest else "W_BREAK", zone=(neck * 0.98, neck * 1.01),
                                   trigger=neck, touches=2, neck=neck,
                                   breakout={"res": neck, "retest_ok": bool(retest and hold_bar), "vol_ok": brk_vol_ok,
-                                            "bar_ok": brk_bar_ok,
+                                            "bar_ok": brk_bar_ok, "brk": int(brk),
                                             # الدعم الحرج: قاع إعادة الاختبار إذا صارت، وإلا تحت خط العنق مباشرة
                                             "retest_low": (float(np.min(ctx.l[brk + 1:])) if retest
                                                            else neck * 0.97)}))
@@ -407,7 +407,7 @@ def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last
         cands.append(dict(code="BASE_RETEST" if ok else "BASE_BREAK", zone=(res * 0.98, res * 1.01), trigger=res,
                           touches=2, neck=res,
                           breakout={"res": res, "retest_ok": ok, "vol_ok": bb["vol_ok"], "bar_ok": bb.get("bar_ok", True),
-                                    "retest_low": bb.get("retest_low") or res * 0.97}))
+                                    "brk": int(bb["brk"]), "retest_low": bb.get("retest_low") or res * 0.97}))
 
     if not cands:
         return None

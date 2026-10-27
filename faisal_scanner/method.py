@@ -190,15 +190,20 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
     # زيارة الدعم = قاع الشمعة لمس المنطقة (هامش 1%)؛ الزيارات يفصلها يومان على الأقل فوقها (اختبار أول ثم ثاني)
     eps = [] if breakout else episodes(l, z_high * 1.01, st, n)
     broke = False
+    first = n - 3  # الثبات = آخر 3 إغلاقات فوق الدعم الحرج
     if breakout:
-        crit = float(breakout.get("retest_low") or z_low)
+        # الحرج تحت المنطقة دائماً (نفس الرقم اللي ينطبع للمستخدم)، والثبات يُحسب من شمعة الاختراق وبعدها فقط —
+        # الإغلاقات قبل الاختراق طبيعي تكون تحت المقاومة (BDRX 27 أكتوبر: إغلاق 3.384 قبل الاختراق حُسب كسر بالغلط)
+        crit = float(min(breakout.get("retest_low") or z_low, z_low))
+        if breakout.get("brk") is not None:
+            first = max(first, int(breakout["brk"]))
     else:
         last_ep = eps[-1] if eps else None
         crit = float(min(z_low, np.min(l[last_ep[0]:last_ep[1] + 1]))) if last_ep else float(z_low)
         if last_ep:
             # ص17: «إذا كسر الدعم وبقي تحته أو فشل في الرجوع فوقه → ليس سحب سيولة بل ضعف» (إغلاقان متتاليان تحته)
             broke = any(c[i] < z_low * 0.99 and c[i + 1] < z_low * 0.99 for i in range(last_ep[0], n - 1))
-    holding = bool(np.all(c[-3:] >= crit))
+    holding = bool(np.all(c[first:] >= crit))
     # المتوسطات (فهم الصفحات مع بعض): تحتها = ضغط (ص85، ص86 «السعر تحت المتوسطات ثم يبدأ التماسك») ثم «يبدأ يستعيدها»
     # (ص66) / «بدأ يستعيد المتوسطات» (ص84) / «عودة السعر للإغلاق فوق متوسط 30 و50» (ص82) = تأكيد الخروج من الضعف.
     # البداية = إغلاق فوق أقرب متوسط (MA20)؛ والإغلاق فوق 30 و50 تأكيد أقوى (ص82). المتوسطات فلتر تأكيد (ص64):

@@ -441,7 +441,7 @@ def test_four_hour_candle_completes_p86():
 
 
 def test_selection_follows_faisal_filter_and_template():
-    """ص61 Float Under 20M، ص6 Under 300M، والقالب (ص90–94): الجنسية، النشاط، التقسيم وافتتاحه وأعلاه، الشورت المتاح،
+    """نفس مدى أسهم فيصل (≤8M، طلب المستخدم 27 أكتوبر)، ص6 Under 300M، والقالب (ص90–94): الجنسية، النشاط، التقسيم وافتتاحه وأعلاه، الشورت المتاح،
     الفلوت، عدد الأسهم، والسلوك السابق."""
     from faisal_scanner.main import enrich, data_line
     from faisal_scanner.pivot import Signal
@@ -449,9 +449,13 @@ def test_selection_follows_faisal_filter_and_template():
     split_ts = df.index[-40].timestamp()
     s = Signal(ticker="NERV", price=2.24)
     assert enrich(s, {"NERV": {"floatShares": 34.3e6, "sharesOutstanding": 47.7e6}}, {}) is False
-    s = Signal(ticker="X", price=2.24)  # عدد الأسهم كبير والفلووت مجهول → يبقى بالقائمة بدون إشارة (تحقق يدوي)
-    assert enrich(s, {"X": {"sharesOutstanding": 47.7e6}}, {}) is True
-    assert any("الفلووت غير معروف" in fl for fl in s.flags)
+    s = Signal(ticker="X", price=2.24)  # الفلوت مجهول وعدد الأسهم 47.7M → خارج مدى أسهم فيصل
+    assert enrich(s, {"X": {"sharesOutstanding": 47.7e6}}, {}) is False
+    s = Signal(ticker="B", price=1.6)  # BNKK (ص93): فلوت 7.84M داخل المدى، و9M خارجه
+    assert enrich(s, {"B": {"floatShares": 7.84e6}}, {}) is True
+    assert enrich(Signal(ticker="Z", price=1.6), {"Z": {"floatShares": 9e6}}, {}) is False
+    s = Signal(ticker="U", price=1.6)
+    assert enrich(s, {"U": {}}, {}) is True and any("غير معروفين" in fl for fl in s.flags)
     s = Signal(ticker="Y", price=1.5)
     f = {"Y": {"floatShares": 849e3, "sharesOutstanding": 1.2e6, "country": "Israel", "industry": "Software",
                "lastSplitFactor": "1:10", "lastSplitDate": split_ts, "marketCap": 3e6}}

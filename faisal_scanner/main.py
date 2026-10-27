@@ -101,13 +101,13 @@ def enrich(sig, fund: dict, urow: dict, df=None) -> bool:
     sig.meta["market_cap"] = mcap if mcap and not (isinstance(mcap, float) and np.isnan(mcap)) else None
     sig.meta["exchange"] = urow.get("exchange", "")
     sig.meta["name"] = f.get("longName") or urow.get("name", "")
-    known = flt or (sh if sh and sh <= M.MAX_FLOAT else None)
+    known = flt or sh  # فيصل يكتب «فلوت» في القائمة الأسبوعية و«عدد اسهم» في الفرز — الفلوت أولاً وإلا عدد الأسهم
     if known and known > M.MAX_FLOAT:
-        return False  # ص61: Float Under 20M
+        return False  # نفس مدى أسهم فيصل (≤8M — ص56، ص59، ص90–94)
     if sig.meta["market_cap"] and sig.meta["market_cap"] > M.MAX_MARKET_CAP:
         return False  # ص6: Under 300M
     if not known:
-        sig.flags.append("الفلووت غير معروف — تحقق يدوياً قبل أي دخول (فلتر ص61 تحت 20M)")
+        sig.flags.append("الفلووت وعدد الأسهم غير معروفين — تحقق يدوياً قبل أي دخول (أسهم فيصل ≤8M)")
     elif known < 5e6:
         sig.tags.insert(0, f"فلووت {_m(known)} 🔥 (ص8: أقل من 5M قوي وخطر)")
     country = (f.get("country") or urow.get("country") or "")
@@ -400,7 +400,7 @@ def run_once(force=False, demo=False, limit=None) -> dict:
 
     # ---------------- fundamentals (float / short / split) for the shortlist
     pivots.sort(key=lambda x: (x.status == READY, x.rank), reverse=True)
-    pivots = pivots[:150]
+    pivots = pivots[:400]  # كل المرشحين تقريباً — فلتر عدد الأسهم (≤8M) بعد جلب البيانات
     moms.sort(key=lambda x: (x.status == READY, x.rank), reverse=True)
     moms = moms[:30]
     tick = sorted({x.ticker for x in pivots + moms})

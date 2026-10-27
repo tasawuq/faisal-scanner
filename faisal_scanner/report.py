@@ -95,7 +95,7 @@ def build_markdown(result: dict) -> str:
     now_ry = now_et.astimezone(RIYADH)
     L = [f"## 📋 منهج فيصل (ارتكاز + زخم) — {now_ry:%H:%M} الرياض ({now_et:%H:%M} نيويورك)",
          f"{SESSION_AR.get(result['session'], result['session'])} · فُحص {result['counts']['universe']} سهم أمريكي → "
-         f"{result['counts']['analyzed']} يطابق فلتر فيصل (ناسداك، سعر < $5، قيمة < 300M، فوليوم > 100K، فلووت < 20M)", ""]
+         f"{result['counts']['analyzed']} يطابق فلتر فيصل (ناسداك، سعر < $5، قيمة < 300M، فوليوم > 100K، فلووت/عدد أسهم ≤ 8M مثل أسهم فيصل)", ""]
     ready = result["ready"]
     L.append(f"### 🚨 اكتملت شروط ص86 — طلبات Limit ({len(ready)})")
     if ready:

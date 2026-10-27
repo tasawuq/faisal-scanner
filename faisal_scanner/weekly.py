@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 import numpy as np
 
 from . import config as C
+from . import method as M
 from .levels import swing_lows
 
 log = logging.getLogger("faisal")
@@ -64,54 +65,28 @@ def stock_type(sig, df):
 
 
 def sort_score(sig, fund):
-    """الفرز قبل الصعود (ص59 + ص9): فلووت/عدد أسهم صغير + سلوك سابق + تقسيم + شورت قليل + قرب القاع + الشروط."""
-    f = fund or {}
-    flt = sig.meta.get("float") or _num(f.get("sharesOutstanding"))
+    """الفرز قبل الصعود (ص56، ص59 «هكذا تفرز الاسهم قبل صعودها»، ص90–94): عدد أسهم/فلووت صغير جداً + تقسيم عكسي
+    حديث + سهم سبق صعد 100%+ + قرب القاع + شروط ص86. «توه مدبل» = غير آمن الآن."""
+    flt = sig.meta.get("float") or sig.meta.get("shares")
     s = 0.0
     if flt:
-        s += 3.0 if flt < 3e6 else 2.0 if flt < 5e6 else 1.5 if flt < 10e6 else 1.0 if flt < 20e6 else 0.0
-    else:
-        s += 0.5
+        s += 4.0 if flt <= 1e6 else 3.0 if flt <= 3e6 else 2.0 if flt <= 5e6 else 1.0 if flt <= 10e6 else 0.5
     tags = " ".join(sig.tags)
     flags = " ".join(sig.flags)
     if "Former Runner" in tags:
-        s += 1.5
-    if "تقسيم عكسي حديث" in flags:
-        s += 1.0
-    sp = sig.meta.get("short_pct_float")
-    if sp is not None and sp < 0.03:
-        s += 0.5
-    g = sig.meta.get("gain_from_low10") or 0
-    s += 1.0 if g <= 0.15 else (-1.0 if g > 0.30 else 0.0)
-    if (sig.meta.get("drawdown") or 0) >= 0.40:
-        s += 1.0
-    if (sig.rsi_min or 99) <= 30:
-        s += 1.0
-    s += 0.5 * (sig.score or 0)
+        s += 2.0
+    if "تقسيم عكسي حديث" in tags:
+        s += 2.0
+    s += 0.5 * (sig.score or 0)  # عدد شروط ص86 المتحققة (من 7)
+    if "توه مدبل" in flags:
+        s -= 3.0
     if "صيني" in flags:
         s -= 1.5
-    if "ضخ/تصريف حديثة" in flags:
+    if "ضخ/تصريف" in flags:
         s -= 2.0
-    if "سيولة ضعيفة" in flags:
-        s -= 1.0
     if sig.price < 0.2:
         s -= 1.0
     return round(s, 2)
-
-
-def ready_when(sig, wash):
-    z_lo, z_hi = sig.entry_low, sig.entry_high
-    st = sig.setup
-    w_lo, w_hi = wash
-    if st in ("BASE_BREAK", "BASE_RETEST", "W_BREAK", "W_RETEST"):
-        return (f"🚩 رجوع لاختبار {sig.trigger_level:.3g} والثبات فوقه (شمعة 15 دقيقة خضراء) — لا شراء للاختراق نفسه (ص20)")
-    if st == "W_FORMING":
-        return (f"من تحت: شمعة ارتداد عند القاع الثاني {sig.support_low:.3g}؛ أو كسر خط العنق {sig.trigger_level:.3g} "
-                f"والثبات أكثر من ربع ساعة ثم إعادة اختبار (ص25)")
-    if st == "BROKE_SUPPORT":
-        return f"استرداد {z_lo:.3g} والإغلاق فوقه؛ وإذا استمر النزول فالطلب الثاني عند {w_lo:.3g}–{w_hi:.3g}"
-    return (f"نزول لمنطقة الطلب {z_lo:.3g}–{z_hi:.3g} ثم شمعة ارتداد/ثبات، أو سحب سيولة إلى {w_lo:.3g}–{w_hi:.3g} "
-            f"ثم استرداد {z_lo:.3g} (ص17، ص86)")
 
 
 _NEWS = {}
@@ -149,14 +124,6 @@ def due(now_et, max_age_hours=1):
     return t.date() != now_et.date() or (now_et - t).total_seconds() > max_age_hours * 3600
 
 
-def _file_six(sig):
-    from .pivot import file_six
-    try:
-        return file_six(sig.conditions, sig.tags, sig.rr)
-    except Exception:  # noqa
-        return None, []
-
-
 def build(pivots, daily, fund, now_et, news=None):
     rows = []
     for sig in pivots:
@@ -176,40 +143,26 @@ def build(pivots, daily, fund, now_et, news=None):
     items = []
     for sc, sig in rows:
         df = daily[sig.ticker]
-        f = (fund or {}).get(sig.ticker) or {}
-        d_lo, d_hi, stop_t, pivot = float(sig.entry_low), float(sig.entry_high), float(sig.stop), sig.t1
-        if sig.setup == "W_FORMING" and sig.support_low:
-            # نموذج W قيد التكوين: الدخول من تحت عند القاع الثاني (منطقة الطلب)، وخط العنق هو المستوى الفاصل (ص25)
-            d_lo, d_hi = float(sig.support_low), float(max(sig.support_high, sig.support_low * 1.02))
-            stop_t, pivot = d_lo * (1 - C.STOP_BUFFER), sig.trigger_level
-        z_lo = sig.support_low if sig.setup in ("AT_SUPPORT", "SWEEP", "BOUNCE", "BROKE_SUPPORT", "W_FORMING") else d_lo
+        z_lo, z_hi = sig.meta.get("zone") or (sig.entry_low, sig.entry_high)
         w_lo, w_hi, w_note = wash_zone(df, z_lo)
-        base_low = float(np.min(df["low"].values[-60:]))
-        # مقاومة مباشرة فوق منطقة الدخول (ص67/ص88: لا دخول تحت مقاومة مباشرة): أقرب قمة يومية من آخر 5 أيام
-        # فوق أعلى المنطقة — مثال TPET 21 أكتوبر: الدخول 1.44–1.49 وقمم الأيام السابقة 1.54–1.60 تحت خط العنق 1.67
-        near_hi = [float(x) for x in df["high"].values[-6:-1] if x > d_hi * 1.005]
-        r1 = round(min(near_hi), 4) if near_hi else None
-        tags = " ".join(sig.tags)
-        runner = next((t for t in sig.tags if "Former Runner" in t), "")
-        split = next((x for x in sig.flags if "تقسيم عكسي" in x), "")
+        lad = sig.meta.get("ladder") or {}
+        p86 = sig.meta.get("p86") or {}
+        met, miss = M.summary(p86.get("checks") or {})
         items.append({
             "ticker": sig.ticker, "score": sc, "price": round(float(sig.price), 4),
             "ext_price": sig.meta.get("ext_price"),
-            "name": sig.meta.get("name") or f.get("longName") or "",
+            "name": sig.meta.get("name") or "",
             "type": stock_type(sig, df), "setup_ar": sig.setup_ar, "status": sig.status,
-            "data": {"float": sig.meta.get("float"), "shares": _num(f.get("sharesOutstanding")) or sig.meta.get("shares"),
-                     "last_split": sig.meta.get("last_split"),
-                     "short_pct_float": sig.meta.get("short_pct_float"), "split": split, "runner": runner,
-                     "drawdown": sig.meta.get("drawdown"), "rsi_min": sig.rsi_min, "rsi_now": sig.rsi_now,
-                     "ma": sig.ma_state, "macd": sig.macd_state},
+            "data": {k: sig.meta.get(k) for k in ("float", "shares", "last_split", "split", "country_ar", "industry",
+                                                   "short_available", "runner")},
             "news": (news or {}).get(sig.ticker, []),
-            "levels": {"bottom": round(base_low, 4), "demand_low": round(d_lo, 4),
-                       "demand_high": round(d_hi, 4), "wash_low": round(w_lo, 4),
-                       "wash_high": round(w_hi, 4), "wash_note": w_note, "pivot": pivot, "t1": sig.t1, "t2": sig.t2, "r1": r1,
-                       "stop": round(min(stop_t, w_lo * 0.97), 4), "stop_tight": round(stop_t, 4)},
-            "not_ready": sig.waiting_for[:2], "ready_when": ready_when(sig, (w_lo, w_hi)),
-            # شروط الملف الستة حرفياً (ص81/ص82/ص85) — تنبيه القائمة يحتاج 4 من 6 (UPXI 26 أكتوبر نبّه وهو 3/6)
-            "file": dict(zip(("met", "miss"), _file_six(sig))),
+            "levels": {"demand_low": round(float(z_lo), 4), "demand_high": round(float(z_hi), 4),
+                       "orders": lad.get("orders"), "critical": lad.get("critical"), "stop": lad.get("stop"),
+                       "risk": lad.get("risk"), "wash_low": round(w_lo, 4), "wash_high": round(w_hi, 4),
+                       "wash_note": w_note, "pivot": sig.trigger_level, "t1": sig.t1, "t2": sig.t2},
+            "p86": {"frame": p86.get("frame"), "bar_date": p86.get("bar_date"), "met": met, "miss": miss,
+                    "checks": p86.get("checks")},
+            "not_ready": sig.waiting_for[:4], "ready_when": sig.meta.get("when_ready", ""),
             "flags": sig.flags[:4], "tags": sig.tags[:4],
         })
     out = {"generated_at_et": now_et.isoformat(), "items": items}
@@ -229,33 +182,29 @@ def _p(x):
 
 
 def markdown(w):
+    from .main import data_line, news_line
     lines = [f"# قائمة الارتكاز (أسلوب فيصل) — {w['generated_at_et'][:16]} نيويورك", "",
-             "كل الأسهم هنا **غير جاهزة للدخول الآن — متابعة فقط** (تغريدة فيصل ص54). الدخول بأوامر Limit من تحت عند الشرط.", ""]
+             "كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي "
+             "أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.", ""]
     for it in w["items"]:
-        d, lv = it["data"], it["levels"]
-        flt = d.get("float") or d.get("shares")
+        lv, p = it["levels"], it.get("p86") or {}
         lines.append(f"## ${it['ticker']} — {' / '.join(it['type'])}")
         lines.append(f"- السعر {_p(it['price'])}" + (f" (بري/أفتر {_p(it['ext_price'])})" if it.get("ext_price") else "")
                      + f" | {it['setup_ar']}")
-        lines.append(f"- البيانات: فلووت {flt / 1e6:.2f}M" if flt else "- البيانات: فلووت غير معروف")
-        extra = []
-        if d.get("short_pct_float") is not None:
-            extra.append(f"شورت {d['short_pct_float'] * 100:.1f}% من الفلووت")
-        if d.get("split"):
-            extra.append(d["split"])
-        if d.get("runner"):
-            extra.append(d["runner"])
-        extra.append(f"هبط {(d.get('drawdown') or 0) * 100:.0f}% من قمة 90 يوم، أدنى RSI {d.get('rsi_min')}")
-        lines[-1] += " — " + " — ".join(extra)
-        if it["news"]:
-            lines.append("- الأخبار: " + " | ".join(f"{t} ({dt})" for dt, t in it["news"][:2]))
-        lines.append(f"- القاع {_p(lv['bottom'])} | منطقة الطلب (Limit) {_p(lv['demand_low'])}–{_p(lv['demand_high'])}"
-                     f" | منطقة الغسل {_p(lv['wash_low'])}–{_p(lv['wash_high'])} ({lv['wash_note']})"
-                     f" | المستوى الفاصل {_p(lv['pivot'])} | الأهداف {_p(lv['t1'])} / {_p(lv['t2'])}"
-                     f" | الوقف: تحت {_p(lv['stop_tight'])} لدخول منطقة الطلب، وتحت {_p(lv['stop'])} لدخول الغسل")
+        lines.append("- البيانات: " + data_line(it.get("data") or {}))
+        nl = news_line(it.get("news"))
+        if nl:
+            lines.append("- الأخبار: " + nl)
+        o = lv.get("orders") or []
+        lines.append(f"- منطقة الطلب {_p(lv['demand_low'])}–{_p(lv['demand_high'])} | طلبات Limit: "
+                     + " / ".join(_p(x) for x in o) + f" | الخروج بكسر {_p(lv.get('critical'))} (الوقف {_p(lv.get('stop'))})"
+                     + f" | الأهداف {_p(lv.get('t1'))} / {_p(lv.get('t2'))}"
+                     + f" | منطقة أعمق (غسل) {_p(lv['wash_low'])}–{_p(lv['wash_high'])}")
+        lines.append(f"- شروط ص86 ({p.get('frame') or 'يومي'}): {len(p.get('met') or [])}/7"
+                     + (" — ناقص: " + "، ".join(M.NAME[k] for k in p.get("miss") or []) if p.get("miss") else ""))
         if it["not_ready"]:
-            lines.append("- غير جاهز لأن: " + "؛ ".join(it["not_ready"]))
-        lines.append("- يصير جاهز: " + it["ready_when"])
+            lines.append("- لماذا غير جاهز: " + "؛ ".join(it["not_ready"]))
+        lines.append("- متى يكون جاهزاً: " + it["ready_when"])
         if it["flags"]:
             lines.append("- ⚠️ " + "، ".join(it["flags"]))
         lines.append("")
@@ -275,14 +224,11 @@ def load_entries(path=FILE, max_age_days=4):
     out = []
     for it in w.get("items", []):
         lv = it["levels"]
-        fl = " ".join(it.get("flags") or [])
-        # سلوك خطر حسب الملف (ص10، ص70، ص63): ضخ/تصريف خلال الشهر، صيني، سيولة ضعيفة، أسعار متقطعة → مراقبة بدون تنبيه
-        no_alert = any(k in fl for k in ("ضخ/تصريف", "صيني", "سيولة ضعيفة", "متقطعة"))
-        out.append({"ticker": it["ticker"], "kind": "weekly", "source": "قائمة الارتكاز (تطبيق الملف)", "no_alert": no_alert,
-                    "demand_low": lv["demand_low"], "demand_high": lv["demand_high"], "stop": lv["stop_tight"],
-                    "breakout": lv.get("pivot"), "targets": sorted({round(float(x), 4) for x in (lv.get("r1"), lv.get("t1"), lv.get("t2")) if x}),  # NERV: «2.47 ثم 2.47»
-                    "note": it["ready_when"], "warn": "، ".join(it.get("flags") or []),
-                    "last_price": it.get("ext_price") or it["price"], "wash_low": lv["wash_low"],
-                    "file_met": (it.get("file") or {}).get("met"), "file_miss": (it.get("file") or {}).get("miss") or [],
-                    "data": {k: (it.get("data") or {}).get(k) for k in ("float", "shares", "last_split", "short_pct_float")}})
+        # 27 أكتوبر: أسهم القائمة متابعة فقط (ص54) — ما فيه تنبيه دخول من القائمة؛ الإشارة الوحيدة من الفحص (شروط ص86)
+        out.append({"ticker": it["ticker"], "kind": "weekly", "source": "قائمة الارتكاز (تطبيق الملف)", "no_alert": True,
+                    "demand_low": lv["demand_low"], "demand_high": lv["demand_high"], "stop": lv.get("stop"),
+                    "breakout": None, "targets": sorted({round(float(x), 4) for x in (lv.get("t1"), lv.get("t2")) if x}),
+                    "note": it.get("ready_when", ""), "warn": "، ".join(it.get("flags") or []),
+                    "last_price": it.get("ext_price") or it["price"], "wash_low": lv.get("wash_low"),
+                    "data": it.get("data") or {}})
     return out

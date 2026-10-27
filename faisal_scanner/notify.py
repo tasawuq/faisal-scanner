@@ -121,55 +121,80 @@ SETUP_SHORT = {"momentum": "زخم", "pivot": "ارتكاز"}
 
 
 def alert_title(s: dict) -> str:
-    return f"🚨 {s['ticker']} جاهز للدخول — {SETUP_SHORT.get(s.get('kind'), 'ارتكاز')}"
+    if s.get("kind") == "momentum":
+        return f"🚨 {s['ticker']} جاهز للدخول — زخم"
+    fr = ((s.get("meta") or {}).get("p86") or {}).get("frame", "يومي")
+    return f"🚨 {s['ticker']} · ارتكاز — اكتملت شروط ص86 ({fr}): ضع طلبات Limit"
+
+
+def pivot_text(s: dict, when: str) -> str:
+    """إشارة ارتكاز حسب الملف حرفياً (27 أكتوبر): ما فيها «جاهز» ولا سعر لحظي — شروط ص86 كاملة،
+    طلبات Limit مقسّمة داخل المنطقة (ص15–16، ص57)، الخروج بكسر الدعم الحرج، وبيانات السهم بقالب فيصل (ص90–94)."""
+    from . import method as M
+    from .main import data_line, news_line
+    m = s.get("meta") or {}
+    p86 = m.get("p86") or {}
+    lad = m.get("ladder") or {}
+    px = s.get("price")
+    o = lad.get("orders") or [s.get("entry_high"), s.get("entry_low")]
+    lines = [f"🚨 {s['ticker']} — اكتملت شروط الدخول (ص86) على فريم {p86.get('frame', 'يومي')}",
+             f"الوقت: {when} · الشمعة: {p86.get('bar_date', '')}",
+             f"النموذج: {s.get('setup_ar', '')}"]
+    if px:
+        where = ""
+        if o and px > o[0]:
+            where = f" (فوق أعلى طلب بـ {(px / o[0] - 1) * 100:.1f}% — لا تطارد، الطلبات تنتظر في المنطقة)"
+        elif o and px < o[-1]:
+            where = " (تحت المنطقة)"
+        lines.append(f"السعر الآن: {fmt_price(px)}{where}")
+    lines.append("طلبات Limit (ص15، ص57 «لا تشتري من العرض»): " + " / ".join(f"{i + 1}) {fmt_price(x)}" for i, x in enumerate(o)))
+    if lad:
+        lines.append(f"الخروج: كسر الدعم الحرج {fmt_price(lad.get('critical'))} — الوقف {fmt_price(lad.get('stop'))}"
+                     f" (الخسارة من متوسط الطلبات −{(lad.get('risk') or 0) * 100:.1f}%)")
+    tg = [x for x in (s.get("t1"), s.get("t2")) if x]
+    if tg and lad.get("avg"):
+        lines.append("الأهداف: " + " ثم ".join(f"{fmt_price(x)} (+{(x / lad['avg'] - 1) * 100:.1f}%)" for x in tg)
+                     + " — جني جزئي عند الأول ورفع الوقف (ص86، ص89)")
+    ch = p86.get("checks") or {}
+    if ch:
+        lines.append("")
+        lines.append("ليش الإشارة (ص86):")
+        for k in M.ORDER:
+            if k in ch:
+                lines.append(f"{'✅' if ch[k][0] else '❌'} {M.NAME[k]}: {ch[k][1]}")
+    lines.append("")
+    lines.append("بيانات السهم (قالب فيصل): " + data_line(m))
+    nl = news_line(s.get("news"))
+    lines.append("الأخبار: " + (nl or "ما لقيت خبر حديث — الخبر محفز وليس شرط دخول (ص59، ص73)"))
+    if s.get("flags"):
+        lines.append("⚠️ " + " · ".join(s["flags"][:3]))
+    lines += ["", "تعليمي وليس توصية."]
+    return "\n".join(lines)
 
 
 def alert_text(s: dict, when: str) -> str:
-    """تنبيه سهم جاهز (Signal.to_dict()) — سطر لكل معلومة + وش تسوي."""
+    """تنبيه سهم (Signal.to_dict()) — الارتكاز بصيغة ص86، والزخم (موقوف افتراضياً) بصيغته القديمة."""
+    if s.get("kind") != "momentum":
+        return pivot_text(s, when)
     p = fmt_price
     m = s.get("meta", {})
-    mom = s.get("kind") == "momentum"
     seg = {"pre": "بري ماركت", "post": "أفتر ماركت"}.get(m.get("segment"))
-    lines = [f"🚨 {s['ticker']} جاهز للدخول ({SETUP_SHORT.get(s.get('kind'), 'ارتكاز')})",
+    lines = [f"🚨 {s['ticker']} جاهز للدخول (زخم)",
              f"الوقت: {when}" + (f" · {seg}" if seg else ""),
              f"النوع: {s['setup_ar']}",
              f"السعر الحالي: {p(s['price'])}",
              f"منطقة الدخول: {p(s.get('entry_low'))} – {p(s.get('entry_high'))}"
-             + (f" (الفواب {p(m.get('vwap'))})" if mom and m.get("vwap") else "")]
+             + (f" (الفواب {p(m.get('vwap'))})" if m.get("vwap") else "")]
     if s.get("stop") is not None:
         rp = s.get("risk_pct")
         lines.append(f"الوقف: {p(s['stop'])}" + (f" (خسارة {rp * 100:.1f}%)" if rp else ""))
     tg = [p(s[k]) for k in ("t1", "t2") if s.get(k)]
     if tg:
         lines.append("الأهداف: " + " ثم ".join(tg))
-    extra = []
-    if mom and m.get("change") is not None:
-        extra.append(f"صاعد {m['change'] * 100:+.0f}% اليوم")
-    if m.get("float"):
-        extra.append(f"الأسهم الحرة {m['float'] / 1e6:.1f} مليون")
-    if extra:
-        lines.append(" · ".join(extra))
-    if not mom:
-        try:
-            from .main import data_line
-            lines.append("البيانات: " + data_line(m))
-        except Exception:  # noqa
-            pass
     if s.get("flags"):
         lines.append("⚠️ انتبه: " + " · ".join(s["flags"][:3]))
-    if not mom and s.get("conditions"):
-        try:
-            from .pivot import file_six
-            met, miss = file_six(s["conditions"], s.get("tags") or [], s.get("rr"))
-            lines.append(f"شروط الملف {met}/6" + (f" — ناقص: {'، '.join(miss)}" if miss else ""))
-        except Exception:  # noqa
-            pass
-    if mom:
-        act = (f"ادخل فقط بين {p(s.get('entry_low'))} و {p(s.get('entry_high'))} والسعر فوق الفواب، "
-               f"والوقف {p(s.get('stop'))}. إذا ابتعد السعر عن المنطقة لا تطارده.")
-    else:
-        act = (f"حط أمر Limit بين {p(s.get('entry_low'))} و {p(s.get('entry_high'))}، "
-               f"والوقف {p(s.get('stop'))}. لا تشتري فوق المنطقة.")
+    act = (f"ادخل فقط بين {p(s.get('entry_low'))} و {p(s.get('entry_high'))} والسعر فوق الفواب، "
+           f"والوقف {p(s.get('stop'))}. إذا ابتعد السعر عن المنطقة لا تطارده.")
     if seg:
         act += f" (هذا سعر {seg} — الحركة ممكن تتغير مع الافتتاح {open_time_riyadh()})"
     lines += ["", "وش تسوي: " + act, "", "تعليمي وليس توصية."]

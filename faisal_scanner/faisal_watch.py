@@ -247,7 +247,20 @@ def evaluate(entry: dict, price: float, last_close: float = None, price_label: s
         res.update(state="NO_DATA", state_ar="لا توجد بيانات سعر", alert=False)
         return res
     if entry.get("no_alert"):
-        alerts_on = False  # قائمة الارتكاز: سهم بسلوك خطر (ضخ/صيني/سيولة ضعيفة) → يظهر بالقوائم بدون تنبيه
+        alerts_on = False  # قائمة الارتكاز: متابعة فقط (ص54) — الإشارة من الفحص عند اكتمال شروط ص86
+    if entry.get("kind") == "weekly":
+        res["alert"] = False
+        if stop and price < stop:
+            res.update(state="BELOW_STOP", state_ar=f"تحت وقف القائمة {stop:g} — الدعم مكسور، الانتظار أعمق (ص54)")
+        elif lo and hi and lo <= price <= hi:
+            res.update(state="IN_ZONE", state_ar=f"داخل منطقة الطلب {lo:g}–{hi:g} — متابعة فقط؛ الإشارة عند اكتمال "
+                                                 f"شروط ص86 بشمعة يومية أو 4 ساعات")
+        elif lo and price > hi:
+            res.update(state="WAITING", state_ar=f"فوق منطقة الطلب بـ {(price / hi - 1) * 100:.0f}% — الطلبات تنتظر "
+                                                 f"{lo:g}–{hi:g} (لا مطاردة)")
+        else:
+            res.update(state="WAITING", state_ar=f"تحت منطقة الطلب ({lo:g}) — ينتظر استرداد أو المنطقة الأعمق")
+        return res
     if stop and price < stop:
         if stop_ok is False:
             res.update(state="BELOW_STOP", alert=False,

@@ -70,7 +70,7 @@ def diagnose(t, df):
         "pump_month": None if not ctx.pump_month else {"d": str(df.index[ctx.pump_month[0]].date()),
                                                        "high": _f(ctx.pump_month[1]), "close": _f(ctx.pump_month[2]),
                                                        "vol_mult": _f(ctx.pump_month[3], 1)},
-        "former_runner": ctx.former_runner, "runner_jump": _f(ctx.runner_jump, 3), "runner_spike": _f(ctx.runner_spike, 3),
+        "former_runner": ctx.former_runner, "runner_pct": _f(ctx.runner_pct, 3),
         "distinct_closes20": distinct,
         "support_zones": zl[:8],
         "support_selected": None if not sup else {"low": _f(sup[0].low), "high": _f(sup[0].high),

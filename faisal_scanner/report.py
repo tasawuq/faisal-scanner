@@ -36,7 +36,8 @@ def ready_block(s: dict) -> str:
     lines = [f"🚨 **{s['ticker']}** — ${p(s['price'])} | {s['setup_ar']}"]
     if s["kind"] == "pivot":
         stop_pct = f" (−{s['risk_pct']*100:.1f}%)" if s.get("risk_pct") is not None else ""
-        lines.append(f"• دخول Limit داخل منطقة الطلب: {p(s['entry_low'])} – {p(s['entry_high'])} | "
+        o = ((s.get("meta") or {}).get("ladder") or {}).get("orders") or [s['entry_high'], s['entry_low']]
+        lines.append(f"• طلبات Limit داخل منطقة الطلب: {' / '.join(p(x) for x in o)} | "
                      f"الوقف: {p(s['stop'])}{stop_pct}")
         tg = f"{p(s['t1'])} ({s['t1_label']})" if s.get("t1") else "—"
         if s.get("t2"):
@@ -47,7 +48,7 @@ def ready_block(s: dict) -> str:
         if s.get("candle"):
             bits.append(s["candle"])
         lines.append("• " + " · ".join(bits))
-        extra = [_float_txt(s), f"الشروط {s['score']:.1f}/6"]
+        extra = [_float_txt(s), f"شروط ص86 {s['score']:.0f}/7"]
     else:
         m = s["meta"]
         lines.append(f"• دخول قرب {p(s['entry_low'])} | الوقف {p(s['stop'])} (−{(s['risk_pct'] or 0)*100:.1f}%) | "
@@ -70,7 +71,7 @@ def ready_block(s: dict) -> str:
 def watch_line(s: dict) -> str:
     zone = "منطقة الطلب" if s["setup"] in ("AT_SUPPORT", "SWEEP", "BOUNCE") else "الدخول بعد التأكيد"
     head = (f"• **{s['ticker']}** ${p(s['price'])} — {s['setup_ar']} | {zone} {p(s['entry_low'])}–{p(s['entry_high'])} "
-            f"| الوقف {p(s['stop'])} | RSI {s['rsi_now']:.0f} (أدنى {s['rsi_min']:.0f}) | {s['score']:.1f}/6")
+            f"| الوقف {p(s['stop'])} | RSI {s['rsi_now']:.0f} (أدنى {s['rsi_min']:.0f}) | ص86 {s['score']:.0f}/7")
     w = "؛ ".join(s.get("waiting_for", [])[:2])
     out = head + (f"\n   ينتظر: {w}" if w else "")
     if s.get("flags"):
@@ -94,9 +95,9 @@ def build_markdown(result: dict) -> str:
     now_ry = now_et.astimezone(RIYADH)
     L = [f"## 📋 منهج فيصل (ارتكاز + زخم) — {now_ry:%H:%M} الرياض ({now_et:%H:%M} نيويورك)",
          f"{SESSION_AR.get(result['session'], result['session'])} · فُحص {result['counts']['universe']} سهم أمريكي → "
-         f"{result['counts']['analyzed']} يطابق فلتر الارتكاز (سعر < $5، قيمة < 300M، فوليوم > 100K)", ""]
+         f"{result['counts']['analyzed']} يطابق فلتر فيصل (ناسداك، سعر < $5، قيمة < 300M، فوليوم > 100K، فلووت < 20M)", ""]
     ready = result["ready"]
-    L.append(f"### 🚨 جاهز الآن ({len(ready)})")
+    L.append(f"### 🚨 اكتملت شروط ص86 — طلبات Limit ({len(ready)})")
     if ready:
         for s in ready:
             L += [ready_block(s), ""]
@@ -110,7 +111,7 @@ def build_markdown(result: dict) -> str:
                 line += f"\n   فيصل: {f['note']}"
             sc = f.get("scanner")
             if sc:
-                line += f"\n   شروط المنهج: {'✅ جاهز' if sc['status'] == 'READY' else '⏳ ' + (sc['waiting'][0] if sc['waiting'] else sc['setup_ar'])}"
+                line += f"\n   شروط ص86: {'✅ اكتملت' if sc['status'] == 'READY' else '⏳ ' + (sc['waiting'][0] if sc['waiting'] else sc['setup_ar'])}"
             L.append(line)
         L.append("")
     L.append(f"### 🟡 تحت المراقبة — أقرب الأسهم لاكتمال الشروط ({len(result['watch'])})")

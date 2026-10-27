@@ -206,8 +206,7 @@ def watch_alerts(result, quotes, now_et, session="regular"):
         brk_ = w.get("breakout")
         return lo_ <= px_ <= w["demand_high"] * 1.01 or bool(brk_ and brk_ * 0.99 <= px_ <= brk_ * 1.04)
 
-    bar_t = [w["ticker"] for w in fw if w.get("kind") != "weekly"]
-    bar_t += [w["ticker"] for w in fw if w.get("kind") == "weekly" and _near(w)][:40]
+    bar_t = [w["ticker"] for w in fw if w.get("kind") != "weekly"]  # القائمة متابعة فقط — بدون شموع 15 دقيقة (ص90)
     bars15 = {}
     try:
         bars15 = YahooData().intraday(bar_t, "15m", prepost=True) or {} if bar_t else {}
@@ -227,6 +226,11 @@ def watch_alerts(result, quotes, now_et, session="regular"):
         px = (quotes.get(t) or {}).get(key)
         b = bars15.get(t)
         # التنبيه بعد التأكيد فقط: شمعة 15 دقيقة خضراء داخل المنطقة، شمعتين فوق الاختراق، وفي البري/الأفتر إغلاق تحت الوقف
+        if w.get("kind") == "weekly":
+            ev = faisal_watch.evaluate(w, float(px) if px else None, None, seg)
+            ev["session"] = session
+            evs.append(ev)
+            continue
         zok = faisal_watch.zone_confirmed(b, w.get("demand_low"), w.get("demand_high"), now_et, session)
         hok = faisal_watch.breakout_held(b, w.get("breakout"), now_et, C.INTRADAY_HOLD_BARS, session)
         sok = faisal_watch.stop_broken(b, w.get("stop"), now_et, session) if ext else None

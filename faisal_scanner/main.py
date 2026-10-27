@@ -21,7 +21,8 @@ from . import config as C
 from .data_sources import (ET, session_info, get_universe, get_price_provider, YahooData, AlpacaData,
                            merge_today_bar, fundamentals, yahoo_quotes, load_daily_cache, save_daily_cache,
                            nasdaq_extended, fill_missing_prices)
-from .pivot import analyze_pivot, READY, WATCH
+from .pivot import analyze_pivot, apply_gate, READY, WATCH
+from . import method as M
 from .momentum import analyze_momentum
 from .report import build_markdown
 from . import faisal_watch
@@ -30,98 +31,115 @@ log = logging.getLogger("faisal")
 
 
 # ------------------------------------------------------------------ helpers
-def _split_reverse(f):
-    fac, dt = f.get("lastSplitFactor"), f.get("lastSplitDate")
-    if not fac or not dt:
-        return None
-    try:
-        a, b = [float(x) for x in str(fac).split(":")]
-        when = datetime.fromtimestamp(float(dt), tz=timezone.utc)
-    except Exception:  # noqa
-        return None
-    if a < b and (datetime.now(timezone.utc) - when).days <= C.REVERSE_SPLIT_DAYS:
-        return f"تقسيم عكسي حديث {fac} ({when:%Y-%m-%d})"
-    return None
-
-
 def last_split(f):
     """آخر تقسيم (أي تاريخ) بصيغة «عكسي 1:10 (2026-09-28)» — ص56: فيصل يكتب آخر تقسيم لكل سهم."""
-    fac, dt = f.get("lastSplitFactor"), f.get("lastSplitDate")
-    if not fac or not dt:
+    info = M.split_info(f)
+    if not info:
         return None
-    try:
-        a, b = [float(x) for x in str(fac).split(":")]
-        when = datetime.fromtimestamp(float(dt), tz=timezone.utc)
-    except Exception:  # noqa
-        return None
-    return f"{'عكسي' if a < b else 'عادي'} {fac} ({when:%Y-%m-%d})"
+    return f"{'عكسي' if info['reverse'] else 'عادي'} {info['factor']} ({info['date']})"
+
+
+def _m(x):
+    x = float(x)
+    return f"{x / 1e6:.2f}M" if x < 10e6 else f"{x / 1e6:.1f}M"
 
 
 def data_line(meta: dict) -> str:
-    """سطر بيانات فيصل (ص8/ص38/ص56): الفلووت، عدد الأسهم، آخر تقسيم، الشورت."""
+    """قالب فيصل (ص32، ص38، ص90–94): الجنسية - النشاط - التقسيم (تاريخه، الافتتاح بعده، الأعلى بعده) - الشورت المتاح -
+    الفلووت/عدد الأسهم - السلوك السابق. (الأخبار بتواريخها في سطر مستقل.)"""
     parts = []
+    if meta.get("country_ar"):
+        parts.append(meta["country_ar"])
+    if meta.get("industry"):
+        parts.append(meta["industry"])
+    sp = meta.get("split") or {}
+    if sp:
+        t = f"{'قسم' if sp.get('reverse') else 'تقسيم عادي'} {sp['factor']} ({sp['date']})"
+        if sp.get("open_after") is not None:
+            t += f" افتتاح {M.rnd(sp['open_after'])} - اعلى {M.rnd(sp['high_after'])}"
+        parts.append(t)
+    elif meta.get("last_split"):
+        parts.append(f"آخر تقسيم: {meta['last_split']}")
+    else:
+        parts.append("بدون تقسيم مسجل")
+    parts.append("الشورت المتاح: " + (f"{int(meta['short_available']):,}" if meta.get("short_available") is not None
+                                      else "غير متوفر"))
     flt, sh = meta.get("float"), meta.get("shares")
-    parts.append(f"فلووت {flt / 1e6:.1f}M" if flt else "فلووت غير معروف")
+    parts.append(f"فلوت {_m(flt)}" if flt else "فلوت غير معروف")
     if sh:
-        parts.append(f"عدد الأسهم {float(sh) / 1e6:.1f}M")
-    parts.append(f"آخر تقسيم: {meta['last_split']}" if meta.get("last_split") else "بدون تقسيم مسجل")
-    if meta.get("short_pct_float"):
-        parts.append(f"شورت {float(meta['short_pct_float']) * 100:.1f}% من الفلووت")
-    return " · ".join(parts)
+        parts.append(f"عدد الأسهم {_m(sh)}")
+    run = meta.get("runner") or {}
+    if run.get("is_runner"):
+        parts.append(f"سبق صعد من {M.rnd(run['from'])} ({run['from_date']}) إلى {M.rnd(run['to'])} ({run['to_date']}) "
+                     f"+{run['pct'] * 100:.0f}%")
+    return " - ".join(parts)
 
 
-def enrich(sig, fund: dict, urow: dict) -> bool:
-    """Attach float/market-cap/flags. Returns False if the stock fails the universe filter."""
+def news_line(items) -> str:
+    """الأخبار بتواريخها (قالب فيصل ص90–94: «اخباره : … 15/5 - … 22/4»)."""
+    out = []
+    for it in (items or [])[:3]:
+        if isinstance(it, dict):
+            t, ts = it.get("headline", ""), (it.get("time") or "")[:10]
+        else:
+            ts, t = it[0], it[1]
+        if t:
+            out.append(f"{t} ({ts})" if ts else t)
+    return " | ".join(out)
+
+
+def enrich(sig, fund: dict, urow: dict, df=None) -> bool:
+    """فلتر فيصل (ص6، ص61) + بيانات قالبه. يرجع False إذا السهم خارج الفلتر."""
     f = fund.get(sig.ticker) or {}
-    flt = f.get("floatShares") or f.get("sharesOutstanding")
-    if flt and flt < 200_000:  # بيانات غير منطقية (غالباً بعد تقسيم عكسي)
+    flt = f.get("floatShares") or None
+    sh = f.get("sharesOutstanding") or None
+    if flt and flt < 50_000:  # بيانات غير منطقية
         flt = None
-        sig.flags.append("بيانات الفلووت غير موثوقة — تحقق يدوياً")
     mcap = f.get("marketCap") or urow.get("market_cap")
-    sig.meta["float"] = flt
+    sig.meta["float"] = flt or None
+    sig.meta["shares"] = sh
     sig.meta["market_cap"] = mcap if mcap and not (isinstance(mcap, float) and np.isnan(mcap)) else None
     sig.meta["exchange"] = urow.get("exchange", "")
     sig.meta["name"] = f.get("longName") or urow.get("name", "")
-    if flt and flt > C.MAX_FLOAT:
-        return False
-    if sig.meta["market_cap"] and sig.meta["market_cap"] > C.MAX_MARKET_CAP * 1.15:
-        return False
-    if flt:
-        if flt < C.HOT_FLOAT:
-            sig.tags.insert(0, "فلووت أقل من 5M 🔥")
-        elif flt < C.PREFERRED_FLOAT:
-            sig.tags.insert(0, "فلووت أقل من 20M")
-    country = (f.get("country") or urow.get("country") or "").lower()
-    industry = ((f.get("industry") or "") + " " + (urow.get("industry") or "")).lower()
-    if "china" in country or "hong kong" in country:
+    known = flt or (sh if sh and sh <= M.MAX_FLOAT else None)
+    if known and known > M.MAX_FLOAT:
+        return False  # ص61: Float Under 20M
+    if sig.meta["market_cap"] and sig.meta["market_cap"] > M.MAX_MARKET_CAP:
+        return False  # ص6: Under 300M
+    if not known:
+        sig.flags.append("الفلووت غير معروف — تحقق يدوياً قبل أي دخول (فلتر ص61 تحت 20M)")
+    elif known < 5e6:
+        sig.tags.insert(0, f"فلووت {_m(known)} 🔥 (ص8: أقل من 5M قوي وخطر)")
+    country = (f.get("country") or urow.get("country") or "")
+    sig.meta["country_ar"] = M.country_ar(country)
+    sig.meta["industry"] = f.get("industry") or urow.get("industry") or ""
+    ind = (sig.meta["industry"] + " " + (urow.get("industry") or "")).lower()
+    if "china" in country.lower() or "hong kong" in country.lower():
         sig.flags.append("سهم صيني عالي التذبذب")
-    # ص72: الخطر الطبي = خبر/موافقة دواء؛ «Pharmaceutical Retailers» (PETS صيدلية حيوانات أونلاين) مو شركة طبية
-    if any(w in industry for w in ("biotech", "pharma", "medical", "drug", "diagnostic")) and "retail" not in industry:
-        sig.flags.append("سهم طبي — الخبر قد يغير الاتجاه")
-    rs = _split_reverse(f)
-    if rs:
-        sig.flags.append(rs)
-    # ص56/ص38: فيصل يكتب لكل سهم «الشورت المتاح وعدد الأسهم وآخر تقسيم» → نحفظها لعرضها في كل قائمة وتنبيه
-    sig.meta["shares"] = f.get("sharesOutstanding")
+    if any(w in ind for w in ("biotech", "pharma", "medical", "drug", "diagnostic")) and "retail" not in ind:
+        sig.flags.append("سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)")
+    sp = M.split_info(f, df)
+    sig.meta["split"] = sp
     sig.meta["last_split"] = last_split(f)
+    if sp.get("recent"):
+        t = f"تقسيم عكسي حديث {sp['factor']} ({sp['date']})"
+        if sp.get("open_after") is not None:
+            t += f" — افتتح بعده {M.rnd(sp['open_after'])} وأعلى سعر {M.rnd(sp['high_after'])}"
+        sig.tags.insert(0, t)
+    sig.meta["short_available"] = None  # فيصل يكتب الشورت المتاح بعدد الأسهم (ص8، ص56) — ما عندنا مصدر له بعد
+    if f.get("shortPercentOfFloat"):
+        sig.meta["short_pct_float"] = f["shortPercentOfFloat"]
     if sig.price < 0.5:
         sig.flags.append("سعر منخفض جداً — سبريد واسع")
-    sp = f.get("shortPercentOfFloat")
-    if sp:
-        sig.meta["short_pct_float"] = sp
     return True
 
 
 def refresh_status(sig):
     if sig.kind == "pivot":
-        sig.score = round(sum(v["score"] for v in sig.conditions.values()), 2)
-        sig.waiting_for = [w for w in sig.waiting_for if not w.startswith("اكتمال الشروط الأساسية")]
-        from .pivot import file_six, file_six_text
-        met, miss = file_six(sig.conditions, sig.tags, sig.rr)
-        if met < C.MIN_FILE_CONDITIONS:
-            sig.waiting_for.append(file_six_text(met, miss))
+        apply_gate(sig)
+        return
     sig.status = READY if not sig.waiting_for and sig.setup not in (
-        "AT_SUPPORT", "BROKE_SUPPORT", "W_FORMING", "MA_RECLAIM", "BASE_BREAK", "MOM_ABOVE_VWAP", "MOM_EXTENDED", "MOM_BELOW_VWAP") else WATCH
+        "MOM_ABOVE_VWAP", "MOM_EXTENDED", "MOM_BELOW_VWAP") else WATCH
 
 
 def apply_news(sig, items):
@@ -130,34 +148,36 @@ def apply_news(sig, items):
     sig.news = items[:3]
     text = " ".join(i["headline"].lower() for i in items)
     if any(w in text for w in C.OFFERING_WORDS):
-        sig.flags.append("خبر طرح/تخفيف حديث (Offering Trap)")
-        sig.waiting_for.append("خبر طرح أسهم/تخفيف — إدارة الخطر أولاً")
+        sig.flags.append("خبر طرح/تخفيف حديث (Offering Trap — ص10)")
+        if sig.kind == "pivot":
+            sig.meta.setdefault("static_wait", []).append("خبر طرح أسهم/تخفيف — «خبر سلبي يلغي النموذج غالباً» (ص67، ص89)")
+        else:
+            sig.waiting_for.append("خبر طرح أسهم/تخفيف — إدارة الخطر أولاً")
     elif any(w in text for w in C.CATALYST_WORDS):
         sig.tags.append("محفز: خبر حديث")
-        if sig.kind == "pivot" and "space" in sig.conditions:
-            c = sig.conditions["space"]
-            if c["score"] > 0:
-                c["score"] = min(1.0, c["score"] + 0.25)
-                c["note"] += " + خبر محفز"
     refresh_status(sig)
 
 
-def check_intraday_hold(sig, bars: pd.DataFrame, now_et, delay_min: int):
-    if bars is None or bars.empty or sig.trigger_level is None:
-        sig.tags.append("تأكيد على الإغلاق اليومي")
-        return
-    today = bars[[ts.date() == now_et.date() for ts in bars.index]]
-    cutoff = now_et - timedelta(minutes=15 + delay_min)
-    done = today[[ts <= cutoff for ts in today.index]]
-    if len(done) < C.INTRADAY_HOLD_BARS:
-        sig.tags.append("تأكيد على الإغلاق اليومي")
-        return
-    last = done["close"].values[-C.INTRADAY_HOLD_BARS:]
-    if np.all(last >= sig.trigger_level * 0.995):
-        sig.tags.append("ثابت فوق المستوى أكثر من ربع ساعة")
-    else:
-        sig.waiting_for.append(f"ثبات أكثر من ربع ساعة فوق {sig.trigger_level:.2f} (فريم 15 دقيقة)")
-        refresh_status(sig)
+def upgrade_4h(sig, bars15, now_et, delay_min: int) -> bool:
+    """ص90 «قراءة الشموع تتم ع جميع الفريمات / اقربها 4 ساعات»: إذا شروط ص86 ما اكتملت على اليومي المكتمل،
+    نقرأ آخر شمعة 4 ساعات مكتملة اليوم (9:30–13:30 أو 13:30–16:00). الترقية فقط إذا اكتملت كل الشروط."""
+    p = sig.meta.get("p86")
+    if sig.kind != "pivot" or not p or p.get("complete") or sig.meta.get("breakout_setup") or bars15 is None:
+        return False
+    z_low, z_high = sig.meta["zone"]
+    r = M.p86_4h(p, bars15, z_low, z_high, sig.meta.get("last_close"), sig.meta.get("avg_volume") or 0, now_et,
+                 delay_min)
+    if not r or not r["complete"]:
+        return False
+    keep = {k: p[k] for k in ("below_ma", "broke", "episodes", "breakout") if k in p}
+    sig.meta["p86"] = {**keep, **{k: (v if k != "checks" else {kk: [bool(x[0]), x[1]] for kk, x in v.items()})
+                                  for k, v in r.items()}}
+    if sig.setup in ("BROKE_SUPPORT", "AT_SUPPORT"):
+        sig.setup = "SWEEP" if "سحب" in r["checks"]["retest"][1] else "BOUNCE"
+        from .pivot import SETUP_AR
+        sig.setup_ar = SETUP_AR[sig.setup]
+    apply_gate(sig)
+    return True
 
 
 # ------------------------------------------------------------------ run
@@ -170,7 +190,7 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         from .demo import demo_data
         universe, daily, intraday5, intraday15, fund, news = demo_data(now_et)
         provider_name = "demo"
-        session, frac = "regular", 0.6
+        session, frac = "post", 1.0  # بعد الإغلاق: شمعة اليوم مكتملة (التحليل على الشموع المكتملة فقط)
         intra_provider = None
         quotes = {}
     else:
@@ -181,9 +201,14 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         log.info("Universe: %d symbols from %s", len(universe), usrc)
         has_px = universe["price"].notna().any()
         u = universe
+        # فلتر فيصل (ص6، ص7، ص61): ناسداك فقط، السعر تحت 5$، القيمة السوقية تحت 300M
+        n_all = len(u)
+        if "exchange" in u.columns:
+            u = u[u["exchange"].fillna("").str.upper() == M.EXCHANGE]
+        n_nasdaq = len(u)
         if has_px:
             u = u[(u["price"] >= C.MIN_PRICE) & (u["price"] <= C.MAX_PRICE * 1.2)]
-            u = u[u["market_cap"].isna() | (u["market_cap"] <= 0) | (u["market_cap"] <= C.MAX_MARKET_CAP * 1.15)]
+            u = u[u["market_cap"].isna() | (u["market_cap"] <= 0) | (u["market_cap"] <= M.MAX_MARKET_CAP * 1.15)]
         syms = list(u["symbol"])[:limit] if limit else list(u["symbol"])
         # أسهم فيصل تُفحص دائماً حتى لو خارج الفلتر
         have = set(syms)
@@ -243,12 +268,16 @@ def run_once(force=False, demo=False, limit=None) -> dict:
 
     urows = {r["symbol"]: r for r in universe.to_dict("records")}
     today = now_et.date()
+    # شمعة اليوم تُعتبر مكتملة بعد الإغلاق + تأخير بيانات SIP (آخر شمعة 15 دقيقة توصل متأخرة) — قبلها تُعامل كجارية
+    close_dt = datetime.combine(today, datetime.min.time(), tzinfo=ET).replace(hour=16)
+    day_closed = demo or now_et >= close_dt + timedelta(minutes=C.ALPACA_SIP_DELAY_MIN + 5)
 
     # ---------------- pivot analysis
     pivots = []
     analyzed = 0
     funnel = {"prefiltered": len(syms) if not demo else len(daily), "with_data": len(daily), "short_history": 0,
-              "price_out": 0, "low_volume": 0, "watch_only_volume": 0}
+              "price_out": 0, "low_volume": 0, "outside_float": 0,
+              "nasdaq": None if demo else n_nasdaq, "all": None if demo else n_all}
     for s, df in daily.items():
         try:
             if df is None or len(df) < 60:
@@ -259,21 +288,12 @@ def run_once(force=False, demo=False, limit=None) -> dict:
             if not (C.MIN_PRICE <= px <= C.MAX_PRICE):
                 funnel["price_out"] += 1
                 continue
-            if avg < C.WATCH_MIN_AVG_VOLUME:
+            if avg < M.MIN_AVG_VOLUME:  # ص6، ص61: Average Volume Over 100K
                 funnel["low_volume"] += 1
                 continue
-            if avg < C.MIN_AVG_VOLUME:
-                funnel["watch_only_volume"] += 1
             analyzed += 1
-            partial = session == "regular" and df.index[-1].date() == today
+            partial = df.index[-1].date() == today and (session == "regular" or (session == "post" and not day_closed))
             sig = analyze_pivot(s, df, frac, partial)
-            if sig and avg < C.MIN_AVG_VOLUME:
-                # فلتر الملف (ص6): Average Volume Over 100K → 50K–100K مراقبة فقط، لا تنبيه (سيولة ضعيفة/سبريد، ص63)
-                sig.flags.append(f"سيولة ضعيفة: متوسط الفوليوم {avg / 1000:.1f}K أقل من 100K (فلتر الملف ص6) — مراقبة فقط")
-                sig.waiting_for.append("متوسط فوليوم 100K+ (فلتر الملف ص6) — لا تنبيه على هذا السهم")
-                if sig.status == READY:
-                    sig.rank -= 2.0
-                sig.status = WATCH
             if sig:
                 pivots.append(sig)
         except Exception as e:  # noqa
@@ -392,17 +412,10 @@ def run_once(force=False, demo=False, limit=None) -> dict:
             errors.append(f"fundamentals: {str(e)[:80]}")
     kept = []
     for sig in pivots:
-        if not enrich(sig, fund, urows.get(sig.ticker, {})):
+        if not enrich(sig, fund, urows.get(sig.ticker, {}), daily.get(sig.ticker)):
+            funnel["outside_float"] += 1
             continue
-        sp = sig.meta.get("short_pct_float")
-        if sp and sp >= C.SHORT_MED:
-            again = analyze_pivot(sig.ticker, daily[sig.ticker], frac,
-                                  session == "regular" and daily[sig.ticker].index[-1].date() == today, short_pct=sp)
-            if again:
-                again.meta.update({k: v for k, v in sig.meta.items() if k not in again.meta})
-                again.tags = list(dict.fromkeys(sig.tags + again.tags))
-                again.flags = list(dict.fromkeys(sig.flags + again.flags))
-                sig = again
+        apply_gate(sig)
         kept.append(sig)
     pivots = kept
     if quotes:
@@ -414,13 +427,9 @@ def run_once(force=False, demo=False, limit=None) -> dict:
             if not px:
                 continue
             sig.meta["ext_price"], sig.meta["ext_chg"], sig.meta["ext_session"] = px, ch, session
-            if sig.stop and sig.stop < sig.price and px < sig.stop:
+            if sig.stop and px < sig.stop:
                 sig.flags.append(f"نزل في {seg_ar} تحت الوقف ({px:.3g})")
-                sig.waiting_for.append(f"السعر في {seg_ar} {px:.3g} تحت الوقف — الدعم مكسور حالياً")
-            elif sig.entry_high and sig.setup in ("SWEEP", "BOUNCE", "AT_SUPPORT") and px > sig.entry_high * (1 + C.MAX_ABOVE_ENTRY):
-                sig.flags.append(f"صعد في {seg_ar} إلى {px:.3g} بعيداً عن منطقة الطلب")
-                sig.waiting_for.append("لا مطاردة بعد صعود البري/الأفتر — انتظر الرجوع لمنطقة الطلب")
-            if sig.waiting_for:
+                sig.meta.setdefault("static_wait", []).append(f"السعر في {seg_ar} {px:.3g} تحت الوقف — الدعم مكسور حالياً")
                 refresh_status(sig)
     moms = [m for m in moms if enrich(m, fund, urows.get(m.ticker, {}))]
     for m in moms:
@@ -440,47 +449,15 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         x.news = []
         apply_news(x, news.get(x.ticker))
 
-    # ---------------- intraday hold confirmation (أكثر من ربع ساعة)
-    ready_p = [x for x in pivots if x.status == READY]
-    if ready_p and session == "regular" and not demo:
-        bars = {}
-        try:
-            bars = YahooData().intraday([x.ticker for x in ready_p], "15m")
-        except Exception as e:  # noqa
-            errors.append(f"15m hold check: {str(e)[:80]}")
-        delay = 0
-        if not bars and isinstance(intra_provider, AlpacaData):
-            bars = intraday15 or {}
-            delay = C.ALPACA_SIP_DELAY_MIN
-        for x in ready_p:
-            check_intraday_hold(x, bars.get(x.ticker), now_et, delay)
-        # بوابة الجودة على «جاهز» الماسح (23 أكتوبر «نعم وموكده»): شمعة 15د خضراء بفوليوم + مساحة ≥1.5× المخاطرة
-        # من السعر الحالي — وإلا يرجع «مراقبة» مع السبب، فلا يطلع بالقائمة كجاهز ولا ينبّه
-        if os.getenv("SCANNER_CONFIRM_GATE", "1") != "0":
-            now_c = now_et - timedelta(minutes=delay)
-            for x in ready_p:
-                if x.status != READY:
-                    continue
-                b = bars.get(x.ticker)
-                px = x.price
-                if b is not None and len(b):
-                    tb = b[[ts.date() == now_et.date() for ts in b.index]]
-                    if len(tb):
-                        px = float(tb["close"].iloc[-1])
-                try:
-                    why = faisal_watch.scanner_confirm(b, px, x.stop, x.t1, x.entry_low, daily.get(x.ticker), now_c)
-                    fl_ = (x.meta or {}).get("float")
-                    if fl_ and fl_ > C.PREFERRED_FLOAT:
-                        why.append(f"الفلووت {fl_ / 1e6:.1f}M أكبر من 20M — الملف: أقل من 20M مقبول للمضاربة (ص6/ص8)")
-                except Exception as e:  # noqa
-                    errors.append(f"confirm gate {x.ticker}: {str(e)[:80]}")
-                    why = ["تأكيد 15 دقيقة: تعذر التحقق من الشموع"]
-                if why:
-                    x.waiting_for.extend(why)
-                    refresh_status(x)
-    elif ready_p and demo:
-        for x in ready_p:
-            check_intraday_hold(x, (intraday15 or {}).get(x.ticker), now_et, 0)
+    # ---------------- فريم 4 ساعات (ص90 «اقربها 4 ساعات»): شمعة 4 ساعات مكتملة اليوم تكمل شروط ص86
+    if session in ("regular", "post") and intraday15 and not demo:
+        delay = C.ALPACA_SIP_DELAY_MIN if isinstance(intra_provider, AlpacaData) else 0
+        for x in pivots:
+            try:
+                if upgrade_4h(x, intraday15.get(x.ticker), now_et, delay):
+                    x.tags.append("اكتملت الشروط على فريم 4 ساعات")
+            except Exception as e:  # noqa
+                errors.append(f"4h {x.ticker}: {str(e)[:60]}")
 
     for x in pivots + moms:
         if not hasattr(x, "news"):
@@ -617,10 +594,15 @@ def update_alert_state(result, now_et, suffix=""):
         if s.get("kind") == "momentum" and any(k.startswith(f"{s['ticker']}:MOM") and k.count(":") == key.count(":")
                                                for k in state):
             continue
-        if s.get("kind") != "momentum" and (result.get("session") not in (None, "regular") or seg in ("pre", "post")):
-            continue  # بوابة الجودة (21 أكتوبر، ص10): تنبيه دخول الارتكاز في الجلسة الرسمية فقط — IPSC نبه 04:02 بري 22 أكتوبر
-        if s.get("kind") != "momentum" and s.get("entry_high") and s["price"] > s["entry_high"] * 1.01:
-            continue  # الدخول من تحت (BJDX ص35، ص54): لا تنبيه والسعر فوق منطقة الـ Limit — ينبّه لما ينزل لها
+        if s.get("kind") != "momentum":
+            # إشارة ص86: الجلسة الرسمية (شمعة 4 ساعات) أو بعد الإغلاق (شمعة يومية مكتملة → طلبات لجلسة بكرة)، مرة وحدة
+            # لكل شمعة اكتمال (ما تتكرر بكرة على نفس الشمعة)
+            if result.get("session") not in (None, "regular", "post"):
+                continue
+            p86 = (s.get("meta") or {}).get("p86") or {}
+            key = f"{s['ticker']}:P86:{p86.get('bar_date', '')}"
+            if _seen_before(key, now_et):
+                continue
         if key not in state:
             state[key] = {"first_seen_et": now_et.isoformat(), "price": s["price"], "stop": s["stop"],
                           "t1": s.get("t1"), "setup_ar": s["setup_ar"]}
@@ -636,6 +618,19 @@ def update_alert_state(result, now_et, suffix=""):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=1)
     return new
+
+
+def _seen_before(key, now_et, days=4):
+    d = os.path.join(C.RESULTS_DIR, "alerts")
+    for k in range(1, days + 1):
+        day = (now_et - timedelta(days=k)).date().isoformat()
+        try:
+            with open(os.path.join(d, f"{day}.json"), encoding="utf-8") as f:
+                if key in json.load(f):
+                    return True
+        except Exception:  # noqa
+            continue
+    return False
 
 
 def send_telegram_alerts(result):

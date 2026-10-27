@@ -1,17 +1,11 @@
 """
-تحليل سهم الارتكاز حسب منهج فيصل (الفصول 7، 9، 13، 21–25، 29).
+تحليل سهم الارتكاز حسب منهج فيصل — بعد إعادة قراءة الملف كاملاً (27 أكتوبر، القواعد في method.py).
 
-المعادلة (صفحة 66):
-    ضغط قوي + دعم واضح + RSI 23–27 + تحسن MACD/فوليوم + شمعة إيجابية
-    + محفز أو هدف علوي + دخول قريب من الدعم = سهم ارتكاز جيد
-
-"لا تدخل لأن السهم تحرك؛ ادخل لأن السبب الفني اكتمل."
-لذلك السهم يكون "جاهز" فقط عند اكتمال أحد نماذج الدخول الصحيح (صفحة 67):
-    A) سحب سيولة تحت الدعم ثم استرداده
-    B) ارتداد مؤكد من دعم حقيقي (شمعة إيجابية + ثبات)
-    C) كسر خط عنق W / قمة الارتداد ثم الثبات أو إعادة الاختبار (نموذج الأسهم الهابطة ص68)
-    D) استعادة MA20 ثم إعادة اختباره كدعم (ص64)
-وإلا يكون "تحت المراقبة" مع ذكر ما ينتظره بالضبط.
+- التحليل على **الشموع اليومية المكتملة فقط** (ص5، ص54: فريمات يومية/أسبوعية) — شمعة اليوم الجارية ما تُحسب،
+  وفريم 4 ساعات (ص90 «اقربها 4 ساعات») يُضاف في main.py من شموع اليوم المكتملة.
+- لا يوجد «جاهز». الإشارة الوحيدة = «اكتملت شروط ص86» (قاع ← إعادة اختبار وفشل الكسر ← ثبات ← شمعة انعكاس
+  بفوليوم يتحسن + المتوسطات + RSI + MACD)، وبدون مقاومة مباشرة (ص88)، وبعدها طلبات Limit مقسّمة داخل المنطقة.
+- كل سهم غير مكتمل: «لماذا غير جاهز» (الشروط الناقصة بصفحاتها) و«متى يكون جاهزاً» (ص70).
 """
 from dataclasses import dataclass, field, asdict
 import math
@@ -19,6 +13,7 @@ import numpy as np
 import pandas as pd
 
 from . import config as C
+from . import method as M
 from .indicators import sma, rsi, macd, atr
 from .levels import (swing_lows, swing_highs, build_zones, count_visits, resistance_levels, candle, candle_name,
                      Zone)
@@ -197,13 +192,10 @@ class Ctx:
             if j >= n - 3 and vm >= 3 and (c[j] - l[j]) / rng <= 0.33 and spike >= 0.15:
                 self.distribution_recent = True
 
-        # Former Runner (ص4، LFS): سهم سبق انفجر بعنف خلال آخر سنة
-        st = max(1, n - C.RUNNER_LOOKBACK)
-        jumps = c[st:] / c[st - 1:-1] - 1
-        spikes = h[st:] / c[st - 1:-1] - 1
-        self.runner_jump = float(max(np.nanmax(jumps), 0)) if len(jumps) else 0.0
-        self.runner_spike = float(max(np.nanmax(spikes), 0)) if len(spikes) else 0.0
-        self.former_runner = self.runner_jump >= C.RUNNER_CLOSE_JUMP or self.runner_spike >= C.RUNNER_SPIKE
+        # Former Runner (ص10: «سبق انفجر 100% أو أكثر») — كل التاريخ المتوفر
+        run = M.runner(df)
+        self.runner_pct = float(run.get("pct") or 0.0)
+        self.former_runner = bool(run.get("is_runner"))
         # شمعة ضخ/تصريف خلال آخر شهر (قروبات الوهم) — مقارنة بالفوليوم الوسيط
         self.pump_month = None
         med = float(np.nanmedian(v[-60:-1])) if n > 61 else float(np.nanmedian(v))
@@ -218,110 +210,6 @@ class Ctx:
 
     def rsi_min(self, lookback: int) -> float:
         return float(np.nanmin(self.rsi[-lookback:]))
-
-
-# ====================================================================== scoring
-def score_conditions(ctx: Ctx, rsi_lb: int, zone_low: float, zone_high: float, rr, late_rsi: float,
-                     short_pct=None, breakout: bool = False) -> dict:
-    cond = {}
-    # 1) المتوسطات 20/30/50
-    if ctx.reclaim20 or (ctx.above_all_now and ctx.below_all_recent) or (ctx.c[-1] > ctx.ma[20][-1] and ctx.below_all_recent):
-        cond["ma"] = (1.0, ctx.ma_state)
-    elif ctx.below_all_now:
-        cond["ma"] = (0.5, ctx.ma_state)
-    else:
-        cond["ma"] = (0.0, ctx.ma_state)
-    if ctx.fail_at_ma20:
-        cond["ma"] = (0.0, ctx.ma_state)
-
-    # 2) RSI 23–27
-    m = ctx.rsi_min(rsi_lb)
-    now = float(ctx.rsi[-1])
-    if C.RSI_IDEAL_LOW <= m <= C.RSI_IDEAL_HIGH:
-        s = 1.0
-    elif m <= C.RSI_READY_MAX:
-        s = 0.75  # 20–23 أو 27–28 أو أعمق من 20: ضغط حقيقي لكن خارج المنطقة المثالية
-    elif m <= C.RSI_OVERSOLD:
-        s = 0.5   # 28–30: قريب لكن لم يصل منطقة فيصل
-    elif m <= 35:
-        s = 0.25
-    else:
-        s = 0.0
-    note = f"أدنى RSI {m:.0f} والحالي {now:.0f}"
-    if now > late_rsi:
-        s = min(s, 0.25)
-        note += " (ارتفع — جزء من الارتداد حصل)"
-    cond["rsi"] = (s, note)
-
-    # 3) MACD
-    if ctx.macd_cross or ctx.hist_up2 or (breakout and ctx.macd_bull):
-        cond["macd"] = (1.0, ctx.macd_state)
-    elif ctx.hist_up1 or ctx.macd_bull:
-        cond["macd"] = (0.5, ctx.macd_state)
-    else:
-        cond["macd"] = (0.0, ctx.macd_state)
-
-    # 4) شمعة إيجابية عند الدعم
-    best, name = 0.0, ""
-    for j, info in ctx.candles:
-        at_zone = ctx.l[j] <= zone_high * 1.03 and ctx.c[j] >= zone_low * 0.99
-        a = ctx.atr[j] if np.isfinite(ctx.atr[j]) else 0.0
-        clear = (ctx.h[j] - ctx.l[j]) >= C.REVERSAL_MIN_ATR * a
-        if info["bullish_reversal"] and at_zone and clear:
-            if best < 1.0:
-                best, name = 1.0, candle_name(info)
-        elif (info["bullish_reversal"] or info["strong_green"]) and at_zone and best < 0.5:
-            best, name = 0.5, candle_name(info) + (" (شمعة صغيرة غير واضحة)" if not clear else "")
-    cond["candle"] = (best, name or "لا توجد شمعة إيجابية عند الدعم")
-
-    # 5) ضغط بيع / شورت
-    sp = short_pct or 0.0
-    if ctx.drawdown >= C.DRAWDOWN_STRONG or sp >= C.SHORT_STRONG:
-        s = 1.0
-    elif ctx.drawdown >= C.DRAWDOWN_MED or sp >= C.SHORT_MED:
-        s = 0.5
-    else:
-        s = 0.0
-    note = f"هبط {ctx.drawdown*100:.0f}% من قمة 90 يوم"
-    if sp:
-        note += f"، شورت {sp*100:.0f}% من الفلووت"
-    cond["pressure"] = (s, note)
-
-    # 6) مساحة صعود / هدف علوي (الخبر يُضاف لاحقاً)
-    if rr is None:
-        cond["space"] = (0.0, "لا يوجد هدف واضح فوق")
-    elif rr >= 3:
-        cond["space"] = (1.0, f"العائد/المخاطرة {rr:.1f}")
-    elif rr >= 2:
-        cond["space"] = (0.75, f"العائد/المخاطرة {rr:.1f}")
-    elif rr >= C.MIN_RR_T1:
-        cond["space"] = (0.5, f"العائد/المخاطرة {rr:.1f}")
-    else:
-        cond["space"] = (0.0, f"العائد/المخاطرة {rr:.1f} — قريب من مقاومة")
-    return cond
-
-
-def file_six(conditions: dict, tags=(), rr=None) -> tuple:
-    """شروط الملف الستة حرفياً (ص82/ص85، قواعد faisal_rules.md) — 26 أكتوبر «هل متاكد من الجاهزية»:
-    1 المتوسطات، 2 RSI، 3 MACD، 4 شمعة إيجابية من الدعم أو ضغط بيع سابق (ص82/ص85)، 5 خبر/محفز إيجابي، 6 مساحة صعود
-    بدون مقاومة مباشرة فوق الدخول (ص88). الشرط متحقق إذا درجته ≥ 0.75. ترجع (عدد المتحقق، الناقص)."""
-    sc = lambda k: float((conditions.get(k) or {}).get("score", 0) if isinstance(conditions.get(k), dict)  # noqa: E731
-                         else (conditions.get(k) or (0,))[0])
-    six = {"المتوسطات": sc("ma") >= 0.75, "RSI 23–27": sc("rsi") >= 0.75, "MACD": sc("macd") >= 0.75,
-           "شمعة/ضغط بيع": max(sc("candle"), sc("pressure")) >= 0.75,
-           "خبر/محفز": any("محفز" in t for t in (tags or [])),
-           "مساحة صعود": sc("space") >= 0.75 and (rr is None or rr >= C.MIN_RR_T1 - 1e-6)}
-    miss = [k for k, v in six.items() if not v]
-    return 6 - len(miss), miss
-
-
-def file_six_text(met: int, miss: list) -> str:
-    return (f"اكتمال الشروط الأساسية ({met} من 6 حسب الملف، المطلوب {C.MIN_FILE_CONDITIONS} — ص81) — ناقص: "
-            + "، ".join(miss))
-
-
-def total(cond: dict) -> float:
-    return round(sum(v[0] for v in cond.values()), 2)
 
 
 # ====================================================================== support
@@ -425,270 +313,229 @@ def detect_base_breakout(ctx: Ctx):
     return None
 
 
+
+
 # ====================================================================== main entry
+ALLOWED_READY = ("SWEEP", "BOUNCE", "AT_SUPPORT", "W_RETEST", "BASE_RETEST")  # دخول 1/2/3 في ص86 — لا شراء للاختراق نفسه (ص20)
+BREAKOUT_SETUPS = ("W_BREAK", "W_RETEST", "BASE_BREAK", "BASE_RETEST")
+
+
 def analyze_pivot(ticker: str, df: pd.DataFrame, session_frac: float = 1.0, last_bar_partial: bool = False,
                   short_pct=None):
-    if df is None or len(df) < 60:
+    """last_bar_partial=True: آخر شمعة = يوم جاري (غير مكتمل) → التحليل على الشموع المكتملة، والسعر الحالي للعرض
+    وللفحص (تحت الوقف / مطاردة) فقط."""
+    if df is None or len(df) < 61:
         return None
     df = df.dropna(subset=["open", "high", "low", "close"])
+    px_now = float(df["close"].iloc[-1])
+    today = None
+    if last_bar_partial:
+        today = {k: float(df[k].iloc[-1]) for k in ("open", "high", "low", "close", "volume")}
+        df = df.iloc[:-1]
     if len(df) < 60:
         return None
-    ctx = Ctx(df, session_frac, last_bar_partial)
+    ctx = Ctx(df, 1.0, False)
     price = ctx.price
     ma_vals = {"MA20": ctx.ma[20][-1], "MA30": ctx.ma[30][-1], "MA50": ctx.ma[50][-1]}
     cands = []
 
-    # ---------------- A/B: الدعم وسحب السيولة
+    # ---------------- الدعم وسحب السيولة (دخول 1 و2 في ص86)
     sup = find_support(ctx)
     if sup is not None:
         z, interacting = sup
         recent_low = float(np.min(ctx.l[-3:]))
-        broken = ctx.c[-1] < z.low * 0.99 and ctx.c[-2] < z.low * 0.99
         swept = recent_low < z.low * 0.995 and ctx.c[-1] >= z.low
         reversal = any(info["bullish_reversal"] and ctx.l[j] <= z.high * 1.03 for j, info in ctx.candles)
-        # ثبات: الإغلاق فوق الدعم وليس عند قاع الشمعة
-        holding = ctx.c[-1] >= z.low and (ctx.c[-1] - ctx.l[-1]) >= 0.4 * (ctx.h[-1] - ctx.l[-1])
-        stop = min(z.low, recent_low) * (1 - C.STOP_BUFFER)
-        entry_low = z.low
-        entry_high = min(price, z.high * 1.03)
-        if entry_high < entry_low:
-            entry_high = entry_low * 1.02
-        if broken:
-            pass  # كسر الدعم وبقي تحته = فشل، لا يُدرج
+        if ctx.c[-1] < z.low * 0.99 and ctx.c[-2] < z.low * 0.99:
+            code = "BROKE_SUPPORT"  # كسر وبقي تحته = فشل (ص17) — يبقى بالقائمة بانتظار الاسترداد أو المنطقة الأعمق
         elif interacting and swept:
-            cands.append(dict(code="SWEEP", zone=z, trigger=z.low, stop=stop, entry=(entry_low, entry_high),
-                              confirmed=holding, rsi_lb=C.RSI_LOOKBACK_BOUNCE, late=C.RSI_LATE, breakout=False))
-        elif interacting and reversal and holding:
-            cands.append(dict(code="BOUNCE", zone=z, trigger=z.low, stop=stop, entry=(entry_low, entry_high),
-                              confirmed=True, rsi_lb=C.RSI_LOOKBACK_BOUNCE, late=C.RSI_LATE, breakout=False))
+            code = "SWEEP"
+        elif interacting and reversal:
+            code = "BOUNCE"
         elif price < z.low:
-            # كسر الدعم بشمعة واحدة: إما سحب سيولة (إذا استرد) أو فشل (إذا بقي تحته)
-            cands.append(dict(code="BROKE_SUPPORT", zone=z, trigger=z.low, stop=recent_low * (1 - C.STOP_BUFFER),
-                              entry=(z.low, z.high), confirmed=False, rsi_lb=C.RSI_LOOKBACK_BOUNCE,
-                              late=C.RSI_LATE, breakout=False))
+            code = "BROKE_SUPPORT"
         else:
-            cands.append(dict(code="AT_SUPPORT", zone=z, trigger=z.low, stop=z.low * (1 - C.STOP_BUFFER),
-                              entry=(z.low, z.high), confirmed=False, rsi_lb=C.RSI_LOOKBACK_BOUNCE,
-                              late=C.RSI_LATE, breakout=False, near=interacting))
+            code = "AT_SUPPORT"
+        cands.append(dict(code=code, zone=(z.low, z.high), trigger=z.low, touches=z.touches, breakout=None,
+                          is_bottom=z.is_bottom))
 
-    # ---------------- C: نموذج W / كسر قمة الارتداد
+    # ---------------- نموذج W (ص25، ص51)
     w = detect_w(ctx)
     if w is not None:
         neck, b = w["neck"], w["b"]
-        after = range(b + 1, ctx.n)
-        brk = next((j for j in after if ctx.c[j] > neck), None)
-        wz = Zone(min(w["low1"], w["low2"]), max(w["low1"], w["low2"]), 2, w["a"], b)
+        brk = next((j for j in range(b + 1, ctx.n) if ctx.c[j] > neck), None)
         if brk is None:
             if price >= w["low2"] * 1.02 and price >= neck * 0.85:
-                cands.append(dict(code="W_FORMING", zone=wz, trigger=neck, stop=neck * 0.97,
-                                  entry=(neck, neck * 1.03), confirmed=False, rsi_lb=C.RSI_LOOKBACK_BREAKOUT,
-                                  late=C.RSI_LATE_BREAKOUT, breakout=True, neck=neck))
+                cands.append(dict(code="W_FORMING", zone=(min(w["low1"], w["low2"]), max(w["low1"], w["low2"]) * 1.02),
+                                  trigger=neck, touches=2, breakout=None, neck=neck))
         else:
-            closes_after = ctx.c[brk:]
-            held = bool(np.all(closes_after >= neck * 0.98)) and ctx.c[-1] >= neck
+            held = bool(np.all(ctx.c[brk:] >= neck * 0.98)) and ctx.c[-1] >= neck
             retest = brk + 1 < ctx.n and np.min(ctx.l[brk + 1:]) <= neck * 1.03 and held
-            ext = price / neck - 1
-            low_since = float(np.min(ctx.l[brk:]))
-            stop = min(neck * 0.97, low_since * 0.98)
-            nz = Zone(neck * 0.98, neck * 1.01, 2, brk, ctx.n - 1)
-            brk_vol_ok = bool(ctx.v[brk] >= 1.2 * max(ctx.avg_vol, 1) or (brk == ctx.n - 1 and ctx.v_last_adj >= 1.2 * ctx.avg_vol))
+            brk_vol_ok = bool(ctx.v[brk] >= 1.2 * max(ctx.avg_vol, 1))
             if held:
-                code = "W_RETEST" if retest else "W_BREAK"
-                cands.append(dict(code=code, zone=nz, trigger=neck, stop=stop, entry=(neck, min(price, neck * 1.03)),
-                                  confirmed=ext <= C.MAX_EXTENSION_BREAKOUT, rsi_lb=C.RSI_LOOKBACK_BREAKOUT,
-                                  late=C.RSI_LATE_BREAKOUT, breakout=True, neck=neck, ext=ext,
-                                  vol_ok=brk_vol_ok))
-            # إن لم يثبت = اختراق وهمي → يُعلَّم كتحذير
+                last = ctx.n - 1
+                rng = max(ctx.h[last] - ctx.l[last], 1e-9)
+                hold_bar = ctx.c[last] >= ctx.o[last] or (ctx.c[last] - ctx.l[last]) / rng >= 0.5
+                cands.append(dict(code="W_RETEST" if retest else "W_BREAK", zone=(neck * 0.98, neck * 1.01),
+                                  trigger=neck, touches=2, neck=neck,
+                                  breakout={"res": neck, "retest_ok": bool(retest and hold_bar), "vol_ok": brk_vol_ok,
+                                            "retest_low": float(np.min(ctx.l[brk:]))}))
             elif ctx.c[-1] < neck and brk >= ctx.n - 10:
                 ctx.bull_trap = True
 
-    # ---------------- D: 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة (ص79 مثال 4، ص68، ص86)
+    # ---------------- 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار (ص79 مثال 4، ص68، ص86 دخول 3)
     bb = detect_base_breakout(ctx)
     if bb is not None and bb.get("trap"):
         ctx.bull_trap = True
     elif bb is not None:
-        res, j = bb["res"], bb["brk"]
-        ext = price / res - 1
-        rz = Zone(res * 0.98, res * 1.01, 2, bb["res_idx"], ctx.n - 1)
-        # RSI قبل الانطلاق: من بداية القاعدة إلى اليوم ("RSI كان 27 قبل الانطلاق")
-        rsi_lb = int(min(60, max(C.RSI_LOOKBACK_BOUNCE, ctx.n - bb["low_idx"] + 10)))
-        if bb.get("retest") is not None and bb.get("retest_ok"):
-            stop = min(bb["retest_low"], res * 0.97) * (1 - C.STOP_BUFFER)
-            cands.append(dict(code="BASE_RETEST", zone=rz, trigger=res, stop=stop, entry=(res, min(max(price, res), res * 1.03)),
-                              confirmed=ext <= C.MAX_EXTENSION_BREAKOUT, rsi_lb=rsi_lb, late=C.RSI_LATE_BREAKOUT,
-                              breakout=True, neck=res, ext=ext, vol_ok=bb["vol_ok"]))
-        else:
-            cands.append(dict(code="BASE_BREAK", zone=rz, trigger=res, stop=res * 0.97 * (1 - C.STOP_BUFFER),
-                              entry=(res, res * 1.03), confirmed=False, rsi_lb=rsi_lb, late=C.RSI_LATE_BREAKOUT,
-                              breakout=True, neck=res, ext=ext, vol_ok=bb["vol_ok"]))
-
-    # (المتوسطات عند فيصل فلتر تأكيد وليست دخولاً مستقلاً — ص64، لذلك لا يوجد نموذج دخول خاص بها)
+        res = bb["res"]
+        ok = bool(bb.get("retest") is not None and bb.get("retest_ok"))
+        cands.append(dict(code="BASE_RETEST" if ok else "BASE_BREAK", zone=(res * 0.98, res * 1.01), trigger=res,
+                          touches=2, neck=res,
+                          breakout={"res": res, "retest_ok": ok, "vol_ok": bb["vol_ok"],
+                                    "retest_low": bb.get("retest_low") or res * 0.97}))
 
     if not cands:
         return None
-
-    results = [_evaluate(ticker, ctx, cd, ma_vals, short_pct) for cd in cands]
+    results = [_evaluate(ticker, ctx, cd, ma_vals, px_now, today) for cd in cands]
     results = [r for r in results if r is not None]
     if not results:
         return None
-    # ص79: "دخول أقوى بعد إعادة الاختبار" → عند التساوي نموذج العلم 🚩 يتقدّم
     results.sort(key=lambda r: (r.status == READY, r.rank + (0.25 if r.setup == "BASE_RETEST" else 0.0)), reverse=True)
     best = results[0]
     if getattr(ctx, "bull_trap", False):
-        best.flags.append("اختراق وهمي سابق لخط العنق (Bull Trap)")
+        best.flags.append("اختراق وهمي سابق (Bull Trap — ص19، ص57)")
     return best
 
 
-def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, short_pct):
-    price = ctx.price
-    z: Zone = cd["zone"]
-    stop = cd["stop"]
-    entry_low, entry_high = cd["entry"]
-    # "ضع أوامر Limit داخل منطقة الطلب ولا تشتري من العرض" → المخاطرة تُحسب من منتصف منطقة الطلب
-    entry_ref = (entry_low + entry_high) / 2
-    if entry_ref <= stop:
+def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, px_now: float, today: dict = None):
+    df = ctx.df
+    z_low, z_high = float(cd["zone"][0]), float(cd["zone"][1])
+    if z_high < z_low:
+        z_low, z_high = z_high, z_low
+    p86 = M.p86_daily(df, z_low, z_high, cd.get("breakout"))
+    if cd["code"] == "W_FORMING":
+        p86["critical"] = float(z_low)
+    crit = min(float(p86["critical"]), z_low)  # الدعم الحرج تحت المنطقة دائماً (BJDX: المنطقة 1.70–1.95 والحرج 1.67)
+    p86["critical"] = crit
+    lad = M.ladder(z_low, z_high, crit)
+    if lad["avg"] <= lad["stop"]:
         return None
-    # الدخول Limit داخل المنطقة → المقاومات تُحسب فوق منطقة الدخول، مو فوق السعر الحالي
-    # (SEV 26 أكتوبر: المنطقة 1.40–1.44 وقمم 1.45/1.47 بينها وبين السعر 1.51 كانت تُتجاهل → «جاهز» وهو تحت مقاومة مباشرة)
-    # (IDN 26 أكتوبر: نموذج العلم، إعادة الاختبار عند 2.34–2.41 وقمم ما بعد الكسر 2.44/2.53 فوقها مباشرة → نفس القاعدة
-    #  على نماذج الاختراق: قمة ما بعد الكسر هي الهدف الأول الطبيعي، فالعائد لها لازم ≥ 1.5× المخاطرة، ص68/ص88)
-    base_px = entry_high
-    res = resistance_levels(ctx.df, base_px, C.LOOKBACK_LEVELS, C.SWING_K, ma_vals)
-    # مقاومة مباشرة يفوّتها تحليل القمم: قمم آخر 5 أيام (قبل شمعة الإشارة) فوق السعر ولو كانت قريبة جداً
-    # (مثال SVRE/VIP: قمة أمس فوق السعر بـ 2–4% = أول هدف حقيقي، والدخول تحتها "تحت مقاومة مباشرة")
-    ref_px = base_px * 1.005
-    near = [float(x) for x in ctx.h[-6:-1] if x > ref_px]
+    # المقاومة المباشرة = أول مستوى فوق الطلبات وفوق آخر إغلاق (المستوى اللي السعر أغلق فوقه انكسر وما عاد سقفاً)
+    top = max(lad["orders"][0], float(ctx.c[-1]))
+    res = resistance_levels(df, top, C.LOOKBACK_LEVELS, C.SWING_K, ma_vals, floor_pct=0.005)
+    near = [float(x) for x in ctx.h[-5:] if x > top * 1.005]  # قمم آخر 5 أيام فوق = مقاومة مباشرة (ص88)
+    if today and today.get("high") and today["high"] > top * 1.005:
+        near.append(float(today["high"]))  # قمة اليوم الجاري (NERV 27 أكتوبر: 2.335 فوق الدخول 2.25 مباشرة)
     if near:
         nr = min(near)
         if not res or nr < res[0][0] * 0.99:
             res = [(nr, "قمة يوم قريبة")] + list(res)
     t1 = res[0] if res else None
     t2 = res[1] if len(res) > 1 else None
-    risk = (entry_ref - stop) / entry_ref
-    rr = ((t1[0] - entry_ref) / (entry_ref - stop)) if t1 else None
-    rrs = [(r[0] - entry_ref) / (entry_ref - stop) for r in res[:3]]
-    rr_best = max(rrs) if rrs else None
-    cond = score_conditions(ctx, cd["rsi_lb"], z.low, z.high, rr_best, cd["late"], short_pct, cd["breakout"])
-    score = total(cond)
 
-    s = Signal(ticker=ticker, setup=cd["code"], setup_ar=SETUP_AR[cd["code"]], price=float(price))
-    s.conditions = {k: {"score": v[0], "note": v[1]} for k, v in cond.items()}
-    s.score = score
-    s.support_low, s.support_high, s.support_touches = float(z.low), float(z.high), int(z.touches)
+    s = Signal(ticker=ticker, setup=cd["code"], setup_ar=SETUP_AR[cd["code"]], price=float(px_now))
+    s.support_low, s.support_high, s.support_touches = z_low, z_high, int(cd.get("touches") or 0)
     s.trigger_level = float(cd["trigger"])
-    s.stop = float(stop)
-    s.entry_low, s.entry_high = float(entry_low), float(entry_high)
-    # أعلى منطقة الدخول ما يتعدى السعر اللي يكون فيه الربح لأول مقاومة ≥ المخاطرة (وإلا صار «دخول تحت مقاومة مباشرة»)
-    # مثال VIP 2026-10-19: الدعم 1.22، الوقف 1.1956، أول مقاومة 1.32 → أعلى دخول 1.258 (مو 1.2875)
-    if t1 and not cd.get("breakout"):
-        cap = (t1[0] + C.MIN_RR_T1 * stop) / (1 + C.MIN_RR_T1)
-        if s.entry_high > cap:
-            s.entry_high = float(max(entry_low, cap))
-        # العائد/المخاطرة عند أعلى منطقة الدخول بعد القص: إذا حتى أسفل المنطقة ما يعطي 1.5× → المنطقة كلها تحت مقاومة مباشرة
-        rr = (t1[0] - s.entry_high) / (s.entry_high - stop) if s.entry_high > stop else 0.0
+    s.entry_low, s.entry_high = float(lad["orders"][2]), float(lad["orders"][0])
     if t1:
         s.t1, s.t1_label = float(t1[0]), t1[1]
     if t2:
         s.t2, s.t2_label = float(t2[0]), t2[1]
-    s.rr = None if rr is None else round(float(rr), 2)
-    s.risk_pct = round(float(risk), 4)
     s.rsi_now = round(float(ctx.rsi[-1]), 1)
-    s.rsi_min = round(ctx.rsi_min(cd["rsi_lb"]), 1)
+    s.rsi_min = round(float(np.nanmin(ctx.rsi[-M.BASE_WINDOW:])), 1)
     s.ma_state, s.macd_state = ctx.ma_state, ctx.macd_state
-    s.candle = cond["candle"][1] if cond["candle"][0] > 0 else ""
     s.volume_note = ctx.volume_note
+    run = M.runner(df)
+    dbl = M.just_doubled(df if today is None else pd.concat([df, pd.DataFrame([today], index=[df.index[-1] + pd.Timedelta(days=1)])]))
     s.meta = {"avg_volume": ctx.avg_vol, "drawdown": round(float(ctx.drawdown), 3),
-              "rr_best": None if rr_best is None else round(float(rr_best), 2),
-              "gain_from_low10": round(float(ctx.gain_from_low10), 3), "higher_lows": ctx.higher_lows}
-    if ctx.former_runner:
-        s.tags.insert(0, f"Former Runner (سبق انفجر +{max(ctx.runner_jump, ctx.runner_spike) * 100:.0f}% في يوم)")
+              "gain_from_low10": round(float(ctx.gain_from_low10), 3), "higher_lows": ctx.higher_lows,
+              "runner": run, "today": today, "zone": [z_low, z_high], "breakout_setup": bool(cd.get("breakout")),
+              "last_close": float(ctx.c[-1]), "last_date": str(df.index[-1])[:10],
+              "neck": cd.get("neck")}
+    if run.get("is_runner"):
+        s.tags.insert(0, f"Former Runner: صعد {run['pct'] * 100:.0f}% من {M.rnd(run['from'])} ({run['from_date']}) "
+                         f"إلى {M.rnd(run['to'])} ({run['to_date']})")
     if ctx.higher_lows:
         s.tags.append("قيعان أعلى")
     if ctx.sell_drying:
         s.tags.append("فوليوم البيع يضعف")
-    if ctx.vol_improving:
-        s.tags.append("فوليوم يتحسن")
-    if z.is_bottom and not cd["breakout"]:
-        s.tags.append("قاع الفترة (قاع تاريخي/سنوي)")
+    if cd.get("is_bottom"):
+        s.tags.append("قاع الفترة (قاع سنة)")
 
-    # -------------------------------------------- gates (شروط الجاهزية)
-    wait = []
-    if not cd["confirmed"]:
-        if cd["code"] == "AT_SUPPORT":
-            if cd.get("near"):
-                wait.append(f"شمعة ارتداد (Hammer/Engulfing) أو سحب سيولة تحت {z.low:.2f} ثم استرداد")
-            else:
-                wait.append(f"نزول السعر لمنطقة الطلب {z.low:.2f}–{z.high:.2f}")
-        elif cd["code"] == "BROKE_SUPPORT":
-            wait.append(f"استرداد الدعم {z.low:.2f} والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة")
-        elif cd["code"] == "W_FORMING":
-            wait.append(f"كسر خط العنق {cd['neck']:.2f} والثبات فوقه أكثر من ربع ساعة")
-        elif cd["code"] == "MA_RECLAIM":
-            wait.append(f"إعادة اختبار MA20 ({cd['trigger']:.2f}) والارتداد منه")
-        elif cd["code"] in ("W_BREAK", "W_RETEST", "MA_RETEST", "BASE_RETEST"):
-            wait.append(f"ابتعد {cd.get('ext', 0)*100:.0f}% عن مستوى الاختراق — انتظر إعادة اختبار {cd['trigger']:.2f}")
-        elif cd["code"] == "BASE_BREAK":
-            wait.append(f"اخترق المقاومة القريبة {cd['trigger']:.2f} — انتظر رجوعه لاختبارها والثبات فوقها "
-                        f"(لا تشتري الاختراق، ص20)")
-        elif cd["code"] == "SWEEP":
-            wait.append(f"إغلاق وثبات فوق {z.low:.2f} بعد سحب السيولة")
-    if cond["rsi"][0] < 0.75:
-        wait.append(f"ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة {s.rsi_min:.0f})")
-    if cd["breakout"]:
-        if cd.get("vol_ok") is False:
-            wait.append("فوليوم أعلى عند الاختراق (الاختراق بدون فوليوم ضعيف — ص19)")
-    elif not (ctx.vol_improving or ctx.sell_drying):
-        wait.append("تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع")
-    distinct = len(np.unique(np.round(ctx.c[-20:], 4)))
-    if distinct < C.MIN_DISTINCT_CLOSES:
-        s.flags.append(f"حركة السعر متقطعة ({distinct} أسعار إغلاق مختلفة في 20 يوم) — قراءة الشموع غير موثوقة")
-        wait.append("سعر يتحرك بتكات كبيرة — الشموع والمؤشرات غير موثوقة على هذا السهم")
-    if not ctx.former_runner:
-        wait.append("ليس Former Runner — ما سبق انفجر خلال سنة (فيصل يبحث عن سهم يقدر يتحرك بعنف)")
-    if cond["pressure"][0] < 0.5:
-        wait.append("سهم الارتكاز يحتاج هبوطاً/ضغط بيع سابقاً (25%+)")
-    if cond["macd"][0] < 1.0:
-        wait.append("تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)")
-    if not cd["breakout"] and cond["candle"][0] < 1.0 and cd["code"] in ("SWEEP", "BOUNCE"):
-        wait.append("شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)")
-    if ctx.pump_month is not None:
-        j, hi_, cl_, vm_ = ctx.pump_month
-        days = ctx.n - 1 - j
-        s.flags.append(f"شمعة ضخ/تصريف قبل {days} يوم (طار إلى {hi_:.3g} وأغلق {cl_:.3g} بفوليوم {vm_:.0f}x)")
-        wait.append("مرور وقت كافٍ بعد شمعة الضخ/التصريف (سلوك قروبات الوهم)")
-    if rr is None:
-        wait.append("هدف علوي واضح")
-    elif rr < C.MIN_RR_T1 - 1e-6:  # المنطقة مقصوصة على 1.5× بالضبط — بدون هامش تطلع 1.4999 (PETS 26 أكتوبر)
-        wait.append(f"الدخول تحت مقاومة مباشرة ({t1[0]:.2f}) — انتظر اختراقها والثبات")
-    elif rr_best < C.MIN_RR_SPACE:
-        wait.append("مساحة صعود أكبر حتى المقاومات القادمة")
-    if risk > C.MAX_RISK_PIVOT:
-        wait.append(f"الوقف بعيد ({risk*100:.0f}%) — انتظر نزول السعر قرب الدعم")
-    # "لا تطارد إذا لم ينفذ لك": جاهز فقط إذا كان السعر الآن داخل منطقة الطلب أو قريباً منها
-    if not cd["breakout"] and cd["confirmed"] and price > entry_high * (1 + C.MAX_ABOVE_ENTRY):
-        wait.append(f"السعر ابتعد {(price / entry_high - 1) * 100:.0f}% فوق منطقة الطلب — "
-                    f"ضع Limit عند {entry_low:.2f}–{entry_high:.2f} ولا تطارد")
-    if not cd["breakout"] and ctx.gain_from_low10 >= C.CHASE_GAIN:
-        pct = ctx.gain_from_low10 * 100
-        wait.append(f"صعد {pct:.0f}% من القاع — لا مطاردة، انتظر Retest أو سحب سيولة")
+    static = []
+    if dbl:
+        s.flags.append(f"توه مدبل: من {M.rnd(dbl[0])} إلى {M.rnd(dbl[1])}")
+        static.append(f"توه مدبل (من {M.rnd(dbl[0])} إلى {M.rnd(dbl[1])}) — «فيه خطوره… غير امن الان» (ص59)")
     if ctx.pump_recent or ctx.distribution_recent:
         s.flags.append("شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)")
-        wait.append("هدوء بعد شمعة الضخ وتكوين دعم جديد")
-    if ctx.fail_at_ma20 and not cd["breakout"]:
-        s.flags.append("فشل عند MA20")
-    met, miss = file_six(s.conditions, s.tags, rr)
-    if met < C.MIN_FILE_CONDITIONS:
-        wait.append(file_six_text(met, miss))
+        static.append("شمعة ضخ/تصريف حديثة — سلوك قروبات الوهم (ص10، ص20)")
+    if ctx.pump_month is not None:
+        j, hi_, cl_, vm_ = ctx.pump_month
+        s.flags.append(f"شمعة ضخ/تصريف قبل {ctx.n - 1 - j} يوم (طار إلى {hi_:.3g} وأغلق {cl_:.3g} بفوليوم {vm_:.0f}x)")
+        static.append("مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)")
+    distinct = len(np.unique(np.round(ctx.c[-20:], 4)))
+    if distinct < C.MIN_DISTINCT_CLOSES:
+        s.flags.append(f"حركة السعر متقطعة ({distinct} أسعار إغلاق مختلفة في 20 يوم)")
+        static.append("السعر يتحرك بتكات كبيرة — الشموع والمؤشرات غير موثوقة")
+    if ctx.fail_at_ma20 and not cd.get("breakout"):
+        s.flags.append("رفض عند MA20 (ص64)")
+    if cd["code"] in ("W_BREAK", "BASE_BREAK"):
+        static.append(f"اخترق {M.rnd(cd['trigger'])} — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)")
+    if cd["code"] == "W_FORMING":
+        static.append(f"نموذج W ما اكتمل: كسر خط العنق {M.rnd(cd['trigger'])} والثبات (ص25)")
+    s.meta["static_wait"] = static
+    s.meta["p86"] = {k: (v if k != "checks" else {kk: [bool(x[0]), x[1]] for kk, x in v.items()}) for k, v in p86.items()}
+    s.meta["when_ready"] = M.when_ready(cd["code"], z_low, z_high, crit, cd.get("neck"), s.t1)
+    apply_gate(s)
 
-    s.waiting_for = list(dict.fromkeys(wait))
-    s.status = READY if not s.waiting_for else WATCH
-
-    # هل يستحق الظهور في قائمة المراقبة؟
+    # القائمة: متابعة الأسهم القريبة من منطقتها (اجتهاد: ضمن 20%) واللي اكتمل منها 3 شروط على الأقل
+    met = len(M.summary(s.meta["p86"]["checks"])[0])
     if s.status == WATCH:
-        close_to_trigger = abs(price / cd["trigger"] - 1) <= 0.15
-        pressure = s.rsi_min <= 35 and ctx.drawdown >= C.DRAWDOWN_MED
-        if not (close_to_trigger and pressure and score >= 2.5):
+        dist = px_now / ((z_low + z_high) / 2) - 1
+        if not (-0.2 <= dist <= 0.2 and met >= 3):
             return None
-    s.rank = score + (2.0 if s.status == READY else 0.0) + (1.0 if ctx.former_runner else -1.0) \
-        - min(abs(price / cd["trigger"] - 1), 0.3) * 5
+    s.rank = met + (2.0 if s.status == READY else 0.0) + (1.0 if run.get("is_runner") else 0.0) \
+        - min(abs(px_now / s.trigger_level - 1), 0.3) * 5
+    return s
+
+
+def apply_gate(s: Signal):
+    """يبني «لماذا غير جاهز» من شروط ص86 الناقصة + الموانع (مقاومة مباشرة، الخسارة، المطاردة، تحت الوقف، السلوك الخطر)
+    ويحدد الحالة. يُستدعى بعد التحليل اليومي، وبعد ترقية فريم 4 ساعات (main.py)."""
+    p = s.meta["p86"]
+    z_low, z_high = s.meta["zone"]
+    lad = M.ladder(z_low, z_high, p["critical"])
+    s.meta["ladder"] = lad
+    s.entry_low, s.entry_high = float(lad["orders"][2]), float(lad["orders"][0])
+    s.stop = float(lad["stop"])
+    s.risk_pct = round(float(lad["risk"]), 4)
+    s.rr = round((s.t1 - lad["avg"]) / (lad["avg"] - lad["stop"]), 2) if s.t1 else None
+    checks = p["checks"]
+    s.conditions = {k: {"score": 1.0 if v[0] else 0.0, "note": v[1]} for k, v in checks.items()}
+    s.score = float(sum(1 for v in checks.values() if v[0]))
+    s.candle = checks.get("candle", [False, ""])[1] if checks.get("candle", [False])[0] else ""
+    wait = [f"{M.NAME[k]}: {checks[k][1]} ({M.PAGE[k]})" for k in M.summary(checks)[1]]
+    wait += list(s.meta.get("static_wait") or [])
+    if s.t1 is not None and s.rr is not None and s.rr <= 1.0:
+        wait.append(f"تحت مقاومة مباشرة {M.rnd(s.t1)} (+{(s.t1 / lad['avg'] - 1) * 100:.1f}%) والخسارة للوقف "
+                    f"−{lad['risk'] * 100:.1f}% — العائد ما يتعدى المخاطرة (ص82، ص88)")
+    elif s.t1 is None:
+        wait.append("ما فيه هدف/مقاومة واضحة فوق لحساب العائد")
+    if lad["risk"] > M.MAX_LOSS:
+        wait.append(f"الخسارة من متوسط الطلبات للوقف {lad['risk'] * 100:.0f}% أكبر من 15% (ص54)")
+    px = s.price
+    if px < lad["stop"]:
+        wait.append(f"السعر الآن {M.rnd(px)} تحت الوقف {M.rnd(lad['stop'])} — الدعم مكسور")
+    elif px / p["critical"] - 1 >= M.CHASE_GAIN:
+        wait.append(f"السعر صعد {(px / p['critical'] - 1) * 100:.0f}% فوق الدعم الحرج — لا مطاردة (ص67، ص88)")
+    for fl in s.flags:
+        if "صيني" in fl:
+            wait.append("سهم صيني عالي التذبذب — «وهذا وحده يجعله خطيراً» (ص70، ص90): متابعة بدون إشارة")
+        if "سيولة ضعيفة" in fl or "الفلووت غير معروف" in fl or "الفلووت أكبر" in fl:
+            wait.append(fl)
+    s.waiting_for = list(dict.fromkeys(wait))
+    s.status = READY if (not s.waiting_for and s.setup in ALLOWED_READY) else WATCH
+    if s.status == WATCH and not s.waiting_for:
+        s.waiting_for = ["نموذج الدخول ما اكتمل"]
     return s

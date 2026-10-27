@@ -15,50 +15,6 @@ from faisal_scanner.pivot import READY, WATCH, analyze_pivot
 END = pd.Timestamp("2026-10-15")
 
 
-def test_liquidity_sweep_bounce_is_ready():
-    s = analyze_pivot("A", demo.scenario_bounce(END))
-    assert s is not None and s.status == READY and s.setup in ("SWEEP", "BOUNCE")
-    # الهدف الأول = أول مقاومة فوق منطقة الـ Limit (ص86–88)، والعائد له ≥ 1.5× المخاطرة من أعلى المنطقة
-    assert s.stop < s.support_low < s.price and s.t1 > s.entry_high
-    assert (s.t1 - s.entry_high) >= 1.5 * (s.entry_high - s.stop) - 1e-9
-    assert s.risk_pct <= 0.12
-
-
-def test_ready_needs_four_of_the_files_six_conditions():
-    """26 أكتوبر «هل متاكد من الجاهزية»: SEV كان «جاهز» بـ 5/6 من حساب الماسح، لكنه حرفياً 3/6 —
-    ما فيه خبر، وما استعاد المتوسطات، ومنطقته تحت قمم 1.45/1.47 (مقاومة مباشرة ص88)."""
-    from faisal_scanner.pivot import file_six
-    cond = {"ma": {"score": 0.5}, "rsi": {"score": 1.0}, "macd": {"score": 1.0}, "candle": {"score": 1.0},
-            "pressure": {"score": 0.5}, "space": {"score": 1.0}}
-    met, miss = file_six(cond, [], rr=(1.45 - 1.40) / (1.40 - 1.3426))  # SEV: أسفل المنطقة 1.40 تحت قمة 1.45
-    assert met == 3 and "خبر/محفز" in miss and "مساحة صعود" in miss and "المتوسطات" in miss
-    # PETS: RSI 0.75 + MACD + ابتلاعية + مساحة 1.5× عند أعلى المنطقة بعد القص = 4 → جاهز (أغلب الإشارات ص81)
-    pets = {**cond, "ma": {"score": 0.0}, "rsi": {"score": 0.75}, "pressure": {"score": 1.0}}
-    assert file_six(pets, [], rr=1.5)[0] == 4
-    # المنطقة المقصوصة على 1.5× بالضبط (فاصلة عائمة) ما تُعتبر «تحت مقاومة مباشرة»
-    t1, stop = 1.21, 1.127
-    cap = (t1 + 1.5 * stop) / 2.5
-    assert file_six(pets, [], rr=(t1 - cap) / (cap - stop))[0] == 4
-    # الخبر المحفز يحتسب شرطاً (ص82 الشرط 5)
-    assert file_six(cond, ["محفز: خبر حديث"], rr=(1.45 - 1.40) / (1.40 - 1.3426))[0] == 4
-
-
-def test_w_neckline_retest_under_recent_high_is_watch():
-    """26 أكتوبر (IDN): إعادة اختبار بعد الكسر والقمم الأخيرة 1.31 فوق الدخول 1.285 مباشرة (+2%) والوقف −7%
-    = «تحت مقاومة مباشرة» (ص88، نفس بوابة التنبيه 1.5×) → مراقبة، والهدف الأول = القمة القريبة."""
-    s = analyze_pivot("C", demo.scenario_w(END))
-    assert s is not None and s.setup in ("W_RETEST", "W_BREAK", "BASE_RETEST")
-    assert s.stop < s.trigger_level <= s.price
-    assert s.status == WATCH and any("مقاومة مباشرة" in w for w in s.waiting_for)
-    assert abs(s.t1 - 1.31) < 0.01
-
-
-def test_w_forming_is_watch_with_neckline_condition():
-    s = analyze_pivot("B", demo.scenario_sweep(END))
-    assert s is not None and s.status == WATCH
-    assert any("خط العنق" in w or "RSI" in w for w in s.waiting_for)
-
-
 def test_pump_and_broken_support_not_ready():
     for fn in (demo.scenario_pump, demo.scenario_failed, demo.scenario_extended):
         s = analyze_pivot("X", fn(END))
@@ -142,25 +98,6 @@ def test_nasdaq_universe_parsing():
     row = u.iloc[0]
     assert row["price"] == pytest.approx(1.23) and row["pct_change"] == pytest.approx(0.055)
     assert row["market_cap"] == pytest.approx(45e6)
-
-
-def test_demo_end_to_end(tmp_path, monkeypatch):
-    import faisal_scanner.config as C
-    from faisal_scanner import main
-    monkeypatch.setattr(C, "RESULTS_DIR", str(tmp_path))
-    res = main.run_once(demo=True)
-    md = main.write_outputs(res)
-    assert "DEMOA" in {s["ticker"] for s in res["ready"]}
-    # DEMOC (W) صار مراقبة: قمة 1.31 فوق الدخول مباشرة (ص88)
-    assert "DEMOC" in {s["ticker"] for s in res["watch"]}
-    assert "جاهز الآن" in md
-    data = json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
-    # التنبيه فقط والسعر داخل منطقة الـ Limit (≤ 1% فوقها) — DEMOA جاهز يومياً لكن سعره فوق المنطقة المقصوصة → بدون تنبيه
-    rd = {s["ticker"]: s for s in res["ready"]}
-    assert all(rd[t]["price"] <= rd[t]["entry_high"] * 1.01 for t in data["new_alerts"] if t in rd)
-    # second run the same day: no duplicate urgent alerts
-    res2 = main.run_once(demo=True)
-    assert res2["new_alerts"] == []
 
 
 def _ext_bars(day, start, plan, vol):
@@ -282,27 +219,6 @@ def test_telegram_alert_text_and_disabled_without_token(monkeypatch):
     assert "NCPL" in txt and "2.078" in txt and "2.39" in txt
 
 
-def test_near_daily_high_blocks_pivot_entry():
-    """دخول ارتكاز تحت قمة أمس القريبة (أقرب من 3%) = تحت مقاومة مباشرة → مراقبة وليس جاهز."""
-    import numpy as np
-    import pandas as pd
-    from faisal_scanner.pivot import _evaluate, Ctx, READY
-    from faisal_scanner.levels import Zone
-    n = 80
-    idx = pd.date_range("2026-06-01", periods=n, freq="B", tz="America/New_York")
-    close = np.linspace(3.0, 1.30, n)
-    df = pd.DataFrame({"open": close * 1.01, "high": close * 1.02, "low": close * 0.99, "close": close,
-                       "volume": np.full(n, 300_000.0)}, index=idx)
-    df.iloc[-2, df.columns.get_loc("high")] = 1.34   # قمة أمس فوق السعر بـ 3%
-    ctx = Ctx(df)
-    z = Zone(1.28, 1.30, 3, n - 30, n - 5)
-    cd = dict(code="SWEEP", zone=z, trigger=1.28, stop=1.225, entry=(1.28, 1.30), confirmed=True,
-              rsi_lb=15, late=45, breakout=False)
-    s = _evaluate("T", ctx, cd, {"MA20": None, "MA30": None, "MA50": None}, None)
-    assert s is not None and abs(s.t1 - 1.34) < 1e-6
-    assert any("مقاومة مباشرة" in w for w in s.waiting_for)
-
-
 def test_watch_zone_needs_green_15m_confirmation():
     from datetime import time as dtime
     from faisal_scanner import faisal_watch as fw
@@ -343,15 +259,6 @@ def test_extended_session_confirmation_candle():
     ev = fw.evaluate(e, 1.43, stop_ok=fw.stop_broken(b15, 1.44, now, "pre"))
     assert ev["state"] == "BELOW_STOP" and ev["alert"] is False
     assert fw.evaluate(e, 1.43, stop_ok=True)["alert"] is True
-
-
-def test_entry_zone_capped_below_first_resistance():
-    """VIP 2026-10-19: الدعم 1.22، الوقف 1.1956، أول مقاومة 1.32 → أعلى دخول ≈1.258."""
-    import faisal_scanner.config as C
-    t1, stop = 1.32, 1.1956
-    cap = (t1 + C.MIN_RR_T1 * stop) / (1 + C.MIN_RR_T1)
-    assert abs(cap - (1.32 + 1.5 * 1.1956) / 2.5) < 0.001  # 26 أكتوبر: 1.5× (كان 1× → 1.258)
-    assert (t1 - cap) / (cap - stop) >= C.MIN_RR_T1 - 1e-9
 
 
 def test_momentum_alert_rules(tmp_path, monkeypatch):
@@ -405,16 +312,6 @@ def test_fill_missing_prices_fallback(monkeypatch):
     assert got == {"nasdaq": 1, "bars": 1}
 
 
-def test_base_breakout_retest_flag_setup():
-    """🚩 ص79 مثال 4: قاعدة → اختراق مقاومة قريبة بفوليوم → إعادة اختبار ناجحة = جاهز، والوقف تحت منطقة الاختبار."""
-    s = analyze_pivot("F", demo.scenario_base_flag(END))
-    assert s is not None and s.setup == "BASE_RETEST"
-    assert s.stop < s.trigger_level <= s.entry_low <= s.price <= s.trigger_level * 1.06
-    assert s.t1 > s.price
-    # MA50 1.197 وقمم ما بعد الكسر 1.20–1.25 فوق الدخول مباشرة → العائد للهدف الأول < 1.5× المخاطرة → مراقبة (ص88)
-    assert (s.status == READY) == ((s.t1 - s.entry_high) >= 1.5 * (s.entry_high - s.stop) - 1e-6)
-
-
 def test_base_breakout_without_retest_is_watch():
     """اختراق بدون إعادة اختبار = لا شراء للاختراق (ص20) → مراقبة."""
     df = demo.scenario_base_flag(END).iloc[:-2].copy()
@@ -422,81 +319,11 @@ def test_base_breakout_without_retest_is_watch():
     assert s is None or s.status != READY
 
 
-def test_weekly_pivot_list_faisal_style(tmp_path, monkeypatch):
-    """قائمة الارتكاز بأسلوب فيصل: مستويات (طلب/غسل/فاصل/وقف)، متى يصير جاهز، والفرز؛ ومداخل للمتابعة المباشرة."""
-    from faisal_scanner import weekly, faisal_watch
-    monkeypatch.setattr(weekly, "FILE", str(tmp_path / "weekly.json"))
-    monkeypatch.setattr(weekly.C, "RESULTS_DIR", str(tmp_path))
-    daily = {"A": demo.scenario_bounce(END), "F": demo.scenario_base_flag(END), "B": demo.scenario_sweep(END)}
-    pivots = [s for s in (analyze_pivot(t, d) for t, d in daily.items()) if s]
-    now = datetime(2026, 10, 15, 18, 0, tzinfo=ET)
-    w = weekly.build(pivots, daily, {}, now, news={})
-    assert w["items"]
-    for it in w["items"]:
-        lv = it["levels"]
-        assert lv["wash_high"] <= lv["demand_low"] and lv["stop"] < lv["wash_low"] <= lv["demand_low"] <= lv["demand_high"]
-        assert it["ready_when"] and it["type"]
-    assert "غير جاهزة للدخول الآن" in (tmp_path / "weekly.md").read_text(encoding="utf-8")
-    ents = weekly.load_entries(str(tmp_path / "weekly.json"), max_age_days=10**6)
-    assert ents and all(e["kind"] == "weekly" for e in ents)
-    e = ents[0]
-    # لا تنبيه على الاختراق ولا على كسر الوقف لقائمة الارتكاز — التنبيه على منطقة الطلب/إعادة الاختبار فقط
-    ev = faisal_watch.evaluate(e, (e["breakout"] or e["demand_high"] * 1.5) * 1.02, None, "", hold_ok=True)
-    assert ev["alert"] is False
-    ev = faisal_watch.evaluate(e, e["stop"] * 0.95, None, "", stop_ok=True)
-    assert ev["alert"] is False
-    ev = faisal_watch.evaluate(e, (e["demand_low"] + e["demand_high"]) / 2, None, "", zone_ok=True)
-    assert ev["alert"] is True and ev["label"] == "قائمة الارتكاز"
-
-
-def test_pivot_alert_only_inside_limit_zone(tmp_path, monkeypatch):
-    """الدخول من تحت: سهم جاهز والسعر فوق منطقة الـ Limit → بدون تنبيه، وينبّه لما ينزل لها."""
-    from faisal_scanner import main
-    monkeypatch.setattr(main.C, "RESULTS_DIR", str(tmp_path))
-    now = datetime(2026, 10, 20, 11, 0, tzinfo=ET)
-    s = {"ticker": "VIP", "setup": "BOUNCE", "kind": "pivot", "price": 1.32, "stop": 1.1956, "t1": 1.34,
-         "entry_low": 1.22, "entry_high": 1.258, "setup_ar": "ارتداد", "meta": {}}
-    assert main.update_alert_state({"ready": [s], "faisal": []}, now) == []
-    s2 = dict(s, price=1.25)
-    assert main.update_alert_state({"ready": [s2], "faisal": []}, now) == ["VIP"]
-
-
 def _bars15(day, rows):
     """rows: [(HH:MM, open, high, low, close, volume)] بتوقيت نيويورك."""
     idx = [datetime.combine(day, datetime.strptime(t, "%H:%M").time(), tzinfo=ET) for t, *_ in rows]
     return pd.DataFrame([r[1:] for r in rows], index=pd.DatetimeIndex(idx),
                         columns=["open", "high", "low", "close", "volume"])
-
-
-def test_entry_quality_gate_blocks_weak_alerts():
-    """مراجعة تنبيهات 21 أكتوبر: لا تنبيه دخول في البري، ولا بشمعة بدون فوليوم، ولا بعائد أقل من 1.5× المخاطرة."""
-    from faisal_scanner import faisal_watch as fw
-    day = datetime(2026, 10, 21).date()
-    prev = [(f"{h:02d}:{m:02d}", 1.5, 1.52, 1.48, 1.5, 20_000) for h in range(10, 15) for m in (0, 15, 30, 45)]
-    base = _bars15(day - timedelta(days=1), prev)
-    entry = {"ticker": "TST", "kind": "weekly", "demand_low": 1.44, "demand_high": 1.49, "stop": 1.40,
-             "breakout": 1.67, "targets": [1.79]}
-    now = datetime.combine(day, datetime.strptime("11:46", "%H:%M").time(), tzinfo=ET)
-    # شمعة خضراء داخل المنطقة بفوليوم 8.5K (≈$12.6K) → ضعيفة
-    thin = pd.concat([base, _bars15(day, [("11:15", 1.46, 1.49, 1.45, 1.48, 8_500), ("11:30", 1.47, 1.49, 1.46, 1.485, 8_500)])])
-    assert fw.zone_confirmed(thin, 1.44, 1.49, now)
-    weak = fw.entry_quality(thin, entry, 1.485, now, "regular")
-    assert weak and "سيولة" in weak[0]
-    ev = fw.evaluate(entry, 1.485, zone_ok=True, weak=weak)
-    assert ev["state"] == "ZONE_WEAK" and not ev["alert"]
-    # نفس الشمعة بفوليوم 60K (3× المعتاد و $89K) → تنبيه
-    good = pd.concat([base, _bars15(day, [("11:15", 1.46, 1.49, 1.45, 1.48, 9_000), ("11:30", 1.47, 1.49, 1.46, 1.485, 60_000)])])
-    assert fw.entry_quality(good, entry, 1.485, now, "regular") == []
-    ev = fw.evaluate(entry, 1.485, zone_ok=True, weak=[])
-    assert ev["state"] == "ZONE_CONFIRMED" and ev["alert"]
-    # البري ماركت → بدون تنبيه حتى لو الشمعة قوية
-    assert any("الجلسة الرسمية" in w for w in fw.entry_quality(good, entry, 1.485, now, "pre"))
-    # عائد صغير (هدف +3% ووقف −5.5%) → بدون تنبيه
-    surg = {**entry, "demand_low": 0.115, "demand_high": 0.1184, "stop": 0.1117, "breakout": 0.122, "targets": [0.1373]}
-    assert any("المساحة" in w for w in fw.entry_quality(None, surg, 0.1182, now, "regular"))
-    # مستوى المستخدم/فيصل: شرط العائد ما ينطبق (خطة بأكثر من دخول)، لكن الجلسة والفوليوم ينطبقون
-    mine = {**entry, "kind": None, "stop": 1.0}
-    assert fw.entry_quality(good, mine, 1.485, now, "regular") == []
 
 
 def test_pivot_alert_regular_session_only(tmp_path, monkeypatch):
@@ -512,88 +339,203 @@ def test_pivot_alert_regular_session_only(tmp_path, monkeypatch):
                                    now.replace(hour=10)) == ["IPSC"]
 
 
-def test_scanner_ready_needs_15m_confirmation_and_space():
-    """23 أكتوبر «نعم وموكده»: تنبيه «جاهز» من الماسح يحتاج شمعة 15د خضراء بفوليوم + مساحة ≥1.5× المخاطرة."""
-    from faisal_scanner import faisal_watch as fw
-    day = datetime(2026, 10, 23).date()
-    prev = [(f"{h:02d}:{m:02d}", 0.95, 0.96, 0.94, 0.95, 30_000) for h in range(10, 15) for m in (0, 15, 30, 45)]
-    base = _bars15(day - timedelta(days=1), prev)
-    now = datetime.combine(day, datetime.strptime("11:46", "%H:%M").time(), tzinfo=ET)
-    dly = pd.DataFrame({"high": [1.2, 1.15, 1.1, 1.12, 1.18, 0.99]},
-                       index=pd.DatetimeIndex([datetime.combine(day - timedelta(days=6 - i), datetime.min.time(), tzinfo=ET)
-                                               for i in range(5)] + [datetime.combine(day, datetime.min.time(), tzinfo=ET)]))
-    # شمعة خضراء بفوليوم 90K (3×) عند 0.955، الوقف 0.892، الهدف 1.09 → مساحة 2.2× → جاهز فعلياً
-    good = pd.concat([base, _bars15(day, [("11:15", 0.95, 0.955, 0.945, 0.95, 20_000),
-                                          ("11:30", 0.948, 0.958, 0.946, 0.955, 90_000)])])
-    assert fw.scanner_confirm(good, 0.955, 0.8918, 1.09, 0.95, dly, now) == []
-    # نفس الشموع والسعر 0.99 (TYGO 23 أكتوبر): المساحة 1.0× → لا تنبيه، ويقترح سعر الدخول
-    w = fw.scanner_confirm(good, 0.99, 0.8918, 1.09, 0.95, dly, now)
-    assert len(w) == 1 and "المساحة" in w[0] and "الدخول عند" in w[0]
-    # شمعة حمراء أو بدون فوليوم → لا تنبيه
-    red = pd.concat([base, _bars15(day, [("11:15", 0.95, 0.955, 0.945, 0.95, 20_000),
-                                         ("11:30", 0.958, 0.96, 0.95, 0.952, 90_000)])])
-    assert any("تأكيد 15 دقيقة" in x for x in fw.scanner_confirm(red, 0.952, 0.8918, 1.09, 0.95, dly, now))
-    thin = pd.concat([base, _bars15(day, [("11:15", 0.95, 0.955, 0.945, 0.95, 20_000),
-                                          ("11:30", 0.948, 0.958, 0.946, 0.955, 35_000)])])
-    assert any("ضعيف" in x for x in fw.scanner_confirm(thin, 0.955, 0.8918, 1.09, 0.95, dly, now))
-    # التأكيد من الشمعة قبل الأخيرة مقبول إذا ما رجع السعر تحت افتتاحها
-    prev_ok = pd.concat([base, _bars15(day, [("11:15", 0.948, 0.958, 0.946, 0.955, 90_000),
-                                             ("11:30", 0.955, 0.957, 0.952, 0.953, 20_000)])])
-    assert fw.scanner_confirm(prev_ok, 0.953, 0.8918, 1.09, 0.95, dly, now) == []
-    # بدون شموع اليوم → مو مؤكد
-    assert any("ما فيه شمعة" in x for x in fw.scanner_confirm(base, 0.955, 0.8918, 1.09, 0.95, dly, now))
-    # أقرب قمة يومية (آخر 5 أيام) تعتبر مقاومة: قمة 1.0 فوق 0.955 → مساحة 0.045 مقابل 0.063 → لا تنبيه
-    dly2 = dly.copy()
-    dly2.iloc[3, 0] = 1.0
-    assert any("المساحة لأول مقاومة 1" in x for x in fw.scanner_confirm(good, 0.955, 0.8918, 1.09, 0.95, dly2, now))
 
 
-def test_list_alert_needs_four_of_six_file_conditions():
-    """26 أكتوبر: UPXI نبّه من القائمة (شمعة مؤكدة + مساحة) وهو 3/6 من شروط الملف → لازم يطلع ⚪ بدون تنبيه."""
-    from faisal_scanner import faisal_watch as fw
-    day = datetime(2026, 10, 26).date()
-    prev = [(f"{h:02d}:{m:02d}", 0.75, 0.76, 0.74, 0.75, 20_000) for h in range(10, 15) for m in (0, 15, 30, 45)]
-    bars = pd.concat([_bars15(day - timedelta(days=3), prev),
-                      _bars15(day, [("10:30", 0.742, 0.75, 0.74, 0.745, 30_000), ("10:45", 0.743, 0.752, 0.742, 0.7472, 90_000)])])
-    now = datetime.combine(day, datetime.strptime("11:01", "%H:%M").time(), tzinfo=ET)
-    upxi = {"ticker": "UPXI", "kind": "weekly", "demand_low": 0.74, "demand_high": 0.751, "stop": 0.7056,
-            "breakout": 0.82, "targets": [0.82, 0.83], "file_met": 3, "file_miss": ["المتوسطات", "MACD", "خبر/محفز"]}
-    why = fw.entry_quality(bars, upxi, 0.7472, now, "regular")
-    assert len(why) == 1 and "شروط الملف 3/6" in why[0]
-    assert fw.entry_quality(bars, {**upxi, "file_met": 4, "file_miss": ["المتوسطات", "خبر/محفز"]}, 0.7472, now, "regular") == []
+# ============================================================ 27 أكتوبر: منهج فيصل حرفياً (method.py)
+from faisal_scanner import method as M  # noqa: E402
 
 
-def test_list_alert_text_explains_why():
-    """27 أكتوبر: نص التنبيه يشرح ليش طلع (شروط الملف + شمعة التأكيد + المساحة) مثل شرح GANX."""
-    from faisal_scanner import faisal_watch as fw, notify
-    day = datetime(2026, 10, 26).date()
-    prev = [(f"{h:02d}:{m:02d}", 1.2, 1.21, 1.19, 1.2, 15_000) for h in range(10, 15) for m in (0, 15, 30, 45)]
-    bars = pd.concat([_bars15(day - timedelta(days=3), prev),
-                      _bars15(day, [("13:45", 1.18, 1.1863, 1.16, 1.16, 48_969), ("14:00", 1.15, 1.17, 1.15, 1.16, 31_543)])])
-    now = datetime.combine(day, datetime.strptime("14:24", "%H:%M").time(), tzinfo=ET)
-    ganx = {"ticker": "GANX", "kind": "weekly", "demand_low": 1.15, "demand_high": 1.1615, "stop": 1.127,
-            "breakout": 1.23, "targets": [1.21, 1.23], "file_met": 4, "file_miss": ["المتوسطات", "خبر/محفز"]}
-    assert fw.entry_quality(bars, ganx, 1.16, now, "regular") == []
-    ev = fw.evaluate(ganx, 1.16, zone_ok=True, weak=[])
-    ev["why"] = fw.confirm_info(bars, ganx, 1.16, now)
-    _, body = notify.watch_alert(ev, "21:24 الرياض")
-    assert "شروط الملف 4/6" in body and "شمعة التأكيد 14:00" in body and "1.15→1.16" in body
-    assert "أول مقاومة 1.21" in body and "× المخاطرة" in body
+def test_bounce_completes_p86_with_limit_ladder_and_stop_under_critical():
+    """ص86: قاع ← إعادة اختبار وفشل الكسر (سحب سيولة) ← شمعة انعكاس بفوليوم = اكتمال الشروط السبعة؛
+    الدخول 3 طلبات Limit داخل المنطقة (ص15، ص57)، والوقف تحت الدعم الحرج بتك (BJDX: كسر 1.67 خروج)."""
+    s = analyze_pivot("A", demo.scenario_bounce(END))
+    assert s is not None and s.status == READY and s.setup in ("SWEEP", "BOUNCE")
+    ch = s.meta["p86"]["checks"]
+    assert all(ch[k][0] for k in M.ORDER), ch
+    lad = s.meta["ladder"]
+    z_low, z_high = s.meta["zone"]
+    assert len(lad["orders"]) == 3 and all(z_low - 0.01 <= o <= z_high + 1e-9 for o in lad["orders"])
+    assert lad["stop"] < lad["critical"] <= z_low and abs(lad["critical"] - 1.17) < 0.01
+    assert lad["risk"] <= M.MAX_LOSS and s.rr > 1.0
+    assert not any("جاهز" in w for w in s.waiting_for)
 
 
-def test_float_over_20m_list_name_does_not_alert_and_data_line_shown():
-    """27 أكتوبر: NERV نبّه بفلووت 34M — الملف ص6/ص8: أقل من 20M للمضاربة. ونص التنبيه يعرض الفلووت وعدد الأسهم وآخر تقسيم (ص56)."""
-    from faisal_scanner import faisal_watch as fw, notify
-    from faisal_scanner.main import data_line, last_split
-    e = {"ticker": "NERV", "kind": "weekly", "demand_low": 2.24, "demand_high": 2.2624, "stop": 2.1364,
-         "breakout": 2.47, "targets": [2.47, 2.65], "file_met": 4, "file_miss": ["المتوسطات", "خبر/محفز"],
-         "data": {"float": 34.3e6, "shares": 47.7e6, "last_split": None, "short_pct_float": 0.053}}
-    why = fw.entry_quality(None, e, 2.25, None, "regular")
-    assert any("الفلووت 34.3M" in w for w in why)
-    e2 = {**e, "data": {"float": 4.2e6, "shares": 6.0e6, "last_split": "عكسي 1:10 (2026-09-28)"}}
-    assert not any("الفلووت" in w for w in fw.entry_quality(None, e2, 2.25, None, "regular"))
-    ev = fw.evaluate(e2, 2.25, zone_ok=True, weak=[])
-    _, body = notify.watch_alert(ev, "17:00 الرياض")
-    assert "فلووت 4.2M" in body and "عدد الأسهم 6.0M" in body and "آخر تقسيم: عكسي 1:10" in body
-    assert last_split({"lastSplitFactor": "1:10", "lastSplitDate": 1759017600}).startswith("عكسي 1:10")
-    assert "بدون تقسيم مسجل" in data_line({"float": 1e6})
+def test_failed_support_lists_why_not_ready_with_pages():
+    """ص17: كسر الدعم وبقي تحته = ضعف وليس سحب سيولة → متابعة، مع «لماذا غير جاهز» بصفحاتها و«متى يكون جاهزاً» (ص70)."""
+    s = analyze_pivot("E", demo.scenario_failed(END))
+    assert s is not None and s.status == WATCH
+    assert any("ص17" in w and "وبقي تحته" in w for w in s.waiting_for)
+    assert all("(ص" in w for w in s.waiting_for[:3])
+    assert "ص86" in s.meta["when_ready"] and "ص54" in s.meta["when_ready"]
+
+
+def test_sweep_then_reclaim_and_flag_retest_complete():
+    """سحب سيولة ثم استرداد (ص17، ص86) و🚩 اختراق بعد قاعدة ثم إعادة اختبار ناجحة (ص79، ص68، ص86 دخول 3)."""
+    s = analyze_pivot("B", demo.scenario_sweep(END))
+    assert s is not None and s.status == READY and s.setup == "SWEEP"
+    f = analyze_pivot("F", demo.scenario_base_flag(END))
+    assert f is not None and f.setup == "BASE_RETEST" and f.status == READY
+    assert f.stop < f.entry_low <= f.trigger_level <= f.entry_high and f.t1 > f.entry_high
+
+
+def test_breakout_without_retest_never_signals():
+    """ص20: «لا تشترِ الاختراق؛ اشترِ الثبات أو إعادة الاختبار الناجحة»."""
+    df = demo.scenario_base_flag(END).iloc[:-2].copy()
+    s = analyze_pivot("F", df)
+    assert s is None or s.status != READY
+
+
+def test_daily_analysis_uses_completed_bars_only():
+    """ص54/ص90: التحليل على الشموع المكتملة؛ شمعة اليوم الجارية ما تكمل الشروط، والسعر الحالي يُستخدم للوقف فقط."""
+    df = demo.scenario_bounce(END)
+    closed = analyze_pivot("A", df)
+    today = pd.DataFrame([[1.268, 1.27, 1.10, 1.12, 900_000.0]], columns=df.columns,
+                         index=[df.index[-1] + pd.Timedelta(days=1)])
+    s = analyze_pivot("A", pd.concat([df, today]), 0.5, True)
+    assert s.meta["p86"]["bar_date"] == closed.meta["p86"]["bar_date"]
+    assert s.price == pytest.approx(1.12) and s.status == WATCH
+    assert any("تحت الوقف" in w for w in s.waiting_for)
+
+
+def _gate_sig(t1):
+    from faisal_scanner.pivot import Signal, apply_gate
+    s = Signal(ticker="T", setup="BOUNCE", setup_ar="ارتداد", price=2.25, t1=t1)
+    s.meta = {"zone": [2.24, 2.2624], "static_wait": [],
+              "p86": {"critical": 2.18, "checks": {k: [True, "ok"] for k in M.ORDER}}}
+    return apply_gate(s)
+
+
+def test_direct_resistance_means_reward_not_above_risk():
+    """ص82 «ارتداد أعلى من المخاطرة» + ص88 «الدخول تحت مقاومة مباشرة» (NERV 27 أكتوبر: الدخول 2.25 وقمة اليوم 2.335
+    ووقف تحت 2.18): العائد من متوسط الطلبات لأول مقاومة لازم يتعدى الخسارة للوقف."""
+    s = _gate_sig(2.30)
+    assert s.status == WATCH and any("مقاومة مباشرة" in w for w in s.waiting_for)
+    s = _gate_sig(2.40)
+    assert s.status == READY and s.rr > 1
+
+
+def test_four_hour_candle_completes_p86():
+    """ص90 «قراءة الشموع تتم ع جميع الفريمات / اقربها 4 ساعات»: اليومي المكتمل ما فيه شمعة الانعكاس بعد،
+    وشمعة 4 ساعات (9:30–13:30) مطرقة عند الدعم بفوليوم فوق المعتاد → تكتمل الشروط على فريم 4 ساعات."""
+    from faisal_scanner.main import upgrade_4h
+    df = demo.scenario_bounce(END).iloc[:-1].copy()
+    df.index = df.index + pd.Timedelta(days=1)
+    day = (df.index[-1] + pd.Timedelta(days=3)).date()
+    s = analyze_pivot("A", df)
+    assert s is not None and s.status == WATCH and not s.meta["p86"]["complete"]
+    rows = [("09:30", 1.214, 1.216, 1.17, 1.18, 400_000)]
+    rows += [(f"{h:02d}:{m:02d}", 1.18 + 0.006 * i, 1.19 + 0.006 * i, 1.175 + 0.006 * i, 1.186 + 0.006 * i, 60_000)
+             for i, (h, m) in enumerate([(9, 45)] + [(h, m) for h in (10, 11, 12) for m in (0, 15, 30, 45)]
+                                        + [(13, 0), (13, 15)])]
+    bars = _bars15(day, rows)
+    early = datetime.combine(day, datetime.strptime("13:20", "%H:%M").time(), tzinfo=ET)
+    assert upgrade_4h(s, bars, early, 0) is False  # الشمعة ما اكتملت
+    now = datetime.combine(day, datetime.strptime("13:45", "%H:%M").time(), tzinfo=ET)
+    assert upgrade_4h(s, bars, now, 0) is True
+    assert s.meta["p86"]["frame"] == "4 ساعات" and s.status == READY, s.waiting_for
+    assert s.meta["ladder"]["critical"] <= 1.17 + 1e-9
+
+
+def test_selection_follows_faisal_filter_and_template():
+    """ص61 Float Under 20M، ص6 Under 300M، والقالب (ص90–94): الجنسية، النشاط، التقسيم وافتتاحه وأعلاه، الشورت المتاح،
+    الفلوت، عدد الأسهم، والسلوك السابق."""
+    from faisal_scanner.main import enrich, data_line
+    from faisal_scanner.pivot import Signal
+    df = demo.scenario_bounce(END)
+    split_ts = df.index[-40].timestamp()
+    s = Signal(ticker="NERV", price=2.24)
+    assert enrich(s, {"NERV": {"floatShares": 34.3e6, "sharesOutstanding": 47.7e6}}, {}) is False
+    s = Signal(ticker="X", price=2.24)  # عدد الأسهم كبير والفلووت مجهول → يبقى بالقائمة بدون إشارة (تحقق يدوي)
+    assert enrich(s, {"X": {"sharesOutstanding": 47.7e6}}, {}) is True
+    assert any("الفلووت غير معروف" in fl for fl in s.flags)
+    s = Signal(ticker="Y", price=1.5)
+    f = {"Y": {"floatShares": 849e3, "sharesOutstanding": 1.2e6, "country": "Israel", "industry": "Software",
+               "lastSplitFactor": "1:10", "lastSplitDate": split_ts, "marketCap": 3e6}}
+    assert enrich(s, f, {}, df) is True
+    assert any(t.startswith("تقسيم عكسي حديث 1:10") and "افتتح بعده" in t for t in s.tags)
+    s.meta["runner"] = {"is_runner": True, "pct": 4.21, "from": 2.39, "from_date": "2025-10-15", "to": 12.46,
+                        "to_date": "2025-10-21"}
+    line = data_line(s.meta)
+    for part in ("إسرائيلي", "Software", "قسم 1:10", "افتتاح", "اعلى", "الشورت المتاح: غير متوفر", "فلوت 0.85M",
+                 "عدد الأسهم 1.20M", "سبق صعد من 2.39"):
+        assert part in line, (part, line)
+    c = Signal(ticker="C", price=1.5)
+    enrich(c, {"C": {"floatShares": 2e6, "country": "China"}}, {})
+    assert any("صيني" in fl for fl in c.flags)
+
+
+def test_runner_is_100_percent_and_just_doubled_is_unsafe():
+    """ص10: Former Runner = سبق انفجر 100%+ (+36% ما يكفي)؛ ص59: «توه مدبل… غير امن الان»."""
+    idx = pd.bdate_range("2026-01-01", periods=60, tz=ET)
+    base = np.full(60, 2.5)
+    df = pd.DataFrame({"open": base, "high": base * 1.02, "low": base * 0.98, "close": base, "volume": 1e5}, index=idx)
+    assert M.runner(df)["is_runner"] is False
+    df.iloc[30, df.columns.get_loc("high")] = 2.5 * 1.36
+    assert M.runner(df)["is_runner"] is False
+    df.iloc[31, df.columns.get_loc("high")] = 12.46
+    r = M.runner(df)
+    assert r["is_runner"] and r["pct"] > 3
+    assert M.just_doubled(df) is None
+    df.iloc[-2, df.columns.get_loc("high")] = 5.2
+    assert M.just_doubled(df) is not None
+
+
+def test_pivot_alert_text_has_no_ready_word_and_explains():
+    """نص الإشارة: بدون «جاهز»، فيه طلبات Limit 1/2/3، الخروج بكسر الدعم الحرج، وشروط ص86 كلها مع حالتها."""
+    from faisal_scanner import notify
+    s = analyze_pivot("A", demo.scenario_bounce(END))
+    s.meta.update({"float": 2e6, "country_ar": "أمريكي"})
+    d = s.to_dict()
+    body = notify.alert_text(d, "17:00 الرياض")
+    title = notify.alert_title(d)
+    assert "جاهز" not in body and "جاهز" not in title
+    assert "طلبات Limit" in body and "1)" in body and "3)" in body and "كسر الدعم الحرج" in body
+    assert body.count("✅") == 7 and "ص86" in body and "الشورت المتاح" in body
+
+
+def test_pivot_signal_once_per_completion_bar(tmp_path, monkeypatch):
+    """الإشارة مرة وحدة لكل شمعة اكتمال (ما تتكرر بكرة على نفس الشمعة)، في الجلسة الرسمية أو بعد الإغلاق — لا بري (ص10)."""
+    from faisal_scanner import main
+    monkeypatch.setattr(main.C, "RESULTS_DIR", str(tmp_path))
+    s = {"ticker": "VIP", "setup": "BOUNCE", "kind": "pivot", "price": 1.25, "stop": 1.19, "t1": 1.34,
+         "entry_low": 1.22, "entry_high": 1.258, "setup_ar": "ارتداد", "meta": {"p86": {"bar_date": "2026-10-20"}}}
+    d1 = datetime(2026, 10, 20, 16, 30, tzinfo=ET)
+    assert main.update_alert_state({"ready": [s], "faisal": [], "session": "pre"}, d1.replace(hour=8)) == []
+    assert main.update_alert_state({"ready": [s], "faisal": [], "session": "post"}, d1) == ["VIP"]
+    assert main.update_alert_state({"ready": [s], "faisal": [], "session": "post"}, d1) == []
+    d2 = datetime(2026, 10, 21, 10, 0, tzinfo=ET)
+    assert main.update_alert_state({"ready": [s], "faisal": [], "session": "regular"}, d2) == []
+    s2 = dict(s, meta={"p86": {"bar_date": "2026-10-21 09:30"}})
+    assert main.update_alert_state({"ready": [s2], "faisal": [], "session": "regular"}, d2) == ["VIP"]
+
+
+def test_weekly_list_is_watch_only(tmp_path, monkeypatch):
+    """ص54 «اي سهم يتم طرحه ارتكاز غير جاهز للدخول، فقط متابعه»: القائمة بدون تنبيهات دخول، وفيها لماذا/متى والطلبات."""
+    from faisal_scanner import weekly, faisal_watch
+    monkeypatch.setattr(weekly, "FILE", str(tmp_path / "weekly.json"))
+    monkeypatch.setattr(weekly.C, "RESULTS_DIR", str(tmp_path))
+    daily = {"A": demo.scenario_bounce(END), "E": demo.scenario_failed(END), "B": demo.scenario_sweep(END)}
+    pivots = [s for s in (analyze_pivot(t, d) for t, d in daily.items()) if s]
+    w = weekly.build(pivots, daily, {}, datetime(2026, 10, 15, 18, 0, tzinfo=ET), news={})
+    assert w["items"]
+    for it in w["items"]:
+        lv = it["levels"]
+        assert len(lv["orders"]) == 3 and lv["stop"] < lv["critical"] <= lv["demand_low"]
+        assert it["ready_when"] and it["p86"]["checks"]
+    md = (tmp_path / "weekly.md").read_text(encoding="utf-8")
+    assert "متابعة فقط" in md and "لماذا غير جاهز" in md or "متى يكون جاهزاً" in md
+    ents = weekly.load_entries(str(tmp_path / "weekly.json"), max_age_days=10**6)
+    for e in ents:
+        for px in (e["demand_low"], e["demand_high"] * 1.3, (e["stop"] or e["demand_low"]) * 0.9):
+            assert faisal_watch.evaluate(e, px, None, "", zone_ok=True, hold_ok=True, stop_ok=True)["alert"] is False
+
+
+def test_demo_end_to_end(tmp_path, monkeypatch):
+    import faisal_scanner.config as C
+    from faisal_scanner import main
+    monkeypatch.setattr(C, "RESULTS_DIR", str(tmp_path))
+    res = main.run_once(demo=True)
+    md = main.write_outputs(res)
+    assert "DEMOA" in {s["ticker"] for s in res["ready"]}
+    assert "اكتملت شروط ص86" in md and "جاهز الآن" not in md
+    assert main.run_once(demo=True)["new_alerts"] == []

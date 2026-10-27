@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-10-27T17:32:25.537793-04:00",
+ "generated_at_et": "2026-10-27T18:33:23.437141-04:00",
  "items": [
   {
    "ticker": "BDRX",
-   "score": 12.0,
+   "score": 12.5,
    "price": 3.93,
-   "ext_price": 4.0,
+   "ext_price": 4.0332,
    "name": "Biodexa Pharmaceuticals Plc",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -76,6 +76,7 @@
     "frame": "يومي",
     "bar_date": "2026-10-27",
     "met": [
+     "ma",
      "rsi",
      "macd",
      "support",
@@ -86,13 +87,12 @@
      "target"
     ],
     "miss": [
-     "ma",
      "volume"
     ],
     "checks": {
      "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 3.9، وأغلق تحت الدعم الحرج 3.48"
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 3.9"
      ],
      "rsi": [
       true,
@@ -133,7 +133,6 @@
     }
    },
    "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 3.9، وأغلق تحت الدعم الحرج 3.48 (ص66/ص82/ص84/ص86)",
     "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)"
    ],
    "ready_when": "رجوع لاختبار 3.5 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 3.53–3.43",
@@ -1159,7 +1158,7 @@
    "ticker": "HCWB",
    "score": 10.5,
    "price": 1.14,
-   "ext_price": 1.14,
+   "ext_price": 1.11,
    "name": "HCW Biologics Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -1881,7 +1880,7 @@
    "ticker": "SMX",
    "score": 9.5,
    "price": 1.79,
-   "ext_price": 1.81,
+   "ext_price": 1.7576,
    "name": "SMX (Security Matters) Public Limited Company",
    "type": [
     "فلووت منخفض جداً",
@@ -2743,7 +2742,7 @@
    "ticker": "CNSY",
    "score": 9.0,
    "price": 1.66,
-   "ext_price": 1.69,
+   "ext_price": 1.651,
    "name": "Cerenome, Inc.",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -2913,15 +2912,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Why Brown & Brown Stock Slumped by 5% Today"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Stocks Rally as Crude Oil Prices Ease and FOMC Results Awaited"
     ],
     [
      "Oct 27, 2026",
-     "STAG Industrial, Inc. Reports Third Quarter 2026 Results and Authorizes $250 million Share Repurchase Program"
+     "Stocks See Support as Crude Oil Prices Ease and FOMC Awaited"
     ]
    ],
    "levels": {
@@ -3308,7 +3307,7 @@
    "ticker": "BDAI",
    "score": 8.5,
    "price": 2.13,
-   "ext_price": 2.1133,
+   "ext_price": 2.05,
    "name": "Biddance AI Systems, Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -3452,7 +3451,7 @@
    "ticker": "PCSA",
    "score": 8.5,
    "price": 1.82,
-   "ext_price": 1.82,
+   "ext_price": 1.83,
    "name": "Processa Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -3598,7 +3597,7 @@
    "ticker": "IVF",
    "score": 8.5,
    "price": 0.6161,
-   "ext_price": 0.609,
+   "ext_price": 0.6089,
    "name": "INVO Fertility, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -3926,15 +3925,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Why Brown & Brown Stock Slumped by 5% Today"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Stocks Rally as Crude Oil Prices Ease and FOMC Results Awaited"
     ],
     [
      "Oct 27, 2026",
-     "STAG Industrial, Inc. Reports Third Quarter 2026 Results and Authorizes $250 million Share Repurchase Program"
+     "Stocks See Support as Crude Oil Prices Ease and FOMC Awaited"
     ]
    ],
    "levels": {
@@ -5071,15 +5070,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Why Brown & Brown Stock Slumped by 5% Today"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Stocks Rally as Crude Oil Prices Ease and FOMC Results Awaited"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Stocks See Support as Crude Oil Prices Ease and FOMC Awaited"
     ]
    ],
    "levels": {
@@ -5654,15 +5653,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -6051,6 +6050,149 @@
    ]
   },
   {
+   "ticker": "NWTG",
+   "score": 7.0,
+   "price": 1.06,
+   "ext_price": null,
+   "name": "Newton Golf Company, Inc.",
+   "type": [
+    "بعد ارتداد أول — ينتظر Retest",
+    "فلووت منخفض جداً",
+    "نموذج W"
+   ],
+   "setup_ar": "إعادة اختبار خط العنق بنجاح",
+   "status": "WATCH",
+   "data": {
+    "float": 4731532,
+    "shares": 5654478,
+    "last_split": "عكسي 1:30 (2025-03-17)",
+    "split": {
+     "factor": "1:30",
+     "date": "2025-03-17",
+     "reverse": true,
+     "days": 589,
+     "recent": false
+    },
+    "country_ar": "أمريكي",
+    "industry": "Leisure",
+    "short_available": null,
+    "runner": {
+     "pct": 1.3658537489541018,
+     "from": 0.8199999928474426,
+     "from_date": "2025-11-13",
+     "to": 1.940000057220459,
+     "to_date": "2025-12-04",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Jun 23, 2025",
+     "NEWTON GOLF Celebrates Miguel Ángel Jiménez's Victory Using Fast Motion Shaft at Kaulig Companies Championship"
+    ],
+    [
+     "Jun 18, 2025",
+     "NEWTON GOLF Partners with PGA Tour Champion Miguel Ángel Jiménez to Showcase Fast Motion Shaft Technology"
+    ],
+    [
+     "Jun 10, 2025",
+     "NEWTON GOLF Appoints Jeff Clayborne as Chief Financial Officer to Drive Financial Strategy and Growth"
+    ]
+   ],
+   "levels": {
+    "demand_low": 1.0388,
+    "demand_high": 1.0706,
+    "orders": [
+     1.07,
+     1.06,
+     1.04
+    ],
+    "critical": 1.04,
+    "stop": 1.03,
+    "risk": 0.025236593059936863,
+    "wash_low": 0.99,
+    "wash_high": 1.02,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.059999942779541,
+    "t1": 1.0800000429153442,
+    "t2": 1.138819991350174
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-10-27",
+    "met": [
+     "ma",
+     "macd",
+     "support",
+     "volume",
+     "pressure",
+     "red"
+    ],
+    "miss": [
+     "rsi",
+     "retest",
+     "candle",
+     "target"
+    ],
+    "checks": {
+     "ma": [
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.04"
+     ],
+     "rsi": [
+      false,
+      "أدنى RSI 35 (الحالي 51)"
+     ],
+     "macd": [
+      true,
+      "تقاطع إيجابي حديث"
+     ],
+     "support": [
+      true,
+      "المقاومة المخترقة 1.06 صارت دعماً"
+     ],
+     "retest": [
+      false,
+      "ما رجع لاختبار 1.06 بعد أو ما ثبت فوقه"
+     ],
+     "volume": [
+      true,
+      "الاختراق كان بفوليوم أعلى من المعتاد"
+     ],
+     "candle": [
+      false,
+      "ما فيه شمعة ثبات على إعادة الاختبار"
+     ],
+     "pressure": [
+      true,
+      "هبط 29% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      false,
+      "تحت مقاومة مباشرة 1.08 (+2.2%) والخسارة −2.5%"
+     ]
+    }
+   },
+   "not_ready": [
+    "RSI وصل 23–27: أدنى RSI 35 (الحالي 51) (ص65/ص86)",
+    "اختبار الدعم وفشل الكسر: ما رجع لاختبار 1.06 بعد أو ما ثبت فوقه (ص86/ص17)",
+    "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)",
+    "محفز أو هدف علوي: تحت مقاومة مباشرة 1.08 (+2.2%) والخسارة −2.5% (ص66/ص84/ص88)"
+   ],
+   "ready_when": "رجوع لاختبار 1.06 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 1.07–1.04",
+   "flags": [],
+   "tags": [
+    "فلووت 4.73M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 137% من 0.82 (2025-11-13) إلى 1.94 (2025-12-04)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "HSCS",
    "score": 7.0,
    "price": 3.28,
@@ -6235,15 +6377,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -6802,15 +6944,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -7198,149 +7340,6 @@
    ]
   },
   {
-   "ticker": "NWTG",
-   "score": 6.5,
-   "price": 1.06,
-   "ext_price": null,
-   "name": "Newton Golf Company, Inc.",
-   "type": [
-    "بعد ارتداد أول — ينتظر Retest",
-    "فلووت منخفض جداً",
-    "نموذج W"
-   ],
-   "setup_ar": "إعادة اختبار خط العنق بنجاح",
-   "status": "WATCH",
-   "data": {
-    "float": 4731532,
-    "shares": 5654478,
-    "last_split": "عكسي 1:30 (2025-03-17)",
-    "split": {
-     "factor": "1:30",
-     "date": "2025-03-17",
-     "reverse": true,
-     "days": 589,
-     "recent": false
-    },
-    "country_ar": "أمريكي",
-    "industry": "Leisure",
-    "short_available": null,
-    "runner": {
-     "pct": 1.3658537489541018,
-     "from": 0.8199999928474426,
-     "from_date": "2025-11-13",
-     "to": 1.940000057220459,
-     "to_date": "2025-12-04",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Jun 23, 2025",
-     "NEWTON GOLF Celebrates Miguel Ángel Jiménez's Victory Using Fast Motion Shaft at Kaulig Companies Championship"
-    ],
-    [
-     "Jun 18, 2025",
-     "NEWTON GOLF Partners with PGA Tour Champion Miguel Ángel Jiménez to Showcase Fast Motion Shaft Technology"
-    ],
-    [
-     "Jun 10, 2025",
-     "NEWTON GOLF Appoints Jeff Clayborne as Chief Financial Officer to Drive Financial Strategy and Growth"
-    ]
-   ],
-   "levels": {
-    "demand_low": 1.0388,
-    "demand_high": 1.0706,
-    "orders": [
-     1.07,
-     1.06,
-     1.04
-    ],
-    "critical": 1.04,
-    "stop": 1.03,
-    "risk": 0.025236593059936863,
-    "wash_low": 0.99,
-    "wash_high": 1.02,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.059999942779541,
-    "t1": 1.0800000429153442,
-    "t2": 1.138819991350174
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-10-27",
-    "met": [
-     "macd",
-     "support",
-     "volume",
-     "pressure",
-     "red"
-    ],
-    "miss": [
-     "ma",
-     "rsi",
-     "retest",
-     "candle",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.04، وأغلق تحت الدعم الحرج 1.05"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 35 (الحالي 51)"
-     ],
-     "macd": [
-      true,
-      "تقاطع إيجابي حديث"
-     ],
-     "support": [
-      true,
-      "المقاومة المخترقة 1.06 صارت دعماً"
-     ],
-     "retest": [
-      false,
-      "ما رجع لاختبار 1.06 بعد أو ما ثبت فوقه"
-     ],
-     "volume": [
-      true,
-      "الاختراق كان بفوليوم أعلى من المعتاد"
-     ],
-     "candle": [
-      false,
-      "ما فيه شمعة ثبات على إعادة الاختبار"
-     ],
-     "pressure": [
-      true,
-      "هبط 29% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 1.08 (+2.2%) والخسارة −2.5%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.04، وأغلق تحت الدعم الحرج 1.05 (ص66/ص82/ص84/ص86)",
-    "RSI وصل 23–27: أدنى RSI 35 (الحالي 51) (ص65/ص86)",
-    "اختبار الدعم وفشل الكسر: ما رجع لاختبار 1.06 بعد أو ما ثبت فوقه (ص86/ص17)",
-    "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)"
-   ],
-   "ready_when": "رجوع لاختبار 1.06 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 1.07–1.04",
-   "flags": [],
-   "tags": [
-    "فلووت 4.73M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 137% من 0.82 (2025-11-13) إلى 1.94 (2025-12-04)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
    "ticker": "STI",
    "score": 6.5,
    "price": 4.18,
@@ -7377,15 +7376,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -8372,15 +8371,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -9081,15 +9080,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -10612,15 +10611,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -11042,15 +11041,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -11601,15 +11600,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -11985,7 +11984,7 @@
    "ticker": "TCRT",
    "score": 4.5,
    "price": 2.06,
-   "ext_price": 2.0393,
+   "ext_price": 2.09,
    "name": "Alaunos Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -12130,7 +12129,7 @@
    "ticker": "LPCN",
    "score": 4.5,
    "price": 1.46,
-   "ext_price": 1.451,
+   "ext_price": 1.4503,
    "name": "Lipocine Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -12578,15 +12577,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -12723,15 +12722,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -12833,7 +12832,7 @@
    "ticker": "AGMH",
    "score": 4.0,
    "price": 0.5049,
-   "ext_price": 0.49,
+   "ext_price": 0.5,
    "name": "AGM Group Holdings Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -13265,7 +13264,7 @@
    "ticker": "ZYBT",
    "score": 3.5,
    "price": 1.44,
-   "ext_price": 1.43,
+   "ext_price": 1.41,
    "name": "Zhengye Biotechnology Holding Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -13844,15 +13843,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {
@@ -15380,15 +15379,15 @@
    "news": [
     [
      "Oct 27, 2026",
-     "Stocks See Support as Crude Oil Prices Ease"
+     "Caesars Entertainment, Inc. Reports Third Quarter 2026 Results and Net Loss of $123 million"
     ],
     [
      "Oct 27, 2026",
-     "Why Noble Stock Tumbled on Tuesday"
+     "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results"
     ],
     [
      "Oct 27, 2026",
-     "Zurn Elkay Water Solutions Reports Third Quarter 2026 Financial Results"
+     "Rocky Brands, Inc. Reports Third Quarter 2026 Net Sales of $138.8 Million"
     ]
    ],
    "levels": {

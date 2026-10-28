@@ -1,4 +1,4 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-10-28T18:07 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-10-28T19:07 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
@@ -30,7 +30,7 @@
 - متى يكون جاهزاً: اختبار منطقة 2.15–2.17 وفشل كسرها (أو سحب سيولة تحت 2.15 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.72–1.94، ص54)
 
 ## $ICCM — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 0.9775 (بري/أفتر 0.997) | سحب سيولة ثم استرداد الدعم
+- السعر 0.9775 (بري/أفتر 0.9999) | سحب سيولة ثم استرداد الدعم
 - البيانات: إسرائيلي - Medical Devices - قسم 1:30 (2026-06-04) افتتاح 4.31 - اعلى 9.54 - الشورت المتاح: غير متوفر - فلوت 2.52M - عدد الأسهم 4.64M - سبق صعد من 2.12 (2026-06-16) إلى 9.54 (2026-06-17) +350%
 - الأخبار: IceCure Secures China NMPA Approval for ProSense Cryoablation System (Sep 11, 2026) | IceCure Medical Wins Regulatory Approval To Market ProSense In China (Sep 10, 2026) | IceCure Medical Gains IRB Approval For ChoICE Breast Cancer Cryoablation Study As West Cancer Center (Aug 20, 2026)
 - منطقة الطلب 0.96–0.9696 | طلبات Limit: 0.9695 / 0.9648 / 0.96 | الخروج: إغلاق يومي تحت 0.87 | الأهداف 1.04 / 1.12 | منطقة أعمق (غسل) 0.816–0.864
@@ -79,7 +79,7 @@
 - متى يكون جاهزاً: اختبار منطقة 0.632–0.6383 وفشل كسرها (أو سحب سيولة تحت 0.632 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5056–0.5688، ص54)
 
 ## $YYAI — فلووت منخفض جداً / قاع نظيف
-- السعر 0.6889 (بري/أفتر 0.703) | ارتداد مؤكد من الدعم
+- السعر 0.6889 (بري/أفتر 0.6843) | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Software - Infrastructure - قسم 1:20 (2026-08-17) افتتاح 1.42 - اعلى 1.57 - الشورت المتاح: غير متوفر - فلوت 4.57M - عدد الأسهم 4.58M - سبق صعد من 616.0 (2025-12-31) إلى 1536.0 (2026-01-26) +149%
 - الأخبار: Friday 1/23 Insider Buying Report: YYAI, COSM (Jan 23, 2026) | Thursday 1/8 Insider Buying Report: NTLA, YYAI (Jan 8, 2026) | Connexa, JuCoin Ink $500 Mln Deal To Launch New Cryptocurrency Exchange (Aug 25, 2025)
 - منطقة الطلب 0.642–0.659 | طلبات Limit: 0.6589 / 0.6505 / 0.6421 | الخروج: إغلاق يومي تحت 0.642 | الأهداف 0.7015 / 0.725 | منطقة أعمق (غسل) 0.5457–0.5778
@@ -172,7 +172,7 @@
 - ⚠️ سهم صيني عالي التذبذب، سعر منخفض جداً — سبريد واسع
 
 ## $CNSY — طبي — الخبر يحرّكه / نموذج W
-- السعر 1.74 (بري/أفتر 1.76) | نموذج W قيد التكوين
+- السعر 1.74 (بري/أفتر 1.73) | نموذج W قيد التكوين
 - البيانات: أمريكي - Biotechnology - قسم 1:25 (2026-04-02) افتتاح 3.75 - اعلى 8.0 - الشورت المتاح: غير متوفر - فلوت 7.50M - عدد الأسهم 7.59M - سبق صعد من 2.9 (2026-04-07) إلى 8.0 (2026-04-22) +176%
 - الأخبار: New Strong Sell Stocks for October 22nd (Oct 22, 2026) | New Strong Sell Stocks for October 15th (Oct 15, 2026) | Cerenome Provides Q3 Update On CNSide Diagnostics; Stock Up (Sep 30, 2026)
 - منطقة الطلب 1.51–1.581 | طلبات Limit: 1.58 / 1.54 / 1.51 | الخروج: إغلاق يومي تحت 1.51 | الأهداف 1.789 / 1.91 | منطقة أعمق (غسل) 1.284–1.359
@@ -182,7 +182,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $DGNX — بعد ارتداد أول — ينتظر Retest
-- السعر 1.46 (بري/أفتر 1.43) | سحب سيولة ثم استرداد الدعم
+- السعر 1.46 (بري/أفتر 1.45) | سحب سيولة ثم استرداد الدعم
 - البيانات: بريطاني - Consulting Services - قسم 1:8 (2026-04-28) افتتاح 3.66 - اعلى 3.81 - الشورت المتاح: غير متوفر - فلوت 6.62M - عدد الأسهم 50.1M - سبق صعد من 0.85 (2026-06-23) إلى 1.88 (2026-06-29) +121%
 - الأخبار: Diginex CEO Mark Blick Steps Down; Appoints Lubomila Jordanova As Successor (Jan 28, 2026) | Diginex Inks MOU To Acquire The Remedy Project For Undisclosed Terms (Nov 21, 2025) | Diginex Limited Reports 57% Revenue Increase and Strategic Acquisitions in Fiscal Year 2025 Results (Jul 11, 2025)
 - منطقة الطلب 1.31–1.33 | طلبات Limit: 1.33 / 1.32 / 1.31 | الخروج: إغلاق يومي تحت 1.12 | الأهداف 1.585 / 1.64 | منطقة أعمق (غسل) 1.148–1.183
@@ -327,7 +327,7 @@
 - ⚠️ رفض عند MA20 (ص64)، سهم صيني عالي التذبذب
 
 ## $INHD — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
-- السعر 4.07 (بري/أفتر 3.97) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 4.07 (بري/أفتر 3.81) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Steel - قسم 1:20 (2026-05-04) افتتاح 1.62 - اعلى 43.37 - الشورت المتاح: غير متوفر - فلوت 2.49M - عدد الأسهم 2.52M - سبق صعد من 1.01 (2026-05-28) إلى 43.37 (2026-06-08) +4194%
 - الأخبار: Tuesday Sector Laggards: General Contractors & Builders, Construction Materials & Machinery Stocks (Sep 9, 2025) | INNO HOLDINGS INC. and New Life Technology Development Co Ltd Announce Strategic Cooperation on Innovative B2B Marketplace Platform (May 12, 2025)
 - منطقة الطلب 3.4–3.434 | طلبات Limit: 3.43 / 3.42 / 3.41 | الخروج: إغلاق يومي تحت 3.4 | الأهداف 4.18 / 4.223 | منطقة أعمق (غسل) 3.011–3.102
@@ -337,7 +337,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 14 يوم (طار إلى 6.87 وأغلق 3.83 بفوليوم 173x)، اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم صيني عالي التذبذب
 
 ## $NCT — صيني عالي التذبذب ⚠️
-- السعر 1.56 (بري/أفتر 1.53) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 1.56 (بري/أفتر 1.56) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Marine Shipping - قسم 1:25 (2026-09-17) افتتاح 8.8 - اعلى 9.32 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 1.02M - سبق صعد من 32.5 (2026-07-07) إلى 98.75 (2026-07-24) +204%
 - الأخبار: Kirby: 3 Key Takeaways for Long-Term Investors (Oct 28, 2026) | Stocks Little Changed After Divided Fed Holds Rates Steady (Oct 28, 2026) | Natural Health Trends Corp. Reports Third Quarter 2026 Financial Results (Oct 28, 2026)
 - منطقة الطلب 1.29–1.31 | طلبات Limit: 1.3 / 1.3 / 1.29 | الخروج: إغلاق يومي تحت 1.22 | الأهداف 1.57 / 1.69 | منطقة أعمق (غسل) 1.238–1.271
@@ -423,7 +423,7 @@
 - ⚠️ سهم صيني عالي التذبذب
 
 ## $LSTA — طبي — الخبر يحرّكه / نموذج W
-- السعر 1.06 (بري/أفتر 1.08) | نموذج W قيد التكوين
+- السعر 1.06 (بري/أفتر 1.04) | نموذج W قيد التكوين
 - البيانات: أمريكي - Biotechnology - قسم 1:15 (2022-09-15) - الشورت المتاح: غير متوفر - فلوت 6.76M - عدد الأسهم 10.8M - سبق صعد من 1.81 (2025-12-29) إلى 4.89 (2026-01-27) +170%
 - الأخبار: Kirby: 3 Key Takeaways for Long-Term Investors (Oct 28, 2026) | Stocks Little Changed After Divided Fed Holds Rates Steady (Oct 28, 2026) | Natural Health Trends Corp. Reports Third Quarter 2026 Financial Results (Oct 28, 2026)
 - منطقة الطلب 0.96–0.9792 | طلبات Limit: 0.9791 / 0.9696 / 0.96 | الخروج: إغلاق يومي تحت 0.96 | الأهداف 1.08 / 1.117 | منطقة أعمق (غسل) 0.816–0.864
@@ -512,7 +512,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $OLOX — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
-- السعر 0.7904 (بري/أفتر 0.7801) | سحب سيولة ثم استرداد الدعم
+- السعر 0.7904 (بري/أفتر 0.772) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Metal Fabrication - قسم 1:10 (2026-05-08) افتتاح 4.7 - اعلى 11.4 - الشورت المتاح: غير متوفر - فلوت 1.32M - عدد الأسهم 1.66M - سبق صعد من 18.1 (2025-11-06) إلى 93.4 (2025-11-20) +416%
 - الأخبار: Safe & Green Holdings Corp. Enters Equity Purchase Agreement to Acquire IPD Industries and Wildboy Holdings (Oct 21, 2026) | Safe & Green Holdings Jumps 41% On Olenox Partnership To Boost Infrastructure Reliability (Oct 23, 2025) | Safe & Green Holdings Corp. Engages ShareIntel to Investigate Potential Illegal Trading Activity (Jun 10, 2025)
 - منطقة الطلب 0.772–0.7797 | طلبات Limit: 0.7797 / 0.7759 / 0.7721 | الخروج: إغلاق يومي تحت 0.7596 | الأهداف 0.812 / 0.8584 | منطقة أعمق (غسل) 0.6841–0.7048
@@ -795,7 +795,7 @@
 - ⚠️ سهم صيني عالي التذبذب
 
 ## $JBDI — ارتكاز
-- السعر 2.4 (بري/أفتر 2.42) | ارتداد مؤكد من الدعم
+- السعر 2.4 (بري/أفتر 2.36) | ارتداد مؤكد من الدعم
 - البيانات: سنغافوري - Specialty Retail - قسم 1:2 (2026-06-30) افتتاح 1.27 - اعلى 9.5 - الشورت المتاح: غير متوفر - فلوت 5.04M - عدد الأسهم 9.51M - سبق صعد من 0.803 (2026-10-07) إلى 9.5 (2026-10-13) +1083%
 - الأخبار: JBDI Holdings Limited Regains Compliance with Nasdaq Listing Requirements (Jun 9, 2025) | JBDI Holdings Limited Regains Compliance with Nasdaq Minimum Bid Price Requirement, Faces Interim Filing Notice (Jun 6, 2025) | JBDI Holdings Limited Announces Share Repurchase Program Worth Up to US$1 Million (May 5, 2025)
 - منطقة الطلب 2.2–2.222 | طلبات Limit: 2.22 / 2.21 / 2.21 | الخروج: إغلاق يومي تحت 2.2 | الأهداف 2.435 / 2.56 | منطقة أعمق (غسل) 1.881–1.938
@@ -805,7 +805,7 @@
 - ⚠️ توه مدبل: من 0.803 إلى 2.89، شمعة ضخ/تصريف قبل 8 يوم (طار إلى 3.95 وأغلق 2.59 بفوليوم 756x)
 
 ## $TCRT — طبي — الخبر يحرّكه / فلووت منخفض جداً
-- السعر 2.13 (بري/أفتر 2.13) | سحب سيولة ثم استرداد الدعم
+- السعر 2.13 (بري/أفتر 2.21) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2024-07-18) - الشورت المتاح: غير متوفر - فلوت 1.20M - عدد الأسهم 3.44M - سبق صعد من 0.72 (2026-10-06) إلى 4.4 (2026-10-14) +511%
 - الأخبار: Alaunos Therapeutics, Inc. Regains Compliance with Nasdaq Stockholders' Equity Requirement of $2,500,000 (Oct 23, 2026) | Alaunos Therapeutics, Inc. Believes It Regained Nasdaq Compliance Following $350.0 million Financing (Oct 22, 2026) | Paragon Labs Adds Former Apogee Leaders As Alaunos Completes Velaris Acquisition; Stock Up (Oct 13, 2026)
 - منطقة الطلب 1.92–1.98 | طلبات Limit: 1.98 / 1.95 / 1.92 | الخروج: إغلاق يومي تحت 1.88 | الأهداف 2.19 / 2.26 | منطقة أعمق (غسل) 1.812–1.867
@@ -935,7 +935,7 @@
 - ⚠️ رفض عند MA20 (ص64)، اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $ZYBT — صيني عالي التذبذب ⚠️ / طبي — الخبر يحرّكه
-- السعر 1.42 (بري/أفتر 1.41) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 1.42 (بري/أفتر 1.39) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني - Drug Manufacturers - Specialty & Generic - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 6.26M - عدد الأسهم 47.4M - سبق صعد من 0.616 (2026-07-02) إلى 8.01 (2026-07-20) +1200%
 - الأخبار: Top Biotech Gainers: ZYBT Skyrockets, ADVB Drops Planned Offering, STIM Gets New CFO, RDGT On Watch (Jul 20, 2026) | Zhengye Biotechnology Holding Limited Completes Initial Public Offering with Full Over-Allotment Option Exercised, Raising $6.9 Million (Jan 14, 2025) | Zhengye Biotechnology Holding Limited Closes Initial Public Offering, Raising $6 Million on Nasdaq (Jan 8, 2025)
 - منطقة الطلب 1.384–1.398 | طلبات Limit: 1.39 / 1.39 / 1.39 | الخروج: إغلاق يومي تحت 1.38 | الأهداف 1.46 / 1.55 | منطقة أعمق (غسل) 1.247–1.285

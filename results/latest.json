@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-28T11:56:21.056685+00:00",
- "generated_at_et": "2026-10-28T07:56:21.056685-04:00",
+ "generated_at_utc": "2026-10-28T12:06:21.056832+00:00",
+ "generated_at_et": "2026-10-28T08:06:21.056832-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -220,8 +220,8 @@
     "last_split": "عكسي 1:10 (2024-07-18)",
     "short_available": null,
     "short_pct_float": 0.0036000002,
-    "ext_price": 2.26,
-    "ext_chg": 0.0970874,
+    "ext_price": 2.29,
+    "ext_chg": 0.11165050000000001,
     "ext_session": "pre"
    },
    "news": []
@@ -819,8 +819,8 @@
     "last_split": "عكسي 1:10 (2026-04-30)",
     "short_available": null,
     "short_pct_float": 0.4991,
-    "ext_price": 3.1898,
-    "ext_chg": 0.1662889,
+    "ext_price": 3.1499,
+    "ext_chg": 0.15170021,
     "ext_session": "pre"
    },
    "news": []
@@ -3029,8 +3029,8 @@
     "last_split": "عكسي 1:8 (2025-12-15)",
     "short_available": null,
     "short_pct_float": 0.4073,
-    "ext_price": 0.7846,
-    "ext_chg": -0.013329943,
+    "ext_price": 0.7881,
+    "ext_chg": -0.008928554,
     "ext_session": "pre"
    },
    "news": []
@@ -7991,7 +7991,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 1.1941,
+   "price": 1.18,
    "price_label": "سعر البري",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -8010,8 +8010,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
+   "alert": true,
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8025,7 +8025,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 3.29,
+   "price": 3.42,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8199,12 +8199,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 214170.0,
-   "price": 347.1
+   "volume": 220894.0,
+   "price": 345.7104
   },
   "SNDL": {
-   "volume": 23627.0,
-   "price": 1.2913
+   "volume": 24451.0,
+   "price": 1.3
   }
  }
 }

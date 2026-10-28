@@ -1,94 +1,93 @@
 {
  "ticker": "VNTG",
- "generated_at_et": "2026-10-22T16:00:59.767060-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-27T20:02:22.579486-04:00",
+ "session": "closed",
  "quote": {
-  "reg_price": 0.47,
-  "reg_chg": -0.1057839,
-  "reg_vol": 200376,
-  "prev_close": 0.5256,
+  "reg_price": 0.4692,
+  "reg_chg": 0.0195567,
+  "reg_vol": 34823,
+  "prev_close": 0.4602,
   "pre_price": null,
   "pre_chg": 0.0,
-  "post_price": null,
-  "post_chg": 0.0,
-  "avg_vol": 168034,
-  "state": "POST"
+  "post_price": 0.451,
+  "post_chg": -0.03878939,
+  "avg_vol": 173500,
+  "state": "POSTPOST"
  },
  "news": [],
  "fund": {
-  "floatShares": null,
-  "sharesOutstanding": null,
-  "marketCap": null,
-  "shortPercentOfFloat": null,
+  "floatShares": 10616676,
+  "sharesOutstanding": 10294510,
+  "marketCap": 14386089,
+  "shortPercentOfFloat": 0.0007,
   "longName": null,
-  "country": null,
-  "industry": null,
-  "sector": null,
+  "country": "Singapore",
+  "industry": "Marine Shipping",
+  "sector": "Industrials",
   "lastSplitFactor": null,
   "lastSplitDate": null
  },
  "daily": {
-  "price": 0.47,
-  "chg_1d": -0.1065,
+  "price": 0.46,
+  "chg_1d": -0.0316,
   "ma": {
-   "MA20": 0.6109,
-   "MA30": 0.6204,
-   "MA50": 0.6187
+   "MA20": 0.5845,
+   "MA30": 0.6123,
+   "MA50": 0.6108
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 29.3,
-  "rsi_min15": 29.3,
-  "rsi_min30": 29.3,
+  "rsi_now": 29.2,
+  "rsi_min15": 29.1,
+  "rsi_min30": 29.1,
   "macd": {
-   "line": -0.0355,
-   "signal": -0.02006,
+   "line": -0.0437,
+   "signal": -0.02796,
    "hist_last3": [
-    -0.0135,
-    -0.01301,
-    -0.01544
+    -0.01557,
+    -0.01573,
+    -0.01574
    ],
    "state": "سلبي"
   },
   "candles": [
    {
-    "d": "2026-10-21",
+    "d": "2026-10-23",
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.19999920527222406,
-    "close_pos": 0.5000009934097199,
+    "upper_wick_ratio": 0.0,
+    "close_pos": 0.4468085511122609,
     "green": "False",
     "bullish_reversal": "False"
    },
    {
-    "d": "2026-10-22",
+    "d": "2026-10-26",
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.02538088728217453,
-    "close_pos": 0.1505919870584302,
+    "upper_wick_ratio": 0.5454542991543591,
+    "close_pos": 0.2272731890855767,
     "green": "False",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.0662,
-  "avg_vol20": 285700,
-  "last_vol": 200376,
-  "drawdown_90d": 0.695,
+  "atr": 0.0634,
+  "avg_vol20": 263005,
+  "last_vol": 121800,
+  "drawdown_90d": 0.701,
   "high_90d": 1.54,
-  "low_10d": 0.4611,
-  "gain_from_low10": 0.019,
-  "sell_drying": false,
+  "low_10d": 0.45,
+  "gain_from_low10": 0.022,
+  "sell_drying": true,
   "vol_improving": false,
   "higher_lows": false,
   "pump_recent": false,
   "distribution_recent": false,
   "pump_month": null,
   "former_runner": true,
-  "runner_jump": 0.185,
-  "runner_spike": 1.369,
+  "runner_pct": 1.484,
   "distinct_closes20": 19,
   "support_zones": [
    {
@@ -127,26 +126,25 @@
     "low": 0.512,
     "high": 0.53,
     "touches": 3,
-    "is_bottom": true,
+    "is_bottom": false,
     "first": "2026-09-11",
     "last": "2026-10-14"
    }
   ],
-  "support_selected": {
-   "low": 0.512,
-   "high": 0.53,
-   "touches": 3,
-   "interacting": true
-  },
+  "support_selected": null,
   "w": null,
   "resistances": [
    [
-    0.5187,
+    0.519,
     "رأس شمعة هابطة"
    ],
    [
+    0.5845,
+    "MA20"
+   ],
+   [
     0.61,
-    "رأس شمعة هابطة + MA20 + MA50 + MA30"
+    "رأس شمعة هابطة + MA50 + MA30"
    ],
    [
     0.65,
@@ -159,35 +157,11 @@
    [
     0.71,
     "قمة سابقة + رأس شمعة هابطة"
-   ],
-   [
-    0.735,
-    "قمة سابقة + رأس شمعة هابطة"
    ]
   ],
   "high_52w": 1.54,
-  "low_52w": 0.4611,
+  "low_52w": 0.45,
   "last_bars": [
-   {
-    "d": "2026-10-07",
-    "o": 0.623,
-    "h": 0.72,
-    "l": 0.623,
-    "c": 0.626,
-    "v": 328200,
-    "rsi": 45.6,
-    "hist": -0.00509
-   },
-   {
-    "d": "2026-10-08",
-    "o": 0.661,
-    "h": 0.679,
-    "l": 0.642,
-    "c": 0.642,
-    "v": 117300,
-    "rsi": 48.7,
-    "hist": -0.00506
-   },
    {
     "d": "2026-10-09",
     "o": 0.63,
@@ -280,33 +254,65 @@
    },
    {
     "d": "2026-10-22",
-    "o": 0.5187,
-    "h": 0.5202,
-    "l": 0.4611,
-    "c": 0.47,
-    "v": 200376,
-    "rsi": 29.3,
-    "hist": -0.01544
+    "o": 0.519,
+    "h": 0.527,
+    "l": 0.461,
+    "c": 0.468,
+    "v": 213300,
+    "rsi": 29.1,
+    "hist": -0.01557
+   },
+   {
+    "d": "2026-10-23",
+    "o": 0.501,
+    "h": 0.501,
+    "l": 0.454,
+    "c": 0.475,
+    "v": 83400,
+    "rsi": 30.7,
+    "hist": -0.01573
+   },
+   {
+    "d": "2026-10-26",
+    "o": 0.47,
+    "h": 0.494,
+    "l": 0.45,
+    "c": 0.46,
+    "v": 121800,
+    "rsi": 29.2,
+    "hist": -0.01574
    }
   ]
  },
  "levels_map": {
-  "price": 0.47,
-  "at_price": [],
+  "price": 0.451,
+  "at_price": [
+   "قاع الأفتر/البري"
+  ],
   "above": [
    {
-    "level": 0.495,
-    "why": "فواب جلسة 2026-10-22",
+    "level": 0.454,
+    "why": "قاع يوم 2026-10-23 + قاعدة آخر ساعة 2026-10-27 + قاع يوم 2026-10-22",
+    "confluence": 3
+   },
+   {
+    "level": 0.4651,
+    "why": "فواب جلسة 2026-10-27",
     "confluence": 1
    },
    {
-    "level": 0.511,
-    "why": "قاع يوم 2026-10-21 + قيعان سابقة متجمعة (3) + رأس شمعة هابطة + قمة يوم 2026-10-22 + قاع يوم 2026-10-16",
-    "confluence": 5
+    "level": 0.494,
+    "why": "قمة يوم 2026-10-26 + قمة الأفتر/البري + قمة يوم 2026-10-23",
+    "confluence": 3
    },
    {
-    "level": 0.53,
-    "why": "قاع يوم 2026-10-19 + قاع يوم 2026-10-20 + قيعان سابقة متجمعة (5) + إغلاقات سابقة متجمعة (5)",
+    "level": 0.511,
+    "why": "قاع يوم 2026-10-21 + قيعان سابقة متجمعة (3) + رأس شمعة هابطة",
+    "confluence": 3
+   },
+   {
+    "level": 0.527,
+    "why": "قمة يوم 2026-10-22 + قاع يوم 2026-10-20 + قيعان سابقة متجمعة (5) + إغلاقات سابقة متجمعة (5)",
     "confluence": 4
    },
    {
@@ -320,111 +326,19 @@
     "confluence": 1
    },
    {
-    "level": 0.573,
-    "why": "قمة يوم 2026-10-19 + قيعان سابقة متجمعة (6) + قمة يوم 2026-10-20",
-    "confluence": 3
-   },
-   {
-    "level": 0.59,
-    "why": "إغلاقات سابقة متجمعة (10) + قيعان سابقة متجمعة (9)",
-    "confluence": 2
-   },
-   {
-    "level": 0.609,
-    "why": "إغلاقات سابقة متجمعة (11) + قيعان سابقة متجمعة (12) + رأس شمعة هابطة + MA20 + MA50 + قمة يوم 2026-10-16 + MA30",
-    "confluence": 7
+    "level": 0.5795,
+    "why": "قيعان سابقة متجمعة (6) + قمة يوم 2026-10-20 + MA20 + إغلاقات سابقة متجمعة (10)",
+    "confluence": 4
    }
   ],
   "below": [
    {
-    "level": 0.4611,
-    "why": "قاع يوم 2026-10-22 + قاعدة آخر ساعة 2026-10-22",
-    "confluence": 2
+    "level": 0.45,
+    "why": "قاع يوم 2026-10-26",
+    "confluence": 1
    }
   ]
  },
- "pivot": {
-  "ticker": "VNTG",
-  "kind": "pivot",
-  "status": "WATCH",
-  "setup": "BROKE_SUPPORT",
-  "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
-  "price": 0.4699999988079071,
-  "score": 2.5,
-  "conditions": {
-   "ma": {
-    "score": 0.5,
-    "note": "تحت كل المتوسطات (ضغط)"
-   },
-   "rsi": {
-    "score": 0.5,
-    "note": "أدنى RSI 29 والحالي 29"
-   },
-   "macd": {
-    "score": 0.0,
-    "note": "سلبي"
-   },
-   "candle": {
-    "score": 0.0,
-    "note": "لا توجد شمعة إيجابية عند الدعم"
-   },
-   "pressure": {
-    "score": 1.0,
-    "note": "هبط 69% من قمة 90 يوم"
-   },
-   "space": {
-    "score": 0.5,
-    "note": "العائد/المخاطرة 1.9"
-   }
-  },
-  "support_low": 0.5120000243186951,
-  "support_high": 0.5299999713897705,
-  "support_touches": 3,
-  "trigger_level": 0.5120000243186951,
-  "stop": 0.4518780118227005,
-  "entry_low": 0.5120000243186951,
-  "entry_high": 0.5120000243186951,
-  "t1": 0.5410000085830688,
-  "t1_label": "قمة يوم قريبة",
-  "t2": 0.6100000143051147,
-  "t2_label": "رأس شمعة هابطة + MA20 + MA50 + MA30",
-  "rr": 0.29,
-  "risk_pct": 0.1327,
-  "rsi_now": 29.3,
-  "rsi_min": 29.3,
-  "ma_state": "تحت كل المتوسطات (ضغط)",
-  "macd_state": "سلبي",
-  "candle": "",
-  "volume_note": "",
-  "waiting_for": [
-   "استرداد الدعم 0.51 والإغلاق فوقه — إذا بقي تحته فهو فشل وليس سحب سيولة",
-   "ضغط RSI في منطقة 23–27 (أدنى قراءة حديثة 29)",
-   "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-   "تأكيد MACD (تقاطع إيجابي أو تحسن يومين متتاليين)",
-   "الدخول تحت مقاومة مباشرة (0.54) — انتظر اختراقها والثبات",
-   "الوقف بعيد (13%) — انتظر نزول السعر قرب الدعم",
-   "اكتمال الشروط الأساسية (2.5 من 6، المطلوب 4.5)"
-  ],
-  "flags": [
-   "سعر منخفض جداً — سبريد واسع"
-  ],
-  "tags": [
-   "Former Runner (سبق انفجر +137% في يوم)",
-   "قاع الفترة (قاع تاريخي/سنوي)"
-  ],
-  "rank": 3.089843520352599,
-  "meta": {
-   "avg_volume": 285700.0,
-   "drawdown": 0.695,
-   "rr_best": 1.87,
-   "gain_from_low10": 0.019,
-   "higher_lows": "False",
-   "float": null,
-   "market_cap": null,
-   "exchange": "",
-   "name": ""
-  },
-  "news": []
- },
+ "pivot": null,
  "momentum": null
 }

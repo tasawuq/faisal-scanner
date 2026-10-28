@@ -1,24 +1,24 @@
 {
  "ticker": "RENT",
- "generated_at_et": "2026-10-21T16:01:22.300276-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-27T20:02:22.579486-04:00",
+ "session": "closed",
  "quote": {
-  "reg_price": 2.18,
-  "reg_chg": 0.079207964,
-  "reg_vol": 72071,
-  "prev_close": 2.02,
+  "reg_price": 2.7,
+  "reg_chg": -0.042553153,
+  "reg_vol": 2562300,
+  "prev_close": 2.82,
   "pre_price": null,
   "pre_chg": 0.0,
-  "post_price": null,
-  "post_chg": 0.0,
-  "avg_vol": 139254,
-  "state": "POST"
+  "post_price": 2.65,
+  "post_chg": -0.0185185,
+  "avg_vol": 650434,
+  "state": "POSTPOST"
  },
  "news": [],
  "fund": {
-  "floatShares": 24474417,
+  "floatShares": 271206,
   "sharesOutstanding": 33774121,
-  "marketCap": 68538232,
+  "marketCap": 91610512,
   "shortPercentOfFloat": 0.31870002,
   "longName": "Rent the Runway, Inc.",
   "country": "United States",
@@ -28,67 +28,66 @@
   "lastSplitDate": 1712102400
  },
  "daily": {
-  "price": 2.18,
-  "chg_1d": 0.0792,
+  "price": 2.82,
+  "chg_1d": 0.2261,
   "ma": {
-   "MA20": 1.7515,
-   "MA30": 1.8517,
-   "MA50": 2.5572
+   "MA20": 1.8725,
+   "MA30": 1.8613,
+   "MA50": 2.4926
   },
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 56.4,
-  "rsi_min15": 24.4,
-  "rsi_min30": 20.1,
+  "rsi_now": 70.4,
+  "rsi_min15": 29.6,
+  "rsi_min30": 22.4,
   "macd": {
-   "line": -0.12396,
-   "signal": -0.22955,
+   "line": 0.0261,
+   "signal": -0.12867,
    "hist_last3": [
-    0.08037,
-    0.0911,
-    0.10559
+    0.12336,
+    0.12537,
+    0.15477
    ],
    "state": "الهيستوجرام يتحسن"
   },
   "candles": [
    {
-    "d": "2026-10-20",
+    "d": "2026-10-23",
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
-    "strong_green": "True",
-    "upper_wick_ratio": 0.21428553182249735,
-    "close_pos": 0.7857144681775027,
-    "green": "True",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.3015082661708202,
+    "close_pos": 0.547738199785064,
+    "green": "False",
     "bullish_reversal": "False"
    },
    {
-    "d": "2026-10-21",
+    "d": "2026-10-26",
     "hammer": "False",
     "engulfing": "False",
     "lower_wick": "False",
-    "strong_green": "True",
-    "upper_wick_ratio": 0.0,
-    "close_pos": 1.0,
-    "green": "True",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.21276584951621297,
+    "close_pos": 0.40425511408080467,
+    "green": "False",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.1805,
-  "avg_vol20": 150320,
-  "last_vol": 72071,
-  "drawdown_90d": 0.445,
+  "atr": 0.2332,
+  "avg_vol20": 462635,
+  "last_vol": 26145800,
+  "drawdown_90d": 0.282,
   "high_90d": 3.93,
-  "low_10d": 1.649,
-  "gain_from_low10": 0.322,
-  "sell_drying": true,
-  "vol_improving": false,
+  "low_10d": 1.69,
+  "gain_from_low10": 0.669,
+  "sell_drying": false,
+  "vol_improving": true,
   "higher_lows": true,
   "pump_recent": false,
   "distribution_recent": false,
   "pump_month": null,
-  "former_runner": false,
-  "runner_jump": 0.181,
-  "runner_spike": 0.311,
+  "former_runner": true,
+  "runner_pct": 1.74,
   "distinct_closes20": 15,
   "support_zones": [
    {
@@ -140,12 +139,7 @@
     "last": "2026-10-05"
    }
   ],
-  "support_selected": {
-   "low": 1.69,
-   "high": 1.7069,
-   "touches": 3,
-   "interacting": true
-  },
+  "support_selected": null,
   "w": {
    "low1": 1.51,
    "low2": 1.69,
@@ -154,14 +148,6 @@
    "low2_d": "2026-10-14"
   },
   "resistances": [
-   [
-    2.47,
-    "رأس شمعة هابطة"
-   ],
-   [
-    2.5572,
-    "MA50"
-   ],
    [
     2.99,
     "رأس شمعة هابطة"
@@ -177,41 +163,19 @@
    [
     3.53,
     "قمة سابقة"
+   ],
+   [
+    3.701,
+    "قمة سابقة + رأس شمعة هابطة"
+   ],
+   [
+    3.89,
+    "قمة سابقة"
    ]
   ],
   "high_52w": 10.13,
   "low_52w": 1.51,
   "last_bars": [
-   {
-    "d": "2026-10-06",
-    "o": 1.55,
-    "h": 1.695,
-    "l": 1.55,
-    "c": 1.65,
-    "v": 178100,
-    "rsi": 29.6,
-    "hist": 0.02147
-   },
-   {
-    "d": "2026-10-07",
-    "o": 1.62,
-    "h": 1.74,
-    "l": 1.582,
-    "c": 1.68,
-    "v": 114100,
-    "rsi": 31.1,
-    "hist": 0.03637
-   },
-   {
-    "d": "2026-10-08",
-    "o": 1.65,
-    "h": 1.85,
-    "l": 1.649,
-    "c": 1.83,
-    "v": 193500,
-    "rsi": 38.3,
-    "hist": 0.05728
-   },
    {
     "d": "2026-10-09",
     "o": 1.78,
@@ -294,30 +258,58 @@
    },
    {
     "d": "2026-10-21",
-    "o": 2.02,
+    "o": 2.0,
     "h": 2.18,
-    "l": 2.02,
+    "l": 2.0,
     "c": 2.18,
-    "v": 72071,
+    "v": 78800,
     "rsi": 56.4,
     "hist": 0.10559
+   },
+   {
+    "d": "2026-10-22",
+    "o": 2.15,
+    "h": 2.37,
+    "l": 2.09,
+    "c": 2.37,
+    "v": 141500,
+    "rsi": 61.9,
+    "hist": 0.12336
+   },
+   {
+    "d": "2026-10-23",
+    "o": 2.33,
+    "h": 2.39,
+    "l": 2.191,
+    "c": 2.3,
+    "v": 6697300,
+    "rsi": 58.9,
+    "hist": 0.12537
+   },
+   {
+    "d": "2026-10-26",
+    "o": 3.0,
+    "h": 3.1,
+    "l": 2.63,
+    "c": 2.82,
+    "v": 26145800,
+    "rsi": 70.4,
+    "hist": 0.15477
    }
   ]
  },
  "levels_map": {
-  "price": 2.18,
-  "at_price": [
-   "قمة يوم 2026-10-21"
-  ],
+  "price": 2.65,
+  "at_price": [],
   "above": [
    {
-    "level": 2.47,
-    "why": "رأس شمعة هابطة",
-    "confluence": 1
+    "level": 2.6662,
+    "why": "قاعدة آخر ساعة 2026-10-27 + قمة الأفتر/البري",
+    "confluence": 2
    },
    {
-    "level": 2.5572,
-    "why": "MA50",
+    "level": 2.7869,
+    "why": "فواب جلسة 2026-10-27",
     "confluence": 1
    },
    {
@@ -327,8 +319,8 @@
    },
    {
     "level": 3.08,
-    "why": "رأس شمعة هابطة",
-    "confluence": 1
+    "why": "رأس شمعة هابطة + قمة يوم 2026-10-26",
+    "confluence": 2
    },
    {
     "level": 3.42,
@@ -336,13 +328,13 @@
     "confluence": 1
    },
    {
-    "level": 3.52,
-    "why": "قيعان سابقة متجمعة (15) + قمة سابقة + إغلاقات سابقة متجمعة (11) + قيعان سابقة متجمعة (9)",
+    "level": 3.525,
+    "why": "قيعان سابقة متجمعة (14) + قمة سابقة + إغلاقات سابقة متجمعة (9) + قيعان سابقة متجمعة (8)",
     "confluence": 4
    },
    {
     "level": 3.65,
-    "why": "إغلاقات سابقة متجمعة (11) + قمة سابقة + رأس شمعة هابطة + قيعان سابقة متجمعة (3)",
+    "why": "إغلاقات سابقة متجمعة (10) + قمة سابقة + رأس شمعة هابطة + قيعان سابقة متجمعة (3)",
     "confluence": 3
    },
    {
@@ -353,12 +345,32 @@
   ],
   "below": [
    {
-    "level": 2.1181,
-    "why": "فواب جلسة 2026-10-21 + قاعدة آخر ساعة 2026-10-21 + قمة يوم 2026-10-20",
-    "confluence": 3
+    "level": 2.63,
+    "why": "قاع يوم 2026-10-26 + قاع الأفتر/البري",
+    "confluence": 2
    },
    {
-    "level": 2.02,
+    "level": 2.4926,
+    "why": "MA50",
+    "confluence": 1
+   },
+   {
+    "level": 2.39,
+    "why": "قمة يوم 2026-10-23 + قمة يوم 2026-10-22",
+    "confluence": 2
+   },
+   {
+    "level": 2.191,
+    "why": "قاع يوم 2026-10-23 + قمة يوم 2026-10-21",
+    "confluence": 2
+   },
+   {
+    "level": 2.09,
+    "why": "قاع يوم 2026-10-22 + قمة يوم 2026-10-20",
+    "confluence": 2
+   },
+   {
+    "level": 2.0,
     "why": "قاع يوم 2026-10-21",
     "confluence": 1
    },
@@ -368,109 +380,12 @@
     "confluence": 1
    },
    {
-    "level": 1.86,
-    "why": "قمة يوم 2026-10-19 + إغلاقات سابقة متجمعة (5) + MA30 + قمة يوم 2026-10-15",
-    "confluence": 4
-   },
-   {
-    "level": 1.81,
-    "why": "قمة يوم 2026-10-16 + قيعان سابقة متجمعة (3) + قاع يوم 2026-10-20 + إغلاقات سابقة متجمعة (5)",
-    "confluence": 4
-   },
-   {
-    "level": 1.7515,
-    "why": "MA20 + قيعان سابقة متجمعة (4) + قاع يوم 2026-10-16 + قاع يوم 2026-10-19",
-    "confluence": 4
-   },
-   {
-    "level": 1.715,
-    "why": "قيعان سابقة متجمعة (6) + قاع يوم 2026-10-15",
-    "confluence": 2
-   },
-   {
-    "level": 1.68,
-    "why": "إغلاقات سابقة متجمعة (5) + إغلاقات سابقة متجمعة (4) + قيعان سابقة متجمعة (3)",
+    "level": 1.8725,
+    "why": "MA20 + MA30 + إغلاقات سابقة متجمعة (5)",
     "confluence": 3
    }
   ]
  },
- "pivot": {
-  "ticker": "RENT",
-  "kind": "pivot",
-  "status": "WATCH",
-  "setup": "BASE_RETEST",
-  "setup_ar": "🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة",
-  "price": 2.180000066757202,
-  "score": 5.25,
-  "conditions": {
-   "ma": {
-    "score": 1.0,
-    "note": "يستعيد MA20 بعد أن كان تحت المتوسطات"
-   },
-   "rsi": {
-    "score": 0.75,
-    "note": "أدنى RSI 22 والحالي 56"
-   },
-   "macd": {
-    "score": 1.0,
-    "note": "الهيستوجرام يتحسن"
-   },
-   "candle": {
-    "score": 0.5,
-    "note": "شمعة خضراء بإغلاق قوي"
-   },
-   "pressure": {
-    "score": 1.0,
-    "note": "هبط 45% من قمة 90 يوم"
-   },
-   "space": {
-    "score": 1.0,
-    "note": "العائد/المخاطرة 7.5"
-   }
-  },
-  "support_low": 1.9580400252342223,
-  "support_high": 2.0179800260066987,
-  "support_touches": 2,
-  "trigger_level": 1.9980000257492065,
-  "stop": 1.8992988244771958,
-  "entry_low": 1.9980000257492065,
-  "entry_high": 2.057940026521683,
-  "t1": 2.4700000286102295,
-  "t1_label": "رأس شمعة هابطة",
-  "t2": 2.5571999979019164,
-  "t2_label": "MA50",
-  "rr": 3.44,
-  "risk_pct": 0.0634,
-  "rsi_now": 56.4,
-  "rsi_min": 22.5,
-  "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "macd_state": "الهيستوجرام يتحسن",
-  "candle": "شمعة خضراء بإغلاق قوي",
-  "volume_note": "فوليوم البيع يضعف",
-  "waiting_for": [
-   "ابتعد 9% عن مستوى الاختراق — انتظر إعادة اختبار 2.00",
-   "فوليوم أعلى عند الاختراق (الاختراق بدون فوليوم ضعيف — ص19)",
-   "ليس Former Runner — ما سبق انفجر خلال سنة (فيصل يبحث عن سهم يقدر يتحرك بعنف)"
-  ],
-  "flags": [],
-  "tags": [
-   "قيعان أعلى",
-   "فوليوم البيع يضعف"
-  ],
-  "rank": 3.794544447791612,
-  "meta": {
-   "avg_volume": 150320.0,
-   "drawdown": 0.445,
-   "rr_best": 7.48,
-   "gain_from_low10": 0.322,
-   "higher_lows": "True",
-   "float": 24474417,
-   "market_cap": 68538232,
-   "exchange": "",
-   "name": "Rent the Runway, Inc.",
-   "short_pct_float": 0.31870002
-  },
-  "news": []
- },
+ "pivot": null,
  "momentum": null
 }

@@ -1,95 +1,94 @@
 {
  "ticker": "IMSR",
- "generated_at_et": "2026-10-22T16:00:59.767060-04:00",
- "session": "post",
+ "generated_at_et": "2026-10-27T20:02:22.579486-04:00",
+ "session": "closed",
  "quote": {
-  "reg_price": 2.86,
-  "reg_chg": -0.02721094,
-  "reg_vol": 1293403,
+  "reg_price": 3.29,
+  "reg_chg": 0.119048,
+  "reg_vol": 3719707,
   "prev_close": 2.94,
   "pre_price": null,
   "pre_chg": 0.0,
-  "post_price": 2.86,
-  "post_chg": 0.0,
-  "avg_vol": 1541445,
-  "state": "POST"
+  "post_price": 3.3891,
+  "post_chg": 0.030121615,
+  "avg_vol": 1535639,
+  "state": "POSTPOST"
  },
  "news": [],
  "fund": {
-  "floatShares": null,
-  "sharesOutstanding": null,
-  "marketCap": null,
-  "shortPercentOfFloat": null,
-  "longName": null,
-  "country": null,
-  "industry": null,
-  "sector": null,
+  "floatShares": 51295969,
+  "sharesOutstanding": 82718567,
+  "marketCap": 311449664,
+  "shortPercentOfFloat": 0.1331,
+  "longName": "Terrestrial Energy Inc.",
+  "country": "United States",
+  "industry": "Utilities - Regulated Electric",
+  "sector": "Utilities",
   "lastSplitFactor": null,
   "lastSplitDate": null
  },
  "daily": {
-  "price": 2.86,
-  "chg_1d": -0.0272,
+  "price": 2.94,
+  "chg_1d": 0.05,
   "ma": {
-   "MA20": 3.4317,
-   "MA30": 3.7617,
-   "MA50": 4.4222
+   "MA20": 3.2975,
+   "MA30": 3.6457,
+   "MA50": 4.298
   },
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "rsi_now": 32.5,
+  "rsi_now": 35.9,
   "rsi_min15": 24.7,
   "rsi_min30": 24.7,
   "macd": {
-   "line": -0.45662,
-   "signal": -0.45086,
+   "line": -0.42783,
+   "signal": -0.44606,
    "hist_last3": [
-    -0.03164,
-    -0.01562,
-    -0.00576
+    -0.00576,
+    0.001,
+    0.01822
    ],
-   "state": "الهيستوجرام يتحسن"
+   "state": "تقاطع إيجابي حديث"
   },
   "candles": [
    {
-    "d": "2026-10-21",
-    "hammer": "False",
+    "d": "2026-10-23",
+    "hammer": "True",
     "engulfing": "False",
-    "lower_wick": "False",
+    "lower_wick": "True",
     "strong_green": "False",
-    "upper_wick_ratio": 0.5714285714285714,
-    "close_pos": 0.19047619047619047,
+    "upper_wick_ratio": 0.10526302580692116,
+    "close_pos": 0.6842109225792365,
     "green": "False",
-    "bullish_reversal": "False"
+    "bullish_reversal": "True"
    },
    {
-    "d": "2026-10-22",
-    "hammer": "False",
+    "d": "2026-10-26",
+    "hammer": "True",
     "engulfing": "False",
-    "lower_wick": "False",
+    "lower_wick": "True",
     "strong_green": "True",
-    "upper_wick_ratio": 0.2696635082897349,
-    "close_pos": 0.7303364917102652,
+    "upper_wick_ratio": 0.12727223861290599,
+    "close_pos": 0.872727761387094,
     "green": "True",
-    "bullish_reversal": "False"
+    "bullish_reversal": "True"
    }
   ],
-  "atr": 0.2945,
-  "avg_vol20": 1525675,
-  "last_vol": 1293403,
-  "drawdown_90d": 0.671,
+  "atr": 0.2819,
+  "avg_vol20": 1559275,
+  "last_vol": 1625700,
+  "drawdown_90d": 0.662,
   "high_90d": 8.699,
-  "low_10d": 2.73,
-  "gain_from_low10": 0.048,
+  "low_10d": 2.7,
+  "gain_from_low10": 0.089,
   "sell_drying": false,
-  "vol_improving": false,
+  "vol_improving": true,
   "higher_lows": false,
   "pump_recent": false,
   "distribution_recent": false,
   "pump_month": null,
   "former_runner": true,
-  "runner_jump": 0.303,
-  "runner_spike": 0.325,
-  "distinct_closes20": 19,
+  "runner_pct": 1.553,
+  "distinct_closes20": 17,
   "support_zones": [
    {
     "low": 7.61,
@@ -100,11 +99,11 @@
     "last": "2026-05-29"
    },
    {
-    "low": 6.881,
-    "high": 6.9498,
-    "touches": 6,
+    "low": 6.945,
+    "high": 7.0145,
+    "touches": 5,
     "is_bottom": false,
-    "first": "2026-05-05",
+    "first": "2026-05-12",
     "last": "2026-05-12"
    },
    {
@@ -170,14 +169,10 @@
    ],
    [
     3.25,
-    "قمة سابقة + رأس شمعة هابطة"
+    "قمة سابقة + رأس شمعة هابطة + MA20"
    ],
    [
-    3.4317,
-    "MA20"
-   ],
-   [
-    3.7617,
+    3.6457,
     "MA30"
    ],
    [
@@ -185,33 +180,17 @@
     "قمة سابقة"
    ],
    [
-    4.4222,
+    4.298,
     "MA50"
+   ],
+   [
+    4.95,
+    "قمة سابقة"
    ]
   ],
-  "high_52w": 21.6,
-  "low_52w": 2.73,
+  "high_52w": 21.0,
+  "low_52w": 2.7,
   "last_bars": [
-   {
-    "d": "2026-10-07",
-    "o": 3.78,
-    "h": 3.82,
-    "l": 3.6,
-    "c": 3.65,
-    "v": 1327600,
-    "rsi": 33.1,
-    "hist": -0.02468
-   },
-   {
-    "d": "2026-10-08",
-    "o": 3.57,
-    "h": 3.59,
-    "l": 3.32,
-    "c": 3.4,
-    "v": 2135200,
-    "rsi": 29.7,
-    "hist": -0.03746
-   },
    {
     "d": "2026-10-09",
     "o": 3.5,
@@ -308,45 +287,50 @@
     "h": 2.908,
     "l": 2.73,
     "c": 2.86,
-    "v": 1293403,
+    "v": 1304700,
     "rsi": 32.5,
     "hist": -0.00576
+   },
+   {
+    "d": "2026-10-23",
+    "o": 2.82,
+    "h": 2.83,
+    "l": 2.735,
+    "c": 2.8,
+    "v": 1077300,
+    "rsi": 31.6,
+    "hist": 0.001
+   },
+   {
+    "d": "2026-10-26",
+    "o": 2.87,
+    "h": 2.975,
+    "l": 2.7,
+    "c": 2.94,
+    "v": 1625700,
+    "rsi": 35.9,
+    "hist": 0.01822
    }
   ]
  },
  "levels_map": {
-  "price": 2.86,
+  "price": 3.3891,
   "at_price": [],
   "above": [
    {
-    "level": 2.9,
-    "why": "قاع يوم 2026-10-21 + قيعان سابقة متجمعة (3) + قمة يوم 2026-10-22 + إغلاقات سابقة متجمعة (3)",
-    "confluence": 4
+    "level": 3.45,
+    "why": "قمة الأفتر/البري",
+    "confluence": 1
    },
    {
-    "level": 2.98,
-    "why": "قمة يوم 2026-10-20 + قاع يوم 2026-10-16",
-    "confluence": 2
-   },
-   {
-    "level": 3.11,
-    "why": "قمة يوم 2026-10-21 + قمة يوم 2026-10-19 + رأس شمعة هابطة",
-    "confluence": 3
-   },
-   {
-    "level": 3.25,
-    "why": "قمة يوم 2026-10-16 + قمة سابقة + رأس شمعة هابطة",
-    "confluence": 2
-   },
-   {
-    "level": 3.4317,
-    "why": "MA20",
+    "level": 3.6457,
+    "why": "MA30",
     "confluence": 1
    },
    {
     "level": 3.721,
-    "why": "قيعان سابقة متجمعة (3) + MA30",
-    "confluence": 2
+    "why": "قيعان سابقة متجمعة (3)",
+    "confluence": 1
    },
    {
     "level": 3.83,
@@ -357,18 +341,58 @@
     "level": 4.09,
     "why": "قمة سابقة",
     "confluence": 1
+   },
+   {
+    "level": 4.181,
+    "why": "قيعان سابقة متجمعة (3)",
+    "confluence": 1
+   },
+   {
+    "level": 4.2925,
+    "why": "إغلاقات سابقة متجمعة (4) + MA50",
+    "confluence": 2
+   },
+   {
+    "level": 4.41,
+    "why": "قيعان سابقة متجمعة (5) + إغلاقات سابقة متجمعة (4)",
+    "confluence": 2
    }
   ],
   "below": [
    {
-    "level": 2.83,
-    "why": "قاع يوم 2026-10-19 + فواب جلسة 2026-10-22 + قاع يوم 2026-10-20 + قيعان سابقة متجمعة (4) + قاعدة آخر ساعة 2026-10-22",
-    "confluence": 5
+    "level": 3.2975,
+    "why": "MA20 + قاع الأفتر/البري + فواب جلسة 2026-10-27",
+    "confluence": 3
    },
    {
-    "level": 2.73,
-    "why": "قاع يوم 2026-10-22",
+    "level": 3.225,
+    "why": "قاعدة آخر ساعة 2026-10-27",
     "confluence": 1
+   },
+   {
+    "level": 3.11,
+    "why": "قمة يوم 2026-10-21",
+    "confluence": 1
+   },
+   {
+    "level": 2.98,
+    "why": "قمة يوم 2026-10-20 + قمة يوم 2026-10-26 + إغلاقات سابقة متجمعة (3)",
+    "confluence": 3
+   },
+   {
+    "level": 2.908,
+    "why": "قمة يوم 2026-10-22 + قاع يوم 2026-10-21 + قيعان سابقة متجمعة (3)",
+    "confluence": 3
+   },
+   {
+    "level": 2.83,
+    "why": "قمة يوم 2026-10-23 + إغلاقات سابقة متجمعة (4) + قاع يوم 2026-10-20 + قيعان سابقة متجمعة (5)",
+    "confluence": 4
+   },
+   {
+    "level": 2.735,
+    "why": "قاع يوم 2026-10-23 + قاع يوم 2026-10-22 + قاع يوم 2026-10-26",
+    "confluence": 3
    }
   ]
  },
@@ -378,75 +402,224 @@
   "status": "WATCH",
   "setup": "SWEEP",
   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-  "price": 2.859999895095825,
-  "score": 4.75,
+  "price": 2.940000057220459,
+  "score": 7.0,
   "conditions": {
    "ma": {
-    "score": 0.5,
-    "note": "تحت كل المتوسطات (ضغط)"
+    "score": 0.0,
+    "note": "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.3 فوق السعر)"
    },
    "rsi": {
     "score": 1.0,
-    "note": "أدنى RSI 25 والحالي 33"
+    "note": "أدنى RSI 25 (الحالي 36)"
    },
    "macd": {
     "score": 1.0,
-    "note": "الهيستوجرام يتحسن"
+    "note": "تقاطع إيجابي حديث"
+   },
+   "support": {
+    "score": 1.0,
+    "note": "منطقة 2.79–2.82 لمسها 1 مرات خلال 9 يوم"
+   },
+   "retest": {
+    "score": 0.0,
+    "note": "ما صار اختبار ثاني للدعم بعد القاع الأول"
+   },
+   "volume": {
+    "score": 1.0,
+    "note": "فوليومها 1626K مقابل متوسط شموع البيع 1382K"
    },
    "candle": {
-    "score": 0.5,
-    "note": "شمعة خضراء بإغلاق قوي"
+    "score": 1.0,
+    "note": "مطرقة (Hammer) عند الدعم"
    },
    "pressure": {
-    "score": 1.0,
-    "note": "هبط 67% من قمة 90 يوم"
+    "score": 0.0,
+    "note": "هبط 66% من أعلى 90 يوم، والبيع ما ضعف بعد"
    },
-   "space": {
-    "score": 0.75,
-    "note": "العائد/المخاطرة 2.8"
+   "red": {
+    "score": 1.0,
+    "note": "ما فيه"
+   },
+   "target": {
+    "score": 1.0,
+    "note": "هدف 2.97 (+6.2%) أكبر من الخسارة −3.9%"
    }
   },
   "support_low": 2.7899999618530273,
   "support_high": 2.8178999614715576,
   "support_touches": 1,
   "trigger_level": 2.7899999618530273,
-  "stop": 2.6754000186920166,
-  "entry_low": 2.7899999618530273,
-  "entry_high": 2.8277000188827515,
-  "t1": 2.9800000190734863,
+  "stop": 2.69,
+  "entry_low": 2.79,
+  "entry_high": 2.81,
+  "t1": 2.9749999046325684,
   "t1_label": "قمة يوم قريبة",
   "t2": 3.140000104904175,
   "t2_label": "رأس شمعة هابطة",
-  "rr": 1.04,
-  "risk_pct": 0.053,
-  "rsi_now": 32.5,
+  "rr": 1.59,
+  "risk_pct": 0.0393,
+  "rsi_now": 35.9,
   "rsi_min": 24.7,
   "ma_state": "تحت كل المتوسطات (ضغط)",
-  "macd_state": "الهيستوجرام يتحسن",
-  "candle": "شمعة خضراء بإغلاق قوي",
-  "volume_note": "",
+  "macd_state": "تقاطع إيجابي حديث",
+  "candle": "مطرقة (Hammer) عند الدعم",
+  "volume_note": "فوليوم يتحسن مع الارتداد",
   "waiting_for": [
-   "تأكيد الفوليوم: تحسن مع الارتداد أو ضعف فوليوم البيع",
-   "شمعة انعكاس واضحة عند الدعم (مطرقة/ابتلاعية بحجم واضح)"
+   "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.3 فوق السعر) (ص66/ص82/ص84/ص86)",
+   "اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)",
+   "ضغط بيع سابق ثم ضعف الهبوط: هبط 66% من أعلى 90 يوم، والبيع ما ضعف بعد (ص85)"
   ],
   "flags": [],
   "tags": [
-   "Former Runner (سبق انفجر +32% في يوم)",
-   "قاع الفترة (قاع تاريخي/سنوي)"
+   "Former Runner: صعد 155% من 12.34 (2025-09-16) إلى 31.5 (2025-10-15)",
+   "قاع الفترة (قاع سنة)"
   ],
-  "rank": 5.62455208924751,
+  "rank": 7.731182621114076,
   "meta": {
-   "avg_volume": 1525675.0,
-   "drawdown": 0.671,
-   "rr_best": 2.84,
-   "gain_from_low10": 0.048,
+   "avg_volume": 1559275.0,
+   "drawdown": 0.662,
+   "gain_from_low10": 0.089,
    "higher_lows": "False",
-   "float": null,
-   "market_cap": null,
+   "runner": {
+    "pct": 1.5526741985812667,
+    "from": 12.34000015258789,
+    "from_date": "2025-09-16",
+    "to": 31.5,
+    "to_date": "2025-10-15",
+    "is_runner": true
+   },
+   "today": null,
+   "zone": [
+    2.7899999618530273,
+    2.8178999614715576
+   ],
+   "breakout_setup": false,
+   "last_close": 2.940000057220459,
+   "last_date": "2026-10-26",
+   "neck": null,
+   "static_wait": [],
+   "p86": {
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.3 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 25 (الحالي 36)"
+     ],
+     "macd": [
+      true,
+      "تقاطع إيجابي حديث"
+     ],
+     "support": [
+      true,
+      "منطقة 2.79–2.82 لمسها 1 مرات خلال 9 يوم"
+     ],
+     "retest": [
+      false,
+      "ما صار اختبار ثاني للدعم بعد القاع الأول"
+     ],
+     "volume": [
+      true,
+      "فوليومها 1626K مقابل متوسط شموع البيع 1382K"
+     ],
+     "candle": [
+      true,
+      "مطرقة (Hammer) عند الدعم"
+     ],
+     "pressure": [
+      false,
+      "هبط 66% من أعلى 90 يوم، والبيع ما ضعف بعد"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 2.97 (+6.2%) أكبر من الخسارة −3.9%"
+     ]
+    },
+    "critical": 2.700000047683716,
+    "complete": false,
+    "bar_date": "2026-10-26",
+    "frame": "يومي",
+    "below_ma": true,
+    "broke": false,
+    "ma20": 3.2975000023841856,
+    "episodes": 1,
+    "breakout": false
+   },
+   "when_ready": "اختبار منطقة 2.79–2.82 وفشل كسرها (أو سحب سيولة تحت 2.7 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.23–2.51، ص54)",
+   "ladder": {
+    "orders": [
+     2.81,
+     2.8,
+     2.79
+    ],
+    "stop": 2.69,
+    "critical": 2.7,
+    "avg": 2.7999999999999994,
+    "risk": 0.03928571428571409,
+    "risk_top": 0.04270462633451961,
+    "risk_low": 0.03584229390681007
+   },
+   "float": 51295969,
+   "shares": 82718567,
+   "market_cap": 311449664,
    "exchange": "",
-   "name": ""
+   "name": "Terrestrial Energy Inc."
   },
   "news": []
  },
- "momentum": null
+ "momentum": {
+  "ticker": "IMSR",
+  "kind": "momentum",
+  "status": "READY",
+  "setup": "MOM_VWAP_PULLBACK",
+  "setup_ar": "زخم الجلسة — أول Pullback على الفواب",
+  "price": 3.2950000762939453,
+  "score": 4.6,
+  "conditions": {},
+  "support_low": 3.3350000381469727,
+  "support_high": null,
+  "support_touches": 0,
+  "trigger_level": 3.2475095722627763,
+  "stop": 3.2312720244014623,
+  "entry_low": 3.2475095722627763,
+  "entry_high": 3.312459763708032,
+  "t1": 3.4700000286102295,
+  "t1_label": "قمة الجلسة",
+  "t2": 4.090000152587891,
+  "t2_label": "قمة سابقة",
+  "rr": 2.75,
+  "risk_pct": 0.0193,
+  "rsi_now": null,
+  "rsi_min": null,
+  "ma_state": "",
+  "macd_state": "",
+  "candle": "",
+  "volume_note": "RVOL 22.5x",
+  "waiting_for": [],
+  "flags": [],
+  "tags": [],
+  "rank": 4.6,
+  "meta": {
+   "segment": "regular",
+   "change": 0.1207,
+   "gap": 0.1344,
+   "rvol": 2.25,
+   "rvol_pace": 22.52,
+   "vwap": 3.2475,
+   "hod": 3.4700000286102295,
+   "move_base": 3.3350000381469727,
+   "segment_volume": 3555382.0,
+   "pullback_from_hod": 0.0504,
+   "dist_vwap": 0.0146,
+   "volume_known": true
+  },
+  "news": []
+ }
 }

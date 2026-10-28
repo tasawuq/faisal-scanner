@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-28T22:47:20.365408+00:00",
- "generated_at_et": "2026-10-28T18:47:20.365408-04:00",
+ "generated_at_utc": "2026-10-28T22:57:20.365556+00:00",
+ "generated_at_et": "2026-10-28T18:57:20.365556-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -2801,8 +2801,8 @@
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
     "short_pct_float": 0.051599998,
-    "ext_price": 3.98,
-    "ext_chg": 0.039164490861618884,
+    "ext_price": 3.81,
+    "ext_chg": -0.005221932114882533,
     "ext_session": "post"
    },
    "news": []
@@ -3005,8 +3005,8 @@
     "last_split": "عكسي 1:25 (2026-09-17)",
     "short_available": null,
     "short_pct_float": 0.0358,
-    "ext_price": 1.53,
-    "ext_chg": -0.006493506493506551,
+    "ext_price": 1.56,
+    "ext_chg": 0.012987012987013102,
     "ext_session": "post"
    },
    "news": []
@@ -7970,14 +7970,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 2.94,
+   "price": 2.84,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8134,8 +8134,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   }

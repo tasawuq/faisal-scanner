@@ -1,21 +1,21 @@
 {
- "generated_at_utc": "2026-10-28T22:07:20.364752+00:00",
- "generated_at_et": "2026-10-28T18:07:20.364752-04:00",
+ "generated_at_utc": "2026-10-28T22:17:20.364929+00:00",
+ "generated_at_et": "2026-10-28T18:17:20.364929-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1284,
-  "with_data": 1282,
+  "with_data": 1284,
   "short_history": 14,
   "price_out": 68,
-  "low_volume": 461,
+  "low_volume": 462,
   "outside_float": 296,
   "nasdaq": 3433,
   "all": 5854
  },
  "counts": {
   "universe": 5854,
-  "analyzed": 739,
+  "analyzed": 740,
   "ready": 0,
   "watch": 104,
   "momentum": 0,
@@ -605,8 +605,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.053600002,
-    "ext_price": 0.7801,
-    "ext_chg": -0.013031427,
+    "ext_price": 0.772,
+    "ext_chg": -0.02327937,
     "ext_session": "post"
    },
    "news": []
@@ -1000,8 +1000,8 @@
     "last_split": "عكسي 1:20 (2026-08-17)",
     "short_available": null,
     "short_pct_float": 0.0563,
-    "ext_price": 0.703,
-    "ext_chg": -0.007902907140841187,
+    "ext_price": 0.6843,
+    "ext_chg": -0.03429297205757831,
     "ext_session": "post"
    },
    "news": []
@@ -1804,8 +1804,8 @@
     "last_split": "عكسي 1:10 (2024-07-18)",
     "short_available": null,
     "short_pct_float": 0.0036000002,
-    "ext_price": 2.1303,
-    "ext_chg": 0.00014081247,
+    "ext_price": 2.14,
+    "ext_chg": 0.004694831,
     "ext_session": "post"
    },
    "news": []
@@ -3205,8 +3205,8 @@
     "last_split": "عكسي 1:30 (2026-06-04)",
     "short_available": null,
     "short_pct_float": 0.0148,
-    "ext_price": 0.997,
-    "ext_chg": -0.03203883495145632,
+    "ext_price": 0.9999,
+    "ext_chg": 0.022915561,
     "ext_session": "post"
    },
    "news": []
@@ -7970,14 +7970,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
+   "alert": true,
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 3.0082,
+   "price": 3.0,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8114,7 +8114,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.4322,
+   "price": 0.4392,
    "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

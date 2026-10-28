@@ -142,19 +142,48 @@ def refresh_status(sig):
         "MOM_ABOVE_VWAP", "MOM_EXTENDED", "MOM_BELOW_VWAP") else WATCH
 
 
+def news_class(items, now=None):
+    """تصنيف الأخبار (ص66، ص67، ص72، ص84، ص89): offering / negative / positive / notice لكل عنوان."""
+    now = now or datetime.now(timezone.utc)
+    out = {"offering": [], "negative": [], "positive": [], "notice": []}
+    for it in items or []:
+        h = (it.get("headline") or "").lower()
+        try:
+            age = (now - pd.to_datetime(it.get("time"), utc=True)).total_seconds() / 86400
+        except Exception:  # noqa
+            age = 0
+        if any(w in h for w in C.OFFERING_WORDS):
+            out["offering"].append(it)
+        elif any(w in h for w in C.NEGATIVE_WORDS):
+            out["negative"].append(it)
+        elif age <= C.CATALYST_DAYS and (any(w in h for w in C.CATALYST_WORDS) or (
+                any(w in h for w in C.RESULT_WORDS) and any(w in h for w in C.UP_WORDS))):
+            out["positive"].append(it)
+        elif any(w in h for w in C.NOTICE_WORDS):
+            out["notice"].append(it)
+    return out
+
+
 def apply_news(sig, items):
     if not items:
         return
     sig.news = items[:3]
-    text = " ".join(i["headline"].lower() for i in items)
-    if any(w in text for w in C.OFFERING_WORDS):
+    k = news_class(items)
+    if k["offering"]:
         sig.flags.append("خبر طرح/تخفيف حديث (Offering Trap — ص10)")
         if sig.kind == "pivot":
             sig.meta.setdefault("static_wait", []).append("خبر طرح أسهم/تخفيف — «خبر سلبي يلغي النموذج غالباً» (ص67، ص89)")
         else:
             sig.waiting_for.append("خبر طرح أسهم/تخفيف — إدارة الخطر أولاً")
-    elif any(w in text for w in C.CATALYST_WORDS):
-        sig.tags.append("محفز: خبر حديث")
+    if k["negative"]:
+        h = k["negative"][0]["headline"][:70]
+        sig.flags.append(f"خبر سلبي: {h}")
+        if sig.kind == "pivot":
+            sig.meta.setdefault("static_wait", []).append(f"خبر سلبي «{h}» — يبطل السبب (ص72، ص89)")
+    if k["positive"] and not k["offering"] and not k["negative"]:
+        sig.tags.append("محفز: خبر إيجابي حديث")
+    if k["notice"]:
+        sig.flags.append("إشعار ناسداك (حد أدنى/امتثال) — غالباً يسبق تقسيم عكسي")
     refresh_status(sig)
 
 
@@ -437,11 +466,14 @@ def run_once(force=False, demo=False, limit=None) -> dict:
             m.tags.append("تحقق من الفلووت")
 
     # ---------------- news for the top of the list
-    top = [x for x in pivots if x.status == READY] + [x for x in pivots if x.status == WATCH][:25] + moms[:10]
+    # الأخبار لكل جاهز + كل سهم ارتكاز 7 من 10 فأكثر (الشرط العاشر «محفز أو هدف» يحتاج الخبر) — حد 80
+    near = sorted([x for x in pivots if x.status == WATCH], key=lambda x: -(x.score or 0))
+    top = [x for x in pivots if x.status == READY] + [x for x in near if (x.score or 0) >= 7][:80] + near[:25] + moms[:10]
+    top = list({id(x): x for x in top}.values())
     if news is None:
         try:
             src = intra_provider if isinstance(intra_provider, AlpacaData) else YahooData()
-            news = src.news([x.ticker for x in top])
+            news = src.news([x.ticker for x in top], days=C.NEWS_DAYS)
         except Exception as e:  # noqa
             news = {}
             errors.append(f"news: {str(e)[:80]}")

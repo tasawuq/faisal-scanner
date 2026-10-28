@@ -306,7 +306,7 @@ class AlpacaData:
     def news(self, symbols, days=3) -> dict:
         out = {}
         start = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat().replace("+00:00", "Z")
-        for ch in chunks(symbols, 20):
+        for ch in chunks(symbols, 10):
             try:
                 j = self._get("/v1beta1/news", {"symbols": ",".join(ch), "start": start, "limit": 50, "sort": "desc"})
             except Exception as e:  # noqa

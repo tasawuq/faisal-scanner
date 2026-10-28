@@ -581,3 +581,27 @@ def test_same_setup_alerts_once_not_every_day(tmp_path, monkeypatch):
     s3 = dict(base, meta={"p86": {"bar_date": "2026-10-22"}, "ladder": {"critical": 1.1}})
     assert main.update_alert_state({"ready": [s3], "faisal": [], "session": "post"},
                                    datetime(2026, 10, 22, 16, 30, tzinfo=ET)) == ["VIP"]
+
+
+def test_news_class_positive_negative():
+    """الخبر الإيجابي (ص84) والسلبي (ص72، ص89): نتائج خاسرة مو محفز، والخبر السلبي يلغي الإشارة."""
+    from datetime import datetime, timezone
+    from faisal_scanner.main import news_class
+    now = datetime(2026, 10, 28, 12, tzinfo=timezone.utc)
+    t = "2026-10-27T12:00:00Z"
+    items = [{"headline": h, "time": t} for h in (
+        "XYZ Announces $5 Million Registered Direct Offering",
+        "XYZ Reports Third Quarter 2026 Results; Net Loss Widened",
+        "XYZ Reports Record Q3 Revenue Growth of 40%",
+        "XYZ Reports Third Quarter 2026 Results",
+        "XYZ Receives Nasdaq Minimum Bid Price Deficiency Notice",
+        "XYZ Receives Complete Response Letter From FDA",
+        "XYZ Awarded $3M Government Contract")]
+    k = news_class(items, now)
+    heads = {key: [i["headline"][:22] for i in v] for key, v in k.items()}
+    assert len(k["offering"]) == 1
+    assert len(k["negative"]) == 2  # خسارة متسعة + رسالة رفض FDA
+    assert len(k["positive"]) == 2, heads  # إيرادات قياسية + عقد
+    assert len(k["notice"]) == 1
+    old = [{"headline": "XYZ Awarded $3M Government Contract", "time": "2026-10-20T12:00:00Z"}]
+    assert news_class(old, now)["positive"] == []  # المحفز القديم (أكثر من 3 أيام) ما ينحسب

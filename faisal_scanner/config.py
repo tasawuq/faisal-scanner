@@ -69,10 +69,25 @@ OFFERING_WORDS = (
     "warrant", "at-the-market", "atm program", "shelf", "s-1", "f-1", "dilution",
     "securities purchase agreement",
 )
+# «الخبر الإيجابي» (ص84 «يوجد خبر إيجابي أو فجوة علوية»، ص66 «محفز»): كلمات محفز واضحة بنفسها
 CATALYST_WORDS = (
-    "contract", "patent", "acquisition", "merger", "approval", "fda", "partnership",
-    "agreement", "award", "results", "earnings", "revenue", "buyback", "insider",
+    "contract", "patent", "acquisition", "acquire", "merger", "approval", "approves", "clearance", "fast track",
+    "orphan drug", "breakthrough", "partnership", "collaboration", "license agreement", "award", "buyback",
+    "repurchase", "insider purchase", "insider buying", "purchase of shares by", "regains compliance",
 )
+# نتائج/إيرادات = إيجابية فقط إذا معها كلمة تحسن (النتائج الخاسرة مو محفز)
+RESULT_WORDS = ("results", "earnings", "revenue", "quarter", "fiscal")
+UP_WORDS = ("record", "increase", "grow", "growth", "beat", "exceed", "profit", "raise", "higher", "strong", "up ")
+# ص72 «يخرج إذا بطل السبب: … خبر سلبي»، ص67/ص89 «خبر سلبي يلغي النموذج غالباً» — يلغي الإشارة
+NEGATIVE_WORDS = (
+    "bankruptcy", "chapter 11", "going concern", "delisting determination", "to be delisted", "will be delisted",
+    "suspended from trading", "complete response letter", "rejects", "rejected", "discontinue", "default",
+    "fails to meet primary", "did not meet", "net loss widen",
+)
+# تنبيه فقط (شائع في الأسهم تحت الدولار ويسبق التقسيم العكسي اللي فيصل يعتبره عامل اختيار ص53)
+NOTICE_WORDS = ("deficiency", "non-compliance", "noncompliance", "minimum bid", "notice from nasdaq")
+NEWS_DAYS = 7          # السلبي/الطرح: آخر أسبوع
+CATALYST_DAYS = 3      # المحفز الإيجابي: آخر 3 أيام
 
 # ---------------------------------------------------------------------------
 # 6) مخرجات

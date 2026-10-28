@@ -1,23 +1,23 @@
 {
- "generated_at_utc": "2026-10-28T10:36:21.055501+00:00",
- "generated_at_et": "2026-10-28T06:36:21.055501-04:00",
+ "generated_at_utc": "2026-10-28T10:46:21.055624+00:00",
+ "generated_at_et": "2026-10-28T06:46:21.055624-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 1298,
-  "with_data": 1298,
-  "short_history": 15,
-  "price_out": 64,
+  "prefiltered": 1284,
+  "with_data": 1284,
+  "short_history": 14,
+  "price_out": 55,
   "low_volume": 464,
-  "outside_float": 294,
+  "outside_float": 293,
   "nasdaq": 3433,
-  "all": 5855
+  "all": 5854
  },
  "counts": {
-  "universe": 5855,
-  "analyzed": 755,
+  "universe": 5854,
+  "analyzed": 751,
   "ready": 0,
-  "watch": 106,
+  "watch": 107,
   "momentum": 0,
   "ext_quotes": 65,
   "ext_movers_5pct": 0
@@ -822,8 +822,8 @@
     "last_split": "عكسي 1:10 (2026-04-30)",
     "short_available": null,
     "short_pct_float": 0.4991,
-    "ext_price": 2.75,
-    "ext_chg": 0.0054844993,
+    "ext_price": 2.7463,
+    "ext_chg": 0.004131658999999999,
     "ext_session": "pre"
    },
    "news": []
@@ -3026,8 +3026,8 @@
     "last_split": "عكسي 1:8 (2025-12-15)",
     "short_available": null,
     "short_pct_float": 0.4073,
-    "ext_price": 0.7944,
-    "ext_chg": -0.00100605324,
+    "ext_price": 0.7929,
+    "ext_chg": -0.0028923093999999997,
     "ext_session": "pre"
    },
    "news": []
@@ -8022,7 +8022,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 3.5107,
+   "price": 3.49,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8196,12 +8196,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 125054.0,
-   "price": 345.4907
+   "volume": 132271.0,
+   "price": 345.49
   },
   "SNDL": {
-   "volume": 1655.0,
-   "price": 1.28
+   "volume": 1721.0,
+   "price": 1.3
   }
  }
 }

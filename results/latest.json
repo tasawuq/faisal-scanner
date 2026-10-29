@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-29T20:28:55.214434+00:00",
- "generated_at_et": "2026-10-29T16:28:55.214434-04:00",
+ "generated_at_utc": "2026-10-29T20:38:55.214639+00:00",
+ "generated_at_et": "2026-10-29T16:38:55.214639-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -220,8 +220,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "ext_price": 1.13,
-    "ext_chg": 0.15306122448979576,
+    "ext_price": 1.18,
+    "ext_chg": 0.044247746000000004,
     "ext_session": "post"
    },
    "news": []
@@ -632,8 +632,8 @@
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.0211,
-    "ext_price": 1.44,
-    "ext_chg": -0.013698617,
+    "ext_price": 1.4207,
+    "ext_chg": -0.026917865,
     "ext_session": "post"
    },
    "news": []
@@ -4500,8 +4500,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.66,
-    "ext_chg": -0.051428595,
+    "ext_price": 1.7194,
+    "ext_chg": -0.017485687,
     "ext_session": "post"
    },
    "news": []
@@ -8560,14 +8560,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 2.67,
+   "price": 2.6799,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8585,8 +8585,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -8601,7 +8601,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.66,
+   "price": 1.7194,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8620,7 +8620,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 20%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 16%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -8635,8 +8635,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.58,
-   "price_label": "سعر الأفتر",
+   "price": 1.5800000429153442,
+   "price_label": "آخر سعر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -8724,8 +8724,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

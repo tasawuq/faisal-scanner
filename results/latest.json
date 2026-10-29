@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-29T11:05:56.265693+00:00",
- "generated_at_et": "2026-10-29T07:05:56.265693-04:00",
+ "generated_at_utc": "2026-10-29T11:15:56.265837+00:00",
+ "generated_at_et": "2026-10-29T07:15:56.265837-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -2600,8 +2600,8 @@
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
     "short_pct_float": 0.051599998,
-    "ext_price": 3.88,
-    "ext_chg": 0.01305483028720622,
+    "ext_price": 3.95,
+    "ext_chg": 0.031331592689294974,
     "ext_session": "pre"
    },
    "news": []
@@ -2804,8 +2804,8 @@
     "last_split": "عكسي 1:25 (2026-09-17)",
     "short_available": null,
     "short_pct_float": 0.060900003,
-    "ext_price": 1.49,
-    "ext_chg": -0.044871755,
+    "ext_price": 1.4759,
+    "ext_chg": -0.053910184,
     "ext_session": "pre"
    },
    "news": []
@@ -3200,8 +3200,8 @@
     "last_split": "عكسي 1:30 (2026-06-04)",
     "short_available": null,
     "short_pct_float": 0.012,
-    "ext_price": 0.9841,
-    "ext_chg": 0.00675188,
+    "ext_price": 0.9722,
+    "ext_chg": -0.005422041,
     "ext_session": "pre"
    },
    "news": []
@@ -7959,7 +7959,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.7506,
+   "price": 2.7092,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8096,7 +8096,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.4224,
+   "price": 0.4226,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8116,8 +8116,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": null
   }
@@ -8125,11 +8125,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 209093.0,
-   "price": 348.36
+   "volume": 222964.0,
+   "price": 348.66
   },
   "SNDL": {
-   "volume": 465.0,
+   "volume": 510.0,
    "price": 1.29
   }
  }

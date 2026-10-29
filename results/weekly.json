@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-10-29T06:05:56.264836-04:00",
+ "generated_at_et": "2026-10-29T07:05:56.265693-04:00",
  "items": [
   {
    "ticker": "KIDZ",
    "score": 12.0,
    "price": 1.54,
-   "ext_price": 1.54,
+   "ext_price": 1.57,
    "name": "KIDZ AI Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -430,7 +430,7 @@
    "ticker": "ICCM",
    "score": 10.5,
    "price": 0.978,
-   "ext_price": 0.87,
+   "ext_price": 0.9841,
    "name": "IceCure Medical Ltd",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -4721,7 +4721,7 @@
    "ticker": "INHD",
    "score": 7.5,
    "price": 4.07,
-   "ext_price": 3.93,
+   "ext_price": 3.88,
    "name": "Inno Holdings Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -4865,7 +4865,7 @@
    "ticker": "NCT",
    "score": 7.5,
    "price": 1.56,
-   "ext_price": 1.5,
+   "ext_price": 1.49,
    "name": "Intercont (Cayman) Limited",
    "type": [
     "صيني عالي التذبذب ⚠️"
@@ -7401,7 +7401,7 @@
    "ticker": "OLOX",
    "score": 6.0,
    "price": 0.79,
-   "ext_price": 0.7805,
+   "ext_price": 0.8053,
    "name": "Olenox Industries Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -10797,7 +10797,7 @@
    "ticker": "LPCN",
    "score": 5.0,
    "price": 1.51,
-   "ext_price": 1.4087,
+   "ext_price": 1.5084,
    "name": "Lipocine Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -11377,6 +11377,140 @@
    ]
   },
   {
+   "ticker": "HMR",
+   "score": 5.0,
+   "price": 1.85,
+   "ext_price": null,
+   "name": "Heidmar Maritime Holdings Corp.",
+   "type": [
+    "ارتكاز"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 6097744,
+    "shares": 58991997,
+    "last_split": null,
+    "split": {},
+    "country_ar": "يوناني",
+    "industry": "Marine Shipping",
+    "short_available": null,
+    "runner": {
+     "pct": 1.295302049935731,
+     "from": 0.7450000047683716,
+     "from_date": "2026-04-27",
+     "to": 1.7100000381469727,
+     "to_date": "2026-05-26",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Sep 1, 2026",
+     "Heidmar Maritime Q2 Earnings Call Highlights"
+    ],
+    [
+     "Sep 1, 2026",
+     "Heidmar Maritime Holdings Corp. (HMR) Q2 Earnings Miss Estimates"
+    ],
+    [
+     "Aug 19, 2026",
+     "ZIM Integrated Shipping Services (ZIM) Q2 Earnings and Revenues Surpass Estimates"
+    ]
+   ],
+   "levels": {
+    "demand_low": 1.6,
+    "demand_high": 1.65,
+    "orders": [
+     1.64,
+     1.62,
+     1.61
+    ],
+    "critical": 1.6,
+    "stop": 1.59,
+    "risk": 0.020533880903490686,
+    "wash_low": 1.287,
+    "wash_high": 1.326,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.600000023841858,
+    "t1": 1.8600000143051147,
+    "t2": 1.940000057220459
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-10-28",
+    "met": [
+     "support",
+     "retest",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "rsi",
+     "macd",
+     "volume",
+     "candle",
+     "pressure"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "ما كان تحت المتوسطات الثلاثة خلال القاعدة، وأغلق فوق 30 و50 (ص82)"
+     ],
+     "rsi": [
+      false,
+      "أدنى RSI 45 (الحالي 56)"
+     ],
+     "macd": [
+      false,
+      "سلبي — ما بدأ يتحسن"
+     ],
+     "support": [
+      true,
+      "منطقة 1.6–1.65 لمسها 4 مرات خلال 39 يوم"
+     ],
+     "retest": [
+      true,
+      "رجع للدعم وما انكسر (الاختبار 4)"
+     ],
+     "volume": [
+      false,
+      "فوليومها 25K مقابل متوسط شموع البيع 91K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة بعيدة عن منطقة الدعم"
+     ],
+     "pressure": [
+      false,
+      "هبط 8% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 1.86 (+14.6%) أكبر من الخسارة −2.1%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: ما كان تحت المتوسطات الثلاثة خلال القاعدة، وأغلق فوق 30 و50 (ص82) (ص66/ص82/ص84/ص86)",
+    "RSI وصل 23–27: أدنى RSI 45 (الحالي 56) (ص65/ص86)",
+    "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
+    "فوليوم يتحسن مع الارتداد: فوليومها 25K مقابل متوسط شموع البيع 91K (ص85/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 1.6–1.65 وفشل كسرها (أو سحب سيولة تحت 1.6 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.28–1.44، ص54)",
+   "flags": [],
+   "tags": [
+    "Former Runner: صعد 130% من 0.745 (2026-04-27) إلى 1.71 (2026-05-26)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "AIXI",
    "score": 4.5,
    "price": 2.96,
@@ -11812,7 +11946,7 @@
    "ticker": "TCRT",
    "score": 4.0,
    "price": 2.13,
-   "ext_price": 2.15,
+   "ext_price": 2.1,
    "name": "Alaunos Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -11958,7 +12092,7 @@
    "ticker": "SPHL",
    "score": 4.0,
    "price": 2.67,
-   "ext_price": 2.5349,
+   "ext_price": 2.5665,
    "name": "Springview Holdings Ltd",
    "type": [
     "فلووت منخفض جداً"

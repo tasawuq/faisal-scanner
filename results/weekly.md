@@ -1,4 +1,4 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-10-29T07:05 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-10-29T08:05 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
@@ -30,7 +30,7 @@
 - متى يكون جاهزاً: اختبار منطقة 2.15–2.17 وفشل كسرها (أو سحب سيولة تحت 2.15 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.72–1.94، ص54)
 
 ## $ICCM — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 0.978 (بري/أفتر 0.9841) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.978 (بري/أفتر 0.9722) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: إسرائيلي - Medical Devices - قسم 1:30 (2026-06-04) افتتاح 4.31 - اعلى 9.54 - الشورت المتاح: غير متوفر - فلوت 2.52M - عدد الأسهم 4.64M - سبق صعد من 2.12 (2026-06-16) إلى 9.54 (2026-06-17) +350%
 - الأخبار: IceCure Secures China NMPA Approval for ProSense Cryoablation System (Sep 11, 2026) | IceCure Medical Wins Regulatory Approval To Market ProSense In China (Sep 10, 2026) | IceCure Medical Gains IRB Approval For ChoICE Breast Cancer Cryoablation Study As West Cancer Center (Aug 20, 2026)
 - منطقة الطلب 0.96–0.9696 | طلبات Limit: 0.9695 / 0.9648 / 0.96 | الخروج: إغلاق يومي تحت 0.845 | الأهداف 1.04 / 1.12 | منطقة أعمق (غسل) 0.816–0.864
@@ -172,7 +172,7 @@
 - ⚠️ سهم صيني عالي التذبذب، سعر منخفض جداً — سبريد واسع
 
 ## $CNSY — طبي — الخبر يحرّكه / نموذج W
-- السعر 1.74 (بري/أفتر 1.74) | نموذج W قيد التكوين
+- السعر 1.74 (بري/أفتر 1.86) | نموذج W قيد التكوين
 - البيانات: أمريكي - Biotechnology - قسم 1:25 (2026-04-02) افتتاح 3.75 - اعلى 8.0 - الشورت المتاح: غير متوفر - فلوت 7.50M - عدد الأسهم 7.59M - سبق صعد من 2.9 (2026-04-07) إلى 8.0 (2026-04-22) +176%
 - الأخبار: New Strong Sell Stocks for October 22nd (Oct 22, 2026) | New Strong Sell Stocks for October 15th (Oct 15, 2026) | Cerenome Provides Q3 Update On CNSide Diagnostics; Stock Up (Sep 30, 2026)
 - منطقة الطلب 1.51–1.581 | طلبات Limit: 1.58 / 1.54 / 1.51 | الخروج: إغلاق يومي تحت 1.51 | الأهداف 1.789 / 1.91 | منطقة أعمق (غسل) 1.284–1.359
@@ -182,7 +182,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $DGNX — بعد ارتداد أول — ينتظر Retest
-- السعر 1.46 (بري/أفتر 1.44) | سحب سيولة ثم استرداد الدعم
+- السعر 1.46 (بري/أفتر 1.45) | سحب سيولة ثم استرداد الدعم
 - البيانات: بريطاني - Consulting Services - قسم 1:8 (2026-04-28) افتتاح 3.66 - اعلى 3.81 - الشورت المتاح: غير متوفر - فلوت 6.62M - عدد الأسهم 50.1M - سبق صعد من 0.85 (2026-06-23) إلى 1.88 (2026-06-29) +121%
 - الأخبار: Diginex CEO Mark Blick Steps Down; Appoints Lubomila Jordanova As Successor (Jan 28, 2026) | Diginex Inks MOU To Acquire The Remedy Project For Undisclosed Terms (Nov 21, 2025) | Diginex Limited Reports 57% Revenue Increase and Strategic Acquisitions in Fiscal Year 2025 Results (Jul 11, 2025)
 - منطقة الطلب 1.31–1.33 | طلبات Limit: 1.33 / 1.32 / 1.31 | الخروج: إغلاق يومي تحت 1.12 | الأهداف 1.585 / 1.64 | منطقة أعمق (غسل) 1.148–1.183
@@ -327,7 +327,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 14 يوم (طار إلى 6.87 وأغلق 3.83 بفوليوم 173x)، اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم صيني عالي التذبذب
 
 ## $NCT — صيني عالي التذبذب ⚠️
-- السعر 1.56 (بري/أفتر 1.49) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 1.56 (بري/أفتر 1.47) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Marine Shipping - قسم 1:25 (2026-09-17) افتتاح 8.8 - اعلى 9.32 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 1.02M - سبق صعد من 32.5 (2026-07-07) إلى 98.75 (2026-07-24) +204%
 - الأخبار: Biotech Stocks Facing FDA Decision In November 2026 (Oct 29, 2026) | Evogene Targets Acute GVHD With AI-Driven Drug Discovery Program (Oct 29, 2026) | Antero Midstream Corporation Reports Third Quarter 2026 Results and Updates Full Year Guidance (Oct 29, 2026)
 - منطقة الطلب 1.29–1.31 | طلبات Limit: 1.3 / 1.3 / 1.29 | الخروج: إغلاق يومي تحت 1.22 | الأهداف 1.63 / 1.69 | منطقة أعمق (غسل) 1.238–1.271
@@ -502,7 +502,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $OLOX — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
-- السعر 0.79 (بري/أفتر 0.8053) | سحب سيولة ثم استرداد الدعم
+- السعر 0.79 (بري/أفتر 0.7807) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Metal Fabrication - قسم 1:10 (2026-05-08) افتتاح 4.7 - اعلى 11.4 - الشورت المتاح: غير متوفر - فلوت 1.32M - عدد الأسهم 1.66M - سبق صعد من 18.1 (2025-11-06) إلى 93.4 (2025-11-20) +416%
 - الأخبار: Safe & Green Holdings Corp. Enters Equity Purchase Agreement to Acquire IPD Industries and Wildboy Holdings (Oct 21, 2026) | Safe & Green Holdings Jumps 41% On Olenox Partnership To Boost Infrastructure Reliability (Oct 23, 2025) | Safe & Green Holdings Corp. Engages ShareIntel to Investigate Potential Illegal Trading Activity (Jun 10, 2025)
 - منطقة الطلب 0.772–0.7797 | طلبات Limit: 0.7797 / 0.7759 / 0.7721 | الخروج: إغلاق يومي تحت 0.76 | الأهداف 0.812 / 0.8583 | منطقة أعمق (غسل) 0.6841–0.7048
@@ -735,7 +735,7 @@
 - متى يكون جاهزاً: اختبار منطقة 1.89–1.91 وفشل كسرها (أو سحب سيولة تحت 1.89 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.51–1.7، ص54)
 
 ## $LPCN — طبي — الخبر يحرّكه / نموذج W
-- السعر 1.51 (بري/أفتر 1.508) | نموذج W قيد التكوين
+- السعر 1.51 (بري/أفتر 1.48) | نموذج W قيد التكوين
 - البيانات: أمريكي - Biotechnology - قسم 1:17 (2023-05-12) - الشورت المتاح: غير متوفر - فلوت 6.51M - عدد الأسهم 8.24M - سبق صعد من 3.05 (2025-12-15) إلى 12.37 (2026-01-15) +306%
 - الأخبار: Weekly Buzz: RHHBY, NVS, PFE Win FDA Nod; CRBU Scales Back; PCVX, ABBV Report Positive Trial Data (Oct 9, 2026) | Here's Why You Should Add LPCN Stock to Your Portfolio Now (Oct 8, 2026) | Lipocine Jumps On TLANDO's Health Canada Approval For Testosterone Replacement Therapy (Oct 7, 2026)
 - منطقة الطلب 1.4–1.428 | طلبات Limit: 1.42 / 1.41 / 1.4 | الخروج: إغلاق يومي تحت 1.4 | الأهداف 1.54 / 1.721 | منطقة أعمق (غسل) 1.19–1.26
@@ -804,7 +804,7 @@
 - ⚠️ سهم صيني عالي التذبذب
 
 ## $JBDI — ارتكاز
-- السعر 2.4 (بري/أفتر 2.3) | ارتداد مؤكد من الدعم
+- السعر 2.4 (بري/أفتر 2.34) | ارتداد مؤكد من الدعم
 - البيانات: سنغافوري - Specialty Retail - قسم 1:2 (2026-06-30) افتتاح 1.27 - اعلى 9.5 - الشورت المتاح: غير متوفر - فلوت 5.04M - عدد الأسهم 9.51M - سبق صعد من 0.803 (2026-10-07) إلى 9.5 (2026-10-13) +1083%
 - الأخبار: JBDI Holdings Limited Regains Compliance with Nasdaq Listing Requirements (Jun 9, 2025) | JBDI Holdings Limited Regains Compliance with Nasdaq Minimum Bid Price Requirement, Faces Interim Filing Notice (Jun 6, 2025) | JBDI Holdings Limited Announces Share Repurchase Program Worth Up to US$1 Million (May 5, 2025)
 - منطقة الطلب 2.2–2.222 | طلبات Limit: 2.22 / 2.21 / 2.21 | الخروج: إغلاق يومي تحت 2.2 | الأهداف 2.45 / 2.56 | منطقة أعمق (غسل) 1.881–1.938
@@ -814,7 +814,7 @@
 - ⚠️ توه مدبل: من 0.803 إلى 2.89، شمعة ضخ/تصريف قبل 8 يوم (طار إلى 3.95 وأغلق 2.59 بفوليوم 756x)
 
 ## $TCRT — طبي — الخبر يحرّكه / فلووت منخفض جداً
-- السعر 2.13 (بري/أفتر 2.1) | سحب سيولة ثم استرداد الدعم
+- السعر 2.13 (بري/أفتر 2.06) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2024-07-18) - الشورت المتاح: غير متوفر - فلوت 1.20M - عدد الأسهم 3.44M - سبق صعد من 0.72 (2026-10-06) إلى 4.4 (2026-10-14) +511%
 - الأخبار: Alaunos Therapeutics, Inc. Regains Compliance with Nasdaq Stockholders' Equity Requirement of $2,500,000 (Oct 23, 2026) | Alaunos Therapeutics, Inc. Believes It Regained Nasdaq Compliance Following $350.0 million Financing (Oct 22, 2026) | Paragon Labs Adds Former Apogee Leaders As Alaunos Completes Velaris Acquisition; Stock Up (Oct 13, 2026)
 - منطقة الطلب 1.92–1.98 | طلبات Limit: 1.98 / 1.95 / 1.92 | الخروج: إغلاق يومي تحت 1.88 | الأهداف 2.19 / 2.26 | منطقة أعمق (غسل) 1.812–1.867
@@ -824,7 +824,7 @@
 - ⚠️ توه مدبل: من 0.72 إلى 2.39، شمعة ضخ/تصريف قبل 7 يوم (طار إلى 3.49 وأغلق 3.13 بفوليوم 1115x)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $SPHL — فلووت منخفض جداً
-- السعر 2.67 (بري/أفتر 2.567) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 2.67 (بري/أفتر 2.57) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: سنغافوري - Residential Construction - قسم 1:8 (2025-12-02) افتتاح 3.25 - اعلى 25.11 - الشورت المتاح: غير متوفر - فلوت 1.24M - عدد الأسهم 2.26M - سبق صعد من 1.92 (2026-01-02) إلى 25.11 (2026-01-15) +1208%
 - الأخبار: Springview Holdings Ltd Secures S$1.725 Million Contract for Heritage Redevelopment Project in Singapore (Jun 17, 2025) | Springview Holdings Ltd Achieves bizSAFE Level 4 Certification in Singapore (Jun 13, 2025) | Springview Holdings Ltd Receives Nasdaq Non-Compliance Notification Regarding Minimum Bid Price Requirement (Apr 29, 2025)
 - منطقة الطلب 2.3–2.323 | طلبات Limit: 2.32 / 2.31 / 2.3 | الخروج: إغلاق يومي تحت 2.3 | الأهداف 2.72 / 2.82 | منطقة أعمق (غسل) 2.208–2.265

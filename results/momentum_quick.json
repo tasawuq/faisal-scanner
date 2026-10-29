@@ -1,10 +1,12 @@
 {
- "generated_at_et": "2026-10-29T04:23:11.347899-04:00",
+ "generated_at_et": "2026-10-29T04:24:23.378862-04:00",
  "mode": "quick",
  "session": "pre",
  "ready": [],
  "radar": [],
- "new_alerts": [],
+ "new_alerts": [
+  "SVRE (مستوى فيصل)"
+ ],
  "debug": {
   "momentum": "off",
   "watch": {
@@ -38,9 +40,24 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
-   "session": "pre"
+   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
+   "alert": true,
+   "session": "pre",
+   "day": {
+    "high": 0.829,
+    "low": 0.829,
+    "vol": 0.0,
+    "bars": [
+     [
+      "04:00",
+      0.829,
+      0.829,
+      0.829,
+      0.829,
+      0.0
+     ]
+    ]
+   }
   },
   {
    "ticker": "ELPW",

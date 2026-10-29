@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-29T09:45:56.264552+00:00",
- "generated_at_et": "2026-10-29T05:45:56.264552-04:00",
+ "generated_at_utc": "2026-10-29T09:55:56.264694+00:00",
+ "generated_at_et": "2026-10-29T05:55:56.264694-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -605,8 +605,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.78,
-    "ext_chg": -0.013157966,
+    "ext_price": 0.7805,
+    "ext_chg": -0.012525345,
     "ext_session": "pre"
    },
    "news": []
@@ -1206,8 +1206,8 @@
     "last_split": "عكسي 1:2 (2026-06-30)",
     "short_available": null,
     "short_pct_float": 0.0423,
-    "ext_price": 2.3156,
-    "ext_chg": -0.035166738,
+    "ext_price": 2.3003,
+    "ext_chg": -0.041541753,
     "ext_session": "pre"
    },
    "news": []
@@ -2395,8 +2395,8 @@
     "last_split": "عكسي 1:8 (2025-12-02)",
     "short_available": null,
     "short_pct_float": 0.0092,
-    "ext_price": 2.5,
-    "ext_chg": -0.06367044,
+    "ext_price": 2.5349,
+    "ext_chg": -0.05059929999999999,
     "ext_session": "pre"
    },
    "news": []
@@ -6745,8 +6745,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.7708,
-    "ext_chg": -0.005168526,
+    "ext_price": 1.77,
+    "ext_chg": -0.005617972,
     "ext_session": "pre"
    },
    "news": []
@@ -7959,7 +7959,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.8497,
+   "price": 2.78,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -7993,7 +7993,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.7708,
+   "price": 1.77,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8046,8 +8046,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف المتابعة 1.49 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف المتابعة 1.49 — السبب بطل",
+   "alert": true,
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8125,8 +8125,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 96756.0,
-   "price": 347.21
+   "volume": 110344.0,
+   "price": 347.49
   },
   "SNDL": {
    "volume": 78.0,

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-29T12:25:56.266830+00:00",
- "generated_at_et": "2026-10-29T08:25:56.266830-04:00",
+ "generated_at_utc": "2026-10-29T12:35:56.266981+00:00",
+ "generated_at_et": "2026-10-29T08:35:56.266981-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1606,8 +1606,8 @@
     "last_split": "عكسي 1:10 (2024-07-18)",
     "short_available": null,
     "short_pct_float": 0.2526,
-    "ext_price": 2.06,
-    "ext_chg": -0.03286393,
+    "ext_price": 1.8999,
+    "ext_chg": -0.10802824,
     "ext_session": "pre"
    },
    "news": []
@@ -1806,8 +1806,8 @@
     "last_split": "عكسي 1:25 (2026-04-02)",
     "short_available": null,
     "short_pct_float": 0.1034,
-    "ext_price": 1.86,
-    "ext_chg": 0.12048192771084354,
+    "ext_price": 1.76,
+    "ext_chg": 0.00571428,
     "ext_session": "pre"
    },
    "news": []
@@ -2600,8 +2600,8 @@
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
     "short_pct_float": 0.051599998,
-    "ext_price": 3.88,
-    "ext_chg": 0.01305483028720622,
+    "ext_price": 3.87,
+    "ext_chg": 0.010443864229765065,
     "ext_session": "pre"
    },
    "news": []
@@ -3399,8 +3399,8 @@
     "last_split": "عكسي 1:250 (2026-06-29)",
     "short_available": null,
     "short_pct_float": 0.13270001,
-    "ext_price": 1.16,
-    "ext_chg": -0.08661419000000001,
+    "ext_price": 1.19,
+    "ext_chg": -0.062992067,
     "ext_session": "pre"
    },
    "news": []
@@ -6745,8 +6745,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.8399,
-    "ext_chg": 0.033651712,
+    "ext_price": 1.8263,
+    "ext_chg": 0.026011267,
     "ext_session": "pre"
    },
    "news": []
@@ -7933,7 +7933,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 0.8187,
+   "price": 0.8066,
    "price_label": "سعر البري",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -7959,7 +7959,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.65,
+   "price": 2.6505,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -7993,7 +7993,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.8399,
+   "price": 1.8263,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8012,7 +8012,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 9%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 10%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8116,8 +8116,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": null
   }
@@ -8125,8 +8125,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 358955.0,
-   "price": 348.0595
+   "volume": 391683.0,
+   "price": 348.2137
   },
   "SNDL": {
    "volume": 2207.0,

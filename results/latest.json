@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-29T08:45:56.263675+00:00",
- "generated_at_et": "2026-10-29T04:45:56.263675-04:00",
+ "generated_at_utc": "2026-10-29T08:55:56.263815+00:00",
+ "generated_at_et": "2026-10-29T04:55:56.263815-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -605,8 +605,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.7824,
-    "ext_chg": -0.010121478,
+    "ext_price": 0.78,
+    "ext_chg": -0.013157966,
     "ext_session": "pre"
    },
    "news": []
@@ -802,8 +802,8 @@
     "last_split": "عكسي 1:15 (2026-08-13)",
     "short_available": null,
     "short_pct_float": 0.1289,
-    "ext_price": 1.42,
-    "ext_chg": -0.006993006993006978,
+    "ext_price": 1.54,
+    "ext_chg": 0.0,
     "ext_session": "pre"
    },
    "news": []
@@ -2597,8 +2597,8 @@
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
     "short_pct_float": 0.051599998,
-    "ext_price": 3.8,
-    "ext_chg": -0.007832898172323799,
+    "ext_price": 3.96,
+    "ext_chg": 0.03394255874673635,
     "ext_session": "pre"
    },
    "news": []
@@ -7956,7 +7956,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.781,
+   "price": 2.84,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8024,8 +8024,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.3899999856948853,
-   "price_label": "آخر سعر",
+   "price": 1.43,
+   "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -8122,8 +8122,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 64635.0,
-   "price": 347.45
+   "volume": 70824.0,
+   "price": 347.58
+  },
+  "SNDL": {
+   "volume": 78.0,
+   "price": 1.29
   }
  }
 }

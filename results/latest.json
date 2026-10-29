@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-29T22:18:55.216220+00:00",
- "generated_at_et": "2026-10-29T18:18:55.216220-04:00",
+ "generated_at_utc": "2026-10-29T22:28:55.216361+00:00",
+ "generated_at_et": "2026-10-29T18:28:55.216361-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -1068,8 +1068,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.7704,
-    "ext_chg": -0.03579479,
+    "ext_price": 0.7703,
+    "ext_chg": -0.035919967000000004,
     "ext_session": "post"
    },
    "news": []
@@ -1501,8 +1501,8 @@
     "last_split": "عكسي 1:25 (2026-04-02)",
     "short_available": null,
     "short_pct_float": 0.1034,
-    "ext_price": 1.7591,
-    "ext_chg": 0.0052000000000000934,
+    "ext_price": 1.75,
+    "ext_chg": 0.0,
     "ext_session": "post"
    },
    "news": []
@@ -8573,7 +8573,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.75,
+   "price": 2.76,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8730,8 +8730,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

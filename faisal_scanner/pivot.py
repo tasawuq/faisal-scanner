@@ -427,7 +427,8 @@ def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, px_now: float, today: d
     z_low, z_high = float(cd["zone"][0]), float(cd["zone"][1])
     if z_high < z_low:
         z_low, z_high = z_high, z_low
-    p86 = M.p86_daily(df, z_low, z_high, cd.get("breakout"))
+    kind = "sweep" if cd["code"] == "SWEEP" else "w" if cd["code"].startswith("W_") else "support"
+    p86 = M.p86_daily(df, z_low, z_high, cd.get("breakout"), kind)
     if cd["code"] == "W_FORMING":
         p86["critical"] = float(z_low)
     crit = min(float(p86["critical"]), z_low)  # الدعم الحرج تحت المنطقة دائماً (BJDX: المنطقة 1.70–1.95 والحرج 1.67)

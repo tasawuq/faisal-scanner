@@ -605,3 +605,31 @@ def test_news_class_positive_negative():
     assert len(k["notice"]) == 1
     old = [{"headline": "XYZ Awarded $3M Government Contract", "time": "2026-10-20T12:00:00Z"}]
     assert news_class(old, now)["positive"] == []  # المحفز القديم (أكثر من 3 أيام) ما ينحسب
+
+
+def _accum_df(second_low):
+    """قاعدة: اختبار أول للدعم عند 1.00، ارتداد، ثم اختبار ثاني عند second_low بشموع أصغر (ص12)."""
+    rows = []
+    px = 2.0
+    for i in range(40):  # هبوط بشموع كبيرة
+        o = px; c = px * 0.985; rows.append([o, o * 1.03, c * 0.97, c, 300_000]); px = c
+    path = [1.06, 1.03, 1.00, 1.04, 1.08, 1.12, 1.15, 1.14, 1.16, 1.15, 1.13, 1.14, 1.13, 1.12, 1.11, 1.10]
+    for p in path:  # الاختبار الأول والارتداد (شموع واسعة ~5%)
+        rows.append([p * 1.01, p * 1.03, p * 0.975, p, 200_000])
+    for p in (1.09, 1.085, 1.08, 1.075):  # نزول هادي بشموع أصغر
+        rows.append([p * 1.004, p * 1.008, p * 0.993, p, 90_000])
+    rows.append([second_low * 1.01, second_low * 1.02, second_low, second_low * 1.012, 80_000])  # الاختبار الثاني
+    rows.append([1.05, 1.07, 1.045, 1.065, 150_000])  # شمعة خضراء
+    idx = pd.bdate_range(end="2026-10-27", periods=len(rows), tz=ET)
+    return pd.DataFrame(rows, index=idx, columns=["open", "high", "low", "close", "volume"])
+
+
+def test_accumulation_higher_lows_and_shrinking_candles():
+    """ص12–ص13: «التجميع = دعم واضح + تماسك + فوليوم بيع أقل + قيعان أعلى» و«الحظ تقلص الشموع». الارتداد من الدعم
+    يحتاج قاع الاختبار الثاني أعلى من الأول؛ وسحب السيولة نوع ثاني ما ينطبق عليه (ص9)."""
+    ok = M.p86_daily(_accum_df(1.03), 1.00, 1.05)["checks"]["accum"]
+    assert ok[0] is True, ok
+    lower = M.p86_daily(_accum_df(0.96), 0.96, 1.05)["checks"]["accum"]
+    assert lower[0] is False and "مو أعلى" in lower[1], lower
+    sweep = M.p86_daily(_accum_df(0.96), 0.96, 1.05, kind="sweep")["checks"]["accum"]
+    assert sweep[0] is True and "لا ينطبق" in sweep[1]

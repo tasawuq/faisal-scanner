@@ -43,12 +43,12 @@ REGULAR = (time(9, 30), time(16, 0))
 H4_SPLIT = time(13, 30)      # شمعة 4 ساعات للجلسة الرسمية: 9:30–13:30 ثم 13:30–16:00
 
 PAGE = {"ma": "ص66/ص82/ص84/ص86", "target": "ص66/ص84/ص88", "rsi": "ص65/ص86", "macd": "ص85/ص86", "support": "ص86", "retest": "ص86/ص17",
-        "volume": "ص85/ص86", "candle": "ص82/ص86", "pressure": "ص85", "red": "ص88"}
+        "volume": "ص85/ص86", "candle": "ص82/ص86", "pressure": "ص85", "red": "ص88", "accum": "ص12/ص13"}
 NAME = {"ma": "تحت المتوسطات ثم بدأ يستعيدها", "target": "محفز أو هدف علوي", "rsi": "RSI وصل 23–27", "macd": "MACD يتحسن أو تقاطع",
         "support": "دعم/قاع واضح", "retest": "اختبار الدعم وفشل الكسر", "volume": "فوليوم يتحسن مع الارتداد",
         "candle": "شمعة انعكاس عند الدعم", "pressure": "ضغط بيع سابق ثم ضعف الهبوط",
-        "red": "ما فيه شموع حمراء طويلة قرب القاع"}
-ORDER = ("ma", "rsi", "macd", "support", "retest", "volume", "candle", "pressure", "red", "target")
+        "red": "ما فيه شموع حمراء طويلة قرب القاع", "accum": "تجميع: قيعان أعلى وشموع تتقلص"}
+ORDER = ("ma", "rsi", "macd", "support", "retest", "accum", "volume", "candle", "pressure", "red", "target")
 PRESSURE_DROP = 0.25         # اجتهاد: «هبط بقوة» (ص85) = 25%+ من أعلى سعر في 90 يوم
 
 
@@ -175,7 +175,7 @@ def episodes(low, zone_high, start, end):
 
 
 # ------------------------------------------------------------------ شروط ص86 على اليومي
-def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = None) -> dict:
+def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = None, kind: str = "support") -> dict:
     """الشروط الستة «قبل الدخول تأكد من اكتمال الشروط» (ص86) + شمعة الانعكاس عند الدعم (ص82، ص86) على شموع يومية
     مكتملة فقط. breakout: لنموذج الدخول 3 (اختراق مقاومة قريبة ثم إعادة اختبار) — {"res", "retest_ok", "vol_ok",
     "retest_low"}. يرجع {checks:{k:(ok, note)}, critical, complete, bar_date}."""
@@ -265,6 +265,23 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
         out["candle"] = (ok_c, (nm + " عند الدعم") if ok_c else
                          ("آخر شمعة يومية مو انعكاس" if at else
                           "آخر شمعة يومية أغلقت تحت الدعم" if l[-1] <= zh else "آخر شمعة بعيدة عن منطقة الدعم"))
+    # ص12–ص13 «كيف تقرأ تجميع المضارب»: «التجميع = دعم واضح + تماسك + فوليوم بيع أقل + قيعان أعلى»، و«الحظ تقلص
+    # الشموع: الشموع تصبح أصغر والهبوط أقل حدة». ينطبق على الارتداد من الدعم فقط — سحب السيولة (قاع أدنى بطبيعته)
+    # ونموذج W والاختراق أنواع سلوك ثانية لها دخولها (ص9 «حدد نوع السلوك أولاً، ثم اختر طريقة الدخول المناسبة له»)
+    r_ = (h - l) / np.maximum(c, 1e-9)
+    rec_, pri_ = r_[max(0, n - 6):n - 1], r_[max(0, n - 16):max(0, n - 6)]
+    shrink = bool(len(rec_) and len(pri_) and np.mean(rec_) < np.mean(pri_))  # اجتهاد: آخر 5 شموع مقابل الـ10 قبلها
+    ep_lows = [float(np.min(l[a:b + 1])) for a, b in eps]
+    if breakout or kind != "support":
+        why = "اختراق قاعدة" if breakout else {"sweep": "سحب سيولة", "w": "نموذج W"}.get(kind, kind)
+        out["accum"] = (True, f"لا ينطبق — {why} نوع سلوك ثاني غير التجميع (ص9)")
+    else:
+        hl = len(ep_lows) >= 2 and ep_lows[-1] > ep_lows[-2]
+        out["accum"] = (bool(hl and shrink),
+                        ((f"قاع الاختبار الأخير {rnd(ep_lows[-1])} أعلى من اللي قبله {rnd(ep_lows[-2])}" if hl else
+                          f"قاع الاختبار الأخير {rnd(ep_lows[-1])} مو أعلى من اللي قبله {rnd(ep_lows[-2])}")
+                         if len(ep_lows) >= 2 else "ما فيه قاعين للمقارنة بعد")
+                        + ("، والشموع تتقلص" if shrink else "، والشموع ما تقلصت"))
     # ص85 الشرط 4: «وجود شورت أو ضغط بيع سابق ثم ضعف الهبوط» — هبوط قوي ثم ضعف البيع (فوليوم شموع البيع يقل أو الدعم صمد)
     hi90 = float(np.nanmax(h[max(0, n - 90):n]))
     drop = 1 - c[-1] / hi90 if hi90 > 0 else 0.0
@@ -285,7 +302,8 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
     return {"checks": out, "critical": crit, "complete": all(x[0] for x in out.values()),
             "bar_date": str(df.index[-1])[:10], "frame": "يومي", "below_ma": below, "broke": broke,
             "ma20": float(ma[20][-1]),
-            "episodes": len(eps), "breakout": bool(breakout)}
+            "episodes": len(eps), "breakout": bool(breakout), "kind": "breakout" if breakout else kind,
+            "ep_lows": ep_lows, "ep_open": bool(eps and eps[-1][1] >= n - 1), "shrink": shrink}
 
 
 # ------------------------------------------------------------------ شمعة 4 ساعات (ص90)
@@ -332,6 +350,21 @@ def p86_4h(daily_res: dict, bars15, z_low, z_high, prev_close, avg_vol, now_et, 
     if not chk["retest"][0] and at and not daily_res.get("broke") and daily_res.get("episodes", 0) >= 1:
         chk["retest"] = (True, ("سحب سيولة اليوم تحت الدعم ثم استرداده" if low_today < z_low * 0.995
                                 else "رجع اليوم للدعم وما انكسر") + " (4 ساعات)")
+    if daily_res.get("kind") == "support" and "accum" in chk and not chk["accum"][0] and at and low_today < z_low * 0.995:
+        # نزل اليوم تحت الدعم ثم استرده = سحب سيولة (ص16) — نوع سلوك ثاني، قاعه أدنى بطبيعته (ص9)
+        chk["accum"] = (True, "لا ينطبق — سحب سيولة اليوم تحت الدعم ثم استرداده (ص9، ص16)")
+    elif daily_res.get("kind") == "support" and "accum" in chk and not chk["accum"][0] and at:
+        lows = list(daily_res.get("ep_lows") or [])
+        if lows and daily_res.get("ep_open"):
+            lows[-1] = min(lows[-1], low_today)
+        else:
+            lows.append(low_today)
+        hl = len(lows) >= 2 and lows[-1] > lows[-2]
+        sh = bool(daily_res.get("shrink"))
+        chk["accum"] = (bool(hl and sh), (f"قاع اليوم {rnd(lows[-1])} " + ("أعلى" if hl else "مو أعلى")
+                                          + f" من الاختبار اللي قبله {rnd(lows[-2])}" if len(lows) >= 2 else
+                                          "ما فيه قاعين للمقارنة بعد")
+                        + ("، والشموع تتقلص" if sh else "، والشموع ما تقلصت") + " (4 ساعات)")
     mins = (ends[i] - datetime.combine(now_et.date(), REGULAR[0] if i == 0 else H4_SPLIT,
                                        tzinfo=now_et.tzinfo)).total_seconds() / 60
     pace = avg_vol * mins / 390.0

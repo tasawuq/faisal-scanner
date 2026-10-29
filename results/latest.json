@@ -1,23 +1,23 @@
 {
- "generated_at_utc": "2026-10-29T10:35:56.265262+00:00",
- "generated_at_et": "2026-10-29T06:35:56.265262-04:00",
+ "generated_at_utc": "2026-10-29T10:45:56.265411+00:00",
+ "generated_at_et": "2026-10-29T06:45:56.265411-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 1284,
-  "with_data": 1284,
-  "short_history": 15,
-  "price_out": 69,
-  "low_volume": 462,
-  "outside_float": 296,
+  "prefiltered": 1275,
+  "with_data": 1275,
+  "short_history": 17,
+  "price_out": 61,
+  "low_volume": 463,
+  "outside_float": 295,
   "nasdaq": 3433,
-  "all": 5854
+  "all": 5855
  },
  "counts": {
-  "universe": 5854,
-  "analyzed": 738,
+  "universe": 5855,
+  "analyzed": 734,
   "ready": 0,
-  "watch": 104,
+  "watch": 105,
   "momentum": 0,
   "ext_quotes": 66,
   "ext_movers_5pct": 0
@@ -2600,8 +2600,8 @@
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
     "short_pct_float": 0.051599998,
-    "ext_price": 3.94,
-    "ext_chg": 0.02872062663185382,
+    "ext_price": 3.885,
+    "ext_chg": 0.01436031331592691,
     "ext_session": "pre"
    },
    "news": []
@@ -7959,7 +7959,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.75,
+   "price": 2.7999,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8046,8 +8046,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف المتابعة 1.49 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف المتابعة 1.49 — السبب بطل",
+   "alert": true,
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8125,8 +8125,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 138994.0,
-   "price": 347.9957
+   "volume": 142228.0,
+   "price": 348.05
   },
   "SNDL": {
    "volume": 78.0,

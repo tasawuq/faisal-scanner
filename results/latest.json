@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-29T08:25:56.263395+00:00",
- "generated_at_et": "2026-10-29T04:25:56.263395-04:00",
+ "generated_at_utc": "2026-10-29T08:35:56.263536+00:00",
+ "generated_at_et": "2026-10-29T04:35:56.263536-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -2392,8 +2392,8 @@
     "last_split": "عكسي 1:8 (2025-12-02)",
     "short_available": null,
     "short_pct_float": 0.0092,
-    "ext_price": 2.55,
-    "ext_chg": -0.044943867,
+    "ext_price": 2.5171,
+    "ext_chg": -0.057265906,
     "ext_session": "pre"
    },
    "news": []
@@ -6742,8 +6742,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.78,
-    "ext_chg": -0.005586592178770999,
+    "ext_price": 1.7533,
+    "ext_chg": -0.015000012,
     "ext_session": "pre"
    },
    "news": []
@@ -7949,14 +7949,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 2.85,
+   "price": 2.7701,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -7974,8 +7974,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -7990,7 +7990,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.78,
+   "price": 1.7533,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8009,7 +8009,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 12%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 14%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8113,8 +8113,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": null
   }
@@ -8122,8 +8122,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 45519.0,
-   "price": 347.24
+   "volume": 52779.0,
+   "price": 347.18
   }
  }
 }

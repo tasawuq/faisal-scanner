@@ -1,21 +1,21 @@
 {
- "generated_at_utc": "2026-10-30T10:37:09.447523+00:00",
- "generated_at_et": "2026-10-30T06:37:09.447523-04:00",
+ "generated_at_utc": "2026-10-30T10:47:09.447701+00:00",
+ "generated_at_et": "2026-10-30T06:47:09.447701-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 1275,
-  "with_data": 1275,
-  "short_history": 13,
+  "prefiltered": 1272,
+  "with_data": 1272,
+  "short_history": 14,
   "price_out": 56,
   "low_volume": 472,
   "outside_float": 291,
-  "nasdaq": 3433,
-  "all": 5855
+  "nasdaq": 3431,
+  "all": 5852
  },
  "counts": {
-  "universe": 5855,
-  "analyzed": 734,
+  "universe": 5852,
+  "analyzed": 730,
   "ready": 0,
   "watch": 109,
   "momentum": 0,
@@ -428,8 +428,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "ext_price": 1.09,
-    "ext_chg": 0.11224489795918369,
+    "ext_price": 1.07,
+    "ext_chg": 0.09183673469387754,
     "ext_session": "pre"
    },
    "news": []
@@ -1276,8 +1276,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.8597,
-    "ext_chg": 0.07596996,
+    "ext_price": 0.8201,
+    "ext_chg": 0.02640799,
     "ext_session": "pre"
    },
    "news": []
@@ -8537,7 +8537,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 0.6899,
+   "price": 0.68,
    "price_label": "سعر البري",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -8720,8 +8720,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8737,8 +8737,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 638798.0,
-   "price": 344.95
+   "volume": 663489.0,
+   "price": 345.1
   },
   "SNDL": {
    "volume": 135.0,

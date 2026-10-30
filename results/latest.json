@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-30T08:17:09.445203+00:00",
- "generated_at_et": "2026-10-30T04:17:09.445203-04:00",
+ "generated_at_utc": "2026-10-30T08:27:09.445367+00:00",
+ "generated_at_et": "2026-10-30T04:27:09.445367-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -837,8 +837,8 @@
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.0211,
-    "ext_price": 1.45,
-    "ext_chg": -0.006849315068493178,
+    "ext_price": 1.43,
+    "ext_chg": -0.020547945205479423,
     "ext_session": "pre"
    },
    "news": []
@@ -2132,8 +2132,8 @@
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
     "short_pct_float": 0.051599998,
-    "ext_price": 4.14,
-    "ext_chg": 0.017199017199017064,
+    "ext_price": 4.03,
+    "ext_chg": -0.009828009828009798,
     "ext_session": "pre"
    },
    "news": []
@@ -2353,8 +2353,8 @@
     "last_split": "عكسي 1:10 (2026-04-30)",
     "short_available": null,
     "short_pct_float": 0.19379999,
-    "ext_price": 2.8495,
-    "ext_chg": -0.027474444,
+    "ext_price": 2.94,
+    "ext_chg": 0.0034129658000000003,
     "ext_session": "pre"
    },
    "news": []
@@ -2994,8 +2994,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.073699996,
-    "ext_price": 0.797,
-    "ext_chg": -0.0483582089552238,
+    "ext_price": 0.8,
+    "ext_chg": -0.04477611940298509,
     "ext_session": "pre"
    },
    "news": []
@@ -8560,7 +8560,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.6616,
+   "price": 2.66,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8628,7 +8628,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.75,
+   "price": 1.6466,
    "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8646,8 +8646,8 @@
      2.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 1.71 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "WAITING",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 4%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8734,8 +8734,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 93657.0,
-   "price": 351.09
+   "volume": 122115.0,
+   "price": 350.6047
   },
   "SNDL": {
    "volume": 1.0,

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-30T23:09:53.886101+00:00",
- "generated_at_et": "2026-10-30T19:09:53.886101-04:00",
+ "generated_at_utc": "2026-10-30T23:19:53.886286+00:00",
+ "generated_at_et": "2026-10-30T19:19:53.886286-04:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -1093,7 +1093,10 @@
     },
     "last_split": "عكسي 1:4 (2025-09-29)",
     "short_available": null,
-    "short_pct_float": 0.0159
+    "short_pct_float": 0.0159,
+    "ext_price": 0.98,
+    "ext_chg": -0.020000000000000018,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2809,8 +2812,8 @@
     "last_split": "عكسي 1:40 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.063,
-    "ext_price": 0.7601,
-    "ext_chg": -0.079224715,
+    "ext_price": 0.8215,
+    "ext_chg": -0.0048455578,
     "ext_session": "post"
    },
    "news": []
@@ -5796,8 +5799,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.6749,
-    "ext_chg": 0.02128053,
+    "ext_price": 1.66,
+    "ext_chg": 0.01219511,
     "ext_session": "post"
    },
    "news": []
@@ -8638,7 +8641,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.6749,
+   "price": 1.66,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8657,7 +8660,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 19%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 20%",
    "alert": false,
    "session": "post",
    "scanner": {

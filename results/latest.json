@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-30T12:07:09.449040+00:00",
- "generated_at_et": "2026-10-30T08:07:09.449040-04:00",
+ "generated_at_utc": "2026-10-30T12:17:09.449199+00:00",
+ "generated_at_et": "2026-10-30T08:17:09.449199-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -428,8 +428,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "ext_price": 1.0852,
-    "ext_chg": -0.039646056,
+    "ext_price": 1.12,
+    "ext_chg": -0.008849549,
     "ext_session": "pre"
    },
    "news": []
@@ -840,8 +840,8 @@
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.0211,
-    "ext_price": 1.4231,
-    "ext_chg": -0.025274003,
+    "ext_price": 1.4099,
+    "ext_chg": -0.034315128,
     "ext_session": "pre"
    },
    "news": []
@@ -1276,8 +1276,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.785,
-    "ext_chg": -0.0175219,
+    "ext_price": 0.783,
+    "ext_chg": -0.020025072,
     "ext_session": "pre"
    },
    "news": []
@@ -1914,7 +1914,10 @@
     },
     "last_split": "عكسي 1:25 (2026-04-02)",
     "short_available": null,
-    "short_pct_float": 0.1034
+    "short_pct_float": 0.1034,
+    "ext_price": 1.74,
+    "ext_chg": 0.0,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2131,7 +2134,10 @@
     },
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
-    "short_pct_float": 0.051599998
+    "short_pct_float": 0.051599998,
+    "ext_price": 4.0722,
+    "ext_chg": 0.000540540540540313,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2350,8 +2356,8 @@
     "last_split": "عكسي 1:10 (2026-04-30)",
     "short_available": null,
     "short_pct_float": 0.19379999,
-    "ext_price": 2.8577,
-    "ext_chg": -0.024675753,
+    "ext_price": 2.86,
+    "ext_chg": -0.023890843,
     "ext_session": "pre"
    },
    "news": []
@@ -8562,7 +8568,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.7111,
+   "price": 2.71,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8736,12 +8742,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 1526711.0,
-   "price": 342.4
+   "volume": 1594202.0,
+   "price": 341.91
   },
   "SNDL": {
-   "volume": 2300.0,
-   "price": 1.3
+   "volume": 2436.0,
+   "price": 1.29
   }
  }
 }

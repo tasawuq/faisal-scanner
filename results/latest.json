@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-30T08:01:25.064638+00:00",
- "generated_at_et": "2026-10-30T04:01:25.064638-04:00",
+ "generated_at_utc": "2026-10-30T08:17:09.445203+00:00",
+ "generated_at_et": "2026-10-30T04:17:09.445203-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -427,7 +427,10 @@
     "industry": "Biotechnology",
     "split": {},
     "last_split": null,
-    "short_available": null
+    "short_available": null,
+    "ext_price": 1.03,
+    "ext_chg": 0.05102040816326525,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -833,7 +836,10 @@
     },
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
-    "short_pct_float": 0.0211
+    "short_pct_float": 0.0211,
+    "ext_price": 1.45,
+    "ext_chg": -0.006849315068493178,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1263,7 +1269,10 @@
     },
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
-    "short_pct_float": 0.1342
+    "short_pct_float": 0.1342,
+    "ext_price": 0.7754,
+    "ext_chg": -0.029536972,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1902,7 +1911,10 @@
     },
     "last_split": "عكسي 1:25 (2026-04-02)",
     "short_available": null,
-    "short_pct_float": 0.1034
+    "short_pct_float": 0.1034,
+    "ext_price": 1.74,
+    "ext_chg": -0.005714285714285672,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2119,7 +2131,10 @@
     },
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
-    "short_pct_float": 0.051599998
+    "short_pct_float": 0.051599998,
+    "ext_price": 4.14,
+    "ext_chg": 0.017199017199017064,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2338,8 +2353,8 @@
     "last_split": "عكسي 1:10 (2026-04-30)",
     "short_available": null,
     "short_pct_float": 0.19379999,
-    "ext_price": 2.85,
-    "ext_chg": -0.027303809999999998,
+    "ext_price": 2.8495,
+    "ext_chg": -0.027474444,
     "ext_session": "pre"
    },
    "news": []
@@ -2550,7 +2565,10 @@
     },
     "last_split": "عكسي 1:10 (2025-09-08)",
     "short_available": null,
-    "short_pct_float": 0.0070999996
+    "short_pct_float": 0.0070999996,
+    "ext_price": 0.87,
+    "ext_chg": 0.022206556221360696,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2761,7 +2779,10 @@
     },
     "last_split": "عكسي 1:40 (2026-05-18)",
     "short_available": null,
-    "short_pct_float": 0.026500002
+    "short_pct_float": 0.026500002,
+    "ext_price": 2.22,
+    "ext_chg": 0.01834862385321112,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2972,7 +2993,10 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "short_pct_float": 0.073699996
+    "short_pct_float": 0.073699996,
+    "ext_price": 0.797,
+    "ext_chg": -0.0483582089552238,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -8536,7 +8560,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.66,
+   "price": 2.6616,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8604,8 +8628,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.5800000429153442,
-   "price_label": "آخر سعر",
+   "price": 1.75,
+   "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -8622,8 +8646,8 @@
      2.18
     ]
    },
-   "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 8%",
+   "state": "BREAKOUT_PENDING",
+   "state_ar": "فوق 1.71 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8693,8 +8717,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8710,8 +8734,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 74222.0,
-   "price": 351.32
+   "volume": 93657.0,
+   "price": 351.09
+  },
+  "SNDL": {
+   "volume": 1.0,
+   "price": 1.3
   }
  }
 }

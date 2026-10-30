@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-30T11:37:09.448547+00:00",
- "generated_at_et": "2026-10-30T07:37:09.448547-04:00",
+ "generated_at_utc": "2026-10-30T11:47:09.448719+00:00",
+ "generated_at_et": "2026-10-30T07:47:09.448719-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -840,8 +840,8 @@
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.0211,
-    "ext_price": 1.4184,
-    "ext_chg": -0.028493142,
+    "ext_price": 1.42,
+    "ext_chg": -0.027397315999999998,
     "ext_session": "pre"
    },
    "news": []
@@ -1276,8 +1276,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.7841,
-    "ext_chg": -0.018648345,
+    "ext_price": 0.7831,
+    "ext_chg": -0.019899894,
     "ext_session": "pre"
    },
    "news": []
@@ -2356,8 +2356,8 @@
     "last_split": "عكسي 1:10 (2026-04-30)",
     "short_available": null,
     "short_pct_float": 0.19379999,
-    "ext_price": 2.93,
-    "ext_chg": 0.0,
+    "ext_price": 2.8611,
+    "ext_chg": -0.023515394000000002,
     "ext_session": "pre"
    },
    "news": []
@@ -2569,8 +2569,8 @@
     "last_split": "عكسي 1:10 (2025-09-08)",
     "short_available": null,
     "short_pct_float": 0.0070999996,
-    "ext_price": 0.8321,
-    "ext_chg": -0.022324051227822883,
+    "ext_price": 0.8616,
+    "ext_chg": 0.033589249,
     "ext_session": "pre"
    },
    "news": []
@@ -8568,7 +8568,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.72,
+   "price": 2.71,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8725,8 +8725,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8742,12 +8742,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 1107557.0,
-   "price": 344.31
+   "volume": 1261114.0,
+   "price": 343.75
   },
   "SNDL": {
-   "volume": 1895.0,
-   "price": 1.2931
+   "volume": 1911.0,
+   "price": 1.31
   }
  }
 }

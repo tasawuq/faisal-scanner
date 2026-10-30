@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-30T13:17:09.450134+00:00",
- "generated_at_et": "2026-10-30T09:17:09.450134-04:00",
+ "generated_at_utc": "2026-10-30T13:27:09.450285+00:00",
+ "generated_at_et": "2026-10-30T09:27:09.450285-04:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -428,8 +428,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "ext_price": 1.1205,
-    "ext_chg": -0.0084071034,
+    "ext_price": 1.18,
+    "ext_chg": 0.044247746000000004,
     "ext_session": "pre"
    },
    "news": []
@@ -1483,8 +1483,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.0015,
-    "ext_price": 1.3832,
-    "ext_chg": -0.032727203,
+    "ext_price": 1.35,
+    "ext_chg": -0.055944004,
     "ext_session": "pre"
    },
    "news": []
@@ -4497,8 +4497,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.7332,
-    "ext_chg": -0.009600026000000001,
+    "ext_price": 1.7668,
+    "ext_chg": 0.009600026000000001,
     "ext_session": "pre"
    },
    "news": []
@@ -8542,7 +8542,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 0.68,
+   "price": 0.66,
    "price_label": "سعر البري",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -8602,7 +8602,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.7332,
+   "price": 1.7668,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8621,7 +8621,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 15%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 13%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8742,11 +8742,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 2588852.0,
-   "price": 345.5882
+   "volume": 2692664.0,
+   "price": 344.99
   },
   "SNDL": {
-   "volume": 3139.0,
+   "volume": 3142.0,
    "price": 1.3
   }
  }

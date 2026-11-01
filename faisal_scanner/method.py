@@ -34,21 +34,34 @@ RUNNER_WINDOW = 21           # اجتهاد: «خلال شهر» — LFS ص32 «
 JUST_DOUBLED = 1.00          # ص59 «توه مدبل فيه خطوره» / «توه صاعد من سنتات ل 3 غير امن الان»
 JUST_DOUBLED_BARS = 10       # اجتهاد: «توه» = آخر أسبوعين تداول
 RECENT_SPLIT_DAYS = 210      # أمثلة الملف: تقسيمات أسهم فيصل خلال أيام إلى ~7 أشهر (ص56، ص59، ص90–93)
-RSI_PRESSURE = 27            # ص65، ص78، ص86 «RSI في التشبع البيعي 23 - 27» (وصلها أو أعمق)
+# دليل فيصل التدريجي (الخطوة 7): «الـRSI يقيس التشبع البيعي على الفريم اليومي: ما دون 30 = تشبع بيعي». وص86 «RSI في
+# التشبع البيعي 23 - 27» = أمثلة داخل التشبع البيعي (2 نوفمبر: كان الكود 27 — أضيق من تعريفه)
+RSI_PRESSURE = 30
 CHASE_GAIN = 0.20            # ص67، ص88 «مطاردة السهم بعد ارتفاع 20-50%»
 MAX_LOSS = 0.15              # ص54 «نسبة الخطا الاسبوعيه الاصل لاتتجاوز خساره 15٪»
-MIN_BASE_DAYS = 5            # اجتهاد: القاعدة عمرها أسبوع تداول على الأقل (ص82 «بدأ يكوّن قاعدة سعرية»)
+MIN_BASE_DAYS = 5            # الدليل خ7 «أدنى شمعة هبط لها السهم خلال 5 جلسات: هل كُسرت على جميع الفريمات؟» (+ ص82 «قاعدة سعرية»)
 BASE_WINDOW = 40             # اجتهاد: نافذة القاعدة على اليومي (~شهرين) لقراءة القاع وإعادة الاختبار وRSI
 REGULAR = (time(9, 30), time(16, 0))
-H4_SPLIT = time(13, 30)      # شمعة 4 ساعات للجلسة الرسمية: 9:30–13:30 ثم 13:30–16:00
+# الدليل خ5: «الفريم اليومي: شموع أوقات الماركت فقط — فريم 4 ساعات: جميع أوقات التداول» (البري والماركت والأفتر):
+# 4:00–8:00، 8:00–12:00، 12:00–16:00، 16:00–20:00 نيويورك (نفس تقسيم الشارت مع الجلسات الممتدة)
+H4_BARS = ((time(4, 0), time(8, 0)), (time(8, 0), time(12, 0)), (time(12, 0), time(16, 0)), (time(16, 0), time(20, 0)))
 
-PAGE = {"ma": "ص66/ص82/ص84/ص86", "target": "ص66/ص84/ص88", "rsi": "ص65/ص86", "macd": "ص85/ص86", "support": "ص86", "retest": "ص86/ص17",
-        "volume": "ص85/ص86", "candle": "ص82/ص86", "pressure": "ص85", "red": "ص88", "accum": "ص12/ص13"}
-NAME = {"ma": "تحت المتوسطات ثم بدأ يستعيدها", "target": "محفز أو هدف علوي", "rsi": "RSI وصل 23–27", "macd": "MACD يتحسن أو تقاطع",
+
+PAGE = {"ma": "ص66/ص82/ص84/ص86", "target": "ص66/ص84/ص88", "rsi": "ص65/ص86/الدليل خ7", "macd": "ص85/ص86", "support": "ص86", "retest": "ص86/ص17",
+        "volume": "ص85/ص86", "candle": "ص82/ص86", "pressure": "ص85", "red": "ص88", "accum": "ص12/ص13",
+        "groups": "الدليل خ7"}
+NAME = {"ma": "تحت المتوسطات ثم بدأ يستعيدها", "target": "محفز أو هدف علوي", "rsi": "RSI نزل تحت 30 (تشبع بيعي)", "macd": "MACD يتحسن أو تقاطع",
         "support": "دعم/قاع واضح", "retest": "اختبار الدعم وفشل الكسر", "volume": "فوليوم يتحسن مع الارتداد",
         "candle": "شمعة انعكاس عند الدعم", "pressure": "ضغط بيع سابق ثم ضعف الهبوط",
-        "red": "ما فيه شموع حمراء طويلة قرب القاع", "accum": "تجميع: قيعان أعلى وشموع تتقلص"}
-ORDER = ("ma", "rsi", "macd", "support", "retest", "accum", "volume", "candle", "pressure", "red", "target")
+        "red": "ما فيه شموع حمراء طويلة قرب القاع", "accum": "تجميع: قيعان أعلى وشموع تتقلص",
+        "groups": "خالٍ من القروبات: تذبذب ≤10%"}
+ORDER = ("ma", "rsi", "macd", "support", "retest", "accum", "volume", "candle", "pressure", "red", "groups", "target")
+# الدليل خ7 «سهم خالٍ من القروبات: يحافظ على تذبذب نقاط 10% كحد أقصى (القروبات ترفع السهم بشموع طويلة بدون جسم تصل 20%
+# على فريم 4 ساعات)» — على اليومي: مدى كل شمعة (أعلى−أدنى) ≤10% في الجلسات الخمس قبل شمعة الإشارة (اجتهاد في النافذة: نفس
+# «خلال 5 جلسات» في البند اللي بعده؛ وشمعة الإشارة نفسها ما تنحسب — شمعة الانعكاس طبيعي تكون أكبر)
+GROUP_SWING = 0.10
+GROUP_BAR_4H = 0.20
+GROUP_SESSIONS = 5
 PRESSURE_DROP = 0.25         # اجتهاد: «هبط بقوة» (ص85) = 25%+ من أعلى سعر في 90 يوم
 
 
@@ -217,7 +230,7 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
                     if reclaim else f"، وما بدأ يستعيدها (MA20 {rnd(m20)} فوق السعر)")
                  + ("" if holding else f"، وأغلق تحت الدعم الحرج {rnd(crit)}"))
     rmin = float(np.nanmin(r[st:])) if n > st else float("nan")
-    out["rsi"] = (bool(np.isfinite(rmin) and rmin <= RSI_PRESSURE), f"أدنى RSI {rmin:.0f} (الحالي {r[-1]:.0f})")
+    out["rsi"] = (bool(np.isfinite(rmin) and rmin < RSI_PRESSURE), f"أدنى RSI {rmin:.1f} (الحالي {r[-1]:.0f})")
     mok, mnote = macd_ok(line, sig, hist)
     out["macd"] = (mok, mnote)
     if breakout:
@@ -259,10 +272,9 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
         out["volume"] = (bool(c[-1] >= o[-1] and v[-1] >= ref),
                          ("آخر شمعة حمراء — " if c[-1] < o[-1] else "")
                          + f"فوليومها {v[-1] / 1e3:.0f}K مقابل متوسط شموع البيع {ref / 1e3:.0f}K")
-        info = candle(o[-1], h[-1], l[-1], c[-1], o[-2], c[-2])
         at = l[-1] <= zh and c[-1] >= z_low
-        ok_c, nm = reversal(info, o[-1], h[-1], l[-1], c[-1], z_low, z_high)
-        out["candle"] = (ok_c, (nm + " عند الدعم") if ok_c else
+        ok_c, nm = reversal_seq(o, h, l, c, z_low, z_high)
+        out["candle"] = (ok_c, (nm + " عند الدعم") if ok_c else nm if nm else
                          ("آخر شمعة يومية مو انعكاس" if at else
                           "آخر شمعة يومية أغلقت تحت الدعم" if l[-1] <= zh else "آخر شمعة بعيدة عن منطقة الدعم"))
     # ص12–ص13 «كيف تقرأ تجميع المضارب»: «التجميع = دعم واضح + تماسك + فوليوم بيع أقل + قيعان أعلى»، و«الحظ تقلص
@@ -299,6 +311,12 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
     atr = float(np.mean(rngs)) if len(rngs) else 0.0
     bad = [i for i in range(max(0, n - 3), n) if c[i] < o[i] and (o[i] - c[i]) >= atr and l[i] <= zh]
     out["red"] = (not bad, "ما فيه" if not bad else f"شمعة حمراء طويلة {str(df.index[bad[-1]])[:10]} عند القاع")
+    sw = (h - l) / np.maximum(l, 1e-9)
+    win = sw[max(0, n - 1 - GROUP_SESSIONS):n - 1]
+    mx = float(np.max(win)) if len(win) else 0.0
+    out["groups"] = (bool(mx <= GROUP_SWING + 1e-9),
+                     f"أكبر تذبذب يومي آخر {GROUP_SESSIONS} جلسات {mx * 100:.1f}%"
+                     + ("" if mx <= GROUP_SWING + 1e-9 else " — فوق 10%: سلوك قروبات (الدليل خ7)"))
     return {"checks": out, "critical": crit, "complete": all(x[0] for x in out.values()),
             "bar_date": str(df.index[-1])[:10], "frame": "يومي", "below_ma": below, "broke": broke,
             "ma20": float(ma[20][-1]),
@@ -307,53 +325,76 @@ def p86_daily(df: pd.DataFrame, z_low: float, z_high: float, breakout: dict = No
 
 
 # ------------------------------------------------------------------ شمعة 4 ساعات (ص90)
-def bars_4h(bars15: pd.DataFrame, day) -> pd.DataFrame:
-    """شموع 4 ساعات للجلسة الرسمية من شموع 15 دقيقة: 9:30–13:30 و13:30–16:00 (نفس تقسيم منصات الشارت)."""
+def bars_4h(bars15: pd.DataFrame, after=None) -> pd.DataFrame:
+    """شموع 4 ساعات لكل أوقات التداول (الدخول خ5) من شموع 15 دقيقة: 4–8، 8–12، 12–16، 16–20 نيويورك.
+    after = تاريخ آخر شمعة يومية مكتملة: نأخذ فقط شموع 4 ساعات اللي بعد إغلاقها (أفتر ذاك اليوم وما بعده)."""
     if bars15 is None or not len(bars15):
         return pd.DataFrame()
-    t = bars15[[ts.date() == day and REGULAR[0] <= ts.time() < REGULAR[1] for ts in bars15.index]]
     rows, idx = [], []
-    for a, b in ((REGULAR[0], H4_SPLIT), (H4_SPLIT, REGULAR[1])):
-        s = t[[a <= ts.time() < b for ts in t.index]]
-        if len(s):
-            rows.append([float(s["open"].iloc[0]), float(s["high"].max()), float(s["low"].min()),
-                         float(s["close"].iloc[-1]), float(s["volume"].sum()), len(s)])
-            idx.append(pd.Timestamp(datetime.combine(day, a), tz=t.index.tz))
-    return pd.DataFrame(rows, index=idx, columns=["open", "high", "low", "close", "volume", "n15"])
+    for day in sorted({ts.date() for ts in bars15.index}):
+        if after is not None and day < after:
+            continue
+        t = bars15[[ts.date() == day for ts in bars15.index]]
+        for a, b in H4_BARS:
+            if after is not None and day == after and a < REGULAR[1]:
+                continue  # ماركت يوم الشمعة اليومية المكتملة = داخل الشمعة اليومية نفسها
+            s = t[[a <= ts.time() < b for ts in t.index]]
+            if len(s):
+                reg = s[[REGULAR[0] <= ts.time() < REGULAR[1] for ts in s.index]]
+                rows.append([float(s["open"].iloc[0]), float(s["high"].max()), float(s["low"].min()),
+                             float(s["close"].iloc[-1]), float(s["volume"].sum()), len(s), len(reg)])
+                idx.append(pd.Timestamp(datetime.combine(day, a), tz=s.index.tz))
+    return pd.DataFrame(rows, index=idx, columns=["open", "high", "low", "close", "volume", "n15", "n15_reg"])
 
 
-def p86_4h(daily_res: dict, bars15, z_low, z_high, prev_close, avg_vol, now_et, delay_min=0) -> dict:
-    """نفس شروط ص86، والشمعة/الاختبار/الفوليوم من آخر شمعة 4 ساعات **مكتملة** اليوم (ص90 «اقربها 4 ساعات»).
-    المتوسطات وRSI وMACD والدعم من اليومي المكتمل (الفريم الأكبر)."""
+def _h4_end(ts) -> datetime:
+    return datetime.combine(ts.date(), dict(H4_BARS)[ts.time()], tzinfo=ts.tzinfo)
+
+
+def _reg_minutes(ts) -> float:
+    a = datetime.combine(ts.date(), ts.time(), tzinfo=ts.tzinfo)
+    b = _h4_end(ts)
+    lo = max(a, datetime.combine(ts.date(), REGULAR[0], tzinfo=ts.tzinfo))
+    hi = min(b, datetime.combine(ts.date(), REGULAR[1], tzinfo=ts.tzinfo))
+    return max(0.0, (hi - lo).total_seconds() / 60)
+
+
+def p86_4h(daily_res: dict, bars15, z_low, z_high, prev_close, avg_vol, now_et, delay_min=0, after=None) -> dict:
+    """نفس شروط ص86، والشمعة/الاختبار/الفوليوم من آخر شمعة 4 ساعات **مكتملة** بعد آخر شمعة يومية مكتملة (ص90 «اقربها
+    4 ساعات»؛ الدليل خ5: 4 ساعات = جميع أوقات التداول، فتدخل شموع الأفتر والبري). المتوسطات وRSI وMACD والدعم من اليومي
+    المكتمل (الفريم الأكبر). after = تاريخ آخر شمعة يومية مكتملة."""
     if not daily_res or bars15 is None:
         return None
-    b4 = bars_4h(bars15, now_et.date())
+    if after is None:
+        after = now_et.date() - timedelta(days=1)
+    b4 = bars_4h(bars15, after)
     if not len(b4):
         return None
     cutoff = now_et - timedelta(minutes=delay_min)
-    ends = [datetime.combine(now_et.date(), H4_SPLIT, tzinfo=now_et.tzinfo),
-            datetime.combine(now_et.date(), REGULAR[1], tzinfo=now_et.tzinfo)]
-    done = [i for i in range(len(b4)) if ends[i] <= cutoff and b4["n15"].iloc[i] >= 8]
+    # مكتملة = وقت نهايتها مضى (مع تأخير البيانات)، وشموع الماركت فيها ما تنقص (8 من 10 أو 16 شمعة 15 دقيقة)
+    done = [i for i in range(len(b4)) if _h4_end(b4.index[i]) <= cutoff
+            and b4["n15_reg"].iloc[i] >= 0.8 * _reg_minutes(b4.index[i]) / 15]
     if not done:
         return None
     i = done[-1]
     bar = b4.iloc[i]
     po, pc = (b4["open"].iloc[i - 1], b4["close"].iloc[i - 1]) if i > 0 else (prev_close, prev_close)
-    info = candle(bar["open"], bar["high"], bar["low"], bar["close"], po, pc)
     zh = z_high * 1.03
-    at = bar["low"] <= zh and bar["close"] >= z_low
     chk = dict(daily_res["checks"])
-    low_today = float(b4["low"].iloc[:i + 1].min())
+    low_today = float(b4["low"].iloc[:i + 1].min())  # أدنى سعر بعد آخر إغلاق يومي — كل الفريمات (الدليل خ7)
     crit = min(daily_res["critical"], low_today)
     if daily_res.get("breakout"):
         return None  # نموذج الاختراق: إعادة الاختبار تُقرأ على اليومي (ص68)
-    if not chk["retest"][0] and at and not daily_res.get("broke") and daily_res.get("episodes", 0) >= 1:
-        chk["retest"] = (True, ("سحب سيولة اليوم تحت الدعم ثم استرداده" if low_today < z_low * 0.995
-                                else "رجع اليوم للدعم وما انكسر") + " (4 ساعات)")
-    if daily_res.get("kind") == "support" and "accum" in chk and not chk["accum"][0] and at and low_today < z_low * 0.995:
-        # نزل اليوم تحت الدعم ثم استرده = سحب سيولة (ص16) — نوع سلوك ثاني، قاعه أدنى بطبيعته (ص9)
-        chk["accum"] = (True, "لا ينطبق — سحب سيولة اليوم تحت الدعم ثم استرداده (ص9، ص16)")
-    elif daily_res.get("kind") == "support" and "accum" in chk and not chk["accum"][0] and at:
+    # لمس المنطقة بعد آخر إغلاق يومي (بأي شمعة 4 ساعات — المطرقة ثم شمعة التأكيد) والإغلاق الحالي فوق الدعم
+    touched = low_today <= zh and bar["close"] >= z_low
+    if not chk["retest"][0] and touched and not daily_res.get("broke") and daily_res.get("episodes", 0) >= 1:
+        chk["retest"] = (True, ("سحب سيولة تحت الدعم ثم استرداده" if low_today < z_low * 0.995
+                                else "رجع للدعم وما انكسر") + " (4 ساعات)")
+    if daily_res.get("kind") == "support" and "accum" in chk and not chk["accum"][0] and touched \
+            and low_today < z_low * 0.995:
+        # نزل تحت الدعم ثم استرده = سحب سيولة (ص16) — نوع سلوك ثاني، قاعه أدنى بطبيعته (ص9)
+        chk["accum"] = (True, "لا ينطبق — سحب سيولة تحت الدعم ثم استرداده (ص9، ص16)")
+    elif daily_res.get("kind") == "support" and "accum" in chk and not chk["accum"][0] and touched:
         lows = list(daily_res.get("ep_lows") or [])
         if lows and daily_res.get("ep_open"):
             lows[-1] = min(lows[-1], low_today)
@@ -361,25 +402,41 @@ def p86_4h(daily_res: dict, bars15, z_low, z_high, prev_close, avg_vol, now_et, 
             lows.append(low_today)
         hl = len(lows) >= 2 and lows[-1] > lows[-2]
         sh = bool(daily_res.get("shrink"))
-        chk["accum"] = (bool(hl and sh), (f"قاع اليوم {rnd(lows[-1])} " + ("أعلى" if hl else "مو أعلى")
+        chk["accum"] = (bool(hl and sh), (f"القاع الجديد {rnd(lows[-1])} " + ("أعلى" if hl else "مو أعلى")
                                           + f" من الاختبار اللي قبله {rnd(lows[-2])}" if len(lows) >= 2 else
                                           "ما فيه قاعين للمقارنة بعد")
                         + ("، والشموع تتقلص" if sh else "، والشموع ما تقلصت") + " (4 ساعات)")
-    mins = (ends[i] - datetime.combine(now_et.date(), REGULAR[0] if i == 0 else H4_SPLIT,
-                                       tzinfo=now_et.tzinfo)).total_seconds() / 60
-    pace = avg_vol * mins / 390.0
+    # الفوليوم المعتاد لنفس المدة من متوسط اليوم؛ شمعة البري/الأفتر وحدها: كأنها ساعة ماركت (اجتهاد — فوليوم الجلسات
+    # الممتدة أقل بطبيعته)
+    pace = avg_vol * max(_reg_minutes(b4.index[i]), 60.0) / 390.0
     chk["volume"] = (bool(bar["close"] >= bar["open"] and bar["volume"] >= pace),
                      f"فوليوم شمعة 4 ساعات {bar['volume'] / 1e3:.0f}K مقابل المعتاد لنفس المدة {pace / 1e3:.0f}K")
-    ok_c, nm = reversal(info, bar["open"], bar["high"], bar["low"], bar["close"], z_low, z_high)
+    seq = b4.iloc[:i + 1]
+    if len(seq) < 3:  # شموع 4 ساعات قبلها من آخر يوم مكتمل غير متوفرة → شمعة اليوم اليومية السابقة كأساس
+        pre = pd.DataFrame([[po, max(po, pc), min(po, pc), pc]], columns=["open", "high", "low", "close"])
+        seq = pd.concat([pre, seq[["open", "high", "low", "close"]]], ignore_index=True)
+    so, sh_, sl, sc = (seq[k].values.astype(float) for k in ("open", "high", "low", "close"))
+    ok_c, nm = reversal_seq(so, sh_, sl, sc, z_low, z_high)
     chk["candle"] = (ok_c, (nm + " على فريم 4 ساعات عند الدعم") if ok_c else
-                     "آخر شمعة 4 ساعات مو انعكاس عند الدعم")
+                     (nm + " (4 ساعات)") if nm else "آخر شمعة 4 ساعات مو انعكاس عند الدعم")
+    # القروبات على 4 ساعات (الدليل خ7): شمعة طويلة بدون جسم تصل 20% بعد آخر إغلاق يومي
+    rng4 = (b4["high"] - b4["low"]) / b4["low"].clip(lower=1e-9)
+    body4 = (b4["close"] - b4["open"]).abs() / (b4["high"] - b4["low"]).clip(lower=1e-9)
+    grp = [j for j in range(i + 1) if rng4.iloc[j] >= GROUP_BAR_4H and body4.iloc[j] <= 1 / 3]
+    if grp and "groups" in chk:
+        j = grp[-1]
+        chk["groups"] = (False, f"شمعة 4 ساعات {b4.index[j].strftime('%H:%M')} مداها {rng4.iloc[j] * 100:.0f}% بدون جسم — "
+                                "سلوك قروبات (الدليل خ7)")
     m20 = daily_res.get("ma20")
     rec = bool(m20 and bar["close"] > m20)
     chk["ma"] = (bool(daily_res.get("below_ma") and rec and bar["close"] >= z_low and not daily_res.get("broke")),
                  ("كان تحت المتوسطات خلال القاعدة" if daily_res.get("below_ma") else "ما كان تحت المتوسطات الثلاثة")
                  + (f"، وشمعة 4 ساعات أغلقت فوق MA20 {rnd(m20)}" if rec else f"، وما بدأ يستعيدها (MA20 {rnd(m20 or 0)})"))
+    t0 = b4.index[i]
+    seg = "بري" if t0.time() < REGULAR[0] else "أفتر" if t0.time() >= REGULAR[1] else "ماركت"
     return {"checks": chk, "critical": float(crit), "complete": all(x[0] for x in chk.values()),
-            "bar_date": f"{now_et.date()} {b4.index[i].strftime('%H:%M')}", "frame": "4 ساعات"}
+            "bar_date": f"{t0.date()} {t0.strftime('%H:%M')}", "frame": "4 ساعات", "segment": seg,
+            "low_since_close": low_today}
 
 
 # ------------------------------------------------------------------ الدخول والخروج
@@ -413,6 +470,40 @@ def reversal(info: dict, o, h, l, c, z_low, z_high) -> tuple:
     rng = max(h - l, 1e-9)
     if l < z_low * 0.998 and c > o and (c - l) / rng >= 0.6:
         return True, "رفض كسر (نزل تحت الدعم وأغلق فوقه)"
+    return False, ""
+
+
+def reversal_seq(o, h, l, c, z_low, z_high) -> tuple:
+    """شمعة الانعكاس على آخر شمعة مكتملة من سلسلة (يومي أو 4 ساعات) — مقاطع الشموع اللي أرسلها المستخدم (2 نوفمبر):
+    - الابتلاعية الشرائية (شمعتين): الثانية خضراء تبتلع جسم الحمراء كامل → تأكيدها فيها.
+    - نجمة الصباح (3 شموع): حمراء طويلة، ثم جسم صغير تحتها، ثم خضراء تدخل بعمق داخل الحمراء (فوق نصف جسمها).
+    - المطرقة/الذيل السفلي/رفض الكسر (شمعة وحدة): «من الأهمية انتظار التأكيد في اليوم التالي» → الإشارة على الشمعة اللي
+      بعدها إذا أغلقت خضراء فوق جسم المطرقة.
+    يرجع (ok, الاسم)."""
+    n = len(c)
+    if n < 2:
+        return False, ""
+    info = candle(o[-1], h[-1], l[-1], c[-1], o[-2], c[-2])
+    at = l[-1] <= z_high * 1.03 and c[-1] >= z_low
+    if at and info["engulfing"]:
+        return True, candle_name(info)
+    if n >= 3 and c[-1] >= z_low:
+        b1 = o[-3] - c[-3]
+        small = abs(c[-2] - o[-2]) <= b1 / 3
+        near = min(l[-3], l[-2], l[-1]) <= z_high * 1.03
+        if b1 > 0 and b1 >= 0.5 * (h[-3] - l[-3]) and small and max(o[-2], c[-2]) <= c[-3] + b1 * 0.25 \
+                and c[-1] > o[-1] and c[-1] >= c[-3] + b1 / 2 and near:
+            return True, "نجمة الصباح (3 شموع)"
+    # مطرقة/ذيل سفلي/رفض كسر أمس + تأكيد اليوم
+    pinfo = candle(o[-2], h[-2], l[-2], c[-2], o[-3] if n >= 3 else None, c[-3] if n >= 3 else None)
+    pok, pname = reversal(dict(pinfo, engulfing=False, bullish_reversal=pinfo["hammer"] or pinfo["lower_wick"]),
+                          o[-2], h[-2], l[-2], c[-2], z_low, z_high)
+    if pok and c[-1] > o[-1] and c[-1] > max(o[-2], c[-2]) and c[-1] >= z_low:
+        return True, f"{pname} ثم شمعة تأكيد خضراء"
+    sok, sname = reversal(dict(info, engulfing=False, bullish_reversal=info["hammer"] or info["lower_wick"]),
+                          o[-1], h[-1], l[-1], c[-1], z_low, z_high)
+    if sok:
+        return False, f"{sname} — تنتظر شمعة تأكيد بعدها (مقطع المطرقة: «انتظار التأكيد في اليوم التالي»)"
     return False, ""
 
 

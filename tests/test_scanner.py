@@ -424,21 +424,30 @@ def test_direct_resistance_means_reward_not_above_risk():
 
 def test_four_hour_candle_completes_p86():
     """ص90 «قراءة الشموع تتم ع جميع الفريمات / اقربها 4 ساعات»: اليومي المكتمل ما فيه شمعة الانعكاس بعد،
-    وشمعة 4 ساعات (9:30–13:30) تسحب السيولة تحت الدعم وتغلق فوقه وفوق MA20 بفوليوم → تكتمل الشروط على 4 ساعات."""
+    وشمعة 4 ساعات (8:00–12:00 — جميع أوقات التداول، الدليل خ5) تسحب السيولة تحت الدعم وتغلق فوقه وفوق MA20 بفوليوم → تكتمل الشروط على 4 ساعات."""
     from faisal_scanner.main import upgrade_4h
     df = demo.scenario_base_reclaim(END).iloc[:-1].copy()
     df.index = df.index + pd.Timedelta(days=1)
     day = (df.index[-1] + pd.Timedelta(days=3)).date()
     s = analyze_pivot("A", df)
     assert s is not None and s.status == WATCH and not s.meta["p86"]["complete"]
-    rows = [("09:30", 1.24, 1.242, 1.172, 1.18, 400_000)]
-    rows += [(f"{h:02d}:{m:02d}", 1.18 + 0.005 * i, 1.19 + 0.005 * i, 1.175 + 0.005 * i, 1.186 + 0.005 * i, 60_000)
-             for i, (h, m) in enumerate([(9, 45)] + [(h, m) for h in (10, 11, 12) for m in (0, 15, 30, 45)]
-                                        + [(13, 0), (13, 15)])]
+    rows = [("08:00", 1.235, 1.24, 1.23, 1.24, 5_000), ("09:30", 1.24, 1.242, 1.172, 1.18, 400_000)]  # بري ثم ماركت
+    times = [(9, 45)] + [(h, m) for h in range(10, 16) for m in (0, 15, 30, 45)]
+    rows += [(f"{h:02d}:{m:02d}", 1.18 + 0.008 * i if i < 9 else 1.25 + 0.002 * (i - 9),
+              (1.19 + 0.008 * i if i < 9 else 1.255 + 0.002 * (i - 9)),
+              (1.175 + 0.008 * i if i < 9 else 1.248 + 0.002 * (i - 9)),
+              (1.186 + 0.008 * i if i < 9 else 1.252 + 0.002 * (i - 9)), 60_000)
+             for i, (h, m) in enumerate(times)]
     bars = _bars15(day, rows)
-    early = datetime.combine(day, datetime.strptime("13:20", "%H:%M").time(), tzinfo=ET)
+    # الدليل خ5: 4 ساعات = جميع أوقات التداول → شمعة 8:00–12:00 (فيها الماركت 9:30–12:00) تكتمل 12:00
+    early = datetime.combine(day, datetime.strptime("11:50", "%H:%M").time(), tzinfo=ET)
     assert upgrade_4h(s, bars, early, 0) is False  # الشمعة ما اكتملت
-    now = datetime.combine(day, datetime.strptime("13:45", "%H:%M").time(), tzinfo=ET)
+    mid = datetime.combine(day, datetime.strptime("12:05", "%H:%M").time(), tzinfo=ET)
+    # شمعة 8–12 مطرقة (سحب تحت الدعم ثم إغلاق فوقه): «انتظار التأكيد» — ما تكمل وحدها
+    assert upgrade_4h(s, bars, mid, 0) is False
+    assert "تأكيد" in M.p86_4h(s.meta["p86"], bars, *s.meta["zone"], s.meta.get("last_close"),
+                               s.meta.get("avg_volume"), mid, 0, df.index[-1].date())["checks"]["candle"][1]
+    now = datetime.combine(day, datetime.strptime("16:05", "%H:%M").time(), tzinfo=ET)
     assert upgrade_4h(s, bars, now, 0) is True, s.meta["p86"]
     assert s.meta["p86"]["frame"] == "4 ساعات" and s.status == READY, s.waiting_for
     assert s.meta["ladder"]["critical"] <= 1.172 + 1e-9
@@ -633,3 +642,40 @@ def test_accumulation_higher_lows_and_shrinking_candles():
     assert lower[0] is False and "مو أعلى" in lower[1], lower
     sweep = M.p86_daily(_accum_df(0.96), 0.96, 1.05, kind="sweep")["checks"]["accum"]
     assert sweep[0] is True and "لا ينطبق" in sweep[1]
+
+
+# ============================================================ 2 نوفمبر: دليل فيصل التدريجي
+def test_groups_swing_over_10_percent_fails():
+    """الدليل خ7: «سهم خالٍ من القروبات: يحافظ على تذبذب نقاط 10% كحد أقصى» — شمعة مداها 13% خلال 5 جلسات قبل الإشارة."""
+    df = demo.scenario_base_flag(END)
+    ok = M.p86_daily(df, 1.10, 1.13)["checks"]["groups"]
+    assert ok[0] is True
+    bad = df.copy()
+    bad.iloc[-3] = [1.22, 1.30, 1.15, 1.20, 500_000]           # مدى 13%
+    ch = M.p86_daily(bad, 1.10, 1.13)["checks"]["groups"]
+    assert ch[0] is False and "قروبات" in ch[1]
+
+
+def test_rsi_oversold_is_below_30():
+    """الدليل خ7: «ما دون 30 = تشبع بيعي» (كان 27)."""
+    assert M.RSI_PRESSURE == 30
+
+
+def test_four_hour_bars_cover_all_sessions_after_last_daily_close():
+    """الدليل خ5: 4 ساعات = جميع أوقات التداول — أفتر يوم الشمعة اليومية المكتملة + بري وماركت اليوم، بدون ماركت ذاك اليوم."""
+    d0, d1 = datetime(2026, 10, 19).date(), datetime(2026, 10, 20).date()
+    b = pd.concat([_bars15(d0, [("10:00", 1, 1.1, 0.9, 1, 1e5), ("16:30", 1, 1.05, 0.95, 1.0, 1e4)]),
+                   _bars15(d1, [("04:15", 1, 1.02, 0.98, 1.01, 5e3), ("09:45", 1.01, 1.03, 1.0, 1.02, 1e5)])])
+    b4 = M.bars_4h(b, d0)
+    assert [t.strftime("%m-%d %H:%M") for t in b4.index] == ["10-19 16:00", "10-20 04:00", "10-20 08:00"]
+
+
+def test_after_hours_low_under_stop_blocks_signal():
+    """الدليل خ7 «هل كُسرت على جميع الفريمات؟»: الأفتر/البري نزل تحت الوقف ثم رجع → ما فيه إشارة (مثل LGHL)."""
+    from faisal_scanner.main import low_since_close
+    s = analyze_pivot("A", demo.scenario_base_reclaim(END))
+    assert s.status == READY
+    d = datetime.fromisoformat(s.meta["last_date"]).date()
+    bars = _bars15(d, [("16:15", 1.25, 1.25, s.stop * 0.97, 1.24, 20_000)])
+    low_since_close(s, bars)
+    assert s.status == WATCH and any("تحت الدعم الحرج" in w for w in s.waiting_for)

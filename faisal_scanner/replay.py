@@ -122,6 +122,14 @@ def run(days=120):
             rng.append(s)
     log.info("replay: %d in Faisal's share range", len(rng))
     urows = {r["symbol"]: r for r in u.to_dict("records")}
+    # نسخة كاملة من بيانات المدى (كل الأسهم، مو بس اللي طلعت لها إشارة) لاختبار تعديلات القواعد محلياً
+    alld = os.path.join(OUT, "all")
+    os.makedirs(alld, exist_ok=True)
+    for s in rng:
+        daily[s].iloc[-300:].to_csv(os.path.join(alld, f"{s}.csv"))
+    with open(os.path.join(alld, "_meta.json"), "w", encoding="utf-8") as fh:
+        json.dump({s: {"fund": fund.get(s) or {}, "urow": urows.get(s, {})} for s in rng}, fh, ensure_ascii=False,
+                  default=str)
     jobs = [(s, daily[s], fund.get(s) or {}, urows.get(s, {}), days) for s in rng]
     rows = []
     with ProcessPoolExecutor(max_workers=os.cpu_count() or 2) as ex:

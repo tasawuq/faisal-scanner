@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T12:49:10.628946+00:00",
- "generated_at_et": "2026-11-02T07:49:10.628946-05:00",
+ "generated_at_utc": "2026-11-02T12:59:10.629110+00:00",
+ "generated_at_et": "2026-11-02T07:59:10.629110-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -692,8 +692,8 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.43,
-    "ext_chg": -0.05921052631578949,
+    "ext_price": 1.4155,
+    "ext_chg": -0.017013897,
     "ext_session": "pre",
     "low_since_close": 1.42
    },
@@ -1363,8 +1363,8 @@
     "last_split": "عكسي 1:12 (2025-12-08)",
     "short_available": null,
     "short_pct_float": 0.22489999,
-    "ext_price": 2.7386,
-    "ext_chg": -0.07166103,
+    "ext_price": 2.8499,
+    "ext_chg": -0.033932216,
     "ext_session": "pre",
     "low_since_close": 2.52
    },
@@ -2934,8 +2934,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.78,
-    "ext_chg": -0.0012804695999999998,
+    "ext_price": 0.778,
+    "ext_chg": -0.003841256,
     "ext_session": "pre",
     "low_since_close": 0.75
    },
@@ -4037,8 +4037,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.65,
-    "ext_chg": 0.006097555,
+    "ext_price": 1.6469,
+    "ext_chg": 0.004207361,
     "ext_session": "pre",
     "low_since_close": 1.63
    },
@@ -9018,7 +9018,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.65,
+   "price": 1.6469,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9141,8 +9141,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -9158,12 +9158,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 258701.0,
-   "price": 344.2283
+   "volume": 270750.0,
+   "price": 344.34
   },
   "SNDL": {
-   "volume": 583.0,
-   "price": 1.26
+   "volume": 641.0,
+   "price": 1.25
   }
  }
 }

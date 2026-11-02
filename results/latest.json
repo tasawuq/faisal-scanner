@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T21:32:54.517775+00:00",
- "generated_at_et": "2026-11-02T16:32:54.517775-05:00",
+ "generated_at_utc": "2026-11-02T21:42:54.518007+00:00",
+ "generated_at_et": "2026-11-02T16:42:54.518007-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -666,8 +666,8 @@
     "last_split": "عكسي 1:30 (2026-05-04)",
     "short_available": null,
     "short_pct_float": 0.1163,
-    "ext_price": 0.97,
-    "ext_chg": 0.08744394618834073,
+    "ext_price": 0.9601,
+    "ext_chg": 0.07634529147982061,
     "ext_session": "post"
    },
    "news": []
@@ -1093,8 +1093,8 @@
     "last_split": "عكسي 222:1000 (2026-04-13)",
     "short_available": null,
     "short_pct_float": 0.0219,
-    "ext_price": 1.01,
-    "ext_chg": -0.028846153846153855,
+    "ext_price": 1.06,
+    "ext_chg": 0.019230769230769162,
     "ext_session": "post"
    },
    "news": []
@@ -2381,8 +2381,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.026800001,
-    "ext_price": 0.213,
-    "ext_chg": -0.09745764,
+    "ext_price": 0.21,
+    "ext_chg": -0.110169525,
     "ext_session": "post"
    },
    "news": []
@@ -4940,8 +4940,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.69,
-    "ext_chg": -0.011695895000000001,
+    "ext_price": 1.77,
+    "ext_chg": 0.035087686,
     "ext_session": "post"
    },
    "news": []
@@ -8582,8 +8582,8 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 0.6175,
-   "price_label": "سعر الأفتر",
+   "price": 0.6175000071525574,
+   "price_label": "آخر سعر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
    "added": "2026-10-16",
@@ -8601,14 +8601,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 2.75,
+   "price": 2.82,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8642,7 +8642,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.69,
+   "price": 1.77,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8661,7 +8661,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 18%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 13%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -8695,8 +8695,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 1.49 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف المتابعة 1.49 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",
@@ -8730,8 +8730,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 2.71 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 2.71 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",
@@ -8765,8 +8765,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

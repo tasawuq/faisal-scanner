@@ -1,0 +1,398 @@
+{
+ "ticker": "VCIG",
+ "generated_at_et": "2026-11-02T16:18:37.529217-05:00",
+ "session": "post",
+ "quote": {
+  "reg_price": 8.16,
+  "reg_chg": 1.6840338,
+  "reg_vol": 5414609,
+  "prev_close": 3.0402,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": 6.55,
+  "post_chg": -0.19730388999999998,
+  "avg_vol": 4210473,
+  "state": "POST"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 14386,
+  "sharesOutstanding": 9639594,
+  "marketCap": 78659088,
+  "shortPercentOfFloat": 0.0171,
+  "longName": "VCI Global Limited",
+  "country": "Malaysia",
+  "industry": "Consulting Services",
+  "sector": "Industrials",
+  "lastSplitFactor": "1:15",
+  "lastSplitDate": 1787529600
+ },
+ "daily": {
+  "price": 8.16,
+  "chg_1d": 47.284,
+  "ma": {
+   "MA20": 0.7718,
+   "MA30": 1.0238,
+   "MA50": 1.4191
+  },
+  "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
+  "rsi_now": 89.3,
+  "rsi_min15": 22.5,
+  "rsi_min30": 19.8,
+  "macd": {
+   "line": 0.16479,
+   "signal": -0.45936,
+   "hist_last3": [
+    0.12146,
+    0.11732,
+    0.62415
+   ],
+   "state": "بداية تحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-10-30",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.3333338852279877,
+    "close_pos": 0.3888887049240041,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-11-02",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "True",
+    "upper_wick_ratio": 0.17147194676152855,
+    "close_pos": 0.8285280532384715,
+    "green": "True",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.8075,
+  "avg_vol20": 11871525,
+  "last_vol": 5414609,
+  "drawdown_90d": 0.851,
+  "high_90d": 54.6,
+  "low_10d": 0.162,
+  "gain_from_low10": 49.37,
+  "sell_drying": true,
+  "vol_improving": false,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": {
+   "d": "2026-10-21",
+   "high": 0.339,
+   "close": 0.251,
+   "vol_mult": 174.0
+  },
+  "former_runner": true,
+  "runner_pct": 56.346,
+  "distinct_closes20": 19,
+  "support_zones": [
+   {
+    "low": 64.53,
+    "high": 65.1753,
+    "touches": 3,
+    "is_bottom": false,
+    "first": "2026-06-09",
+    "last": "2026-06-09"
+   },
+   {
+    "low": 61.95,
+    "high": 62.5695,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-06-16",
+    "last": "2026-06-16"
+   },
+   {
+    "low": 30.0,
+    "high": 30.3,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-07-08",
+    "last": "2026-07-08"
+   },
+   {
+    "low": 10.65,
+    "high": 10.7565,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-05-20",
+    "last": "2026-05-20"
+   },
+   {
+    "low": 1.73,
+    "high": 1.7473,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-09-02",
+    "last": "2026-09-02"
+   },
+   {
+    "low": 1.54,
+    "high": 1.5554,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-09-21",
+    "last": "2026-09-21"
+   },
+   {
+    "low": 0.215,
+    "high": 0.22,
+    "touches": 2,
+    "is_bottom": true,
+    "first": "2026-10-15",
+    "last": "2026-10-21"
+   }
+  ],
+  "support_selected": null,
+  "w": null,
+  "resistances": [
+   [
+    9.375,
+    "رأس شمعة هابطة"
+   ],
+   [
+    12.15,
+    "رأس شمعة هابطة + قمة سابقة"
+   ],
+   [
+    13.755,
+    "فجوة لم تُغطَّ"
+   ],
+   [
+    18.6,
+    "رأس شمعة هابطة"
+   ],
+   [
+    21.75,
+    "رأس شمعة هابطة"
+   ],
+   [
+    23.25,
+    "فجوة لم تُغطَّ"
+   ]
+  ],
+  "high_52w": 1962.0,
+  "low_52w": 0.162,
+  "last_bars": [
+   {
+    "d": "2026-10-16",
+    "o": 0.263,
+    "h": 0.274,
+    "l": 0.245,
+    "c": 0.249,
+    "v": 6620600,
+    "rsi": 22.5,
+    "hist": 0.09124
+   },
+   {
+    "d": "2026-10-19",
+    "o": 0.274,
+    "h": 0.286,
+    "l": 0.236,
+    "c": 0.277,
+    "v": 23055700,
+    "rsi": 23.4,
+    "hist": 0.09586
+   },
+   {
+    "d": "2026-10-20",
+    "o": 0.248,
+    "h": 0.269,
+    "l": 0.245,
+    "c": 0.253,
+    "v": 1511800,
+    "rsi": 23.1,
+    "hist": 0.10018
+   },
+   {
+    "d": "2026-10-21",
+    "o": 0.253,
+    "h": 0.339,
+    "l": 0.215,
+    "c": 0.251,
+    "v": 17609500,
+    "rsi": 23.1,
+    "hist": 0.10525
+   },
+   {
+    "d": "2026-10-22",
+    "o": 0.235,
+    "h": 0.27,
+    "l": 0.23,
+    "c": 0.269,
+    "v": 1527400,
+    "rsi": 23.8,
+    "hist": 0.11156
+   },
+   {
+    "d": "2026-10-23",
+    "o": 0.259,
+    "h": 0.26,
+    "l": 0.232,
+    "c": 0.25,
+    "v": 685400,
+    "rsi": 23.6,
+    "hist": 0.11571
+   },
+   {
+    "d": "2026-10-26",
+    "o": 0.243,
+    "h": 0.244,
+    "l": 0.234,
+    "c": 0.244,
+    "v": 305700,
+    "rsi": 23.5,
+    "hist": 0.11885
+   },
+   {
+    "d": "2026-10-27",
+    "o": 0.235,
+    "h": 0.29,
+    "l": 0.235,
+    "c": 0.26,
+    "v": 1186100,
+    "rsi": 24.2,
+    "hist": 0.12233
+   },
+   {
+    "d": "2026-10-28",
+    "o": 0.255,
+    "h": 0.26,
+    "l": 0.242,
+    "c": 0.26,
+    "v": 581300,
+    "rsi": 24.2,
+    "hist": 0.12453
+   },
+   {
+    "d": "2026-10-29",
+    "o": 0.25,
+    "h": 0.251,
+    "l": 0.184,
+    "c": 0.196,
+    "v": 2949900,
+    "rsi": 23.2,
+    "hist": 0.12146
+   },
+   {
+    "d": "2026-10-30",
+    "o": 0.174,
+    "h": 0.18,
+    "l": 0.162,
+    "c": 0.169,
+    "v": 21117800,
+    "rsi": 22.7,
+    "hist": 0.11732
+   },
+   {
+    "d": "2026-11-02",
+    "o": 3.39,
+    "h": 9.29,
+    "l": 2.7,
+    "c": 8.16,
+    "v": 5414609,
+    "rsi": 89.3,
+    "hist": 0.62415
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 6.55,
+  "at_price": [],
+  "above": [
+   {
+    "level": 6.72,
+    "why": "رأس شمعة هابطة + فواب جلسة 2026-11-02",
+    "confluence": 2
+   },
+   {
+    "level": 7.86,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   },
+   {
+    "level": 8.7241,
+    "why": "قمة الأفتر/البري",
+    "confluence": 1
+   },
+   {
+    "level": 9.29,
+    "why": "قمة يوم 2026-11-02 + رأس شمعة هابطة",
+    "confluence": 2
+   },
+   {
+    "level": 12.15,
+    "why": "رأس شمعة هابطة + قمة سابقة",
+    "confluence": 1
+   },
+   {
+    "level": 13.755,
+    "why": "فجوة لم تُغطَّ",
+    "confluence": 1
+   },
+   {
+    "level": 18.6,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   },
+   {
+    "level": 21.75,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   }
+  ],
+  "below": [
+   {
+    "level": 6.37,
+    "why": "قاع الأفتر/البري",
+    "confluence": 1
+   },
+   {
+    "level": 6.21,
+    "why": "قاعدة آخر ساعة 2026-11-02",
+    "confluence": 1
+   },
+   {
+    "level": 4.23,
+    "why": "إغلاقات سابقة متجمعة (3)",
+    "confluence": 1
+   },
+   {
+    "level": 4.08,
+    "why": "قيعان سابقة متجمعة (4)",
+    "confluence": 1
+   },
+   {
+    "level": 2.7,
+    "why": "قاع يوم 2026-11-02",
+    "confluence": 1
+   },
+   {
+    "level": 1.85,
+    "why": "إغلاقات سابقة متجمعة (4)",
+    "confluence": 1
+   },
+   {
+    "level": 1.81,
+    "why": "إغلاقات سابقة متجمعة (5)",
+    "confluence": 1
+   },
+   {
+    "level": 1.77,
+    "why": "قيعان سابقة متجمعة (4)",
+    "confluence": 1
+   }
+  ]
+ },
+ "pivot": null,
+ "momentum": null
+}

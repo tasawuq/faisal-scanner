@@ -1,11 +1,11 @@
 {
- "generated_at_utc": "2026-11-02T13:36:25.847668+00:00",
- "generated_at_et": "2026-11-02T08:36:25.847668-05:00",
+ "generated_at_utc": "2026-11-02T13:46:25.847850+00:00",
+ "generated_at_et": "2026-11-02T08:46:25.847850-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1291,
-  "with_data": 1290,
+  "with_data": 1291,
   "short_history": 16,
   "price_out": 56,
   "low_volume": 480,
@@ -16,7 +16,7 @@
  },
  "counts": {
   "universe": 5850,
-  "analyzed": 738,
+  "analyzed": 739,
   "ready": 0,
   "watch": 97,
   "momentum": 0,
@@ -8659,7 +8659,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.4115,
+   "price": 1.41,
    "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8748,8 +8748,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8765,8 +8765,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 405285.0,
-   "price": 344.69
+   "volume": 448054.0,
+   "price": 344.656
   },
   "SNDL": {
    "volume": 31196.0,

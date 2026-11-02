@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T09:48:59.662590+00:00",
- "generated_at_et": "2026-11-02T04:48:59.662590-05:00",
+ "generated_at_utc": "2026-11-02T09:58:59.662760+00:00",
+ "generated_at_et": "2026-11-02T04:58:59.662760-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -467,10 +467,10 @@
     "last_split": "عكسي 1:100 (2026-05-07)",
     "short_available": null,
     "short_pct_float": 0.031,
-    "ext_price": 1.22,
-    "ext_chg": 0.025210059,
+    "ext_price": 1.1032,
+    "ext_chg": -0.072941256,
     "ext_session": "pre",
-    "low_since_close": 1.18
+    "low_since_close": 1.1032
    },
    "news": []
   },
@@ -4041,8 +4041,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.64,
-    "ext_chg": 0.0,
+    "ext_price": 1.67,
+    "ext_chg": 0.018292665,
     "ext_session": "pre",
     "low_since_close": 1.63
    },
@@ -6726,7 +6726,7 @@
     "last_split": "عكسي 1:5 (2026-09-08)",
     "short_available": null,
     "short_pct_float": 0.0072000003,
-    "low_since_close": 0.3001
+    "low_since_close": 0.291
    },
    "news": []
   },
@@ -9022,7 +9022,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.64,
+   "price": 1.67,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9041,7 +9041,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 22%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 20%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -9090,7 +9090,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.9,
+   "price": 2.81,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9110,7 +9110,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 8%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 11%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -9145,8 +9145,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -9162,8 +9162,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 97650.0,
-   "price": 342.92
+   "volume": 100599.0,
+   "price": 343.03
   },
   "SNDL": {
    "volume": 24.0,

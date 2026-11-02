@@ -503,6 +503,13 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         apply_news(x, news.get(x.ticker))
 
     # ---------------- فريم 4 ساعات (ص90 «اقربها 4 ساعات»): شمعة 4 ساعات مكتملة اليوم تكمل شروط ص86
+    if session in ("pre", "regular", "post") and not intraday15 and not demo and pivots:
+        # مصدر الأسعار Yahoo (مفاتيح Alpaca ما توصل للفحص — provider = yahoo من 27 أكتوبر): شموع 15 دقيقة بكل الجلسات
+        # (يومين = آخر يوم مكتمل + اليوم) لمرشحي الارتكاز فقط — فريم 4 ساعات (الدليل خ5) وكسر القاع بالأفتر/البري (خ7)
+        try:
+            intraday15 = YahooData().intraday([x.ticker for x in pivots], "15m", prepost=True)
+        except Exception as e:  # noqa
+            errors.append(f"yahoo intraday 4h: {str(e)[:80]}")
     if session in ("pre", "regular", "post") and intraday15 and not demo:
         delay = C.ALPACA_SIP_DELAY_MIN if isinstance(intra_provider, AlpacaData) else 0
         for x in pivots:

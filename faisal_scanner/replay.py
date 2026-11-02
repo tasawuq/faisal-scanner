@@ -104,7 +104,7 @@ def run(days=120):
     syms = list(u["symbol"])
     log.info("replay: %d nasdaq symbols under $6", len(syms))
     provider = get_price_provider()
-    daily = provider.daily(syms)
+    daily = provider.daily(syms, period="2y" if days > 150 else "1y")  # 360 يوم تحتاج سنتين بيانات (+ إحماء المؤشرات)
     keep = []
     for s, df in daily.items():
         if df is None or len(df) < 90:
@@ -126,7 +126,7 @@ def run(days=120):
     alld = os.path.join(OUT, "all")
     os.makedirs(alld, exist_ok=True)
     for s in rng:
-        daily[s].iloc[-300:].to_csv(os.path.join(alld, f"{s}.csv"))
+        daily[s].iloc[-560:].to_csv(os.path.join(alld, f"{s}.csv"))
     with open(os.path.join(alld, "_meta.json"), "w", encoding="utf-8") as fh:
         json.dump({s: {"fund": fund.get(s) or {}, "urow": urows.get(s, {})} for s in rng}, fh, ensure_ascii=False,
                   default=str)
@@ -136,7 +136,7 @@ def run(days=120):
         for t, out in ex.map(replay_one, jobs, chunksize=4):
             rows += out
             if out:
-                daily[t].iloc[-300:].to_csv(os.path.join(OUT, "bars", f"{t}.csv"))
+                daily[t].iloc[-560:].to_csv(os.path.join(OUT, "bars", f"{t}.csv"))
     rows.sort(key=lambda r: (r["date"], r["ticker"]))
     fresh = [r for r in rows if not r["repeat"]]
     filled = [r for r in fresh if r["filled"]]

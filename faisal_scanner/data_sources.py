@@ -290,7 +290,7 @@ class AlpacaData:
         return out
 
     def daily(self, symbols, period="1y") -> dict:
-        start = datetime.now(timezone.utc) - timedelta(days=400)
+        start = datetime.now(timezone.utc) - timedelta(days=800 if period == "2y" else 400)
         return self.bars(symbols, "1Day", start, self._end())
 
     def intraday(self, symbols, interval="15m", prepost=False, since=None) -> dict:

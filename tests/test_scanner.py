@@ -655,21 +655,30 @@ def test_four_hour_uses_yahoo_15m_when_alpaca_absent(monkeypatch):
     assert len(calls) == 1
 
 
-def test_reverse_split_day_detected_and_shares_corrected(monkeypatch):
-    """VCIG 2 نوفمبر: Yahoo يعطي 9.64M سهم (قبل تقسيم 1:18) وشموعه غير معدّلة (الجمعة 0.169)، وناسداك: 8.16 بتغير +168%
-    (إغلاق الأمس المعدّل 3.04) → تقسيم 1:18 → عدد الأسهم بعده 535 ألف."""
-    from faisal_scanner import main
+def test_nasdaq_split_calendar_corrects_stale_yahoo_shares(monkeypatch):
+    """VCIG 2 نوفمبر: جدول ناسداك «1:18 نُفّذ 11/02/2026»، وYahoo يعطي 9.64M سهم (قبل التقسيم) → بعده 535 ألف."""
+    from faisal_scanner import main, data_sources as ds
     from faisal_scanner.pivot import Signal
-    idx = pd.DatetimeIndex([datetime(2026, 10, 30, tzinfo=ET), datetime(2026, 11, 2, tzinfo=ET)])
-    df = pd.DataFrame({"open": [0.174, 3.39], "high": [0.18, 9.29], "low": [0.162, 2.7], "close": [0.169, 8.16],
-                       "volume": [21e6, 5.4e6]}, index=idx)
-    today = datetime(2026, 11, 2).date()
-    v = main.detect_split_today({"price": 8.16, "pct_change": 1.684}, df, today)
-    assert v == pytest.approx(1 / 18)
-    assert main.detect_split_today({"price": 0.25, "pct_change": 0.48}, df.assign(close=[0.169, 0.25]), today) is None
-    assert main.detect_split_today({"price": 8.16, "pct_change": 1.684}, df, datetime(2026, 11, 3).date()) is None
-    monkeypatch.setattr(main, "SPLITS_SEEN", {"VCIG": {"date": "2026-11-02", "value": 1 / 18}})
+
+    class R:
+        status_code = 200
+
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return {"data": {"rows": [{"symbol": "VCIG", "name": "VCI Global", "ratio": "1:18", "executionDate": "11/02/2026"},
+                                      {"symbol": "SNDK", "name": "Sandisk", "ratio": "8:1", "executionDate": "11/20/2026"},
+                                      {"symbol": "TOPS", "name": "TOP Ships", "ratio": "1 : 10", "executionDate": "11/06/2026"}]}}
+    monkeypatch.setattr(ds.requests, "get", lambda *a, **k: R())
+    cal = ds.nasdaq_splits()
+    assert [(x["symbol"], x["date"]) for x in cal] == [("VCIG", "2026-11-02"), ("SNDK", "2026-11-20"), ("TOPS", "2026-11-06")]
+    assert cal[0]["value"] == pytest.approx(1 / 18) and cal[1]["value"] == 8 and cal[2]["ratio"] == "1:10"
+    monkeypatch.setattr(main, "SPLITS_SEEN", {"VCIG": {"date": "2026-11-02", "value": 1 / 18, "ratio": "1:18"}})
     s = Signal(ticker="VCIG", price=8.16)
     f = {"VCIG": {"floatShares": 14386, "sharesOutstanding": 9639594, "lastSplitDate": 1787529600}}
-    main.enrich(s, f, {}, df)
+    assert main.enrich(s, f, {}) is True  # 535 ألف ≤ 8M وما فيه حد أدنى
     assert s.meta["shares"] == pytest.approx(9639594 / 18) and any("بعد تقسيم" in t for t in s.tags)
+    s2 = Signal(ticker="VCIG", price=8.16)  # Yahoo سجّل التقسيم (تاريخه بعد/يساوي) → ما نقسم مرة ثانية
+    main.enrich(s2, {"VCIG": {"sharesOutstanding": 535_533, "lastSplitDate": 1793577600}}, {})
+    assert s2.meta["shares"] == 535_533

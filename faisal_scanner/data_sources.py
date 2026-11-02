@@ -62,6 +62,29 @@ BAD_NAME = ("warrant", " unit", " units", " right", " rights", "preferred", "dep
             "notes due", "% notes", "subordinated", "debenture", "trust preferred")
 
 
+def nasdaq_splits() -> list:
+    """جدول التقسيمات من ناسداك (المنفّذة حديثاً والقادمة) — مصدر محدّث بدل عدد أسهم Yahoo المتأخر (VCIG 2 نوفمبر:
+    1:18 نُفّذ اليوم وYahoo يعطي العدد قبل التقسيم). يرجع [{symbol, name, ratio, value, date}] — value بصيغة Yahoo:
+    عدد الأسهم بعد ÷ قبل (1:18 → 1/18، 8:1 → 8)."""
+    hdr = {"User-Agent": UA, "Accept": "application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.9",
+           "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"}
+    r = requests.get("https://api.nasdaq.com/api/calendar/splits", headers=hdr, timeout=30)
+    r.raise_for_status()
+    rows = (((r.json() or {}).get("data") or {}).get("rows")) or []
+    out = []
+    for d in rows:
+        try:
+            a, b = [float(x) for x in str(d.get("ratio", "")).replace(" ", "").split(":")]
+            when = datetime.strptime(str(d.get("executionDate")), "%m/%d/%Y").date()
+        except Exception:  # noqa
+            continue
+        if a <= 0 or b <= 0:
+            continue
+        out.append({"symbol": str(d.get("symbol", "")).strip().upper(), "name": d.get("name", ""),
+                    "ratio": f"{a:g}:{b:g}", "value": a / b, "date": when.isoformat()})
+    return out
+
+
 def fetch_universe_nasdaq() -> pd.DataFrame:
     rows = []
     hdr = {"User-Agent": UA, "Accept": "application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.9",

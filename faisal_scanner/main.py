@@ -20,7 +20,7 @@ import pandas as pd
 from . import config as C
 from .data_sources import (ET, session_info, get_universe, get_price_provider, YahooData, AlpacaData,
                            merge_today_bar, fundamentals, yahoo_quotes, load_daily_cache, save_daily_cache,
-                           nasdaq_extended, fill_missing_prices)
+                           nasdaq_extended, fill_missing_prices, nasdaq_splits)
 from .pivot import analyze_pivot, apply_gate, READY, WATCH
 from . import method as M
 from .momentum import analyze_momentum
@@ -88,28 +88,7 @@ def news_line(items) -> str:
     return " | ".join(out)
 
 
-SPLITS_SEEN = {}  # رمز ← {"date", "value"}: تقسيم شافه الفحص يوم صار وYahoo ما حدّث عدد الأسهم بعده
-
-
-def detect_split_today(urow: dict, df, today) -> float:
-    """يوم التقسيم العكسي (VCIG 2 نوفمبر: إغلاق الجمعة الخام 0.169 وإغلاق الأمس المعدّل في ناسداك 3.04 = 1:18):
-    إغلاق الأمس من ناسداك (السعر ÷ (1 + التغير)) مقسوم على إغلاق الأمس في شموع Yahoo غير المعدّلة. يرجع معامل التقسيم
-    بصيغة Yahoo (1:18 → 1/18) أو None. فقط والشمعة الأخيرة لليوم (الفحص الحي)."""
-    try:
-        px, chg = float(urow.get("price")), float(urow.get("pct_change"))
-        if df is None or len(df) < 2 or df.index[-1].date() != today or not (np.isfinite(px) and np.isfinite(chg)) \
-                or chg <= -0.99:
-            return None
-        r = (px / (1 + chg)) / float(df["close"].iloc[-2])
-    except Exception:  # noqa
-        return None
-    if r >= 1.8:
-        k = round(r)
-        return 1.0 / k if abs(r - k) / r <= 0.03 else None
-    if 0 < r <= 0.55:
-        k = round(1 / r)
-        return float(k) if abs(1 / r - k) * r <= 0.03 else None
-    return None
+SPLITS_SEEN = {}  # رمز ← {"date", "value", "ratio"}: تقسيم من جدول ناسداك (آخر 60 يوم) — يصحح عدد أسهم Yahoo المتأخر
 
 
 def load_splits_seen() -> dict:
@@ -491,25 +470,28 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         except Exception as e:  # noqa
             fund = {}
             errors.append(f"fundamentals: {str(e)[:80]}")
-    # تقسيم عكسي اليوم (VCIG 2 نوفمبر): يُحفظ عشان عدد الأسهم يتصحح لين Yahoo يحدّثه
+    # جدول التقسيمات من ناسداك (VCIG 2 نوفمبر: Yahoo يعطي عدد الأسهم قبل التقسيم): المنفّذ خلال 60 يوم يصحح عدد
+    # الأسهم لين Yahoo يسجله، والقادم يطلع في القائمة «تقسيم عكسي قادم» (متابعة فقط)
     if not demo:
         global SPLITS_SEEN
-        SPLITS_SEEN = load_splits_seen()
-        if session in ("regular", "post"):
-            new = {}
-            for s_, df_ in daily.items():
-                v = detect_split_today(urows.get(s_, {}), df_, today)
-                if v and SPLITS_SEEN.get(s_, {}).get("date") != today.isoformat():
-                    new[s_] = {"date": today.isoformat(), "value": v}
-            if new:
-                SPLITS_SEEN.update(new)
-                log.info("splits detected today: %s", new)
-                try:
-                    os.makedirs(C.RESULTS_DIR, exist_ok=True)
-                    with open(os.path.join(C.RESULTS_DIR, "splits_seen.json"), "w", encoding="utf-8") as fh:
-                        json.dump(SPLITS_SEEN, fh, ensure_ascii=False, indent=1)
-                except Exception as e:  # noqa
-                    errors.append(f"splits_seen: {str(e)[:60]}")
+        SPLITS_SEEN = {k: v for k, v in load_splits_seen().items() if "ratio" in v}  # من جدول ناسداك فقط
+        try:
+            cal = nasdaq_splits()
+            for x in cal:
+                d = datetime.fromisoformat(x["date"]).date()
+                if (today - d).days <= 60 and d <= today:
+                    SPLITS_SEEN[x["symbol"]] = {"date": x["date"], "value": x["value"], "ratio": x["ratio"]}
+            SPLITS_SEEN = {k: v for k, v in SPLITS_SEEN.items()
+                           if (today - datetime.fromisoformat(v["date"]).date()).days <= 60}
+            os.makedirs(C.RESULTS_DIR, exist_ok=True)
+            with open(os.path.join(C.RESULTS_DIR, "splits_seen.json"), "w", encoding="utf-8") as fh:
+                json.dump(SPLITS_SEEN, fh, ensure_ascii=False, indent=1)
+            up = [dict(x, shares_now=(fund or {}).get(x["symbol"], {}).get("sharesOutstanding"))
+                  for x in cal if x["value"] < 1 and datetime.fromisoformat(x["date"]).date() > today]
+            with open(os.path.join(C.RESULTS_DIR, "splits_upcoming.json"), "w", encoding="utf-8") as fh:
+                json.dump({"generated_at_et": now_et.isoformat(), "items": up}, fh, ensure_ascii=False, indent=1)
+        except Exception as e:  # noqa
+            errors.append(f"nasdaq splits: {str(e)[:80]}")
     kept = []
     for sig in pivots:
         if not enrich(sig, fund, urows.get(sig.ticker, {}), daily.get(sig.ticker)):

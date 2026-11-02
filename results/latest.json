@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T10:59:10.627042+00:00",
- "generated_at_et": "2026-11-02T05:59:10.627042-05:00",
+ "generated_at_utc": "2026-11-02T11:09:10.627204+00:00",
+ "generated_at_et": "2026-11-02T06:09:10.627204-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -924,8 +924,8 @@
     "last_split": "عكسي 1:10 (2026-04-30)",
     "short_available": null,
     "short_pct_float": 0.19379999,
-    "ext_price": 2.6709,
-    "ext_chg": -0.010777756000000001,
+    "ext_price": 2.65,
+    "ext_chg": -0.0185185,
     "ext_session": "pre",
     "low_since_close": 2.63
    },
@@ -1363,8 +1363,8 @@
     "last_split": "عكسي 1:12 (2025-12-08)",
     "short_available": null,
     "short_pct_float": 0.22489999,
-    "ext_price": 2.8,
-    "ext_chg": -0.050847487,
+    "ext_price": 2.7606,
+    "ext_chg": -0.06420337,
     "ext_session": "pre",
     "low_since_close": 2.52
    },
@@ -8984,7 +8984,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.75,
+   "price": 2.7486,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9002,8 +9002,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -9052,7 +9052,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.46,
+   "price": 1.44,
    "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9158,8 +9158,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 126989.0,
-   "price": 343.81
+   "volume": 133127.0,
+   "price": 343.83
   },
   "SNDL": {
    "volume": 24.0,

@@ -293,11 +293,10 @@ class AlpacaData:
         start = datetime.now(timezone.utc) - timedelta(days=800 if period == "2y" else 400)
         return self.bars(symbols, "1Day", start, self._end())
 
-    def intraday(self, symbols, interval="15m", prepost=False, since=None) -> dict:
-        """since = بداية الشموع (نيويورك)؛ الافتراضي بري اليوم 4:00. فريم 4 ساعات يحتاج أفتر آخر يوم مكتمل (الدليل خ5)."""
+    def intraday(self, symbols, interval="15m", prepost=False) -> dict:
         tf = {"5m": "5Min", "15m": "15Min"}.get(interval, interval)
         now_et = datetime.now(ET)
-        start_et = since or datetime.combine(now_et.date(), time(4, 0), tzinfo=ET)
+        start_et = datetime.combine(now_et.date(), time(4, 0), tzinfo=ET)
         out = self.bars(symbols, tf, start_et.astimezone(timezone.utc), self._end())
         if not prepost:
             for k, d in out.items():

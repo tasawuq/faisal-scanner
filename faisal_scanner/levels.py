@@ -134,11 +134,8 @@ def candle(o, h, l, c, po=None, pc=None) -> dict:
     upper = h - max(o, c)
     close_pos = (c - l) / rng
     out = {
-        # مقطع المطرقة: «ظل طويل يمثل ضعف ارتفاع جسم الشمعة على الأقل… ليس له ظل علوي وإن وجد فلابد أن يكون صغير جداً»
-        # (اجتهاد في «صغير جداً»: ≤10% من مدى الشمعة)
-        "hammer": lower >= 2 * max(body, rng * 0.05) and lower / rng >= 0.5 and upper / rng <= 0.10,
-        # مقطع الابتلاع: الأولى حمراء والثانية خضراء، «افتتاح الثانية أقل من إغلاق الأولى وإغلاق الثانية أعلى من افتتاح الأولى»
-        "engulfing": po is not None and c > o and pc < po and c > po and o < pc,
+        "hammer": lower >= 2 * max(body, rng * 0.05) and lower / rng >= 0.5 and upper / rng <= 0.3,
+        "engulfing": po is not None and c > o and pc < po and c >= po and o <= pc,
         "lower_wick": lower / rng >= 0.45 and close_pos >= 0.55,
         "strong_green": c > o and close_pos >= 0.6,
         "upper_wick_ratio": upper / rng,

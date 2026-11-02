@@ -187,31 +187,15 @@ def apply_news(sig, items):
     refresh_status(sig)
 
 
-def low_since_close(sig, bars15) -> None:
-    """الدليل خ7 «أدنى شمعة هبط لها السهم: هل كُسرت على جميع الفريمات؟» — أدنى سعر بعد آخر إغلاق يومي مكتمل بكل
-    الجلسات (أفتر أمس + بري اليوم + ماركت اليوم) يدخل في شرط «نزل تحت الوقف» (apply_gate)."""
-    last = (sig.meta or {}).get("last_date")
-    if sig.kind != "pivot" or bars15 is None or not len(bars15) or not last:
-        return
-    d = datetime.fromisoformat(last).date()
-    after = bars15[[(ts.date() > d) or (ts.date() == d and ts.hour >= 16) for ts in bars15.index]]
-    if len(after):
-        sig.meta["low_since_close"] = float(after["low"].min())
-        apply_gate(sig)
-
-
 def upgrade_4h(sig, bars15, now_et, delay_min: int) -> bool:
     """ص90 «قراءة الشموع تتم ع جميع الفريمات / اقربها 4 ساعات»: إذا شروط ص86 ما اكتملت على اليومي المكتمل،
-    نقرأ آخر شمعة 4 ساعات مكتملة بعده — جميع أوقات التداول (الدليل خ5): أفتر 16–20، بري 4–8، ماركت 8–12 و12–16.
-    الترقية فقط إذا اكتملت كل الشروط."""
+    نقرأ آخر شمعة 4 ساعات مكتملة اليوم (9:30–13:30 أو 13:30–16:00). الترقية فقط إذا اكتملت كل الشروط."""
     p = sig.meta.get("p86")
     if sig.kind != "pivot" or not p or p.get("complete") or sig.meta.get("breakout_setup") or bars15 is None:
         return False
     z_low, z_high = sig.meta["zone"]
-    last = sig.meta.get("last_date")
-    after = datetime.fromisoformat(last).date() if last else None
     r = M.p86_4h(p, bars15, z_low, z_high, sig.meta.get("last_close"), sig.meta.get("avg_volume") or 0, now_et,
-                 delay_min, after)
+                 delay_min)
     if not r or not r["complete"]:
         return False
     keep = {k: p[k] for k in ("below_ma", "broke", "episodes", "breakout") if k in p}
@@ -279,14 +263,9 @@ def run_once(force=False, demo=False, limit=None) -> dict:
                 provider, provider_name = YahooData(), "yahoo (fallback)"
                 daily = provider.daily(syms)
         intraday15 = {}
-        if isinstance(provider, AlpacaData) and session in ("pre", "regular", "post"):
+        if isinstance(provider, AlpacaData) and session in ("regular", "post"):
             try:
-                # من أفتر آخر يوم تداول مكتمل (فريم 4 ساعات = جميع أوقات التداول — الدليل خ5)
-                prev = [d.index[-1].date() for d in daily.values() if d is not None and len(d)
-                        and d.index[-1].date() < now_et.date()]
-                since = (datetime.combine(max(prev), datetime.min.time(), tzinfo=ET).replace(hour=16) if prev
-                         else None)
-                intraday15 = provider.intraday(syms, "15m", prepost=True, since=since)
+                intraday15 = provider.intraday(syms, "15m")
             except Exception as e:  # noqa
                 errors.append(f"alpaca intraday: {str(e)[:100]}")
             today = now_et.date()
@@ -503,18 +482,10 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         apply_news(x, news.get(x.ticker))
 
     # ---------------- فريم 4 ساعات (ص90 «اقربها 4 ساعات»): شمعة 4 ساعات مكتملة اليوم تكمل شروط ص86
-    if session in ("pre", "regular", "post") and not intraday15 and not demo and pivots:
-        # مصدر الأسعار Yahoo (مفاتيح Alpaca ما توصل للفحص — provider = yahoo من 27 أكتوبر): شموع 15 دقيقة بكل الجلسات
-        # (يومين = آخر يوم مكتمل + اليوم) لمرشحي الارتكاز فقط — فريم 4 ساعات (الدليل خ5) وكسر القاع بالأفتر/البري (خ7)
-        try:
-            intraday15 = YahooData().intraday([x.ticker for x in pivots], "15m", prepost=True)
-        except Exception as e:  # noqa
-            errors.append(f"yahoo intraday 4h: {str(e)[:80]}")
-    if session in ("pre", "regular", "post") and intraday15 and not demo:
+    if session in ("regular", "post") and intraday15 and not demo:
         delay = C.ALPACA_SIP_DELAY_MIN if isinstance(intra_provider, AlpacaData) else 0
         for x in pivots:
             try:
-                low_since_close(x, intraday15.get(x.ticker))
                 if upgrade_4h(x, intraday15.get(x.ticker), now_et, delay):
                     x.tags.append("اكتملت الشروط على فريم 4 ساعات")
             except Exception as e:  # noqa

@@ -452,7 +452,7 @@ def _evaluate(ticker, ctx: Ctx, cd: dict, ma_vals: dict, px_now: float, today: d
     s = Signal(ticker=ticker, setup=cd["code"], setup_ar=SETUP_AR[cd["code"]], price=float(px_now))
     s.support_low, s.support_high, s.support_touches = z_low, z_high, int(cd.get("touches") or 0)
     s.trigger_level = float(cd["trigger"])
-    s.entry_low, s.entry_high = float(lad["orders"][-1]), float(lad["orders"][0])
+    s.entry_low, s.entry_high = float(lad["orders"][2]), float(lad["orders"][0])
     if t1:
         s.t1, s.t1_label = float(t1[0]), t1[1]
     if t2:
@@ -522,7 +522,7 @@ def apply_gate(s: Signal):
     z_low, z_high = s.meta["zone"]
     lad = M.ladder(z_low, z_high, p["critical"])
     s.meta["ladder"] = lad
-    s.entry_low, s.entry_high = float(lad["orders"][-1]), float(lad["orders"][0])
+    s.entry_low, s.entry_high = float(lad["orders"][2]), float(lad["orders"][0])
     s.stop = float(lad["stop"])
     s.risk_pct = round(float(lad["risk"]), 4)
     s.rr = round((s.t1 - lad["avg"]) / (lad["avg"] - lad["stop"]), 2) if s.t1 else None
@@ -545,9 +545,7 @@ def apply_gate(s: Signal):
     if lad["risk"] > M.MAX_LOSS:
         wait.append(f"الخسارة من متوسط الطلبات للوقف {lad['risk'] * 100:.0f}% أكبر من 15% (ص54)")
     px = s.price
-    td = dict(s.meta.get("today") or {})
-    if s.meta.get("low_since_close") is not None:  # الأفتر والبري من فريم 4 ساعات (الدليل خ5، خ7)
-        td["low"] = min(td.get("low", np.inf), float(s.meta["low_since_close"]))
+    td = s.meta.get("today") or {}
     if td.get("low") is not None and td["low"] < lad["stop"] and px >= lad["stop"]:
         # LGHL 27 أكتوبر: نزل اليوم إلى 2.00 تحت الوقف 2.24 ثم رجع 2.26 ونبّه على شمعة أمس — الدعم انكسر (ص17، ص89)
         wait.append(f"نزل اليوم إلى {M.rnd(td['low'])} تحت الدعم الحرج {M.rnd(lad['critical'])} — يا سحب سيولة يا كسر: "

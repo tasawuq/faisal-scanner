@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T13:09:10.629261+00:00",
- "generated_at_et": "2026-11-02T08:09:10.629261-05:00",
+ "generated_at_utc": "2026-11-02T13:19:10.629492+00:00",
+ "generated_at_et": "2026-11-02T08:19:10.629492-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -695,7 +695,7 @@
     "ext_price": 1.4155,
     "ext_chg": -0.017013897,
     "ext_session": "pre",
-    "low_since_close": 1.42
+    "low_since_close": 1.4155
    },
    "news": []
   },
@@ -1363,8 +1363,8 @@
     "last_split": "عكسي 1:12 (2025-12-08)",
     "short_available": null,
     "short_pct_float": 0.22489999,
-    "ext_price": 2.84,
-    "ext_chg": -0.03728818,
+    "ext_price": 2.85,
+    "ext_chg": -0.033898354,
     "ext_session": "pre",
     "low_since_close": 2.52
    },
@@ -2039,6 +2039,9 @@
     "last_split": "عكسي 1:12 (2026-08-13)",
     "short_available": null,
     "short_pct_float": 0.0464,
+    "ext_price": 4.57,
+    "ext_chg": -0.05967078189300412,
+    "ext_session": "pre",
     "low_since_close": 4.72
    },
    "news": []
@@ -2934,8 +2937,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.7832,
-    "ext_chg": 0.0028169107,
+    "ext_price": 0.787,
+    "ext_chg": 0.0076824355,
     "ext_session": "pre",
     "low_since_close": 0.75
    },
@@ -8958,7 +8961,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 0.6943,
+   "price": 0.68,
    "price_label": "سعر البري",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -8984,7 +8987,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.7484,
+   "price": 2.7615,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9141,8 +9144,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -9158,12 +9161,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 319965.0,
-   "price": 344.25
+   "volume": 346276.0,
+   "price": 345.11
   },
   "SNDL": {
-   "volume": 643.0,
-   "price": 1.25
+   "volume": 652.0,
+   "price": 1.26
   }
  }
 }

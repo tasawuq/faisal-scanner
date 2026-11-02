@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T13:46:25.847850+00:00",
- "generated_at_et": "2026-11-02T08:46:25.847850-05:00",
+ "generated_at_utc": "2026-11-02T13:56:25.847997+00:00",
+ "generated_at_et": "2026-11-02T08:56:25.847997-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -8748,8 +8748,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8765,12 +8765,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 448054.0,
-   "price": 344.656
+   "volume": 464909.0,
+   "price": 344.39
   },
   "SNDL": {
-   "volume": 31196.0,
-   "price": 1.26
+   "volume": 32277.0,
+   "price": 1.25
   }
  }
 }

@@ -633,3 +633,23 @@ def test_accumulation_higher_lows_and_shrinking_candles():
     assert lower[0] is False and "مو أعلى" in lower[1], lower
     sweep = M.p86_daily(_accum_df(0.96), 0.96, 1.05, kind="sweep")["checks"]["accum"]
     assert sweep[0] is True and "لا ينطبق" in sweep[1]
+
+
+def test_four_hour_uses_yahoo_15m_when_alpaca_absent(monkeypatch):
+    """الفحص على Yahoo (بدون Alpaca): شموع 15 دقيقة تُجلب من Yahoo لمرشحي الارتكاز في الجلسة الرسمية وبعد الإغلاق فقط."""
+    from faisal_scanner import main
+    calls = []
+
+    class FakeY:
+        def intraday(self, syms, interval="15m", prepost=False):
+            calls.append((tuple(syms), interval, prepost))
+            return {s: "bars" for s in syms}
+    monkeypatch.setattr(main, "YahooData", FakeY)
+    piv = [type("S", (), {"ticker": "AAA"})(), type("S", (), {"ticker": "BBB"})()]
+    errs = []
+    assert main.yahoo_15m_for_pivots("regular", {}, piv, False, errs) == {"AAA": "bars", "BBB": "bars"}
+    assert calls == [(("AAA", "BBB"), "15m", False)] and not errs
+    assert main.yahoo_15m_for_pivots("pre", {}, piv, False, errs) == {}            # البري: لا
+    assert main.yahoo_15m_for_pivots("regular", {"X": 1}, piv, False, errs) == {"X": 1}  # Alpaca موجود
+    assert main.yahoo_15m_for_pivots("post", {}, piv, True, errs) == {}             # ديمو
+    assert len(calls) == 1

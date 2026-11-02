@@ -187,6 +187,18 @@ def apply_news(sig, items):
     refresh_status(sig)
 
 
+def yahoo_15m_for_pivots(session, intraday15, pivots, demo, errors) -> dict:
+    """فريم 4 ساعات يحتاج شموع 15 دقيقة لليوم. الفحص يشتغل على Yahoo (مفاتيح Alpaca ما توصل له — provider = yahoo من
+    27 أكتوبر)، فشموع Alpaca فاضية ← نجيب شموع 15 دقيقة للجلسة الرسمية من Yahoo لمرشحي الارتكاز فقط."""
+    if session not in ("regular", "post") or intraday15 or demo or not pivots:
+        return intraday15
+    try:
+        return YahooData().intraday([x.ticker for x in pivots], "15m") or {}
+    except Exception as e:  # noqa
+        errors.append(f"yahoo 15m (4h): {str(e)[:80]}")
+        return intraday15
+
+
 def upgrade_4h(sig, bars15, now_et, delay_min: int) -> bool:
     """ص90 «قراءة الشموع تتم ع جميع الفريمات / اقربها 4 ساعات»: إذا شروط ص86 ما اكتملت على اليومي المكتمل،
     نقرأ آخر شمعة 4 ساعات مكتملة اليوم (9:30–13:30 أو 13:30–16:00). الترقية فقط إذا اكتملت كل الشروط."""
@@ -482,6 +494,8 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         apply_news(x, news.get(x.ticker))
 
     # ---------------- فريم 4 ساعات (ص90 «اقربها 4 ساعات»): شمعة 4 ساعات مكتملة اليوم تكمل شروط ص86
+    intraday15 = yahoo_15m_for_pivots(session, intraday15, pivots, demo, errors)
+    funnel["h4_bars"] = sum(1 for x in pivots if x.ticker in (intraday15 or {}))
     if session in ("regular", "post") and intraday15 and not demo:
         delay = C.ALPACA_SIP_DELAY_MIN if isinstance(intra_provider, AlpacaData) else 0
         for x in pivots:

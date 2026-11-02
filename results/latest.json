@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T09:15:05.331974+00:00",
- "generated_at_et": "2026-11-02T04:15:05.331974-05:00",
+ "generated_at_utc": "2026-11-02T09:18:59.662025+00:00",
+ "generated_at_et": "2026-11-02T04:18:59.662025-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -244,7 +244,8 @@
     "short_pct_float": 0.096099995,
     "ext_price": 0.69,
     "ext_chg": -0.0015916708,
-    "ext_session": "pre"
+    "ext_session": "pre",
+    "low_since_close": 0.674
    },
    "news": []
   },
@@ -468,7 +469,8 @@
     "short_pct_float": 0.031,
     "ext_price": 1.19,
     "ext_chg": 0.0,
-    "ext_session": "pre"
+    "ext_session": "pre",
+    "low_since_close": 1.18
    },
    "news": []
   },
@@ -690,9 +692,10 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.49,
-    "ext_chg": -0.019736842105263164,
-    "ext_session": "pre"
+    "ext_price": 1.455,
+    "ext_chg": -0.042763157894736836,
+    "ext_session": "pre",
+    "low_since_close": 1.42
    },
    "news": []
   },
@@ -923,7 +926,8 @@
     "short_pct_float": 0.19379999,
     "ext_price": 2.68,
     "ext_chg": -0.0074074,
-    "ext_session": "pre"
+    "ext_session": "pre",
+    "low_since_close": 2.63
    },
    "news": []
   },
@@ -1141,7 +1145,8 @@
     },
     "last_split": "عكسي 1:20 (2026-03-30)",
     "short_available": null,
-    "short_pct_float": 0.048899997
+    "short_pct_float": 0.048899997,
+    "low_since_close": 0.93
    },
    "news": []
   },
@@ -1226,7 +1231,8 @@
     "اختبار الدعم وفشل الكسر: ما رجع لاختبار 2.75 بعد أو ما ثبت فوقه (ص86/ص17)",
     "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)",
     "ضغط بيع سابق ثم ضعف الهبوط: هبط 27% من أعلى 90 يوم، والبيع ما ضعف بعد (ص85)",
-    "اخترق 2.75 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)"
+    "اخترق 2.75 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)",
+    "نزل اليوم إلى 2.52 تحت الدعم الحرج 2.67 — يا سحب سيولة يا كسر: ينتظر إغلاق الشمعة (يومي/4 ساعات) فوق الدعم، والوقف يصير تحت قاع السحب (ص17)"
    ],
    "flags": [],
    "tags": [
@@ -1359,7 +1365,8 @@
     "short_pct_float": 0.22489999,
     "ext_price": 2.7,
     "ext_chg": -0.08474576,
-    "ext_session": "pre"
+    "ext_session": "pre",
+    "low_since_close": 2.52
    },
    "news": []
   },
@@ -1579,7 +1586,8 @@
     },
     "last_split": "عكسي 1:4 (2025-09-29)",
     "short_available": null,
-    "short_pct_float": 0.0159
+    "short_pct_float": 0.0159,
+    "low_since_close": 1.0
    },
    "news": []
   },
@@ -1804,9 +1812,10 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.506,
-    "ext_chg": -0.023354564755838636,
-    "ext_session": "pre"
+    "ext_price": 0.5048,
+    "ext_chg": -0.025670719938235775,
+    "ext_session": "pre",
+    "low_since_close": 0.5059
    },
    "news": []
   },
@@ -2029,7 +2038,8 @@
     },
     "last_split": "عكسي 1:12 (2026-08-13)",
     "short_available": null,
-    "short_pct_float": 0.0464
+    "short_pct_float": 0.0464,
+    "low_since_close": 4.72
    },
    "news": []
   },
@@ -2254,7 +2264,8 @@
     "short_pct_float": 0.088,
     "ext_price": 0.929,
     "ext_chg": -0.01526393894424416,
-    "ext_session": "pre"
+    "ext_session": "pre",
+    "low_since_close": 0.985
    },
    "news": []
   },
@@ -2470,7 +2481,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "short_pct_float": 0.0069999998
+    "short_pct_float": 0.0069999998,
+    "low_since_close": 0.7
    },
    "news": []
   },
@@ -2686,7 +2698,11 @@
     },
     "last_split": "عادي 2:1 (2026-01-05)",
     "short_available": null,
-    "short_pct_float": 0.119799994
+    "short_pct_float": 0.119799994,
+    "ext_price": 4.87,
+    "ext_chg": -0.11775362318840576,
+    "ext_session": "pre",
+    "low_since_close": 4.87
    },
    "news": []
   },
@@ -2915,9 +2931,10 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.762,
-    "ext_chg": -0.024327776000000002,
-    "ext_session": "pre"
+    "ext_price": 0.768,
+    "ext_chg": -0.016645341,
+    "ext_session": "pre",
+    "low_since_close": 0.75
    },
    "news": []
   },
@@ -3133,7 +3150,8 @@
     },
     "last_split": "عكسي 1:21 (2025-04-23)",
     "short_available": null,
-    "short_pct_float": 0.0064
+    "short_pct_float": 0.0064,
+    "low_since_close": 0.6701
    },
    "news": []
   },
@@ -3348,7 +3366,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "short_pct_float": 0.16370001
+    "short_pct_float": 0.16370001,
+    "low_since_close": 1.49
    },
    "news": []
   },
@@ -3434,7 +3453,8 @@
     "RSI نزل تحت 30 (تشبع بيعي): أدنى RSI 32.9 (الحالي 37) (ص65/ص86/الدليل خ7)",
     "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 59K مقابل متوسط شموع البيع 29037K (ص85/ص86)",
     "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)"
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)",
+    "نزل اليوم إلى 0.582 تحت الدعم الحرج 0.6 — يا سحب سيولة يا كسر: ينتظر إغلاق الشمعة (يومي/4 ساعات) فوق الدعم، والوقف يصير تحت قاع السحب (ص17)"
    ],
    "flags": [
     "شمعة ضخ/تصريف قبل 9 يوم (طار إلى 0.92 وأغلق 0.779 بفوليوم 11x)"
@@ -3564,7 +3584,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "short_pct_float": 0.0309
+    "short_pct_float": 0.0309,
+    "low_since_close": 0.582
    },
    "news": []
   },
@@ -3785,7 +3806,8 @@
     },
     "last_split": "عكسي 1:10 (2026-05-29)",
     "short_available": null,
-    "short_pct_float": 0.012999999
+    "short_pct_float": 0.012999999,
+    "low_since_close": 0.1451
    },
    "news": []
   },
@@ -4014,7 +4036,8 @@
     "short_pct_float": 0.0235,
     "ext_price": 1.64,
     "ext_chg": 0.0,
-    "ext_session": "pre"
+    "ext_session": "pre",
+    "low_since_close": 1.63
    },
    "news": []
   },
@@ -4239,7 +4262,8 @@
     },
     "last_split": "عكسي 1:30 (2026-05-04)",
     "short_available": null,
-    "short_pct_float": 0.1163
+    "short_pct_float": 0.1163,
+    "low_since_close": 0.865
    },
    "news": []
   },
@@ -4461,7 +4485,8 @@
     },
     "last_split": "عكسي 10:55 (2012-01-17)",
     "short_available": null,
-    "short_pct_float": 0.0425
+    "short_pct_float": 0.0425,
+    "low_since_close": 1.3
    },
    "news": []
   },
@@ -4682,7 +4707,8 @@
     },
     "last_split": "عكسي 1:50 (2026-08-24)",
     "short_available": null,
-    "short_pct_float": 0.2354
+    "short_pct_float": 0.2354,
+    "low_since_close": 4.35
    },
    "news": []
   },
@@ -4903,7 +4929,8 @@
     },
     "last_split": "عكسي 1:25 (2025-12-17)",
     "short_available": null,
-    "short_pct_float": 0.019299999
+    "short_pct_float": 0.019299999,
+    "low_since_close": 1.89
    },
    "news": []
   },
@@ -5125,7 +5152,8 @@
     },
     "last_split": "عكسي 1:15 (2022-09-15)",
     "short_available": null,
-    "short_pct_float": 0.0031
+    "short_pct_float": 0.0031,
+    "low_since_close": 1.02
    },
    "news": []
   },
@@ -5352,7 +5380,8 @@
     },
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
-    "short_pct_float": 0.051599998
+    "short_pct_float": 0.051599998,
+    "low_since_close": 3.67
    },
    "news": []
   },
@@ -5572,7 +5601,8 @@
     },
     "last_split": "عكسي 1:10 (2025-09-18)",
     "short_available": null,
-    "short_pct_float": 0.0117999995
+    "short_pct_float": 0.0117999995,
+    "low_since_close": 4.75
    },
    "news": []
   },
@@ -5804,7 +5834,8 @@
     },
     "last_split": "عكسي 1:18 (2026-06-22)",
     "short_available": null,
-    "short_pct_float": 0.0011999999
+    "short_pct_float": 0.0011999999,
+    "low_since_close": 1.4
    },
    "news": []
   },
@@ -6021,7 +6052,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "short_pct_float": 0.0092
+    "short_pct_float": 0.0092,
+    "low_since_close": 2.45
    },
    "news": []
   },
@@ -6246,7 +6278,8 @@
     },
     "last_split": "عكسي 1:4 (2026-01-20)",
     "short_available": null,
-    "short_pct_float": 0.0388
+    "short_pct_float": 0.0388,
+    "low_since_close": 0.94
    },
    "news": []
   },
@@ -6460,7 +6493,8 @@
     "industry": "Consulting Services",
     "split": {},
     "last_split": null,
-    "short_available": null
+    "short_available": null,
+    "low_since_close": 2.5
    },
    "news": []
   },
@@ -6684,7 +6718,8 @@
     },
     "last_split": "عكسي 1:5 (2026-09-08)",
     "short_available": null,
-    "short_pct_float": 0.0072000003
+    "short_pct_float": 0.0072000003,
+    "low_since_close": 0.3001
    },
    "news": []
   },
@@ -6909,7 +6944,8 @@
     },
     "last_split": "عكسي 1:8 (2026-05-27)",
     "short_available": null,
-    "short_pct_float": 0.0027
+    "short_pct_float": 0.0027,
+    "low_since_close": 1.77
    },
    "news": []
   },
@@ -7138,7 +7174,8 @@
     },
     "last_split": "عكسي 1:5 (2026-07-10)",
     "short_available": null,
-    "short_pct_float": 0.0353
+    "short_pct_float": 0.0353,
+    "low_since_close": 1.6801
    },
    "news": []
   },
@@ -7359,7 +7396,8 @@
     },
     "last_split": "عكسي 1:40 (2026-05-18)",
     "short_available": null,
-    "short_pct_float": 0.026500002
+    "short_pct_float": 0.026500002,
+    "low_since_close": 2.05
    },
    "news": []
   },
@@ -7588,7 +7626,8 @@
      "high_after": 3.8399999141693115
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
-    "short_available": null
+    "short_available": null,
+    "low_since_close": 2.73
    },
    "news": []
   },
@@ -7806,7 +7845,8 @@
     },
     "last_split": "عكسي 1:20 (2022-12-08)",
     "short_available": null,
-    "short_pct_float": 0.0015
+    "short_pct_float": 0.0015,
+    "low_since_close": 1.12
    },
    "news": []
   },
@@ -7893,7 +7933,8 @@
     "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)",
     "ضغط بيع سابق ثم ضعف الهبوط: هبط 99% من أعلى 90 يوم، والبيع ما ضعف بعد (ص85)",
     "خالٍ من القروبات: تذبذب ≤10%: أكبر تذبذب يومي آخر 5 جلسات 32.3% — فوق 10%: سلوك قروبات (الدليل خ7) (الدليل خ7)",
-    "اخترق 0.41 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)"
+    "اخترق 0.41 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)",
+    "نزل اليوم إلى 0.37 تحت الدعم الحرج 0.3977 — يا سحب سيولة يا كسر: ينتظر إغلاق الشمعة (يومي/4 ساعات) فوق الدعم، والوقف يصير تحت قاع السحب (ص17)"
    ],
    "flags": [
     "سعر منخفض جداً — سبريد واسع"
@@ -8016,7 +8057,8 @@
     "industry": "Software - Infrastructure",
     "split": {},
     "last_split": null,
-    "short_available": null
+    "short_available": null,
+    "low_since_close": 0.37
    },
    "news": []
   },
@@ -8236,7 +8278,8 @@
     },
     "last_split": "عكسي 1:100 (2025-09-02)",
     "short_available": null,
-    "short_pct_float": 0.55689996
+    "short_pct_float": 0.55689996,
+    "low_since_close": 0.4267
    },
    "news": []
   },
@@ -8459,7 +8502,8 @@
     },
     "last_split": "عكسي 222:1000 (2026-04-13)",
     "short_available": null,
-    "short_pct_float": 0.0219
+    "short_pct_float": 0.0219,
+    "low_since_close": 1.02
    },
    "news": []
   },
@@ -8544,7 +8588,8 @@
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.9592 فوق السعر) (ص66/ص82/ص84/ص86)",
     "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 523K مقابل متوسط شموع البيع 885K (ص85/ص86)",
     "شمعة انعكاس عند الدعم: ذيل سفلي طويل (رفض كسر) — تنتظر شمعة تأكيد بعدها (مقطع المطرقة: «انتظار التأكيد في اليوم التالي») (ص82/ص86)",
-    "خالٍ من القروبات: تذبذب ≤10%: أكبر تذبذب يومي آخر 5 جلسات 18.7% — فوق 10%: سلوك قروبات (الدليل خ7) (الدليل خ7)"
+    "خالٍ من القروبات: تذبذب ≤10%: أكبر تذبذب يومي آخر 5 جلسات 18.7% — فوق 10%: سلوك قروبات (الدليل خ7) (الدليل خ7)",
+    "نزل اليوم إلى 0.75 تحت الدعم الحرج 0.753 — يا سحب سيولة يا كسر: ينتظر إغلاق الشمعة (يومي/4 ساعات) فوق الدعم، والوقف يصير تحت قاع السحب (ص17)"
    ],
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
@@ -8678,7 +8723,8 @@
     },
     "last_split": "عكسي 1:40 (2026-04-28)",
     "short_available": null,
-    "short_pct_float": 0.063
+    "short_pct_float": 0.063,
+    "low_since_close": 0.75
    },
    "news": []
   },
@@ -8897,7 +8943,8 @@
     },
     "last_split": "عكسي 1:10 (2025-07-07)",
     "short_available": null,
-    "short_pct_float": 0.070300005
+    "short_pct_float": 0.070300005,
+    "low_since_close": 1.3922
    },
    "news": []
   }
@@ -9108,8 +9155,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 65363.0,
-   "price": 343.48
+   "volume": 66949.0,
+   "price": 343.22
   },
   "SNDL": {
    "volume": 18.0,

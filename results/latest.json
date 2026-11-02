@@ -1,23 +1,23 @@
 {
- "generated_at_utc": "2026-11-02T11:39:10.627729+00:00",
- "generated_at_et": "2026-11-02T06:39:10.627729-05:00",
+ "generated_at_utc": "2026-11-02T11:49:10.627883+00:00",
+ "generated_at_et": "2026-11-02T06:49:10.627883-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 1273,
-  "with_data": 1273,
+  "prefiltered": 1291,
+  "with_data": 1291,
   "short_history": 16,
-  "price_out": 46,
+  "price_out": 56,
   "low_volume": 479,
-  "outside_float": 307,
-  "nasdaq": 3431,
-  "all": 5852
+  "outside_float": 309,
+  "nasdaq": 3433,
+  "all": 5850
  },
  "counts": {
-  "universe": 5852,
-  "analyzed": 732,
+  "universe": 5850,
+  "analyzed": 740,
   "ready": 0,
-  "watch": 93,
+  "watch": 91,
   "momentum": 0,
   "ext_quotes": 65,
   "ext_movers_5pct": 0
@@ -467,8 +467,8 @@
     "last_split": "عكسي 1:100 (2026-05-07)",
     "short_available": null,
     "short_pct_float": 0.031,
-    "ext_price": 1.1512,
-    "ext_chg": -0.032605042,
+    "ext_price": 1.1603,
+    "ext_chg": -0.024958017,
     "ext_session": "pre",
     "low_since_close": 1.1032
    },
@@ -1363,8 +1363,8 @@
     "last_split": "عكسي 1:12 (2025-12-08)",
     "short_available": null,
     "short_pct_float": 0.22489999,
-    "ext_price": 2.7252,
-    "ext_chg": -0.076203427,
+    "ext_price": 2.73,
+    "ext_chg": -0.074576283,
     "ext_session": "pre",
     "low_since_close": 2.52
    },
@@ -2482,8 +2482,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.0069999998,
-    "ext_price": 0.705,
-    "ext_chg": -0.0019818799547000054,
+    "ext_price": 0.6615,
+    "ext_chg": -0.0635617214043036,
     "ext_session": "pre",
     "low_since_close": 0.7
    },
@@ -9052,7 +9052,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.44,
+   "price": 1.41,
    "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9158,8 +9158,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 151677.0,
-   "price": 343.556
+   "volume": 155300.0,
+   "price": 343.86
   },
   "SNDL": {
    "volume": 24.0,

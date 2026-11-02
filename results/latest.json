@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T10:49:10.626884+00:00",
- "generated_at_et": "2026-11-02T05:49:10.626884-05:00",
+ "generated_at_utc": "2026-11-02T10:59:10.627042+00:00",
+ "generated_at_et": "2026-11-02T05:59:10.627042-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -19,7 +19,7 @@
   "ready": 0,
   "watch": 93,
   "momentum": 0,
-  "ext_quotes": 45,
+  "ext_quotes": 65,
   "ext_movers_5pct": 0
  },
  "ready": [],
@@ -242,8 +242,8 @@
     "last_split": "عكسي 1:20 (2026-08-17)",
     "short_available": null,
     "short_pct_float": 0.096099995,
-    "ext_price": 0.7,
-    "ext_chg": null,
+    "ext_price": 0.69,
+    "ext_chg": -0.0015916708,
     "ext_session": "pre",
     "low_since_close": 0.674
    },
@@ -468,7 +468,7 @@
     "short_available": null,
     "short_pct_float": 0.031,
     "ext_price": 1.15,
-    "ext_chg": null,
+    "ext_chg": -0.033613513,
     "ext_session": "pre",
     "low_since_close": 1.1032
    },
@@ -693,7 +693,7 @@
     "short_available": null,
     "short_pct_float": 0.0435,
     "ext_price": 1.45,
-    "ext_chg": null,
+    "ext_chg": -0.046052631578947456,
     "ext_session": "pre",
     "low_since_close": 1.42
    },
@@ -925,7 +925,7 @@
     "short_available": null,
     "short_pct_float": 0.19379999,
     "ext_price": 2.6709,
-    "ext_chg": null,
+    "ext_chg": -0.010777756000000001,
     "ext_session": "pre",
     "low_since_close": 2.63
    },
@@ -1364,7 +1364,7 @@
     "short_available": null,
     "short_pct_float": 0.22489999,
     "ext_price": 2.8,
-    "ext_chg": null,
+    "ext_chg": -0.050847487,
     "ext_session": "pre",
     "low_since_close": 2.52
    },
@@ -1813,7 +1813,7 @@
     "short_available": null,
     "short_pct_float": 0.3136,
     "ext_price": 0.5048,
-    "ext_chg": null,
+    "ext_chg": -0.025670719938235775,
     "ext_session": "pre",
     "low_since_close": 0.5059
    },
@@ -2263,7 +2263,7 @@
     "short_available": null,
     "short_pct_float": 0.088,
     "ext_price": 0.929,
-    "ext_chg": null,
+    "ext_chg": -0.01526393894424416,
     "ext_session": "pre",
     "low_since_close": 0.985
    },
@@ -2483,7 +2483,7 @@
     "short_available": null,
     "short_pct_float": 0.0069999998,
     "ext_price": 0.705,
-    "ext_chg": null,
+    "ext_chg": -0.0019818799547000054,
     "ext_session": "pre",
     "low_since_close": 0.7
    },
@@ -2703,7 +2703,7 @@
     "short_available": null,
     "short_pct_float": 0.119799994,
     "ext_price": 4.91,
-    "ext_chg": null,
+    "ext_chg": -0.11050724637681153,
     "ext_session": "pre",
     "low_since_close": 4.87
    },
@@ -2934,8 +2934,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.768,
-    "ext_chg": null,
+    "ext_price": 0.771,
+    "ext_chg": -0.012804085,
     "ext_session": "pre",
     "low_since_close": 0.75
    },
@@ -4037,6 +4037,9 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
+    "ext_price": 1.6564,
+    "ext_chg": 0.0099999875,
+    "ext_session": "pre",
     "low_since_close": 1.63
    },
    "news": []
@@ -8950,9 +8953,7 @@
   }
  ],
  "momentum": [],
- "errors": [
-  "yahoo quotes empty in pre — nasdaq fallback 44/65"
- ],
+ "errors": [],
  "ext_debug": [],
  "faisal": [
   {
@@ -8983,7 +8984,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.84,
+   "price": 2.75,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9001,8 +9002,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_HOLD",
-   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_PENDING",
+   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -9017,7 +9018,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.65,
+   "price": 1.6564,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9051,8 +9052,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.4003000259399414,
-   "price_label": "آخر سعر",
+   "price": 1.46,
+   "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -9085,8 +9086,8 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.7200000286102295,
-   "price_label": "آخر سعر",
+   "price": 2.81,
+   "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-21",
@@ -9105,7 +9106,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 15%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 11%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -9120,8 +9121,8 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.4000000059604645,
-   "price_label": "آخر سعر",
+   "price": 0.3814,
+   "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-21",
@@ -9157,8 +9158,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 123559.0,
-   "price": 343.307
+   "volume": 126989.0,
+   "price": 343.81
   },
   "SNDL": {
    "volume": 24.0,

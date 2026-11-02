@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T22:48:08.224504+00:00",
- "generated_at_et": "2026-11-02T17:48:08.224504-05:00",
+ "generated_at_utc": "2026-11-02T22:58:08.224658+00:00",
+ "generated_at_et": "2026-11-02T17:58:08.224658-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -20,7 +20,7 @@
   "ready": 0,
   "watch": 107,
   "momentum": 0,
-  "ext_quotes": 58,
+  "ext_quotes": 65,
   "ext_movers_5pct": 0
  },
  "ready": [],
@@ -234,7 +234,7 @@
     "short_available": null,
     "short_pct_float": 0.0435,
     "ext_price": 1.45,
-    "ext_chg": null,
+    "ext_chg": 0.0,
     "ext_session": "post"
    },
    "news": []
@@ -448,8 +448,8 @@
     "last_split": "عكسي 1:20 (2026-08-17)",
     "short_available": null,
     "short_pct_float": 0.096099995,
-    "ext_price": 0.7297,
-    "ext_chg": null,
+    "ext_price": 0.7266,
+    "ext_chg": -0.011563026,
     "ext_session": "post"
    },
    "news": []
@@ -667,7 +667,7 @@
     "short_available": null,
     "short_pct_float": 0.1163,
     "ext_price": 0.97,
-    "ext_chg": null,
+    "ext_chg": 0.08744394618834073,
     "ext_session": "post"
    },
    "news": []
@@ -884,7 +884,7 @@
     "short_available": null,
     "short_pct_float": 0.0841,
     "ext_price": 3.53,
-    "ext_chg": null,
+    "ext_chg": 0.044378698224851965,
     "ext_session": "post"
    },
    "news": []
@@ -1095,8 +1095,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 2.79,
-    "ext_chg": null,
+    "ext_price": 2.73,
+    "ext_chg": -0.0072727202999999995,
     "ext_session": "post"
    },
    "news": []
@@ -1315,7 +1315,7 @@
     "short_available": null,
     "short_pct_float": 0.0064,
     "ext_price": 1.1,
-    "ext_chg": null,
+    "ext_chg": 0.00917431192660545,
     "ext_session": "post"
    },
    "news": []
@@ -1525,8 +1525,8 @@
     "last_split": "عكسي 1:10 (2025-09-18)",
     "short_available": null,
     "short_pct_float": 0.0117999995,
-    "ext_price": 4.8,
-    "ext_chg": null,
+    "ext_price": 4.61,
+    "ext_chg": -0.025369954,
     "ext_session": "post"
    },
    "news": []
@@ -1741,8 +1741,8 @@
     "last_split": "عكسي 222:1000 (2026-04-13)",
     "short_available": null,
     "short_pct_float": 0.0219,
-    "ext_price": 1.03,
-    "ext_chg": null,
+    "ext_price": 1.0581,
+    "ext_chg": 0.01740387,
     "ext_session": "post"
    },
    "news": []
@@ -1957,7 +1957,7 @@
     "short_available": null,
     "short_pct_float": 0.012999999,
     "ext_price": 0.15,
-    "ext_chg": null,
+    "ext_chg": 0.03305785123966931,
     "ext_session": "post"
    },
    "news": []
@@ -2175,7 +2175,7 @@
     "short_available": null,
     "short_pct_float": 0.0027,
     "ext_price": 1.78,
-    "ext_chg": null,
+    "ext_chg": 0.005649717514124353,
     "ext_session": "post"
    },
    "news": []
@@ -2386,8 +2386,8 @@
     "last_split": "عكسي 1:40 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.063,
-    "ext_price": 0.759,
-    "ext_chg": null,
+    "ext_price": 0.7602,
+    "ext_chg": -0.0866274,
     "ext_session": "post"
    },
    "news": []
@@ -2820,7 +2820,7 @@
     "short_available": null,
     "short_pct_float": 0.3136,
     "ext_price": 0.4939,
-    "ext_chg": null,
+    "ext_chg": -0.016135405000000002,
     "ext_session": "post"
    },
    "news": []
@@ -3029,8 +3029,8 @@
     "last_split": "عكسي 1:20 (2024-04-03)",
     "short_available": null,
     "short_pct_float": 0.3418,
-    "ext_price": 2.2,
-    "ext_chg": null,
+    "ext_price": 2.163,
+    "ext_chg": -0.021266937,
     "ext_session": "post"
    },
    "news": []
@@ -3239,8 +3239,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.026800001,
-    "ext_price": 0.2119,
-    "ext_chg": null,
+    "ext_price": 0.2268,
+    "ext_chg": -0.038983078,
     "ext_session": "post"
    },
    "news": []
@@ -5797,7 +5797,10 @@
     },
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
-    "short_pct_float": 0.0235
+    "short_pct_float": 0.0235,
+    "ext_price": 1.65,
+    "ext_chg": -0.035087755,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -8570,15 +8573,13 @@
   }
  ],
  "momentum": [],
- "errors": [
-  "yahoo quotes empty in post — nasdaq fallback 57/65"
- ],
+ "errors": [],
  "ext_debug": [],
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 0.6175000071525574,
-   "price_label": "آخر سعر",
+   "price": 0.61,
+   "price_label": "سعر الأفتر",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
    "added": "2026-10-16",
@@ -8603,7 +8604,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.79,
+   "price": 2.73,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8621,8 +8622,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_HOLD",
-   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_PENDING",
+   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -8671,8 +8672,8 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.4800000190734863,
-   "price_label": "آخر سعر",
+   "price": 1.5,
+   "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-20",
@@ -8689,9 +8690,9 @@
      2.18
     ]
    },
-   "state": "BELOW_STOP",
+   "state": "WAITING",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 14%",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 1.49 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",
@@ -8705,8 +8706,8 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.5999999046325684,
-   "price_label": "آخر سعر",
+   "price": 2.65,
+   "price_label": "سعر الأفتر",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-21",
@@ -8740,8 +8741,8 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.37380000948905945,
-   "price_label": "آخر سعر",
+   "price": 0.3687,
+   "price_label": "سعر الأفتر",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-21",

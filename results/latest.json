@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T12:29:10.628574+00:00",
- "generated_at_et": "2026-11-02T07:29:10.628574-05:00",
+ "generated_at_utc": "2026-11-02T12:39:10.628773+00:00",
+ "generated_at_et": "2026-11-02T07:39:10.628773-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -467,8 +467,8 @@
     "last_split": "عكسي 1:100 (2026-05-07)",
     "short_available": null,
     "short_pct_float": 0.031,
-    "ext_price": 1.1105,
-    "ext_chg": -0.066806784,
+    "ext_price": 1.1403,
+    "ext_chg": -0.041764720000000005,
     "ext_session": "pre",
     "low_since_close": 1.1
    },
@@ -1812,8 +1812,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.5048,
-    "ext_chg": -0.025670719938235775,
+    "ext_price": 0.483,
+    "ext_chg": -0.06774753908511877,
     "ext_session": "pre",
     "low_since_close": 0.5059
    },
@@ -2485,7 +2485,7 @@
     "ext_price": 0.66,
     "ext_chg": -0.063829727,
     "ext_session": "pre",
-    "low_since_close": 0.7
+    "low_since_close": 0.66
    },
    "news": []
   },
@@ -4266,7 +4266,7 @@
     "last_split": "عكسي 1:30 (2026-05-04)",
     "short_available": null,
     "short_pct_float": 0.1163,
-    "low_since_close": 0.8401
+    "low_since_close": 0.84
    },
    "news": []
   },
@@ -9121,7 +9121,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.3912,
+   "price": 0.39,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9141,8 +9141,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -9158,11 +9158,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 236319.0,
-   "price": 343.7841
+   "volume": 248995.0,
+   "price": 344.04
   },
   "SNDL": {
-   "volume": 547.0,
+   "volume": 574.0,
    "price": 1.25
   }
  }

@@ -208,7 +208,46 @@ def run(tickers):
         log.info("analysed %s", t)
 
 
+def probe(tickers):
+    """فحص مصادر بيانات محدّثة (عدد الأسهم بعد التقسيم، جدول التقسيمات) — يكتب results/analysis/_probe.json."""
+    import requests
+    from datetime import timedelta
+    from .data_sources import UA
+    hdr = {"User-Agent": UA, "Accept": "application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.9",
+           "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"}
+    out = {}
+    today = datetime.now(timezone.utc).astimezone(ET).date()
+
+    def get(name, url, params=None, headers=hdr):
+        try:
+            r = requests.get(url, params=params, headers=headers, timeout=30)
+            out[name] = {"status": r.status_code, "body": r.text[:6000]}
+        except Exception as e:  # noqa
+            out[name] = {"error": str(e)[:300]}
+    for d in (today - timedelta(days=1), today, today + timedelta(days=1), today + timedelta(days=2)):
+        get(f"nasdaq_splits_{d}", "https://api.nasdaq.com/api/calendar/splits", {"date": d.isoformat()})
+    for t in tickers:
+        get(f"nasdaq_summary_{t}", f"https://api.nasdaq.com/api/quote/{t}/summary", {"assetclass": "stocks"})
+        get(f"nasdaq_info_{t}", f"https://api.nasdaq.com/api/quote/{t}/info", {"assetclass": "stocks"})
+        get(f"nasdaq_profile_{t}", f"https://api.nasdaq.com/api/company/{t}/company-profile")
+        get(f"sec_tickers_{t}", "https://www.sec.gov/files/company_tickers.json",
+            headers={"User-Agent": "faisal-scanner research bot admin@example.com"}) if t == tickers[0] else None
+    try:
+        from .data_sources import get_universe
+        u, src = get_universe()
+        rows = u[u["symbol"].isin(tickers)].to_dict("records")
+        out["universe_rows"] = {"src": src, "rows": rows}
+    except Exception as e:  # noqa
+        out["universe_rows"] = {"error": str(e)[:300]}
+    os.makedirs(OUT, exist_ok=True)
+    with open(os.path.join(OUT, "_probe.json"), "w", encoding="utf-8") as fh:
+        json.dump(out, fh, ensure_ascii=False, indent=1, default=str)
+
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     args = [a.strip().upper() for a in " ".join(sys.argv[1:]).replace(",", " ").split() if a.strip()]
-    run(args or ["SDST"])
+    if args and args[0] == "PROBE":
+        probe(args[1:] or ["VCIG"])
+    else:
+        run(args or ["SDST"])

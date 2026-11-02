@@ -458,7 +458,7 @@ def test_selection_follows_faisal_filter_and_template():
     s = Signal(ticker="B", price=1.6)  # BNKK (ص93): فلوت 7.84M داخل المدى، و9M خارجه
     assert enrich(s, {"B": {"floatShares": 7.84e6}}, {}) is True
     assert enrich(Signal(ticker="Z", price=1.6), {"Z": {"floatShares": 9e6}}, {}) is False
-    assert enrich(Signal(ticker="L", price=2.2), {"L": {"sharesOutstanding": 45_878}}, {}) is False  # LGHL: أصغر من HTCR 541K
+    assert enrich(Signal(ticker="L", price=2.2), {"L": {"sharesOutstanding": 45_878}}, {}) is True  # بدون حد أدنى (3 نوفمبر)
     s = Signal(ticker="U", price=1.6)
     assert enrich(s, {"U": {}}, {}) is True and any("غير معروفين" in fl for fl in s.flags)
     s = Signal(ticker="Y", price=1.5)

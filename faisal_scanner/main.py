@@ -88,6 +88,38 @@ def news_line(items) -> str:
     return " | ".join(out)
 
 
+SPLITS_SEEN = {}  # رمز ← {"date", "value"}: تقسيم شافه الفحص يوم صار وYahoo ما حدّث عدد الأسهم بعده
+
+
+def detect_split_today(urow: dict, df, today) -> float:
+    """يوم التقسيم العكسي (VCIG 2 نوفمبر: إغلاق الجمعة الخام 0.169 وإغلاق الأمس المعدّل في ناسداك 3.04 = 1:18):
+    إغلاق الأمس من ناسداك (السعر ÷ (1 + التغير)) مقسوم على إغلاق الأمس في شموع Yahoo غير المعدّلة. يرجع معامل التقسيم
+    بصيغة Yahoo (1:18 → 1/18) أو None. فقط والشمعة الأخيرة لليوم (الفحص الحي)."""
+    try:
+        px, chg = float(urow.get("price")), float(urow.get("pct_change"))
+        if df is None or len(df) < 2 or df.index[-1].date() != today or not (np.isfinite(px) and np.isfinite(chg)) \
+                or chg <= -0.99:
+            return None
+        r = (px / (1 + chg)) / float(df["close"].iloc[-2])
+    except Exception:  # noqa
+        return None
+    if r >= 1.8:
+        k = round(r)
+        return 1.0 / k if abs(r - k) / r <= 0.03 else None
+    if 0 < r <= 0.55:
+        k = round(1 / r)
+        return float(k) if abs(1 / r - k) * r <= 0.03 else None
+    return None
+
+
+def load_splits_seen() -> dict:
+    try:
+        with open(os.path.join(C.RESULTS_DIR, "splits_seen.json"), encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:  # noqa
+        return {}
+
+
 def enrich(sig, fund: dict, urow: dict, df=None) -> bool:
     """فلتر فيصل (ص6، ص61) + بيانات قالبه. يرجع False إذا السهم خارج الفلتر."""
     f = fund.get(sig.ticker) or {}
@@ -95,6 +127,14 @@ def enrich(sig, fund: dict, urow: dict, df=None) -> bool:
     sh = f.get("sharesOutstanding") or None
     if flt and flt < 50_000:  # بيانات غير منطقية
         flt = None
+    seen = SPLITS_SEEN.get(sig.ticker)
+    if seen and sh:
+        last = f.get("lastSplitDate")
+        last_d = datetime.fromtimestamp(float(last), tz=timezone.utc).date().isoformat() if last else ""
+        if last_d < seen["date"]:  # Yahoo ما سجّل التقسيم الجديد → عدد الأسهم عنده قبل التقسيم
+            sh = sh * float(seen["value"])
+            flt = flt * float(seen["value"]) if flt else None
+            sig.tags.append(f"عدد الأسهم بعد تقسيم {seen['date']} (محسوب: Yahoo ما حدّثه)")
     mcap = f.get("marketCap") or urow.get("market_cap")
     sig.meta["float"] = flt or None
     sig.meta["shares"] = sh
@@ -451,6 +491,25 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         except Exception as e:  # noqa
             fund = {}
             errors.append(f"fundamentals: {str(e)[:80]}")
+    # تقسيم عكسي اليوم (VCIG 2 نوفمبر): يُحفظ عشان عدد الأسهم يتصحح لين Yahoo يحدّثه
+    if not demo:
+        global SPLITS_SEEN
+        SPLITS_SEEN = load_splits_seen()
+        if session in ("regular", "post"):
+            new = {}
+            for s_, df_ in daily.items():
+                v = detect_split_today(urows.get(s_, {}), df_, today)
+                if v and SPLITS_SEEN.get(s_, {}).get("date") != today.isoformat():
+                    new[s_] = {"date": today.isoformat(), "value": v}
+            if new:
+                SPLITS_SEEN.update(new)
+                log.info("splits detected today: %s", new)
+                try:
+                    os.makedirs(C.RESULTS_DIR, exist_ok=True)
+                    with open(os.path.join(C.RESULTS_DIR, "splits_seen.json"), "w", encoding="utf-8") as fh:
+                        json.dump(SPLITS_SEEN, fh, ensure_ascii=False, indent=1)
+                except Exception as e:  # noqa
+                    errors.append(f"splits_seen: {str(e)[:60]}")
     kept = []
     for sig in pivots:
         if not enrich(sig, fund, urows.get(sig.ticker, {}), daily.get(sig.ticker)):

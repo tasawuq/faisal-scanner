@@ -653,3 +653,23 @@ def test_four_hour_uses_yahoo_15m_when_alpaca_absent(monkeypatch):
     assert main.yahoo_15m_for_pivots("regular", {"X": 1}, piv, False, errs) == {"X": 1}  # Alpaca موجود
     assert main.yahoo_15m_for_pivots("post", {}, piv, True, errs) == {}             # ديمو
     assert len(calls) == 1
+
+
+def test_reverse_split_day_detected_and_shares_corrected(monkeypatch):
+    """VCIG 2 نوفمبر: Yahoo يعطي 9.64M سهم (قبل تقسيم 1:18) وشموعه غير معدّلة (الجمعة 0.169)، وناسداك: 8.16 بتغير +168%
+    (إغلاق الأمس المعدّل 3.04) → تقسيم 1:18 → عدد الأسهم بعده 535 ألف."""
+    from faisal_scanner import main
+    from faisal_scanner.pivot import Signal
+    idx = pd.DatetimeIndex([datetime(2026, 10, 30, tzinfo=ET), datetime(2026, 11, 2, tzinfo=ET)])
+    df = pd.DataFrame({"open": [0.174, 3.39], "high": [0.18, 9.29], "low": [0.162, 2.7], "close": [0.169, 8.16],
+                       "volume": [21e6, 5.4e6]}, index=idx)
+    today = datetime(2026, 11, 2).date()
+    v = main.detect_split_today({"price": 8.16, "pct_change": 1.684}, df, today)
+    assert v == pytest.approx(1 / 18)
+    assert main.detect_split_today({"price": 0.25, "pct_change": 0.48}, df.assign(close=[0.169, 0.25]), today) is None
+    assert main.detect_split_today({"price": 8.16, "pct_change": 1.684}, df, datetime(2026, 11, 3).date()) is None
+    monkeypatch.setattr(main, "SPLITS_SEEN", {"VCIG": {"date": "2026-11-02", "value": 1 / 18}})
+    s = Signal(ticker="VCIG", price=8.16)
+    f = {"VCIG": {"floatShares": 14386, "sharesOutstanding": 9639594, "lastSplitDate": 1787529600}}
+    main.enrich(s, f, {}, df)
+    assert s.meta["shares"] == pytest.approx(9639594 / 18) and any("بعد تقسيم" in t for t in s.tags)

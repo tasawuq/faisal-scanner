@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T12:09:10.628216+00:00",
- "generated_at_et": "2026-11-02T07:09:10.628216-05:00",
+ "generated_at_utc": "2026-11-02T12:19:10.628385+00:00",
+ "generated_at_et": "2026-11-02T07:19:10.628385-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -692,8 +692,8 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.4264,
-    "ext_chg": -0.06157894736842118,
+    "ext_price": 1.45,
+    "ext_chg": -0.046052631578947456,
     "ext_session": "pre",
     "low_since_close": 1.42
    },
@@ -2482,8 +2482,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.0069999998,
-    "ext_price": 0.71,
-    "ext_chg": 0.005096262740656776,
+    "ext_price": 0.66,
+    "ext_chg": -0.063829727,
     "ext_session": "pre",
     "low_since_close": 0.7
    },
@@ -2934,8 +2934,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.7799,
-    "ext_chg": -0.0014084554,
+    "ext_price": 0.78,
+    "ext_chg": -0.0012804695999999998,
     "ext_session": "pre",
     "low_since_close": 0.75
    },
@@ -8984,7 +8984,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.7405,
+   "price": 2.7539,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9002,8 +9002,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -9158,11 +9158,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 205531.0,
-   "price": 343.52
+   "volume": 215249.0,
+   "price": 344.43
   },
   "SNDL": {
-   "volume": 511.0,
+   "volume": 536.0,
    "price": 1.25
   }
  }

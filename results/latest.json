@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-02T11:59:10.628042+00:00",
- "generated_at_et": "2026-11-02T06:59:10.628042-05:00",
+ "generated_at_utc": "2026-11-02T12:09:10.628216+00:00",
+ "generated_at_et": "2026-11-02T07:09:10.628216-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -8,16 +8,16 @@
   "with_data": 1291,
   "short_history": 16,
   "price_out": 56,
-  "low_volume": 479,
-  "outside_float": 309,
+  "low_volume": 480,
+  "outside_float": 308,
   "nasdaq": 3433,
   "all": 5850
  },
  "counts": {
   "universe": 5850,
-  "analyzed": 740,
+  "analyzed": 739,
   "ready": 0,
-  "watch": 91,
+  "watch": 92,
   "momentum": 0,
   "ext_quotes": 65,
   "ext_movers_5pct": 0
@@ -467,10 +467,10 @@
     "last_split": "عكسي 1:100 (2026-05-07)",
     "short_available": null,
     "short_pct_float": 0.031,
-    "ext_price": 1.1603,
-    "ext_chg": -0.024958017,
+    "ext_price": 1.1,
+    "ext_chg": -0.07563028,
     "ext_session": "pre",
-    "low_since_close": 1.1032
+    "low_since_close": 1.1
    },
    "news": []
   },
@@ -1363,8 +1363,8 @@
     "last_split": "عكسي 1:12 (2025-12-08)",
     "short_available": null,
     "short_pct_float": 0.22489999,
-    "ext_price": 2.7214,
-    "ext_chg": -0.07749153,
+    "ext_price": 2.7432,
+    "ext_chg": -0.07010169000000001,
     "ext_session": "pre",
     "low_since_close": 2.52
    },
@@ -4037,8 +4037,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.6564,
-    "ext_chg": 0.0099999875,
+    "ext_price": 1.65,
+    "ext_chg": 0.006097555,
     "ext_session": "pre",
     "low_since_close": 1.63
    },
@@ -6282,7 +6282,7 @@
     "last_split": "عكسي 1:4 (2026-01-20)",
     "short_available": null,
     "short_pct_float": 0.0388,
-    "low_since_close": 0.94
+    "low_since_close": 0.9096
    },
    "news": []
   },
@@ -8958,8 +8958,8 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 0.6510000228881836,
-   "price_label": "آخر سعر",
+   "price": 0.6943,
+   "price_label": "سعر البري",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
    "added": "2026-10-16",
@@ -8984,7 +8984,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.7406,
+   "price": 2.7405,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9018,7 +9018,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.6564,
+   "price": 1.65,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -9141,8 +9141,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -9158,8 +9158,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 189196.0,
-   "price": 343.46
+   "volume": 205531.0,
+   "price": 343.52
   },
   "SNDL": {
    "volume": 511.0,

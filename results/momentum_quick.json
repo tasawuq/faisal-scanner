@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-11-02T04:17:00.763058-05:00",
+ "generated_at_et": "2026-11-02T04:23:14.443495-05:00",
  "mode": "quick",
  "session": "pre",
  "ready": [],
@@ -8,11 +8,11 @@
  "debug": {
   "momentum": "off",
   "watch": {
-   "entries": 57,
+   "entries": 59,
    "bars": 6
   },
   "price_fallback": {
-   "nasdaq": 12,
+   "nasdaq": 10,
    "bars": 0
   }
  },
@@ -44,7 +44,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.68,
+   "price": 2.7,
    "price_label": "بري ماركت",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -65,7 +65,30 @@
    "state": "BREAKOUT_PENDING",
    "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
-   "session": "pre"
+   "session": "pre",
+   "day": {
+    "high": 2.78,
+    "low": 2.68,
+    "vol": 0.0,
+    "bars": [
+     [
+      "04:00",
+      2.68,
+      2.68,
+      2.68,
+      2.68,
+      0.0
+     ],
+     [
+      "04:15",
+      2.7,
+      2.78,
+      2.7,
+      2.78,
+      0.0
+     ]
+    ]
+   }
   },
   {
    "ticker": "SMX",
@@ -180,9 +203,32 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
-   "session": "pre"
+   "session": "pre",
+   "day": {
+    "high": 0.3814,
+    "low": 0.3703,
+    "vol": 0.0,
+    "bars": [
+     [
+      "04:00",
+      0.3703,
+      0.3703,
+      0.3703,
+      0.3703,
+      0.0
+     ],
+     [
+      "04:23",
+      0.3814,
+      0.3814,
+      0.3814,
+      0.3814,
+      0.0
+     ]
+    ]
+   }
   },
   {
    "ticker": "EZRA",
@@ -201,7 +247,7 @@
      "factor": "1:40",
      "date": "2026-05-18",
      "reverse": true,
-     "days": 165,
+     "days": 168,
      "recent": true,
      "open_after": 4.820000171661377,
      "high_after": 5.449999809265137
@@ -234,6 +280,55 @@
    "session": "pre"
   },
   {
+   "ticker": "AKAN",
+   "price": 1.04,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 1.0–1.01 وفشل كسرها (أو سحب سيولة تحت 1.0 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.8–0.9، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
+   "data": {
+    "float": 709911,
+    "shares": 13257777,
+    "last_split": "عكسي 222:1000 (2026-04-13)",
+    "split": {
+     "factor": "222:1000",
+     "date": "2026-04-13",
+     "reverse": true,
+     "days": 203,
+     "recent": true,
+     "open_after": 2.7899999618530273,
+     "high_after": 78.9000015258789
+    },
+    "country_ar": "كندي",
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "short_available": null,
+    "runner": {
+     "pct": 27.714425213602908,
+     "from": 2.7477478981018066,
+     "from_date": "2026-04-02",
+     "to": 78.9000015258789,
+     "to_date": "2026-05-01",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 1.0,
+    "demand_high": 1.01,
+    "stop": 0.99,
+    "breakout": null,
+    "targets": [
+     1.06,
+     1.15
+    ]
+   },
+   "alert": false,
+   "state": "WAITING",
+   "state_ar": "فوق منطقة الطلب بـ 3% — الطلبات تنتظر 1–1.01 (لا مطاردة)",
+   "session": "pre"
+  },
+  {
    "ticker": "YYAI",
    "price": 0.69,
    "price_label": "بري ماركت",
@@ -250,7 +345,7 @@
      "factor": "1:20",
      "date": "2026-08-17",
      "reverse": true,
-     "days": 74,
+     "days": 77,
      "recent": true,
      "open_after": 1.4199999570846558,
      "high_after": 1.5700000524520874
@@ -283,55 +378,6 @@
    "session": "pre"
   },
   {
-   "ticker": "WCT",
-   "price": 0.34,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.3–0.303 وفشل كسرها (أو سحب سيولة تحت 0.2847 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.24–0.27، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "سهم صيني عالي التذبذب، سعر منخفض جداً — سبريد واسع",
-   "data": {
-    "float": 591462,
-    "shares": 10581066,
-    "last_split": "عكسي 1:5 (2026-09-08)",
-    "split": {
-     "factor": "1:5",
-     "date": "2026-09-08",
-     "reverse": true,
-     "days": 52,
-     "recent": true,
-     "open_after": 7.170000076293945,
-     "high_after": 8.399999618530273
-    },
-    "country_ar": "صيني (هونغ كونغ)",
-    "industry": "Software - Application",
-    "short_available": null,
-    "runner": {
-     "pct": 5.194968702087611,
-     "from": 7.949999809265137,
-     "from_date": "2025-12-31",
-     "to": 49.25,
-     "to_date": "2026-01-06",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 0.3,
-    "demand_high": 0.303,
-    "stop": 0.2846,
-    "breakout": null,
-    "targets": [
-     0.322,
-     0.36
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 12% — الطلبات تنتظر 0.3–0.303 (لا مطاردة)",
-   "session": "pre"
-  },
-  {
    "ticker": "CUPR",
    "price": null,
    "price_label": "بري ماركت",
@@ -348,7 +394,7 @@
      "factor": "1:8",
      "date": "2026-05-27",
      "reverse": true,
-     "days": 156,
+     "days": 159,
      "recent": true,
      "open_after": 1.9700000286102295,
      "high_after": 14.800000190734863
@@ -381,200 +427,6 @@
    "session": "pre"
   },
   {
-   "ticker": "ISPC",
-   "price": 0.8501,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.789–0.7969 وفشل كسرها (أو سحب سيولة تحت 0.753 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6312–0.7101، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
-   "data": {
-    "float": 2518590,
-    "shares": 2518590,
-    "last_split": "عكسي 1:40 (2026-04-28)",
-    "split": {
-     "factor": "1:40",
-     "date": "2026-04-28",
-     "reverse": true,
-     "days": 185,
-     "recent": true,
-     "open_after": 5.0,
-     "high_after": 6.769999980926514
-    },
-    "country_ar": "أمريكي",
-    "industry": "Diagnostics & Research",
-    "short_available": null,
-    "runner": {
-     "pct": 0.9818181995517947,
-     "from": 8.800000190734863,
-     "from_date": "2026-03-09",
-     "to": 17.440000534057617,
-     "to_date": "2026-03-13",
-     "is_runner": false
-    }
-   },
-   "levels": {
-    "demand_low": 0.789,
-    "demand_high": 0.7969,
-    "stop": 0.7529,
-    "breakout": null,
-    "targets": [
-     0.8699,
-     0.94
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 7% — الطلبات تنتظر 0.789–0.7969 (لا مطاردة)",
-   "session": "pre"
-  },
-  {
-   "ticker": "HCWB",
-   "price": null,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 1.14–1.15 وفشل كسرها (أو سحب سيولة تحت 1.09 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.912–1.03، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
-   "data": {
-    "float": 1683156,
-    "shares": 2236324,
-    "last_split": "عكسي 1:6 (2026-06-30)",
-    "split": {
-     "factor": "1:6",
-     "date": "2026-06-30",
-     "reverse": true,
-     "days": 122,
-     "recent": true,
-     "open_after": 5.579999923706055,
-     "high_after": 5.610000133514404
-    },
-    "country_ar": "أمريكي",
-    "industry": "Biotechnology",
-    "short_available": null,
-    "runner": {
-     "pct": 12.300000649028371,
-     "from": 1.7999999523162842,
-     "from_date": "2026-05-11",
-     "to": 23.940000534057617,
-     "to_date": "2026-05-20",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 1.14,
-    "demand_high": 1.1514,
-    "stop": 1.08,
-    "breakout": null,
-    "targets": [
-     1.18,
-     1.24
-    ]
-   },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
-   "alert": false,
-   "session": "pre"
-  },
-  {
-   "ticker": "LCFY",
-   "price": null,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 1.1–1.11 وفشل كسرها (أو سحب سيولة تحت 1.08 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.88–0.99، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "",
-   "data": {
-    "float": 1676208,
-    "shares": 2244817,
-    "last_split": "عكسي 1:20 (2022-12-08)",
-    "split": {
-     "factor": "1:20",
-     "date": "2022-12-08",
-     "reverse": true,
-     "days": 1422,
-     "recent": false
-    },
-    "country_ar": "أسترالي",
-    "industry": "Internet Content & Information",
-    "short_available": null,
-    "runner": {
-     "pct": 1.2198352478951429,
-     "from": 2.7929999828338623,
-     "from_date": "2025-12-31",
-     "to": 6.199999809265137,
-     "to_date": "2026-01-16",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 1.1,
-    "demand_high": 1.111,
-    "stop": 1.07,
-    "breakout": null,
-    "targets": [
-     1.13,
-     1.3
-    ]
-   },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
-   "alert": false,
-   "session": "pre"
-  },
-  {
-   "ticker": "PCSA",
-   "price": 1.79,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 1.8–1.84 وفشل كسرها (أو سحب سيولة تحت 1.04 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.44–1.62، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
-   "data": {
-    "float": 2709417,
-    "shares": 2798241,
-    "last_split": "عكسي 1:25 (2025-12-17)",
-    "split": {
-     "factor": "1:25",
-     "date": "2025-12-17",
-     "reverse": true,
-     "days": 317,
-     "recent": false,
-     "open_after": 3.3499999046325684,
-     "high_after": 8.880000114440918
-    },
-    "country_ar": "أمريكي",
-    "industry": "Biotechnology",
-    "short_available": null,
-    "runner": {
-     "pct": 2.2290909507057886,
-     "from": 2.75,
-     "from_date": "2025-12-15",
-     "to": 8.880000114440918,
-     "to_date": "2025-12-17",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 1.8,
-    "demand_high": 1.84,
-    "stop": 1.03,
-    "breakout": null,
-    "targets": [
-     1.93,
-     2.02
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (1.8) — ينتظر استرداد أو المنطقة الأعمق",
-   "session": "pre"
-  },
-  {
    "ticker": "GRML",
    "price": 5.03,
    "price_label": "بري ماركت",
@@ -591,7 +443,7 @@
      "factor": "1:50",
      "date": "2026-08-24",
      "reverse": true,
-     "days": 67,
+     "days": 70,
      "recent": true,
      "open_after": 9.430000305175781,
      "high_after": 18.209999084472656
@@ -624,6 +476,151 @@
    "session": "pre"
   },
   {
+   "ticker": "WCT",
+   "price": 0.34,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 0.3–0.303 وفشل كسرها (أو سحب سيولة تحت 0.285 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.24–0.27، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "سهم صيني عالي التذبذب، سعر منخفض جداً — سبريد واسع",
+   "data": {
+    "float": 591462,
+    "shares": 10581066,
+    "last_split": "عكسي 1:5 (2026-09-08)",
+    "split": {
+     "factor": "1:5",
+     "date": "2026-09-08",
+     "reverse": true,
+     "days": 55,
+     "recent": true,
+     "open_after": 7.170000076293945,
+     "high_after": 8.399999618530273
+    },
+    "country_ar": "صيني (هونغ كونغ)",
+    "industry": "Software - Application",
+    "short_available": null,
+    "runner": {
+     "pct": 5.194968702087611,
+     "from": 7.949999809265137,
+     "from_date": "2025-12-31",
+     "to": 49.25,
+     "to_date": "2026-01-06",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.3,
+    "demand_high": 0.303,
+    "stop": 0.2849,
+    "breakout": null,
+    "targets": [
+     0.322,
+     0.36
+    ]
+   },
+   "alert": false,
+   "state": "WAITING",
+   "state_ar": "فوق منطقة الطلب بـ 12% — الطلبات تنتظر 0.3–0.303 (لا مطاردة)",
+   "session": "pre"
+  },
+  {
+   "ticker": "HCWB",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 1.14–1.15 وفشل كسرها (أو سحب سيولة تحت 1.09 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.912–1.03، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
+   "data": {
+    "float": 1683156,
+    "shares": 2236324,
+    "last_split": "عكسي 1:6 (2026-06-30)",
+    "split": {
+     "factor": "1:6",
+     "date": "2026-06-30",
+     "reverse": true,
+     "days": 125,
+     "recent": true,
+     "open_after": 5.579999923706055,
+     "high_after": 5.610000133514404
+    },
+    "country_ar": "أمريكي",
+    "industry": "Biotechnology",
+    "short_available": null,
+    "runner": {
+     "pct": 12.300000649028371,
+     "from": 1.7999999523162842,
+     "from_date": "2026-05-11",
+     "to": 23.940000534057617,
+     "to_date": "2026-05-20",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 1.14,
+    "demand_high": 1.1514,
+    "stop": 1.08,
+    "breakout": null,
+    "targets": [
+     1.18,
+     1.24
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
+  },
+  {
+   "ticker": "DFSC",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 0.66–0.6666 وفشل كسرها (أو سحب سيولة تحت 0.66 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.528–0.594، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "",
+   "data": {
+    "float": 2461115,
+    "shares": 4593998,
+    "last_split": "عكسي 1:21 (2025-04-23)",
+    "split": {
+     "factor": "1:21",
+     "date": "2025-04-23",
+     "reverse": true,
+     "days": 558,
+     "recent": false
+    },
+    "country_ar": "كندي",
+    "industry": "Aerospace & Defense",
+    "short_available": null,
+    "runner": {
+     "pct": 2.0775862379037253,
+     "from": 1.159999966621399,
+     "from_date": "2026-08-11",
+     "to": 3.569999933242798,
+     "to_date": "2026-08-13",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.66,
+    "demand_high": 0.6666,
+    "stop": 0.6599,
+    "breakout": null,
+    "targets": [
+     0.72,
+     0.7957
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
+  },
+  {
    "ticker": "FCHL",
    "price": 0.8107,
    "price_label": "بري ماركت",
@@ -633,14 +630,14 @@
    "label": "قائمة الارتكاز",
    "warn": "شمعة ضخ/تصريف قبل 13 يوم (طار إلى 1.69 وأغلق 1.07 بفوليوم 1235x)",
    "data": {
-    "float": 1314047,
+    "float": 1295044,
     "shares": 1299391,
     "last_split": "عكسي 1:30 (2026-05-04)",
     "split": {
      "factor": "1:30",
      "date": "2026-05-04",
      "reverse": true,
-     "days": 179,
+     "days": 182,
      "recent": true,
      "open_after": 2.4000000953674316,
      "high_after": 3.6500000953674316
@@ -673,57 +670,245 @@
    "session": "pre"
   },
   {
-   "ticker": "CLWT",
-   "price": 1.29,
+   "ticker": "PCSA",
+   "price": 1.79,
    "price_label": "بري ماركت",
-   "note": "قاع ثاني يثبت عند 1.26–1.3 بشمعة انعكاس، أو كسر خط العنق 1.4 والثبات ثم إعادة اختبار (ص25)",
+   "note": "اختبار منطقة 1.8–1.84 وفشل كسرها (أو سحب سيولة تحت 1.04 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.44–1.62، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
-   "warn": "اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم صيني عالي التذبذب",
+   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
    "data": {
-    "float": 2946650,
-    "shares": 7411464,
-    "last_split": "عكسي 10:55 (2012-01-17)",
+    "float": 2709417,
+    "shares": 2798241,
+    "last_split": "عكسي 1:25 (2025-12-17)",
     "split": {
-     "factor": "10:55",
-     "date": "2012-01-17",
+     "factor": "1:25",
+     "date": "2025-12-17",
      "reverse": true,
-     "days": 5400,
-     "recent": false
+     "days": 320,
+     "recent": false,
+     "open_after": 3.3499999046325684,
+     "high_after": 8.880000114440918
     },
-    "country_ar": "صيني (هونغ كونغ)",
-    "industry": "Pollution & Treatment Controls",
+    "country_ar": "أمريكي",
+    "industry": "Biotechnology",
     "short_available": null,
     "runner": {
-     "pct": 1.6274510949724066,
-     "from": 1.0199999809265137,
-     "from_date": "2026-06-10",
-     "to": 2.680000066757202,
-     "to_date": "2026-06-17",
+     "pct": 2.2290909507057886,
+     "from": 2.75,
+     "from_date": "2025-12-15",
+     "to": 8.880000114440918,
+     "to_date": "2025-12-17",
      "is_runner": true
     }
    },
    "levels": {
-    "demand_low": 1.26,
-    "demand_high": 1.2954,
-    "stop": 1.25,
+    "demand_low": 1.8,
+    "demand_high": 1.84,
+    "stop": 1.03,
     "breakout": null,
     "targets": [
-     1.36,
-     1.4047
+     1.93,
+     2.02
+    ]
+   },
+   "alert": false,
+   "state": "WAITING",
+   "state_ar": "تحت منطقة الطلب (1.8) — ينتظر استرداد أو المنطقة الأعمق",
+   "session": "pre"
+  },
+  {
+   "ticker": "ISPC",
+   "price": 0.8501,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 0.789–0.7969 وفشل كسرها (أو سحب سيولة تحت 0.753 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6312–0.7101، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
+   "data": {
+    "float": 2518590,
+    "shares": 2518590,
+    "last_split": "عكسي 1:40 (2026-04-28)",
+    "split": {
+     "factor": "1:40",
+     "date": "2026-04-28",
+     "reverse": true,
+     "days": 188,
+     "recent": true,
+     "open_after": 5.0,
+     "high_after": 6.769999980926514
+    },
+    "country_ar": "أمريكي",
+    "industry": "Diagnostics & Research",
+    "short_available": null,
+    "runner": {
+     "pct": 0.9818181995517947,
+     "from": 8.800000190734863,
+     "from_date": "2026-03-09",
+     "to": 17.440000534057617,
+     "to_date": "2026-03-13",
+     "is_runner": false
+    }
+   },
+   "levels": {
+    "demand_low": 0.789,
+    "demand_high": 0.7969,
+    "stop": 0.7529,
+    "breakout": null,
+    "targets": [
+     0.87,
+     0.94
+    ]
+   },
+   "alert": false,
+   "state": "WAITING",
+   "state_ar": "فوق منطقة الطلب بـ 7% — الطلبات تنتظر 0.789–0.7969 (لا مطاردة)",
+   "session": "pre"
+  },
+  {
+   "ticker": "WKHS",
+   "price": 2.7197,
+   "price_label": "بري ماركت",
+   "note": "رجوع لاختبار 2.75 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 2.78–2.69",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "نزل في البري تحت الوقف (2.6)",
+   "data": {
+    "float": 4262257,
+    "shares": 10928585,
+    "last_split": "عكسي 1:12 (2025-12-08)",
+    "split": {
+     "factor": "1:12",
+     "date": "2025-12-08",
+     "reverse": true,
+     "days": 329,
+     "recent": false,
+     "open_after": 10.800000190734863,
+     "high_after": 11.800000190734863
+    },
+    "country_ar": "أمريكي",
+    "industry": "Auto Manufacturers",
+    "short_available": null,
+    "runner": {
+     "pct": 1.0432900030777672,
+     "from": 2.309999942779541,
+     "from_date": "2026-04-29",
+     "to": 4.71999979019165,
+     "to_date": "2026-05-28",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 2.695,
+    "demand_high": 2.7775,
+    "stop": 2.66,
+    "breakout": null,
+    "targets": [
+     3.05,
+     3.175
     ]
    },
    "alert": false,
    "state": "IN_ZONE",
-   "state_ar": "داخل منطقة الطلب 1.26–1.2954 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 بشمعة يومية أو 4 ساعات",
+   "state_ar": "داخل منطقة الطلب 2.695–2.7775 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 بشمعة يومية أو 4 ساعات",
+   "session": "pre"
+  },
+  {
+   "ticker": "LCFY",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 1.1–1.11 وفشل كسرها (أو سحب سيولة تحت 1.08 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.88–0.99، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "",
+   "data": {
+    "float": 1676208,
+    "shares": 2244817,
+    "last_split": "عكسي 1:20 (2022-12-08)",
+    "split": {
+     "factor": "1:20",
+     "date": "2022-12-08",
+     "reverse": true,
+     "days": 1425,
+     "recent": false
+    },
+    "country_ar": "أسترالي",
+    "industry": "Internet Content & Information",
+    "short_available": null,
+    "runner": {
+     "pct": 1.2198352478951429,
+     "from": 2.7929999828338623,
+     "from_date": "2025-12-31",
+     "to": 6.199999809265137,
+     "to_date": "2026-01-16",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 1.1,
+    "demand_high": 1.111,
+    "stop": 1.07,
+    "breakout": null,
+    "targets": [
+     1.15,
+     1.3
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
+  },
+  {
+   "ticker": "SSM",
+   "price": 1.05,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 1.05–1.08 وفشل كسرها (أو سحب سيولة تحت 0.949 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.84–0.945، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "",
+   "data": {
+    "float": 768584,
+    "shares": 1424834,
+    "last_split": null,
+    "split": {},
+    "country_ar": "ألماني",
+    "industry": "Auto Manufacturers",
+    "short_available": null,
+    "runner": {
+     "pct": 1.9428571947577882,
+     "from": 1.0499999523162842,
+     "from_date": "2026-09-25",
+     "to": 3.0899999141693115,
+     "to_date": "2026-10-02",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 1.05,
+    "demand_high": 1.08,
+    "stop": 0.9489,
+    "breakout": null,
+    "targets": [
+     1.13,
+     1.1962
+    ]
+   },
+   "alert": false,
+   "state": "IN_ZONE",
+   "state_ar": "داخل منطقة الطلب 1.05–1.08 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 بشمعة يومية أو 4 ساعات",
    "session": "pre"
   },
   {
    "ticker": "SLXN",
-   "price": 0.15,
+   "price": 0.1402,
    "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.142–0.1434 وفشل كسرها (أو سحب سيولة تحت 0.1401 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.1136–0.1278، ص54)",
+   "note": "اختبار منطقة 0.142–0.1434 وفشل كسرها (أو سحب سيولة تحت 0.14 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.1136–0.1278، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
@@ -736,7 +921,7 @@
      "factor": "1:10",
      "date": "2026-05-29",
      "reverse": true,
-     "days": 154,
+     "days": 157,
      "recent": true,
      "open_after": 4.289999961853027,
      "high_after": 5.449999809265137
@@ -756,7 +941,7 @@
    "levels": {
     "demand_low": 0.142,
     "demand_high": 0.1434,
-    "stop": 0.14,
+    "stop": 0.1399,
     "breakout": null,
     "targets": [
      0.158,
@@ -765,56 +950,7 @@
    },
    "alert": false,
    "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 5% — الطلبات تنتظر 0.142–0.1434 (لا مطاردة)",
-   "session": "pre"
-  },
-  {
-   "ticker": "WKHS",
-   "price": 2.7,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 2.71–2.81 وفشل كسرها (أو سحب سيولة تحت 2.49 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.17–2.44، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "",
-   "data": {
-    "float": 4262257,
-    "shares": 10928585,
-    "last_split": "عكسي 1:12 (2025-12-08)",
-    "split": {
-     "factor": "1:12",
-     "date": "2025-12-08",
-     "reverse": true,
-     "days": 326,
-     "recent": false,
-     "open_after": 10.800000190734863,
-     "high_after": 11.800000190734863
-    },
-    "country_ar": "أمريكي",
-    "industry": "Auto Manufacturers",
-    "short_available": null,
-    "runner": {
-     "pct": 1.0432900030777672,
-     "from": 2.309999942779541,
-     "from_date": "2026-04-29",
-     "to": 4.71999979019165,
-     "to_date": "2026-05-28",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 2.71,
-    "demand_high": 2.81,
-    "stop": 2.48,
-    "breakout": null,
-    "targets": [
-     3.05,
-     3.175
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.71) — ينتظر استرداد أو المنطقة الأعمق",
+   "state_ar": "تحت منطقة الطلب (0.142) — ينتظر استرداد أو المنطقة الأعمق",
    "session": "pre"
   },
   {
@@ -834,7 +970,7 @@
      "factor": "1:12",
      "date": "2026-01-23",
      "reverse": true,
-     "days": 280,
+     "days": 283,
      "recent": false,
      "open_after": 7.980000019073486,
      "high_after": 9.0
@@ -864,6 +1000,151 @@
    "state": "NO_DATA",
    "state_ar": "لا توجد بيانات سعر",
    "alert": false,
+   "session": "pre"
+  },
+  {
+   "ticker": "IZM",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 0.707–0.7141 وفشل كسرها (أو سحب سيولة تحت 0.656 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5656–0.6363، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "سهم صيني عالي التذبذب",
+   "data": {
+    "float": 1554278,
+    "shares": 1637722,
+    "last_split": "عكسي 1:5 (2026-09-15)",
+    "split": {
+     "factor": "1:5",
+     "date": "2026-09-15",
+     "reverse": true,
+     "days": 48,
+     "recent": true,
+     "open_after": 1.100000023841858,
+     "high_after": 1.7999999523162842
+    },
+    "country_ar": "صيني",
+    "industry": "Electronics & Computer Distribution",
+    "short_available": null,
+    "runner": {
+     "pct": 14.61784830372617,
+     "from": 0.8740000128746033,
+     "from_date": "2025-12-03",
+     "to": 13.649999618530273,
+     "to_date": "2026-01-02",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.707,
+    "demand_high": 0.7141,
+    "stop": 0.6559,
+    "breakout": null,
+    "targets": [
+     0.72,
+     0.8551
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
+  },
+  {
+   "ticker": "FBLG",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 0.881–0.89 وفشل كسرها (أو سحب سيولة تحت 0.881 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.7048–0.7929، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
+   "data": {
+    "float": 5191460,
+    "shares": 7081701,
+    "last_split": "عكسي 1:20 (2026-03-30)",
+    "split": {
+     "factor": "1:20",
+     "date": "2026-03-30",
+     "reverse": true,
+     "days": 217,
+     "recent": false,
+     "open_after": 3.7799999713897705,
+     "high_after": 3.9649999141693115
+    },
+    "country_ar": "أمريكي",
+    "industry": "Biotechnology",
+    "short_available": null,
+    "runner": {
+     "pct": 2.0555555003660717,
+     "from": 0.7200000286102295,
+     "from_date": "2026-08-03",
+     "to": 2.200000047683716,
+     "to_date": "2026-09-01",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.881,
+    "demand_high": 0.89,
+    "stop": 0.8809,
+    "breakout": null,
+    "targets": [
+     0.95,
+     0.978
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
+  },
+  {
+   "ticker": "CLWT",
+   "price": 1.29,
+   "price_label": "بري ماركت",
+   "note": "قاع ثاني يثبت عند 1.26–1.3 بشمعة انعكاس، أو كسر خط العنق 1.4 والثبات ثم إعادة اختبار (ص25)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم صيني عالي التذبذب",
+   "data": {
+    "float": 2946650,
+    "shares": 7411464,
+    "last_split": "عكسي 10:55 (2012-01-17)",
+    "split": {
+     "factor": "10:55",
+     "date": "2012-01-17",
+     "reverse": true,
+     "days": 5403,
+     "recent": false
+    },
+    "country_ar": "صيني (هونغ كونغ)",
+    "industry": "Pollution & Treatment Controls",
+    "short_available": null,
+    "runner": {
+     "pct": 1.6274510949724066,
+     "from": 1.0199999809265137,
+     "from_date": "2026-06-10",
+     "to": 2.680000066757202,
+     "to_date": "2026-06-17",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 1.26,
+    "demand_high": 1.2954,
+    "stop": 1.25,
+    "breakout": null,
+    "targets": [
+     1.36,
+     1.4047
+    ]
+   },
+   "alert": false,
+   "state": "IN_ZONE",
+   "state_ar": "داخل منطقة الطلب 1.26–1.2954 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 بشمعة يومية أو 4 ساعات",
    "session": "pre"
   },
   {
@@ -909,7 +1190,7 @@
   },
   {
    "ticker": "CTNT",
-   "price": 2.23,
+   "price": 2.18,
    "price_label": "بري ماركت",
    "note": "اختبار منطقة 2.28–2.31 وفشل كسرها (أو سحب سيولة تحت 2.06 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.82–2.05، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
@@ -924,7 +1205,7 @@
      "factor": "1:150",
      "date": "2026-09-28",
      "reverse": true,
-     "days": 32,
+     "days": 35,
      "recent": true,
      "open_after": 4.170000076293945,
      "high_after": 4.409999847412109
@@ -973,7 +1254,7 @@
      "factor": "1:25",
      "date": "2026-10-05",
      "reverse": true,
-     "days": 25,
+     "days": 28,
      "recent": true,
      "open_after": 3.890000104904175,
      "high_after": 4.260000228881836
@@ -1006,6 +1287,102 @@
    "session": "pre"
   },
   {
+   "ticker": "TRT",
+   "price": 4.87,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 4.83–4.88 وفشل كسرها (أو سحب سيولة تحت 4.63 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (3.86–4.35، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "",
+   "data": {
+    "float": 7780008,
+    "shares": 10338265,
+    "last_split": "عادي 2:1 (2026-01-05)",
+    "split": {
+     "factor": "2:1",
+     "date": "2026-01-05",
+     "reverse": false,
+     "days": 301,
+     "recent": false,
+     "open_after": 6.320000171661377,
+     "high_after": 21.3799991607666
+    },
+    "country_ar": "أمريكي",
+    "industry": "Semiconductor Equipment & Materials",
+    "short_available": null,
+    "runner": {
+     "pct": 2.570093592886053,
+     "from": 5.349999904632568,
+     "from_date": "2026-03-30",
+     "to": 19.100000381469727,
+     "to_date": "2026-04-24",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 4.83,
+    "demand_high": 4.8783,
+    "stop": 4.62,
+    "breakout": null,
+    "targets": [
+     5.25,
+     5.38
+    ]
+   },
+   "alert": false,
+   "state": "IN_ZONE",
+   "state_ar": "داخل منطقة الطلب 4.83–4.8783 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 بشمعة يومية أو 4 ساعات",
+   "session": "pre"
+  },
+  {
+   "ticker": "LSTA",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "قاع ثاني يثبت عند 0.96–0.9792 بشمعة انعكاس، أو كسر خط العنق 1.08 والثبات ثم إعادة اختبار (ص25)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "رفض عند MA20 (ص64)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
+   "data": {
+    "float": 6758924,
+    "shares": 10804066,
+    "last_split": "عكسي 1:15 (2022-09-15)",
+    "split": {
+     "factor": "1:15",
+     "date": "2022-09-15",
+     "reverse": true,
+     "days": 1509,
+     "recent": false
+    },
+    "country_ar": "أمريكي",
+    "industry": "Biotechnology",
+    "short_available": null,
+    "runner": {
+     "pct": 1.701657470207556,
+     "from": 1.809999942779541,
+     "from_date": "2025-12-29",
+     "to": 4.889999866485596,
+     "to_date": "2026-01-27",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.96,
+    "demand_high": 0.9792,
+    "stop": 0.9599,
+    "breakout": null,
+    "targets": [
+     1.04,
+     1.071
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
+  },
+  {
    "ticker": "FRTT",
    "price": 0.53,
    "price_label": "بري ماركت",
@@ -1020,7 +1397,7 @@
     "last_split": null,
     "split": {},
     "country_ar": "كندي",
-    "industry": "Internet Retail",
+    "industry": "Household & Personal Products",
     "short_available": null,
     "runner": {
      "pct": 1.3058823331417102,
@@ -1037,7 +1414,7 @@
     "stop": 0.4999,
     "breakout": null,
     "targets": [
-     0.5471,
+     0.55,
      0.6
     ]
    },
@@ -1047,8 +1424,55 @@
    "session": "pre"
   },
   {
+   "ticker": "HYFM",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 0.696–0.72 وفشل كسرها (أو سحب سيولة تحت 0.66 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5568–0.6264، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "رفض عند MA20 (ص64)",
+   "data": {
+    "float": 3590878,
+    "shares": 14030298,
+    "last_split": "عكسي 1:10 (2025-02-13)",
+    "split": {
+     "factor": "1:10",
+     "date": "2025-02-13",
+     "reverse": true,
+     "days": 627,
+     "recent": false
+    },
+    "country_ar": "أمريكي",
+    "industry": "Farm & Heavy Construction Machinery",
+    "short_available": null,
+    "runner": {
+     "pct": 5.400000095367432,
+     "from": 0.5,
+     "from_date": "2026-07-31",
+     "to": 3.200000047683716,
+     "to_date": "2026-08-03",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.696,
+    "demand_high": 0.72,
+    "stop": 0.6599,
+    "breakout": null,
+    "targets": [
+     0.785,
+     0.8162
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
+  },
+  {
    "ticker": "MRNO",
-   "price": 0.2014,
+   "price": 0.201,
    "price_label": "بري ماركت",
    "note": "اختبار منطقة 0.203–0.205 وفشل كسرها (أو سحب سيولة تحت 0.203 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.1624–0.1827، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
@@ -1104,7 +1528,7 @@
      "factor": "1:10",
      "date": "2026-04-30",
      "reverse": true,
-     "days": 183,
+     "days": 186,
      "recent": true,
      "open_after": 4.380000114440918,
      "high_after": 6.099999904632568
@@ -1137,55 +1561,6 @@
    "session": "pre"
   },
   {
-   "ticker": "TRT",
-   "price": null,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 4.83–4.88 وفشل كسرها (أو سحب سيولة تحت 4.63 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (3.86–4.35، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "",
-   "data": {
-    "float": 7780008,
-    "shares": 10338265,
-    "last_split": "عادي 2:1 (2026-01-05)",
-    "split": {
-     "factor": "2:1",
-     "date": "2026-01-05",
-     "reverse": false,
-     "days": 298,
-     "recent": false,
-     "open_after": 6.320000171661377,
-     "high_after": 21.3799991607666
-    },
-    "country_ar": "أمريكي",
-    "industry": "Semiconductor Equipment & Materials",
-    "short_available": null,
-    "runner": {
-     "pct": 2.570093592886053,
-     "from": 5.349999904632568,
-     "from_date": "2026-03-30",
-     "to": 19.100000381469727,
-     "to_date": "2026-04-24",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 4.83,
-    "demand_high": 4.8783,
-    "stop": 4.62,
-    "breakout": null,
-    "targets": [
-     5.2509,
-     5.38
-    ]
-   },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
-   "alert": false,
-   "session": "pre"
-  },
-  {
    "ticker": "QCLS",
    "price": 0.4251,
    "price_label": "بري ماركت",
@@ -1202,7 +1577,7 @@
      "factor": "1:100",
      "date": "2025-09-02",
      "reverse": true,
-     "days": 423,
+     "days": 426,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -1223,7 +1598,7 @@
     "stop": 0.4199,
     "breakout": null,
     "targets": [
-     0.4634,
+     0.463,
      0.53
     ]
    },
@@ -1233,47 +1608,190 @@
    "session": "pre"
   },
   {
-   "ticker": "FBLG",
+   "ticker": "BIVI",
    "price": null,
    "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.881–0.89 وفشل كسرها (أو سحب سيولة تحت 0.881 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.7048–0.7929، ص54)",
+   "note": "اختبار منطقة 1.35–1.36 وفشل كسرها (أو سحب سيولة تحت 1.12 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.08–1.22، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
    "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
    "data": {
-    "float": 5191460,
-    "shares": 7081701,
-    "last_split": "عكسي 1:20 (2026-03-30)",
+    "float": 7477998,
+    "shares": 8682710,
+    "last_split": "عكسي 1:10 (2025-07-07)",
     "split": {
-     "factor": "1:20",
-     "date": "2026-03-30",
+     "factor": "1:10",
+     "date": "2025-07-07",
      "reverse": true,
-     "days": 214,
-     "recent": false,
-     "open_after": 3.7799999713897705,
-     "high_after": 3.9649999141693115
+     "days": 483,
+     "recent": false
     },
     "country_ar": "أمريكي",
     "industry": "Biotechnology",
     "short_available": null,
     "runner": {
-     "pct": 2.0555555003660717,
-     "from": 0.7200000286102295,
-     "from_date": "2026-08-03",
-     "to": 2.200000047683716,
-     "to_date": "2026-09-01",
+     "pct": 3.6219512133070717,
+     "from": 0.8199999928474426,
+     "from_date": "2026-08-06",
+     "to": 3.7899999618530273,
+     "to_date": "2026-08-12",
      "is_runner": true
     }
    },
    "levels": {
-    "demand_low": 0.881,
-    "demand_high": 0.89,
-    "stop": 0.8809,
+    "demand_low": 1.35,
+    "demand_high": 1.3635,
+    "stop": 1.11,
     "breakout": null,
     "targets": [
-     0.95,
-     0.978
+     1.45,
+     1.58
+    ]
+   },
+   "state": "NO_DATA",
+   "state_ar": "لا توجد بيانات سعر",
+   "alert": false,
+   "session": "pre"
+  },
+  {
+   "ticker": "YJ",
+   "price": 1.23,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 1.18–1.19 وفشل كسرها (أو سحب سيولة تحت 1.13 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.944–1.06، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "سهم صيني عالي التذبذب",
+   "data": {
+    "float": 1871018,
+    "shares": 2550640,
+    "last_split": "عكسي 1:4 (2024-09-13)",
+    "split": {
+     "factor": "1:4",
+     "date": "2024-09-13",
+     "reverse": true,
+     "days": 780,
+     "recent": false
+    },
+    "country_ar": "صيني",
+    "industry": "Internet Retail",
+    "short_available": null,
+    "runner": {
+     "pct": 10.838983803396799,
+     "from": 1.1799999475479126,
+     "from_date": "2026-07-30",
+     "to": 13.970000267028809,
+     "to_date": "2026-08-07",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 1.18,
+    "demand_high": 1.1918,
+    "stop": 1.12,
+    "breakout": null,
+    "targets": [
+     1.25,
+     1.375
+    ]
+   },
+   "alert": false,
+   "state": "WAITING",
+   "state_ar": "فوق منطقة الطلب بـ 3% — الطلبات تنتظر 1.18–1.1918 (لا مطاردة)",
+   "session": "pre"
+  },
+  {
+   "ticker": "BIYA",
+   "price": 1.27,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 1.3–1.31 وفشل كسرها (أو سحب سيولة تحت 1.18 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.04–1.17، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "شمعة ضخ/تصريف قبل 17 يوم (طار إلى 2.89 وأغلق 2.3 بفوليوم 1611x)، سهم صيني عالي التذبذب",
+   "data": {
+    "float": 2998775,
+    "shares": 3229864,
+    "last_split": "عكسي 1:10 (2026-07-13)",
+    "split": {
+     "factor": "1:10",
+     "date": "2026-07-13",
+     "reverse": true,
+     "days": 112,
+     "recent": true,
+     "open_after": 4.409999847412109,
+     "high_after": 9.890000343322754
+    },
+    "country_ar": "صيني",
+    "industry": "Software - Application",
+    "short_available": null,
+    "runner": {
+     "pct": 2.596363761208274,
+     "from": 2.75,
+     "from_date": "2026-06-29",
+     "to": 9.890000343322754,
+     "to_date": "2026-07-20",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 1.3,
+    "demand_high": 1.313,
+    "stop": 1.17,
+    "breakout": null,
+    "targets": [
+     1.408,
+     1.5962
+    ]
+   },
+   "alert": false,
+   "state": "WAITING",
+   "state_ar": "تحت منطقة الطلب (1.3) — ينتظر استرداد أو المنطقة الأعمق",
+   "session": "pre"
+  },
+  {
+   "ticker": "SCYX",
+   "price": null,
+   "price_label": "بري ماركت",
+   "note": "قاع ثاني يثبت عند 3.54–3.73 بشمعة انعكاس، أو كسر خط العنق 3.98 والثبات ثم إعادة اختبار (ص25)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
+   "data": {
+    "float": 7350871,
+    "shares": 9949609,
+    "last_split": "عكسي 1:8 (2026-06-01)",
+    "split": {
+     "factor": "1:8",
+     "date": "2026-06-01",
+     "reverse": true,
+     "days": 154,
+     "recent": true,
+     "open_after": 5.610000133514404,
+     "high_after": 6.090000152587891
+    },
+    "country_ar": "أمريكي",
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "short_available": null,
+    "runner": {
+     "pct": 0.7252125217979084,
+     "from": 3.5299999713897705,
+     "from_date": "2026-07-28",
+     "to": 6.090000152587891,
+     "to_date": "2026-08-26",
+     "is_runner": false
+    }
+   },
+   "levels": {
+    "demand_low": 3.535,
+    "demand_high": 3.7332,
+    "stop": 3.53,
+    "breakout": null,
+    "targets": [
+     3.885,
+     3.98
     ]
    },
    "state": "NO_DATA",
@@ -1291,14 +1809,14 @@
    "label": "قائمة الارتكاز",
    "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
    "data": {
-    "float": 3516318,
+    "float": 3393530,
     "shares": 4843910,
     "last_split": "عكسي 1:100 (2024-05-17)",
     "split": {
      "factor": "1:100",
      "date": "2024-05-17",
      "reverse": true,
-     "days": 896,
+     "days": 899,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -1330,9 +1848,9 @@
   },
   {
    "ticker": "OLOX",
-   "price": 0.762,
+   "price": 0.768,
    "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.772–0.7797 وفشل كسرها (أو سحب سيولة تحت 0.7301 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6176–0.6948، ص54)",
+   "note": "اختبار منطقة 0.772–0.7797 وفشل كسرها (أو سحب سيولة تحت 0.73 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6176–0.6948، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
@@ -1345,13 +1863,13 @@
      "factor": "1:10",
      "date": "2026-05-08",
      "reverse": true,
-     "days": 175,
+     "days": 178,
      "recent": true,
      "open_after": 4.699999809265137,
      "high_after": 11.399999618530273
     },
     "country_ar": "أمريكي",
-    "industry": "Metal Fabrication",
+    "industry": "Building Products & Equipment",
     "short_available": null,
     "runner": {
      "pct": 4.1602209700226975,
@@ -1365,7 +1883,7 @@
    "levels": {
     "demand_low": 0.772,
     "demand_high": 0.7797,
-    "stop": 0.73,
+    "stop": 0.7299,
     "breakout": null,
     "targets": [
      0.799,
@@ -1375,6 +1893,47 @@
    "alert": false,
    "state": "WAITING",
    "state_ar": "تحت منطقة الطلب (0.772) — ينتظر استرداد أو المنطقة الأعمق",
+   "session": "pre"
+  },
+  {
+   "ticker": "ZTG",
+   "price": 0.6123,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 0.6–0.606 وفشل كسرها (أو سحب سيولة تحت 0.6 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.48–0.54، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "شمعة ضخ/تصريف قبل 9 يوم (طار إلى 0.92 وأغلق 0.779 بفوليوم 11x)",
+   "data": {
+    "float": 4083260,
+    "shares": 17719499,
+    "last_split": null,
+    "split": {},
+    "country_ar": "Macau",
+    "industry": "Consulting Services",
+    "short_available": null,
+    "runner": {
+     "pct": 4.1470585760360885,
+     "from": 2.380000114440918,
+     "from_date": "2026-07-29",
+     "to": 12.25,
+     "to_date": "2026-08-12",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.6,
+    "demand_high": 0.606,
+    "stop": 0.5999,
+    "breakout": null,
+    "targets": [
+     0.635,
+     0.683
+    ]
+   },
+   "alert": false,
+   "state": "WAITING",
+   "state_ar": "فوق منطقة الطلب بـ 1% — الطلبات تنتظر 0.6–0.606 (لا مطاردة)",
    "session": "pre"
   },
   {
@@ -1394,7 +1953,7 @@
      "factor": "1:8",
      "date": "2024-01-22",
      "reverse": true,
-     "days": 1012,
+     "days": 1015,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -1417,53 +1976,6 @@
     "targets": [
      1.5988,
      1.714
-    ]
-   },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
-   "alert": false,
-   "session": "pre"
-  },
-  {
-   "ticker": "YJ",
-   "price": null,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 1.18–1.19 وفشل كسرها (أو سحب سيولة تحت 1.13 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.944–1.06، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "سهم صيني عالي التذبذب",
-   "data": {
-    "float": 1871018,
-    "shares": 2550640,
-    "last_split": "عكسي 1:4 (2024-09-13)",
-    "split": {
-     "factor": "1:4",
-     "date": "2024-09-13",
-     "reverse": true,
-     "days": 777,
-     "recent": false
-    },
-    "country_ar": "صيني",
-    "industry": "Internet Retail",
-    "short_available": null,
-    "runner": {
-     "pct": 10.838983803396799,
-     "from": 1.1799999475479126,
-     "from_date": "2026-07-30",
-     "to": 13.970000267028809,
-     "to_date": "2026-08-07",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 1.18,
-    "demand_high": 1.1918,
-    "stop": 1.12,
-    "breakout": null,
-    "targets": [
-     1.25,
-     1.375
     ]
    },
    "state": "NO_DATA",
@@ -1513,104 +2025,6 @@
    "session": "pre"
   },
   {
-   "ticker": "BIYA",
-   "price": 1.24,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 1.3–1.31 وفشل كسرها (أو سحب سيولة تحت 1.18 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.04–1.17، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "شمعة ضخ/تصريف قبل 17 يوم (طار إلى 2.89 وأغلق 2.3 بفوليوم 1611x)، سهم صيني عالي التذبذب",
-   "data": {
-    "float": 2998775,
-    "shares": 3229864,
-    "last_split": "عكسي 1:10 (2026-07-13)",
-    "split": {
-     "factor": "1:10",
-     "date": "2026-07-13",
-     "reverse": true,
-     "days": 109,
-     "recent": true,
-     "open_after": 4.409999847412109,
-     "high_after": 9.890000343322754
-    },
-    "country_ar": "صيني",
-    "industry": "Software - Application",
-    "short_available": null,
-    "runner": {
-     "pct": 2.596363761208274,
-     "from": 2.75,
-     "from_date": "2026-06-29",
-     "to": 9.890000343322754,
-     "to_date": "2026-07-20",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 1.3,
-    "demand_high": 1.313,
-    "stop": 1.17,
-    "breakout": null,
-    "targets": [
-     1.408,
-     1.5962
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (1.3) — ينتظر استرداد أو المنطقة الأعمق",
-   "session": "pre"
-  },
-  {
-   "ticker": "SCYX",
-   "price": null,
-   "price_label": "بري ماركت",
-   "note": "قاع ثاني يثبت عند 3.54–3.73 بشمعة انعكاس، أو كسر خط العنق 3.98 والثبات ثم إعادة اختبار (ص25)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
-   "data": {
-    "float": 7350871,
-    "shares": 9949609,
-    "last_split": "عكسي 1:8 (2026-06-01)",
-    "split": {
-     "factor": "1:8",
-     "date": "2026-06-01",
-     "reverse": true,
-     "days": 151,
-     "recent": true,
-     "open_after": 5.610000133514404,
-     "high_after": 6.090000152587891
-    },
-    "country_ar": "أمريكي",
-    "industry": "Drug Manufacturers - Specialty & Generic",
-    "short_available": null,
-    "runner": {
-     "pct": 0.7252125217979084,
-     "from": 3.5299999713897705,
-     "from_date": "2026-07-28",
-     "to": 6.090000152587891,
-     "to_date": "2026-08-26",
-     "is_runner": false
-    }
-   },
-   "levels": {
-    "demand_low": 3.535,
-    "demand_high": 3.7332,
-    "stop": 3.53,
-    "breakout": null,
-    "targets": [
-     3.885,
-     3.98
-    ]
-   },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
-   "alert": false,
-   "session": "pre"
-  },
-  {
    "ticker": "NWTG",
    "price": null,
    "price_label": "بري ماركت",
@@ -1618,7 +2032,7 @@
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
-   "warn": "رفض عند MA20 (ص64)، اختراق وهمي سابق (Bull Trap — ص19، ص57)",
+   "warn": "اختراق وهمي سابق (Bull Trap — ص19، ص57)",
    "data": {
     "float": 4758861,
     "shares": 5654478,
@@ -1627,7 +2041,7 @@
      "factor": "1:30",
      "date": "2025-03-17",
      "reverse": true,
-     "days": 592,
+     "days": 595,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -1658,280 +2072,6 @@
    "session": "pre"
   },
   {
-   "ticker": "EXYN",
-   "price": 2.67,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 2.43–2.45 وفشل كسرها (أو سحب سيولة تحت 2.27 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.94–2.19، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "رفض عند MA20 (ص64)",
-   "data": {
-    "float": 4538210,
-    "shares": 7953957,
-    "last_split": null,
-    "split": {},
-    "country_ar": "أمريكي",
-    "industry": "Software - Infrastructure",
-    "short_available": null,
-    "runner": {
-     "pct": 1.880000114440918,
-     "from": 1.5,
-     "from_date": "2026-08-20",
-     "to": 4.320000171661377,
-     "to_date": "2026-08-26",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 2.43,
-    "demand_high": 2.4543,
-    "stop": 2.26,
-    "breakout": null,
-    "targets": [
-     2.4843,
-     2.6252
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 9% — الطلبات تنتظر 2.43–2.4543 (لا مطاردة)",
-   "session": "pre"
-  },
-  {
-   "ticker": "STI",
-   "price": 4.27,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 4.37–4.41 وفشل كسرها (أو سحب سيولة تحت 3.97 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (3.5–3.93، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "",
-   "data": {
-    "float": 3576385,
-    "shares": 8981893,
-    "last_split": "عكسي 1:50 (2025-05-12)",
-    "split": {
-     "factor": "1:50",
-     "date": "2025-05-12",
-     "reverse": true,
-     "days": 536,
-     "recent": false
-    },
-    "country_ar": "أمريكي",
-    "industry": "Electrical Equipment & Parts",
-    "short_available": null,
-    "runner": {
-     "pct": 9.523908022679166,
-     "from": 4.370999813079834,
-     "from_date": "2026-05-19",
-     "to": 46.0,
-     "to_date": "2026-06-05",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 4.371,
-    "demand_high": 4.4147,
-    "stop": 3.96,
-    "breakout": null,
-    "targets": [
-     4.63,
-     4.82
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (4.371) — ينتظر استرداد أو المنطقة الأعمق",
-   "session": "pre"
-  },
-  {
-   "ticker": "ZTG",
-   "price": 0.6123,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.6–0.606 وفشل كسرها (أو سحب سيولة تحت 0.6 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.48–0.54، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "شمعة ضخ/تصريف قبل 9 يوم (طار إلى 0.92 وأغلق 0.779 بفوليوم 11x)",
-   "data": {
-    "float": 4083260,
-    "shares": 17719499,
-    "last_split": null,
-    "split": {},
-    "country_ar": "Macau",
-    "industry": "Consulting Services",
-    "short_available": null,
-    "runner": {
-     "pct": 4.1470585760360885,
-     "from": 2.380000114440918,
-     "from_date": "2026-07-29",
-     "to": 12.25,
-     "to_date": "2026-08-12",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 0.6,
-    "demand_high": 0.606,
-    "stop": 0.5999,
-    "breakout": null,
-    "targets": [
-     0.6347,
-     0.683
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 1% — الطلبات تنتظر 0.6–0.606 (لا مطاردة)",
-   "session": "pre"
-  },
-  {
-   "ticker": "MTEN",
-   "price": 0.82,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.83–0.85 وفشل كسرها (أو سحب سيولة تحت 0.8083 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.664–0.747، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم صيني عالي التذبذب",
-   "data": {
-    "float": 4024135,
-    "shares": 7639410,
-    "last_split": "عكسي 1:200 (2026-01-26)",
-    "split": {
-     "factor": "1:200",
-     "date": "2026-01-26",
-     "reverse": true,
-     "days": 277,
-     "recent": false,
-     "open_after": 2.240000009536743,
-     "high_after": 9.520000457763672
-    },
-    "country_ar": "صيني",
-    "industry": "Metal Fabrication",
-    "short_available": null,
-    "runner": {
-     "pct": 10.900000394880765,
-     "from": 0.800000011920929,
-     "from_date": "2026-05-21",
-     "to": 9.520000457763672,
-     "to_date": "2026-06-09",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 0.83,
-    "demand_high": 0.85,
-    "stop": 0.8082,
-    "breakout": null,
-    "targets": [
-     0.868,
-     0.9348
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (0.83) — ينتظر استرداد أو المنطقة الأعمق",
-   "session": "pre"
-  },
-  {
-   "ticker": "BIVI",
-   "price": null,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 1.35–1.36 وفشل كسرها (أو سحب سيولة تحت 1.12 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.08–1.22، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
-   "data": {
-    "float": 7477998,
-    "shares": 8682710,
-    "last_split": "عكسي 1:10 (2025-07-07)",
-    "split": {
-     "factor": "1:10",
-     "date": "2025-07-07",
-     "reverse": true,
-     "days": 480,
-     "recent": false
-    },
-    "country_ar": "أمريكي",
-    "industry": "Biotechnology",
-    "short_available": null,
-    "runner": {
-     "pct": 3.6219512133070717,
-     "from": 0.8199999928474426,
-     "from_date": "2026-08-06",
-     "to": 3.7899999618530273,
-     "to_date": "2026-08-12",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 1.35,
-    "demand_high": 1.3635,
-    "stop": 1.11,
-    "breakout": null,
-    "targets": [
-     1.45,
-     1.58
-    ]
-   },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
-   "alert": false,
-   "session": "pre"
-  },
-  {
-   "ticker": "PMAX",
-   "price": 0.4906,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.468–0.4727 وفشل كسرها (أو سحب سيولة تحت 0.4495 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.3744–0.4212، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "شمعة ضخ/تصريف قبل 21 يوم (طار إلى 1.08 وأغلق 0.938 بفوليوم 196x)، سهم صيني عالي التذبذب، سعر منخفض جداً — سبريد واسع",
-   "data": {
-    "float": 1017107,
-    "shares": 1308311,
-    "last_split": "عكسي 1:10 (2026-04-17)",
-    "split": {
-     "factor": "1:10",
-     "date": "2026-04-17",
-     "reverse": true,
-     "days": 196,
-     "recent": true,
-     "open_after": 2.200000047683716,
-     "high_after": 4.811999797821045
-    },
-    "country_ar": "صيني (هونغ كونغ)",
-    "industry": "Capital Markets",
-    "short_available": null,
-    "runner": {
-     "pct": 2.826666514078776,
-     "from": 0.75,
-     "from_date": "2026-09-02",
-     "to": 2.869999885559082,
-     "to_date": "2026-09-24",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 0.468,
-    "demand_high": 0.4727,
-    "stop": 0.4494,
-    "breakout": null,
-    "targets": [
-     0.4768,
-     0.572
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 4% — الطلبات تنتظر 0.468–0.4727 (لا مطاردة)",
-   "session": "pre"
-  },
-  {
    "ticker": "LPCN",
    "price": 1.455,
    "price_label": "بري ماركت",
@@ -1948,7 +2088,7 @@
      "factor": "1:17",
      "date": "2023-05-12",
      "reverse": true,
-     "days": 1267,
+     "days": 1270,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -1989,13 +2129,13 @@
    "warn": "توه مدبل: من 1.28 إلى 2.68، شمعة ضخ/تصريف قبل 5 يوم (طار إلى 3.56 وأغلق 2.05 بفوليوم 985x)",
    "data": {
     "float": 1489933,
-    "shares": 2790666,
+    "shares": 3301474,
     "last_split": "عكسي 1:5 (2026-07-10)",
     "split": {
      "factor": "1:5",
      "date": "2026-07-10",
      "reverse": true,
-     "days": 112,
+     "days": 115,
      "recent": true,
      "open_after": 2.180000066757202,
      "high_after": 4.489999771118164
@@ -2028,94 +2168,96 @@
    "session": "pre"
   },
   {
-   "ticker": "BENF",
-   "price": 0.73,
+   "ticker": "MTEN",
+   "price": 0.82,
    "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.752–0.78 وفشل كسرها (أو سحب سيولة تحت 0.6966 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6016–0.6768، ص54)",
+   "note": "اختبار منطقة 0.83–0.85 وفشل كسرها (أو سحب سيولة تحت 0.808 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.664–0.747، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
-   "warn": "شمعة ضخ/تصريف قبل 21 يوم (طار إلى 1.78 وأغلق 1.51 بفوليوم 17x)",
+   "warn": "اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم صيني عالي التذبذب",
    "data": {
-    "float": 1465512,
-    "shares": 15458833,
-    "last_split": "عكسي 1:8 (2025-12-15)",
+    "float": 4024135,
+    "shares": 7639410,
+    "last_split": "عكسي 1:200 (2026-01-26)",
     "split": {
-     "factor": "1:8",
-     "date": "2025-12-15",
+     "factor": "1:200",
+     "date": "2026-01-26",
      "reverse": true,
-     "days": 319,
+     "days": 280,
      "recent": false,
-     "open_after": 4.5,
-     "high_after": 9.960000038146973
+     "open_after": 2.240000009536743,
+     "high_after": 9.520000457763672
     },
-    "country_ar": "أمريكي",
-    "industry": "Asset Management",
+    "country_ar": "صيني",
+    "industry": "Metal Fabrication",
     "short_available": null,
     "runner": {
-     "pct": 5.325301447800424,
-     "from": 0.49799999594688416,
-     "from_date": "2026-09-22",
-     "to": 3.1500000953674316,
-     "to_date": "2026-09-23",
+     "pct": 10.900000394880765,
+     "from": 0.800000011920929,
+     "from_date": "2026-05-21",
+     "to": 9.520000457763672,
+     "to_date": "2026-06-09",
      "is_runner": true
     }
    },
    "levels": {
-    "demand_low": 0.752,
-    "demand_high": 0.78,
-    "stop": 0.6965,
+    "demand_low": 0.83,
+    "demand_high": 0.85,
+    "stop": 0.8079,
     "breakout": null,
     "targets": [
-     0.8,
-     0.91
+     0.868,
+     0.9347
     ]
    },
    "alert": false,
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (0.752) — ينتظر استرداد أو المنطقة الأعمق",
+   "state_ar": "تحت منطقة الطلب (0.83) — ينتظر استرداد أو المنطقة الأعمق",
    "session": "pre"
   },
   {
-   "ticker": "FRMM",
+   "ticker": "PMAX",
    "price": null,
    "price_label": "بري ماركت",
-   "note": "اختبار منطقة 3.61–3.64 وفشل كسرها (أو سحب سيولة تحت 3.05 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.88–3.24، ص54)",
+   "note": "اختبار منطقة 0.468–0.4727 وفشل كسرها (أو سحب سيولة تحت 0.449 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.3744–0.4212، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
-   "warn": "رفض عند MA20 (ص64)، اختراق وهمي سابق (Bull Trap — ص19، ص57)",
+   "warn": "شمعة ضخ/تصريف قبل 21 يوم (طار إلى 1.08 وأغلق 0.938 بفوليوم 196x)، سهم صيني عالي التذبذب، سعر منخفض جداً — سبريد واسع",
    "data": {
-    "float": 7375308,
-    "shares": 13198948,
-    "last_split": "عكسي 1:10 (2025-10-20)",
+    "float": 1017107,
+    "shares": 1308311,
+    "last_split": "عكسي 1:10 (2026-04-17)",
     "split": {
      "factor": "1:10",
-     "date": "2025-10-20",
+     "date": "2026-04-17",
      "reverse": true,
-     "days": 375,
-     "recent": false
+     "days": 199,
+     "recent": true,
+     "open_after": 2.200000047683716,
+     "high_after": 4.811999797821045
     },
-    "country_ar": "أمريكي",
-    "industry": "Software - Application",
+    "country_ar": "صيني (هونغ كونغ)",
+    "industry": "Capital Markets",
     "short_available": null,
     "runner": {
-     "pct": 2.3352272257762996,
-     "from": 1.7599999904632568,
-     "from_date": "2026-04-13",
-     "to": 5.869999885559082,
-     "to_date": "2026-05-01",
+     "pct": 2.826666514078776,
+     "from": 0.75,
+     "from_date": "2026-09-02",
+     "to": 2.869999885559082,
+     "to_date": "2026-09-24",
      "is_runner": true
     }
    },
    "levels": {
-    "demand_low": 3.605,
-    "demand_high": 3.6411,
-    "stop": 3.04,
+    "demand_low": 0.468,
+    "demand_high": 0.4727,
+    "stop": 0.4489,
     "breakout": null,
     "targets": [
-     3.75,
-     3.8885
+     0.477,
+     0.572
     ]
    },
    "state": "NO_DATA",
@@ -2140,7 +2282,7 @@
      "factor": "1:7",
      "date": "2026-09-08",
      "reverse": true,
-     "days": 52,
+     "days": 55,
      "recent": true,
      "open_after": 3.259999990463257,
      "high_after": 3.8399999141693115
@@ -2173,91 +2315,93 @@
    "session": "pre"
   },
   {
-   "ticker": "AAME",
-   "price": null,
+   "ticker": "CYAB",
+   "price": 0.1167,
    "price_label": "بري ماركت",
-   "note": "اختبار منطقة 1.03–1.04 وفشل كسرها (أو سحب سيولة تحت 1.03 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.824–0.927، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "اختراق وهمي سابق (Bull Trap — ص19، ص57)",
-   "data": {
-    "float": 4033552,
-    "shares": 20397228,
-    "last_split": "عادي 5:4 (1986-11-04)",
-    "split": {
-     "factor": "5:4",
-     "date": "1986-11-04",
-     "reverse": false,
-     "days": 14605,
-     "recent": false
-    },
-    "country_ar": "أمريكي",
-    "industry": "Insurance - Life",
-    "short_available": null,
-    "runner": {
-     "pct": 0.601941768922392,
-     "from": 1.0299999713897705,
-     "from_date": "2026-10-16",
-     "to": 1.649999976158142,
-     "to_date": "2026-10-21",
-     "is_runner": false
-    }
-   },
-   "levels": {
-    "demand_low": 1.03,
-    "demand_high": 1.0403,
-    "stop": 1.02,
-    "breakout": null,
-    "targets": [
-     1.135,
-     1.2365
-    ]
-   },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
-   "alert": false,
-   "session": "pre"
-  },
-  {
-   "ticker": "MTEK",
-   "price": 0.378,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.366–0.3697 وفشل كسرها (أو سحب سيولة تحت 0.335 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.2928–0.3294، ص54)",
+   "note": "اختبار منطقة 0.13–0.1313 وفشل كسرها (أو سحب سيولة تحت 0.12 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.104–0.117، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
    "warn": "سعر منخفض جداً — سبريد واسع",
    "data": {
-    "float": 4991276,
-    "shares": 10559300,
+    "float": 5383824,
+    "shares": 27353394,
     "last_split": null,
     "split": {},
     "country_ar": "إسرائيلي",
-    "industry": "Electronic Components",
+    "industry": "Software - Infrastructure",
     "short_available": null,
     "runner": {
-     "pct": 0.9002695383146215,
-     "from": 1.4839999675750732,
-     "from_date": "2026-02-04",
-     "to": 2.819999933242798,
-     "to_date": "2026-03-05",
-     "is_runner": false
+     "pct": 1.5199999809265137,
+     "from": 0.25,
+     "from_date": "2026-08-03",
+     "to": 0.6299999952316284,
+     "to_date": "2026-08-28",
+     "is_runner": true
     }
    },
    "levels": {
-    "demand_low": 0.366,
-    "demand_high": 0.3697,
-    "stop": 0.3349,
+    "demand_low": 0.13,
+    "demand_high": 0.1313,
+    "stop": 0.1199,
     "breakout": null,
     "targets": [
-     0.396,
-     0.43
+     0.14,
+     0.155
+    ]
+   },
+   "alert": false,
+   "state": "BELOW_STOP",
+   "state_ar": "تحت وقف القائمة 0.1199 — الدعم مكسور، الانتظار أعمق (ص54)",
+   "session": "pre"
+  },
+  {
+   "ticker": "BENF",
+   "price": 0.73,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 0.752–0.78 وفشل كسرها (أو سحب سيولة تحت 0.697 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6016–0.6768، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "شمعة ضخ/تصريف قبل 21 يوم (طار إلى 1.78 وأغلق 1.51 بفوليوم 17x)",
+   "data": {
+    "float": 1357012,
+    "shares": 15458833,
+    "last_split": "عكسي 1:8 (2025-12-15)",
+    "split": {
+     "factor": "1:8",
+     "date": "2025-12-15",
+     "reverse": true,
+     "days": 322,
+     "recent": false,
+     "open_after": 4.5,
+     "high_after": 9.960000038146973
+    },
+    "country_ar": "أمريكي",
+    "industry": "Asset Management",
+    "short_available": null,
+    "runner": {
+     "pct": 5.325301447800424,
+     "from": 0.49799999594688416,
+     "from_date": "2026-09-22",
+     "to": 3.1500000953674316,
+     "to_date": "2026-09-23",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.752,
+    "demand_high": 0.78,
+    "stop": 0.6969,
+    "breakout": null,
+    "targets": [
+     0.8,
+     0.91
     ]
    },
    "alert": false,
    "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 2% — الطلبات تنتظر 0.366–0.3697 (لا مطاردة)",
+   "state_ar": "تحت منطقة الطلب (0.752) — ينتظر استرداد أو المنطقة الأعمق",
    "session": "pre"
   },
   {
@@ -2318,7 +2462,7 @@
      "factor": "1:12",
      "date": "2026-02-13",
      "reverse": true,
-     "days": 259,
+     "days": 262,
      "recent": false,
      "open_after": 2.630000114440918,
      "high_after": 8.600000381469727
@@ -2367,7 +2511,7 @@
      "factor": "1:5",
      "date": "2025-01-14",
      "reverse": true,
-     "days": 654,
+     "days": 657,
      "recent": false
     },
     "country_ar": "دنماركي",
@@ -2398,6 +2542,53 @@
    "session": "pre"
   },
   {
+   "ticker": "FAMI",
+   "price": 0.0977,
+   "price_label": "بري ماركت",
+   "note": "اختبار منطقة 0.1–0.101 وفشل كسرها (أو سحب سيولة تحت 0.1 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.08–0.09، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "حركة السعر متقطعة (4 أسعار إغلاق مختلفة في 20 يوم)، اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم صيني عالي التذبذب، سعر منخفض جداً — سبريد واسع",
+   "data": {
+    "float": 6408875,
+    "shares": 37434077,
+    "last_split": "عكسي 1:12 (2025-03-17)",
+    "split": {
+     "factor": "1:12",
+     "date": "2025-03-17",
+     "reverse": true,
+     "days": 595,
+     "recent": false
+    },
+    "country_ar": "صيني",
+    "industry": "Packaged Foods",
+    "short_available": null,
+    "runner": {
+     "pct": 4.555555334797621,
+     "from": 0.09000000357627869,
+     "from_date": "2026-08-18",
+     "to": 0.5,
+     "to_date": "2026-09-02",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.1,
+    "demand_high": 0.101,
+    "stop": 0.0999,
+    "breakout": null,
+    "targets": [
+     0.11,
+     0.1177
+    ]
+   },
+   "alert": false,
+   "state": "BELOW_STOP",
+   "state_ar": "تحت وقف القائمة 0.0999 — الدعم مكسور، الانتظار أعمق (ص54)",
+   "session": "pre"
+  },
+  {
    "ticker": "SPHL",
    "price": 2.4314,
    "price_label": "بري ماركت",
@@ -2414,7 +2605,7 @@
      "factor": "1:8",
      "date": "2025-12-02",
      "reverse": true,
-     "days": 332,
+     "days": 335,
      "recent": false,
      "open_after": 3.25,
      "high_after": 25.110000610351562
@@ -2463,7 +2654,7 @@
      "factor": "1:20",
      "date": "2025-11-04",
      "reverse": true,
-     "days": 360,
+     "days": 363,
      "recent": false,
      "open_after": 8.5,
      "high_after": 21.799999237060547
@@ -2496,51 +2687,10 @@
    "session": "pre"
   },
   {
-   "ticker": "PFAI",
-   "price": null,
-   "price_label": "بري ماركت",
-   "note": "اختبار منطقة 3.52–3.65 وفشل كسرها (أو سحب سيولة تحت 3.2 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.82–3.17، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "توه مدبل: من 2.22 إلى 5.12، شمعة ضخ/تصريف قبل 17 يوم (طار إلى 7.02 وأغلق 5.07 بفوليوم 18282x)، رفض عند MA20 (ص64)، اختراق وهمي سابق (Bull Trap — ص19، ص57)",
-   "data": {
-    "float": 3566629,
-    "shares": 4070100,
-    "last_split": null,
-    "split": {},
-    "country_ar": "كندي",
-    "industry": "Farm Products",
-    "short_available": null,
-    "runner": {
-     "pct": 2.2651161253678023,
-     "from": 2.1500000953674316,
-     "from_date": "2026-10-02",
-     "to": 7.019999980926514,
-     "to_date": "2026-10-07",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 3.52,
-    "demand_high": 3.65,
-    "stop": 3.19,
-    "breakout": null,
-    "targets": [
-     3.7,
-     3.88
-    ]
-   },
-   "state": "NO_DATA",
-   "state_ar": "لا توجد بيانات سعر",
-   "alert": false,
-   "session": "pre"
-  },
-  {
    "ticker": "ELOG",
    "price": null,
    "price_label": "بري ماركت",
-   "note": "اختبار منطقة 0.728–0.7353 وفشل كسرها (أو سحب سيولة تحت 0.7201 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5824–0.6552، ص54)",
+   "note": "اختبار منطقة 0.728–0.7353 وفشل كسرها (أو سحب سيولة تحت 0.72 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5824–0.6552، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
@@ -2565,11 +2715,11 @@
    "levels": {
     "demand_low": 0.728,
     "demand_high": 0.7353,
-    "stop": 0.72,
+    "stop": 0.7199,
     "breakout": null,
     "targets": [
      0.7534,
-     0.784
+     0.79
     ]
    },
    "state": "NO_DATA",

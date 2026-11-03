@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-03T21:27:21.115990+00:00",
- "generated_at_et": "2026-11-03T16:27:21.115990-05:00",
+ "generated_at_utc": "2026-11-03T21:37:21.116137+00:00",
+ "generated_at_et": "2026-11-03T16:37:21.116137-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -650,8 +650,8 @@
     "last_split": "عكسي 10:55 (2012-01-17)",
     "short_available": null,
     "short_pct_float": 0.0425,
-    "ext_price": 1.3174,
-    "ext_chg": -0.04536233,
+    "ext_price": 1.33,
+    "ext_chg": -0.036231849999999996,
     "ext_session": "post"
    },
    "news": []
@@ -1069,8 +1069,8 @@
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.0211,
-    "ext_price": 1.4695,
-    "ext_chg": -0.013758432000000001,
+    "ext_price": 1.45,
+    "ext_chg": -0.026845613,
     "ext_session": "post"
    },
    "news": []
@@ -1723,8 +1723,8 @@
     "last_split": "عكسي 1:40 (2025-12-11)",
     "short_available": null,
     "short_pct_float": 0.0064,
-    "ext_price": 1.09,
-    "ext_chg": -0.00909090909090915,
+    "ext_price": 1.08,
+    "ext_chg": -0.018181818181818188,
     "ext_session": "post"
    },
    "news": []
@@ -2152,8 +2152,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 2.68,
-    "ext_chg": -0.025454545454545396,
+    "ext_price": 2.79,
+    "ext_chg": 0.014545454545454639,
     "ext_session": "post"
    },
    "news": [
@@ -3218,8 +3218,8 @@
     "last_split": "عكسي 1:20 (2026-04-06)",
     "short_available": null,
     "short_pct_float": 0.0143,
-    "ext_price": 0.56,
-    "ext_chg": 0.014492784000000002,
+    "ext_price": 0.5526,
+    "ext_chg": 0.0010870289,
     "ext_session": "post"
    },
    "news": []
@@ -8591,14 +8591,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 2.68,
+   "price": 2.79,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8685,8 +8685,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 1.49 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف المتابعة 1.49 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",
@@ -8755,8 +8755,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

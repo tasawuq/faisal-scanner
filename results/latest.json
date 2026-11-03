@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-03T13:45:26.777684+00:00",
- "generated_at_et": "2026-11-03T08:45:26.777684-05:00",
+ "generated_at_utc": "2026-11-03T13:55:26.777810+00:00",
+ "generated_at_et": "2026-11-03T08:55:26.777810-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1734,8 +1734,8 @@
     "last_split": "عكسي 1:10 (2026-05-29)",
     "short_available": null,
     "short_pct_float": 0.012999999,
-    "ext_price": 0.1501,
-    "ext_chg": 0.012137462000000002,
+    "ext_price": 0.143,
+    "ext_chg": -0.035738368,
     "ext_session": "pre"
    },
    "news": []
@@ -3021,8 +3021,8 @@
     "last_split": "عكسي 1:20 (2024-04-03)",
     "short_available": null,
     "short_pct_float": 0.3418,
-    "ext_price": 2.15,
-    "ext_chg": -0.027149296,
+    "ext_price": 2.17,
+    "ext_chg": -0.01809953,
     "ext_session": "pre"
    },
    "news": []
@@ -6221,8 +6221,8 @@
     "last_split": "عكسي 437:1000 (2026-06-01)",
     "short_available": null,
     "short_pct_float": 0.0235,
-    "ext_price": 1.7108,
-    "ext_chg": 0.00046784416000000004,
+    "ext_price": 1.7303,
+    "ext_chg": 0.011871293,
     "ext_session": "pre"
    },
    "news": []
@@ -8638,8 +8638,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_HOLD",
-   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_PENDING",
+   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8654,7 +8654,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.7108,
+   "price": 1.7303,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8673,7 +8673,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 2 بـ 17%",
+   "state_ar": "تحت مستوى الاختراق 2 بـ 16%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8757,7 +8757,7 @@
   },
   {
    "ticker": "PRSO",
-   "price": 0.364,
+   "price": 0.366,
    "price_label": "سعر البري",
    "note": "🚩 نموذج العلم: قاعدة 0.36–0.40 (RSI 22) → اختراق 0.52 (20 أكتوبر) → سحب في البري إلى 0.47 ثم رجوع فوق 0.52. الدخول: شمعة 15 دقيقة خضراء تغلق فوق 0.52 داخل 0.52–0.535",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8794,11 +8794,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 3010280.0,
-   "price": 324.93
+   "volume": 3166137.0,
+   "price": 323.68
   },
   "SNDL": {
-   "volume": 8073.0,
+   "volume": 8135.0,
    "price": 1.29
   }
  }

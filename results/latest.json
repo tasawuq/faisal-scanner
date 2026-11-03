@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-03T23:37:21.117939+00:00",
- "generated_at_et": "2026-11-03T18:37:21.117939-05:00",
+ "generated_at_utc": "2026-11-03T23:47:21.118078+00:00",
+ "generated_at_et": "2026-11-03T18:47:21.118078-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1296,
-  "with_data": 1296,
+  "with_data": 1295,
   "short_history": 13,
   "price_out": 67,
   "low_volume": 486,
-  "outside_float": 291,
+  "outside_float": 292,
   "nasdaq": 3431,
   "all": 5851,
-  "h4_bars": 109
+  "h4_bars": 108
  },
  "counts": {
   "universe": 5851,
-  "analyzed": 730,
+  "analyzed": 729,
   "ready": 0,
-  "watch": 109,
+  "watch": 108,
   "momentum": 0,
   "ext_quotes": 65,
   "ext_movers_5pct": 0
@@ -1289,8 +1289,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 2.9212,
-    "ext_chg": -0.016430974,
+    "ext_price": 2.92,
+    "ext_chg": -0.016835,
     "ext_session": "post"
    },
    "news": []
@@ -1940,8 +1940,8 @@
     "last_split": "عكسي 1:40 (2026-10-13)",
     "short_available": null,
     "short_pct_float": 0.0841,
-    "ext_price": 3.65,
-    "ext_chg": 0.03693181818181812,
+    "ext_price": 3.6516,
+    "ext_chg": 0.037386363636363606,
     "ext_session": "post"
    },
    "news": []
@@ -2152,8 +2152,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 2.7,
-    "ext_chg": -0.042553153,
+    "ext_price": 2.76,
+    "ext_chg": -0.021276576999999998,
     "ext_session": "post"
    },
    "news": [
@@ -3221,8 +3221,8 @@
     "last_split": "عكسي 1:20 (2026-04-06)",
     "short_available": null,
     "short_pct_float": 0.0143,
-    "ext_price": 0.5569,
-    "ext_chg": 0.008876881,
+    "ext_price": 0.5574,
+    "ext_chg": 0.0097826123,
     "ext_session": "post"
    },
    "news": []
@@ -8605,7 +8605,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.7,
+   "price": 2.76,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8623,8 +8623,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "post",
    "scanner": {

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-04T11:25:37.324629+00:00",
- "generated_at_et": "2026-11-04T06:25:37.324629-05:00",
+ "generated_at_utc": "2026-11-04T11:35:37.324801+00:00",
+ "generated_at_et": "2026-11-04T06:35:37.324801-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -862,8 +862,8 @@
     "last_split": "عكسي 1:20 (2026-09-10)",
     "short_available": null,
     "short_pct_float": 0.2801,
-    "ext_price": 2.12,
-    "ext_chg": -0.031963470319634646,
+    "ext_price": 2.07,
+    "ext_chg": -0.0547945205479452,
     "ext_session": "pre"
    },
    "news": []
@@ -1940,8 +1940,8 @@
     "last_split": "عكسي 1:40 (2026-10-13)",
     "short_available": null,
     "short_pct_float": 0.0841,
-    "ext_price": 3.67,
-    "ext_chg": 0.04261363636363624,
+    "ext_price": 3.7,
+    "ext_chg": 0.05113636363636376,
     "ext_session": "pre"
    },
    "news": []
@@ -2152,8 +2152,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 2.6984,
-    "ext_chg": -0.043120537,
+    "ext_price": 2.71,
+    "ext_chg": -0.039007056000000005,
     "ext_session": "pre"
    },
    "news": [
@@ -3415,8 +3415,8 @@
     "last_split": "عكسي 1:20 (2026-04-06)",
     "short_available": null,
     "short_pct_float": 0.0143,
-    "ext_price": 0.5534,
-    "ext_chg": 0.0025362208000000003,
+    "ext_price": 0.56,
+    "ext_chg": 0.014492784000000002,
     "ext_session": "pre"
    },
    "news": []
@@ -8579,7 +8579,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.6984,
+   "price": 2.71,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8597,8 +8597,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8681,7 +8681,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.76,
+   "price": 2.78,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8701,7 +8701,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 13%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 12%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8753,11 +8753,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 377908.0,
-   "price": 332.98
+   "volume": 408516.0,
+   "price": 334.11
   },
   "SNDL": {
-   "volume": 546.0,
+   "volume": 970.0,
    "price": 1.35
   }
  }

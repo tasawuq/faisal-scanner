@@ -1,11 +1,11 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-03T18:07 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-03T19:07 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $LGHL — قاع نظيف
 - السعر 2.07 (بري/أفتر 2.11) | سحب سيولة ثم استرداد الدعم
 - البيانات: سنغافوري - Capital Markets - قسم 1:20 (2026-09-10) افتتاح 8.21 - اعلى 9.54 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 0.05M - سبق صعد من 39.24 (2026-07-13) إلى 117.8 (2026-07-14) +200%
-- الأخبار: Home Depot Has Raised Its Dividend 17 Straight Years. Here's What $10,000 Invested Pays Annually. (Nov 3, 2026) | While the Rest of the Market Focuses on the Anthropic IPO, These Are My Top 2 Stocks to Buy in November (Nov 3, 2026) | Stocks Supported by Strength in Chipmakers (Nov 3, 2026)
+- الأخبار: Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026) | Transcat, Inc. Reports Fiscal Second Quarter 2027 Total Revenue of $97.1 Million (Nov 3, 2026)
 - منطقة الطلب 2–2.02 | طلبات Limit: 2.02 / 2.01 / 2 | الخروج: إغلاق يومي تحت 1.9 | الأهداف 2.15 / 2.47 | منطقة أعمق (غسل) 1.7–1.8
 - شروط ص86 (يومي): 9/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.67 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 20K مقابل متوسط شموع البيع 43K (ص85/ص86)
@@ -49,7 +49,7 @@
 - متى يكون جاهزاً: اختبار منطقة 0.505–0.51 وفشل كسرها (أو سحب سيولة تحت 0.505 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.404–0.4545، ص54)
 
 ## $RENT — فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 2.25 (بري/أفتر 2.185) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 2.25 (بري/أفتر 2.19) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: أمريكي - Apparel Retail - قسم 1:20 (2024-04-03) - الشورت المتاح: غير متوفر - فلوت 0.27M - عدد الأسهم 33.8M - سبق صعد من 4.1 (2025-11-21) إلى 9.51 (2025-12-17) +132%
 - الأخبار: Rent the Runway (RENT) Q2 2026 Earnings Call Transcript (Sep 15, 2026) | Rent the Runway Q2 Earnings Call Highlights (Sep 11, 2026) | Rent The Runway Q2 Net Loss Narrows As Revenue Rises, Appoints New CEO; Stock Up Over 4% (Sep 11, 2026)
 - منطقة الطلب 1.958–2.018 | طلبات Limit: 2.01 / 1.98 / 1.96 | الخروج: إغلاق يومي تحت 1.96 | الأهداف 2.348 / 2.47 | منطقة أعمق (غسل) 1.673–1.724
@@ -58,7 +58,7 @@
 - متى يكون جاهزاً: رجوع لاختبار 2.0 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 2.02–1.96
 
 ## $ELPW — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / نموذج W
-- السعر 2.82 (بري/أفتر 2.704) | إعادة اختبار خط العنق بنجاح
+- السعر 2.82 (بري/أفتر 2.76) | إعادة اختبار خط العنق بنجاح
 - البيانات: صيني - Electrical Equipment & Parts - قسم 1:45 (2026-08-10) افتتاح 4.63 - اعلى 5.59 - الشورت المتاح: غير متوفر - فلوت 0.15M - عدد الأسهم 0.93M - سبق صعد من 1018.8 (2026-01-29) إلى 54972.0 (2026-01-30) +5296%
 - الأخبار: After Hours Most Active for Jan 30, 2026 :  HBAN, FITB, CADE, NVDA, ELPW, AAPL, CMA, IXUS, AHR, PFE, BROS, ELME (Jan 30, 2026) | Elong Power Holding Limited Enters Strategic Cooperation Agreement with Indonesia's BPKN to Enhance New Energy Sector (Jul 8, 2025) | Elong Power Holding Limited Faces Nasdaq Compliance Challenges with Market Value and Bid Price Notifications (Mar 25, 2025)
 - منطقة الطلب 2.43–2.505 | طلبات Limit: 2.5 / 2.47 / 2.44 | الخروج: إغلاق يومي تحت 2.4 | الأهداف 2.86 / 3.4 | منطقة أعمق (غسل) 2.198–2.264
@@ -109,7 +109,7 @@
 ## $SUGP — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / نموذج W
 - السعر 1.66 | نموذج W قيد التكوين
 - البيانات: صيني (هونغ كونغ) - Security & Protection Services - قسم 1:6 (2026-10-07) افتتاح 2.51 - اعلى 2.72 - الشورت المتاح: غير متوفر - فلوت 0.11M - عدد الأسهم 0.24M - سبق صعد من 19.8 (2026-06-04) إلى 76.5 (2026-06-16) +286%
-- الأخبار: Home Depot Has Raised Its Dividend 17 Straight Years. Here's What $10,000 Invested Pays Annually. (Nov 3, 2026) | While the Rest of the Market Focuses on the Anthropic IPO, These Are My Top 2 Stocks to Buy in November (Nov 3, 2026) | Stocks Supported by Strength in Chipmakers (Nov 3, 2026)
+- الأخبار: Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026) | Transcat, Inc. Reports Fiscal Second Quarter 2027 Total Revenue of $97.1 Million (Nov 3, 2026)
 - منطقة الطلب 1.47–1.601 | طلبات Limit: 1.6 / 1.54 / 1.48 | الخروج: إغلاق يومي تحت 1.47 | الأهداف 1.68 / 1.72 | منطقة أعمق (غسل) 1.25–1.323
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.81 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)؛ نموذج W ما اكتمل: كسر خط العنق 1.73 والثبات (ص25)
@@ -137,7 +137,7 @@
 - ⚠️ اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $YYAI — فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.8092 (بري/أفتر 0.809) | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
+- السعر 0.8092 (بري/أفتر 0.805) | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
 - البيانات: أمريكي - Software - Infrastructure - قسم 1:20 (2026-08-17) افتتاح 1.42 - اعلى 1.57 - الشورت المتاح: غير متوفر - فلوت 4.57M - عدد الأسهم 4.58M - سبق صعد من 616.0 (2025-12-31) إلى 1536.0 (2026-01-26) +149%
 - الأخبار: Friday 1/23 Insider Buying Report: YYAI, COSM (Jan 23, 2026) | Thursday 1/8 Insider Buying Report: NTLA, YYAI (Jan 8, 2026) | Connexa, JuCoin Ink $500 Mln Deal To Launch New Cryptocurrency Exchange (Aug 25, 2025)
 - منطقة الطلب 0.7634–0.7868 | طلبات Limit: 0.7867 / 0.7751 / 0.7635 | الخروج: إغلاق يومي تحت 0.7556 | الأهداف 0.825 / 0.881 | منطقة أعمق (غسل) 0.6524–0.6722
@@ -174,7 +174,7 @@
 - متى يكون جاهزاً: اختبار منطقة 1.48–1.49 وفشل كسرها (أو سحب سيولة تحت 1.37 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.18–1.33، ص54)
 
 ## $DGNX — 🚩 علم/اختراق بعد قاعدة
-- السعر 1.49 (بري/أفتر 1.45) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 1.49 (بري/أفتر 1.4) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: بريطاني - Software - Application - قسم 1:8 (2026-04-28) افتتاح 3.66 - اعلى 3.81 - الشورت المتاح: غير متوفر - فلوت 6.62M - عدد الأسهم 50.1M - سبق صعد من 0.85 (2026-06-23) إلى 1.88 (2026-06-29) +121%
 - الأخبار: Diginex CEO Mark Blick Steps Down; Appoints Lubomila Jordanova As Successor (Jan 28, 2026) | Diginex Inks MOU To Acquire The Remedy Project For Undisclosed Terms (Nov 21, 2025) | Diginex Limited Reports 57% Revenue Increase and Strategic Acquisitions in Fiscal Year 2025 Results (Jul 11, 2025)
 - منطقة الطلب 1.392–1.434 | طلبات Limit: 1.43 / 1.42 / 1.4 | الخروج: إغلاق يومي تحت 1.33 | الأهداف 1.5 / 1.585 | منطقة أعمق (غسل) 1.317–1.357
@@ -233,7 +233,7 @@
 - ⚠️ اختراق وهمي سابق (Bull Trap — ص19، ص57)، سهم صيني عالي التذبذب
 
 ## $AIIO — فلووت منخفض جداً / قاع نظيف
-- السعر 0.552 (بري/أفتر 0.5525) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.552 (بري/أفتر 0.5599) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: إماراتي - Software - Infrastructure - قسم 1:20 (2026-04-06) افتتاح 1.08 - اعلى 9.2 - الشورت المتاح: غير متوفر - فلوت 1.05M - عدد الأسهم 110.2M - سبق صعد من 0.54 (2026-04-30) إلى 9.2 (2026-05-14) +1604%
 - الأخبار: Robo.ai Issues 2026 Revenue Outlook (Oct 6, 2026) | Robo.ai To Acquire 51% Stake In Chinasky Car Trading (Feb 25, 2026) | NWTN Secures $100 Mln UAE Strategic Investment From SEET (Jul 16, 2025)
 - منطقة الطلب 0.541–0.5464 | طلبات Limit: 0.5464 / 0.5437 / 0.5411 | الخروج: إغلاق يومي تحت 0.541 | الأهداف 0.615 / 0.663 | منطقة أعمق (غسل) 0.4599–0.4869
@@ -244,7 +244,7 @@
 ## $MGN — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 3.57 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: ماليزي - Engineering & Construction - قسم 1:30 (2026-09-17) افتتاح 3.93 - اعلى 4.97 - الشورت المتاح: غير متوفر - فلوت 0.87M - عدد الأسهم 16.1M - سبق صعد من 3.0 (2026-09-08) إلى 25.14 (2026-09-09) +738%
-- الأخبار: Home Depot Has Raised Its Dividend 17 Straight Years. Here's What $10,000 Invested Pays Annually. (Nov 3, 2026) | While the Rest of the Market Focuses on the Anthropic IPO, These Are My Top 2 Stocks to Buy in November (Nov 3, 2026) | Stocks Supported by Strength in Chipmakers (Nov 3, 2026)
+- الأخبار: Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026) | Transcat, Inc. Reports Fiscal Second Quarter 2027 Total Revenue of $97.1 Million (Nov 3, 2026)
 - منطقة الطلب 3.425–3.459 | طلبات Limit: 3.45 / 3.44 / 3.43 | الخروج: إغلاق يومي تحت 3.42 | الأهداف 3.76 / 3.82 | منطقة أعمق (غسل) 3.237–3.335
 - شروط ص86 (يومي): 8/11 — ناقص: تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 3.49 أعلى من اللي قبله 1.95، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 9K مقابل متوسط شموع البيع 91K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)؛ توه مدبل (من 1.95 إلى 4.0) — «فيه خطوره… غير امن الان» (ص59)
@@ -314,7 +314,7 @@
 ## $DFNS — فلووت منخفض جداً
 - السعر 3.49 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: أمريكي - Aerospace & Defense - قسم 1:125 (2026-07-20) افتتاح 5.15 - اعلى 91.0 - الشورت المتاح: غير متوفر - فلوت 1.60M - عدد الأسهم 3.25M - سبق صعد من 3.7 (2026-07-24) إلى 91.0 (2026-07-30) +2359%
-- الأخبار: Douglas Dynamics (PLOW) Q3 2026 Earnings Call Transcript (Nov 3, 2026) | See Which Recent 13F Filers Hold AXON But Three Seasons Wealth Exited (Nov 3, 2026) | Bread Financial Holdings, Inc. Files Certificate of Designations for Series C Preferred Stock and Issues 5,000,000 Depositary Shares (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 3.7–3.737 | طلبات Limit: 3.73 / 3.72 / 3.71 | الخروج: إغلاق يومي تحت 3.37 | الأهداف 4 / 4.32 | منطقة أعمق (غسل) 3.145–3.33
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.87 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 29 (الحالي 30) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 3.7 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)
@@ -439,7 +439,7 @@
 ## $LBGJ — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
 - السعر 1.53 | ارتداد مؤكد من الدعم
 - البيانات: صيني - Specialty Industrial Machinery - قسم 1:200 (2026-08-03) افتتاح 3.74 - اعلى 7.67 - الشورت المتاح: غير متوفر - فلوت 2.90M - عدد الأسهم 0.62M - سبق صعد من 600.0 (2026-03-17) إلى 2200.0 (2026-03-18) +267%
-- الأخبار: Geospace Technologies Corporation Enters $25 million Revolving Credit Facility (Nov 3, 2026) | Evaxion A/S to Present Biomarker Data from phase 2 Trial of EVX-01 at SITC 2026 (Nov 3, 2026) | United Fire Group Inc. Q3 Income Drops (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 1.45–1.464 | طلبات Limit: 1.46 / 1.46 / 1.46 | الخروج: إغلاق يومي تحت 1.45 | الأهداف 1.56 / 1.65 | منطقة أعمق (غسل) 1.277–1.316
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، فوليوم يتحسن مع الارتداد
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.65 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 34) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 928K مقابل متوسط شموع البيع 14K (ص85/ص86)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -514,7 +514,7 @@
 - متى يكون جاهزاً: اختبار منطقة 0.887–0.91 وفشل كسرها (أو سحب سيولة تحت 0.887 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.7096–0.7983، ص54)
 
 ## $QCLS — طبي — الخبر يحرّكه / قاع نظيف
-- السعر 0.425 (بري/أفتر 0.425) | سحب سيولة ثم استرداد الدعم
+- السعر 0.425 (بري/أفتر 0.4115) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Computer Hardware - قسم 1:100 (2025-09-02) - الشورت المتاح: غير متوفر - فلوت 7.90M - عدد الأسهم 8.19M - سبق صعد من 0.42 (2026-09-15) إلى 2.16 (2026-09-16) +414%
 - الأخبار: Q/C Technologies Appoints Yossef Ehrlichman As Chief Technology Officer (Sep 15, 2026)
 - منطقة الطلب 0.42–0.4242 | طلبات Limit: 0.4241 / 0.422 / 0.42 | الخروج: إغلاق يومي تحت 0.4101 | الأهداف 0.43 / 0.5135 | منطقة أعمق (غسل) 0.357–0.378
@@ -526,7 +526,7 @@
 ## $LSTA — طبي — الخبر يحرّكه / نموذج W
 - السعر 1.09 (بري/أفتر 1.09) | نموذج W قيد التكوين
 - البيانات: أمريكي - Biotechnology - قسم 1:15 (2022-09-15) - الشورت المتاح: غير متوفر - فلوت 6.91M - عدد الأسهم 10.8M - سبق صعد من 1.81 (2025-12-29) إلى 4.89 (2026-01-27) +170%
-- الأخبار: Stocks Supported by Strength in Chipmakers (Nov 3, 2026) | Moderna's Cancer Vaccine Is Incredibly Promising, but This Could Be a Major Obstacle to Its Success (Nov 3, 2026) | Geospace Technologies Corporation Enters $25 million Revolving Credit Facility (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 0.96–1.01 | طلبات Limit: 1.01 / 0.9849 / 0.96 | الخروج: إغلاق يومي تحت 0.96 | الأهداف 1.12 / 1.15 | منطقة أعمق (غسل) 0.816–0.864
 - شروط ص86 (يومي): 8/11 — ناقص: RSI وصل 23–27، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 32 (الحالي 45) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: فوليومها 30K مقابل متوسط شموع البيع 48K (ص85/ص86)؛ نموذج W ما اكتمل: كسر خط العنق 1.12 والثبات (ص25)
@@ -556,7 +556,7 @@
 ## $FRTT — طرح جديد/تاريخ قصير / فلووت منخفض جداً / قاع نظيف
 - السعر 0.5071 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: كندي - Household & Personal Products - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.24M - عدد الأسهم 15.0M - سبق صعد من 1.7 (2026-06-16) إلى 3.92 (2026-06-24) +131%
-- الأخبار: Home Depot Has Raised Its Dividend 17 Straight Years. Here's What $10,000 Invested Pays Annually. (Nov 3, 2026) | While the Rest of the Market Focuses on the Anthropic IPO, These Are My Top 2 Stocks to Buy in November (Nov 3, 2026) | Stocks Supported by Strength in Chipmakers (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 0.5–0.505 | طلبات Limit: 0.505 / 0.5025 / 0.5 | الخروج: إغلاق يومي تحت 0.4313 | الأهداف 0.511 / 0.55 | منطقة أعمق (غسل) 0.425–0.45
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، MACD يتحسن أو تقاطع، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.6444 فوق السعر) (ص66/ص82/ص84/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.4313 مو أعلى من اللي قبله 0.5، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 84K مقابل متوسط شموع البيع 35056K (ص85/ص86)
@@ -651,7 +651,7 @@
 ## $GYGY — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 0.37 | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Software - Infrastructure - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.41M - عدد الأسهم 14.4M - سبق صعد من 1.7 (2026-08-18) إلى 4.09 (2026-08-20) +141%
-- الأخبار: Stocks Supported by Strength in Chipmakers (Nov 3, 2026) | Moderna's Cancer Vaccine Is Incredibly Promising, but This Could Be a Major Obstacle to Its Success (Nov 3, 2026) | Geospace Technologies Corporation Enters $25 million Revolving Credit Facility (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 0.37–0.3737 | طلبات Limit: 0.3737 / 0.3719 / 0.3701 | الخروج: إغلاق يومي تحت 0.31 | الأهداف 0.39 / 0.4045 | منطقة أعمق (غسل) 0.3069–0.3162
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.4045 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 0.37 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 435K مقابل متوسط شموع البيع 805K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)
@@ -661,7 +661,7 @@
 ## $EXYN — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 2.52 | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Software - Infrastructure - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.54M - عدد الأسهم 7.95M - سبق صعد من 1.5 (2026-08-20) إلى 4.32 (2026-08-26) +188%
-- الأخبار: Stocks Supported by Strength in Chipmakers (Nov 3, 2026) | Moderna's Cancer Vaccine Is Incredibly Promising, but This Could Be a Major Obstacle to Its Success (Nov 3, 2026) | Geospace Technologies Corporation Enters $25 million Revolving Credit Facility (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 2.43–2.454 | طلبات Limit: 2.45 / 2.45 / 2.44 | الخروج: إغلاق يومي تحت 2.27 | الأهداف 2.56 / 2.632 | منطقة أعمق (غسل) 2.079–2.142
 - شروط ص86 (يومي): 5/11 — ناقص: RSI وصل 23–27، MACD يتحسن أو تقاطع، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، ضغط بيع سابق ثم ضعف الهبوط، محفز أو هدف علوي
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 32 (الحالي 49) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 2.43 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: فوليومها 84K مقابل متوسط شموع البيع 91K (ص85/ص86)
@@ -678,7 +678,7 @@
 - متى يكون جاهزاً: اختبار منطقة 4.35–4.39 وفشل كسرها (أو سحب سيولة تحت 4.35 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (3.48–3.91، ص54)
 
 ## $AIXI — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
-- السعر 2.97 (بري/أفتر 2.95) | سحب سيولة ثم استرداد الدعم
+- السعر 2.97 (بري/أفتر 2.92) | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني - Software - Application - قسم 1:7 (2026-09-08) افتتاح 3.26 - اعلى 3.84 - الشورت المتاح: غير متوفر - فلوت 0.56M - عدد الأسهم 0.57M - سبق صعد من 11.34 (2026-04-01) إلى 379.4 (2026-04-07) +3246%
 - الأخبار: Pre-Market Most Active for Oct 8, 2026 :  AIXI, SQQQ, TQQQ, IBIT, APLD, INTC, NOK, STLA, HLN, WOLF, IONQ, BABA (Oct 8, 2026) | After Hours Most Active for Oct 7, 2026 :  GRAB, FRSH, AIXI, HUT, CSCO, NVDA (Oct 7, 2026) | Pre-Market Most Active for Oct 6, 2026 :  AIXI, SPCX, SQQQ, TQQQ, NVDA, TSLL, STLA, NOK, BMNR, NKE, JOBY, SMR (Oct 6, 2026)
 - منطقة الطلب 2.8–2.828 | طلبات Limit: 2.82 / 2.81 / 2.8 | الخروج: إغلاق يومي تحت 2.68 | الأهداف 3.02 / 3.25 | منطقة أعمق (غسل) 2.38–2.52
@@ -710,7 +710,7 @@
 ## $YJ — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
 - السعر 1.205 | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني - Internet Retail - قسم 1:4 (2024-09-13) - الشورت المتاح: غير متوفر - فلوت 1.87M - عدد الأسهم 2.55M - سبق صعد من 1.18 (2026-07-30) إلى 13.97 (2026-08-07) +1084%
-- الأخبار: Stocks Supported by Strength in Chipmakers (Nov 3, 2026) | Moderna's Cancer Vaccine Is Incredibly Promising, but This Could Be a Major Obstacle to Its Success (Nov 3, 2026) | Geospace Technologies Corporation Enters $25 million Revolving Credit Facility (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 1.18–1.192 | طلبات Limit: 1.19 / 1.18 / 1.18 | الخروج: إغلاق يومي تحت 1.13 | الأهداف 1.25 / 1.375 | منطقة أعمق (غسل) 1.099–1.132
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، دعم/قاع واضح، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.46 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 33 (الحالي 34) (ص65/ص86)؛ دعم/قاع واضح: منطقة 1.18–1.19 لمسها 1 مرات خلال 2 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)
@@ -788,7 +788,7 @@
 ## $LPCN — طبي — الخبر يحرّكه / قاع نظيف
 - السعر 1.46 | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:17 (2023-05-12) - الشورت المتاح: غير متوفر - فلوت 6.51M - عدد الأسهم 8.24M - سبق صعد من 3.05 (2025-12-15) إلى 12.37 (2026-01-15) +306%
-- الأخبار: Weekly Buzz: RHHBY, NVS, PFE Win FDA Nod; CRBU Scales Back; PCVX, ABBV Report Positive Trial Data (Oct 9, 2026) | Here's Why You Should Add LPCN Stock to Your Portfolio Now (Oct 8, 2026) | Lipocine Jumps On TLANDO's Health Canada Approval For Testosterone Replacement Therapy (Oct 7, 2026)
+- الأخبار: Ardelyx (ARDX) Reports Break-Even Earnings for Q3 (Nov 3, 2026) | Weekly Buzz: RHHBY, NVS, PFE Win FDA Nod; CRBU Scales Back; PCVX, ABBV Report Positive Trial Data (Oct 9, 2026) | Here's Why You Should Add LPCN Stock to Your Portfolio Now (Oct 8, 2026)
 - منطقة الطلب 1.4–1.414 | طلبات Limit: 1.41 / 1.4 / 1.4 | الخروج: إغلاق يومي تحت 1.36 | الأهداف 1.47 / 1.56 | منطقة أعمق (غسل) 1.19–1.26
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.6 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: فوليومها 188K مقابل متوسط شموع البيع 198K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -837,7 +837,7 @@
 ## $RYOJ — فلووت منخفض جداً
 - السعر 2.55 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: ياباني - Consulting Services - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 2.54M - عدد الأسهم 11.6M - سبق صعد من 1.56 (2026-05-21) إلى 8.1 (2026-05-22) +419%
-- الأخبار: Geospace Technologies Corporation Enters $25 million Revolving Credit Facility (Nov 3, 2026) | Evaxion A/S to Present Biomarker Data from phase 2 Trial of EVX-01 at SITC 2026 (Nov 3, 2026) | United Fire Group Inc. Q3 Income Drops (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 2.69–2.75 | طلبات Limit: 2.75 / 2.72 / 2.7 | الخروج: إغلاق يومي تحت 2.05 | الأهداف 2.82 / 2.95 | منطقة أعمق (غسل) 2.574–2.65
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.61 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 27 (الحالي 42) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 2.69 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 2.05 مو أعلى من اللي قبله 2.75، والشموع تتقلص (ص12/ص13)
@@ -887,7 +887,7 @@
 ## $ELOG — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
 - السعر 0.7547 | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني - Integrated Freight & Logistics - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.38M - عدد الأسهم 12.8M - سبق صعد من 0.398 (2026-09-21) إلى 1.65 (2026-10-13) +315%
-- الأخبار: Stocks Supported by Strength in Chipmakers (Nov 3, 2026) | Moderna's Cancer Vaccine Is Incredibly Promising, but This Could Be a Major Obstacle to Its Success (Nov 3, 2026) | Geospace Technologies Corporation Enters $25 million Revolving Credit Facility (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 0.728–0.7353 | طلبات Limit: 0.7352 / 0.7316 / 0.728 | الخروج: إغلاق يومي تحت 0.72 | الأهداف 0.77 / 0.8 | منطقة أعمق (غسل) 0.6168–0.6355
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، MACD يتحسن أو تقاطع، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.9887 فوق السعر) (ص66/ص82/ص84/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ فوليوم يتحسن مع الارتداد: فوليومها 15K مقابل متوسط شموع البيع 119K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)
@@ -907,7 +907,7 @@
 ## $POM — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 1.48 | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني - Pharmaceutical Retailers - قسم 1:18 (2026-06-22) افتتاح 1.41 - اعلى 3.01 - الشورت المتاح: غير متوفر - فلوت 1.12M - عدد الأسهم 2.58M - سبق صعد من 0.433 (2026-10-20) إلى 3.01 (2026-10-21) +595%
-- الأخبار: Stocks Supported by Strength in Chipmakers (Nov 3, 2026) | Moderna's Cancer Vaccine Is Incredibly Promising, but This Could Be a Major Obstacle to Its Success (Nov 3, 2026) | Geospace Technologies Corporation Enters $25 million Revolving Credit Facility (Nov 3, 2026)
+- الأخبار: Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026) | The Manitowoc Company, Inc. Reports Third-Quarter 2026 Results and Raises Full-Year Guidance (Nov 3, 2026)
 - منطقة الطلب 1.41–1.424 | طلبات Limit: 1.42 / 1.42 / 1.41 | الخروج: إغلاق يومي تحت 1.3 | الأهداف 1.495 / 1.56 | منطقة أعمق (غسل) 1.208–1.244
 - شروط ص86 (يومي): 7/11 — ناقص: RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 34 (الحالي 53) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 200K مقابل متوسط شموع البيع 5176K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)؛ محفز أو هدف علوي: تحت مقاومة مباشرة 1.5 (+5.5%) والخسارة −8.9% (ص66/ص84/ص88)
@@ -1036,7 +1036,7 @@
 ## $FTFT — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest
 - السعر 3.73 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Software - Application - قسم 1:4 (2026-08-31) افتتاح 2.21 - اعلى 9.74 - الشورت المتاح: غير متوفر - فلوت 5.39M - عدد الأسهم 8.08M - سبق صعد من 1.22 (2026-09-08) إلى 9.74 (2026-09-16) +698%
-- الأخبار: Douglas Dynamics (PLOW) Q3 2026 Earnings Call Transcript (Nov 3, 2026) | See Which Recent 13F Filers Hold AXON But Three Seasons Wealth Exited (Nov 3, 2026) | Bread Financial Holdings, Inc. Files Certificate of Designations for Series C Preferred Stock and Issues 5,000,000 Depositary Shares (Nov 3, 2026)
+- الأخبار: Why Herbalife Stock Is Up Today (Nov 3, 2026) | Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026)
 - منطقة الطلب 3.36–3.394 | طلبات Limit: 3.39 / 3.38 / 3.36 | الخروج: إغلاق يومي تحت 1.8 | الأهداف 3.76 / 4.11 | منطقة أعمق (غسل) 3.01–3.101
 - شروط ص86 (يومي): 6/11 — ناقص: RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، ضغط بيع سابق ثم ضعف الهبوط، محفز أو هدف علوي
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 34 (الحالي 59) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 3.36 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.8 أعلى من اللي قبله 1.25، والشموع ما تقلصت (ص12/ص13)؛ ضغط بيع سابق ثم ضعف الهبوط: هبط 71% من أعلى 90 يوم، والبيع ما ضعف بعد (ص85)
@@ -1056,7 +1056,7 @@
 ## $SLGB — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
 - السعر 0.2748 | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.78M - عدد الأسهم 45.0M - سبق صعد من 0.924 (2025-12-26) إلى 4.22 (2026-01-28) +357%
-- الأخبار: Stocks Supported by Strength in Chipmakers (Nov 3, 2026) | Moderna's Cancer Vaccine Is Incredibly Promising, but This Could Be a Major Obstacle to Its Success (Nov 3, 2026) | Geospace Technologies Corporation Enters $25 million Revolving Credit Facility (Nov 3, 2026)
+- الأخبار: Why Herbalife Stock Is Up Today (Nov 3, 2026) | Stocks Finished Mostly Higher on Chipmaker Strength (Nov 3, 2026) | Simply Good Foods: 3 Key Takeaways for Long-Term Investors (Nov 3, 2026)
 - منطقة الطلب 0.2362–0.2434 | طلبات Limit: 0.2434 / 0.2398 / 0.2362 | الخروج: إغلاق يومي تحت 0.2338 | الأهداف 0.3047 / 0.316 | منطقة أعمق (غسل) 0.2–0.206
 - شروط ص86 (يومي): 6/11 — ناقص: RSI وصل 23–27، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 28 (الحالي 51) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: ما رجع لاختبار 0.241 بعد أو ما ثبت فوقه (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: الاختراق بذيل علوي طويل وإغلاق ضعيف — علامة اختراق وهمي (ص19) (ص85/ص86)؛ شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)

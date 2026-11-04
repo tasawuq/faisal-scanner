@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-04T10:55:37.324106+00:00",
- "generated_at_et": "2026-11-04T05:55:37.324106-05:00",
+ "generated_at_utc": "2026-11-04T11:05:37.324281+00:00",
+ "generated_at_et": "2026-11-04T06:05:37.324281-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1069,8 +1069,8 @@
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.0211,
-    "ext_price": 1.36,
-    "ext_chg": -0.08724833,
+    "ext_price": 1.3503,
+    "ext_chg": -0.09375842000000001,
     "ext_session": "pre"
    },
    "news": []
@@ -1289,8 +1289,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 3.0094,
-    "ext_chg": 0.013265947,
+    "ext_price": 3.0,
+    "ext_chg": 0.010101,
     "ext_session": "pre"
    },
    "news": []
@@ -2152,8 +2152,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 2.7039,
-    "ext_chg": -0.041170153999999994,
+    "ext_price": 2.729,
+    "ext_chg": -0.032269450000000005,
     "ext_session": "pre"
    },
    "news": [
@@ -8569,14 +8569,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 2.7039,
+   "price": 2.729,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8750,8 +8750,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 308917.0,
-   "price": 332.35
+   "volume": 327232.0,
+   "price": 332.78
   },
   "SNDL": {
    "volume": 546.0,

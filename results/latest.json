@@ -1,14 +1,14 @@
 {
- "generated_at_utc": "2026-11-04T09:01:57.063205+00:00",
- "generated_at_et": "2026-11-04T04:01:57.063205-05:00",
+ "generated_at_utc": "2026-11-04T09:15:37.322451+00:00",
+ "generated_at_et": "2026-11-04T04:15:37.322451-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1296,
-  "with_data": 1295,
-  "short_history": 13,
+  "with_data": 1296,
+  "short_history": 14,
   "price_out": 66,
-  "low_volume": 486,
+  "low_volume": 485,
   "outside_float": 290,
   "nasdaq": 3431,
   "all": 5851,
@@ -16,7 +16,7 @@
  },
  "counts": {
   "universe": 5851,
-  "analyzed": 730,
+  "analyzed": 731,
   "ready": 0,
   "watch": 110,
   "momentum": 0,
@@ -229,7 +229,10 @@
     },
     "last_split": "عكسي 1:150 (2026-09-28)",
     "short_available": null,
-    "short_pct_float": 0.0731
+    "short_pct_float": 0.0731,
+    "ext_price": 2.09,
+    "ext_chg": 0.02450980392156854,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -431,7 +434,10 @@
     },
     "last_split": "عكسي 1:20 (2024-04-03)",
     "short_available": null,
-    "short_pct_float": 0.3418
+    "short_pct_float": 0.3418,
+    "ext_price": 2.25,
+    "ext_chg": 0.018099547511312153,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1277,8 +1283,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 2.95,
-    "ext_chg": -0.0067340004,
+    "ext_price": 2.9214,
+    "ext_chg": -0.016363622,
     "ext_session": "pre"
    },
    "news": []
@@ -1492,8 +1498,8 @@
     "last_split": "عكسي 222:1000 (2026-04-13)",
     "short_available": null,
     "short_pct_float": 0.0219,
-    "ext_price": 1.09,
-    "ext_chg": 0.00925925,
+    "ext_price": 1.0829,
+    "ext_chg": 0.0026851892,
     "ext_session": "pre"
    },
    "news": []
@@ -1710,7 +1716,10 @@
     },
     "last_split": "عكسي 1:40 (2025-12-11)",
     "short_available": null,
-    "short_pct_float": 0.0064
+    "short_pct_float": 0.0064,
+    "ext_price": 1.08,
+    "ext_chg": -0.018181818181818188,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1924,7 +1933,10 @@
     },
     "last_split": "عكسي 1:40 (2026-10-13)",
     "short_available": null,
-    "short_pct_float": 0.0841
+    "short_pct_float": 0.0841,
+    "ext_price": 3.702,
+    "ext_chg": 0.0517045454545455,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2134,8 +2146,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 2.69,
-    "ext_chg": -0.046099249999999994,
+    "ext_price": 2.7,
+    "ext_chg": -0.042553153,
     "ext_session": "pre"
    },
    "news": [
@@ -8552,7 +8564,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.69,
+   "price": 2.7,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8654,8 +8666,8 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.740000009536743,
-   "price_label": "آخر سعر",
+   "price": 2.72,
+   "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
    "added": "2026-10-21",
@@ -8674,7 +8686,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 14%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 15%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8709,8 +8721,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8726,12 +8738,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 167508.0,
-   "price": null
+   "volume": 174506.0,
+   "price": 331.62
   },
   "SNDL": {
    "volume": 486.0,
-   "price": 1.35
+   "price": 1.37
   }
  }
 }

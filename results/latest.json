@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-04T23:27:54.938299+00:00",
- "generated_at_et": "2026-11-04T18:27:54.938299-05:00",
+ "generated_at_utc": "2026-11-04T23:37:54.938427+00:00",
+ "generated_at_et": "2026-11-04T18:37:54.938427-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -1752,8 +1752,8 @@
     "last_split": "عكسي 1:20 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.0555,
-    "ext_price": 2.67,
-    "ext_chg": -0.032608695652173836,
+    "ext_price": 2.8,
+    "ext_chg": 0.01449275362318847,
     "ext_session": "post"
    },
    "news": []
@@ -2187,8 +2187,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.6099,
-    "ext_chg": 0.21300718,
+    "ext_price": 0.5683,
+    "ext_chg": 0.13027053,
     "ext_session": "post"
    },
    "news": []
@@ -8681,7 +8681,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.219,
+   "price": 1.21,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8796,8 +8796,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

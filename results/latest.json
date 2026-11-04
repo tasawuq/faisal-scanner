@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-04T09:15:37.322451+00:00",
- "generated_at_et": "2026-11-04T04:15:37.322451-05:00",
+ "generated_at_utc": "2026-11-04T09:25:37.322626+00:00",
+ "generated_at_et": "2026-11-04T04:25:37.322626-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -435,8 +435,8 @@
     "last_split": "عكسي 1:20 (2024-04-03)",
     "short_available": null,
     "short_pct_float": 0.3418,
-    "ext_price": 2.25,
-    "ext_chg": 0.018099547511312153,
+    "ext_price": 2.18,
+    "ext_chg": -0.013574660633484115,
     "ext_session": "pre"
    },
    "news": []
@@ -649,7 +649,10 @@
     },
     "last_split": "عكسي 10:55 (2012-01-17)",
     "short_available": null,
-    "short_pct_float": 0.0425
+    "short_pct_float": 0.0425,
+    "ext_price": 1.33,
+    "ext_chg": -0.036231849999999996,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -858,7 +861,10 @@
     },
     "last_split": "عكسي 1:20 (2026-09-10)",
     "short_available": null,
-    "short_pct_float": 0.2801
+    "short_pct_float": 0.2801,
+    "ext_price": 2.17,
+    "ext_chg": -0.0091324200913242,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1063,8 +1069,8 @@
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.0211,
-    "ext_price": 1.33,
-    "ext_chg": -0.10738253,
+    "ext_price": 1.35,
+    "ext_chg": -0.09395972000000001,
     "ext_session": "pre"
    },
    "news": []
@@ -1283,8 +1289,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 2.9214,
-    "ext_chg": -0.016363622,
+    "ext_price": 2.8806,
+    "ext_chg": -0.030101027,
     "ext_session": "pre"
    },
    "news": []
@@ -1934,8 +1940,8 @@
     "last_split": "عكسي 1:40 (2026-10-13)",
     "short_available": null,
     "short_pct_float": 0.0841,
-    "ext_price": 3.702,
-    "ext_chg": 0.0517045454545455,
+    "ext_price": 3.67,
+    "ext_chg": 0.04261363636363624,
     "ext_session": "pre"
    },
    "news": []
@@ -2360,7 +2366,10 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "short_pct_float": 0.0069999998
+    "short_pct_float": 0.0069999998,
+    "ext_price": 0.74,
+    "ext_chg": -0.005376344086021501,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2778,7 +2787,10 @@
     },
     "last_split": "عكسي 1:100 (2025-09-02)",
     "short_available": null,
-    "short_pct_float": 0.55689996
+    "short_pct_float": 0.55689996,
+    "ext_price": 0.4115,
+    "ext_chg": -0.020238095238095277,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3621,8 +3633,8 @@
     "last_split": "عكسي 1:20 (2026-05-04)",
     "short_available": null,
     "short_pct_float": 0.051599998,
-    "ext_price": 3.48,
-    "ext_chg": 0.0,
+    "ext_price": 3.43,
+    "ext_chg": -0.014367802,
     "ext_session": "pre"
    },
    "news": []
@@ -8538,8 +8550,8 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 0.5799999833106995,
-   "price_label": "آخر سعر",
+   "price": 0.65,
+   "price_label": "سعر البري",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
    "added": "2026-10-16",
@@ -8666,7 +8678,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.72,
+   "price": 2.71,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8738,12 +8750,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 174506.0,
-   "price": 331.62
+   "volume": 193389.0,
+   "price": 331.72
   },
   "SNDL": {
    "volume": 486.0,
-   "price": 1.37
+   "price": 1.3688
   }
  }
 }

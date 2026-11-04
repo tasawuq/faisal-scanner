@@ -682,3 +682,12 @@ def test_nasdaq_split_calendar_corrects_stale_yahoo_shares(monkeypatch):
     s2 = Signal(ticker="VCIG", price=8.16)  # Yahoo سجّل التقسيم (تاريخه بعد/يساوي) → ما نقسم مرة ثانية
     main.enrich(s2, {"VCIG": {"sharesOutstanding": 535_533, "lastSplitDate": 1793577600}}, {})
     assert s2.meta["shares"] == 535_533
+
+
+def test_implausible_yahoo_float_falls_back_to_shares():
+    """RENT 4 نوفمبر: فلوت 271 ألف مقابل 33.8M سهم (الشورت وحده 1.64M) → الفلتر على عدد الأسهم ويطلع برا ≤8M."""
+    from faisal_scanner.main import enrich
+    from faisal_scanner.pivot import Signal
+    assert enrich(Signal(ticker="RENT", price=2.29), {"RENT": {"floatShares": 271_206, "sharesOutstanding": 33_774_121}}, {}) is False
+    s = Signal(ticker="OK", price=1.5)  # فلوت 13% من عدد الأسهم: معقول (شركة مسيطر عليها) → يُعتمد الفلوت
+    assert enrich(s, {"OK": {"floatShares": 6_600_000, "sharesOutstanding": 50_000_000}}, {}) is True

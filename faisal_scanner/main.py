@@ -106,6 +106,11 @@ def enrich(sig, fund: dict, urow: dict, df=None) -> bool:
     sh = f.get("sharesOutstanding") or None
     if flt and flt < 50_000:  # بيانات غير منطقية
         flt = None
+    bad_float = None
+    if flt and sh and flt < 0.10 * sh:
+        # RENT 4 نوفمبر: Yahoo فلوت 271 ألف وعدد الأسهم 33.8M (الشورت 1.64M سهم > الفلوت نفسه = الفلوت قديم/غلط).
+        # فلوت أقل من 10% من عدد الأسهم ما نعتمده للفلتر — نستخدم عدد الأسهم (اجتهاد في النسبة 10%)
+        bad_float, flt = flt, None
     seen = SPLITS_SEEN.get(sig.ticker)
     if seen and sh:
         last = f.get("lastSplitDate")
@@ -125,6 +130,8 @@ def enrich(sig, fund: dict, urow: dict, df=None) -> bool:
         return False  # حد أعلى 8M مثل أسهم فيصل (ص56، ص59، ص90–94)؛ بدون حد أدنى (3 نوفمبر)
     if sig.meta["market_cap"] and sig.meta["market_cap"] > M.MAX_MARKET_CAP:
         return False  # ص6: Under 300M
+    if bad_float:
+        sig.flags.append(f"فلوت Yahoo {_m(bad_float)} غير منطقي مقابل عدد الأسهم {_m(sh)} — الفلتر على عدد الأسهم")
     if not known:
         sig.flags.append("الفلووت وعدد الأسهم غير معروفين — تحقق يدوياً قبل أي دخول (أسهم فيصل ≤8M)")
     elif known < 5e6:

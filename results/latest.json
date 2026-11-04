@@ -1,11 +1,11 @@
 {
- "generated_at_utc": "2026-11-04T22:07:54.937060+00:00",
- "generated_at_et": "2026-11-04T17:07:54.937060-05:00",
+ "generated_at_utc": "2026-11-04T22:17:54.937177+00:00",
+ "generated_at_et": "2026-11-04T17:17:54.937177-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1294,
-  "with_data": 1293,
+  "with_data": 1294,
   "short_history": 14,
   "price_out": 70,
   "low_volume": 490,
@@ -16,7 +16,7 @@
  },
  "counts": {
   "universe": 5850,
-  "analyzed": 719,
+  "analyzed": 720,
   "ready": 0,
   "watch": 95,
   "momentum": 0,
@@ -1752,8 +1752,8 @@
     "last_split": "عكسي 1:20 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.0555,
-    "ext_price": 2.79,
-    "ext_chg": 0.010869565217391353,
+    "ext_price": 2.81,
+    "ext_chg": 0.018115942028985588,
     "ext_session": "post"
    },
    "news": []
@@ -2187,8 +2187,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.525,
-    "ext_chg": 0.04415272,
+    "ext_price": 0.51,
+    "ext_chg": 0.014319814,
     "ext_session": "post"
    },
    "news": []
@@ -8612,8 +8612,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 2.58,
-    "ext_chg": 0.027888419999999997,
+    "ext_price": 2.608,
+    "ext_chg": 0.039043844,
     "ext_session": "post"
    },
    "news": []
@@ -8651,7 +8651,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.58,
+   "price": 2.608,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8669,8 +8669,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -8685,7 +8685,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.14,
+   "price": 1.2093,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8711,7 +8711,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.56,
+   "price": 1.42,
    "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8729,9 +8729,9 @@
      2.18
     ]
    },
-   "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 10%",
+   "state": "BELOW_STOP",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 1.49 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

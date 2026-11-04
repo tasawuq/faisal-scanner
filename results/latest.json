@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-04T21:47:54.936628+00:00",
- "generated_at_et": "2026-11-04T16:47:54.936628-05:00",
+ "generated_at_utc": "2026-11-04T21:57:54.936787+00:00",
+ "generated_at_et": "2026-11-04T16:57:54.936787-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -234,7 +234,10 @@
     },
     "last_split": "عكسي 10:55 (2012-01-17)",
     "short_available": null,
-    "short_pct_float": 0.0425
+    "short_pct_float": 0.0425,
+    "ext_price": 1.31,
+    "ext_chg": -0.029629688,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -657,7 +660,7 @@
     "short_available": null,
     "short_pct_float": 0.0115,
     "ext_price": 4.72,
-    "ext_chg": 0.04888888888888876,
+    "ext_chg": 0.0,
     "ext_session": "post"
    },
    "news": []
@@ -875,8 +878,8 @@
     "last_split": "عكسي 1:250 (2026-06-29)",
     "short_available": null,
     "short_pct_float": 0.13270001,
-    "ext_price": 1.2108,
-    "ext_chg": -0.023548353,
+    "ext_price": 1.23,
+    "ext_chg": -0.0080645084,
     "ext_session": "post"
    },
    "news": []
@@ -1529,8 +1532,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 2.79,
-    "ext_chg": 0.014545441,
+    "ext_price": 2.8,
+    "ext_chg": 0.018181801,
     "ext_session": "post"
    },
    "news": []
@@ -2184,8 +2187,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.525,
-    "ext_chg": 0.04415272,
+    "ext_price": 0.515,
+    "ext_chg": 0.024264116,
     "ext_session": "post"
    },
    "news": []
@@ -8682,7 +8685,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.16,
+   "price": 1.1515,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8797,8 +8800,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

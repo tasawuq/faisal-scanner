@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-04T11:35:37.324801+00:00",
- "generated_at_et": "2026-11-04T06:35:37.324801-05:00",
+ "generated_at_utc": "2026-11-04T11:45:37.324960+00:00",
+ "generated_at_et": "2026-11-04T06:45:37.324960-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 1296,
-  "with_data": 1296,
+  "prefiltered": 1295,
+  "with_data": 1295,
   "short_history": 14,
-  "price_out": 66,
-  "low_volume": 485,
-  "outside_float": 290,
+  "price_out": 67,
+  "low_volume": 484,
+  "outside_float": 291,
   "nasdaq": 3431,
-  "all": 5851,
+  "all": 5850,
   "h4_bars": 0
  },
  "counts": {
-  "universe": 5851,
-  "analyzed": 731,
+  "universe": 5850,
+  "analyzed": 730,
   "ready": 0,
-  "watch": 110,
+  "watch": 109,
   "momentum": 0,
   "ext_quotes": 65,
   "ext_movers_5pct": 0
@@ -1289,8 +1289,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 3.0,
-    "ext_chg": 0.010101,
+    "ext_price": 2.9006,
+    "ext_chg": -0.023367027999999998,
     "ext_session": "pre"
    },
    "news": []
@@ -1504,8 +1504,8 @@
     "last_split": "عكسي 222:1000 (2026-04-13)",
     "short_available": null,
     "short_pct_float": 0.0219,
-    "ext_price": 1.11,
-    "ext_chg": 0.02777775,
+    "ext_price": 1.1171,
+    "ext_chg": 0.034351810999999996,
     "ext_session": "pre"
    },
    "news": []
@@ -2367,8 +2367,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.0069999998,
-    "ext_price": 0.707,
-    "ext_chg": -0.04973118279569899,
+    "ext_price": 0.704,
+    "ext_chg": -0.05376344086021512,
     "ext_session": "pre"
    },
    "news": []
@@ -3415,8 +3415,8 @@
     "last_split": "عكسي 1:20 (2026-04-06)",
     "short_available": null,
     "short_pct_float": 0.0143,
-    "ext_price": 0.56,
-    "ext_chg": 0.014492784000000002,
+    "ext_price": 0.55,
+    "ext_chg": -0.0036231419999999998,
     "ext_session": "pre"
    },
    "news": []
@@ -8681,7 +8681,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.78,
+   "price": 2.74,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8701,7 +8701,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 12%",
+   "state_ar": "تحت منطقة الطلب (2.93)؛ تحت مستوى الاختراق 3.12 بـ 14%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8753,11 +8753,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 408516.0,
-   "price": 334.11
+   "volume": 435204.0,
+   "price": 335.16
   },
   "SNDL": {
-   "volume": 970.0,
+   "volume": 991.0,
    "price": 1.35
   }
  }

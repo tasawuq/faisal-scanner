@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-04T11:05:37.324281+00:00",
- "generated_at_et": "2026-11-04T06:05:37.324281-05:00",
+ "generated_at_utc": "2026-11-04T11:15:37.324467+00:00",
+ "generated_at_et": "2026-11-04T06:15:37.324467-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -2367,8 +2367,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.0069999998,
-    "ext_price": 0.74,
-    "ext_chg": -0.005376344086021501,
+    "ext_price": 0.707,
+    "ext_chg": -0.04973118279569899,
     "ext_session": "pre"
    },
    "news": []
@@ -2987,7 +2987,10 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "short_pct_float": 0.0313
+    "short_pct_float": 0.0313,
+    "ext_price": 2.01,
+    "ext_chg": -0.10267857142857162,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -8594,8 +8597,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8610,7 +8613,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.729,
+   "price": 1.7291,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8750,8 +8753,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 327232.0,
-   "price": 332.78
+   "volume": 340141.0,
+   "price": 333.11
   },
   "SNDL": {
    "volume": 546.0,

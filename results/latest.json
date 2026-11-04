@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-04T13:05:37.326414+00:00",
- "generated_at_et": "2026-11-04T08:05:37.326414-05:00",
+ "generated_at_utc": "2026-11-04T13:15:37.326574+00:00",
+ "generated_at_et": "2026-11-04T08:15:37.326574-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -2152,8 +2152,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 2.69,
-    "ext_chg": -0.046099249999999994,
+    "ext_price": 2.7189,
+    "ext_chg": -0.035851054,
     "ext_session": "pre"
    },
    "news": [
@@ -8588,7 +8588,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 2.69,
+   "price": 2.7189,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8675,8 +8675,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف المتابعة 1.49 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف المتابعة 1.49 — السبب بطل",
+   "alert": true,
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8762,11 +8762,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 1173318.0,
-   "price": 337.35
+   "volume": 1227648.0,
+   "price": 337.4722
   },
   "SNDL": {
-   "volume": 45346.0,
+   "volume": 51007.0,
    "price": 1.4
   }
  }

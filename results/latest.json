@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-04T13:15:37.326574+00:00",
- "generated_at_et": "2026-11-04T08:15:37.326574-05:00",
+ "generated_at_utc": "2026-11-04T13:25:37.326749+00:00",
+ "generated_at_et": "2026-11-04T08:25:37.326749-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -862,8 +862,8 @@
     "last_split": "عكسي 1:20 (2026-09-10)",
     "short_available": null,
     "short_pct_float": 0.2801,
-    "ext_price": 2.2142,
-    "ext_chg": 0.011050228310502286,
+    "ext_price": 2.07,
+    "ext_chg": -0.0547945205479452,
     "ext_session": "pre"
    },
    "news": []
@@ -1289,8 +1289,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 2.93,
-    "ext_chg": -0.013468001,
+    "ext_price": 2.9484,
+    "ext_chg": -0.00727273,
     "ext_session": "pre"
    },
    "news": []
@@ -2579,8 +2579,8 @@
     "last_split": "عكسي 1:40 (2026-05-18)",
     "short_available": null,
     "short_pct_float": 0.026500002,
-    "ext_price": 2.21,
-    "ext_chg": 0.004545454545454408,
+    "ext_price": 2.3762,
+    "ext_chg": 0.08009090909090899,
     "ext_session": "pre"
    },
    "news": []
@@ -2991,8 +2991,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.0313,
-    "ext_price": 2.1,
-    "ext_chg": 0.04999995,
+    "ext_price": 2.08,
+    "ext_chg": 0.039999962,
     "ext_session": "pre"
    },
    "news": []
@@ -3421,8 +3421,8 @@
     "last_split": "عكسي 1:20 (2026-04-06)",
     "short_available": null,
     "short_pct_float": 0.0143,
-    "ext_price": 0.55,
-    "ext_chg": -0.0036231419999999998,
+    "ext_price": 0.5455,
+    "ext_chg": -0.011775373,
     "ext_session": "pre"
    },
    "news": []
@@ -8675,8 +8675,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 1.49 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف المتابعة 1.49 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8745,8 +8745,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8762,12 +8762,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 1227648.0,
-   "price": 337.4722
+   "volume": 1304697.0,
+   "price": 337.9
   },
   "SNDL": {
-   "volume": 51007.0,
-   "price": 1.4
+   "volume": 55451.0,
+   "price": 1.38
   }
  }
 }

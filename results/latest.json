@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-05T21:29:08.345464+00:00",
- "generated_at_et": "2026-11-05T16:29:08.345464-05:00",
+ "generated_at_utc": "2026-11-05T21:39:08.345663+00:00",
+ "generated_at_et": "2026-11-05T16:39:08.345663-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -463,8 +463,8 @@
     "last_split": "عكسي 1:20 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.0555,
-    "ext_price": 2.69,
-    "ext_chg": 0.015094339622641506,
+    "ext_price": 2.9371,
+    "ext_chg": 0.052724004000000005,
     "ext_session": "post"
    },
    "news": []
@@ -1763,7 +1763,10 @@
     },
     "last_split": "عكسي 1:5 (2026-02-06)",
     "short_available": null,
-    "short_pct_float": 0.0057
+    "short_pct_float": 0.0057,
+    "ext_price": 0.7598,
+    "ext_chg": 0.0013178533,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2188,8 +2191,8 @@
     "last_split": "عادي 3:2 (2005-04-15)",
     "short_available": null,
     "short_pct_float": 0.3937,
-    "ext_price": 1.48,
-    "ext_chg": -0.026315765,
+    "ext_price": 1.47,
+    "ext_chg": -0.032894706999999995,
     "ext_session": "post"
    },
    "news": []
@@ -2399,7 +2402,10 @@
     },
     "last_split": "عكسي 1:5 (2024-12-09)",
     "short_available": null,
-    "short_pct_float": 0.1129
+    "short_pct_float": 0.1129,
+    "ext_price": 2.2,
+    "ext_chg": -0.04761904761904756,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2615,8 +2621,8 @@
     "last_split": "عكسي 1:7 (2026-08-03)",
     "short_available": null,
     "short_pct_float": 0.043,
-    "ext_price": 1.66,
-    "ext_chg": 0.0,
+    "ext_price": 1.668,
+    "ext_chg": 0.004819287,
     "ext_session": "post"
    },
    "news": []
@@ -2834,8 +2840,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.028099999,
-    "ext_price": 0.215,
-    "ext_chg": -0.024058102587380836,
+    "ext_price": 0.2058,
+    "ext_chg": -0.06581933726736267,
     "ext_session": "post"
    },
    "news": [
@@ -3289,8 +3295,8 @@
     "last_split": "عكسي 1:20 (2026-08-17)",
     "short_available": null,
     "short_pct_float": 0.096099995,
-    "ext_price": 0.87,
-    "ext_chg": -0.059866020000000006,
+    "ext_price": 0.9234,
+    "ext_chg": -0.0021612641,
     "ext_session": "post"
    },
    "news": []
@@ -3509,8 +3515,8 @@
     "last_split": "عكسي 1:2 (2026-06-30)",
     "short_available": null,
     "short_pct_float": 0.0423,
-    "ext_price": 2.58,
-    "ext_chg": -0.019011478,
+    "ext_price": 2.52,
+    "ext_chg": -0.041825140000000004,
     "ext_session": "post"
    },
    "news": []
@@ -8707,14 +8713,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 1.23,
+   "price": 1.2699,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8740,7 +8746,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.2483,
+   "price": 1.25,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8766,7 +8772,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.52,
+   "price": 1.6177,
    "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8785,7 +8791,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 12%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 6%",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -8820,8 +8826,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 2.71 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 2.71 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   },
@@ -8847,8 +8853,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": {
     "status": "WATCH",

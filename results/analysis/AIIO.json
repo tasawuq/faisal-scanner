@@ -1,0 +1,368 @@
+{
+ "ticker": "AIIO",
+ "generated_at_et": "2026-11-05T16:39:55.378388-05:00",
+ "session": "post",
+ "quote": {
+  "reg_price": 0.4004,
+  "reg_chg": -0.21274082,
+  "reg_vol": 1070602,
+  "prev_close": 0.5086,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": 0.41,
+  "post_chg": 0.023975983,
+  "avg_vol": 1219556,
+  "state": "POST"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 1046748,
+  "sharesOutstanding": 110218075,
+  "marketCap": 60541492,
+  "shortPercentOfFloat": 0.0143,
+  "longName": "Robo.ai Inc.",
+  "country": "United Arab Emirates",
+  "industry": "Software - Infrastructure",
+  "sector": "Technology",
+  "lastSplitFactor": "1:20",
+  "lastSplitDate": 1775433600
+ },
+ "daily": {
+  "price": 0.4004,
+  "chg_1d": -0.2134,
+  "ma": {
+   "MA20": 0.7193,
+   "MA30": 0.8908,
+   "MA50": 1.2435
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 23.4,
+  "rsi_min15": 22.4,
+  "rsi_min30": 17.3,
+  "macd": {
+   "line": -0.23026,
+   "signal": -0.24492,
+   "hist_last3": [
+    0.0234,
+    0.02159,
+    0.01466
+   ],
+   "state": "إيجابي (الخط فوق الإشارة)"
+  },
+  "candles": [
+   {
+    "d": "2026-11-04",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.09803912402207475,
+    "close_pos": 0.11764671508278034,
+    "green": "False",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-11-05",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.0,
+    "close_pos": 0.047331371522124396,
+    "green": "False",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.1031,
+  "avg_vol20": 1139390,
+  "last_vol": 1070602,
+  "drawdown_90d": 0.919,
+  "high_90d": 4.96,
+  "low_10d": 0.3957,
+  "gain_from_low10": 0.012,
+  "sell_drying": true,
+  "vol_improving": false,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_pct": 16.037,
+  "distinct_closes20": 19,
+  "support_zones": [
+   {
+    "low": 3.8,
+    "high": 3.838,
+    "touches": 3,
+    "is_bottom": false,
+    "first": "2026-07-02",
+    "last": "2026-07-02"
+   },
+   {
+    "low": 3.235,
+    "high": 3.2673,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-07-10",
+    "last": "2026-07-10"
+   },
+   {
+    "low": 2.66,
+    "high": 2.6866,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-08-03",
+    "last": "2026-08-03"
+   },
+   {
+    "low": 2.51,
+    "high": 2.595,
+    "touches": 7,
+    "is_bottom": false,
+    "first": "2026-05-22",
+    "last": "2026-07-24"
+   },
+   {
+    "low": 2.39,
+    "high": 2.4139,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-06-16",
+    "last": "2026-06-16"
+   },
+   {
+    "low": 2.25,
+    "high": 2.2725,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-05-29",
+    "last": "2026-05-29"
+   },
+   {
+    "low": 1.64,
+    "high": 1.6564,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-09-02",
+    "last": "2026-09-02"
+   },
+   {
+    "low": 1.495,
+    "high": 1.51,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-09-16",
+    "last": "2026-09-16"
+   }
+  ],
+  "support_selected": null,
+  "w": null,
+  "resistances": [
+   [
+    0.495,
+    "رأس شمعة هابطة"
+   ],
+   [
+    0.663,
+    "رأس شمعة هابطة + فجوة لم تُغطَّ"
+   ],
+   [
+    0.7193,
+    "MA20 + رأس شمعة هابطة"
+   ],
+   [
+    0.742,
+    "قمة سابقة"
+   ],
+   [
+    0.855,
+    "فجوة لم تُغطَّ"
+   ],
+   [
+    0.8908,
+    "MA30"
+   ]
+  ],
+  "high_52w": 20.6,
+  "low_52w": 0.3957,
+  "last_bars": [
+   {
+    "d": "2026-10-21",
+    "o": 0.74,
+    "h": 0.743,
+    "l": 0.624,
+    "c": 0.625,
+    "v": 1395900,
+    "rsi": 23.7,
+    "hist": -0.00545
+   },
+   {
+    "d": "2026-10-22",
+    "o": 0.633,
+    "h": 0.634,
+    "l": 0.604,
+    "c": 0.604,
+    "v": 658200,
+    "rsi": 23.2,
+    "hist": -0.00842
+   },
+   {
+    "d": "2026-10-23",
+    "o": 0.607,
+    "h": 0.607,
+    "l": 0.543,
+    "c": 0.565,
+    "v": 763400,
+    "rsi": 22.4,
+    "hist": -0.00981
+   },
+   {
+    "d": "2026-10-26",
+    "o": 0.571,
+    "h": 0.61,
+    "l": 0.566,
+    "c": 0.58,
+    "v": 631200,
+    "rsi": 23.5,
+    "hist": -0.00667
+   },
+   {
+    "d": "2026-10-27",
+    "o": 0.583,
+    "h": 0.637,
+    "l": 0.541,
+    "c": 0.622,
+    "v": 1013100,
+    "rsi": 26.7,
+    "hist": 0.00089
+   },
+   {
+    "d": "2026-10-28",
+    "o": 0.644,
+    "h": 0.742,
+    "l": 0.632,
+    "c": 0.709,
+    "v": 988000,
+    "rsi": 32.8,
+    "hist": 0.01369
+   },
+   {
+    "d": "2026-10-29",
+    "o": 0.709,
+    "h": 0.733,
+    "l": 0.681,
+    "c": 0.683,
+    "v": 490800,
+    "rsi": 32.0,
+    "hist": 0.02187
+   },
+   {
+    "d": "2026-10-30",
+    "o": 0.663,
+    "h": 0.665,
+    "l": 0.588,
+    "c": 0.606,
+    "v": 446500,
+    "rsi": 29.5,
+    "hist": 0.0234
+   },
+   {
+    "d": "2026-11-02",
+    "o": 0.621,
+    "h": 0.626,
+    "l": 0.576,
+    "c": 0.576,
+    "v": 544000,
+    "rsi": 28.6,
+    "hist": 0.02365
+   },
+   {
+    "d": "2026-11-03",
+    "o": 0.598,
+    "h": 0.615,
+    "l": 0.542,
+    "c": 0.552,
+    "v": 585500,
+    "rsi": 27.8,
+    "hist": 0.0234
+   },
+   {
+    "d": "2026-11-04",
+    "o": 0.549,
+    "h": 0.554,
+    "l": 0.503,
+    "c": 0.509,
+    "v": 609900,
+    "rsi": 26.5,
+    "hist": 0.02159
+   },
+   {
+    "d": "2026-11-05",
+    "o": 0.495,
+    "h": 0.495,
+    "l": 0.3957,
+    "c": 0.4004,
+    "v": 1070602,
+    "rsi": 23.4,
+    "hist": 0.01466
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 0.41,
+  "at_price": [
+   "قمة الأفتر/البري"
+  ],
+  "above": [
+   {
+    "level": 0.4155,
+    "why": "فواب جلسة 2026-11-05",
+    "confluence": 1
+   },
+   {
+    "level": 0.495,
+    "why": "قمة يوم 2026-11-05 + رأس شمعة هابطة + قاع يوم 2026-11-04",
+    "confluence": 3
+   },
+   {
+    "level": 0.542,
+    "why": "قاع يوم 2026-11-03 + قيعان سابقة متجمعة (3)",
+    "confluence": 2
+   },
+   {
+    "level": 0.554,
+    "why": "قمة يوم 2026-11-04",
+    "confluence": 1
+   },
+   {
+    "level": 0.576,
+    "why": "قاع يوم 2026-11-02",
+    "confluence": 1
+   },
+   {
+    "level": 0.588,
+    "why": "قاع يوم 2026-10-30",
+    "confluence": 1
+   },
+   {
+    "level": 0.606,
+    "why": "إغلاقات سابقة متجمعة (3) + قمة يوم 2026-11-03",
+    "confluence": 2
+   },
+   {
+    "level": 0.626,
+    "why": "قمة يوم 2026-11-02",
+    "confluence": 1
+   }
+  ],
+  "below": [
+   {
+    "level": 0.4004,
+    "why": "قاع الأفتر/البري + قاعدة آخر ساعة 2026-11-05 + قاع يوم 2026-11-05",
+    "confluence": 3
+   }
+  ]
+ },
+ "pivot": null,
+ "momentum": null
+}

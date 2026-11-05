@@ -1,0 +1,361 @@
+{
+ "ticker": "CDT",
+ "generated_at_et": "2026-11-05T16:39:55.378388-05:00",
+ "session": "post",
+ "quote": {
+  "reg_price": 0.0423,
+  "reg_chg": -0.16895874,
+  "reg_vol": 58365920,
+  "prev_close": 0.0509,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": 0.0428,
+  "post_chg": 0.011820354,
+  "avg_vol": 5624765,
+  "state": "POST"
+ },
+ "news": [
+  {
+   "headline": "BC-Most Active Stocks",
+   "time": "2026-11-02T15:30:17+00:00"
+  },
+  {
+   "headline": "BC-Most Active Stocks",
+   "time": "2026-10-28T14:30:17+00:00"
+  }
+ ],
+ "fund": {
+  "floatShares": 21023,
+  "sharesOutstanding": 20357283,
+  "marketCap": 861113,
+  "shortPercentOfFloat": 0.1161,
+  "longName": "CDT Equity Inc.",
+  "country": "United States",
+  "industry": "Biotechnology",
+  "sector": "Healthcare",
+  "lastSplitFactor": "1:25",
+  "lastSplitDate": 1790640000
+ },
+ "daily": {
+  "price": 0.0423,
+  "chg_1d": -0.1706,
+  "ma": {
+   "MA20": 0.1947,
+   "MA30": 0.5443,
+   "MA50": 6.5076
+  },
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 15.0,
+  "rsi_min15": 15.0,
+  "rsi_min30": 15.0,
+  "macd": {
+   "line": -2.61334,
+   "signal": -3.65956,
+   "hist_last3": [
+    1.1819,
+    1.11272,
+    1.04622
+   ],
+   "state": "إيجابي (الخط فوق الإشارة)"
+  },
+  "candles": [
+   {
+    "d": "2026-11-04",
+    "hammer": "True",
+    "engulfing": "False",
+    "lower_wick": "True",
+    "strong_green": "True",
+    "upper_wick_ratio": 0.0,
+    "close_pos": 1.0,
+    "green": "True",
+    "bullish_reversal": "True"
+   },
+   {
+    "d": "2026-11-05",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.0,
+    "close_pos": 0.40506356571601027,
+    "green": "False",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.5857,
+  "avg_vol20": 17429400,
+  "last_vol": 58365920,
+  "drawdown_90d": 1.0,
+  "high_90d": 155.75,
+  "low_10d": 0.0391,
+  "gain_from_low10": 0.082,
+  "sell_drying": false,
+  "vol_improving": false,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": {
+   "d": "2026-10-23",
+   "high": 0.174,
+   "close": 0.13,
+   "vol_mult": 16.4
+  },
+  "former_runner": true,
+  "runner_pct": 2.644,
+  "distinct_closes20": 19,
+  "support_zones": [
+   {
+    "low": 198.25,
+    "high": 200.2325,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-05-26",
+    "last": "2026-05-26"
+   },
+   {
+    "low": 167.75,
+    "high": 171.5,
+    "touches": 3,
+    "is_bottom": false,
+    "first": "2026-06-08",
+    "last": "2026-06-12"
+   },
+   {
+    "low": 75.0,
+    "high": 75.75,
+    "touches": 6,
+    "is_bottom": false,
+    "first": "2026-07-16",
+    "last": "2026-07-16"
+   },
+   {
+    "low": 66.5,
+    "high": 67.165,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-08-18",
+    "last": "2026-08-18"
+   },
+   {
+    "low": 63.25,
+    "high": 63.8825,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-07-29",
+    "last": "2026-07-29"
+   }
+  ],
+  "support_selected": null,
+  "w": null,
+  "resistances": [
+   [
+    0.047,
+    "رأس شمعة هابطة"
+   ],
+   [
+    0.06,
+    "فجوة لم تُغطَّ"
+   ],
+   [
+    0.089,
+    "رأس شمعة هابطة"
+   ],
+   [
+    0.119,
+    "رأس شمعة هابطة"
+   ],
+   [
+    0.125,
+    "فجوة لم تُغطَّ"
+   ],
+   [
+    0.16,
+    "رأس شمعة هابطة"
+   ]
+  ],
+  "high_52w": 17750.0,
+  "low_52w": 0.0391,
+  "last_bars": [
+   {
+    "d": "2026-10-21",
+    "o": 0.16,
+    "h": 0.161,
+    "l": 0.138,
+    "c": 0.145,
+    "v": 1721500,
+    "rsi": 15.1,
+    "hist": 1.90199
+   },
+   {
+    "d": "2026-10-22",
+    "o": 0.141,
+    "h": 0.144,
+    "l": 0.128,
+    "c": 0.13,
+    "v": 2183500,
+    "rsi": 15.1,
+    "hist": 1.81572
+   },
+   {
+    "d": "2026-10-23",
+    "o": 0.132,
+    "h": 0.174,
+    "l": 0.125,
+    "c": 0.13,
+    "v": 5976700,
+    "rsi": 15.1,
+    "hist": 1.73115
+   },
+   {
+    "d": "2026-10-26",
+    "o": 0.119,
+    "h": 0.119,
+    "l": 0.09,
+    "c": 0.094,
+    "v": 6957400,
+    "rsi": 15.0,
+    "hist": 1.64583
+   },
+   {
+    "d": "2026-10-27",
+    "o": 0.089,
+    "h": 0.092,
+    "l": 0.076,
+    "c": 0.08,
+    "v": 5297200,
+    "rsi": 15.0,
+    "hist": 1.56218
+   },
+   {
+    "d": "2026-10-28",
+    "o": 0.09,
+    "h": 0.092,
+    "l": 0.066,
+    "c": 0.083,
+    "v": 155319600,
+    "rsi": 15.0,
+    "hist": 1.48148
+   },
+   {
+    "d": "2026-10-29",
+    "o": 0.077,
+    "h": 0.077,
+    "l": 0.069,
+    "c": 0.077,
+    "v": 7206000,
+    "rsi": 15.0,
+    "hist": 1.40291
+   },
+   {
+    "d": "2026-10-30",
+    "o": 0.068,
+    "h": 0.07,
+    "l": 0.065,
+    "c": 0.068,
+    "v": 5394900,
+    "rsi": 15.0,
+    "hist": 1.3264
+   },
+   {
+    "d": "2026-11-02",
+    "o": 0.062,
+    "h": 0.071,
+    "l": 0.054,
+    "c": 0.07,
+    "v": 106081500,
+    "rsi": 15.0,
+    "hist": 1.25288
+   },
+   {
+    "d": "2026-11-03",
+    "o": 0.066,
+    "h": 0.07,
+    "l": 0.06,
+    "c": 0.067,
+    "v": 4304200,
+    "rsi": 15.0,
+    "hist": 1.1819
+   },
+   {
+    "d": "2026-11-04",
+    "o": 0.05,
+    "h": 0.051,
+    "l": 0.047,
+    "c": 0.051,
+    "v": 6390800,
+    "rsi": 15.0,
+    "hist": 1.11272
+   },
+   {
+    "d": "2026-11-05",
+    "o": 0.047,
+    "h": 0.047,
+    "l": 0.0391,
+    "c": 0.0423,
+    "v": 58365920,
+    "rsi": 15.0,
+    "hist": 1.04622
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 0.0428,
+  "at_price": [],
+  "above": [
+   {
+    "level": 0.0432,
+    "why": "قاعدة آخر ساعة 2026-11-05 + قمة الأفتر/البري",
+    "confluence": 2
+   },
+   {
+    "level": 0.047,
+    "why": "قاع يوم 2026-11-04 + قمة يوم 2026-11-05 + رأس شمعة هابطة",
+    "confluence": 3
+   },
+   {
+    "level": 0.051,
+    "why": "قمة يوم 2026-11-04",
+    "confluence": 1
+   },
+   {
+    "level": 0.054,
+    "why": "قاع يوم 2026-11-02",
+    "confluence": 1
+   },
+   {
+    "level": 0.06,
+    "why": "قاع يوم 2026-11-03 + فجوة لم تُغطَّ",
+    "confluence": 2
+   },
+   {
+    "level": 0.065,
+    "why": "قاع يوم 2026-10-30",
+    "confluence": 1
+   },
+   {
+    "level": 0.07,
+    "why": "قمة يوم 2026-10-30 + قمة يوم 2026-11-03 + قمة يوم 2026-11-02",
+    "confluence": 3
+   },
+   {
+    "level": 0.089,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   }
+  ],
+  "below": [
+   {
+    "level": 0.0417,
+    "why": "فواب جلسة 2026-11-05 + قاع الأفتر/البري",
+    "confluence": 2
+   },
+   {
+    "level": 0.0391,
+    "why": "قاع يوم 2026-11-05",
+    "confluence": 1
+   }
+  ]
+ },
+ "pivot": null,
+ "momentum": null
+}

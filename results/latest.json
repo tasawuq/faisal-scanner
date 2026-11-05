@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-05T13:27:44.610472+00:00",
- "generated_at_et": "2026-11-05T08:27:44.610472-05:00",
+ "generated_at_utc": "2026-11-05T13:37:44.610605+00:00",
+ "generated_at_et": "2026-11-05T08:37:44.610605-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1530,8 +1530,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 2.76,
-    "ext_chg": 0.0036363602,
+    "ext_price": 2.7505,
+    "ext_chg": 0.000181805,
     "ext_session": "pre"
    },
    "news": []
@@ -1972,6 +1972,10 @@
    },
    "news": [
     {
+     "headline": "Lipocine: Q3 Earnings Snapshot",
+     "time": "2026-11-05T13:34:50+00:00"
+    },
+    {
      "headline": "Ardelyx (ARDX) Reports Break-Even Earnings for Q3",
      "time": "2026-11-03T21:15:02+00:00"
     }
@@ -2185,8 +2189,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.5137,
-    "ext_chg": 0.02167864,
+    "ext_price": 0.4955,
+    "ext_chg": -0.014518675000000002,
     "ext_session": "pre"
    },
    "news": []
@@ -4510,6 +4514,10 @@
     "short_pct_float": 0.25
    },
    "news": [
+    {
+     "headline": "Teleflex (TFX) Q3 Earnings Surpass Estimates",
+     "time": "2026-11-05T12:15:08+00:00"
+    },
     {
      "headline": "Pacific Biosciences of California (PACB) Reports Q3 Loss, Beats Revenue Estimates",
      "time": "2026-11-04T23:45:07+00:00"
@@ -8607,8 +8615,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 4.19,
-    "ext_chg": 0.66932274,
+    "ext_price": 3.9301,
+    "ext_chg": 0.56577686,
     "ext_session": "pre"
    },
    "news": []
@@ -8646,7 +8654,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 4.19,
+   "price": 3.9301,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8680,7 +8688,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.27,
+   "price": 1.295,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8706,7 +8714,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.51,
+   "price": 1.56,
    "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8725,7 +8733,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 13%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 10%",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8740,7 +8748,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.56,
+   "price": 2.6,
    "price_label": "سعر البري",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8812,12 +8820,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 1003065.0,
-   "price": 353.53
+   "volume": 1087706.0,
+   "price": 354.52
   },
   "SNDL": {
-   "volume": 18437.0,
-   "price": 1.4
+   "volume": 18503.0,
+   "price": 1.4184
   }
  }
 }

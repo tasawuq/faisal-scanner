@@ -1,10 +1,10 @@
 {
- "generated_at_et": "2026-11-05T15:08:13.763661-05:00",
+ "generated_at_et": "2026-11-05T16:08:36.049351-05:00",
  "items": [
   {
    "ticker": "EZRA",
    "score": 12.0,
-   "price": 2.0595,
+   "price": 2.06,
    "ext_price": null,
    "name": "Reliance Global Group, Inc.",
    "type": [
@@ -152,7 +152,7 @@
   {
    "ticker": "CUPR",
    "score": 11.5,
-   "price": 1.71,
+   "price": 1.77,
    "ext_price": null,
    "name": "Cuprina Holdings (Cayman) Limited",
    "type": [
@@ -286,7 +286,7 @@
    "not_ready": [
     "RSI وصل 23–27: أدنى RSI 27 (الحالي 47) (ص65/ص86)",
     "محفز أو هدف علوي: تحت مقاومة مباشرة 1.93 (+5.1%) والخسارة −10.7% (ص66/ص84/ص88)",
-    "السعر الآن 1.71 تحت منطقة الطلبات 1.81 — ينتظر استردادها (ص17، ص57)"
+    "السعر الآن 1.77 تحت منطقة الطلبات 1.81 — ينتظر استردادها (ص17، ص57)"
    ],
    "ready_when": "اختبار منطقة 1.81–1.86 وفشل كسرها (أو سحب سيولة تحت 1.65 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.45–1.63، ص54)",
    "flags": [
@@ -303,7 +303,7 @@
   {
    "ticker": "ALP",
    "score": 11.0,
-   "price": 2.98,
+   "price": 2.95,
    "ext_price": null,
    "name": "Alpha Compute Corp",
    "type": [
@@ -451,9 +451,157 @@
    ]
   },
   {
+   "ticker": "LGHL",
+   "score": 11.0,
+   "price": 1.61,
+   "ext_price": null,
+   "name": "Lion Group Holding Ltd.",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتداد مؤكد من الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": 45878,
+    "last_split": "عكسي 1:20 (2026-09-10)",
+    "split": {
+     "factor": "1:20",
+     "date": "2026-09-10",
+     "reverse": true,
+     "days": 56,
+     "recent": true,
+     "open_after": 8.210000038146973,
+     "high_after": 9.539999961853027
+    },
+    "country_ar": "سنغافوري",
+    "industry": "Capital Markets",
+    "short_available": null,
+    "runner": {
+     "pct": 2.002038685344943,
+     "from": 39.2400016784668,
+     "from_date": "2026-07-13",
+     "to": 117.80000305175781,
+     "to_date": "2026-07-14",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Nov 5, 2026",
+     "Notable Two Hundred Day Moving Average Cross - DOV"
+    ],
+    [
+     "Nov 5, 2026",
+     "Wynn Resorts Ltd. Reports Decline In Q3 Bottom Line"
+    ],
+    [
+     "Nov 5, 2026",
+     "TY Makes Notable Cross Below Critical Moving Average"
+    ]
+   ],
+   "levels": {
+    "demand_low": 2.0,
+    "demand_high": 2.02,
+    "orders": [
+     2.02,
+     2.01,
+     2.0
+    ],
+    "critical": 1.9,
+    "stop": 1.89,
+    "risk": 0.05970149253731338,
+    "wash_low": 1.7,
+    "wash_high": 1.8,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 2.0,
+    "t1": 2.1500000953674316,
+    "t2": 2.4700000286102295
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "retest",
+     "accum",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.59 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 22 (الحالي 28)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "منطقة 2.0–2.02 لمسها 2 مرات خلال 6 يوم"
+     ],
+     "retest": [
+      false,
+      "آخر إغلاق تحت الدعم 2.0"
+     ],
+     "volume": [
+      false,
+      "آخر شمعة حمراء — فوليومها 49K مقابل متوسط شموع البيع 38K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة يومية أغلقت تحت الدعم"
+     ],
+     "accum": [
+      false,
+      "قاع الاختبار الأخير 1.9 مو أعلى من اللي قبله 2.0، والشموع ما تقلصت"
+     ],
+     "pressure": [
+      true,
+      "هبط 98% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 2.15 (+7.0%) أكبر من الخسارة −6.0%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.59 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 2.0 (ص86/ص17)",
+    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.9 مو أعلى من اللي قبله 2.0، والشموع ما تقلصت (ص12/ص13)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 49K مقابل متوسط شموع البيع 38K (ص85/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 2.0–2.02 وفشل كسرها (أو سحب سيولة تحت 1.9 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.6–1.8، ص54)",
+   "flags": [],
+   "tags": [
+    "تقسيم عكسي حديث 1:20 (2026-09-10) — افتتح بعده 8.21 وأعلى سعر 9.54",
+    "فلووت 0.05M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 200% من 39.24 (2026-07-13) إلى 117.8 (2026-07-14)",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "AVX",
    "score": 10.5,
-   "price": 4.31,
+   "price": 4.21,
    "ext_price": null,
    "name": "Avax One Technology Ltd.",
    "type": [
@@ -600,7 +748,7 @@
   {
    "ticker": "NXTS",
    "score": 10.0,
-   "price": 0.4956,
+   "price": 0.4815,
    "ext_price": null,
    "name": "Nexentis Technologies Inc.",
    "type": [
@@ -735,7 +883,7 @@
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.6356 فوق السعر) (ص66/ص82/ص84/ص86)",
     "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.51 مو أعلى من اللي قبله 0.512، والشموع ما تقلصت (ص12/ص13)",
     "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 67K مقابل متوسط شموع البيع 443K (ص85/ص86)",
-    "السعر الآن 0.4956 تحت الدعم الحرج 0.505 — ينتظر الاسترداد (ص17)"
+    "السعر الآن 0.4815 تحت الدعم الحرج 0.505 — ينتظر الاسترداد (ص17)"
    ],
    "ready_when": "اختبار منطقة 0.505–0.51 وفشل كسرها (أو سحب سيولة تحت 0.505 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.404–0.4545، ص54)",
    "flags": [
@@ -750,7 +898,7 @@
   {
    "ticker": "MNDR",
    "score": 10.0,
-   "price": 0.88,
+   "price": 0.9114,
    "ext_price": null,
    "name": "Mobile-health Network Solutions",
    "type": [
@@ -786,15 +934,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "MercadoLibre (MELI) Q3 2026 Earnings Call Transcript"
+     "Notable Two Hundred Day Moving Average Cross - DOV"
     ],
     [
      "Nov 5, 2026",
-     "a.k.a. Brands (AKA) Q3 2026 Earnings Call Transcript"
+     "Wynn Resorts Ltd. Reports Decline In Q3 Bottom Line"
     ],
     [
      "Nov 5, 2026",
-     "Vector Ads Lift Unity to First GAAP Profit: Rapid Earnings Reaction"
+     "TY Makes Notable Cross Below Critical Moving Average"
     ]
    ],
    "levels": {
@@ -898,456 +1046,9 @@
    ]
   },
   {
-   "ticker": "FMFC",
-   "score": 10.0,
-   "price": 3.14,
-   "ext_price": null,
-   "name": "Kandal M Venture Limited",
-   "type": [
-    "فلووت منخفض جداً",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 208080,
-    "shares": 417374,
-    "last_split": "عكسي 1:40 (2026-10-13)",
-    "split": {
-     "factor": "1:40",
-     "date": "2026-10-13",
-     "reverse": true,
-     "days": 23,
-     "recent": true,
-     "open_after": 4.320000171661377,
-     "high_after": 7.558000087738037
-    },
-    "country_ar": "Cambodia",
-    "industry": "Footwear & Accessories",
-    "short_available": null,
-    "runner": {
-     "pct": 4.707317112883524,
-     "from": 8.199999809265137,
-     "from_date": "2026-07-29",
-     "to": 46.79999923706055,
-     "to_date": "2026-07-31",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Jun 26, 2025",
-     "Kandal M Venture Limited Completes Initial Public Offering on Nasdaq, Raising $8 Million"
-    ],
-    [
-     "Jun 25, 2025",
-     "Kandal M Venture Limited Announces Pricing of Initial Public Offering to Trade on Nasdaq under Symbol 'FMFC'"
-    ]
-   ],
-   "levels": {
-    "demand_low": 3.26,
-    "demand_high": 3.3,
-    "orders": [
-     3.29,
-     3.28,
-     3.26
-    ],
-    "critical": 3.26,
-    "stop": 3.25,
-    "risk": 0.008138351983723348,
-    "wash_low": 2.771,
-    "wash_high": 2.934,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 3.259999990463257,
-    "t1": 3.7260000705718994,
-    "t2": 4.320000171661377
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
-     "retest",
-     "accum",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "ma",
-     "volume",
-     "candle"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.41 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 19 (الحالي 32)"
-     ],
-     "macd": [
-      true,
-      "تقاطع إيجابي حديث"
-     ],
-     "support": [
-      true,
-      "منطقة 3.26–3.3 لمسها 2 مرات خلال 7 يوم"
-     ],
-     "retest": [
-      true,
-      "رجع للدعم وما انكسر (الاختبار 2)"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 73K مقابل متوسط شموع البيع 24K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة بعيدة عن منطقة الدعم"
-     ],
-     "accum": [
-      true,
-      "قاع الاختبار الأخير 3.3 أعلى من اللي قبله 3.26، والشموع تتقلص"
-     ],
-     "pressure": [
-      true,
-      "هبط 92% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 3.73 (+13.7%) أكبر من الخسارة −0.8%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.41 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 73K مقابل متوسط شموع البيع 24K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)"
-   ],
-   "ready_when": "اختبار منطقة 3.26–3.3 وفشل كسرها (أو سحب سيولة تحت 3.26 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.61–2.93، ص54)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 14 يوم (طار إلى 7.56 وأغلق 5.95 بفوليوم 32x)"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:40 (2026-10-13) — افتتح بعده 4.32 وأعلى سعر 7.56",
-    "فلووت 0.21M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 471% من 8.2 (2026-07-29) إلى 46.8 (2026-07-31)",
-    "قيعان أعلى"
-   ]
-  },
-  {
-   "ticker": "YYAI",
-   "score": 10.0,
-   "price": 0.8385,
-   "ext_price": null,
-   "name": "AiRWA Inc.",
-   "type": [
-    "بعد ارتداد أول — ينتظر Retest",
-    "فلووت منخفض جداً",
-    "🚩 علم/اختراق بعد قاعدة"
-   ],
-   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
-   "status": "WATCH",
-   "data": {
-    "float": 4569546,
-    "shares": 4581917,
-    "last_split": "عكسي 1:20 (2026-08-17)",
-    "split": {
-     "factor": "1:20",
-     "date": "2026-08-17",
-     "reverse": true,
-     "days": 80,
-     "recent": true,
-     "open_after": 1.4199999570846558,
-     "high_after": 1.5700000524520874
-    },
-    "country_ar": "أمريكي",
-    "industry": "Software - Infrastructure",
-    "short_available": null,
-    "runner": {
-     "pct": 1.4935064935064934,
-     "from": 616.0,
-     "from_date": "2025-12-31",
-     "to": 1536.0,
-     "to_date": "2026-01-26",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Jan 23, 2026",
-     "Friday 1/23 Insider Buying Report: YYAI, COSM"
-    ],
-    [
-     "Jan 8, 2026",
-     "Thursday 1/8 Insider Buying Report: NTLA, YYAI"
-    ],
-    [
-     "Aug 25, 2025",
-     "Connexa, JuCoin Ink $500 Mln Deal To Launch New Cryptocurrency Exchange"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.7634,
-    "demand_high": 0.7868,
-    "orders": [
-     0.7867,
-     0.7751,
-     0.7635
-    ],
-    "critical": 0.7556,
-    "stop": 0.7555,
-    "risk": 0.025287059734227922,
-    "wash_low": 0.6524,
-    "wash_high": 0.6722,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.7789999842643738,
-    "t1": 0.9150000214576721,
-    "t2": 1.059999942779541
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "ma",
-     "rsi",
-     "macd",
-     "support",
-     "accum",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "retest",
-     "volume",
-     "candle"
-    ],
-    "checks": {
-     "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وأغلق فوق 30 و50 (ص82)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 26 (الحالي 34)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "المقاومة المخترقة 0.779 صارت دعماً"
-     ],
-     "retest": [
-      false,
-      "ما رجع لاختبار 0.779 بعد أو ما ثبت فوقه"
-     ],
-     "volume": [
-      false,
-      "الاختراق بدون فوليوم (ص19)"
-     ],
-     "candle": [
-      false,
-      "ما فيه شمعة ثبات على إعادة الاختبار"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      true,
-      "هبط 100% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 0.915 (+18.0%) أكبر من الخسارة −2.5%"
-     ]
-    }
-   },
-   "not_ready": [
-    "اختبار الدعم وفشل الكسر: ما رجع لاختبار 0.779 بعد أو ما ثبت فوقه (ص86/ص17)",
-    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)",
-    "اخترق 0.779 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)"
-   ],
-   "ready_when": "رجوع لاختبار 0.779 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 0.7868–0.7634",
-   "flags": [],
-   "tags": [
-    "تقسيم عكسي حديث 1:20 (2026-08-17) — افتتح بعده 1.42 وأعلى سعر 1.57",
-    "فلووت 4.57M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 149% من 616.0 (2025-12-31) إلى 1536.0 (2026-01-26)",
-    "قيعان أعلى"
-   ]
-  },
-  {
-   "ticker": "GDC",
-   "score": 10.0,
-   "price": 1.1001,
-   "ext_price": null,
-   "name": "GD Culture Group Limited",
-   "type": [
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 4090239,
-    "shares": 4162500,
-    "last_split": "عكسي 1:250 (2026-06-29)",
-    "split": {
-     "factor": "1:250",
-     "date": "2026-06-29",
-     "reverse": true,
-     "days": 129,
-     "recent": true,
-     "open_after": 2.799999952316284,
-     "high_after": 3.5899999141693115
-    },
-    "country_ar": "أمريكي",
-    "industry": "Electronic Gaming & Multimedia",
-    "short_available": null,
-    "runner": {
-     "pct": 1.8206896551724139,
-     "from": 725.0,
-     "from_date": "2026-04-07",
-     "to": 2045.0,
-     "to_date": "2026-05-06",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Jun 25, 2026",
-     "GD Culture Group To Commence 1-for-250 Reverse Stock Split"
-    ],
-    [
-     "Feb 18, 2026",
-     "GD Culture Announces Up To $100 Mln Share Repurchase Program"
-    ],
-    [
-     "Sep 16, 2025",
-     "GD Culture Group To Buy Pallas Capital Holding In All Share Deal"
-    ]
-   ],
-   "levels": {
-    "demand_low": 1.24,
-    "demand_high": 1.27,
-    "orders": [
-     1.26,
-     1.25,
-     1.25
-    ],
-    "critical": 1.05,
-    "stop": 1.04,
-    "risk": 0.1702127659574467,
-    "wash_low": 1.1385,
-    "wash_high": 1.173,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.2400000095367432,
-    "t1": 1.2726666728655498,
-    "t2": 1.3446000051498412
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "ma",
-     "macd",
-     "support",
-     "accum",
-     "volume",
-     "candle",
-     "pressure",
-     "red"
-    ],
-    "miss": [
-     "rsi",
-     "retest",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.23"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 31 (الحالي 43)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "منطقة 1.24–1.27 لمسها 5 مرات خلال 38 يوم"
-     ],
-     "retest": [
-      false,
-      "كسر الدعم 1.24 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
-     ],
-     "volume": [
-      true,
-      "فوليومها 89K مقابل متوسط شموع البيع 84K"
-     ],
-     "candle": [
-      true,
-      "ذيل سفلي طويل (رفض كسر) عند الدعم"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      true,
-      "هبط 65% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 1.27 (+1.5%) والخسارة −17.0%"
-     ]
-    }
-   },
-   "not_ready": [
-    "RSI وصل 23–27: أدنى RSI 31 (الحالي 43) (ص65/ص86)",
-    "اختبار الدعم وفشل الكسر: كسر الدعم 1.24 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)",
-    "محفز أو هدف علوي: تحت مقاومة مباشرة 1.27 (+1.5%) والخسارة −17.0% (ص66/ص84/ص88)",
-    "الخسارة من متوسط الطلبات للوقف 17% أكبر من 15% (ص54)"
-   ],
-   "ready_when": "اختبار منطقة 1.24–1.27 وفشل كسرها (أو سحب سيولة تحت 1.05 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.992–1.12، ص54)",
-   "flags": [
-    "اختراق وهمي سابق (Bull Trap — ص19، ص57)"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:250 (2026-06-29) — افتتح بعده 2.8 وأعلى سعر 3.59",
-    "فلووت 4.09M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 182% من 725.0 (2026-04-07) إلى 2045.0 (2026-05-06)",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
    "ticker": "SBFM",
    "score": 10.0,
-   "price": 2.8969,
+   "price": 2.79,
    "ext_price": null,
    "name": "Sunshine Biopharma, Inc.",
    "type": [
@@ -1498,6 +1199,303 @@
    ]
   },
   {
+   "ticker": "FMFC",
+   "score": 10.0,
+   "price": 2.96,
+   "ext_price": null,
+   "name": "Kandal M Venture Limited",
+   "type": [
+    "فلووت منخفض جداً",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 208080,
+    "shares": 417374,
+    "last_split": "عكسي 1:40 (2026-10-13)",
+    "split": {
+     "factor": "1:40",
+     "date": "2026-10-13",
+     "reverse": true,
+     "days": 23,
+     "recent": true,
+     "open_after": 4.320000171661377,
+     "high_after": 7.558000087738037
+    },
+    "country_ar": "Cambodia",
+    "industry": "Footwear & Accessories",
+    "short_available": null,
+    "runner": {
+     "pct": 4.707317112883524,
+     "from": 8.199999809265137,
+     "from_date": "2026-07-29",
+     "to": 46.79999923706055,
+     "to_date": "2026-07-31",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Jun 26, 2025",
+     "Kandal M Venture Limited Completes Initial Public Offering on Nasdaq, Raising $8 Million"
+    ],
+    [
+     "Jun 25, 2025",
+     "Kandal M Venture Limited Announces Pricing of Initial Public Offering to Trade on Nasdaq under Symbol 'FMFC'"
+    ]
+   ],
+   "levels": {
+    "demand_low": 3.26,
+    "demand_high": 3.3,
+    "orders": [
+     3.29,
+     3.28,
+     3.26
+    ],
+    "critical": 3.26,
+    "stop": 3.25,
+    "risk": 0.008138351983723348,
+    "wash_low": 2.771,
+    "wash_high": 2.934,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 3.259999990463257,
+    "t1": 3.7260000705718994,
+    "t2": 4.320000171661377
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "retest",
+     "accum",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.41 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 19 (الحالي 32)"
+     ],
+     "macd": [
+      true,
+      "تقاطع إيجابي حديث"
+     ],
+     "support": [
+      true,
+      "منطقة 3.26–3.3 لمسها 2 مرات خلال 7 يوم"
+     ],
+     "retest": [
+      true,
+      "رجع للدعم وما انكسر (الاختبار 2)"
+     ],
+     "volume": [
+      false,
+      "آخر شمعة حمراء — فوليومها 73K مقابل متوسط شموع البيع 24K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة بعيدة عن منطقة الدعم"
+     ],
+     "accum": [
+      true,
+      "قاع الاختبار الأخير 3.3 أعلى من اللي قبله 3.26، والشموع تتقلص"
+     ],
+     "pressure": [
+      true,
+      "هبط 92% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 3.73 (+13.7%) أكبر من الخسارة −0.8%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.41 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 73K مقابل متوسط شموع البيع 24K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)"
+   ],
+   "ready_when": "اختبار منطقة 3.26–3.3 وفشل كسرها (أو سحب سيولة تحت 3.26 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.61–2.93، ص54)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 14 يوم (طار إلى 7.56 وأغلق 5.95 بفوليوم 32x)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:40 (2026-10-13) — افتتح بعده 4.32 وأعلى سعر 7.56",
+    "فلووت 0.21M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 471% من 8.2 (2026-07-29) إلى 46.8 (2026-07-31)",
+    "قيعان أعلى"
+   ]
+  },
+  {
+   "ticker": "GDC",
+   "score": 10.0,
+   "price": 1.12,
+   "ext_price": null,
+   "name": "GD Culture Group Limited",
+   "type": [
+    "فلووت منخفض جداً"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 4090239,
+    "shares": 4162500,
+    "last_split": "عكسي 1:250 (2026-06-29)",
+    "split": {
+     "factor": "1:250",
+     "date": "2026-06-29",
+     "reverse": true,
+     "days": 129,
+     "recent": true,
+     "open_after": 2.799999952316284,
+     "high_after": 3.5899999141693115
+    },
+    "country_ar": "أمريكي",
+    "industry": "Electronic Gaming & Multimedia",
+    "short_available": null,
+    "runner": {
+     "pct": 1.8206896551724139,
+     "from": 725.0,
+     "from_date": "2026-04-07",
+     "to": 2045.0,
+     "to_date": "2026-05-06",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Jun 25, 2026",
+     "GD Culture Group To Commence 1-for-250 Reverse Stock Split"
+    ],
+    [
+     "Feb 18, 2026",
+     "GD Culture Announces Up To $100 Mln Share Repurchase Program"
+    ],
+    [
+     "Sep 16, 2025",
+     "GD Culture Group To Buy Pallas Capital Holding In All Share Deal"
+    ]
+   ],
+   "levels": {
+    "demand_low": 1.24,
+    "demand_high": 1.27,
+    "orders": [
+     1.26,
+     1.25,
+     1.25
+    ],
+    "critical": 1.05,
+    "stop": 1.04,
+    "risk": 0.1702127659574467,
+    "wash_low": 1.1385,
+    "wash_high": 1.173,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.2400000095367432,
+    "t1": 1.2726666728655498,
+    "t2": 1.3446000051498412
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "ma",
+     "macd",
+     "support",
+     "accum",
+     "volume",
+     "candle",
+     "pressure",
+     "red"
+    ],
+    "miss": [
+     "rsi",
+     "retest",
+     "target"
+    ],
+    "checks": {
+     "ma": [
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.23"
+     ],
+     "rsi": [
+      false,
+      "أدنى RSI 31 (الحالي 43)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "منطقة 1.24–1.27 لمسها 5 مرات خلال 38 يوم"
+     ],
+     "retest": [
+      false,
+      "كسر الدعم 1.24 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
+     ],
+     "volume": [
+      true,
+      "فوليومها 89K مقابل متوسط شموع البيع 84K"
+     ],
+     "candle": [
+      true,
+      "ذيل سفلي طويل (رفض كسر) عند الدعم"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      true,
+      "هبط 65% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      false,
+      "تحت مقاومة مباشرة 1.27 (+1.5%) والخسارة −17.0%"
+     ]
+    }
+   },
+   "not_ready": [
+    "RSI وصل 23–27: أدنى RSI 31 (الحالي 43) (ص65/ص86)",
+    "اختبار الدعم وفشل الكسر: كسر الدعم 1.24 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)",
+    "محفز أو هدف علوي: تحت مقاومة مباشرة 1.27 (+1.5%) والخسارة −17.0% (ص66/ص84/ص88)",
+    "الخسارة من متوسط الطلبات للوقف 17% أكبر من 15% (ص54)"
+   ],
+   "ready_when": "اختبار منطقة 1.24–1.27 وفشل كسرها (أو سحب سيولة تحت 1.05 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.992–1.12، ص54)",
+   "flags": [
+    "اختراق وهمي سابق (Bull Trap — ص19، ص57)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:250 (2026-06-29) — افتتح بعده 2.8 وأعلى سعر 3.59",
+    "فلووت 4.09M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 182% من 725.0 (2026-04-07) إلى 2045.0 (2026-05-06)",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "NXGL",
    "score": 10.0,
    "price": 4.076,
@@ -1563,7 +1561,7 @@
     "wash_high": 3.1824,
     "wash_note": "قاع سابق تحت الدعم",
     "pivot": 3.5,
-    "t1": 4.076000213623047,
+    "t1": 4.150000095367432,
     "t2": 4.197500046094259
    },
    "p86": {
@@ -1627,7 +1625,7 @@
      ],
      "target": [
       true,
-      "خبر محفز + هدف 4.08 (+15.9%) أكبر من الخسارة −0.8%"
+      "خبر محفز + هدف 4.15 (+18.0%) أكبر من الخسارة −0.8%"
      ]
     }
    },
@@ -1650,9 +1648,159 @@
    ]
   },
   {
+   "ticker": "YYAI",
+   "score": 10.0,
+   "price": 0.9254,
+   "ext_price": null,
+   "name": "AiRWA Inc.",
+   "type": [
+    "بعد ارتداد أول — ينتظر Retest",
+    "فلووت منخفض جداً",
+    "🚩 علم/اختراق بعد قاعدة"
+   ],
+   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
+   "status": "WATCH",
+   "data": {
+    "float": 4569546,
+    "shares": 4581917,
+    "last_split": "عكسي 1:20 (2026-08-17)",
+    "split": {
+     "factor": "1:20",
+     "date": "2026-08-17",
+     "reverse": true,
+     "days": 80,
+     "recent": true,
+     "open_after": 1.4199999570846558,
+     "high_after": 1.5700000524520874
+    },
+    "country_ar": "أمريكي",
+    "industry": "Software - Infrastructure",
+    "short_available": null,
+    "runner": {
+     "pct": 1.4935064935064934,
+     "from": 616.0,
+     "from_date": "2025-12-31",
+     "to": 1536.0,
+     "to_date": "2026-01-26",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Jan 23, 2026",
+     "Friday 1/23 Insider Buying Report: YYAI, COSM"
+    ],
+    [
+     "Jan 8, 2026",
+     "Thursday 1/8 Insider Buying Report: NTLA, YYAI"
+    ],
+    [
+     "Aug 25, 2025",
+     "Connexa, JuCoin Ink $500 Mln Deal To Launch New Cryptocurrency Exchange"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.7634,
+    "demand_high": 0.7868,
+    "orders": [
+     0.7867,
+     0.7751,
+     0.7635
+    ],
+    "critical": 0.7556,
+    "stop": 0.7555,
+    "risk": 0.025287059734227922,
+    "wash_low": 0.6524,
+    "wash_high": 0.6722,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.7789999842643738,
+    "t1": 0.9150000214576721,
+    "t2": 1.059999942779541
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "ma",
+     "rsi",
+     "macd",
+     "support",
+     "accum",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "retest",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وأغلق فوق 30 و50 (ص82)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 26 (الحالي 34)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "المقاومة المخترقة 0.779 صارت دعماً"
+     ],
+     "retest": [
+      false,
+      "ما رجع لاختبار 0.779 بعد أو ما ثبت فوقه"
+     ],
+     "volume": [
+      false,
+      "الاختراق بدون فوليوم (ص19)"
+     ],
+     "candle": [
+      false,
+      "ما فيه شمعة ثبات على إعادة الاختبار"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      true,
+      "هبط 100% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 0.915 (+18.0%) أكبر من الخسارة −2.5%"
+     ]
+    }
+   },
+   "not_ready": [
+    "اختبار الدعم وفشل الكسر: ما رجع لاختبار 0.779 بعد أو ما ثبت فوقه (ص86/ص17)",
+    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)",
+    "اخترق 0.779 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)"
+   ],
+   "ready_when": "رجوع لاختبار 0.779 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 0.7868–0.7634",
+   "flags": [],
+   "tags": [
+    "تقسيم عكسي حديث 1:20 (2026-08-17) — افتتح بعده 1.42 وأعلى سعر 1.57",
+    "فلووت 4.57M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 149% من 616.0 (2025-12-31) إلى 1536.0 (2026-01-26)",
+    "قيعان أعلى"
+   ]
+  },
+  {
    "ticker": "CYCU",
    "score": 10.0,
-   "price": 2.19,
+   "price": 2.24,
    "ext_price": null,
    "name": "Cycurion, Inc.",
    "type": [
@@ -1687,16 +1835,16 @@
    },
    "news": [
     [
+     "Nov 5, 2026",
+     "Distribution Solutions Group (DSGR) Beats Q3 Earnings and Revenue Estimates"
+    ],
+    [
      "Sep 15, 2026",
      "Cycurion Consensus Price Target Increased by 700% to $57.12"
     ],
     [
      "Sep 10, 2026",
      "All You Need to Know About Cycurion, Inc. (CYCU) Rating Upgrade to Buy"
-    ],
-    [
-     "Aug 17, 2026",
-     "Cycurion Authorized To Repurchase Up To $500K Of Shares"
     ]
    ],
    "levels": {
@@ -1940,7 +2088,7 @@
   {
    "ticker": "WYHG",
    "score": 9.5,
-   "price": 3.285,
+   "price": 3.37,
    "ext_price": null,
    "name": "Wing Yip Food Holdings Group Limited",
    "type": [
@@ -2083,7 +2231,7 @@
   {
    "ticker": "SUGP",
    "score": 9.5,
-   "price": 1.6,
+   "price": 1.635,
    "ext_price": null,
    "name": "SU Group Holdings Limited",
    "type": [
@@ -2120,15 +2268,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "MercadoLibre (MELI) Q3 2026 Earnings Call Transcript"
+     "Seaport Global Upgrades Materion to Buy from Neutral"
     ],
     [
      "Nov 5, 2026",
-     "a.k.a. Brands (AKA) Q3 2026 Earnings Call Transcript"
+     "Notable Two Hundred Day Moving Average Cross - DOV"
     ],
     [
      "Nov 5, 2026",
-     "Vector Ads Lift Unity to First GAAP Profit: Rapid Earnings Reaction"
+     "Wynn Resorts Ltd. Reports Decline In Q3 Bottom Line"
     ]
    ],
    "levels": {
@@ -2235,7 +2383,7 @@
   {
    "ticker": "WETO",
    "score": 9.5,
-   "price": 0.83,
+   "price": 0.8385,
    "ext_price": null,
    "name": "Wetour Robotics Limited",
    "type": [
@@ -2385,7 +2533,7 @@
   {
    "ticker": "VRAX",
    "score": 9.5,
-   "price": 1.16,
+   "price": 1.18,
    "ext_price": null,
    "name": "Virax Biolabs Group Limited",
    "type": [
@@ -2540,7 +2688,7 @@
   {
    "ticker": "HCWB",
    "score": 9.5,
-   "price": 1.03,
+   "price": 1.04,
    "ext_price": null,
    "name": "HCW Biologics Inc.",
    "type": [
@@ -2691,7 +2839,7 @@
   {
    "ticker": "MEDS",
    "score": 9.5,
-   "price": 1.25,
+   "price": 1.22,
    "ext_price": null,
    "name": "DataMEDS AI, Inc.",
    "type": [
@@ -2843,7 +2991,7 @@
   {
    "ticker": "PRFX",
    "score": 9.0,
-   "price": 0.7618,
+   "price": 0.7588,
    "ext_price": null,
    "name": "PRF Technologies Ltd.",
    "type": [
@@ -2994,7 +3142,7 @@
   {
    "ticker": "DGNX",
    "score": 9.0,
-   "price": 1.16,
+   "price": 1.15,
    "ext_price": null,
    "name": "Diginex Limited",
    "type": [
@@ -3128,7 +3276,7 @@
     "RSI وصل 23–27: أدنى RSI 39 (الحالي 49) (ص65/ص86)",
     "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 313K مقابل متوسط شموع البيع 197K (ص85/ص86)",
     "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
-    "السعر الآن 1.16 تحت الدعم الحرج 1.31 — ينتظر الاسترداد (ص17)"
+    "السعر الآن 1.15 تحت الدعم الحرج 1.31 — ينتظر الاسترداد (ص17)"
    ],
    "ready_when": "اختبار منطقة 1.31–1.33 وفشل كسرها (أو سحب سيولة تحت 1.31 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.05–1.18، ص54)",
    "flags": [
@@ -3143,7 +3291,7 @@
   {
    "ticker": "CISS",
    "score": 9.0,
-   "price": 0.3889,
+   "price": 0.3828,
    "ext_price": null,
    "name": "C3is Inc.",
    "type": [
@@ -3293,7 +3441,7 @@
   {
    "ticker": "BIAF",
    "score": 9.0,
-   "price": 2.7189,
+   "price": 2.6,
    "ext_price": null,
    "name": "bioAffinity Technologies, Inc.",
    "type": [
@@ -3446,7 +3594,7 @@
   {
    "ticker": "YHC",
    "score": 8.5,
-   "price": 1.75,
+   "price": 1.61,
    "ext_price": null,
    "name": "LQR House Inc.",
    "type": [
@@ -3598,7 +3746,7 @@
   {
    "ticker": "DAIC",
    "score": 8.5,
-   "price": 1.07,
+   "price": 1.04,
    "ext_price": null,
    "name": "CID HoldCo, Inc.",
    "type": [
@@ -3748,7 +3896,7 @@
   {
    "ticker": "CDTG",
    "score": 8.5,
-   "price": 0.9552,
+   "price": 0.9103,
    "ext_price": null,
    "name": "CDT Environmental Technology Investment Holdings Limited",
    "type": [
@@ -3932,15 +4080,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "Dentsply Sirona Inc Q3 Earnings Summary"
     ],
     [
      "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
+     "Is Nvidia Still a Millionaire-Maker Stock?"
     ],
     [
      "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
+     "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming"
     ]
    ],
    "levels": {
@@ -4046,7 +4194,7 @@
   {
    "ticker": "NCI",
    "score": 8.5,
-   "price": 0.5103,
+   "price": 0.531,
    "ext_price": null,
    "name": "Neo-Concept International Group Holdings Limited",
    "type": [
@@ -4198,7 +4346,7 @@
   {
    "ticker": "SSM",
    "score": 8.5,
-   "price": 0.866,
+   "price": 0.8722,
    "ext_price": null,
    "name": "Sono Group N.V.",
    "type": [
@@ -4226,15 +4374,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "Dentsply Sirona Inc Q3 Earnings Summary"
     ],
     [
      "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
+     "Is Nvidia Still a Millionaire-Maker Stock?"
     ],
     [
      "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
+     "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming"
     ]
    ],
    "levels": {
@@ -4339,7 +4487,7 @@
   {
    "ticker": "CLWT",
    "score": 8.0,
-   "price": 1.22,
+   "price": 1.19,
    "ext_price": null,
    "name": "Euro Tech Holdings Company Limited",
    "type": [
@@ -4469,7 +4617,7 @@
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.41 فوق السعر) (ص66/ص82/ص84/ص86)",
     "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
     "نموذج W ما اكتمل: كسر خط العنق 1.4 والثبات (ص25)",
-    "السعر الآن 1.22 تحت الدعم الحرج 1.26 — ينتظر الاسترداد (ص17)"
+    "السعر الآن 1.19 تحت الدعم الحرج 1.26 — ينتظر الاسترداد (ص17)"
    ],
    "ready_when": "قاع ثاني يثبت عند 1.26–1.3 بشمعة انعكاس، أو كسر خط العنق 1.4 والثبات ثم إعادة اختبار (ص25)",
    "flags": [
@@ -4523,15 +4671,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "Dentsply Sirona Inc Q3 Earnings Summary"
     ],
     [
      "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
+     "Is Nvidia Still a Millionaire-Maker Stock?"
     ],
     [
      "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
+     "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming"
     ]
    ],
    "levels": {
@@ -4636,9 +4784,157 @@
    ]
   },
   {
+   "ticker": "BDAI",
+   "score": 8.0,
+   "price": 1.8841,
+   "ext_price": null,
+   "name": "Biddance AI Systems, Inc.",
+   "type": [
+    "صيني عالي التذبذب ⚠️",
+    "فلووت منخفض جداً"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 795330,
+    "shares": 4799860,
+    "last_split": "عكسي 1:25 (2026-07-06)",
+    "split": {
+     "factor": "1:25",
+     "date": "2026-07-06",
+     "reverse": true,
+     "days": 122,
+     "recent": true,
+     "open_after": 4.650000095367432,
+     "high_after": 5.260000228881836
+    },
+    "country_ar": "صيني",
+    "industry": "Information Technology Services",
+    "short_available": null,
+    "runner": {
+     "pct": 5.027397260273973,
+     "from": 36.5,
+     "from_date": "2026-05-29",
+     "to": 220.0,
+     "to_date": "2026-06-01",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Jul 1, 2026",
+     "Hitek To Commence 1-for-25 Reverse Split"
+    ],
+    [
+     "Apr 29, 2025",
+     "Hitek Global Slips To Loss In FY24"
+    ]
+   ],
+   "levels": {
+    "demand_low": 1.9,
+    "demand_high": 1.919,
+    "orders": [
+     1.91,
+     1.91,
+     1.9
+    ],
+    "critical": 1.89,
+    "stop": 1.88,
+    "risk": 0.01398601398601396,
+    "wash_low": 1.7523,
+    "wash_high": 1.8054,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.899999976158142,
+    "t1": 2.2200000286102295,
+    "t2": 2.2780001163482666
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "macd",
+     "support",
+     "retest",
+     "accum",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "rsi",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.32 فوق السعر)"
+     ],
+     "rsi": [
+      false,
+      "أدنى RSI 32 (الحالي 38)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "منطقة 1.9–1.92 لمسها 4 مرات خلال 11 يوم"
+     ],
+     "retest": [
+      true,
+      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 4)"
+     ],
+     "volume": [
+      false,
+      "آخر شمعة حمراء — فوليومها 28K مقابل متوسط شموع البيع 50K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة يومية مو انعكاس"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      true,
+      "هبط 73% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 2.22 (+16.4%) أكبر من الخسارة −1.4%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.32 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "RSI وصل 23–27: أدنى RSI 32 (الحالي 38) (ص65/ص86)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 28K مقابل متوسط شموع البيع 50K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 1.9–1.92 وفشل كسرها (أو سحب سيولة تحت 1.89 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.52–1.71، ص54)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 3.48 وأغلق 2.53 بفوليوم 420x)",
+    "سهم صيني عالي التذبذب"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:25 (2026-07-06) — افتتح بعده 4.65 وأعلى سعر 5.26",
+    "فلووت 0.80M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 503% من 36.5 (2026-05-29) إلى 220.0 (2026-06-01)",
+    "قيعان أعلى"
+   ]
+  },
+  {
    "ticker": "LHSW",
    "score": 8.0,
-   "price": 3.7199,
+   "price": 3.565,
    "ext_price": null,
    "name": "Lianhe Sowell International Group Ltd",
    "type": [
@@ -4788,303 +5084,9 @@
    ]
   },
   {
-   "ticker": "BDAI",
-   "score": 8.0,
-   "price": 1.92,
-   "ext_price": null,
-   "name": "Biddance AI Systems, Inc.",
-   "type": [
-    "صيني عالي التذبذب ⚠️",
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 795330,
-    "shares": 4799860,
-    "last_split": "عكسي 1:25 (2026-07-06)",
-    "split": {
-     "factor": "1:25",
-     "date": "2026-07-06",
-     "reverse": true,
-     "days": 122,
-     "recent": true,
-     "open_after": 4.650000095367432,
-     "high_after": 5.260000228881836
-    },
-    "country_ar": "صيني",
-    "industry": "Information Technology Services",
-    "short_available": null,
-    "runner": {
-     "pct": 5.027397260273973,
-     "from": 36.5,
-     "from_date": "2026-05-29",
-     "to": 220.0,
-     "to_date": "2026-06-01",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Jul 1, 2026",
-     "Hitek To Commence 1-for-25 Reverse Split"
-    ],
-    [
-     "Apr 29, 2025",
-     "Hitek Global Slips To Loss In FY24"
-    ]
-   ],
-   "levels": {
-    "demand_low": 1.9,
-    "demand_high": 1.919,
-    "orders": [
-     1.91,
-     1.91,
-     1.9
-    ],
-    "critical": 1.89,
-    "stop": 1.88,
-    "risk": 0.01398601398601396,
-    "wash_low": 1.7523,
-    "wash_high": 1.8054,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.899999976158142,
-    "t1": 2.2200000286102295,
-    "t2": 2.2780001163482666
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "macd",
-     "support",
-     "retest",
-     "accum",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "ma",
-     "rsi",
-     "volume",
-     "candle"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.32 فوق السعر)"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 32 (الحالي 38)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "منطقة 1.9–1.92 لمسها 4 مرات خلال 11 يوم"
-     ],
-     "retest": [
-      true,
-      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 4)"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 28K مقابل متوسط شموع البيع 50K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة يومية مو انعكاس"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      true,
-      "هبط 73% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 2.22 (+16.4%) أكبر من الخسارة −1.4%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.32 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "RSI وصل 23–27: أدنى RSI 32 (الحالي 38) (ص65/ص86)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 28K مقابل متوسط شموع البيع 50K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
-   ],
-   "ready_when": "اختبار منطقة 1.9–1.92 وفشل كسرها (أو سحب سيولة تحت 1.89 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.52–1.71، ص54)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 3.48 وأغلق 2.53 بفوليوم 420x)",
-    "سهم صيني عالي التذبذب"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:25 (2026-07-06) — افتتح بعده 4.65 وأعلى سعر 5.26",
-    "فلووت 0.80M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 503% من 36.5 (2026-05-29) إلى 220.0 (2026-06-01)",
-    "قيعان أعلى"
-   ]
-  },
-  {
-   "ticker": "SLE",
-   "score": 8.0,
-   "price": 4.37,
-   "ext_price": null,
-   "name": "Super League Enterprise, Inc.",
-   "type": [
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 1341399,
-    "shares": 3253983,
-    "last_split": "عكسي 1:12 (2026-01-23)",
-    "split": {
-     "factor": "1:12",
-     "date": "2026-01-23",
-     "reverse": true,
-     "days": 286,
-     "recent": false,
-     "open_after": 7.980000019073486,
-     "high_after": 9.0
-    },
-    "country_ar": "أمريكي",
-    "industry": "Internet Content & Information",
-    "short_available": null,
-    "runner": {
-     "pct": 2.4764152280203926,
-     "from": 2.119999885559082,
-     "from_date": "2026-08-14",
-     "to": 7.369999885559082,
-     "to_date": "2026-08-18",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Aug 14, 2026",
-     "Super League Enterprise (SLE) Q2 2026 Earnings Call Transcript"
-    ],
-    [
-     "May 25, 2026",
-     "Fast-paced Momentum Stock Super League Enterprise (SLE) Is Still Trading at a Bargain"
-    ],
-    [
-     "May 15, 2026",
-     "Super League (SLE) Q1 2026 Earnings Transcript"
-    ]
-   ],
-   "levels": {
-    "demand_low": 4.4,
-    "demand_high": 4.444,
-    "orders": [
-     4.44,
-     4.43,
-     4.41
-    ],
-    "critical": 4.4,
-    "stop": 4.39,
-    "risk": 0.008283132530120573,
-    "wash_low": 4.2075,
-    "wash_high": 4.334,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 4.400000095367432,
-    "t1": 4.6529998779296875,
-    "t2": 4.781400017738342
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "support",
-     "retest",
-     "candle",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "ma",
-     "rsi",
-     "macd",
-     "accum",
-     "volume"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.98 فوق السعر)"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 42 (الحالي 45)"
-     ],
-     "macd": [
-      false,
-      "سلبي — ما بدأ يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 4.4–4.44 لمسها 5 مرات خلال 39 يوم"
-     ],
-     "retest": [
-      true,
-      "رجع للدعم وما انكسر (الاختبار 5)"
-     ],
-     "volume": [
-      false,
-      "فوليومها 30K مقابل متوسط شموع البيع 70K"
-     ],
-     "candle": [
-      true,
-      "ذيل سفلي طويل (رفض كسر) عند الدعم"
-     ],
-     "accum": [
-      false,
-      "قاع الاختبار الأخير 4.4 مو أعلى من اللي قبله 4.4، والشموع تتقلص"
-     ],
-     "pressure": [
-      true,
-      "هبط 38% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 4.65 (+5.1%) أكبر من الخسارة −0.8%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.98 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "RSI وصل 23–27: أدنى RSI 42 (الحالي 45) (ص65/ص86)",
-    "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
-    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 4.4 مو أعلى من اللي قبله 4.4، والشموع تتقلص (ص12/ص13)"
-   ],
-   "ready_when": "اختبار منطقة 4.4–4.44 وفشل كسرها (أو سحب سيولة تحت 4.4 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (3.52–3.96، ص54)",
-   "flags": [],
-   "tags": [
-    "فلووت 1.34M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 248% من 2.12 (2026-08-14) إلى 7.37 (2026-08-18)"
-   ]
-  },
-  {
    "ticker": "PCSA",
    "score": 8.0,
-   "price": 1.8375,
+   "price": 1.83,
    "ext_price": null,
    "name": "Processa Pharmaceuticals, Inc.",
    "type": [
@@ -5232,277 +5234,127 @@
    ]
   },
   {
-   "ticker": "OLOX",
+   "ticker": "SLE",
    "score": 8.0,
-   "price": 0.674,
+   "price": 4.22,
    "ext_price": null,
-   "name": "Olenox Industries Inc.",
+   "name": "Super League Enterprise, Inc.",
    "type": [
     "فلووت منخفض جداً"
    ],
-   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "setup_ar": "ارتداد مؤكد من الدعم",
    "status": "WATCH",
    "data": {
-    "float": 1324553,
-    "shares": 1659347,
-    "last_split": "عكسي 1:10 (2026-05-08)",
+    "float": 1341399,
+    "shares": 3253983,
+    "last_split": "عكسي 1:12 (2026-01-23)",
     "split": {
-     "factor": "1:10",
-     "date": "2026-05-08",
+     "factor": "1:12",
+     "date": "2026-01-23",
      "reverse": true,
-     "days": 181,
-     "recent": true,
-     "open_after": 4.699999809265137,
-     "high_after": 11.399999618530273
+     "days": 286,
+     "recent": false,
+     "open_after": 7.980000019073486,
+     "high_after": 9.0
     },
     "country_ar": "أمريكي",
-    "industry": "Building Products & Equipment",
+    "industry": "Internet Content & Information",
     "short_available": null,
     "runner": {
-     "pct": 4.1602209700226975,
-     "from": 18.100000381469727,
-     "from_date": "2025-11-06",
-     "to": 93.4000015258789,
-     "to_date": "2025-11-20",
+     "pct": 2.4764152280203926,
+     "from": 2.119999885559082,
+     "from_date": "2026-08-14",
+     "to": 7.369999885559082,
+     "to_date": "2026-08-18",
      "is_runner": true
     }
    },
    "news": [
     [
-     "Oct 21, 2026",
-     "Safe & Green Holdings Corp. Enters Equity Purchase Agreement to Acquire IPD Industries and Wildboy Holdings"
+     "Aug 14, 2026",
+     "Super League Enterprise (SLE) Q2 2026 Earnings Call Transcript"
     ],
     [
-     "Oct 23, 2025",
-     "Safe & Green Holdings Jumps 41% On Olenox Partnership To Boost Infrastructure Reliability"
+     "May 25, 2026",
+     "Fast-paced Momentum Stock Super League Enterprise (SLE) Is Still Trading at a Bargain"
     ],
     [
-     "Jun 10, 2025",
-     "Safe & Green Holdings Corp. Engages ShareIntel to Investigate Potential Illegal Trading Activity"
+     "May 15, 2026",
+     "Super League (SLE) Q1 2026 Earnings Transcript"
     ]
    ],
    "levels": {
-    "demand_low": 0.772,
-    "demand_high": 0.7797,
+    "demand_low": 4.4,
+    "demand_high": 4.444,
     "orders": [
-     0.7797,
-     0.7759,
-     0.7721
+     4.44,
+     4.43,
+     4.41
     ],
-    "critical": 0.702,
-    "stop": 0.7019,
-    "risk": 0.09537311509215113,
-    "wash_low": 0.6841,
-    "wash_high": 0.7048,
+    "critical": 4.4,
+    "stop": 4.39,
+    "risk": 0.008283132530120573,
+    "wash_low": 4.2075,
+    "wash_high": 4.334,
     "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.7720000147819519,
-    "t1": 0.796999990940094,
-    "t2": 0.808150002360344
+    "pivot": 4.400000095367432,
+    "t1": 4.6529998779296875,
+    "t2": 4.781400017738342
    },
    "p86": {
     "frame": "يومي",
     "bar_date": "2026-11-04",
     "met": [
-     "rsi",
-     "macd",
      "support",
-     "accum",
-     "pressure",
-     "red"
-    ],
-    "miss": [
-     "ma",
      "retest",
-     "volume",
      "candle",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8082 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 16 (الحالي 39)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "منطقة 0.772–0.7797 لمسها 4 مرات خلال 37 يوم"
-     ],
-     "retest": [
-      false,
-      "كسر الدعم 0.772 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 175K مقابل متوسط شموع البيع 22256K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة يومية أغلقت تحت الدعم"
-     ],
-     "accum": [
-      true,
-      "قاع الاختبار الأخير 0.702 أعلى من اللي قبله 0.6، والشموع تتقلص"
-     ],
-     "pressure": [
-      true,
-      "هبط 88% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 0.797 (+2.7%) والخسارة −9.5%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8082 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "اختبار الدعم وفشل الكسر: كسر الدعم 0.772 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 175K مقابل متوسط شموع البيع 22256K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة يومية أغلقت تحت الدعم (ص82/ص86)"
-   ],
-   "ready_when": "اختبار منطقة 0.772–0.7797 وفشل كسرها (أو سحب سيولة تحت 0.702 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6176–0.6948، ص54)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 21 يوم (طار إلى 1.86 وأغلق 1.25 بفوليوم 217x)"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:10 (2026-05-08) — افتتح بعده 4.7 وأعلى سعر 11.4",
-    "فلووت 1.32M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 416% من 18.1 (2025-11-06) إلى 93.4 (2025-11-20)",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
-   "ticker": "FRGT",
-   "score": 8.0,
-   "price": 0.9052,
-   "ext_price": null,
-   "name": "Freight Technologies, Inc.",
-   "type": [
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": 1681420,
-    "last_split": "عكسي 1:10 (2026-10-19)",
-    "split": {
-     "factor": "1:10",
-     "date": "2026-10-19",
-     "reverse": true,
-     "days": 17,
-     "recent": true,
-     "open_after": 2.009999990463257,
-     "high_after": 2.1500000953674316
-    },
-    "country_ar": "مكسيكي",
-    "industry": "Software - Application",
-    "short_available": null,
-    "runner": {
-     "pct": 12.291667451934245,
-     "from": 8.399999618530273,
-     "from_date": "2025-12-31",
-     "to": 111.6500015258789,
-     "to_date": "2026-01-06",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Apr 2, 2026",
-     "Freight Technologies Explores Sale Of Brokerage Unit"
-    ],
-    [
-     "Jul 16, 2025",
-     "Freight Technologies, Inc. Unveils AI-Powered Voice Agents in Partnership with Fetch.ai for Enhanced Logistics Automation"
-    ],
-    [
-     "Jul 7, 2025",
-     "Freight Technologies, Inc. Welcomes Reckitt Benckiser de México as New Client, Strengthening Logistics Solutions in North America"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.789,
-    "demand_high": 0.7969,
-    "orders": [
-     0.7968,
-     0.7929,
-     0.789
-    ],
-    "critical": 0.789,
-    "stop": 0.7889,
-    "risk": 0.005044772354647501,
-    "wash_low": 0.6706,
-    "wash_high": 0.7101,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.7889999747276306,
-    "t1": 1.0199999809265137,
-    "t2": 1.090000033378601
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
      "pressure",
      "red",
      "target"
     ],
     "miss": [
      "ma",
-     "retest",
+     "rsi",
+     "macd",
      "accum",
-     "volume",
-     "candle"
+     "volume"
     ],
     "checks": {
      "ma": [
       false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.62 فوق السعر)"
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.98 فوق السعر)"
      ],
      "rsi": [
-      true,
-      "أدنى RSI 20 (الحالي 28)"
+      false,
+      "أدنى RSI 42 (الحالي 45)"
      ],
      "macd": [
-      true,
-      "الخط فوق الإشارة"
+      false,
+      "سلبي — ما بدأ يتحسن"
      ],
      "support": [
       true,
-      "منطقة 0.789–0.7969 لمسها 1 مرات خلال 5 يوم"
+      "منطقة 4.4–4.44 لمسها 5 مرات خلال 39 يوم"
      ],
      "retest": [
-      false,
-      "ما صار اختبار ثاني للدعم بعد القاع الأول"
+      true,
+      "رجع للدعم وما انكسر (الاختبار 5)"
      ],
      "volume": [
       false,
-      "آخر شمعة حمراء — فوليومها 237K مقابل متوسط شموع البيع 356K"
+      "فوليومها 30K مقابل متوسط شموع البيع 70K"
      ],
      "candle": [
-      false,
-      "آخر شمعة بعيدة عن منطقة الدعم"
+      true,
+      "ذيل سفلي طويل (رفض كسر) عند الدعم"
      ],
      "accum": [
       false,
-      "ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت"
+      "قاع الاختبار الأخير 4.4 مو أعلى من اللي قبله 4.4، والشموع تتقلص"
      ],
      "pressure": [
       true,
-      "هبط 98% من أعلى 90 يوم، والبيع ضعف"
+      "هبط 38% من أعلى 90 يوم، والبيع ضعف"
      ],
      "red": [
       true,
@@ -5510,31 +5362,27 @@
      ],
      "target": [
       true,
-      "هدف 1.02 (+28.6%) أكبر من الخسارة −0.5%"
+      "هدف 4.65 (+5.1%) أكبر من الخسارة −0.8%"
      ]
     }
    },
    "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.62 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)",
-    "تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 237K مقابل متوسط شموع البيع 356K (ص85/ص86)"
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.98 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "RSI وصل 23–27: أدنى RSI 42 (الحالي 45) (ص65/ص86)",
+    "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
+    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 4.4 مو أعلى من اللي قبله 4.4، والشموع تتقلص (ص12/ص13)"
    ],
-   "ready_when": "اختبار منطقة 0.789–0.7969 وفشل كسرها (أو سحب سيولة تحت 0.789 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6312–0.7101، ص54)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 3 يوم (طار إلى 1.35 وأغلق 1.07 بفوليوم 25x)"
-   ],
+   "ready_when": "اختبار منطقة 4.4–4.44 وفشل كسرها (أو سحب سيولة تحت 4.4 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (3.52–3.96، ص54)",
+   "flags": [],
    "tags": [
-    "تقسيم عكسي حديث 1:10 (2026-10-19) — افتتح بعده 2.01 وأعلى سعر 2.15",
-    "فلووت 1.68M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 1229% من 8.4 (2025-12-31) إلى 111.65 (2026-01-06)",
-    "قيعان أعلى"
+    "فلووت 1.34M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 248% من 2.12 (2026-08-14) إلى 7.37 (2026-08-18)"
    ]
   },
   {
    "ticker": "NTCL",
    "score": 8.0,
-   "price": 0.4101,
+   "price": 0.324,
    "ext_price": null,
    "name": "NetClass Technology Inc",
    "type": [
@@ -5684,9 +5532,309 @@
    ]
   },
   {
+   "ticker": "OLOX",
+   "score": 8.0,
+   "price": 0.6872,
+   "ext_price": null,
+   "name": "Olenox Industries Inc.",
+   "type": [
+    "فلووت منخفض جداً"
+   ],
+   "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
+   "status": "WATCH",
+   "data": {
+    "float": 1324553,
+    "shares": 1659347,
+    "last_split": "عكسي 1:10 (2026-05-08)",
+    "split": {
+     "factor": "1:10",
+     "date": "2026-05-08",
+     "reverse": true,
+     "days": 181,
+     "recent": true,
+     "open_after": 4.699999809265137,
+     "high_after": 11.399999618530273
+    },
+    "country_ar": "أمريكي",
+    "industry": "Building Products & Equipment",
+    "short_available": null,
+    "runner": {
+     "pct": 4.1602209700226975,
+     "from": 18.100000381469727,
+     "from_date": "2025-11-06",
+     "to": 93.4000015258789,
+     "to_date": "2025-11-20",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Oct 21, 2026",
+     "Safe & Green Holdings Corp. Enters Equity Purchase Agreement to Acquire IPD Industries and Wildboy Holdings"
+    ],
+    [
+     "Oct 23, 2025",
+     "Safe & Green Holdings Jumps 41% On Olenox Partnership To Boost Infrastructure Reliability"
+    ],
+    [
+     "Jun 10, 2025",
+     "Safe & Green Holdings Corp. Engages ShareIntel to Investigate Potential Illegal Trading Activity"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.772,
+    "demand_high": 0.7797,
+    "orders": [
+     0.7797,
+     0.7759,
+     0.7721
+    ],
+    "critical": 0.702,
+    "stop": 0.7019,
+    "risk": 0.09537311509215113,
+    "wash_low": 0.6841,
+    "wash_high": 0.7048,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.7720000147819519,
+    "t1": 0.796999990940094,
+    "t2": 0.808150002360344
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "accum",
+     "pressure",
+     "red"
+    ],
+    "miss": [
+     "ma",
+     "retest",
+     "volume",
+     "candle",
+     "target"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8082 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 16 (الحالي 39)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "منطقة 0.772–0.7797 لمسها 4 مرات خلال 37 يوم"
+     ],
+     "retest": [
+      false,
+      "كسر الدعم 0.772 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
+     ],
+     "volume": [
+      false,
+      "آخر شمعة حمراء — فوليومها 175K مقابل متوسط شموع البيع 22256K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة يومية أغلقت تحت الدعم"
+     ],
+     "accum": [
+      true,
+      "قاع الاختبار الأخير 0.702 أعلى من اللي قبله 0.6، والشموع تتقلص"
+     ],
+     "pressure": [
+      true,
+      "هبط 88% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      false,
+      "تحت مقاومة مباشرة 0.797 (+2.7%) والخسارة −9.5%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8082 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "اختبار الدعم وفشل الكسر: كسر الدعم 0.772 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 175K مقابل متوسط شموع البيع 22256K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية أغلقت تحت الدعم (ص82/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 0.772–0.7797 وفشل كسرها (أو سحب سيولة تحت 0.702 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6176–0.6948، ص54)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 21 يوم (طار إلى 1.86 وأغلق 1.25 بفوليوم 217x)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:10 (2026-05-08) — افتتح بعده 4.7 وأعلى سعر 11.4",
+    "فلووت 1.32M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 416% من 18.1 (2025-11-06) إلى 93.4 (2025-11-20)",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
+   "ticker": "FRGT",
+   "score": 8.0,
+   "price": 0.8992,
+   "ext_price": null,
+   "name": "Freight Technologies, Inc.",
+   "type": [
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": null,
+    "shares": 1681420,
+    "last_split": "عكسي 1:10 (2026-10-19)",
+    "split": {
+     "factor": "1:10",
+     "date": "2026-10-19",
+     "reverse": true,
+     "days": 17,
+     "recent": true,
+     "open_after": 2.009999990463257,
+     "high_after": 2.1500000953674316
+    },
+    "country_ar": "مكسيكي",
+    "industry": "Software - Application",
+    "short_available": null,
+    "runner": {
+     "pct": 12.291667451934245,
+     "from": 8.399999618530273,
+     "from_date": "2025-12-31",
+     "to": 111.6500015258789,
+     "to_date": "2026-01-06",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Apr 2, 2026",
+     "Freight Technologies Explores Sale Of Brokerage Unit"
+    ],
+    [
+     "Jul 16, 2025",
+     "Freight Technologies, Inc. Unveils AI-Powered Voice Agents in Partnership with Fetch.ai for Enhanced Logistics Automation"
+    ],
+    [
+     "Jul 7, 2025",
+     "Freight Technologies, Inc. Welcomes Reckitt Benckiser de México as New Client, Strengthening Logistics Solutions in North America"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.789,
+    "demand_high": 0.7969,
+    "orders": [
+     0.7968,
+     0.7929,
+     0.789
+    ],
+    "critical": 0.789,
+    "stop": 0.7889,
+    "risk": 0.005044772354647501,
+    "wash_low": 0.6706,
+    "wash_high": 0.7101,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.7889999747276306,
+    "t1": 1.0199999809265137,
+    "t2": 1.090000033378601
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "retest",
+     "accum",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.62 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 20 (الحالي 28)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "منطقة 0.789–0.7969 لمسها 1 مرات خلال 5 يوم"
+     ],
+     "retest": [
+      false,
+      "ما صار اختبار ثاني للدعم بعد القاع الأول"
+     ],
+     "volume": [
+      false,
+      "آخر شمعة حمراء — فوليومها 237K مقابل متوسط شموع البيع 356K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة بعيدة عن منطقة الدعم"
+     ],
+     "accum": [
+      false,
+      "ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت"
+     ],
+     "pressure": [
+      true,
+      "هبط 98% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 1.02 (+28.6%) أكبر من الخسارة −0.5%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.62 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)",
+    "تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 237K مقابل متوسط شموع البيع 356K (ص85/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 0.789–0.7969 وفشل كسرها (أو سحب سيولة تحت 0.789 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6312–0.7101، ص54)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 3 يوم (طار إلى 1.35 وأغلق 1.07 بفوليوم 25x)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:10 (2026-10-19) — افتتح بعده 2.01 وأعلى سعر 2.15",
+    "فلووت 1.68M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 1229% من 8.4 (2025-12-31) إلى 111.65 (2026-01-06)",
+    "قيعان أعلى"
+   ]
+  },
+  {
    "ticker": "ISPC",
    "score": 8.0,
-   "price": 0.806,
+   "price": 0.8079,
    "ext_price": null,
    "name": "iSpecimen Inc.",
    "type": [
@@ -5835,153 +5983,9 @@
    ]
   },
   {
-   "ticker": "FRTT",
-   "score": 7.5,
-   "price": 0.4889,
-   "ext_price": null,
-   "name": "Fort Technology Inc.",
-   "type": [
-    "طرح جديد/تاريخ قصير",
-    "فلووت منخفض جداً",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 4243231,
-    "shares": 15042582,
-    "last_split": null,
-    "split": {},
-    "country_ar": "كندي",
-    "industry": "Household & Personal Products",
-    "short_available": null,
-    "runner": {
-     "pct": 1.3058823331417102,
-     "from": 1.7000000476837158,
-     "from_date": "2026-06-16",
-     "to": 3.9200000762939453,
-     "to_date": "2026-06-24",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
-    ],
-    [
-     "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
-    ],
-    [
-     "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.5,
-    "demand_high": 0.505,
-    "orders": [
-     0.505,
-     0.5025,
-     0.5
-    ],
-    "critical": 0.43,
-    "stop": 0.4299,
-    "risk": 0.1444776119402984,
-    "wash_low": 0.425,
-    "wash_high": 0.45,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.5,
-    "t1": 0.5400000214576721,
-    "t2": 0.550000011920929
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
-     "retest",
-     "candle",
-     "pressure",
-     "red"
-    ],
-    "miss": [
-     "ma",
-     "accum",
-     "volume",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.632 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 13 (الحالي 33)"
-     ],
-     "macd": [
-      true,
-      "الهيستوجرام يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 0.5–0.505 لمسها 2 مرات خلال 13 يوم"
-     ],
-     "retest": [
-      true,
-      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 2)"
-     ],
-     "volume": [
-      false,
-      "فوليومها 24K مقابل متوسط شموع البيع 131K"
-     ],
-     "candle": [
-      true,
-      "رفض كسر (نزل تحت الدعم وأغلق فوقه) عند الدعم"
-     ],
-     "accum": [
-      false,
-      "قاع الاختبار الأخير 0.43 مو أعلى من اللي قبله 0.5، والشموع تتقلص"
-     ],
-     "pressure": [
-      true,
-      "هبط 68% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 0.54 (+7.5%) والخسارة −14.4%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.632 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.43 مو أعلى من اللي قبله 0.5، والشموع تتقلص (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: فوليومها 24K مقابل متوسط شموع البيع 131K (ص85/ص86)",
-    "محفز أو هدف علوي: تحت مقاومة مباشرة 0.54 (+7.5%) والخسارة −14.4% (ص66/ص84/ص88)"
-   ],
-   "ready_when": "اختبار منطقة 0.5–0.505 وفشل كسرها (أو سحب سيولة تحت 0.43 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.4–0.45، ص54)",
-   "flags": [
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت 4.24M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 131% من 1.7 (2026-06-16) إلى 3.92 (2026-06-24)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع سنة)"
-   ]
-  },
-  {
    "ticker": "SLXN",
    "score": 7.5,
-   "price": 0.1529,
+   "price": 0.1443,
    "ext_price": null,
    "name": "Silexion Therapeutics Corp",
    "type": [
@@ -6131,9 +6135,153 @@
    ]
   },
   {
+   "ticker": "FRTT",
+   "score": 7.5,
+   "price": 0.483,
+   "ext_price": null,
+   "name": "Fort Technology Inc.",
+   "type": [
+    "طرح جديد/تاريخ قصير",
+    "فلووت منخفض جداً",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 4243231,
+    "shares": 15042582,
+    "last_split": null,
+    "split": {},
+    "country_ar": "كندي",
+    "industry": "Household & Personal Products",
+    "short_available": null,
+    "runner": {
+     "pct": 1.3058823331417102,
+     "from": 1.7000000476837158,
+     "from_date": "2026-06-16",
+     "to": 3.9200000762939453,
+     "to_date": "2026-06-24",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Nov 5, 2026",
+     "Dentsply Sirona Inc Q3 Earnings Summary"
+    ],
+    [
+     "Nov 5, 2026",
+     "Is Nvidia Still a Millionaire-Maker Stock?"
+    ],
+    [
+     "Nov 5, 2026",
+     "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.5,
+    "demand_high": 0.505,
+    "orders": [
+     0.505,
+     0.5025,
+     0.5
+    ],
+    "critical": 0.43,
+    "stop": 0.4299,
+    "risk": 0.1444776119402984,
+    "wash_low": 0.425,
+    "wash_high": 0.45,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.5,
+    "t1": 0.5400000214576721,
+    "t2": 0.550000011920929
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "retest",
+     "candle",
+     "pressure",
+     "red"
+    ],
+    "miss": [
+     "ma",
+     "accum",
+     "volume",
+     "target"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.632 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 13 (الحالي 33)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      true,
+      "منطقة 0.5–0.505 لمسها 2 مرات خلال 13 يوم"
+     ],
+     "retest": [
+      true,
+      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 2)"
+     ],
+     "volume": [
+      false,
+      "فوليومها 24K مقابل متوسط شموع البيع 131K"
+     ],
+     "candle": [
+      true,
+      "رفض كسر (نزل تحت الدعم وأغلق فوقه) عند الدعم"
+     ],
+     "accum": [
+      false,
+      "قاع الاختبار الأخير 0.43 مو أعلى من اللي قبله 0.5، والشموع تتقلص"
+     ],
+     "pressure": [
+      true,
+      "هبط 68% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      false,
+      "تحت مقاومة مباشرة 0.54 (+7.5%) والخسارة −14.4%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.632 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.43 مو أعلى من اللي قبله 0.5، والشموع تتقلص (ص12/ص13)",
+    "فوليوم يتحسن مع الارتداد: فوليومها 24K مقابل متوسط شموع البيع 131K (ص85/ص86)",
+    "محفز أو هدف علوي: تحت مقاومة مباشرة 0.54 (+7.5%) والخسارة −14.4% (ص66/ص84/ص88)"
+   ],
+   "ready_when": "اختبار منطقة 0.5–0.505 وفشل كسرها (أو سحب سيولة تحت 0.43 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.4–0.45، ص54)",
+   "flags": [
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "فلووت 4.24M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 131% من 1.7 (2026-06-16) إلى 3.92 (2026-06-24)",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع سنة)"
+   ]
+  },
+  {
    "ticker": "TDIC",
    "score": 7.5,
-   "price": 1.54,
+   "price": 1.51,
    "ext_price": null,
    "name": "Dreamland Limited",
    "type": [
@@ -6278,7 +6426,7 @@
   {
    "ticker": "NUWE",
    "score": 7.5,
-   "price": 4.615,
+   "price": 4.66,
    "ext_price": null,
    "name": "Nuwellis, Inc.",
    "type": [
@@ -6431,7 +6579,7 @@
   {
    "ticker": "ORKT",
    "score": 7.5,
-   "price": 0.965,
+   "price": 0.96,
    "ext_price": null,
    "name": "Orangekloud Technology Inc.",
    "type": [
@@ -6576,7 +6724,7 @@
   {
    "ticker": "WSHP",
    "score": 7.5,
-   "price": 2.29,
+   "price": 2.27,
    "ext_price": null,
    "name": "WeShop Holdings Limited",
    "type": [
@@ -6605,15 +6753,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "Dentsply Sirona Inc Q3 Earnings Summary"
     ],
     [
      "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
+     "Is Nvidia Still a Millionaire-Maker Stock?"
     ],
     [
      "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
+     "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming"
     ]
    ],
    "levels": {
@@ -6717,7 +6865,7 @@
   {
    "ticker": "SRTM",
    "score": 7.5,
-   "price": 0.172,
+   "price": 0.1725,
    "ext_price": null,
    "name": "Stratum Holdings Corp.",
    "type": [
@@ -6869,7 +7017,7 @@
   {
    "ticker": "FRMM",
    "score": 7.0,
-   "price": 3.08,
+   "price": 3.04,
    "ext_price": null,
    "name": "Forum Markets, Incorporated",
    "type": [
@@ -6902,16 +7050,16 @@
    },
    "news": [
     [
+     "Nov 5, 2026",
+     "Core Scientific, Inc. (CORZ) Surpasses Q3 Earnings and Revenue Estimates"
+    ],
+    [
      "Oct 28, 2026",
      "Houlihan Lokey (HLI) Tops Q2 Earnings and Revenue Estimates"
     ],
     [
      "Oct 26, 2026",
      "Forum Edge AI Announces $94.4 Million Definitive AI Cloud Services Compute Agreement with Fireworks"
-    ],
-    [
-     "Sep 16, 2026",
-     "This Ethereum Treasury Company Is Close to Owning 5% of All ETH in Circulation. Does That Make It a Buy?"
     ]
    ],
    "levels": {
@@ -7016,7 +7164,7 @@
   {
    "ticker": "INHD",
    "score": 7.0,
-   "price": 3.105,
+   "price": 3.01,
    "ext_price": null,
    "name": "Inno Holdings Inc.",
    "type": [
@@ -7165,7 +7313,7 @@
   {
    "ticker": "WKHS",
    "score": 7.0,
-   "price": 3.195,
+   "price": 3.13,
    "ext_price": null,
    "name": "Workhorse Group, Inc.",
    "type": [
@@ -7313,7 +7461,7 @@
   {
    "ticker": "EXYN",
    "score": 7.0,
-   "price": 2.1678,
+   "price": 2.12,
    "ext_price": null,
    "name": "Exyn Technologies, Inc.",
    "type": [
@@ -7342,15 +7490,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "Dentsply Sirona Inc Q3 Earnings Summary"
     ],
     [
      "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
+     "Is Nvidia Still a Millionaire-Maker Stock?"
     ],
     [
      "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
+     "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming"
     ]
    ],
    "levels": {
@@ -7453,7 +7601,7 @@
   {
    "ticker": "AIFA",
    "score": 7.0,
-   "price": 3.91,
+   "price": 3.98,
    "ext_price": null,
    "name": "All In FutureTech Alliance Inc.",
    "type": [
@@ -7603,7 +7751,7 @@
   {
    "ticker": "RDHL",
    "score": 7.0,
-   "price": 0.42,
+   "price": 0.426,
    "ext_price": null,
    "name": "RedHill Biopharma Ltd.",
    "type": [
@@ -7754,7 +7902,7 @@
   {
    "ticker": "GIPR",
    "score": 7.0,
-   "price": 0.2648,
+   "price": 0.2613,
    "ext_price": null,
    "name": "Generation Income Properties, Inc.",
    "type": [
@@ -7902,7 +8050,7 @@
   {
    "ticker": "AGMH",
    "score": 6.5,
-   "price": 0.4643,
+   "price": 0.4411,
    "ext_price": null,
    "name": "AGM Group Holdings Inc.",
    "type": [
@@ -8035,7 +8183,7 @@
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.513 فوق السعر) (ص66/ص82/ص84/ص86)",
     "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 2681K مقابل متوسط شموع البيع 94K (ص85/ص86)",
     "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
-    "السعر الآن 0.4643 تحت الدعم الحرج 0.483 — ينتظر الاسترداد (ص17)"
+    "السعر الآن 0.4411 تحت الدعم الحرج 0.483 — ينتظر الاسترداد (ص17)"
    ],
    "ready_when": "اختبار منطقة 0.483–0.4878 وفشل كسرها (أو سحب سيولة تحت 0.483 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.3864–0.4347، ص54)",
    "flags": [
@@ -8052,7 +8200,7 @@
   {
    "ticker": "HUIZ",
    "score": 6.5,
-   "price": 2.35,
+   "price": 2.27,
    "ext_price": null,
    "name": "Huize Holding Limited",
    "type": [
@@ -8198,9 +8346,158 @@
    ]
   },
   {
+   "ticker": "LSTA",
+   "score": 6.5,
+   "price": 1.005,
+   "ext_price": null,
+   "name": "Lisata Therapeutics, Inc.",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتداد مؤكد من الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 6912110,
+    "shares": 10804066,
+    "last_split": "عكسي 1:15 (2022-09-15)",
+    "split": {
+     "factor": "1:15",
+     "date": "2022-09-15",
+     "reverse": true,
+     "days": 1512,
+     "recent": false
+    },
+    "country_ar": "أمريكي",
+    "industry": "Biotechnology",
+    "short_available": null,
+    "runner": {
+     "pct": 1.701657470207556,
+     "from": 1.809999942779541,
+     "from_date": "2025-12-29",
+     "to": 4.889999866485596,
+     "to_date": "2026-01-27",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Nov 5, 2026",
+     "Dentsply Sirona Inc Q3 Earnings Summary"
+    ],
+    [
+     "Nov 5, 2026",
+     "Is Nvidia Still a Millionaire-Maker Stock?"
+    ],
+    [
+     "Nov 5, 2026",
+     "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.96,
+    "demand_high": 0.99,
+    "orders": [
+     0.99,
+     0.975,
+     0.96
+    ],
+    "critical": 0.96,
+    "stop": 0.9599,
+    "risk": 0.01548717948717949,
+    "wash_low": 0.816,
+    "wash_high": 0.864,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.9599999785423279,
+    "t1": 1.0687999725341797,
+    "t2": 1.0800000429153442
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "ma",
+     "macd",
+     "support",
+     "retest",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "rsi",
+     "accum",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.05"
+     ],
+     "rsi": [
+      false,
+      "أدنى RSI 32 (الحالي 43)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      true,
+      "منطقة 0.96–0.99 لمسها 4 مرات خلال 17 يوم"
+     ],
+     "retest": [
+      true,
+      "رجع للدعم وما انكسر (الاختبار 4)"
+     ],
+     "volume": [
+      false,
+      "فوليومها 14K مقابل متوسط شموع البيع 48K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة بعيدة عن منطقة الدعم"
+     ],
+     "accum": [
+      false,
+      "قاع الاختبار الأخير 0.99 أعلى من اللي قبله 0.96، والشموع ما تقلصت"
+     ],
+     "pressure": [
+      true,
+      "هبط 73% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 1.07 (+9.6%) أكبر من الخسارة −1.5%"
+     ]
+    }
+   },
+   "not_ready": [
+    "RSI وصل 23–27: أدنى RSI 32 (الحالي 43) (ص65/ص86)",
+    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.99 أعلى من اللي قبله 0.96، والشموع ما تقلصت (ص12/ص13)",
+    "فوليوم يتحسن مع الارتداد: فوليومها 14K مقابل متوسط شموع البيع 48K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 0.96–0.99 وفشل كسرها (أو سحب سيولة تحت 0.96 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.768–0.864، ص54)",
+   "flags": [
+    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
+   ],
+   "tags": [
+    "Former Runner: صعد 170% من 1.81 (2025-12-29) إلى 4.89 (2026-01-27)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف",
+    "قاع الفترة (قاع سنة)"
+   ]
+  },
+  {
    "ticker": "FBLG",
    "score": 6.5,
-   "price": 0.9293,
+   "price": 0.9598,
    "ext_price": null,
    "name": "FibroBiologics, Inc.",
    "type": [
@@ -8347,158 +8644,155 @@
    ]
   },
   {
-   "ticker": "LSTA",
+   "ticker": "HYFM",
    "score": 6.5,
-   "price": 1.03,
+   "price": 0.745,
    "ext_price": null,
-   "name": "Lisata Therapeutics, Inc.",
+   "name": "Hydrofarm Holdings Group, Inc.",
    "type": [
-    "طبي — الخبر يحرّكه",
-    "قاع نظيف"
+    "بعد ارتداد أول — ينتظر Retest",
+    "فلووت منخفض جداً"
    ],
-   "setup_ar": "ارتداد مؤكد من الدعم",
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
-    "float": 6912110,
-    "shares": 10804066,
-    "last_split": "عكسي 1:15 (2022-09-15)",
+    "float": 4459127,
+    "shares": 14030298,
+    "last_split": "عكسي 1:10 (2025-02-13)",
     "split": {
-     "factor": "1:15",
-     "date": "2022-09-15",
+     "factor": "1:10",
+     "date": "2025-02-13",
      "reverse": true,
-     "days": 1512,
+     "days": 630,
      "recent": false
     },
     "country_ar": "أمريكي",
-    "industry": "Biotechnology",
+    "industry": "Farm & Heavy Construction Machinery",
     "short_available": null,
     "runner": {
-     "pct": 1.701657470207556,
-     "from": 1.809999942779541,
-     "from_date": "2025-12-29",
-     "to": 4.889999866485596,
-     "to_date": "2026-01-27",
+     "pct": 5.400000095367432,
+     "from": 0.5,
+     "from_date": "2026-07-31",
+     "to": 3.200000047683716,
+     "to_date": "2026-08-03",
      "is_runner": true
     }
    },
    "news": [
     [
-     "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "Oct 27, 2026",
+     "Hydrofarm Holdings Group, Inc. Announces $8.3 million Offering and Restructuring of $109 million Debt"
     ],
     [
-     "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
+     "Oct 27, 2026",
+     "Hydrofarm Holdings Group, Inc. Announces Pricing of Aggregate $8.3 Million Offering and Termination of $109 Million Term Loan"
     ],
     [
-     "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
+     "Mar 6, 2026",
+     "IPW Plunges 80.5% in 3 Months: Should You Still Hold the Stock or Sell?"
     ]
    ],
    "levels": {
-    "demand_low": 0.96,
-    "demand_high": 0.99,
+    "demand_low": 0.696,
+    "demand_high": 0.72,
     "orders": [
-     0.99,
-     0.975,
-     0.96
+     0.72,
+     0.708,
+     0.696
     ],
-    "critical": 0.96,
-    "stop": 0.9599,
-    "risk": 0.01548717948717949,
-    "wash_low": 0.816,
-    "wash_high": 0.864,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.9599999785423279,
-    "t1": 1.0687999725341797,
-    "t2": 1.0800000429153442
+    "critical": 0.571,
+    "stop": 0.5709,
+    "risk": 0.19364406779661006,
+    "wash_low": 0.6534,
+    "wash_high": 0.6732,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.6959999799728394,
+    "t1": 0.7599999904632568,
+    "t2": 0.824999988079071
    },
    "p86": {
     "frame": "يومي",
     "bar_date": "2026-11-04",
     "met": [
-     "ma",
-     "macd",
      "support",
-     "retest",
+     "volume",
+     "candle",
      "pressure",
-     "red",
-     "target"
+     "red"
     ],
     "miss": [
+     "ma",
      "rsi",
+     "macd",
+     "retest",
      "accum",
-     "volume",
-     "candle"
+     "target"
     ],
     "checks": {
      "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.05"
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.7738 فوق السعر)"
      ],
      "rsi": [
       false,
-      "أدنى RSI 32 (الحالي 43)"
+      "أدنى RSI 31 (الحالي 45)"
      ],
      "macd": [
-      true,
-      "الهيستوجرام يتحسن"
+      false,
+      "سلبي — ما بدأ يتحسن"
      ],
      "support": [
       true,
-      "منطقة 0.96–0.99 لمسها 4 مرات خلال 17 يوم"
+      "منطقة 0.696–0.72 لمسها 2 مرات خلال 17 يوم"
      ],
      "retest": [
-      true,
-      "رجع للدعم وما انكسر (الاختبار 4)"
+      false,
+      "كسر الدعم 0.696 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
      ],
      "volume": [
-      false,
-      "فوليومها 14K مقابل متوسط شموع البيع 48K"
+      true,
+      "فوليومها 293K مقابل متوسط شموع البيع 158K"
      ],
      "candle": [
-      false,
-      "آخر شمعة بعيدة عن منطقة الدعم"
+      true,
+      "رفض كسر (نزل تحت الدعم وأغلق فوقه) عند الدعم"
      ],
      "accum": [
       false,
-      "قاع الاختبار الأخير 0.99 أعلى من اللي قبله 0.96، والشموع ما تقلصت"
+      "قاع الاختبار الأخير 0.571 مو أعلى من اللي قبله 0.696، والشموع ما تقلصت"
      ],
      "pressure": [
       true,
-      "هبط 73% من أعلى 90 يوم، والبيع ضعف"
+      "هبط 76% من أعلى 90 يوم، والبيع ضعف"
      ],
      "red": [
       true,
       "ما فيه"
      ],
      "target": [
-      true,
-      "هدف 1.07 (+9.6%) أكبر من الخسارة −1.5%"
+      false,
+      "تحت مقاومة مباشرة 0.76 (+7.3%) والخسارة −19.4%"
      ]
     }
    },
    "not_ready": [
-    "RSI وصل 23–27: أدنى RSI 32 (الحالي 43) (ص65/ص86)",
-    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.99 أعلى من اللي قبله 0.96، والشموع ما تقلصت (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: فوليومها 14K مقابل متوسط شموع البيع 48K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)"
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.7738 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "RSI وصل 23–27: أدنى RSI 31 (الحالي 45) (ص65/ص86)",
+    "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
+    "اختبار الدعم وفشل الكسر: كسر الدعم 0.696 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)"
    ],
-   "ready_when": "اختبار منطقة 0.96–0.99 وفشل كسرها (أو سحب سيولة تحت 0.96 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.768–0.864، ص54)",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
-   ],
+   "ready_when": "اختبار منطقة 0.696–0.72 وفشل كسرها (أو سحب سيولة تحت 0.571 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5568–0.6264، ص54)",
+   "flags": [],
    "tags": [
-    "Former Runner: صعد 170% من 1.81 (2025-12-29) إلى 4.89 (2026-01-27)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع سنة)"
+    "فلووت 4.46M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 540% من 0.5 (2026-07-31) إلى 3.2 (2026-08-03)",
+    "فوليوم البيع يضعف"
    ]
   },
   {
    "ticker": "NWTG",
    "score": 6.5,
-   "price": 0.8,
+   "price": 0.749,
    "ext_price": null,
    "name": "Newton Golf Company, Inc.",
    "type": [
@@ -8645,7 +8939,7 @@
   {
    "ticker": "GYGY",
    "score": 6.5,
-   "price": 0.3543,
+   "price": 0.3322,
    "ext_price": null,
    "name": "Game Your Game, Inc.",
    "type": [
@@ -8674,15 +8968,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "Dentsply Sirona Inc Q3 Earnings Summary"
     ],
     [
      "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
+     "Is Nvidia Still a Millionaire-Maker Stock?"
     ],
     [
      "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
+     "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming"
     ]
    ],
    "levels": {
@@ -8786,155 +9080,9 @@
    ]
   },
   {
-   "ticker": "HYFM",
-   "score": 6.5,
-   "price": 0.7448,
-   "ext_price": null,
-   "name": "Hydrofarm Holdings Group, Inc.",
-   "type": [
-    "بعد ارتداد أول — ينتظر Retest",
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 4459127,
-    "shares": 14030298,
-    "last_split": "عكسي 1:10 (2025-02-13)",
-    "split": {
-     "factor": "1:10",
-     "date": "2025-02-13",
-     "reverse": true,
-     "days": 630,
-     "recent": false
-    },
-    "country_ar": "أمريكي",
-    "industry": "Farm & Heavy Construction Machinery",
-    "short_available": null,
-    "runner": {
-     "pct": 5.400000095367432,
-     "from": 0.5,
-     "from_date": "2026-07-31",
-     "to": 3.200000047683716,
-     "to_date": "2026-08-03",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Oct 27, 2026",
-     "Hydrofarm Holdings Group, Inc. Announces $8.3 million Offering and Restructuring of $109 million Debt"
-    ],
-    [
-     "Oct 27, 2026",
-     "Hydrofarm Holdings Group, Inc. Announces Pricing of Aggregate $8.3 Million Offering and Termination of $109 Million Term Loan"
-    ],
-    [
-     "Mar 6, 2026",
-     "IPW Plunges 80.5% in 3 Months: Should You Still Hold the Stock or Sell?"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.696,
-    "demand_high": 0.72,
-    "orders": [
-     0.72,
-     0.708,
-     0.696
-    ],
-    "critical": 0.571,
-    "stop": 0.5709,
-    "risk": 0.19364406779661006,
-    "wash_low": 0.6534,
-    "wash_high": 0.6732,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.6959999799728394,
-    "t1": 0.7599999904632568,
-    "t2": 0.824999988079071
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "support",
-     "volume",
-     "candle",
-     "pressure",
-     "red"
-    ],
-    "miss": [
-     "ma",
-     "rsi",
-     "macd",
-     "retest",
-     "accum",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.7738 فوق السعر)"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 31 (الحالي 45)"
-     ],
-     "macd": [
-      false,
-      "سلبي — ما بدأ يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 0.696–0.72 لمسها 2 مرات خلال 17 يوم"
-     ],
-     "retest": [
-      false,
-      "كسر الدعم 0.696 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
-     ],
-     "volume": [
-      true,
-      "فوليومها 293K مقابل متوسط شموع البيع 158K"
-     ],
-     "candle": [
-      true,
-      "رفض كسر (نزل تحت الدعم وأغلق فوقه) عند الدعم"
-     ],
-     "accum": [
-      false,
-      "قاع الاختبار الأخير 0.571 مو أعلى من اللي قبله 0.696، والشموع ما تقلصت"
-     ],
-     "pressure": [
-      true,
-      "هبط 76% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 0.76 (+7.3%) والخسارة −19.4%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.7738 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "RSI وصل 23–27: أدنى RSI 31 (الحالي 45) (ص65/ص86)",
-    "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
-    "اختبار الدعم وفشل الكسر: كسر الدعم 0.696 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)"
-   ],
-   "ready_when": "اختبار منطقة 0.696–0.72 وفشل كسرها (أو سحب سيولة تحت 0.571 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5568–0.6264، ص54)",
-   "flags": [],
-   "tags": [
-    "فلووت 4.46M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 540% من 0.5 (2026-07-31) إلى 3.2 (2026-08-03)",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
    "ticker": "USGO",
    "score": 6.5,
-   "price": 4.92,
+   "price": 4.98,
    "ext_price": null,
    "name": "U.S. GoldMining Inc.",
    "type": [
@@ -9074,9 +9222,157 @@
    ]
   },
   {
+   "ticker": "CVKD",
+   "score": 6.0,
+   "price": 1.0,
+   "ext_price": null,
+   "name": "Cadrenal Therapeutics, Inc.",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "فلووت منخفض جداً"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 3220358,
+    "shares": 3567592,
+    "last_split": "عكسي 1:15 (2024-08-20)",
+    "split": {
+     "factor": "1:15",
+     "date": "2024-08-20",
+     "reverse": true,
+     "days": 807,
+     "recent": false
+    },
+    "country_ar": "أمريكي",
+    "industry": "Biotechnology",
+    "short_available": null,
+    "runner": {
+     "pct": 0.8248473149891191,
+     "from": 4.909999847412109,
+     "from_date": "2026-02-17",
+     "to": 8.960000038146973,
+     "to_date": "2026-03-02",
+     "is_runner": false
+    }
+   },
+   "news": [
+    [
+     "Oct 7, 2026",
+     "Cadrenal Therapeutics Begins Strategic Review Following FDA Alignment On CAD-1005"
+    ],
+    [
+     "Jul 18, 2026",
+     "Weekly Buzz: NVS, MRK Win FDA Nod; LLY Snaps Up ATAI; MANE Shines On Hair Loss Data"
+    ],
+    [
+     "Jul 13, 2026",
+     "Cadrenal Presents Positive Phase 2 Data For CAD-1005 In Treating Thrombosis; Stock Down"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.85,
+    "demand_high": 0.86,
+    "orders": [
+     0.86,
+     0.855,
+     0.8501
+    ],
+    "critical": 0.85,
+    "stop": 0.8499,
+    "risk": 0.006003664574480387,
+    "wash_low": 0.8078,
+    "wash_high": 0.8323,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.8500000238418579,
+    "t1": 1.0700000524520874,
+    "t2": 1.1114000034332276
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "ma",
+     "rsi",
+     "macd",
+     "support",
+     "retest",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "accum",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 0.9898"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 22 (الحالي 51)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "منطقة 0.85–0.86 لمسها 3 مرات خلال 23 يوم"
+     ],
+     "retest": [
+      true,
+      "رجع للدعم وما انكسر (الاختبار 3)"
+     ],
+     "volume": [
+      false,
+      "آخر شمعة حمراء — فوليومها 43K مقابل متوسط شموع البيع 37K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة بعيدة عن منطقة الدعم"
+     ],
+     "accum": [
+      false,
+      "قاع الاختبار الأخير 0.86 أعلى من اللي قبله 0.816، والشموع ما تقلصت"
+     ],
+     "pressure": [
+      true,
+      "هبط 73% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 1.07 (+25.1%) أكبر من الخسارة −0.6%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.86 أعلى من اللي قبله 0.816، والشموع ما تقلصت (ص12/ص13)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 43K مقابل متوسط شموع البيع 37K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 0.85–0.86 وفشل كسرها (أو سحب سيولة تحت 0.85 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.68–0.765، ص54)",
+   "flags": [
+    "اختراق وهمي سابق (Bull Trap — ص19، ص57)",
+    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
+   ],
+   "tags": [
+    "فلووت 3.22M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "SXTP",
    "score": 6.0,
-   "price": 0.87,
+   "price": 0.8922,
    "ext_price": null,
    "name": "60 Degrees Pharmaceuticals, Inc.",
    "type": [
@@ -9113,16 +9409,16 @@
    },
    "news": [
     [
+     "Nov 5, 2026",
+     "Ironwood Pharmaceuticals (IRWD) Beats Q3 Earnings Estimates"
+    ],
+    [
      "Oct 30, 2026",
      "Weekly Buzz: ABBV, PFE Win FDA Nod; ARTV Slashes Jobs; DAVI, SGRY Strike Deals"
     ],
     [
      "Oct 28, 2026",
      "60 Degrees Pharma Expands Research Into Alpha-Gal Syndrome; Stock Up"
-    ],
-    [
-     "Oct 27, 2026",
-     "60 Degrees Pharmaceuticals, Inc. Reports Results from Expanded Access Babesiosis Study"
     ]
    ],
    "levels": {
@@ -9228,7 +9524,7 @@
   {
    "ticker": "NEXR",
    "score": 6.0,
-   "price": 0.239,
+   "price": 0.2386,
    "ext_price": null,
    "name": "Nexera Technologies Ltd",
    "type": [
@@ -9531,7 +9827,7 @@
   {
    "ticker": "BIYA",
    "score": 6.0,
-   "price": 1.13,
+   "price": 1.1,
    "ext_price": null,
    "name": "Baiya International Group Inc.",
    "type": [
@@ -9683,7 +9979,7 @@
   {
    "ticker": "AIXI",
    "score": 5.5,
-   "price": 2.6,
+   "price": 2.58,
    "ext_price": null,
    "name": "Xiao-I Corporation",
    "type": [
@@ -9836,7 +10132,7 @@
   {
    "ticker": "PODC",
    "score": 5.5,
-   "price": 1.805,
+   "price": 1.77,
    "ext_price": null,
    "name": "PodcastOne, Inc.",
    "type": [
@@ -9961,7 +10257,7 @@
    "not_ready": [
     "فوليوم يتحسن مع الارتداد: فوليومها 59K مقابل متوسط شموع البيع 120K (ص85/ص86)",
     "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
-    "السعر الآن 1.8 تحت الدعم الحرج 1.95 — ينتظر الاسترداد (ص17)"
+    "السعر الآن 1.77 تحت الدعم الحرج 1.95 — ينتظر الاسترداد (ص17)"
    ],
    "ready_when": "اختبار منطقة 1.97–2.01 وفشل كسرها (أو سحب سيولة تحت 1.95 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.58–1.77، ص54)",
    "flags": [],
@@ -9972,7 +10268,7 @@
   {
    "ticker": "FFTT",
    "score": 5.5,
-   "price": 3.75,
+   "price": 3.68,
    "ext_price": null,
    "name": "Masonglory Limited",
    "type": [
@@ -10126,7 +10422,7 @@
   {
    "ticker": "HMR",
    "score": 5.5,
-   "price": 1.28,
+   "price": 1.3,
    "ext_price": null,
    "name": "Heidmar Maritime Holdings Corp.",
    "type": [
@@ -10265,7 +10561,7 @@
   {
    "ticker": "RYOJ",
    "score": 5.5,
-   "price": 2.64,
+   "price": 2.33,
    "ext_price": null,
    "name": "rYojbaba Co., Ltd.",
    "type": [
@@ -10293,15 +10589,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "Dentsply Sirona Inc Q3 Earnings Summary"
     ],
     [
      "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
+     "Is Nvidia Still a Millionaire-Maker Stock?"
     ],
     [
      "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
+     "Paramount and Warner Bros.: The $110 Billion Bet That Could Reshape Streaming"
     ]
    ],
    "levels": {
@@ -10408,7 +10704,7 @@
   {
    "ticker": "LPCN",
    "score": 5.0,
-   "price": 1.54,
+   "price": 1.53,
    "ext_price": null,
    "name": "Lipocine Inc.",
    "type": [
@@ -10556,7 +10852,7 @@
   {
    "ticker": "SEGG",
    "score": 5.0,
-   "price": 1.55,
+   "price": 1.66,
    "ext_price": null,
    "name": "Sports Entertainment Gaming Global Corporation",
    "type": [
@@ -10708,7 +11004,7 @@
   {
    "ticker": "CRE",
    "score": 5.0,
-   "price": 2.54,
+   "price": 2.43,
    "ext_price": null,
    "name": "Cre8 Enterprise Limited",
    "type": [
@@ -10860,7 +11156,7 @@
   {
    "ticker": "XCH",
    "score": 5.0,
-   "price": 4.7815,
+   "price": 4.6,
    "ext_price": null,
    "name": "XCHG Limited",
    "type": [
@@ -11012,7 +11308,7 @@
   {
    "ticker": "CELZ",
    "score": 5.0,
-   "price": 0.5999,
+   "price": 0.6099,
    "ext_price": null,
    "name": "Creative Medical Technology Holdings, Inc.",
    "type": [
@@ -11159,7 +11455,7 @@
   {
    "ticker": "FCDH",
    "score": 5.0,
-   "price": 0.5436,
+   "price": 0.56,
    "ext_price": null,
    "name": "Forcendra Holding Limited",
    "type": [
@@ -11310,7 +11606,7 @@
   {
    "ticker": "JBDI",
    "score": 4.5,
-   "price": 2.58,
+   "price": 2.63,
    "ext_price": null,
    "name": "JBDI Holdings Limited",
    "type": [
@@ -11601,7 +11897,7 @@
   {
    "ticker": "CLRO",
    "score": 4.5,
-   "price": 4.62,
+   "price": 4.54,
    "ext_price": null,
    "name": "ClearOne, Inc.",
    "type": [
@@ -11751,7 +12047,7 @@
   {
    "ticker": "BCYC",
    "score": 4.5,
-   "price": 3.495,
+   "price": 3.48,
    "ext_price": null,
    "name": "Bicycle Therapeutics plc American Depositary Shares",
    "type": [
@@ -11892,7 +12188,7 @@
   {
    "ticker": "FNUC",
    "score": 4.0,
-   "price": 0.6435,
+   "price": 0.636,
    "ext_price": null,
    "name": "Frontier Nuclear and Minerals Inc.",
    "type": [
@@ -12029,7 +12325,7 @@
   {
    "ticker": "IMNN",
    "score": 4.0,
-   "price": 0.8801,
+   "price": 0.866,
    "ext_price": null,
    "name": "Imunon, Inc.",
    "type": [
@@ -12174,158 +12470,153 @@
    ]
   },
   {
-   "ticker": "RETO",
+   "ticker": "PFAI",
    "score": 4.0,
-   "price": 3.605,
+   "price": 2.97,
    "ext_price": null,
-   "name": "ReTo Eco-Solutions, Inc.",
+   "name": "Pinnacle Food Group Limited",
    "type": [
-    "صيني عالي التذبذب ⚠️",
-    "بعد ارتداد أول — ينتظر Retest"
+    "فلووت منخفض جداً"
    ],
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
-    "float": null,
-    "shares": 36248.625,
-    "last_split": "عكسي 1:20 (2026-10-02)",
-    "split": {
-     "factor": "1:20",
-     "date": "2026-10-02",
-     "reverse": true,
-     "days": 34,
-     "recent": true,
-     "open_after": 1.934999942779541,
-     "high_after": 5.298999786376953
-    },
-    "country_ar": "صيني",
-    "industry": "Building Materials",
+    "float": 3566629,
+    "shares": 4070100,
+    "last_split": null,
+    "split": {},
+    "country_ar": "كندي",
+    "industry": "Farm Products",
     "short_available": null,
     "runner": {
-     "pct": 58.57142857142857,
-     "from": 7.0,
-     "from_date": "2026-09-15",
-     "to": 417.0,
-     "to_date": "2026-09-16",
+     "pct": 2.2651161253678023,
+     "from": 2.1500000953674316,
+     "from_date": "2026-10-02",
+     "to": 7.019999980926514,
+     "to_date": "2026-10-07",
      "is_runner": true
     }
    },
    "news": [
     [
-     "Jan 7, 2025",
-     "ReTo Eco-Solutions Divests Stake in Chinese Subsidiary"
+     "Jun 5, 2026",
+     "Pinnacle Food Group Dismisses CFO Wencai Pan, Appoints Yunhao Chen As Replacement"
     ],
     [
-     "Jan 6, 2025",
-     "ReTo Eco-Solutions Announces Share Sale Agreement"
+     "Jul 24, 2025",
+     "Pinnacle Food Group Limited Appoints Dunruo Andrew Zhu as President of Asia Pacific"
+    ],
+    [
+     "Jul 17, 2025",
+     "Pinnacle Food Group Limited Reports 57% Revenue Increase for 2024 Amid Increased Operating Costs"
     ]
    ],
    "levels": {
-    "demand_low": 3.0,
-    "demand_high": 3.03,
+    "demand_low": 2.81,
+    "demand_high": 2.8381,
     "orders": [
-     3.03,
-     3.02,
-     3.0
+     2.83,
+     2.82,
+     2.81
     ],
-    "critical": 0.55,
-    "stop": 0.5499,
-    "risk": 0.8177127071823205,
-    "wash_low": 2.55,
-    "wash_high": 2.7,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 3.0,
-    "t1": 4.0,
-    "t2": 4.420000076293945
+    "critical": 2.6,
+    "stop": 2.59,
+    "risk": 0.08156028368794341,
+    "wash_low": 2.4057,
+    "wash_high": 2.4786,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 2.809999942779541,
+    "t1": 2.9700000286102295,
+    "t2": 3.0999999046325684
    },
    "p86": {
     "frame": "يومي",
     "bar_date": "2026-11-04",
     "met": [
+     "support",
+     "retest",
+     "pressure",
+     "red"
+    ],
+    "miss": [
      "ma",
      "rsi",
      "macd",
-     "support",
-     "pressure"
-    ],
-    "miss": [
-     "retest",
      "accum",
      "volume",
      "candle",
-     "red",
      "target"
     ],
     "checks": {
      "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.36"
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.92 فوق السعر)"
      ],
      "rsi": [
-      true,
-      "أدنى RSI 21 (الحالي 51)"
+      false,
+      "أدنى RSI 33 (الحالي 43)"
      ],
      "macd": [
-      true,
-      "الهيستوجرام يتحسن"
+      false,
+      "سلبي — ما بدأ يتحسن"
      ],
      "support": [
       true,
-      "منطقة 3.0–3.03 لمسها 2 مرات خلال 33 يوم"
+      "منطقة 2.81–2.84 لمسها 4 مرات خلال 39 يوم"
      ],
      "retest": [
-      false,
-      "كسر الدعم 3.0 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
+      true,
+      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 4)"
      ],
      "volume": [
       false,
-      "فوليومها 228K مقابل متوسط شموع البيع 349K"
+      "آخر شمعة حمراء — فوليومها 48K مقابل متوسط شموع البيع 78K"
      ],
      "candle": [
       false,
-      "آخر شمعة يومية مو انعكاس"
+      "آخر شمعة بعيدة عن منطقة الدعم"
      ],
      "accum": [
       false,
-      "قاع الاختبار الأخير 0.55 مو أعلى من اللي قبله 3.0، والشموع ما تقلصت"
+      "قاع الاختبار الأخير 2.6 أعلى من اللي قبله 2.15، والشموع ما تقلصت"
      ],
      "pressure": [
       true,
-      "هبط 99% من أعلى 90 يوم، والبيع ضعف"
+      "هبط 58% من أعلى 90 يوم، والبيع ضعف"
      ],
      "red": [
-      false,
-      "شمعة حمراء طويلة 2026-11-03 عند القاع"
+      true,
+      "ما فيه"
      ],
      "target": [
       false,
-      "تحت مقاومة مباشرة 4.0 (+32.6%) والخسارة −81.8%"
+      "تحت مقاومة مباشرة 2.97 (+5.3%) والخسارة −8.2%"
      ]
     }
    },
    "not_ready": [
-    "اختبار الدعم وفشل الكسر: كسر الدعم 3.0 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)",
-    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.55 مو أعلى من اللي قبله 3.0، والشموع ما تقلصت (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: فوليومها 228K مقابل متوسط شموع البيع 349K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.92 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "RSI وصل 23–27: أدنى RSI 33 (الحالي 43) (ص65/ص86)",
+    "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
+    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 2.6 أعلى من اللي قبله 2.15، والشموع ما تقلصت (ص12/ص13)"
    ],
-   "ready_when": "اختبار منطقة 3.0–3.03 وفشل كسرها (أو سحب سيولة تحت 0.55 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.4–2.7، ص54)",
+   "ready_when": "اختبار منطقة 2.81–2.84 وفشل كسرها (أو سحب سيولة تحت 2.6 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.25–2.53، ص54)",
    "flags": [
-    "توه مدبل: من 0.55 إلى 5.3",
-    "شمعة ضخ/تصريف قبل 13 يوم (طار إلى 1.22 وأغلق 0.889 بفوليوم 9x)",
-    "سهم صيني عالي التذبذب"
+    "شمعة ضخ/تصريف قبل 20 يوم (طار إلى 7.02 وأغلق 5.07 بفوليوم 18282x)",
+    "رفض عند MA20 (ص64)",
+    "اختراق وهمي سابق (Bull Trap — ص19، ص57)"
    ],
    "tags": [
-    "تقسيم عكسي حديث 1:20 (2026-10-02) — افتتح بعده 1.93 وأعلى سعر 5.3",
-    "فلووت 0.04M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 5857% من 7.0 (2026-09-15) إلى 417.0 (2026-09-16)",
+    "فلووت 3.57M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 227% من 2.15 (2026-10-02) إلى 7.02 (2026-10-07)",
+    "قيعان أعلى",
     "فوليوم البيع يضعف"
    ]
   },
   {
    "ticker": "EVAX",
    "score": 3.5,
-   "price": 2.78,
+   "price": 2.76,
    "ext_price": null,
    "name": "Evaxion A/S",
    "type": [
@@ -12472,7 +12763,7 @@
   {
    "ticker": "SNES",
    "score": 3.0,
-   "price": 1.1799,
+   "price": 1.17,
    "ext_price": null,
    "name": "SenesTech, Inc.",
    "type": [
@@ -12767,7 +13058,7 @@
   {
    "ticker": "TGL",
    "score": 3.0,
-   "price": 0.185,
+   "price": 0.181,
    "ext_price": null,
    "name": "Treasure Global Inc.",
    "type": [
@@ -12916,7 +13207,7 @@
   {
    "ticker": "ELOG",
    "score": 3.0,
-   "price": 0.7194,
+   "price": 0.6989,
    "ext_price": null,
    "name": "Eastern International Ltd.",
    "type": [
@@ -12945,15 +13236,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "MLR Makes Notable Cross Below Critical Moving Average"
     ],
     [
      "Nov 5, 2026",
-     "Dyne Therapeutics Reports Q3 2026 Results; Advances DMD And DM1 Programs Ahead Of 2027 Milestones"
+     "Dentsply Sirona Inc Q3 Earnings Summary"
     ],
     [
      "Nov 5, 2026",
-     "Is Host Hotels & Resorts a Buy After Its Latest Earnings Report?"
+     "Is Nvidia Still a Millionaire-Maker Stock?"
     ]
    ],
    "levels": {
@@ -13059,7 +13350,7 @@
   {
    "ticker": "CLIK",
    "score": 2.5,
-   "price": 0.7117,
+   "price": 0.6916,
    "ext_price": null,
    "name": "Click Holdings Limited",
    "type": [
@@ -13210,7 +13501,7 @@
   {
    "ticker": "TCRT",
    "score": 2.5,
-   "price": 1.77,
+   "price": 1.84,
    "ext_price": null,
    "name": "Alaunos Therapeutics, Inc.",
    "type": [
@@ -13271,7 +13562,7 @@
     "wash_high": 1.7136,
     "wash_note": "قاع سابق تحت الدعم",
     "pivot": 1.809999942779541,
-    "t1": 1.850000023841858,
+    "t1": 1.840000033378601,
     "t2": 1.940000057220459
    },
    "p86": {
@@ -13335,7 +13626,7 @@
      ],
      "target": [
       false,
-      "تحت مقاومة مباشرة 1.85 (+1.6%) والخسارة −8.2%"
+      "تحت مقاومة مباشرة 1.84 (+1.1%) والخسارة −8.2%"
      ]
     }
    },
@@ -13361,7 +13652,7 @@
   {
    "ticker": "SAGT",
    "score": 2.0,
-   "price": 0.8098,
+   "price": 0.8078,
    "ext_price": null,
    "name": "Sagtec Global Limited",
    "type": [
@@ -13503,7 +13794,7 @@
   {
    "ticker": "MRM",
    "score": 2.0,
-   "price": 0.3033,
+   "price": 0.289,
    "ext_price": null,
    "name": "MEDIROM Healthcare Technologies Inc.",
    "type": [
@@ -13644,7 +13935,7 @@
   {
    "ticker": "ZYBT",
    "score": 2.0,
-   "price": 1.39,
+   "price": 1.38,
    "ext_price": null,
    "name": "Zhengye Biotechnology Holding Limited",
    "type": [
@@ -13787,7 +14078,7 @@
   {
    "ticker": "BIVI",
    "score": 1.5,
-   "price": 1.2101,
+   "price": 1.21,
    "ext_price": null,
    "name": "BioVie Inc.",
    "type": [
@@ -13936,7 +14227,7 @@
   {
    "ticker": "SLGB",
    "score": 1.0,
-   "price": 0.2062,
+   "price": 0.2099,
    "ext_price": null,
    "name": "Smart Logistics Global Limited",
    "type": [
@@ -13966,15 +14257,15 @@
    "news": [
     [
      "Nov 5, 2026",
-     "Fastly (FSLY) Q3 2026 Earnings Call Transcript"
+     "MLR Makes Notable Cross Below Critical Moving Average"
     ],
     [
      "Nov 5, 2026",
-     "ARLP Ex-Dividend Reminder - 11/6/26"
+     "Bullish Two Hundred Day Moving Average Cross - RYN"
     ],
     [
      "Nov 5, 2026",
-     "Stocks Surge on Midterm Election Optimism"
+     "Dentsply Sirona Inc Q3 Earnings Summary"
     ]
    ],
    "levels": {
@@ -14077,158 +14368,6 @@
     "فلووت 4.78M 🔥 (ص8: أقل من 5M قوي وخطر)",
     "Former Runner: صعد 357% من 0.924 (2025-12-26) إلى 4.22 (2026-01-28)",
     "قاع الفترة (قاع سنة)"
-   ]
-  },
-  {
-   "ticker": "JYD",
-   "score": 0.5,
-   "price": 1.525,
-   "ext_price": null,
-   "name": "Jayud Global Logistics Limited",
-   "type": [
-    "صيني عالي التذبذب ⚠️",
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 3076582,
-    "shares": 8190708,
-    "last_split": "عكسي 1:50 (2025-10-13)",
-    "split": {
-     "factor": "1:50",
-     "date": "2025-10-13",
-     "reverse": true,
-     "days": 388,
-     "recent": false
-    },
-    "country_ar": "صيني",
-    "industry": "Integrated Freight & Logistics",
-    "short_available": null,
-    "runner": {
-     "pct": 2.029411648693383,
-     "from": 0.6800000071525574,
-     "from_date": "2026-09-15",
-     "to": 2.059999942779541,
-     "to_date": "2026-10-13",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Jun 24, 2025",
-     "Jayud Global Logistics Limited Receives RMB 30 Million Government Subsidy for Charter Flight Operations"
-    ],
-    [
-     "Apr 23, 2025",
-     "Jayud Global Logistics Limited Files Annual Report on Form 20-F for Fiscal Year 2024"
-    ],
-    [
-     "Apr 2, 2025",
-     "Wednesday Sector Laggards: Transportation Services, Cigarettes & Tobacco Stocks"
-    ]
-   ],
-   "levels": {
-    "demand_low": 1.32,
-    "demand_high": 1.3332,
-    "orders": [
-     1.33,
-     1.33,
-     1.33
-    ],
-    "critical": 1.32,
-    "stop": 1.31,
-    "risk": 0.015037593984962419,
-    "wash_low": 1.122,
-    "wash_high": 1.188,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.3200000524520874,
-    "t1": 1.4299999475479126,
-    "t2": 1.5005499929189683
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "support",
-     "retest",
-     "accum",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "ma",
-     "rsi",
-     "macd",
-     "volume",
-     "candle"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.5 فوق السعر)"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 34 (الحالي 49)"
-     ],
-     "macd": [
-      false,
-      "سلبي — ما بدأ يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 1.32–1.33 لمسها 2 مرات خلال 39 يوم"
-     ],
-     "retest": [
-      true,
-      "رجع للدعم وما انكسر (الاختبار 2)"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 73K مقابل متوسط شموع البيع 232K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة بعيدة عن منطقة الدعم"
-     ],
-     "accum": [
-      true,
-      "قاع الاختبار الأخير 1.32 أعلى من اللي قبله 0.68، والشموع تتقلص"
-     ],
-     "pressure": [
-      true,
-      "هبط 35% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 1.43 (+7.5%) أكبر من الخسارة −1.5%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.5 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "RSI وصل 23–27: أدنى RSI 34 (الحالي 49) (ص65/ص86)",
-    "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 73K مقابل متوسط شموع البيع 232K (ص85/ص86)"
-   ],
-   "ready_when": "اختبار منطقة 1.32–1.33 وفشل كسرها (أو سحب سيولة تحت 1.32 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.06–1.19، ص54)",
-   "flags": [
-    "توه مدبل: من 0.921 إلى 2.02",
-    "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 2.06 وأغلق 1.46 بفوليوم 861x)",
-    "اختراق وهمي سابق (Bull Trap — ص19، ص57)",
-    "سهم صيني عالي التذبذب"
-   ],
-   "tags": [
-    "فلووت 3.08M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 203% من 0.68 (2026-09-15) إلى 2.06 (2026-10-13)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف"
    ]
   }
  ]

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-05T09:27:44.606476+00:00",
- "generated_at_et": "2026-11-05T04:27:44.606476-05:00",
+ "generated_at_utc": "2026-11-05T09:37:44.606621+00:00",
+ "generated_at_et": "2026-11-05T04:37:44.606621-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -869,8 +869,8 @@
     "last_split": "عكسي 1:250 (2026-06-29)",
     "short_available": null,
     "short_pct_float": 0.13270001,
-    "ext_price": 1.22,
-    "ext_chg": -0.016129017000000002,
+    "ext_price": 1.24,
+    "ext_chg": 0.0,
     "ext_session": "pre"
    },
    "news": []
@@ -1083,8 +1083,8 @@
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.0211,
-    "ext_price": 1.3435,
-    "ext_chg": -0.09832214765100677,
+    "ext_price": 1.33,
+    "ext_chg": -0.10738255033557043,
     "ext_session": "pre"
    },
    "news": []
@@ -1302,7 +1302,7 @@
     "short_available": null,
     "short_pct_float": 0.3027,
     "ext_price": 1.69,
-    "ext_chg": 0.01807228915662651,
+    "ext_chg": 0.0,
     "ext_session": "pre"
    },
    "news": []
@@ -2182,8 +2182,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.5249,
-    "ext_chg": 0.043953924000000005,
+    "ext_price": 0.53,
+    "ext_chg": 0.054097023,
     "ext_session": "pre"
    },
    "news": []
@@ -8604,8 +8604,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 3.23,
-    "ext_chg": 0.28685258999999996,
+    "ext_price": 3.55,
+    "ext_chg": 0.4143426,
     "ext_session": "pre"
    },
    "news": []
@@ -8643,7 +8643,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 3.23,
+   "price": 3.55,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8661,8 +8661,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "pre",
    "scanner": {
@@ -8677,7 +8677,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.2402,
+   "price": 1.3097,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8757,8 +8757,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 2.71 — السبب بطل",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 2.71 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8809,8 +8809,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 162117.0,
-   "price": 350.46
+   "volume": 171897.0,
+   "price": 350.19
   },
   "SNDL": {
    "volume": 1.0,

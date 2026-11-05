@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-05T10:37:44.607585+00:00",
- "generated_at_et": "2026-11-05T05:37:44.607585-05:00",
+ "generated_at_utc": "2026-11-05T10:47:44.607735+00:00",
+ "generated_at_et": "2026-11-05T05:47:44.607735-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1307,8 +1307,8 @@
     "last_split": "عكسي 1:6 (2026-10-07)",
     "short_available": null,
     "short_pct_float": 0.3027,
-    "ext_price": 1.69,
-    "ext_chg": 0.0,
+    "ext_price": 1.7,
+    "ext_chg": 0.005917154,
     "ext_session": "pre"
    },
    "news": []
@@ -1530,8 +1530,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 2.7827,
-    "ext_chg": 0.011890931,
+    "ext_price": 2.9041,
+    "ext_chg": 0.056036343999999995,
     "ext_session": "pre"
    },
    "news": []
@@ -8607,8 +8607,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 3.48,
-    "ext_chg": 0.3864542,
+    "ext_price": 3.7501,
+    "ext_chg": 0.49406372,
     "ext_session": "pre"
    },
    "news": []
@@ -8646,7 +8646,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 3.48,
+   "price": 3.7501,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8680,7 +8680,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.32,
+   "price": 1.386,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8706,7 +8706,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.65,
+   "price": 1.47,
    "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8724,9 +8724,9 @@
      2.18
     ]
    },
-   "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 4%",
+   "state": "BELOW_STOP",
    "alert": false,
+   "state_ar": "تحت وقف المتابعة 1.49 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8812,11 +8812,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 216348.0,
-   "price": 350.4777
+   "volume": 222696.0,
+   "price": 350.99
   },
   "SNDL": {
-   "volume": 10000.0,
+   "volume": 10032.0,
    "price": 1.41
   }
  }

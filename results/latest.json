@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-05T12:27:44.609461+00:00",
- "generated_at_et": "2026-11-05T07:27:44.609461-05:00",
+ "generated_at_utc": "2026-11-05T12:37:44.609608+00:00",
+ "generated_at_et": "2026-11-05T07:37:44.609608-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -1966,8 +1966,8 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.42,
-    "ext_chg": -0.013888958,
+    "ext_price": 1.4972,
+    "ext_chg": 0.03972219,
     "ext_session": "pre"
    },
    "news": [
@@ -2185,8 +2185,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.5146,
-    "ext_chg": 0.023468559,
+    "ext_price": 0.4951,
+    "ext_chg": -0.015314233,
     "ext_session": "pre"
    },
    "news": []
@@ -8607,8 +8607,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 4.12,
-    "ext_chg": 0.6414342000000001,
+    "ext_price": 4.14,
+    "ext_chg": 0.6494023,
     "ext_session": "pre"
    },
    "news": []
@@ -8646,7 +8646,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 4.12,
+   "price": 4.14,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8680,7 +8680,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.23,
+   "price": 1.2515,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8795,8 +8795,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 0.47 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 0.47 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": {
     "status": "WATCH",
@@ -8812,12 +8812,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 413631.0,
-   "price": 352.73
+   "volume": 459246.0,
+   "price": 352.52
   },
   "SNDL": {
-   "volume": 12116.0,
-   "price": 1.42
+   "volume": 16306.0,
+   "price": 1.4215
   }
  }
 }

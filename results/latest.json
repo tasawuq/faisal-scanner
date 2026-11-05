@@ -1,12 +1,12 @@
 {
- "generated_at_utc": "2026-11-05T12:17:44.609326+00:00",
- "generated_at_et": "2026-11-05T07:17:44.609326-05:00",
+ "generated_at_utc": "2026-11-05T12:27:44.609461+00:00",
+ "generated_at_et": "2026-11-05T07:27:44.609461-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1284,
   "with_data": 1284,
-  "short_history": 15,
+  "short_history": 16,
   "price_out": 60,
   "low_volume": 491,
   "outside_float": 305,
@@ -16,7 +16,7 @@
  },
  "counts": {
   "universe": 5851,
-  "analyzed": 718,
+  "analyzed": 717,
   "ready": 0,
   "watch": 95,
   "momentum": 0,
@@ -1089,8 +1089,8 @@
     "last_split": "عكسي 1:8 (2026-04-28)",
     "short_available": null,
     "short_pct_float": 0.0211,
-    "ext_price": 1.38,
-    "ext_chg": -0.07382550335570481,
+    "ext_price": 1.33,
+    "ext_chg": 0.0,
     "ext_session": "pre"
    },
    "news": []
@@ -1530,8 +1530,8 @@
     },
     "last_split": "عكسي 1:7 (2026-09-08)",
     "short_available": null,
-    "ext_price": 2.87,
-    "ext_chg": 0.04363632,
+    "ext_price": 2.8006,
+    "ext_chg": 0.01840002,
     "ext_session": "pre"
    },
    "news": []
@@ -2185,8 +2185,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.5101,
-    "ext_chg": 0.014518734,
+    "ext_price": 0.5146,
+    "ext_chg": 0.023468559,
     "ext_session": "pre"
    },
    "news": []
@@ -8607,8 +8607,8 @@
     "last_split": "عكسي 1:45 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.0626,
-    "ext_price": 4.49,
-    "ext_chg": 0.7888445000000001,
+    "ext_price": 4.12,
+    "ext_chg": 0.6414342000000001,
     "ext_session": "pre"
    },
    "news": []
@@ -8646,7 +8646,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 4.49,
+   "price": 4.12,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8680,7 +8680,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.29,
+   "price": 1.23,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8706,7 +8706,7 @@
   },
   {
    "ticker": "BRTX",
-   "price": 1.55,
+   "price": 1.56,
    "price_label": "سعر البري",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8812,11 +8812,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 386630.0,
-   "price": 352.34
+   "volume": 413631.0,
+   "price": 352.73
   },
   "SNDL": {
-   "volume": 11615.0,
+   "volume": 12116.0,
    "price": 1.42
   }
  }

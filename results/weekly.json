@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-11-04T18:07:54.937956-05:00",
+ "generated_at_et": "2026-11-04T19:07:54.938960-05:00",
  "items": [
   {
    "ticker": "EZRA",
@@ -20,7 +20,7 @@
      "factor": "1:40",
      "date": "2026-05-18",
      "reverse": true,
-     "days": 170,
+     "days": 171,
      "recent": true,
      "open_after": 4.820000171661377,
      "high_after": 5.449999809265137
@@ -168,7 +168,7 @@
      "factor": "1:8",
      "date": "2026-05-27",
      "reverse": true,
-     "days": 161,
+     "days": 162,
      "recent": true,
      "open_after": 1.9700000286102295,
      "high_after": 14.800000190734863
@@ -299,155 +299,6 @@
    ]
   },
   {
-   "ticker": "NXTS",
-   "score": 11.5,
-   "price": 0.555,
-   "ext_price": null,
-   "name": "Nexentis Technologies Inc.",
-   "type": [
-    "فلووت منخفض جداً",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 700870,
-    "shares": 2375521,
-    "last_split": "عكسي 1:7 (2026-04-08)",
-    "split": {
-     "factor": "1:7",
-     "date": "2026-04-08",
-     "reverse": true,
-     "days": 210,
-     "recent": true,
-     "open_after": 4.699999809265137,
-     "high_after": 23.799999237060547
-    },
-    "country_ar": "إسرائيلي",
-    "industry": "Agricultural Inputs",
-    "short_available": null,
-    "runner": {
-     "pct": 4.693779955613075,
-     "from": 4.179999828338623,
-     "from_date": "2026-05-20",
-     "to": 23.799999237060547,
-     "to_date": "2026-06-22",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Sep 30, 2025",
-     "SciSparc Stocks Surge 50% In Pre-Market After N2OFF Approves MitoCareX Acquisition"
-    ],
-    [
-     "Jul 11, 2025",
-     "N2OFF, Inc. Completes $2.7 Million Investment in Battery Energy Storage Projects in Sicily, Targeting $13.5 Million Valuation"
-    ],
-    [
-     "Jun 16, 2025",
-     "N2OFF, Inc. Expands Investment in Melz Solar Project with Integration of Battery Energy Storage System"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.505,
-    "demand_high": 0.51,
-    "orders": [
-     0.51,
-     0.5075,
-     0.505
-    ],
-    "critical": 0.505,
-    "stop": 0.5049,
-    "risk": 0.00512315270935948,
-    "wash_low": 0.4292,
-    "wash_high": 0.4545,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.5049999952316284,
-    "t1": 0.5730000138282776,
-    "t2": 0.6079999804496765
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-04",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
-     "retest",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "ma",
-     "accum",
-     "volume",
-     "candle"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.6356 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 17 (الحالي 29)"
-     ],
-     "macd": [
-      true,
-      "الهيستوجرام يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 0.505–0.51 لمسها 3 مرات خلال 10 يوم"
-     ],
-     "retest": [
-      true,
-      "رجع للدعم وما انكسر (الاختبار 3)"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 67K مقابل متوسط شموع البيع 443K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة بعيدة عن منطقة الدعم"
-     ],
-     "accum": [
-      false,
-      "قاع الاختبار الأخير 0.51 مو أعلى من اللي قبله 0.512، والشموع ما تقلصت"
-     ],
-     "pressure": [
-      true,
-      "هبط 88% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 0.573 (+12.9%) أكبر من الخسارة −0.5%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.6356 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.51 مو أعلى من اللي قبله 0.512، والشموع ما تقلصت (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 67K مقابل متوسط شموع البيع 443K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)"
-   ],
-   "ready_when": "اختبار منطقة 0.505–0.51 وفشل كسرها (أو سحب سيولة تحت 0.505 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.404–0.4545، ص54)",
-   "flags": [],
-   "tags": [
-    "تقسيم عكسي حديث 1:7 (2026-04-08) — افتتح بعده 4.7 وأعلى سعر 23.8",
-    "فلووت 0.70M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 469% من 4.18 (2026-05-20) إلى 23.8 (2026-06-22)",
-    "قاع الفترة (قاع سنة)"
-   ]
-  },
-  {
    "ticker": "LGHL",
    "score": 11.0,
    "price": 1.97,
@@ -466,7 +317,7 @@
      "factor": "1:20",
      "date": "2026-09-10",
      "reverse": true,
-     "days": 55,
+     "days": 56,
      "recent": true,
      "open_after": 8.210000038146973,
      "high_after": 9.539999961853027
@@ -486,15 +337,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Cummins Becomes Oversold"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Devon Energy Breaks Below 200-Day Moving Average - Notable for DVN"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ],
     [
      "Nov 4, 2026",
-     "MFA Financial, Inc. Reports Third Quarter 2026 Financial Results and Announces CEO Succession Plan"
+     "Service Corporation International Announces Executive Agreement Extensions to December 31, 2027, Director Retirement, and Quarterly Dividend"
     ]
    ],
    "levels": {
@@ -614,7 +465,7 @@
      "factor": "1:50",
      "date": "2026-09-09",
      "reverse": true,
-     "days": 56,
+     "days": 57,
      "recent": true,
      "open_after": 5.010000228881836,
      "high_after": 5.789999961853027
@@ -765,7 +616,7 @@
      "factor": "1:50",
      "date": "2026-07-06",
      "reverse": true,
-     "days": 121,
+     "days": 122,
      "recent": true,
      "open_after": 4.260000228881836,
      "high_after": 6.0
@@ -916,7 +767,7 @@
      "factor": "1:12",
      "date": "2026-06-15",
      "reverse": true,
-     "days": 142,
+     "days": 143,
      "recent": true,
      "open_after": 5.25,
      "high_after": 7.550000190734863
@@ -1065,7 +916,7 @@
      "factor": "1:6",
      "date": "2026-10-07",
      "reverse": true,
-     "days": 28,
+     "days": 29,
      "recent": true,
      "open_after": 2.509999990463257,
      "high_after": 2.7200000286102295
@@ -1085,15 +936,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Cummins Becomes Oversold"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Devon Energy Breaks Below 200-Day Moving Average - Notable for DVN"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ],
     [
      "Nov 4, 2026",
-     "MFA Financial, Inc. Reports Third Quarter 2026 Financial Results and Announces CEO Succession Plan"
+     "Service Corporation International Announces Executive Agreement Extensions to December 31, 2027, Director Retirement, and Quarterly Dividend"
     ]
    ],
    "levels": {
@@ -1200,7 +1051,7 @@
    "ticker": "GDC",
    "score": 10.0,
    "price": 1.24,
-   "ext_price": 1.23,
+   "ext_price": 1.22,
    "name": "GD Culture Group Limited",
    "type": [
     "فلووت منخفض جداً"
@@ -1215,7 +1066,7 @@
      "factor": "1:250",
      "date": "2026-06-29",
      "reverse": true,
-     "days": 128,
+     "days": 129,
      "recent": true,
      "open_after": 2.799999952316284,
      "high_after": 3.5899999141693115
@@ -1350,7 +1201,7 @@
    "ticker": "SBFM",
    "score": 10.0,
    "price": 2.65,
-   "ext_price": 2.81,
+   "ext_price": 2.7973,
    "name": "Sunshine Biopharma, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -1367,7 +1218,7 @@
      "factor": "1:20",
      "date": "2026-10-26",
      "reverse": true,
-     "days": 9,
+     "days": 10,
      "recent": true,
      "open_after": 3.059999942779541,
      "high_after": 3.443000078201294
@@ -1518,7 +1369,7 @@
      "factor": "1:6",
      "date": "2026-06-29",
      "reverse": true,
-     "days": 128,
+     "days": 129,
      "recent": true,
      "open_after": 3.0,
      "high_after": 5.670000076293945
@@ -1538,15 +1389,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Stocks Surge as Democrats Sweep Congress"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "APA Corporation Reports Climb In Q3 Income"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ],
     [
      "Nov 4, 2026",
-     "Rayonier Inc. Q3 Income Advances"
+     "Service Corporation International Announces Executive Agreement Extensions to December 31, 2027, Director Retirement, and Quarterly Dividend"
     ]
    ],
    "levels": {
@@ -1669,7 +1520,7 @@
      "factor": "1:40",
      "date": "2026-10-13",
      "reverse": true,
-     "days": 22,
+     "days": 23,
      "recent": true,
      "open_after": 4.320000171661377,
      "high_after": 7.558000087738037
@@ -1817,7 +1668,7 @@
      "factor": "1:20",
      "date": "2026-08-17",
      "reverse": true,
-     "days": 79,
+     "days": 80,
      "recent": true,
      "open_after": 1.4199999570846558,
      "high_after": 1.5700000524520874
@@ -1966,7 +1817,7 @@
      "factor": "1:20",
      "date": "2026-10-12",
      "reverse": true,
-     "days": 23,
+     "days": 24,
      "recent": true,
      "open_after": 3.9600000381469727,
      "high_after": 7.25
@@ -2117,7 +1968,7 @@
      "factor": "1:8",
      "date": "2026-08-28",
      "reverse": true,
-     "days": 68,
+     "days": 69,
      "recent": true,
      "open_after": 3.940000057220459,
      "high_after": 4.949999809265137
@@ -2265,7 +2116,7 @@
      "factor": "1:15",
      "date": "2026-08-13",
      "reverse": true,
-     "days": 83,
+     "days": 84,
      "recent": true,
      "open_after": 4.28000020980835,
      "high_after": 5.289999961853027
@@ -2408,7 +2259,7 @@
      "factor": "1:10",
      "date": "2026-09-28",
      "reverse": true,
-     "days": 37,
+     "days": 38,
      "recent": true,
      "open_after": 3.4200000762939453,
      "high_after": 4.300000190734863
@@ -2548,7 +2399,7 @@
      "factor": "1:100",
      "date": "2026-08-03",
      "reverse": true,
-     "days": 93,
+     "days": 94,
      "recent": true,
      "open_after": 7.199999809265137,
      "high_after": 53.59000015258789
@@ -2680,10 +2531,158 @@
    ]
   },
   {
+   "ticker": "NXTS",
+   "score": 9.5,
+   "price": 0.555,
+   "ext_price": null,
+   "name": "Nexentis Technologies Inc.",
+   "type": [
+    "فلووت منخفض جداً",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 700870,
+    "shares": 2375521,
+    "last_split": "عكسي 1:7 (2026-04-08)",
+    "split": {
+     "factor": "1:7",
+     "date": "2026-04-08",
+     "reverse": true,
+     "days": 211,
+     "recent": false,
+     "open_after": 4.699999809265137,
+     "high_after": 23.799999237060547
+    },
+    "country_ar": "إسرائيلي",
+    "industry": "Agricultural Inputs",
+    "short_available": null,
+    "runner": {
+     "pct": 4.693779955613075,
+     "from": 4.179999828338623,
+     "from_date": "2026-05-20",
+     "to": 23.799999237060547,
+     "to_date": "2026-06-22",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Sep 30, 2025",
+     "SciSparc Stocks Surge 50% In Pre-Market After N2OFF Approves MitoCareX Acquisition"
+    ],
+    [
+     "Jul 11, 2025",
+     "N2OFF, Inc. Completes $2.7 Million Investment in Battery Energy Storage Projects in Sicily, Targeting $13.5 Million Valuation"
+    ],
+    [
+     "Jun 16, 2025",
+     "N2OFF, Inc. Expands Investment in Melz Solar Project with Integration of Battery Energy Storage System"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.505,
+    "demand_high": 0.51,
+    "orders": [
+     0.51,
+     0.5075,
+     0.505
+    ],
+    "critical": 0.505,
+    "stop": 0.5049,
+    "risk": 0.00512315270935948,
+    "wash_low": 0.4292,
+    "wash_high": 0.4545,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 0.5049999952316284,
+    "t1": 0.5730000138282776,
+    "t2": 0.6079999804496765
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-04",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "retest",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "accum",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.6356 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 17 (الحالي 29)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      true,
+      "منطقة 0.505–0.51 لمسها 3 مرات خلال 10 يوم"
+     ],
+     "retest": [
+      true,
+      "رجع للدعم وما انكسر (الاختبار 3)"
+     ],
+     "volume": [
+      false,
+      "آخر شمعة حمراء — فوليومها 67K مقابل متوسط شموع البيع 443K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة بعيدة عن منطقة الدعم"
+     ],
+     "accum": [
+      false,
+      "قاع الاختبار الأخير 0.51 مو أعلى من اللي قبله 0.512، والشموع ما تقلصت"
+     ],
+     "pressure": [
+      true,
+      "هبط 88% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 0.573 (+12.9%) أكبر من الخسارة −0.5%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.6356 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.51 مو أعلى من اللي قبله 0.512، والشموع ما تقلصت (ص12/ص13)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 67K مقابل متوسط شموع البيع 443K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 0.505–0.51 وفشل كسرها (أو سحب سيولة تحت 0.505 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.404–0.4545، ص54)",
+   "flags": [],
+   "tags": [
+    "فلووت 0.70M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 469% من 4.18 (2026-05-20) إلى 23.8 (2026-06-22)",
+    "قاع الفترة (قاع سنة)"
+   ]
+  },
+  {
    "ticker": "ELPW",
    "score": 9.5,
    "price": 2.51,
-   "ext_price": 2.6063,
+   "ext_price": 2.56,
    "name": "Elong Power Holding Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -2700,7 +2699,7 @@
      "factor": "1:45",
      "date": "2026-08-10",
      "reverse": true,
-     "days": 86,
+     "days": 87,
      "recent": true,
      "open_after": 4.630000114440918,
      "high_after": 5.590000152587891
@@ -2852,7 +2851,7 @@
      "factor": "1:6",
      "date": "2026-06-30",
      "reverse": true,
-     "days": 127,
+     "days": 128,
      "recent": true,
      "open_after": 5.579999923706055,
      "high_after": 5.610000133514404
@@ -3002,7 +3001,7 @@
      "factor": "1:8",
      "date": "2026-04-28",
      "reverse": true,
-     "days": 190,
+     "days": 191,
      "recent": true,
      "open_after": 3.6600000858306885,
      "high_after": 3.809999942779541
@@ -3152,7 +3151,7 @@
      "factor": "1:5",
      "date": "2026-02-06",
      "reverse": true,
-     "days": 271,
+     "days": 272,
      "recent": false,
      "open_after": 3.4000000953674316,
      "high_after": 5.389999866485596
@@ -3301,7 +3300,7 @@
      "factor": "1:40",
      "date": "2026-08-19",
      "reverse": true,
-     "days": 77,
+     "days": 78,
      "recent": true,
      "open_after": 2.7899999618530273,
      "high_after": 4.900000095367432
@@ -3453,7 +3452,7 @@
      "factor": "1:15",
      "date": "2026-08-24",
      "reverse": true,
-     "days": 72,
+     "days": 73,
      "recent": true,
      "open_after": 6.019999980926514,
      "high_after": 20.350000381469727
@@ -3604,7 +3603,7 @@
      "factor": "1:150",
      "date": "2026-09-28",
      "reverse": true,
-     "days": 37,
+     "days": 38,
      "recent": true,
      "open_after": 4.170000076293945,
      "high_after": 4.409999847412109
@@ -3752,7 +3751,7 @@
      "factor": "1:25",
      "date": "2026-06-01",
      "reverse": true,
-     "days": 156,
+     "days": 157,
      "recent": true,
      "open_after": 3.5199999809265137,
      "high_after": 7.150000095367432
@@ -3903,7 +3902,7 @@
      "factor": "1:5",
      "date": "2026-09-15",
      "reverse": true,
-     "days": 50,
+     "days": 51,
      "recent": true,
      "open_after": 1.100000023841858,
      "high_after": 1.7999999523162842
@@ -3923,15 +3922,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Cummins Becomes Oversold"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Devon Energy Breaks Below 200-Day Moving Average - Notable for DVN"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "MFA Financial, Inc. Reports Third Quarter 2026 Financial Results and Announces CEO Succession Plan"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -4054,7 +4053,7 @@
      "factor": "1:25",
      "date": "2026-06-01",
      "reverse": true,
-     "days": 156,
+     "days": 157,
      "recent": true,
      "open_after": 5.489999771118164,
      "high_after": 15.119999885559082
@@ -4202,7 +4201,7 @@
      "factor": "1:8",
      "date": "2026-05-19",
      "reverse": true,
-     "days": 169,
+     "days": 170,
      "recent": true,
      "open_after": 7.809999942779541,
      "high_after": 15.239999771118164
@@ -4354,7 +4353,7 @@
      "factor": "10:55",
      "date": "2012-01-17",
      "reverse": true,
-     "days": 5405,
+     "days": 5406,
      "recent": false
     },
     "country_ar": "صيني (هونغ كونغ)",
@@ -4500,7 +4499,7 @@
      "factor": "1:125",
      "date": "2026-09-01",
      "reverse": true,
-     "days": 64,
+     "days": 65,
      "recent": true,
      "open_after": 3.609999895095825,
      "high_after": 5.110000133514404
@@ -4652,7 +4651,7 @@
      "factor": "1:25",
      "date": "2026-07-06",
      "reverse": true,
-     "days": 121,
+     "days": 122,
      "recent": true,
      "open_after": 4.650000095367432,
      "high_after": 5.260000228881836
@@ -4799,7 +4798,7 @@
      "factor": "1:12",
      "date": "2026-01-23",
      "reverse": true,
-     "days": 285,
+     "days": 286,
      "recent": false,
      "open_after": 7.980000019073486,
      "high_after": 9.0
@@ -4945,7 +4944,7 @@
      "factor": "1:10",
      "date": "2026-05-08",
      "reverse": true,
-     "days": 180,
+     "days": 181,
      "recent": true,
      "open_after": 4.699999809265137,
      "high_after": 11.399999618530273
@@ -5096,7 +5095,7 @@
      "factor": "1:25",
      "date": "2025-12-17",
      "reverse": true,
-     "days": 322,
+     "days": 323,
      "recent": false,
      "open_after": 3.3499999046325684,
      "high_after": 8.880000114440918
@@ -5247,7 +5246,7 @@
      "factor": "1:40",
      "date": "2026-04-28",
      "reverse": true,
-     "days": 190,
+     "days": 191,
      "recent": true,
      "open_after": 5.0,
      "high_after": 6.769999980926514
@@ -5396,7 +5395,7 @@
      "factor": "1:12",
      "date": "2026-08-13",
      "reverse": true,
-     "days": 83,
+     "days": 84,
      "recent": true,
      "open_after": 4.21999979019165,
      "high_after": 5.860000133514404
@@ -5558,15 +5557,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Cummins Becomes Oversold"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Devon Energy Breaks Below 200-Day Moving Average - Notable for DVN"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "MFA Financial, Inc. Reports Third Quarter 2026 Financial Results and Announces CEO Succession Plan"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -5701,15 +5700,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Cummins Becomes Oversold"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Devon Energy Breaks Below 200-Day Moving Average - Notable for DVN"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "MFA Financial, Inc. Reports Third Quarter 2026 Financial Results and Announces CEO Succession Plan"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -5830,7 +5829,7 @@
      "factor": "1:10",
      "date": "2026-05-29",
      "reverse": true,
-     "days": 159,
+     "days": 160,
      "recent": true,
      "open_after": 4.289999961853027,
      "high_after": 5.449999809265137
@@ -5983,7 +5982,7 @@
      "factor": "1:25",
      "date": "2026-06-15",
      "reverse": true,
-     "days": 142,
+     "days": 143,
      "recent": true,
      "open_after": 6.440000057220459,
      "high_after": 10.5
@@ -6126,7 +6125,7 @@
      "factor": "1:4",
      "date": "2025-09-29",
      "reverse": true,
-     "days": 401,
+     "days": 402,
      "recent": false
     },
     "country_ar": "سنغافوري",
@@ -6284,15 +6283,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Stocks Surge as Democrats Sweep Congress"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "APA Corporation Reports Climb In Q3 Income"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "Rayonier Inc. Q3 Income Advances"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -6413,7 +6412,7 @@
      "factor": "1:25",
      "date": "2026-07-13",
      "reverse": true,
-     "days": 114,
+     "days": 115,
      "recent": true,
      "open_after": 3.299999952316284,
      "high_after": 3.4000000953674316
@@ -6560,7 +6559,7 @@
      "factor": "1:10",
      "date": "2025-10-20",
      "reverse": true,
-     "days": 380,
+     "days": 381,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -6708,7 +6707,7 @@
      "factor": "1:20",
      "date": "2026-05-04",
      "reverse": true,
-     "days": 184,
+     "days": 185,
      "recent": true,
      "open_after": 1.6200000047683716,
      "high_after": 43.369998931884766
@@ -6869,15 +6868,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Cummins Becomes Oversold"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Devon Energy Breaks Below 200-Day Moving Average - Notable for DVN"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "MFA Financial, Inc. Reports Third Quarter 2026 Financial Results and Announces CEO Succession Plan"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -6998,7 +6997,7 @@
      "factor": "1:12",
      "date": "2025-12-08",
      "reverse": true,
-     "days": 331,
+     "days": 332,
      "recent": false,
      "open_after": 10.800000190734863,
      "high_after": 11.800000190734863
@@ -7144,7 +7143,7 @@
      "factor": "1:6",
      "date": "2026-06-12",
      "reverse": true,
-     "days": 145,
+     "days": 146,
      "recent": true,
      "open_after": 2.309999942779541,
      "high_after": 8.930000305175781
@@ -7296,7 +7295,7 @@
      "factor": "1:25",
      "date": "2024-08-20",
      "reverse": true,
-     "days": 806,
+     "days": 807,
      "recent": false
     },
     "country_ar": "إسرائيلي",
@@ -7430,7 +7429,7 @@
    "ticker": "AGMH",
    "score": 6.5,
    "price": 0.5028,
-   "ext_price": 0.5852,
+   "ext_price": 0.5501,
    "name": "AGM Group Holdings Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -7446,7 +7445,7 @@
      "factor": "1:50",
      "date": "2025-06-03",
      "reverse": true,
-     "days": 519,
+     "days": 520,
      "recent": false
     },
     "country_ar": "صيني (هونغ كونغ)",
@@ -7595,7 +7594,7 @@
      "factor": "1:5",
      "date": "2024-12-09",
      "reverse": true,
-     "days": 695,
+     "days": 696,
      "recent": false
     },
     "country_ar": "صيني",
@@ -7743,7 +7742,7 @@
      "factor": "1:15",
      "date": "2022-09-15",
      "reverse": true,
-     "days": 1511,
+     "days": 1512,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -7761,15 +7760,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Cummins Becomes Oversold"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Devon Energy Breaks Below 200-Day Moving Average - Notable for DVN"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "MFA Financial, Inc. Reports Third Quarter 2026 Financial Results and Announces CEO Succession Plan"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -7890,7 +7889,7 @@
      "factor": "1:20",
      "date": "2026-03-30",
      "reverse": true,
-     "days": 219,
+     "days": 220,
      "recent": false,
      "open_after": 3.7799999713897705,
      "high_after": 3.9649999141693115
@@ -8041,7 +8040,7 @@
      "factor": "1:200",
      "date": "2026-08-03",
      "reverse": true,
-     "days": 93,
+     "days": 94,
      "recent": true,
      "open_after": 3.740000009536743,
      "high_after": 7.670000076293945
@@ -8061,15 +8060,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Stocks Surge as Democrats Sweep Congress"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "APA Corporation Reports Climb In Q3 Income"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "Rayonier Inc. Q3 Income Advances"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -8205,15 +8204,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Cummins Becomes Oversold"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Devon Energy Breaks Below 200-Day Moving Average - Notable for DVN"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "MFA Financial, Inc. Reports Third Quarter 2026 Financial Results and Announces CEO Succession Plan"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -8337,7 +8336,7 @@
      "factor": "1:10",
      "date": "2026-05-21",
      "reverse": true,
-     "days": 167,
+     "days": 168,
      "recent": true,
      "open_after": 1.1399999856948853,
      "high_after": 1.440000057220459
@@ -8357,15 +8356,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "Stocks Surge as Democrats Sweep Congress"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "APA Corporation Reports Climb In Q3 Income"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "Rayonier Inc. Q3 Income Advances"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -8489,7 +8488,7 @@
      "factor": "1:10",
      "date": "2025-02-13",
      "reverse": true,
-     "days": 629,
+     "days": 630,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -8634,7 +8633,7 @@
      "factor": "1:30",
      "date": "2025-03-17",
      "reverse": true,
-     "days": 597,
+     "days": 598,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -8781,7 +8780,7 @@
      "factor": "1:20",
      "date": "2025-11-04",
      "reverse": true,
-     "days": 365,
+     "days": 366,
      "recent": false,
      "open_after": 6.789999961853027,
      "high_after": 21.799999237060547
@@ -8931,7 +8930,7 @@
      "factor": "1:65",
      "date": "2024-08-15",
      "reverse": true,
-     "days": 811,
+     "days": 812,
      "recent": false
     },
     "country_ar": "كندي",
@@ -9080,7 +9079,7 @@
      "factor": "1:4",
      "date": "2026-01-20",
      "reverse": true,
-     "days": 288,
+     "days": 289,
      "recent": false,
      "open_after": 2.2200000286102295,
      "high_after": 8.619999885559082
@@ -9231,7 +9230,7 @@
      "factor": "1:11",
      "date": "2026-07-31",
      "reverse": true,
-     "days": 96,
+     "days": 97,
      "recent": true,
      "open_after": 3.6600000858306885,
      "high_after": 5.28000020980835
@@ -9383,7 +9382,7 @@
      "factor": "1:8",
      "date": "2025-12-02",
      "reverse": true,
-     "days": 337,
+     "days": 338,
      "recent": false,
      "open_after": 3.25,
      "high_after": 25.110000610351562
@@ -9534,7 +9533,7 @@
      "factor": "1:10",
      "date": "2026-07-13",
      "reverse": true,
-     "days": 114,
+     "days": 115,
      "recent": true,
      "open_after": 4.409999847412109,
      "high_after": 9.890000343322754
@@ -9686,7 +9685,7 @@
      "factor": "1:7",
      "date": "2026-09-08",
      "reverse": true,
-     "days": 57,
+     "days": 58,
      "recent": true,
      "open_after": 3.259999990463257,
      "high_after": 3.8399999141693115
@@ -9975,7 +9974,7 @@
      "factor": "1:8",
      "date": "2026-08-11",
      "reverse": true,
-     "days": 85,
+     "days": 86,
      "recent": true,
      "open_after": 2.75,
      "high_after": 11.420000076293945
@@ -10139,15 +10138,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "CVR Partners is Oversold"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Murphy Oil (MUR) Shares Cross Below 200 DMA"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "RSI Alert: TXO Partners Now Oversold"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -10410,7 +10409,7 @@
      "factor": "1:17",
      "date": "2023-05-12",
      "reverse": true,
-     "days": 1272,
+     "days": 1273,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -10560,7 +10559,7 @@
      "factor": "1:7",
      "date": "2026-08-03",
      "reverse": true,
-     "days": 93,
+     "days": 94,
      "recent": true,
      "open_after": 3.1500000953674316,
      "high_after": 3.700000047683716
@@ -10711,7 +10710,7 @@
      "factor": "1:12",
      "date": "2026-02-13",
      "reverse": true,
-     "days": 264,
+     "days": 265,
      "recent": false,
      "open_after": 2.630000114440918,
      "high_after": 8.600000381469727
@@ -10863,7 +10862,7 @@
      "factor": "1:8",
      "date": "2026-10-26",
      "reverse": true,
-     "days": 9,
+     "days": 10,
      "recent": true,
      "open_after": 4.699999809265137,
      "high_after": 5.046999931335449
@@ -11015,7 +11014,7 @@
      "factor": "1:30",
      "date": "2026-03-31",
      "reverse": true,
-     "days": 218,
+     "days": 219,
      "recent": false,
      "open_after": 4.195000171661377,
      "high_after": 6.159999847412109
@@ -11164,7 +11163,7 @@
      "factor": "129:1000",
      "date": "2026-04-01",
      "reverse": true,
-     "days": 217,
+     "days": 218,
      "recent": false,
      "open_after": 4.409999847412109,
      "high_after": 10.100000381469727
@@ -11311,7 +11310,7 @@
      "factor": "1:10",
      "date": "2023-06-12",
      "reverse": true,
-     "days": 1241,
+     "days": 1242,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -11598,7 +11597,7 @@
      "factor": "1:15",
      "date": "2025-06-10",
      "reverse": true,
-     "days": 512,
+     "days": 513,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -11888,7 +11887,7 @@
      "factor": "1:20",
      "date": "2025-12-05",
      "reverse": true,
-     "days": 334,
+     "days": 335,
      "recent": false,
      "open_after": 6.820000171661377,
      "high_after": 58.0
@@ -12038,7 +12037,7 @@
      "factor": "115:100",
      "date": "2025-08-07",
      "reverse": false,
-     "days": 454,
+     "days": 455,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -12184,7 +12183,7 @@
      "factor": "1:13",
      "date": "2025-05-02",
      "reverse": true,
-     "days": 551,
+     "days": 552,
      "recent": false
     },
     "country_ar": "كندي",
@@ -12600,7 +12599,7 @@
      "factor": "1:5",
      "date": "2025-01-14",
      "reverse": true,
-     "days": 659,
+     "days": 660,
      "recent": false
     },
     "country_ar": "دنماركي",
@@ -12618,15 +12617,15 @@
    "news": [
     [
      "Nov 4, 2026",
+     "Evaxion A/S to Present New Target Validation Data for EVX-04 at ASH 2026 Meeting"
+    ],
+    [
+     "Nov 4, 2026",
      "Evaxion A/S Raises $775,068 in Net Proceeds via ATM Offering of 201,198 ADSs"
     ],
     [
      "Nov 3, 2026",
      "Evaxion A/S to Present Biomarker Data from phase 2 Trial of EVX-01 at SITC 2026"
-    ],
-    [
-     "Oct 23, 2026",
-     "Evaxion Announces 89% Vaccine Target Precision and Sustained T-Cell and Clinical Responses at Three-Year Follow-Up in Phase 2 Trial with Personalized Cancer Vaccine EVX-01"
     ]
    ],
    "levels": {
@@ -12747,7 +12746,7 @@
      "factor": "1:10",
      "date": "2018-07-10",
      "reverse": true,
-     "days": 3039,
+     "days": 3040,
      "recent": false
     },
     "country_ar": "صيني",
@@ -12894,7 +12893,7 @@
      "factor": "1:10",
      "date": "2024-07-25",
      "reverse": true,
-     "days": 832,
+     "days": 833,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -13055,15 +13054,15 @@
    "news": [
     [
      "Nov 4, 2026",
-     "AFLAC Inc Q3 Profit Falls"
+     "Stocks Surge on Midterm Election Optimism"
     ],
     [
      "Nov 4, 2026",
-     "Veeco Instruments Profit Climbs In Q3"
+     "Palmer Square (PSBD) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 4, 2026",
-     "CVR Partners is Oversold"
+     "Powell Industries Declares Quarterly Cash Dividend of $0.09 Per Share"
     ]
    ],
    "levels": {
@@ -13186,7 +13185,7 @@
      "factor": "1:10",
      "date": "2024-07-18",
      "reverse": true,
-     "days": 839,
+     "days": 840,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -13762,7 +13761,7 @@
      "factor": "1:10",
      "date": "2025-07-07",
      "reverse": true,
-     "days": 485,
+     "days": 486,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -13912,7 +13911,7 @@
      "factor": "1:50",
      "date": "2025-10-13",
      "reverse": true,
-     "days": 387,
+     "days": 388,
      "recent": false
     },
     "country_ar": "صيني",

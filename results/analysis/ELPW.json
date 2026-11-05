@@ -1,20 +1,24 @@
 {
  "ticker": "ELPW",
- "generated_at_et": "2026-11-05T06:03:12.535171-05:00",
- "session": "pre",
+ "generated_at_et": "2026-11-05T13:00:59.187083-05:00",
+ "session": "regular",
  "quote": {
-  "reg_price": 2.51,
-  "reg_chg": -0.109929,
-  "reg_vol": 116762,
-  "prev_close": 2.82,
-  "pre_price": 3.5318,
-  "pre_chg": 0.40709167,
+  "reg_price": 1.369,
+  "reg_chg": -0.45458168,
+  "reg_vol": 57665617,
+  "prev_close": 2.51,
+  "pre_price": null,
+  "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
-  "avg_vol": 1031811,
-  "state": "PRE"
+  "avg_vol": 1028241,
+  "state": "REGULAR"
  },
  "news": [
+  {
+   "headline": "BC-Most Active Stocks",
+   "time": "2026-11-05T15:34:22+00:00"
+  },
   {
    "headline": "Elong Power Signs $25.5 Million Annual Distribution Agreement Through Hong Kong Subsidiary",
    "time": "2026-10-28T15:58:23+00:00"
@@ -33,39 +37,28 @@
   "lastSplitDate": 1786320000
  },
  "daily": {
-  "price": 2.51,
-  "chg_1d": -0.1099,
+  "price": 1.369,
+  "chg_1d": -0.4546,
   "ma": {
-   "MA20": 2.5085,
-   "MA30": 2.65,
-   "MA50": 2.7936
+   "MA20": 2.4459,
+   "MA30": 2.6063,
+   "MA50": 2.739
   },
-  "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "rsi_now": 42.7,
-  "rsi_min15": 30.5,
-  "rsi_min30": 30.5,
+  "ma_state": "تحت كل المتوسطات (ضغط)",
+  "rsi_now": 27.0,
+  "rsi_min15": 27.0,
+  "rsi_min30": 27.0,
   "macd": {
-   "line": -0.14364,
-   "signal": -0.25288,
+   "line": -0.2323,
+   "signal": -0.24876,
    "hist_last3": [
-    0.1389,
     0.13563,
-    0.10924
+    0.10924,
+    0.01646
    ],
    "state": "إيجابي (الخط فوق الإشارة)"
   },
   "candles": [
-   {
-    "d": "2026-11-03",
-    "hammer": "True",
-    "engulfing": "False",
-    "lower_wick": "True",
-    "strong_green": "False",
-    "upper_wick_ratio": 0.18264834217333367,
-    "close_pos": 0.8173516578266663,
-    "green": "False",
-    "bullish_reversal": "True"
-   },
    {
     "d": "2026-11-04",
     "hammer": "False",
@@ -76,21 +69,37 @@
     "close_pos": 0.027777759381277117,
     "green": "False",
     "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-11-05",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.2659932505868348,
+    "close_pos": 0.036700325429316,
+    "green": "False",
+    "bullish_reversal": "False"
    }
   ],
-  "atr": 0.3542,
-  "avg_vol20": 2143400,
-  "last_vol": 118400,
-  "drawdown_90d": 0.947,
-  "high_90d": 47.7,
-  "low_10d": 2.22,
-  "gain_from_low10": 0.131,
-  "sell_drying": true,
+  "atr": 0.5411,
+  "avg_vol20": 2147030,
+  "last_vol": 57597132,
+  "drawdown_90d": 0.971,
+  "high_90d": 47.25,
+  "low_10d": 1.26,
+  "gain_from_low10": 0.087,
+  "sell_drying": false,
   "vol_improving": false,
   "higher_lows": true,
   "pump_recent": false,
-  "distribution_recent": false,
-  "pump_month": null,
+  "distribution_recent": true,
+  "pump_month": {
+   "d": "2026-11-05",
+   "high": 4.23,
+   "close": 1.369,
+   "vol_mult": 1156.6
+  },
   "former_runner": true,
   "runner_pct": 52.958,
   "distinct_closes20": 16,
@@ -102,14 +111,6 @@
     "is_bottom": false,
     "first": "2026-06-22",
     "last": "2026-06-29"
-   },
-   {
-    "low": 34.11,
-    "high": 34.4511,
-    "touches": 4,
-    "is_bottom": false,
-    "first": "2026-05-15",
-    "last": "2026-05-15"
    },
    {
     "low": 32.67,
@@ -158,29 +159,30 @@
     "is_bottom": false,
     "first": "2026-09-18",
     "last": "2026-09-18"
+   },
+   {
+    "low": 2.2,
+    "high": 2.222,
+    "touches": 2,
+    "is_bottom": true,
+    "first": "2026-10-16",
+    "last": "2026-10-23"
    }
   ],
-  "support_selected": {
-   "low": 2.42,
-   "high": 2.4442,
-   "touches": 3,
-   "interacting": true
-  },
-  "w": {
-   "low1": 2.2,
-   "low2": 2.22,
-   "neck": 2.48,
-   "low1_d": "2026-10-16",
-   "low2_d": "2026-10-23"
-  },
+  "support_selected": null,
+  "w": null,
   "resistances": [
    [
-    2.65,
+    2.4459,
+    "MA20"
+   ],
+   [
+    2.6063,
     "MA30"
    ],
    [
-    2.76,
-    "رأس شمعة هابطة + MA50"
+    2.739,
+    "MA50 + رأس شمعة هابطة"
    ],
    [
     3.4,
@@ -193,25 +195,11 @@
    [
     3.82,
     "قمة سابقة"
-   ],
-   [
-    4.38,
-    "قمة سابقة"
    ]
   ],
   "high_52w": 54972.0,
-  "low_52w": 2.2,
+  "low_52w": 1.26,
   "last_bars": [
-   {
-    "d": "2026-10-20",
-    "o": 2.28,
-    "h": 2.345,
-    "l": 2.28,
-    "c": 2.3,
-    "v": 10800,
-    "rsi": 31.7,
-    "hist": 0.09628
-   },
    {
     "d": "2026-10-21",
     "o": 2.37,
@@ -321,363 +309,120 @@
     "v": 118400,
     "rsi": 42.7,
     "hist": 0.10924
+   },
+   {
+    "d": "2026-11-05",
+    "o": 3.44,
+    "h": 4.23,
+    "l": 1.26,
+    "c": 1.369,
+    "v": 57597132,
+    "rsi": 27.0,
+    "hist": 0.01646
    }
   ]
  },
  "levels_map": {
-  "price": 3.5318,
+  "price": 1.369,
   "at_price": [],
   "above": [
    {
-    "level": 3.57,
-    "why": "رأس شمعة هابطة",
+    "level": 2.22,
+    "why": "قيعان سابقة متجمعة (7)",
     "confluence": 1
    },
    {
-    "level": 3.775,
-    "why": "قيعان سابقة متجمعة (3) + قمة سابقة",
+    "level": 2.295,
+    "why": "إغلاقات سابقة متجمعة (7) + قيعان سابقة متجمعة (3)",
     "confluence": 2
    },
    {
-    "level": 3.88,
-    "why": "قمة الأفتر/البري + إغلاقات سابقة متجمعة (3) + قيعان سابقة متجمعة (5)",
+    "level": 2.414,
+    "why": "قاع يوم 2026-11-02 + قيعان سابقة متجمعة (6) + MA20",
     "confluence": 3
    },
    {
-    "level": 4.09,
-    "why": "قيعان سابقة متجمعة (3) + إغلاقات سابقة متجمعة (3)",
-    "confluence": 2
+    "level": 2.49,
+    "why": "إغلاقات سابقة متجمعة (7) + قاع يوم 2026-11-04 + قيعان سابقة متجمعة (8)",
+    "confluence": 3
    },
    {
-    "level": 4.2,
-    "why": "إغلاقات سابقة متجمعة (3)",
-    "confluence": 1
+    "level": 2.585,
+    "why": "إغلاقات سابقة متجمعة (4) + قيعان سابقة متجمعة (5) + MA30",
+    "confluence": 3
    },
    {
-    "level": 4.38,
-    "why": "قمة سابقة",
-    "confluence": 1
+    "level": 2.641,
+    "why": "قاع يوم 2026-11-03 + قاع يوم 2026-10-30 + قيعان سابقة متجمعة (4)",
+    "confluence": 3
    },
    {
-    "level": 4.63,
-    "why": "رأس شمعة هابطة",
-    "confluence": 1
+    "level": 2.725,
+    "why": "إغلاقات سابقة متجمعة (10) + MA50 + قيعان سابقة متجمعة (4) + رأس شمعة هابطة",
+    "confluence": 4
    },
    {
-    "level": 4.88,
-    "why": "قمة سابقة",
-    "confluence": 1
+    "level": 2.8075,
+    "why": "إغلاقات سابقة متجمعة (4) + قمة يوم 2026-11-03 + قمة يوم 2026-11-04",
+    "confluence": 3
    }
   ],
   "below": [
    {
-    "level": 3.48,
-    "why": "قيعان سابقة متجمعة (3)",
+    "level": 1.26,
+    "why": "قاع يوم 2026-11-05",
     "confluence": 1
-   },
-   {
-    "level": 3.21,
-    "why": "قيعان سابقة متجمعة (3)",
-    "confluence": 1
-   },
-   {
-    "level": 3.03,
-    "why": "إغلاقات سابقة متجمعة (6)",
-    "confluence": 1
-   },
-   {
-    "level": 2.93,
-    "why": "إغلاقات سابقة متجمعة (3) + قمة يوم 2026-10-30 + قمة يوم 2026-11-02 + قيعان سابقة متجمعة (5)",
-    "confluence": 4
-   },
-   {
-    "level": 2.86,
-    "why": "قمة يوم 2026-11-03 + قمة يوم 2026-11-04 + إغلاقات سابقة متجمعة (4)",
-    "confluence": 3
-   },
-   {
-    "level": 2.8,
-    "why": "قمة يوم 2026-10-29 + MA50 + قيعان سابقة متجمعة (4)",
-    "confluence": 3
-   },
-   {
-    "level": 2.7363,
-    "why": "فواب جلسة 2026-11-04 + إغلاقات سابقة متجمعة (10)",
-    "confluence": 2
-   },
-   {
-    "level": 2.68,
-    "why": "قاع يوم 2026-10-30 + قيعان سابقة متجمعة (4) + MA30 + قاع يوم 2026-11-03",
-    "confluence": 4
    }
   ]
  },
- "pivot": {
-  "ticker": "ELPW",
-  "kind": "pivot",
-  "status": "WATCH",
-  "setup": "W_RETEST",
-  "setup_ar": "إعادة اختبار خط العنق بنجاح",
-  "price": 2.509999990463257,
-  "score": 6.0,
-  "conditions": {
-   "ma": {
-    "score": 1.0,
-    "note": "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 2.51"
-   },
-   "rsi": {
-    "score": 0.0,
-    "note": "أدنى RSI 30 (الحالي 43)"
-   },
-   "macd": {
-    "score": 1.0,
-    "note": "الخط فوق الإشارة"
-   },
-   "support": {
-    "score": 1.0,
-    "note": "المقاومة المخترقة 2.48 صارت دعماً"
-   },
-   "retest": {
-    "score": 0.0,
-    "note": "ما رجع لاختبار 2.48 بعد أو ما ثبت فوقه"
-   },
-   "volume": {
-    "score": 0.0,
-    "note": "الاختراق بذيل علوي طويل وإغلاق ضعيف — علامة اختراق وهمي (ص19)"
-   },
-   "candle": {
-    "score": 0.0,
-    "note": "ما فيه شمعة ثبات على إعادة الاختبار"
-   },
-   "accum": {
-    "score": 1.0,
-    "note": "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
-   },
-   "pressure": {
-    "score": 1.0,
-    "note": "هبط 95% من أعلى 90 يوم، والبيع ضعف"
-   },
-   "red": {
-    "score": 0.0,
-    "note": "شمعة حمراء طويلة 2026-11-04 عند القاع"
-   },
-   "target": {
-    "score": 1.0,
-    "note": "هدف 2.65 (+7.3%) أكبر من الخسارة −3.2%"
-   }
-  },
-  "support_low": 2.4304000186920165,
-  "support_high": 2.5048000192642212,
-  "support_touches": 2,
-  "trigger_level": 2.4800000190734863,
-  "stop": 2.39,
-  "entry_low": 2.44,
-  "entry_high": 2.5,
-  "t1": 2.65,
-  "t1_label": "MA30",
-  "t2": 2.759999990463257,
-  "t2_label": "رأس شمعة هابطة + MA50",
-  "rr": 2.25,
-  "risk_pct": 0.0324,
-  "rsi_now": 42.7,
-  "rsi_min": 30.3,
-  "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
-  "macd_state": "إيجابي (الخط فوق الإشارة)",
-  "candle": "",
-  "volume_note": "فوليوم البيع يضعف",
-  "waiting_for": [
-   "RSI وصل 23–27: أدنى RSI 30 (الحالي 43) (ص65/ص86)",
-   "اختبار الدعم وفشل الكسر: ما رجع لاختبار 2.48 بعد أو ما ثبت فوقه (ص86/ص17)",
-   "فوليوم يتحسن مع الارتداد: الاختراق بذيل علوي طويل وإغلاق ضعيف — علامة اختراق وهمي (ص19) (ص85/ص86)",
-   "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)",
-   "ما فيه شموع حمراء طويلة قرب القاع: شمعة حمراء طويلة 2026-11-04 عند القاع (ص88)",
-   "سهم صيني عالي التذبذب — «وهذا وحده يجعله خطيراً» (ص70، ص90): متابعة بدون إشارة"
-  ],
-  "flags": [
-   "اختراق وهمي سابق (Bull Trap — ص19، ص57)",
-   "سهم صيني عالي التذبذب"
-  ],
-  "tags": [
-   "تقسيم عكسي حديث 1:45 (2026-08-10)",
-   "فلووت 0.15M 🔥 (ص8: أقل من 5M قوي وخطر)",
-   "Former Runner: صعد 5296% من 1018.8 (2026-01-29) إلى 54972.0 (2026-01-30)",
-   "قيعان أعلى",
-   "فوليوم البيع يضعف"
-  ],
-  "rank": 6.939516187179349,
-  "meta": {
-   "avg_volume": 2143400.0,
-   "drawdown": 0.947,
-   "gain_from_low10": 0.131,
-   "higher_lows": "True",
-   "runner": {
-    "pct": 52.95759781965261,
-    "from": 1018.7999877929688,
-    "from_date": "2026-01-29",
-    "to": 54972.0,
-    "to_date": "2026-01-30",
-    "is_runner": true
-   },
-   "today": null,
-   "zone": [
-    2.4304000186920165,
-    2.5048000192642212
-   ],
-   "breakout_setup": true,
-   "last_close": 2.509999990463257,
-   "last_date": "2026-11-04",
-   "neck": 2.4800000190734863,
-   "static_wait": [],
-   "p86": {
-    "checks": {
-     "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 2.51"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 30 (الحالي 43)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "المقاومة المخترقة 2.48 صارت دعماً"
-     ],
-     "retest": [
-      false,
-      "ما رجع لاختبار 2.48 بعد أو ما ثبت فوقه"
-     ],
-     "volume": [
-      false,
-      "الاختراق بذيل علوي طويل وإغلاق ضعيف — علامة اختراق وهمي (ص19)"
-     ],
-     "candle": [
-      false,
-      "ما فيه شمعة ثبات على إعادة الاختبار"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      true,
-      "هبط 95% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      false,
-      "شمعة حمراء طويلة 2026-11-04 عند القاع"
-     ],
-     "target": [
-      true,
-      "هدف 2.65 (+7.3%) أكبر من الخسارة −3.2%"
-     ]
-    },
-    "critical": 2.4000000953674316,
-    "complete": false,
-    "bar_date": "2026-11-04",
-    "frame": "يومي",
-    "below_ma": true,
-    "broke": false,
-    "ma20": 2.5084999918937685,
-    "episodes": 0,
-    "breakout": true,
-    "kind": "breakout",
-    "ep_lows": [],
-    "ep_open": false,
-    "shrink": false
-   },
-   "when_ready": "رجوع لاختبار 2.48 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 2.5–2.43",
-   "ladder": {
-    "orders": [
-     2.5,
-     2.47,
-     2.44
-    ],
-    "stop": 2.39,
-    "critical": 2.4,
-    "avg": 2.47,
-    "risk": 0.032388663967611364,
-    "risk_top": 0.04399999999999995,
-    "risk_low": 0.020491803278688454
-   },
-   "float": 146896,
-   "shares": 929541,
-   "market_cap": 2339543,
-   "exchange": "",
-   "name": "Elong Power Holding Limited",
-   "country_ar": "صيني",
-   "industry": "Electrical Equipment & Parts",
-   "split": {
-    "factor": "1:45",
-    "date": "2026-08-10",
-    "reverse": true,
-    "days": 87,
-    "recent": true
-   },
-   "last_split": "عكسي 1:45 (2026-08-10)",
-   "short_available": null,
-   "short_pct_float": 0.0626
-  },
-  "news": [
-   {
-    "headline": "Elong Power Signs $25.5 Million Annual Distribution Agreement Through Hong Kong Subsidiary",
-    "time": "2026-10-28T15:58:23+00:00"
-   }
-  ]
- },
+ "pivot": null,
  "momentum": {
   "ticker": "ELPW",
   "kind": "momentum",
   "status": "WATCH",
-  "setup": "MOM_ABOVE_VWAP",
-  "setup_ar": "زخم بري ماركت — فوق الفواب — بانتظار Pullback",
-  "price": 3.5318,
-  "score": 2.0,
+  "setup": "MOM_BELOW_VWAP",
+  "setup_ar": "زخم الجلسة — تحت الفواب — لا دخول",
+  "price": 1.36899995803833,
+  "score": 2,
   "conditions": {},
-  "support_low": 2.7329,
+  "support_low": 3.440000057220459,
   "support_high": null,
   "support_touches": 0,
-  "trigger_level": 3.346669333333333,
-  "stop": 3.329935986666666,
-  "entry_low": 3.346669333333333,
-  "entry_high": 3.4136027199999996,
-  "t1": 3.819999933242798,
+  "trigger_level": 3.6384071252587438,
+  "stop": null,
+  "entry_low": 3.6384071252587438,
+  "entry_high": 3.711175267763919,
+  "t1": 2.859999895095825,
   "t1_label": "مقاومة يومية قريبة",
-  "t2": 3.88,
-  "t2_label": "قمة بري ماركت",
-  "rr": 1.43,
-  "risk_pct": 0.0572,
+  "t2": 4.230000019073486,
+  "t2_label": "قمة الجلسة",
+  "rr": null,
+  "risk_pct": null,
   "rsi_now": null,
   "rsi_min": null,
   "ma_state": "",
   "macd_state": "",
   "candle": "",
-  "volume_note": "فوليوم بري ماركت غير مؤكد (25 شمعة)",
+  "volume_note": "RVOL 49.8x",
   "waiting_for": [
-   "أول Pullback قرب الفواب 3.35 مع ثبات",
-   "تأكيد فوليوم بري ماركت (غير متوفر من Yahoo — مفاتيح Alpaca تعطيه)"
+   "استرداد الفواب 3.64 والثبات فوقه"
   ],
-  "flags": [
-   "حركة بري ماركت — قد تنهار عند الافتتاح، لا تشترِ القمة"
-  ],
+  "flags": [],
   "tags": [],
-  "rank": 2.0,
+  "rank": 2,
   "meta": {
-   "segment": "pre",
-   "change": 0.4071,
-   "gap": 0.0,
-   "rvol": 0.0,
-   "rvol_pace": 0.0,
-   "vwap": 3.3467,
-   "hod": 3.88,
-   "move_base": 2.7329,
-   "segment_volume": 0.0,
-   "pullback_from_hod": 0.0897,
-   "dist_vwap": 0.0553,
-   "volume_known": false
+   "segment": "regular",
+   "change": -0.4546,
+   "gap": 0.3705,
+   "rvol": 26.83,
+   "rvol_pace": 49.82,
+   "vwap": 3.6384,
+   "hod": 4.230000019073486,
+   "move_base": 3.440000057220459,
+   "segment_volume": 57597132.0,
+   "pullback_from_hod": 0.6764,
+   "dist_vwap": -0.6237,
+   "volume_known": true
   },
   "news": []
  }

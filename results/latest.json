@@ -1,26 +1,26 @@
 {
- "generated_at_utc": "2026-11-05T11:37:44.608528+00:00",
- "generated_at_et": "2026-11-05T06:37:44.608528-05:00",
+ "generated_at_utc": "2026-11-05T11:47:44.608742+00:00",
+ "generated_at_et": "2026-11-05T06:47:44.608742-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 1294,
-  "with_data": 1294,
+  "prefiltered": 1285,
+  "with_data": 1285,
   "short_history": 15,
-  "price_out": 70,
-  "low_volume": 490,
+  "price_out": 61,
+  "low_volume": 491,
   "outside_float": 305,
   "nasdaq": 3431,
-  "all": 5850,
+  "all": 5851,
   "h4_bars": 0
  },
  "counts": {
-  "universe": 5850,
-  "analyzed": 719,
+  "universe": 5851,
+  "analyzed": 718,
   "ready": 0,
   "watch": 95,
   "momentum": 0,
-  "ext_quotes": 47,
+  "ext_quotes": 48,
   "ext_movers_5pct": 0
  },
  "ready": [],
@@ -1969,7 +1969,7 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.394,
+    "ext_price": 1.44,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -2188,7 +2188,7 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.5115,
+    "ext_price": 0.5015,
     "ext_chg": null,
     "ext_session": "pre"
    },
@@ -8616,7 +8616,7 @@
  ],
  "momentum": [],
  "errors": [
-  "yahoo quotes empty in pre — nasdaq fallback 45/66"
+  "yahoo quotes empty in pre — nasdaq fallback 46/66"
  ],
  "ext_debug": [],
  "faisal": [
@@ -8648,7 +8648,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 3.45,
+   "price": 3.59,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8682,7 +8682,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.4002,
+   "price": 1.4492,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8814,11 +8814,11 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 275076.0,
-   "price": 351.63
+   "volume": 280319.0,
+   "price": 351.58
   },
   "SNDL": {
-   "volume": 11546.0,
+   "volume": 11559.0,
    "price": 1.42
   }
  }

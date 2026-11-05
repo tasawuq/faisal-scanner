@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-05T00:47:54.939539+00:00",
- "generated_at_et": "2026-11-04T19:47:54.939539-05:00",
+ "generated_at_utc": "2026-11-05T00:57:54.939661+00:00",
+ "generated_at_et": "2026-11-04T19:57:54.939661-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -878,8 +878,8 @@
     "last_split": "عكسي 1:250 (2026-06-29)",
     "short_available": null,
     "short_pct_float": 0.13270001,
-    "ext_price": 1.22,
-    "ext_chg": -0.016129017000000002,
+    "ext_price": 1.23,
+    "ext_chg": -0.0080645084,
     "ext_session": "post"
    },
    "news": []
@@ -1309,8 +1309,8 @@
     "last_split": "عكسي 1:6 (2026-10-07)",
     "short_available": null,
     "short_pct_float": 0.3027,
-    "ext_price": 1.69,
-    "ext_chg": 0.01807228915662651,
+    "ext_price": 1.72,
+    "ext_chg": 0.03614457831325302,
     "ext_session": "post"
    },
    "news": []
@@ -1752,8 +1752,8 @@
     "last_split": "عكسي 1:20 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.0555,
-    "ext_price": 2.65,
-    "ext_chg": -0.03985507246376807,
+    "ext_price": 2.84,
+    "ext_chg": 0.02898550724637694,
     "ext_session": "post"
    },
    "news": []
@@ -2187,8 +2187,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.3136,
-    "ext_price": 0.5619,
-    "ext_chg": 0.11754183,
+    "ext_price": 0.55,
+    "ext_chg": 0.09387435,
     "ext_session": "post"
    },
    "news": []
@@ -4303,6 +4303,10 @@
     "short_pct_float": 0.25
    },
    "news": [
+    {
+     "headline": "Pacific Biosciences of California (PACB) Reports Q3 Loss, Beats Revenue Estimates",
+     "time": "2026-11-04T23:45:07+00:00"
+    },
     {
      "headline": "Idexx Laboratories (IDXX) Beats Q3 Earnings and Revenue Estimates",
      "time": "2026-11-02T11:45:02+00:00"
@@ -8664,8 +8668,8 @@
      3.18
     ]
    },
-   "state": "BREAKOUT_PENDING",
-   "state_ar": "فوق 2.48 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
+   "state": "BREAKOUT_HOLD",
+   "state_ar": "🚀 اخترق مستوى المتابعة 2.48 وثبت — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 (يومي/4 ساعات)",
    "alert": false,
    "session": "post",
    "scanner": {
@@ -8680,7 +8684,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.2,
+   "price": 1.19,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8699,8 +8703,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف المتابعة 1.58 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف المتابعة 1.58 — السبب بطل",
+   "alert": true,
    "session": "post",
    "scanner": null
   },

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-05T22:19:08.346319+00:00",
- "generated_at_et": "2026-11-05T17:19:08.346319-05:00",
+ "generated_at_utc": "2026-11-05T22:29:08.346459+00:00",
+ "generated_at_et": "2026-11-05T17:29:08.346459-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -235,8 +235,8 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.45,
-    "ext_chg": -0.05228753,
+    "ext_price": 1.4499,
+    "ext_chg": -0.052352905,
     "ext_session": "post"
    },
    "news": [
@@ -3736,8 +3736,8 @@
     "last_split": "عكسي 1:25 (2026-06-15)",
     "short_available": null,
     "short_pct_float": 0.1039,
-    "ext_price": 1.5207,
-    "ext_chg": -0.055465838509316856,
+    "ext_price": 1.48,
+    "ext_chg": -0.08074534161490687,
     "ext_session": "post"
    },
    "news": []
@@ -8720,7 +8720,7 @@
   },
   {
    "ticker": "ELPW",
-   "price": 1.22,
+   "price": 1.23,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8765,14 +8765,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 1.58 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف المتابعة 1.58 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "BRTX",
-   "price": 1.63,
+   "price": 1.5,
    "price_label": "سعر الأفتر",
    "note": "طبي + تقسيم عكسي 1:20 + RSI قرب 40. الشرط: ثبات فوق 1.50–1.54 وكسر 1.67–1.71 بفوليوم",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8791,7 +8791,7 @@
     ]
    },
    "state": "WAITING",
-   "state_ar": "تحت مستوى الاختراق 1.71 بـ 5%",
+   "state_ar": "تحت مستوى الاختراق 1.71 بـ 14%",
    "alert": false,
    "session": "post",
    "scanner": {

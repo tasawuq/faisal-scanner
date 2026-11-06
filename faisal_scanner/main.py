@@ -594,6 +594,8 @@ def run_once(force=False, demo=False, limit=None) -> dict:
         for w in fw:
             t = w["ticker"]
             df = daily.get(t)
+            if faisal_watch.retired(w, df, today):
+                continue  # انكسر وقفه بإغلاق يومي سابق = السبب بطل → لا قائمة ولا تنبيه
             last_close = float(df["close"].iloc[-1]) if df is not None and len(df) else None
             px, label = last_close, "آخر سعر"
             q = quotes.get(t) or {}
@@ -711,8 +713,13 @@ def update_alert_state(result, now_et, suffix=""):
     for f_ in result.get("faisal", []):
         if f_.get("alert"):
             key = f"FAISAL:{f_['ticker']}:{f_['state']}"
+            base = key
             if f_.get("session") in ("pre", "post"):
                 key += f":{f_['session']}"
+            # كسر الوقف يُرسل مرة وحدة فقط — لا يتكرر كل جلسة وكل يوم
+            if f_["state"] == "BELOW_STOP" and (any(k.startswith(base) for k in state)
+                                               or _seen_before(base, now_et, match=lambda st: any(k.startswith(base) for k in st))):
+                continue
             if key not in state:
                 state[key] = {"first_seen_et": now_et.isoformat(), "price": f_["price"], "state_ar": f_["state_ar"]}
                 new.append(f"{f_['ticker']} ({f_.get('label', 'مستوى فيصل')})")

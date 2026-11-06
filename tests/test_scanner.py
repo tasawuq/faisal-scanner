@@ -706,3 +706,15 @@ def test_implausible_yahoo_float_falls_back_to_shares():
     assert enrich(Signal(ticker="RENT", price=2.29), {"RENT": {"floatShares": 271_206, "sharesOutstanding": 33_774_121}}, {}) is False
     s = Signal(ticker="OK", price=1.5)  # فلوت 13% من عدد الأسهم: معقول (شركة مسيطر عليها) → يُعتمد الفلوت
     assert enrich(s, {"OK": {"floatShares": 6_600_000, "sharesOutstanding": 50_000_000}}, {}) is True
+
+
+def test_watch_entry_retires_after_a_daily_close_under_its_stop():
+    """ص17 الخروج بإغلاق يومي تحت الدعم الحرج → السهم يطلع من المتابعة (المستخدم 6 نوفمبر: SMX وSVRE)."""
+    from datetime import date
+    from faisal_scanner import faisal_watch as FW
+    idx = pd.to_datetime(["2026-10-20", "2026-10-21", "2026-10-22"]).tz_localize("America/New_York")
+    df = pd.DataFrame({"close": [1.70, 1.62, 1.40]}, index=idx)
+    e = {"ticker": "SMX", "added": "2026-10-20", "stop": 1.58}
+    assert FW.retired(e, df, date(2026, 10, 23)) is True
+    assert FW.retired(e, df, date(2026, 10, 22)) is False  # كسر اليوم نفسه: تنبيه واحد أول، الإخراج من بكرة
+    assert FW.retired({"ticker": "X", "added": "2026-10-20", "stop": 1.0}, df, date(2026, 10, 23)) is False

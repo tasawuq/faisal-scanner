@@ -34,6 +34,20 @@ def load(path: str = FILE) -> list:
     return out
 
 
+def retired(entry: dict, daily, today) -> bool:
+    """سهم متابعة انكسر وقفه بإغلاق يومي مكتمل قبل اليوم = السبب بطل (ص17) → يطلع من القائمة ولا يرسل تنبيهات بعدها.
+    (المستخدم 6 نوفمبر: «تجيني تنبيهات على أسهم قطعت من قبل… مثل SMX وSVRE»)."""
+    stop = entry.get("stop")
+    if not stop or daily is None or not len(daily):
+        return False
+    added = entry.get("added") or "1900-01-01"
+    for ts, c in daily["close"].items():
+        d = ts.date() if hasattr(ts, "date") else ts
+        if d.isoformat() >= added and d < today and float(c) < float(stop):
+            return True
+    return False
+
+
 def alert_label(entry: dict) -> str:
     """النص اللي يظهر في قائمة التنبيهات: (مستوى فيصل) لأسهم فيصل، (متابعة) لغيرها."""
     if entry.get("kind") == "weekly":

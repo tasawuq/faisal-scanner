@@ -1,0 +1,592 @@
+{
+ "ticker": "NXAT",
+ "generated_at_et": "2026-11-06T16:31:00.040503-05:00",
+ "session": "post",
+ "quote": {
+  "reg_price": 0.46,
+  "reg_chg": 0.039548054,
+  "reg_vol": 279171,
+  "prev_close": 0.4425,
+  "pre_price": null,
+  "pre_chg": 0.0,
+  "post_price": 0.4551,
+  "post_chg": -0.010652192,
+  "avg_vol": 571696,
+  "state": "POST"
+ },
+ "news": [],
+ "fund": {
+  "floatShares": 1353790,
+  "sharesOutstanding": 3236567,
+  "marketCap": 1431857,
+  "shortPercentOfFloat": null,
+  "longName": "Nexus Advanced Technologies Inc.",
+  "country": "Cayman Islands",
+  "industry": "Conglomerates",
+  "sector": "Industrials",
+  "lastSplitFactor": "1:30",
+  "lastSplitDate": 1785715200
+ },
+ "daily": {
+  "price": 0.46,
+  "chg_1d": 0.0407,
+  "ma": {
+   "MA20": 0.4374,
+   "MA30": 0.5744,
+   "MA50": 0.8622
+  },
+  "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات — رفض عند MA20",
+  "rsi_now": 34.5,
+  "rsi_min15": 15.8,
+  "rsi_min30": 15.8,
+  "macd": {
+   "line": -0.14384,
+   "signal": -0.18833,
+   "hist_last3": [
+    0.03738,
+    0.04126,
+    0.04449
+   ],
+   "state": "الهيستوجرام يتحسن"
+  },
+  "candles": [
+   {
+    "d": "2026-11-05",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.4745762198178876,
+    "close_pos": 0.5254237801821124,
+    "green": "True",
+    "bullish_reversal": "False"
+   },
+   {
+    "d": "2026-11-06",
+    "hammer": "False",
+    "engulfing": "False",
+    "lower_wick": "False",
+    "strong_green": "False",
+    "upper_wick_ratio": 0.5464850324429693,
+    "close_pos": 0.45351496755703075,
+    "green": "True",
+    "bullish_reversal": "False"
+   }
+  ],
+  "atr": 0.0929,
+  "avg_vol20": 201825,
+  "last_vol": 279171,
+  "drawdown_90d": 0.904,
+  "high_90d": 4.8,
+  "low_10d": 0.33,
+  "gain_from_low10": 0.394,
+  "sell_drying": false,
+  "vol_improving": true,
+  "higher_lows": false,
+  "pump_recent": false,
+  "distribution_recent": false,
+  "pump_month": null,
+  "former_runner": true,
+  "runner_pct": 4.579,
+  "distinct_closes20": 17,
+  "support_zones": [
+   {
+    "low": 7.2,
+    "high": 7.35,
+    "touches": 3,
+    "is_bottom": false,
+    "first": "2026-05-19",
+    "last": "2026-05-27"
+   },
+   {
+    "low": 5.7,
+    "high": 5.757,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-06-08",
+    "last": "2026-06-08"
+   },
+   {
+    "low": 2.67,
+    "high": 2.6967,
+    "touches": 1,
+    "is_bottom": false,
+    "first": "2026-07-21",
+    "last": "2026-07-21"
+   },
+   {
+    "low": 2.02,
+    "high": 2.1,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-08-04",
+    "last": "2026-08-12"
+   },
+   {
+    "low": 1.5,
+    "high": 1.515,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-08-19",
+    "last": "2026-08-19"
+   },
+   {
+    "low": 1.2,
+    "high": 1.212,
+    "touches": 2,
+    "is_bottom": false,
+    "first": "2026-09-01",
+    "last": "2026-09-01"
+   },
+   {
+    "low": 1.07,
+    "high": 1.11,
+    "touches": 3,
+    "is_bottom": false,
+    "first": "2026-09-10",
+    "last": "2026-09-18"
+   },
+   {
+    "low": 0.33,
+    "high": 0.3333,
+    "touches": 1,
+    "is_bottom": true,
+    "first": "2026-10-27",
+    "last": "2026-10-27"
+   }
+  ],
+  "support_selected": null,
+  "w": null,
+  "resistances": [
+   [
+    0.528,
+    "قمة سابقة"
+   ],
+   [
+    0.5744,
+    "MA30"
+   ],
+   [
+    0.639,
+    "رأس شمعة هابطة"
+   ],
+   [
+    0.8622,
+    "MA50"
+   ],
+   [
+    0.977,
+    "رأس شمعة هابطة"
+   ],
+   [
+    1.01,
+    "رأس شمعة هابطة"
+   ]
+  ],
+  "high_52w": 57.0,
+  "low_52w": 0.33,
+  "last_bars": [
+   {
+    "d": "2026-10-22",
+    "o": 0.419,
+    "h": 0.427,
+    "l": 0.373,
+    "c": 0.382,
+    "v": 87400,
+    "rsi": 16.6,
+    "hist": 0.01051
+   },
+   {
+    "d": "2026-10-23",
+    "o": 0.4,
+    "h": 0.449,
+    "l": 0.38,
+    "c": 0.382,
+    "v": 46300,
+    "rsi": 16.6,
+    "hist": 0.01253
+   },
+   {
+    "d": "2026-10-26",
+    "o": 0.396,
+    "h": 0.401,
+    "l": 0.354,
+    "c": 0.354,
+    "v": 89500,
+    "rsi": 15.8,
+    "hist": 0.01373
+   },
+   {
+    "d": "2026-10-27",
+    "o": 0.354,
+    "h": 0.389,
+    "l": 0.33,
+    "c": 0.361,
+    "v": 132800,
+    "rsi": 16.8,
+    "hist": 0.01658
+   },
+   {
+    "d": "2026-10-28",
+    "o": 0.35,
+    "h": 0.424,
+    "l": 0.345,
+    "c": 0.391,
+    "v": 154600,
+    "rsi": 21.0,
+    "hist": 0.02172
+   },
+   {
+    "d": "2026-10-29",
+    "o": 0.404,
+    "h": 0.426,
+    "l": 0.37,
+    "c": 0.392,
+    "v": 217900,
+    "rsi": 21.1,
+    "hist": 0.02614
+   },
+   {
+    "d": "2026-10-30",
+    "o": 0.392,
+    "h": 0.392,
+    "l": 0.358,
+    "c": 0.368,
+    "v": 57800,
+    "rsi": 20.2,
+    "hist": 0.02822
+   },
+   {
+    "d": "2026-11-02",
+    "o": 0.377,
+    "h": 0.413,
+    "l": 0.36,
+    "c": 0.382,
+    "v": 21000,
+    "rsi": 22.4,
+    "hist": 0.03109
+   },
+   {
+    "d": "2026-11-03",
+    "o": 0.392,
+    "h": 0.4,
+    "l": 0.37,
+    "c": 0.397,
+    "v": 31700,
+    "rsi": 24.7,
+    "hist": 0.03429
+   },
+   {
+    "d": "2026-11-04",
+    "o": 0.386,
+    "h": 0.42,
+    "l": 0.372,
+    "c": 0.411,
+    "v": 67900,
+    "rsi": 27.0,
+    "hist": 0.03738
+   },
+   {
+    "d": "2026-11-05",
+    "o": 0.42,
+    "h": 0.498,
+    "l": 0.38,
+    "c": 0.442,
+    "v": 616200,
+    "rsi": 31.8,
+    "hist": 0.04126
+   },
+   {
+    "d": "2026-11-06",
+    "o": 0.44,
+    "h": 0.5082,
+    "l": 0.42,
+    "c": 0.46,
+    "v": 279171,
+    "rsi": 34.5,
+    "hist": 0.04449
+   }
+  ]
+ },
+ "levels_map": {
+  "price": 0.4551,
+  "at_price": [
+   "قاع الأفتر/البري"
+  ],
+  "above": [
+   {
+    "level": 0.46,
+    "why": "قمة الأفتر/البري",
+    "confluence": 1
+   },
+   {
+    "level": 0.4705,
+    "why": "فواب جلسة 2026-11-06",
+    "confluence": 1
+   },
+   {
+    "level": 0.498,
+    "why": "قمة يوم 2026-11-05",
+    "confluence": 1
+   },
+   {
+    "level": 0.5082,
+    "why": "قمة يوم 2026-11-06",
+    "confluence": 1
+   },
+   {
+    "level": 0.528,
+    "why": "قمة سابقة",
+    "confluence": 1
+   },
+   {
+    "level": 0.5744,
+    "why": "MA30",
+    "confluence": 1
+   },
+   {
+    "level": 0.639,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
+   },
+   {
+    "level": 0.861,
+    "why": "إغلاقات سابقة متجمعة (3) + MA50",
+    "confluence": 2
+   }
+  ],
+  "below": [
+   {
+    "level": 0.4401,
+    "why": "قاعدة آخر ساعة 2026-11-06 + MA20",
+    "confluence": 2
+   },
+   {
+    "level": 0.42,
+    "why": "قمة يوم 2026-11-04 + قاع يوم 2026-11-06 + قمة يوم 2026-11-02",
+    "confluence": 3
+   },
+   {
+    "level": 0.4,
+    "why": "قمة يوم 2026-11-03",
+    "confluence": 1
+   },
+   {
+    "level": 0.382,
+    "why": "إغلاقات سابقة متجمعة (5) + قاع يوم 2026-11-05",
+    "confluence": 2
+   },
+   {
+    "level": 0.3725,
+    "why": "قيعان سابقة متجمعة (6) + قاع يوم 2026-11-04 + قاع يوم 2026-11-03",
+    "confluence": 3
+   },
+   {
+    "level": 0.36,
+    "why": "قاع يوم 2026-11-02",
+    "confluence": 1
+   }
+  ]
+ },
+ "pivot": {
+  "ticker": "NXAT",
+  "kind": "pivot",
+  "status": "READY",
+  "setup": "BASE_RETEST",
+  "setup_ar": "🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة",
+  "price": 0.46000000834465027,
+  "score": 11.0,
+  "conditions": {
+   "ma": {
+    "score": 1.0,
+    "note": "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 0.4374"
+   },
+   "rsi": {
+    "score": 1.0,
+    "note": "أدنى RSI 16 (الحالي 35)"
+   },
+   "macd": {
+    "score": 1.0,
+    "note": "الهيستوجرام يتحسن"
+   },
+   "support": {
+    "score": 1.0,
+    "note": "المقاومة المخترقة 0.426 صارت دعماً"
+   },
+   "retest": {
+    "score": 1.0,
+    "note": "رجع لاختبار 0.426 وثبت فوقه"
+   },
+   "volume": {
+    "score": 1.0,
+    "note": "الاختراق كان بفوليوم أعلى من المعتاد"
+   },
+   "candle": {
+    "score": 1.0,
+    "note": "شمعة ثبات فوق المستوى"
+   },
+   "accum": {
+    "score": 1.0,
+    "note": "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
+   },
+   "pressure": {
+    "score": 1.0,
+    "note": "هبط 90% من أعلى 90 يوم، والبيع ضعف"
+   },
+   "red": {
+    "score": 1.0,
+    "note": "ما فيه"
+   },
+   "target": {
+    "score": 1.0,
+    "note": "هدف 0.498 (+17.5%) أكبر من الخسارة −1.5%"
+   }
+  },
+  "support_low": 0.4174799990653992,
+  "support_high": 0.43025999903678896,
+  "support_touches": 2,
+  "trigger_level": 0.4259999990463257,
+  "stop": 0.4174,
+  "entry_low": 0.4175,
+  "entry_high": 0.4302,
+  "t1": 0.49799999594688416,
+  "t1_label": "قمة يوم قريبة",
+  "t2": 0.527999997138977,
+  "t2_label": "قمة سابقة",
+  "rr": 11.53,
+  "risk_pct": 0.0152,
+  "rsi_now": 34.5,
+  "rsi_min": 15.8,
+  "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات — رفض عند MA20",
+  "macd_state": "الهيستوجرام يتحسن",
+  "candle": "شمعة ثبات فوق المستوى",
+  "volume_note": "فوليوم يتحسن مع الارتداد",
+  "waiting_for": [],
+  "flags": [
+   "سعر منخفض جداً — سبريد واسع"
+  ],
+  "tags": [
+   "تقسيم عكسي حديث 1:30 (2026-08-03)",
+   "فلووت 1.35M 🔥 (ص8: أقل من 5M قوي وخطر)",
+   "Former Runner: صعد 458% من 45.6 (2025-05-27) إلى 254.4 (2025-06-10)"
+  ],
+  "rank": 13.600938857107518,
+  "meta": {
+   "avg_volume": 201825.0,
+   "drawdown": 0.904,
+   "gain_from_low10": 0.394,
+   "higher_lows": "False",
+   "runner": {
+    "pct": 4.5789474212561965,
+    "from": 45.599998474121094,
+    "from_date": "2025-05-27",
+    "to": 254.39999389648438,
+    "to_date": "2025-06-10",
+    "is_runner": true
+   },
+   "today": null,
+   "zone": [
+    0.4174799990653992,
+    0.43025999903678896
+   ],
+   "breakout_setup": true,
+   "last_close": 0.46000000834465027,
+   "last_date": "2026-11-06",
+   "neck": 0.4259999990463257,
+   "static_wait": [],
+   "p86": {
+    "checks": {
+     "ma": [
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 0.4374"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 16 (الحالي 35)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      true,
+      "المقاومة المخترقة 0.426 صارت دعماً"
+     ],
+     "retest": [
+      true,
+      "رجع لاختبار 0.426 وثبت فوقه"
+     ],
+     "volume": [
+      true,
+      "الاختراق كان بفوليوم أعلى من المعتاد"
+     ],
+     "candle": [
+      true,
+      "شمعة ثبات فوق المستوى"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      true,
+      "هبط 90% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 0.498 (+17.5%) أكبر من الخسارة −1.5%"
+     ]
+    },
+    "critical": 0.4174799990653992,
+    "complete": true,
+    "bar_date": "2026-11-06",
+    "frame": "يومي",
+    "below_ma": true,
+    "broke": false,
+    "ma20": 0.4373500034213066,
+    "episodes": 0,
+    "breakout": true,
+    "kind": "breakout",
+    "ep_lows": [],
+    "ep_open": false,
+    "shrink": true
+   },
+   "when_ready": "رجوع لاختبار 0.426 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 0.4303–0.4175",
+   "ladder": {
+    "orders": [
+     0.4302,
+     0.4238,
+     0.4175
+    ],
+    "stop": 0.4174,
+    "critical": 0.4175,
+    "avg": 0.42383333333333334,
+    "risk": 0.015178922532442029,
+    "risk_top": 0.029753602975360373,
+    "risk_low": 0.00023952095808380596
+   },
+   "float": 1353790,
+   "shares": 3236567,
+   "market_cap": 1431857,
+   "exchange": "",
+   "name": "Nexus Advanced Technologies Inc.",
+   "country_ar": "جزر كايمان",
+   "industry": "Conglomerates",
+   "split": {
+    "factor": "1:30",
+    "date": "2026-08-03",
+    "reverse": true,
+    "days": 95,
+    "recent": true
+   },
+   "last_split": "عكسي 1:30 (2026-08-03)",
+   "short_available": null
+  },
+  "news": []
+ },
+ "momentum": null
+}

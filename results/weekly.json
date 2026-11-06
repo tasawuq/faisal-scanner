@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-11-06T04:01:55.387374-05:00",
+ "generated_at_et": "2026-11-06T05:04:15.002362-05:00",
  "items": [
   {
    "ticker": "EZRA",
@@ -152,7 +152,7 @@
    "ticker": "SBFM",
    "score": 10.5,
    "price": 2.79,
-   "ext_price": null,
+   "ext_price": 2.7,
    "name": "Sunshine Biopharma, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -592,7 +592,7 @@
    "ticker": "AIFA",
    "score": 10.0,
    "price": 3.98,
-   "ext_price": 3.91,
+   "ext_price": null,
    "name": "All In FutureTech Alliance Inc.",
    "type": [
     "فلووت منخفض جداً"
@@ -739,7 +739,7 @@
    "ticker": "NXGL",
    "score": 10.0,
    "price": 4.118,
-   "ext_price": 3.67,
+   "ext_price": 3.68,
    "name": "NEXGEL, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2094,7 +2094,7 @@
    "ticker": "NUWE",
    "score": 9.0,
    "price": 4.66,
-   "ext_price": null,
+   "ext_price": 4.65,
    "name": "Nuwellis, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2247,7 +2247,7 @@
    "ticker": "NXAT",
    "score": 9.0,
    "price": 0.442,
-   "ext_price": null,
+   "ext_price": 0.42,
    "name": "Nexus Advanced Technologies Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -3456,7 +3456,7 @@
    "ticker": "SLXN",
    "score": 8.0,
    "price": 0.144,
-   "ext_price": null,
+   "ext_price": 0.154,
    "name": "Silexion Therapeutics Corp",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -7753,7 +7753,7 @@
    "ticker": "SXTP",
    "score": 6.5,
    "price": 0.916,
-   "ext_price": 0.91,
+   "ext_price": 0.8889,
    "name": "60 Degrees Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -8922,154 +8922,6 @@
    ]
   },
   {
-   "ticker": "JSPR",
-   "score": 6.5,
-   "price": 0.469,
-   "ext_price": null,
-   "name": "Jasper Therapeutics, Inc.",
-   "type": [
-    "طبي — الخبر يحرّكه"
-   ],
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": 1109152.0333333332,
-    "last_split": "عكسي 1:10 (2024-01-04)",
-    "split": {
-     "factor": "1:10",
-     "date": "2024-01-04",
-     "reverse": true,
-     "days": 1037,
-     "recent": false
-    },
-    "country_ar": "أمريكي",
-    "industry": "Biotechnology",
-    "short_available": null,
-    "runner": {
-     "pct": 2.2698412037640616,
-     "from": 0.3149999976158142,
-     "from_date": "2026-06-29",
-     "to": 1.0299999713897705,
-     "to_date": "2026-07-17",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Nov 4, 2026",
-     "Jasper Therapeutics, Inc. Announces 1-for-30 Reverse Stock Split"
-    ],
-    [
-     "Nov 4, 2026",
-     "Jasper Therapeutics To Implement 1-for-30 Reverse Stock Split"
-    ],
-    [
-     "Nov 3, 2026",
-     "Zoetis Gears Up to Report Q3 Earnings: Here's What to Expect"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.42,
-    "demand_high": 0.431,
-    "orders": [
-     0.4309,
-     0.4254,
-     0.42
-    ],
-    "critical": 0.42,
-    "stop": 0.4199,
-    "risk": 0.013006346470265615,
-    "wash_low": 0.3118,
-    "wash_high": 0.3213,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.41999998688697815,
-    "t1": 0.4909999966621399,
-    "t2": 0.5101999953389168
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-05",
-    "met": [
-     "macd",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "ma",
-     "rsi",
-     "support",
-     "retest",
-     "accum",
-     "volume",
-     "candle",
-     "pressure"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.5102 فوق السعر)"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 33 (الحالي 39)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      false,
-      "منطقة 0.42–0.431 — ما تكوّنت قاعدة بعد (أقل من أسبوع)"
-     ],
-     "retest": [
-      false,
-      "ما صار اختبار ثاني للدعم بعد القاع الأول"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 536K مقابل متوسط شموع البيع 319K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة بعيدة عن منطقة الدعم"
-     ],
-     "accum": [
-      false,
-      "ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت"
-     ],
-     "pressure": [
-      false,
-      "هبط 54% من أعلى 90 يوم، والبيع ما ضعف بعد"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 0.491 (+15.4%) أكبر من الخسارة −1.3%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.5102 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "RSI وصل 23–27: أدنى RSI 33 (الحالي 39) (ص65/ص86)",
-    "دعم/قاع واضح: منطقة 0.42–0.431 — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)",
-    "اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)"
-   ],
-   "ready_when": "اختبار منطقة 0.42–0.431 وفشل كسرها (أو سحب سيولة تحت 0.42 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.336–0.378، ص54)",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت 1.11M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 227% من 0.315 (2026-06-29) إلى 1.03 (2026-07-17)",
-    "عدد الأسهم بعد تقسيم 2026-11-06 (محسوب: Yahoo ما حدّثه)"
-   ]
-  },
-  {
    "ticker": "WORX",
    "score": 6.0,
    "price": 1.42,
@@ -9663,159 +9515,6 @@
     "Former Runner: صعد 170% من 1.81 (2025-12-29) إلى 4.89 (2026-01-27)",
     "قيعان أعلى",
     "قاع الفترة (قاع سنة)"
-   ]
-  },
-  {
-   "ticker": "NEXR",
-   "score": 6.0,
-   "price": 0.239,
-   "ext_price": null,
-   "name": "Nexera Technologies Ltd",
-   "type": [
-    "فلووت منخفض جداً",
-    "قاع نظيف"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 69678.125,
-    "shares": 527470.375,
-    "last_split": "عكسي 1:11 (2026-07-31)",
-    "split": {
-     "factor": "1:11",
-     "date": "2026-07-31",
-     "reverse": true,
-     "days": 98,
-     "recent": true,
-     "open_after": 3.6600000858306885,
-     "high_after": 5.28000020980835
-    },
-    "country_ar": "إسرائيلي",
-    "industry": "Internet Retail",
-    "short_available": null,
-    "runner": {
-     "pct": 2.698113038234744,
-     "from": 81.62000274658203,
-     "from_date": "2026-01-14",
-     "to": 301.8399963378906,
-     "to_date": "2026-01-16",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Jul 21, 2025",
-     "Jeffs’ Brands Ltd Appoints Eliyahu Zamir as New CEO Following Transition from Viki Hakmon"
-    ],
-    [
-     "Jul 8, 2025",
-     "Jeffs' Brands Acquires Fort Products, Secures 75.02% Stake in Fort Technology Inc."
-    ],
-    [
-     "Jun 26, 2025",
-     "Jeffs' Brands Ltd Secures $4.5 Million from Initial Closing of Convertible Promissory Note Financing"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.23,
-    "demand_high": 0.2323,
-    "orders": [
-     0.2323,
-     0.2312,
-     0.2301
-    ],
-    "critical": 0.213,
-    "stop": 0.2129,
-    "risk": 0.07915224913494803,
-    "wash_low": 0.1955,
-    "wash_high": 0.207,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.23000000417232513,
-    "t1": 0.24300000071525574,
-    "t2": 0.3100000023841858
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-05",
-    "met": [
-     "rsi",
-     "macd",
-     "accum",
-     "candle",
-     "pressure",
-     "red"
-    ],
-    "miss": [
-     "ma",
-     "support",
-     "retest",
-     "volume",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.5961 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 20 (الحالي 21)"
-     ],
-     "macd": [
-      true,
-      "تقاطع إيجابي حديث"
-     ],
-     "support": [
-      false,
-      "منطقة 0.23–0.2323 لمسها 1 مرات خلال 4 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع)"
-     ],
-     "retest": [
-      false,
-      "ما صار اختبار ثاني للدعم بعد القاع الأول"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 292K مقابل متوسط شموع البيع 35526K"
-     ],
-     "candle": [
-      true,
-      "مطرقة (Hammer) عند الدعم"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      true,
-      "هبط 97% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 0.243 (+5.1%) والخسارة −7.9%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.5961 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "دعم/قاع واضح: منطقة 0.23–0.2323 لمسها 1 مرات خلال 4 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)",
-    "اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 292K مقابل متوسط شموع البيع 35526K (ص85/ص86)"
-   ],
-   "ready_when": "اختبار منطقة 0.23–0.2323 وفشل كسرها (أو سحب سيولة تحت 0.213 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.184–0.207، ص54)",
-   "flags": [
-    "توه مدبل: من 0.421 إلى 0.85",
-    "شمعة ضخ/تصريف قبل 7 يوم (طار إلى 0.85 وأغلق 0.545 بفوليوم 1375x)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:11 (2026-07-31) — افتتح بعده 3.66 وأعلى سعر 5.28",
-    "فلووت 0.07M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 270% من 81.62 (2026-01-14) إلى 301.84 (2026-01-16)",
-    "فوليوم البيع يضعف"
    ]
   },
   {
@@ -10551,7 +10250,7 @@
    "ticker": "LPCN",
    "score": 5.5,
    "price": 1.53,
-   "ext_price": null,
+   "ext_price": 1.5,
    "name": "Lipocine Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -11448,7 +11147,7 @@
    "ticker": "SEGG",
    "score": 5.0,
    "price": 1.66,
-   "ext_price": null,
+   "ext_price": 1.56,
    "name": "Sports Entertainment Gaming Global Corporation",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -11600,7 +11299,7 @@
    "ticker": "FNUC",
    "score": 5.0,
    "price": 0.636,
-   "ext_price": 0.7099,
+   "ext_price": 0.655,
    "name": "Frontier Nuclear and Minerals Inc.",
    "type": [
     "قاع نظيف"
@@ -12641,7 +12340,7 @@
    "ticker": "CRMT",
    "score": 4.0,
    "price": 1.52,
-   "ext_price": null,
+   "ext_price": 1.52,
    "name": "America's Car-Mart, Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest"
@@ -12788,7 +12487,7 @@
    "ticker": "JBDI",
    "score": 4.0,
    "price": 2.63,
-   "ext_price": 2.9,
+   "ext_price": 2.6619,
    "name": "JBDI Holdings Limited",
    "type": [
     "ارتكاز"
@@ -14863,7 +14562,7 @@
    "ticker": "SLGB",
    "score": 1.5,
    "price": 0.21,
-   "ext_price": null,
+   "ext_price": 0.2057,
    "name": "Smart Logistics Global Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",

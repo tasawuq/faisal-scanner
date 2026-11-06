@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-06T10:44:15.002942+00:00",
- "generated_at_et": "2026-11-06T05:44:15.002942-05:00",
+ "generated_at_utc": "2026-11-06T10:54:15.003124+00:00",
+ "generated_at_et": "2026-11-06T05:54:15.003124-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -890,8 +890,8 @@
     "last_split": "عكسي 1:9 (2026-10-27)",
     "short_available": null,
     "short_pct_float": 0.024500001,
-    "ext_price": 4.65,
-    "ext_chg": -0.11764705882352933,
+    "ext_price": 4.6,
+    "ext_chg": -0.012875525,
     "ext_session": "pre"
    },
    "news": []
@@ -8675,7 +8675,7 @@
  "faisal": [
   {
    "ticker": "SVRE",
-   "price": 0.7593,
+   "price": 0.701,
    "price_label": "سعر البري",
    "note": "دعم فيصل 1.50–1.55 (فواب أمس 1.52 + قاعدة آخر الجلسة) · مقاومة 1.70 — اختراقها والثبات ربع ساعة = دخول زخم · تحت 1.45 ننتظر 1.20–1.26",
    "source": "مستويات فيصل",
@@ -8746,8 +8746,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف المتابعة 1.58 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف المتابعة 1.58 — السبب بطل",
+   "alert": true,
    "session": "pre",
    "scanner": null
   },
@@ -8851,8 +8851,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 253584.0,
-   "price": 341.1
+   "volume": 265767.0,
+   "price": 341.08
   },
   "SNDL": {
    "volume": 1013.0,

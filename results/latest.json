@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-06T12:14:15.004302+00:00",
- "generated_at_et": "2026-11-06T07:14:15.004302-05:00",
+ "generated_at_utc": "2026-11-06T12:24:15.004432+00:00",
+ "generated_at_et": "2026-11-06T07:24:15.004432-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -235,8 +235,8 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.48,
-    "ext_chg": -0.032679708,
+    "ext_price": 1.45,
+    "ext_chg": -0.05228753,
     "ext_session": "pre"
    },
    "news": [
@@ -1547,8 +1547,8 @@
     },
     "last_split": "عكسي 1:30 (2026-08-03)",
     "short_available": null,
-    "ext_price": 0.4201,
-    "ext_chg": -0.05062145,
+    "ext_price": 0.42,
+    "ext_chg": -0.05084748,
     "ext_session": "pre"
    },
    "news": []
@@ -2832,8 +2832,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.028099999,
-    "ext_price": 0.1951,
-    "ext_chg": -0.07050982,
+    "ext_price": 0.1952,
+    "ext_chg": -0.070033393,
     "ext_session": "pre"
    },
    "news": [
@@ -3287,8 +3287,8 @@
     "last_split": "عكسي 1:20 (2026-08-17)",
     "short_available": null,
     "short_pct_float": 0.096099995,
-    "ext_price": 0.93,
-    "ext_chg": 0.0049708107,
+    "ext_price": 0.875,
+    "ext_chg": -0.054462953,
     "ext_session": "pre"
    },
    "news": []
@@ -3507,8 +3507,8 @@
     "last_split": "عكسي 1:2 (2026-06-30)",
     "short_available": null,
     "short_pct_float": 0.0423,
-    "ext_price": 2.73,
-    "ext_chg": 0.038022776,
+    "ext_price": 2.87,
+    "ext_chg": 0.09125465999999999,
     "ext_session": "pre"
    },
    "news": []
@@ -4156,8 +4156,8 @@
     "last_split": "عكسي 1:13 (2025-05-02)",
     "short_available": null,
     "short_pct_float": 0.0504,
-    "ext_price": 0.655,
-    "ext_chg": -0.08173279125192767,
+    "ext_price": 0.6449,
+    "ext_chg": -0.09589233141735598,
     "ext_session": "pre"
    },
    "news": []
@@ -8694,14 +8694,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 1.09,
+   "price": 1.14,
    "price_label": "سعر البري",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8727,7 +8727,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.25,
+   "price": 1.21,
    "price_label": "سعر البري",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8746,8 +8746,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "state_ar": "❌ تحت وقف المتابعة 1.58 — السبب بطل",
-   "alert": true,
+   "alert": false,
+   "state_ar": "تحت وقف المتابعة 1.58 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": null
   },
@@ -8807,8 +8807,8 @@
     ]
    },
    "state": "BELOW_STOP",
+   "state_ar": "❌ تحت وقف المتابعة 2.71 — السبب بطل",
    "alert": false,
-   "state_ar": "تحت وقف المتابعة 2.71 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
    "session": "pre",
    "scanner": null
   },
@@ -8851,12 +8851,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 637333.0,
-   "price": 340.3182
+   "volume": 710419.0,
+   "price": 340.9062
   },
   "SNDL": {
-   "volume": 20548.0,
-   "price": 1.37
+   "volume": 20621.0,
+   "price": 1.36
   }
  }
 }

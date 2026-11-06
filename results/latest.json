@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-06T00:39:08.349017+00:00",
- "generated_at_et": "2026-11-05T19:39:08.349017-05:00",
+ "generated_at_utc": "2026-11-06T00:49:08.349144+00:00",
+ "generated_at_et": "2026-11-05T19:49:08.349144-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -235,8 +235,8 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.4499,
-    "ext_chg": -0.052352905,
+    "ext_price": 1.4408,
+    "ext_chg": -0.058300667,
     "ext_session": "post"
    },
    "news": [
@@ -1976,8 +1976,8 @@
     "last_split": "عكسي 1:6 (2026-06-12)",
     "short_available": null,
     "short_pct_float": 0.031,
-    "ext_price": 4.0075,
-    "ext_chg": 0.024936061381074293,
+    "ext_price": 4.0069,
+    "ext_chg": 0.024782608695652186,
     "ext_session": "post"
    },
    "news": []
@@ -2403,8 +2403,8 @@
     "last_split": "عكسي 1:5 (2024-12-09)",
     "short_available": null,
     "short_pct_float": 0.1129,
-    "ext_price": 2.2,
-    "ext_chg": -0.04761904761904756,
+    "ext_price": 2.1983,
+    "ext_chg": -0.04835497835497826,
     "ext_session": "post"
    },
    "news": []
@@ -2840,8 +2840,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.028099999,
-    "ext_price": 0.1846,
-    "ext_chg": -0.12053364,
+    "ext_price": 0.1878,
+    "ext_chg": -0.10528823,
     "ext_session": "post"
    },
    "news": [
@@ -3515,8 +3515,8 @@
     "last_split": "عكسي 1:2 (2026-06-30)",
     "short_available": null,
     "short_pct_float": 0.0423,
-    "ext_price": 2.52,
-    "ext_chg": -0.041825140000000004,
+    "ext_price": 2.51,
+    "ext_chg": -0.04562742,
     "ext_session": "post"
    },
    "news": []
@@ -8713,14 +8713,14 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف فيصل 1.45 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف فيصل 1.45 — السبب بطل",
+   "alert": true,
    "session": "post",
    "scanner": null
   },
   {
    "ticker": "ELPW",
-   "price": 1.16,
+   "price": 1.1498,
    "price_label": "سعر الأفتر",
    "note": "صيني + تقسيم عكسي 1:45 + شمعة ضخ 25 سبتمبر. الشرط: ثبات قاع 2.20 واسترداد 2.42–2.48 والثبات فوقها",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8746,7 +8746,7 @@
   },
   {
    "ticker": "SMX",
-   "price": 1.26,
+   "price": 1.2502,
    "price_label": "سعر الأفتر",
    "note": "شمعة ضخ/تصريف 16 أكتوبر (5.61→1.89 بفوليوم 418x). الشرط: ثبات فوق 1.60 وبناء قاعدة ثم استرداد 2.00",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",
@@ -8765,8 +8765,8 @@
     ]
    },
    "state": "BELOW_STOP",
-   "alert": false,
-   "state_ar": "تحت وقف المتابعة 1.58 — ينتظر إغلاق شمعة 15 دقيقة تحته للتأكيد",
+   "state_ar": "❌ تحت وقف المتابعة 1.58 — السبب بطل",
+   "alert": true,
    "session": "post",
    "scanner": null
   },
@@ -8806,7 +8806,7 @@
   },
   {
    "ticker": "SHMD",
-   "price": 2.17,
+   "price": 2.15,
    "price_label": "سعر الأفتر",
    "note": "خبر 21 أكتوبر: طلبية +25M يورو (ماليزيا) + طلبيات Q3 ضعف Q2 ورفع توقعات السنة. الدخول: ثبات فوق 3.10–3.12 ثم إعادة اختبار ناجحة، أو Limit عند منطقة الطلب 2.93 بعد شمعة ارتداد",
    "source": "متابعة Claude (من تطبيق قواعد الملف) — طلب المستخدم",

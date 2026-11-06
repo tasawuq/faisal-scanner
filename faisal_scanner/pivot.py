@@ -558,8 +558,6 @@ def apply_gate(s: Signal):
     elif px / p["critical"] - 1 >= M.CHASE_GAIN:
         wait.append(f"السعر صعد {(px / p['critical'] - 1) * 100:.0f}% فوق الدعم الحرج — لا مطاردة (ص67، ص88)")
     for fl in s.flags:
-        if "صيني" in fl:
-            wait.append("سهم صيني عالي التذبذب — «وهذا وحده يجعله خطيراً» (ص70، ص90): متابعة بدون إشارة")
         if "سيولة ضعيفة" in fl or "الفلووت غير معروف" in fl or "الفلووت أكبر" in fl:
             wait.append(fl)
     s.waiting_for = list(dict.fromkeys(wait))

@@ -422,6 +422,21 @@ def test_direct_resistance_means_reward_not_above_risk():
     assert s.status == READY and s.rr > 1
 
 
+def test_chinese_stock_signals_like_the_rest_with_a_warning():
+    """ص71 CDTG «صيني عالي التذبذب، وهذا وحده يجعله خطيراً» + شرط جاهزية، ص73 «سهم صيني خطر» نوع من الأنواع —
+    المستخدم 6 نوفمبر «اي عامله نفس الباقي»: اكتمال ص86 = إشارة، والتحذير يبقى أول التنبيهات."""
+    from faisal_scanner.pivot import Signal, apply_gate
+    from faisal_scanner.main import enrich
+    c = Signal(ticker="C", price=1.5)
+    enrich(c, {"C": {"floatShares": 2e6, "sharesOutstanding": 3e6, "country": "China"}}, {})
+    assert c.flags and "صيني" in c.flags[0]
+    s = Signal(ticker="T", setup="BOUNCE", setup_ar="ارتداد", price=2.25, t1=2.40, flags=list(c.flags))
+    s.meta = {"zone": [2.24, 2.2624], "static_wait": [],
+              "p86": {"critical": 2.18, "checks": {k: [True, "ok"] for k in M.ORDER}}}
+    s = apply_gate(s)
+    assert s.status == READY, s.waiting_for
+
+
 def test_four_hour_candle_completes_p86():
     """ص90 «قراءة الشموع تتم ع جميع الفريمات / اقربها 4 ساعات»: اليومي المكتمل ما فيه شمعة الانعكاس بعد،
     وشمعة 4 ساعات (9:30–13:30) تسحب السيولة تحت الدعم وتغلق فوقه وفوق MA20 بفوليوم → تكتمل الشروط على 4 ساعات."""

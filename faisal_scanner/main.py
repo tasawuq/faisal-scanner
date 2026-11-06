@@ -141,7 +141,9 @@ def enrich(sig, fund: dict, urow: dict, df=None) -> bool:
     sig.meta["industry"] = f.get("industry") or urow.get("industry") or ""
     ind = (sig.meta["industry"] + " " + (urow.get("industry") or "")).lower()
     if "china" in country.lower() or "hong kong" in country.lower():
-        sig.flags.append("سهم صيني عالي التذبذب")
+        # ص71 CDTG: «صيني عالي التذبذب، وهذا وحده يجعله خطيراً» لكن له شرط جاهزية؛ ص73 «سهم صيني خطر» نوع من الأنواع
+        # → يُعامل مثل الباقي (إشارة عند اكتمال ص86) مع تحذير أول السطر — المستخدم 6 نوفمبر «اي عامله نفس الباقي»
+        sig.flags.insert(0, "صيني عالي التذبذب — خطر (ص71)")
     if any(w in ind for w in ("biotech", "pharma", "medical", "drug", "diagnostic")) and "retail" not in ind:
         sig.flags.append("سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)")
     sp = M.split_info(f, df)

@@ -1,9 +1,9 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-06T18:07 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-06T19:07 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $NXAT — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.46 (بري/أفتر 0.4551) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 0.46 (بري/أفتر 0.464) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: جزر كايمان - Conglomerates - قسم 1:30 (2026-08-03) افتتاح 2.5 - اعلى 3.55 - الشورت المتاح: غير متوفر - فلوت 1.35M - عدد الأسهم 3.24M - سبق صعد من 11.52 (2025-12-29) إلى 27.0 (2026-01-21) +134%
 - الأخبار: Nexus Advanced Technologies Signs Exclusivity For $500 Mln Defense Tech Reverse Merger (Oct 6, 2026) | K Wave Media Partners with Galaxy Digital to Enhance Bitcoin Treasury Strategy and Institutional Access (Jul 21, 2025) | K Wave Media Inc. Secures $500 Million Financing for Bitcoin Accumulation Strategy (Jul 10, 2025)
 - منطقة الطلب 0.4175–0.4303 | طلبات Limit: 0.4302 / 0.4238 / 0.4175 | الخروج: إغلاق يومي تحت 0.4175 | الأهداف 0.498 / 0.528 | منطقة أعمق (غسل) 0.3267–0.3366
@@ -109,7 +109,7 @@
 ## $MNDR — فلووت منخفض جداً
 - السعر 0.9487 | ارتداد مؤكد من الدعم
 - البيانات: سنغافوري - Health Information Services - قسم 1:6 (2026-06-29) افتتاح 3.0 - اعلى 5.67 - الشورت المتاح: غير متوفر - فلوت 0.68M - عدد الأسهم 1.08M - سبق صعد من 0.76 (2026-10-09) إلى 5.67 (2026-10-12) +646%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | IAMGOLD (IAG) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Carlyle Secured (CGBD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 0.86–0.8686 | طلبات Limit: 0.8686 / 0.8644 / 0.8601 | الخروج: إغلاق يومي تحت 0.86 | الأهداف 0.958 / 1.05 | منطقة أعمق (غسل) 0.7524–0.7752
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، فوليوم يتحسن مع الارتداد
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.07 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 46) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 79K مقابل متوسط شموع البيع 113K (ص85/ص86)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -119,7 +119,7 @@
 ## $CIIT — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
 - السعر 2.4 | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - قسم 1:10 (2026-07-20) افتتاح 3.19 - اعلى 4.09 - الشورت المتاح: غير متوفر - فلوت 0.73M - عدد الأسهم 1.18M - سبق صعد من 10.3 (2026-06-03) إلى 46.5 (2026-06-10) +351%
-- الأخبار: Medalist Diversified REIT, Inc. Files Pro Forma Financials for $5,404,864 Pilot Point Property Acquisition (Nov 6, 2026) | Public Storage Subsidiary Completes Offering of $500 million 5.600% Senior Notes due 2036 (Nov 6, 2026) | BranchOut Food Inc. Approves $40,000 Cash Bonus for CFO John Dalfonsi (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 2.097–2.161 | طلبات Limit: 2.16 / 2.13 / 2.1 | الخروج: إغلاق يومي تحت 2.08 | الأهداف 2.635 / 2.77 | منطقة أعمق (غسل) 1.742–1.795
 - شروط ص86 (يومي): 7/11 — ناقص: RSI وصل 23–27، اختبار الدعم وفشل الكسر، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 28 (الحالي 59) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: ما رجع لاختبار 2.14 بعد أو ما ثبت فوقه (ص86/ص17)؛ شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)؛ ضغط بيع سابق ثم ضعف الهبوط: هبط 60% من أعلى 90 يوم، والبيع ما ضعف بعد (ص85)
@@ -147,7 +147,7 @@
 ## $SUGP — صيني عالي التذبذب ⚠️
 - السعر 1.57 (بري/أفتر 1.58) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Security & Protection Services - قسم 1:6 (2026-10-07) افتتاح 2.51 - اعلى 2.72 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 1.50M - سبق صعد من 19.8 (2026-06-04) إلى 76.5 (2026-06-16) +286%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | IAMGOLD (IAG) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 1.56–1.576 | طلبات Limit: 1.57 / 1.56 / 1.56 | الخروج: إغلاق يومي تحت 1.56 | الأهداف 1.65 / 1.692 | منطقة أعمق (غسل) 1.455–1.499
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.69 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 25K مقابل متوسط شموع البيع 22K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)
@@ -155,7 +155,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، فلوت Yahoo 0.11M غير منطقي مقابل عدد الأسهم 1.50M — الفلتر على عدد الأسهم
 
 ## $ISPC — طبي — الخبر يحرّكه / فلووت منخفض جداً
-- السعر 0.8142 (بري/أفتر 0.82) | سحب سيولة ثم استرداد الدعم
+- السعر 0.8142 (بري/أفتر 0.795) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Diagnostics & Research - قسم 1:40 (2026-04-28) افتتاح 5.0 - اعلى 6.77 - الشورت المتاح: غير متوفر - فلوت 2.52M - عدد الأسهم 2.52M
 - الأخبار: ISpecimen In Focus, Genelux Nears Phase 3 Ovarian Cancer Data, Biofrontera Awaits FDA Decision (Sep 8, 2026) | ISpecimen Completes International Cancer Research Order; Stock Down (Aug 21, 2026) | ISpecimen Announces Private Placement Worth $2.5 Mln (May 11, 2026)
 - منطقة الطلب 0.789–0.7969 | طلبات Limit: 0.7968 / 0.7929 / 0.789 | الخروج: إغلاق يومي تحت 0.753 | الأهداف 0.8378 / 0.8916 | منطقة أعمق (غسل) 0.7455–0.7681
@@ -275,7 +275,7 @@
 ## $DKI — صيني عالي التذبذب ⚠️ / قاع نظيف
 - السعر 1.47 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Electronic Gaming & Multimedia - قسم 1:50 (2026-10-22) افتتاح 2.0 - اعلى 2.6 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 0.05M - سبق صعد من 0.315 (2025-12-31) إلى 59.5 (2026-02-02) +18789%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Orion Properties (ONL) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 1.33–1.343 | طلبات Limit: 1.34 / 1.34 / 1.34 | الخروج: إغلاق يومي تحت 1.33 | الأهداف 1.51 / 1.87 | منطقة أعمق (غسل) 1.131–1.197
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.48 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 275K مقابل متوسط شموع البيع 8851K (ص85/ص86)
@@ -343,7 +343,7 @@
 - ⚠️ سعر منخفض جداً — سبريد واسع
 
 ## $SLXN — طبي — الخبر يحرّكه / قاع نظيف
-- السعر 0.1452 (بري/أفتر 0.1441) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.1452 (بري/أفتر 0.1485) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: إسرائيلي - Biotechnology - قسم 1:10 (2026-05-29) افتتاح 4.29 - اعلى 5.45 - الشورت المتاح: غير متوفر - فلوت 5.56M - عدد الأسهم 15.2M - سبق صعد من 2.31 (2026-05-15) إلى 6.66 (2026-05-20) +188%
 - الأخبار: Silexion Doses First Patient In Phase 2/3 SIL204 Trial For Pancreatic Cancer (Sep 30, 2026) | Biotech Stocks On The Move - SLXN, SMMT, IOVA, NTHI (Sep 29, 2026) | Silexion Advances SIL204 With Positive Findings On Systemic Uptake In KRAS-Driven Cancers (Sep 28, 2026)
 - منطقة الطلب 0.14–0.142 | طلبات Limit: 0.142 / 0.141 / 0.1401 | الخروج: إغلاق يومي تحت 0.14 | الأهداف 0.152 / 0.157 | منطقة أعمق (غسل) 0.119–0.126
@@ -365,7 +365,7 @@
 ## $WSHP — فلووت منخفض جداً / قاع نظيف
 - السعر 2.12 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: Jersey - Internet Content & Information - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 1.18M - عدد الأسهم 11.7M - سبق صعد من 20.02 (2025-11-14) إلى 250.0 (2025-11-19) +1149%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Orion Properties (ONL) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 2.17–2.192 | طلبات Limit: 2.19 / 2.18 / 2.18 | الخروج: إغلاق يومي تحت 2.12 | الأهداف 2.38 / 2.61 | منطقة أعمق (غسل) 1.845–1.953
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.88 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 2.17 (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 2.12 مو أعلى من اللي قبله 2.17، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 66K مقابل متوسط شموع البيع 82K (ص85/ص86)
@@ -433,7 +433,7 @@
 ## $IZM — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
 - السعر 0.68 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: صيني - Electronics & Computer Distribution - قسم 1:5 (2026-09-15) افتتاح 1.1 - اعلى 1.8 - الشورت المتاح: غير متوفر - فلوت 1.55M - عدد الأسهم 1.64M - سبق صعد من 0.874 (2025-12-03) إلى 13.65 (2026-01-02) +1462%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Orion Properties (ONL) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 0.707–0.7141 | طلبات Limit: 0.714 / 0.7106 / 0.7071 | الخروج: إغلاق يومي تحت 0.656 | الأهداف 0.718 / 0.785 | منطقة أعمق (غسل) 0.6494–0.6691
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.7859 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 30 (الحالي 38) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 0.707 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.656 مو أعلى من اللي قبله 0.72، والشموع ما تقلصت (ص12/ص13)
@@ -441,7 +441,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $CRIS — طبي — الخبر يحرّكه / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
-- السعر 0.9065 (بري/أفتر 0.78) | سحب سيولة ثم استرداد الدعم
+- السعر 0.9065 (بري/أفتر 0.8019) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:20 (2026-07-06) افتتاح 6.53 - اعلى 6.74 - الشورت المتاح: غير متوفر - فلوت 2.05M - عدد الأسهم 6.68M - سبق صعد من 0.33 (2026-10-16) إلى 1.6 (2026-11-04) +385%
 - الأخبار: Curis Prices $5.6 Million Offering Of Shares And Warrants; Stock Up (Aug 13, 2026) | Curis (CRIS) Q1 2026 Earnings Call Transcript (Jun 2, 2026) | Vericel Corporation (VCEL) Reports Q1 Loss, Beats Revenue Estimates (May 7, 2026)
 - منطقة الطلب 0.8–0.808 | طلبات Limit: 0.808 / 0.804 / 0.8001 | الخروج: إغلاق يومي تحت 0.7601 | الأهداف 0.947 / 0.97 | منطقة أعمق (غسل) 0.68–0.72
@@ -451,7 +451,7 @@
 - ⚠️ توه مدبل: من 0.33 إلى 0.67، شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)، شمعة ضخ/تصريف قبل 2 يوم (طار إلى 1.6 وأغلق 1.11 بفوليوم 1027x)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $LPCN — طبي — الخبر يحرّكه / نموذج W
-- السعر 1.57 (بري/أفتر 1.59) | كسر خط العنق (W) والثبات
+- السعر 1.57 (بري/أفتر 1.543) | كسر خط العنق (W) والثبات
 - البيانات: أمريكي - Biotechnology - قسم 1:17 (2023-05-12) - الشورت المتاح: غير متوفر - فلوت 6.51M - عدد الأسهم 8.24M - سبق صعد من 3.05 (2025-12-15) إلى 12.37 (2026-01-15) +306%
 - الأخبار: Lipocine Inc. Reports Third Quarter of 2026 Financial Results and Initiates Phase 3 BLOOM Study (Nov 6, 2026) | Ardelyx (ARDX) Reports Break-Even Earnings for Q3 (Nov 3, 2026) | Weekly Buzz: RHHBY, NVS, PFE Win FDA Nod; CRBU Scales Back; PCVX, ABBV Report Positive Trial Data (Oct 9, 2026)
 - منطقة الطلب 1.529–1.576 | طلبات Limit: 1.57 / 1.55 / 1.53 | الخروج: إغلاق يومي تحت 1.51 | الأهداف 1.6 / 1.709 | منطقة أعمق (غسل) 1.386–1.428
@@ -493,7 +493,7 @@
 ## $EXYN — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 2.24 | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Software - Infrastructure - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.54M - عدد الأسهم 7.95M - سبق صعد من 1.5 (2026-08-20) إلى 4.32 (2026-08-26) +188%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Orion Properties (ONL) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 2.1–2.121 | طلبات Limit: 2.12 / 2.11 / 2.1 | الخروج: إغلاق يومي تحت 2.06 | الأهداف 2.3 / 2.41 | منطقة أعمق (غسل) 1.772–1.826
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.46 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 32 (الحالي 44) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ فوليوم يتحسن مع الارتداد: فوليومها 57K مقابل متوسط شموع البيع 89K (ص85/ص86)
@@ -502,7 +502,7 @@
 ## $GYGY — طرح جديد/تاريخ قصير / فلووت منخفض جداً / قاع نظيف
 - السعر 0.3472 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Software - Infrastructure - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.41M - عدد الأسهم 14.4M - سبق صعد من 1.7 (2026-08-18) إلى 4.09 (2026-08-20) +141%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Orion Properties (ONL) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 0.31–0.3131 | طلبات Limit: 0.3131 / 0.3116 / 0.3101 | الخروج: إغلاق يومي تحت 0.31 | الأهداف 0.37 / 0.3839 | منطقة أعمق (غسل) 0.2635–0.279
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3839 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 278K مقابل متوسط شموع البيع 833K (ص85/ص86)
@@ -592,7 +592,7 @@
 ## $RYOJ — فلووت منخفض جداً
 - السعر 2.32 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: ياباني - Consulting Services - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 2.54M - عدد الأسهم 11.6M - سبق صعد من 1.56 (2026-05-21) إلى 8.1 (2026-05-22) +419%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Orion Properties (ONL) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 2.14–2.2 | طلبات Limit: 2.2 / 2.17 / 2.15 | الخروج: إغلاق يومي تحت 2.14 | الأهداف 2.37 / 2.543 | منطقة أعمق (غسل) 2.039–2.101
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.54 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 27 (الحالي 38) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 8K مقابل متوسط شموع البيع 18K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -688,7 +688,7 @@
 ## $FRTT — طرح جديد/تاريخ قصير / فلووت منخفض جداً / قاع نظيف
 - السعر 0.4611 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: كندي - Household & Personal Products - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.24M - عدد الأسهم 15.0M - سبق صعد من 1.7 (2026-06-16) إلى 3.92 (2026-06-24) +131%
-- الأخبار: Medalist Diversified REIT, Inc. Files Pro Forma Financials for $5,404,864 Pilot Point Property Acquisition (Nov 6, 2026) | Public Storage Subsidiary Completes Offering of $500 million 5.600% Senior Notes due 2036 (Nov 6, 2026) | BranchOut Food Inc. Approves $40,000 Cash Bonus for CFO John Dalfonsi (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 0.43–0.4343 | طلبات Limit: 0.4343 / 0.4322 / 0.4301 | الخروج: إغلاق يومي تحت 0.43 | الأهداف 0.5077 / 0.55 | منطقة أعمق (غسل) 0.3655–0.387
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، MACD يتحسن أو تقاطع، دعم/قاع واضح، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.6021 فوق السعر) (ص66/ص82/ص84/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ دعم/قاع واضح: منطقة 0.43–0.4343 لمسها 1 مرات خلال 3 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)
@@ -718,7 +718,7 @@
 ## $ZBAO — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
 - السعر 0.23 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني - Insurance Brokers - قسم 1:50 (2026-10-12) افتتاح 2.61 - اعلى 3.05 - الشورت المتاح: غير متوفر - فلوت 1.52M - عدد الأسهم 8.99M - سبق صعد من 7.5 (2026-07-21) إلى 20.75 (2026-07-22) +177%
-- الأخبار: Medalist Diversified REIT, Inc. Files Pro Forma Financials for $5,404,864 Pilot Point Property Acquisition (Nov 6, 2026) | Public Storage Subsidiary Completes Offering of $500 million 5.600% Senior Notes due 2036 (Nov 6, 2026) | BranchOut Food Inc. Approves $40,000 Cash Bonus for CFO John Dalfonsi (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 0.22–0.2222 | طلبات Limit: 0.2221 / 0.221 / 0.22 | الخروج: إغلاق يومي تحت 0.22 | الأهداف 0.248 / 0.285 | منطقة أعمق (غسل) 0.187–0.198
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، دعم/قاع واضح، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.6026 فوق السعر) (ص66/ص82/ص84/ص86)؛ دعم/قاع واضح: منطقة 0.22–0.2222 لمسها 1 مرات خلال 3 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)
@@ -728,7 +728,7 @@
 ## $YJ — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
 - السعر 1.12 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: صيني - Internet Retail - قسم 1:4 (2024-09-13) - الشورت المتاح: غير متوفر - فلوت 1.96M - عدد الأسهم 2.55M - سبق صعد من 1.18 (2026-07-30) إلى 13.97 (2026-08-07) +1084%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Orion Properties (ONL) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026) | Extreme Networks, Inc. Stockholders Approve Equity Incentive Plan Amendment and Elect Directors at 2026 Annual Meeting (Nov 6, 2026)
 - منطقة الطلب 1.18–1.192 | طلبات Limit: 1.19 / 1.18 / 1.18 | الخروج: إغلاق يومي تحت 1.1 | الأهداف 1.206 / 1.375 | منطقة أعمق (غسل) 1.119–1.153
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.38 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 31) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 1.18 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)
@@ -808,7 +808,7 @@
 ## $EVAX — طبي — الخبر يحرّكه
 - السعر 3 | سحب سيولة ثم استرداد الدعم
 - البيانات: دنماركي - Biotechnology - قسم 1:5 (2025-01-14) - الشورت المتاح: غير متوفر - فلوت 5.68M - عدد الأسهم 9.22M
-- الأخبار: Evaxion A/S to Present New Target Validation Data for EVX-04 at ASH 2026 Meeting (Nov 4, 2026) | Evaxion A/S Raises $775,068 in Net Proceeds via ATM Offering of 201,198 ADSs (Nov 4, 2026) | Evaxion A/S to Present Biomarker Data from phase 2 Trial of EVX-01 at SITC 2026 (Nov 3, 2026)
+- الأخبار: Evaxion A/S Announces New phase 2 Biomarker Data for Personalized Cancer Vaccine EVX-01 (Nov 6, 2026) | Evaxion A/S to Present New Target Validation Data for EVX-04 at ASH 2026 Meeting (Nov 4, 2026) | Evaxion A/S Raises $775,068 in Net Proceeds via ATM Offering of 201,198 ADSs (Nov 4, 2026)
 - منطقة الطلب 2.83–2.94 | طلبات Limit: 2.94 / 2.88 / 2.83 | الخروج: إغلاق يومي تحت 2.71 | الأهداف 3.075 / 3.13 | منطقة أعمق (غسل) 2.693–2.774
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.13 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 29 (الحالي 47) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)
@@ -888,7 +888,7 @@
 ## $ELOG — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
 - السعر 0.619 | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
 - البيانات: صيني - Integrated Freight & Logistics - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.38M - عدد الأسهم 12.8M - سبق صعد من 0.398 (2026-09-21) إلى 1.65 (2026-10-13) +315%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Orion Properties (ONL) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026) | MediaCo Holding Inc. Enters Third Amendment to Credit Agreement to Extend Delayed Draw Term Loan Maturity to November 30, 2026 (Nov 6, 2026)
 - منطقة الطلب 0.5165–0.5323 | طلبات Limit: 0.5322 / 0.5244 / 0.5165 | الخروج: إغلاق يومي تحت 0.5112 | الأهداف 0.6989 / 0.7478 | منطقة أعمق (غسل) 0.4435–0.457
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، MACD يتحسن أو تقاطع، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.9797 فوق السعر) (ص66/ص82/ص84/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ اختبار الدعم وفشل الكسر: ما رجع لاختبار 0.527 بعد أو ما ثبت فوقه (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)
@@ -1008,7 +1008,7 @@
 ## $FTFT — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest
 - السعر 3.29 | ارتداد مؤكد من الدعم
 - البيانات: صيني (هونغ كونغ) - Software - Application - قسم 1:4 (2026-08-31) افتتاح 2.21 - اعلى 9.74 - الشورت المتاح: غير متوفر - فلوت 5.39M - عدد الأسهم 8.08M - سبق صعد من 1.22 (2026-09-08) إلى 9.74 (2026-09-16) +698%
-- الأخبار: UTZ Brands Q3 Loss Widens (Nov 6, 2026) | Mattel Names Steve Totzke President And COO (Nov 6, 2026) | Dell vs. Nvidia: Chip Stocks Just Suffered Their Worst Sell-Off Since 2020. Which Is the Better Buy for 2027? (Nov 6, 2026)
+- الأخبار: Stock Indexes Settle Mostly Higher as Chipmakers Rebound (Nov 6, 2026) | Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026)
 - منطقة الطلب 3.36–3.394 | طلبات Limit: 3.39 / 3.38 / 3.36 | الخروج: إغلاق يومي تحت 1.8 | الأهداف 3.64 / 3.76 | منطقة أعمق (غسل) 3.01–3.101
 - شروط ص86 (يومي): 4/11 — ناقص: RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط، محفز أو هدف علوي
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 34 (الحالي 53) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 3.36 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.8 مو أعلى من اللي قبله 3.25، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 242K مقابل متوسط شموع البيع 170K (ص85/ص86)
@@ -1018,7 +1018,7 @@
 ## $SLGB — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
 - السعر 0.1991 | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.78M - عدد الأسهم 45.0M - سبق صعد من 0.924 (2025-12-26) إلى 4.22 (2026-01-28) +357%
-- الأخبار: Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | Orion Properties (ONL) Q3 2026 Earnings Call Transcript (Nov 6, 2026) | Ziff Davis (ZD) Q3 2026 Earnings Call Transcript (Nov 6, 2026)
+- الأخبار: Stock Indexes Settle Mostly Higher as Chipmakers Rebound (Nov 6, 2026) | Stocks Supported by Chipmaker Strength and a Blowout US Payroll Report (Nov 6, 2026) | ACRES Commercial Realty Corp. Enters into Seventh Amendment to Master Repurchase Agreement on November 2, 2026 (Nov 6, 2026)
 - منطقة الطلب 0.181–0.1828 | طلبات Limit: 0.1828 / 0.1819 / 0.181 | الخروج: إغلاق يومي تحت 0.173 | الأهداف 0.2042 / 0.2341 | منطقة أعمق (غسل) 0.1538–0.1629
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.2341 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 28 (الحالي 38) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 228K مقابل متوسط شموع البيع 49329K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)

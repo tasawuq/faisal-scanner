@@ -1,24 +1,24 @@
 {
- "generated_at_utc": "2026-11-09T10:30:19.798657+00:00",
- "generated_at_et": "2026-11-09T05:30:19.798657-05:00",
+ "generated_at_utc": "2026-11-09T10:40:19.798813+00:00",
+ "generated_at_et": "2026-11-09T05:40:19.798813-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 3434,
-  "with_data": 3434,
-  "short_history": 68,
-  "price_out": 2020,
-  "low_volume": 507,
-  "outside_float": 306,
-  "nasdaq": 3434,
-  "all": 5880,
+  "prefiltered": 1311,
+  "with_data": 1311,
+  "short_history": 23,
+  "price_out": 73,
+  "low_volume": 497,
+  "outside_float": 292,
+  "nasdaq": 3433,
+  "all": 5858,
   "h4_bars": 0
  },
  "counts": {
-  "universe": 5880,
-  "analyzed": 839,
+  "universe": 5858,
+  "analyzed": 718,
   "ready": 1,
-  "watch": 93,
+  "watch": 103,
   "momentum": 0,
   "ext_quotes": 60,
   "ext_movers_5pct": 0
@@ -448,8 +448,8 @@
     "last_split": "عكسي 1:20 (2026-07-06)",
     "short_available": null,
     "short_pct_float": 0.1826,
-    "ext_price": 0.855,
-    "ext_chg": -0.056811876000000004,
+    "ext_price": 0.8749,
+    "ext_chg": -0.034859347,
     "ext_session": "pre"
    },
    "news": [
@@ -1971,7 +1971,10 @@
     },
     "last_split": "عكسي 1:8 (2026-08-11)",
     "short_available": null,
-    "short_pct_float": 0.031400003
+    "short_pct_float": 0.031400003,
+    "ext_price": 3.45,
+    "ext_chg": -0.0625,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2832,7 +2835,10 @@
     },
     "last_split": "عكسي 1:20 (2026-04-23)",
     "short_available": null,
-    "short_pct_float": 0.0241
+    "short_pct_float": 0.0241,
+    "ext_price": 2.05,
+    "ext_chg": -0.09292035398230092,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3262,7 +3268,10 @@
     },
     "last_split": "عكسي 1:10 (2025-08-01)",
     "short_available": null,
-    "short_pct_float": 0.0189
+    "short_pct_float": 0.0189,
+    "ext_price": 0.77,
+    "ext_chg": 0.010631316445727679,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -8847,8 +8856,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 144403.0,
-   "price": 344.53
+   "volume": 147211.0,
+   "price": 344.42
   },
   "SNDL": {
    "volume": 5.0,

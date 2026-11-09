@@ -1,22 +1,22 @@
 {
- "generated_at_utc": "2026-11-09T12:10:19.800379+00:00",
- "generated_at_et": "2026-11-09T07:10:19.800379-05:00",
+ "generated_at_utc": "2026-11-09T12:20:19.800525+00:00",
+ "generated_at_et": "2026-11-09T07:20:19.800525-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1293,
   "with_data": 1293,
-  "short_history": 23,
+  "short_history": 22,
   "price_out": 58,
   "low_volume": 497,
-  "outside_float": 288,
+  "outside_float": 289,
   "nasdaq": 3430,
   "all": 5855,
   "h4_bars": 0
  },
  "counts": {
   "universe": 5855,
-  "analyzed": 715,
+  "analyzed": 716,
   "ready": 1,
   "watch": 103,
   "momentum": 0,
@@ -223,8 +223,8 @@
     },
     "last_split": "عكسي 1:30 (2026-08-03)",
     "short_available": null,
-    "ext_price": 0.451,
-    "ext_chg": -0.019565225,
+    "ext_price": 0.4511,
+    "ext_chg": -0.019347862,
     "ext_session": "pre"
    },
    "news": []
@@ -663,8 +663,8 @@
     "last_split": "عكسي 1:13 (2025-05-02)",
     "short_available": null,
     "short_pct_float": 0.0504,
-    "ext_price": 0.721,
-    "ext_chg": 0.13364779874213828,
+    "ext_price": 0.7049,
+    "ext_chg": 0.10833333333333317,
     "ext_session": "pre"
    },
    "news": []
@@ -1530,8 +1530,8 @@
     "last_split": "عكسي 1:10 (2026-05-08)",
     "short_available": null,
     "short_pct_float": 0.1342,
-    "ext_price": 0.7105,
-    "ext_chg": 0.020686689999999997,
+    "ext_price": 0.7,
+    "ext_chg": 0.005602631,
     "ext_session": "pre"
    },
    "news": []
@@ -2054,11 +2054,13 @@
    "waiting_for": [
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.1609 فوق السعر) (ص66/ص82/ص84/ص86)",
     "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 193K مقابل متوسط شموع البيع 499K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
+    "السعر في البري 0.128 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "نزل في البري تحت الوقف (0.128)"
    ],
    "tags": [
     "تقسيم عكسي حديث 1:10 (2026-05-29) — افتتح بعده 4.29 وأعلى سعر 5.45",
@@ -2090,7 +2092,9 @@
     "last_close": 0.14499999582767487,
     "last_date": "2026-11-06",
     "neck": null,
-    "static_wait": [],
+    "static_wait": [
+     "السعر في البري 0.128 تحت الوقف — الدعم مكسور حالياً"
+    ],
     "p86": {
      "checks": {
       "ma": [
@@ -2189,8 +2193,8 @@
     "last_split": "عكسي 1:10 (2026-05-29)",
     "short_available": null,
     "short_pct_float": 0.012999999,
-    "ext_price": 0.1539,
-    "ext_chg": 0.059917345,
+    "ext_price": 0.1278,
+    "ext_chg": -0.11983469,
     "ext_session": "pre"
    },
    "news": []
@@ -2619,8 +2623,8 @@
     "last_split": "عكسي 1:20 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.0555,
-    "ext_price": 2.71,
-    "ext_chg": -0.028673835125448077,
+    "ext_price": 2.78,
+    "ext_chg": -0.0035842293906810374,
     "ext_session": "pre"
    },
    "news": []
@@ -3269,8 +3273,8 @@
     "last_split": "عكسي 1:10 (2025-08-01)",
     "short_available": null,
     "short_pct_float": 0.0189,
-    "ext_price": 0.747,
-    "ext_chg": -0.019556372227326424,
+    "ext_price": 0.77,
+    "ext_chg": 0.010631316445727679,
     "ext_session": "pre"
    },
    "news": []
@@ -8856,12 +8860,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 267872.0,
-   "price": 344.35
+   "volume": 277745.0,
+   "price": 344.52
   },
   "SNDL": {
-   "volume": 1075.0,
-   "price": 1.4
+   "volume": 1105.0,
+   "price": 1.416
   }
  }
 }

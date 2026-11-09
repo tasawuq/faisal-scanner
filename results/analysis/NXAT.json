@@ -1,24 +1,24 @@
 {
  "ticker": "NXAT",
- "generated_at_et": "2026-11-06T16:31:00.040503-05:00",
- "session": "post",
+ "generated_at_et": "2026-11-09T09:03:12.700649-05:00",
+ "session": "pre",
  "quote": {
   "reg_price": 0.46,
   "reg_chg": 0.039548054,
-  "reg_vol": 279171,
+  "reg_vol": 283689,
   "prev_close": 0.4425,
-  "pre_price": null,
-  "pre_chg": 0.0,
-  "post_price": 0.4551,
-  "post_chg": -0.010652192,
-  "avg_vol": 571696,
-  "state": "POST"
+  "pre_price": 0.451,
+  "pre_chg": -0.019565225,
+  "post_price": null,
+  "post_chg": 0.0,
+  "avg_vol": 573815,
+  "state": "PRE"
  },
  "news": [],
  "fund": {
   "floatShares": 1353790,
   "sharesOutstanding": 3236567,
-  "marketCap": 1431857,
+  "marketCap": 1488820,
   "shortPercentOfFloat": null,
   "longName": "Nexus Advanced Technologies Inc.",
   "country": "Cayman Islands",
@@ -67,15 +67,15 @@
     "engulfing": "False",
     "lower_wick": "False",
     "strong_green": "False",
-    "upper_wick_ratio": 0.5464850324429693,
-    "close_pos": 0.45351496755703075,
+    "upper_wick_ratio": 0.5454544530920068,
+    "close_pos": 0.45454554690799315,
     "green": "True",
     "bullish_reversal": "False"
    }
   ],
-  "atr": 0.0929,
+  "atr": 0.0928,
   "avg_vol20": 201825,
-  "last_vol": 279171,
+  "last_vol": 279600,
   "drawdown_90d": 0.904,
   "high_90d": 4.8,
   "low_10d": 0.33,
@@ -299,30 +299,23 @@
    {
     "d": "2026-11-06",
     "o": 0.44,
-    "h": 0.5082,
+    "h": 0.508,
     "l": 0.42,
     "c": 0.46,
-    "v": 279171,
+    "v": 279600,
     "rsi": 34.5,
     "hist": 0.04449
    }
   ]
  },
  "levels_map": {
-  "price": 0.4551,
-  "at_price": [
-   "قاع الأفتر/البري"
-  ],
+  "price": 0.451,
+  "at_price": [],
   "above": [
    {
-    "level": 0.46,
-    "why": "قمة الأفتر/البري",
-    "confluence": 1
-   },
-   {
-    "level": 0.4705,
-    "why": "فواب جلسة 2026-11-06",
-    "confluence": 1
+    "level": 0.469,
+    "why": "قمة الأفتر/البري + فواب جلسة 2026-11-06",
+    "confluence": 2
    },
    {
     "level": 0.498,
@@ -330,7 +323,7 @@
     "confluence": 1
    },
    {
-    "level": 0.5082,
+    "level": 0.508,
     "why": "قمة يوم 2026-11-06",
     "confluence": 1
    },
@@ -353,6 +346,11 @@
     "level": 0.861,
     "why": "إغلاقات سابقة متجمعة (3) + MA50",
     "confluence": 2
+   },
+   {
+    "level": 0.977,
+    "why": "رأس شمعة هابطة",
+    "confluence": 1
    }
   ],
   "below": [
@@ -363,8 +361,8 @@
    },
    {
     "level": 0.42,
-    "why": "قمة يوم 2026-11-04 + قاع يوم 2026-11-06 + قمة يوم 2026-11-02",
-    "confluence": 3
+    "why": "قاع الأفتر/البري + قمة يوم 2026-11-04 + قاع يوم 2026-11-06 + قمة يوم 2026-11-02",
+    "confluence": 4
    },
    {
     "level": 0.4,
@@ -571,7 +569,7 @@
    },
    "float": 1353790,
    "shares": 3236567,
-   "market_cap": 1431857,
+   "market_cap": 1488820,
    "exchange": "",
    "name": "Nexus Advanced Technologies Inc.",
    "country_ar": "جزر كايمان",
@@ -580,7 +578,7 @@
     "factor": "1:30",
     "date": "2026-08-03",
     "reverse": true,
-    "days": 95,
+    "days": 98,
     "recent": true
    },
    "last_split": "عكسي 1:30 (2026-08-03)",

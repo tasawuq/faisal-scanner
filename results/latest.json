@@ -1,26 +1,26 @@
 {
- "generated_at_utc": "2026-11-10T11:44:29.239937+00:00",
- "generated_at_et": "2026-11-10T06:44:29.239937-05:00",
+ "generated_at_utc": "2026-11-10T11:57:00.711516+00:00",
+ "generated_at_et": "2026-11-10T06:57:00.711516-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 3434,
-  "with_data": 3434,
-  "short_history": 56,
-  "price_out": 2039,
-  "low_volume": 501,
-  "outside_float": 315,
-  "nasdaq": 3434,
-  "all": 5879,
+  "prefiltered": 1274,
+  "with_data": 1274,
+  "short_history": 12,
+  "price_out": 63,
+  "low_volume": 491,
+  "outside_float": 296,
+  "nasdaq": 3429,
+  "all": 5854,
   "h4_bars": 0
  },
  "counts": {
-  "universe": 5879,
-  "analyzed": 838,
+  "universe": 5854,
+  "analyzed": 708,
   "ready": 1,
-  "watch": 84,
+  "watch": 96,
   "momentum": 0,
-  "ext_quotes": 35,
+  "ext_quotes": 60,
   "ext_movers_5pct": 0
  },
  "ready": [
@@ -222,7 +222,10 @@
      "high_after": 3.549999952316284
     },
     "last_split": "عكسي 1:30 (2026-08-03)",
-    "short_available": null
+    "short_available": null,
+    "ext_price": 0.431,
+    "ext_chg": -0.09033348999999999,
+    "ext_session": "pre"
    },
    "news": []
   }
@@ -437,7 +440,10 @@
     },
     "last_split": "عكسي 1:9 (2026-10-27)",
     "short_available": null,
-    "short_pct_float": 0.024500001
+    "short_pct_float": 0.024500001,
+    "ext_price": 4.7,
+    "ext_chg": -0.048583045,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -643,8 +649,8 @@
     "last_split": "عكسي 1:10 (2026-07-20)",
     "short_available": null,
     "short_pct_float": 0.0199,
-    "ext_price": 2.33,
-    "ext_chg": null,
+    "ext_price": 2.27,
+    "ext_chg": -0.029914503,
     "ext_session": "pre"
    },
    "news": []
@@ -857,7 +863,10 @@
     },
     "last_split": "عكسي 1:6 (2026-10-07)",
     "short_available": null,
-    "short_pct_float": 0.3027
+    "short_pct_float": 0.3027,
+    "ext_price": 1.56,
+    "ext_chg": -0.0063694966,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1058,8 +1067,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.24069999,
-    "ext_price": 2.26,
-    "ext_chg": null,
+    "ext_price": 2.2004,
+    "ext_chg": -0.026371627,
     "ext_session": "pre"
    },
    "news": []
@@ -1280,7 +1289,7 @@
     "short_available": null,
     "short_pct_float": 0.0011999999,
     "ext_price": 1.5,
-    "ext_chg": null,
+    "ext_chg": -0.032258034000000005,
     "ext_session": "pre"
    },
    "news": []
@@ -1499,8 +1508,8 @@
     "last_split": "عكسي 1:8 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.036,
-    "ext_price": 3.81,
-    "ext_chg": null,
+    "ext_price": 3.22,
+    "ext_chg": -0.006172839506172867,
     "ext_session": "pre"
    },
    "news": []
@@ -1717,8 +1726,8 @@
     "last_split": "عكسي 1:6 (2026-06-29)",
     "short_available": null,
     "short_pct_float": 0.0252,
-    "ext_price": 0.94,
-    "ext_chg": null,
+    "ext_price": 0.96,
+    "ext_chg": -0.033135295,
     "ext_session": "pre"
    },
    "news": []
@@ -1926,8 +1935,8 @@
     "last_split": "عكسي 1:100 (2026-07-13)",
     "short_available": null,
     "short_pct_float": 0.0837,
-    "ext_price": 1.75,
-    "ext_chg": null,
+    "ext_price": 1.7088,
+    "ext_chg": 0.13165562913907292,
     "ext_session": "pre"
    },
    "news": []
@@ -2366,8 +2375,8 @@
     "last_split": "عكسي 1:20 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.0555,
-    "ext_price": 2.75,
-    "ext_chg": null,
+    "ext_price": 2.84,
+    "ext_chg": 0.032727242,
     "ext_session": "pre"
    },
    "news": []
@@ -2585,7 +2594,10 @@
     },
     "last_split": "عكسي 1:25 (2026-06-01)",
     "short_available": null,
-    "short_pct_float": 0.1165
+    "short_pct_float": 0.1165,
+    "ext_price": 1.0943,
+    "ext_chg": 0.032358577,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2801,7 +2813,10 @@
     },
     "last_split": "عكسي 1:7 (2026-08-03)",
     "short_available": null,
-    "short_pct_float": 0.043
+    "short_pct_float": 0.043,
+    "ext_price": 1.25,
+    "ext_chg": 0.09649122807017552,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -8791,16 +8806,14 @@
   }
  ],
  "momentum": [],
- "errors": [
-  "yahoo quotes empty in pre — nasdaq fallback 35/60"
- ],
+ "errors": [],
  "ext_debug": [],
  "faisal": [],
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 200564.0,
-   "price": 351.2488
+   "volume": 142263.0,
+   "price": 349.5
   },
   "SNDL": {
    "volume": 692.0,

@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-11-10T06:04:29.239291-05:00",
+ "generated_at_et": "2026-11-10T07:07:00.711663-05:00",
  "items": [
   {
    "ticker": "NXAT",
@@ -150,7 +150,7 @@
    "ticker": "SBFM",
    "score": 12.0,
    "price": 2.75,
-   "ext_price": 2.7471,
+   "ext_price": 2.84,
    "name": "Sunshine Biopharma, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -454,7 +454,7 @@
    "ticker": "CIIT",
    "score": 11.5,
    "price": 2.34,
-   "ext_price": 2.39,
+   "ext_price": 2.44,
    "name": "Tianci International, Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -1041,7 +1041,7 @@
    "ticker": "MNDR",
    "score": 10.5,
    "price": 0.993,
-   "ext_price": 0.98,
+   "ext_price": 0.9675,
    "name": "Mobile-health Network Solutions",
    "type": [
     "فلووت منخفض جداً"
@@ -2383,159 +2383,10 @@
    ]
   },
   {
-   "ticker": "EZRA",
-   "score": 10.0,
-   "price": 2.61,
-   "ext_price": null,
-   "name": "Reliance Global Group, Inc.",
-   "type": [
-    "بعد ارتداد أول — ينتظر Retest",
-    "فلووت منخفض جداً",
-    "🚩 علم/اختراق بعد قاعدة"
-   ],
-   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
-   "status": "WATCH",
-   "data": {
-    "float": 655559,
-    "shares": 1679936,
-    "last_split": "عكسي 1:40 (2026-05-18)",
-    "split": {
-     "factor": "1:40",
-     "date": "2026-05-18",
-     "reverse": true,
-     "days": 176,
-     "recent": true,
-     "open_after": 4.820000171661377,
-     "high_after": 5.449999809265137
-    },
-    "country_ar": "أمريكي",
-    "industry": "Insurance Brokers",
-    "short_available": null,
-    "runner": {
-     "pct": 1.8666667938232422,
-     "from": 6.0,
-     "from_date": "2026-01-28",
-     "to": 17.200000762939453,
-     "to_date": "2026-02-24",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Nov 10, 2026",
-     "Reliance Global Group, Inc. Completes Acquisition of Oblivus GPU Cloud Platform for $3,000,000"
-    ],
-    [
-     "Oct 23, 2026",
-     "Reliance Global Group, Inc. Enters Non-Binding LOI to Acquire GPU Cloud Business for Up to $3,750,000"
-    ],
-    [
-     "Oct 1, 2026",
-     "Reliance Global Group Completes Sale Of Altruis Benefit Consulting Assets"
-    ]
-   ],
-   "levels": {
-    "demand_low": 2.5284,
-    "demand_high": 2.6058,
-    "orders": [
-     2.6,
-     2.57,
-     2.53
-    ],
-    "critical": 2.5,
-    "stop": 2.49,
-    "risk": 0.029870129870129696,
-    "wash_low": 2.1483,
-    "wash_high": 2.2134,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 2.5799999237060547,
-    "t1": 2.628000020980835,
-    "t2": 2.8550000190734863
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-09",
-    "met": [
-     "ma",
-     "macd",
-     "support",
-     "accum"
-    ],
-    "miss": [
-     "rsi",
-     "retest",
-     "volume",
-     "candle",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وأغلق فوق 30 و50 (ص82)"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 31 (الحالي 58)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "المقاومة المخترقة 2.58 صارت دعماً"
-     ],
-     "retest": [
-      false,
-      "ما رجع لاختبار 2.58 بعد أو ما ثبت فوقه"
-     ],
-     "volume": [
-      false,
-      "الاختراق بدون فوليوم (ص19)"
-     ],
-     "candle": [
-      false,
-      "ما فيه شمعة ثبات على إعادة الاختبار"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      false,
-      "هبط 43% من أعلى 90 يوم، والبيع ما ضعف بعد"
-     ],
-     "red": [
-      false,
-      "شمعة حمراء طويلة 2026-11-05 عند القاع"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 2.63 (+2.4%) والخسارة −3.0%"
-     ]
-    }
-   },
-   "not_ready": [
-    "RSI وصل 23–27: أدنى RSI 31 (الحالي 58) (ص65/ص86)",
-    "اختبار الدعم وفشل الكسر: ما رجع لاختبار 2.58 بعد أو ما ثبت فوقه (ص86/ص17)",
-    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)"
-   ],
-   "ready_when": "رجوع لاختبار 2.58 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 2.61–2.53",
-   "flags": [],
-   "tags": [
-    "تقسيم عكسي حديث 1:40 (2026-05-18) — افتتح بعده 4.82 وأعلى سعر 5.45",
-    "فلووت 0.66M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 187% من 6.0 (2026-01-28) إلى 17.2 (2026-02-24)"
-   ]
-  },
-  {
    "ticker": "WSHP",
    "score": 9.5,
    "price": 2.26,
-   "ext_price": 2.35,
+   "ext_price": 2.2004,
    "name": "WeShop Holdings Limited",
    "type": [
     "فلووت منخفض جداً",
@@ -3420,7 +3271,7 @@
    "ticker": "LHSW",
    "score": 9.0,
    "price": 3.81,
-   "ext_price": 3.81,
+   "ext_price": 3.88,
    "name": "Lianhe Sowell International Group Ltd",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -3572,7 +3423,7 @@
    "ticker": "DAIC",
    "score": 9.0,
    "price": 1.06,
-   "ext_price": 1.0957,
+   "ext_price": 1.0943,
    "name": "CID HoldCo, Inc.",
    "type": [
     "ارتكاز"
@@ -5654,6 +5505,159 @@
    ]
   },
   {
+   "ticker": "ONCO",
+   "score": 8.0,
+   "price": 3.58,
+   "ext_price": null,
+   "name": "Onconetix, Inc.",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "فلووت منخفض جداً",
+    "قاع نظيف"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 394907,
+    "shares": 588677,
+    "last_split": "عكسي 1:10 (2026-11-06)",
+    "split": {
+     "factor": "1:10",
+     "date": "2026-11-06",
+     "reverse": true,
+     "days": 4,
+     "recent": true,
+     "open_after": 5.679999828338623,
+     "high_after": 7.820000171661377
+    },
+    "country_ar": "أمريكي",
+    "industry": "Biotechnology",
+    "short_available": null,
+    "runner": {
+     "pct": 2.059090909090909,
+     "from": 220.0,
+     "from_date": "2026-03-09",
+     "to": 673.0,
+     "to_date": "2026-03-27",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Nov 10, 2026",
+     "Sally Beauty Holdings Sees Slight Growth In FY27 - Update"
+    ],
+    [
+     "Nov 10, 2026",
+     "Take-Two: 3 Key Takeaways for Long-Term Investors"
+    ],
+    [
+     "Nov 10, 2026",
+     "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks"
+    ]
+   ],
+   "levels": {
+    "demand_low": 3.42,
+    "demand_high": 3.4542,
+    "orders": [
+     3.45,
+     3.44,
+     3.43
+    ],
+    "critical": 3.34,
+    "stop": 3.33,
+    "risk": 0.03197674418604648,
+    "wash_low": 2.907,
+    "wash_high": 3.078,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 3.4200000762939453,
+    "t1": 4.550000190734863,
+    "t2": 4.829999923706055
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-09",
+    "met": [
+     "macd",
+     "support",
+     "retest",
+     "accum",
+     "pressure",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "rsi",
+     "volume",
+     "candle",
+     "red"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 5.11 فوق السعر)"
+     ],
+     "rsi": [
+      false,
+      "أدنى RSI 31 (الحالي 39)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "منطقة 3.42–3.45 لمسها 2 مرات خلال 9 يوم"
+     ],
+     "retest": [
+      true,
+      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 2)"
+     ],
+     "volume": [
+      false,
+      "آخر شمعة حمراء — فوليومها 741K مقابل متوسط شموع البيع 295K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة يومية مو انعكاس"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      true,
+      "هبط 75% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      false,
+      "شمعة حمراء طويلة 2026-11-09 عند القاع"
+     ],
+     "target": [
+      true,
+      "هدف 4.55 (+32.3%) أكبر من الخسارة −3.2%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 5.11 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "RSI وصل 23–27: أدنى RSI 31 (الحالي 39) (ص65/ص86)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 741K مقابل متوسط شموع البيع 295K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 3.42–3.45 وفشل كسرها (أو سحب سيولة تحت 3.34 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.74–3.08، ص54)",
+   "flags": [
+    "توه مدبل: من 3.42 إلى 7.82",
+    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:10 (2026-11-06) — افتتح بعده 5.68 وأعلى سعر 7.82",
+    "فلووت 0.39M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 206% من 220.0 (2026-03-09) إلى 673.0 (2026-03-27)",
+    "قيعان أعلى"
+   ]
+  },
+  {
    "ticker": "IZM",
    "score": 8.0,
    "price": 0.708,
@@ -6694,7 +6698,7 @@
    "ticker": "SEGG",
    "score": 7.0,
    "price": 1.2,
-   "ext_price": 1.15,
+   "ext_price": 1.25,
    "name": "Sports Entertainment Gaming Global Corporation",
    "type": [
     "فلووت منخفض جداً",
@@ -10983,7 +10987,7 @@
    "ticker": "POM",
    "score": 5.0,
    "price": 1.55,
-   "ext_price": 1.5997,
+   "ext_price": 1.5,
    "name": "Pomdoctor Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",

@@ -1,11 +1,11 @@
 {
- "generated_at_utc": "2026-11-11T09:01:58.929610+00:00",
- "generated_at_et": "2026-11-11T04:01:58.929610-05:00",
+ "generated_at_utc": "2026-11-11T09:17:30.644971+00:00",
+ "generated_at_et": "2026-11-11T04:17:30.644971-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
   "prefiltered": 1276,
-  "with_data": 1275,
+  "with_data": 1276,
   "short_history": 12,
   "price_out": 62,
   "low_volume": 495,
@@ -16,7 +16,7 @@
  },
  "counts": {
   "universe": 5855,
-  "analyzed": 706,
+  "analyzed": 707,
   "ready": 0,
   "watch": 108,
   "momentum": 0,
@@ -430,7 +430,10 @@
     },
     "last_split": "عكسي 1:10 (2026-07-20)",
     "short_available": null,
-    "short_pct_float": 0.0199
+    "short_pct_float": 0.0199,
+    "ext_price": 2.4505,
+    "ext_chg": 0.047222222222222276,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -644,7 +647,10 @@
     },
     "last_split": "عكسي 1:6 (2026-06-29)",
     "short_available": null,
-    "short_pct_float": 0.0749
+    "short_pct_float": 0.0749,
+    "ext_price": 0.9997,
+    "ext_chg": 0.00684862523919838,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1068,7 +1074,10 @@
     },
     "last_split": "عكسي 1:20 (2026-10-12)",
     "short_available": null,
-    "short_pct_float": 0.0574
+    "short_pct_float": 0.0574,
+    "ext_price": 3.95,
+    "ext_chg": 0.12215909090909105,
+    "ext_session": "pre"
    },
    "news": [
     {
@@ -1285,7 +1294,10 @@
     },
     "last_split": "عكسي 1:10 (2025-12-12)",
     "short_available": null,
-    "short_pct_float": 0.132
+    "short_pct_float": 0.132,
+    "ext_price": 4.98,
+    "ext_chg": 0.10913140311804015,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1497,7 +1509,10 @@
     },
     "last_split": "عكسي 1:10 (2026-09-28)",
     "short_available": null,
-    "short_pct_float": 0.0321
+    "short_pct_float": 0.0321,
+    "ext_price": 2.3595,
+    "ext_chg": 0.037142857142857144,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1699,7 +1714,10 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "short_pct_float": 0.2331
+    "short_pct_float": 0.2331,
+    "ext_price": 2.34,
+    "ext_chg": 0.03539823008849563,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1903,7 +1921,10 @@
     },
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
-    "short_pct_float": 0.0435
+    "short_pct_float": 0.0435,
+    "ext_price": 1.58,
+    "ext_chg": -0.08139534883720922,
+    "ext_session": "pre"
    },
    "news": [
     {
@@ -2337,7 +2358,10 @@
     },
     "last_split": "عكسي 1:22 (2026-07-16)",
     "short_available": null,
-    "short_pct_float": 0.1506
+    "short_pct_float": 0.1506,
+    "ext_price": 2.0,
+    "ext_chg": -0.029126213592232997,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2551,7 +2575,10 @@
     },
     "last_split": "عكسي 1:8 (2026-05-27)",
     "short_available": null,
-    "short_pct_float": 0.0005
+    "short_pct_float": 0.0005,
+    "ext_price": 1.79,
+    "ext_chg": -0.032432432432432434,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -8549,8 +8576,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 59710.0,
-   "price": 346.55
+   "volume": 61446.0,
+   "price": 346.61
   },
   "SNDL": {
    "volume": 275.0,

@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-12T09:15:20.356789+00:00",
- "generated_at_et": "2026-11-12T04:15:20.356789-05:00",
+ "generated_at_utc": "2026-11-12T09:25:20.356934+00:00",
+ "generated_at_et": "2026-11-12T04:25:20.356934-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -227,8 +227,8 @@
     },
     "last_split": "عكسي 1:30 (2026-08-03)",
     "short_available": null,
-    "ext_price": 0.5195,
-    "ext_chg": 0.20701672862453524,
+    "ext_price": 0.4636,
+    "ext_chg": 0.07713754646840143,
     "ext_session": "pre"
    },
    "news": []
@@ -307,10 +307,12 @@
    "candle": "شمعة ثبات فوق المستوى",
    "volume_note": "",
    "waiting_for": [
-    "RSI وصل 23–27: أدنى RSI 40 (الحالي 68) (ص65/ص86)"
+    "RSI وصل 23–27: أدنى RSI 40 (الحالي 68) (ص65/ص86)",
+    "السعر في البري 0.985 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
-    "صيني عالي التذبذب — خطر (ص71)"
+    "صيني عالي التذبذب — خطر (ص71)",
+    "نزل في البري تحت الوقف (0.985)"
    ],
    "tags": [
     "فلووت 3.61M 🔥 (ص8: أقل من 5M قوي وخطر)",
@@ -339,7 +341,9 @@
     "last_close": 1.159999966621399,
     "last_date": "2026-11-11",
     "neck": 1.0700000524520874,
-    "static_wait": [],
+    "static_wait": [
+     "السعر في البري 0.985 تحت الوقف — الدعم مكسور حالياً"
+    ],
     "p86": {
      "checks": {
       "ma": [
@@ -433,7 +437,10 @@
     },
     "last_split": "عكسي 1:150 (2026-04-08)",
     "short_available": null,
-    "short_pct_float": 0.0502
+    "short_pct_float": 0.0502,
+    "ext_price": 0.9853,
+    "ext_chg": -0.11234234234234242,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1945,8 +1952,8 @@
     "last_split": "عكسي 1:6 (2026-09-08)",
     "short_available": null,
     "short_pct_float": 0.028499998,
-    "ext_price": 0.174,
-    "ext_chg": -0.003436484,
+    "ext_price": 0.1798,
+    "ext_chg": 0.029782350000000003,
     "ext_session": "pre"
    },
    "news": []
@@ -3194,8 +3201,8 @@
     "last_split": "عكسي 1:8 (2025-12-15)",
     "short_available": null,
     "short_pct_float": 0.1543,
-    "ext_price": 0.71,
-    "ext_chg": 0.008666003693706514,
+    "ext_price": 0.7099,
+    "ext_chg": 0.00852393805938334,
     "ext_session": "pre"
    },
    "news": []
@@ -8510,8 +8517,8 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 40820.0,
-   "price": 355.33
+   "volume": 43285.0,
+   "price": 356.32
   },
   "SNDL": {
    "volume": 1567.0,

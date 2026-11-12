@@ -1,9 +1,9 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-12T05:05 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-12T06:05 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $NXAT — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.487 (بري/أفتر 0.45) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 0.487 (بري/أفتر 0.4455) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: جزر كايمان - Conglomerates - قسم 1:30 (2026-08-03) افتتاح 2.5 - اعلى 3.55 - الشورت المتاح: غير متوفر - فلوت 1.35M - عدد الأسهم 3.24M - سبق صعد من 11.52 (2025-12-29) إلى 27.0 (2026-01-21) +134%
 - الأخبار: Nexus Advanced Technologies Signs Exclusivity For $500 Mln Defense Tech Reverse Merger (Oct 6, 2026) | K Wave Media Partners with Galaxy Digital to Enhance Bitcoin Treasury Strategy and Institutional Access (Jul 21, 2025) | K Wave Media Inc. Secures $500 Million Financing for Bitcoin Accumulation Strategy (Jul 10, 2025)
 - منطقة الطلب 0.4175–0.4303 | طلبات Limit: 0.4302 / 0.4238 / 0.4175 | الخروج: إغلاق يومي تحت 0.396 | الأهداف 0.498 / 0.515 | منطقة أعمق (غسل) 0.3267–0.3366
@@ -157,7 +157,7 @@
 - متى يكون جاهزاً: اختبار منطقة 0.691–0.6979 وفشل كسرها (أو سحب سيولة تحت 0.66 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5528–0.6219، ص54)
 
 ## $SRTM — فلووت منخفض جداً / نموذج W
-- السعر 0.175 (بري/أفتر 0.1839) | نموذج W قيد التكوين
+- السعر 0.175 (بري/أفتر 0.178) | نموذج W قيد التكوين
 - البيانات: أمريكي - Real Estate Services - قسم 1:6 (2026-09-08) افتتاح 2.98 - اعلى 3.09 - الشورت المتاح: غير متوفر - فلوت 0.55M - عدد الأسهم 4.54M - سبق صعد من 62.6 (2025-12-31) إلى 750.0 (2026-01-09) +1098%
 - الأخبار: La Rosa Expands AI Push With NVIDIA B300 GPU Acquisition (Oct 5, 2026) | La Rosa Stock Falls as Q2 Operating Loss Narrows, Revenues Drop Y/Y (Sep 9, 2026) | La Rosa Q1 Loss Narrows Y/Y as Gross Profit Rises, Revenues Slip (Aug 5, 2026)
 - منطقة الطلب 0.152–0.155 | طلبات Limit: 0.155 / 0.1535 / 0.152 | الخروج: إغلاق يومي تحت 0.152 | الأهداف 0.185 / 0.271 | منطقة أعمق (غسل) 0.1292–0.1368
@@ -206,7 +206,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $ZCMD — صيني عالي التذبذب ⚠️ / نموذج W
-- السعر 0.975 (بري/أفتر 0.9752) | نموذج W قيد التكوين
+- السعر 0.975 (بري/أفتر 0.94) | نموذج W قيد التكوين
 - البيانات: صيني - Health Information Services - قسم 1:2 (2026-10-02) افتتاح 1.8 - اعلى 1.94 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 4.33M - سبق صعد من 1.61 (2026-06-29) إلى 23.92 (2026-07-22) +1389%
 - الأخبار: Top Biotech Gainers: ZCMD Surges 190%, LABT Advances On Nu-3 Progress, ARWR Hits The Targets (Jul 22, 2026) | Zhongchao Announces 1-for-31 Share Consolidation To Retain Nasdaq Listing; Stock Down (Jun 5, 2026) | Zhongchao Prices $5 Mln Public Offering Of Shares And Warrants; Stock Down (Jun 1, 2026)
 - منطقة الطلب 0.867–0.9251 | طلبات Limit: 0.9251 / 0.896 / 0.867 | الخروج: إغلاق يومي تحت 0.867 | الأهداف 0.984 / 1.03 | منطقة أعمق (غسل) 0.7369–0.7803
@@ -334,7 +334,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $FRTT — طرح جديد/تاريخ قصير / فلووت منخفض جداً / قاع نظيف
-- السعر 0.43 | سحب سيولة ثم استرداد الدعم
+- السعر 0.43 (بري/أفتر 0.4145) | سحب سيولة ثم استرداد الدعم
 - البيانات: كندي - Household & Personal Products - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.24M - عدد الأسهم 15.0M - سبق صعد من 1.7 (2026-06-16) إلى 3.92 (2026-06-24) +131%
 - الأخبار: SeaStar Medical Posts Wider Loss In Q3 On Higher R&D Expenses (Nov 12, 2026) | Data Center Backlash Is Bipartisan, and That Changes the Math for AI Investors (Nov 12, 2026) | Addex Shares Surge As Neurosterix Closes $105M Financing To Advance Schizophrenia Program (Nov 12, 2026)
 - منطقة الطلب 0.43–0.4343 | طلبات Limit: 0.4343 / 0.4322 / 0.4301 | الخروج: إغلاق يومي تحت 0.41 | الأهداف 0.44 / 0.55 | منطقة أعمق (غسل) 0.3655–0.387
@@ -353,7 +353,7 @@
 - متى يكون جاهزاً: اختبار منطقة 2.06–2.1 وفشل كسرها (أو سحب سيولة تحت 1.95 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.65–1.85، ص54)
 
 ## $BENF — فلووت منخفض جداً
-- السعر 0.681 (بري/أفتر 0.6887) | سحب سيولة ثم استرداد الدعم
+- السعر 0.681 (بري/أفتر 0.7091) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Asset Management - قسم 1:8 (2025-12-15) افتتاح 4.5 - اعلى 9.96 - الشورت المتاح: غير متوفر - فلوت 3.94M - عدد الأسهم 15.5M - سبق صعد من 0.498 (2026-09-22) إلى 3.15 (2026-09-23) +533%
 - الأخبار: Beneficient Files Motion to Intervene in Delaware Litigation to Invalidate Purported HCLP Debt (Oct 28, 2026) | Beneficient (BENF) Price Target Increased by 700.00% to 16.32 (Dec 21, 2025) | Beneficient Appoints Peter Cangany As Chairman Of The Board (Dec 17, 2025)
 - منطقة الطلب 0.66–0.6666 | طلبات Limit: 0.6666 / 0.6634 / 0.6601 | الخروج: إغلاق يومي تحت 0.652 | الأهداف 0.711 / 0.757 | منطقة أعمق (غسل) 0.493–0.508
@@ -441,7 +441,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 6 يوم (طار إلى 1.65 وأغلق 1.33 بفوليوم 896x)
 
 ## $RDGT — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً / نموذج W
-- السعر 1.16 (بري/أفتر 1.07) | إعادة اختبار خط العنق بنجاح
+- السعر 1.16 (بري/أفتر 1.12) | إعادة اختبار خط العنق بنجاح
 - البيانات: صيني - Pharmaceutical Retailers - قسم 1:150 (2026-04-08) افتتاح 3.04 - اعلى 3.21 - الشورت المتاح: غير متوفر - فلوت 3.61M - عدد الأسهم 0.90M - سبق صعد من 229.5 (2026-03-10) إلى 702.0 (2026-03-23) +206%
 - الأخبار: Ridgetech, Inc. Appoints Lingtao Kong as Chief Executive Officer (Nov 6, 2026) | Top Biotech Gainers: ZYBT Skyrockets, ADVB Drops Planned Offering, STIM Gets New CFO, RDGT On Watch (Jul 20, 2026) | Ridgetech To Implement 1-For-150 Reverse Share Split (Apr 3, 2026)
 - منطقة الطلب 1.049–1.081 | طلبات Limit: 1.08 / 1.06 / 1.05 | الخروج: إغلاق يومي تحت 1.05 | الأهداف 1.19 / 1.28 | منطقة أعمق (غسل) 0.8811–0.9078
@@ -451,7 +451,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $SEGG — فلووت منخفض جداً / قاع نظيف
-- السعر 1.15 (بري/أفتر 1.13) | سحب سيولة ثم استرداد الدعم
+- السعر 1.15 (بري/أفتر 1.2) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Gambling - قسم 1:7 (2026-08-03) افتتاح 3.15 - اعلى 3.7 - الشورت المتاح: غير متوفر - فلوت 3.94M - عدد الأسهم 4.21M - سبق صعد من 3.22 (2026-01-09) إلى 32.55 (2026-01-20) +911%
 - الأخبار: Lottery.com Inc. Regains Compliance with Nasdaq Listing Rule 5250(c)(1) (Nov 6, 2026) | SEGG Media Corporation Acquires Majority Stake in DotCom Ventures Inc., Expanding Digital Portfolio with Concerts.com and TicketStub.com (Jul 23, 2025) | SEGG Media Corporation Announces Five-Year Partnership with Super League Kerala to Revolutionize Football Streaming and Engagement (Jul 17, 2025)
 - منطقة الطلب 1.12–1.15 | طلبات Limit: 1.14 / 1.14 / 1.13 | الخروج: إغلاق يومي تحت 1.01 | الأهداف 1.16 / 1.377 | منطقة أعمق (غسل) 0.952–1.008
@@ -570,7 +570,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، توه مدبل: من 2.03 إلى 4.3، اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $LPCN — طبي — الخبر يحرّكه / نموذج W
-- السعر 1.59 (بري/أفتر 1.54) | إعادة اختبار خط العنق بنجاح
+- السعر 1.59 (بري/أفتر 1.53) | إعادة اختبار خط العنق بنجاح
 - البيانات: أمريكي - Biotechnology - قسم 1:17 (2023-05-12) - الشورت المتاح: غير متوفر - فلوت 6.51M - عدد الأسهم 11.1M - سبق صعد من 3.05 (2025-12-15) إلى 12.37 (2026-01-15) +306%
 - الأخبار: Lipocine Inc. Reports Third Quarter of 2026 Financial Results and Initiates Phase 3 BLOOM Study (Nov 6, 2026) | Ardelyx (ARDX) Reports Break-Even Earnings for Q3 (Nov 3, 2026) | Weekly Buzz: RHHBY, NVS, PFE Win FDA Nod; CRBU Scales Back; PCVX, ABBV Report Positive Trial Data (Oct 9, 2026)
 - منطقة الطلب 1.529–1.576 | طلبات Limit: 1.57 / 1.55 / 1.53 | الخروج: إغلاق يومي تحت 1.53 | الأهداف 1.6 / 1.658 | منطقة أعمق (غسل) 1.386–1.428

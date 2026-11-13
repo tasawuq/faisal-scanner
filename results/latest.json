@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-13T14:14:46.792588+00:00",
- "generated_at_et": "2026-11-13T09:14:46.792588-05:00",
+ "generated_at_utc": "2026-11-13T14:24:46.792744+00:00",
+ "generated_at_et": "2026-11-13T09:24:46.792744-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -303,12 +303,9 @@
    "candle": "شمعة ثبات فوق المستوى",
    "volume_note": "",
    "waiting_for": [
-    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)",
-    "السعر في البري 0.687 تحت الوقف — الدعم مكسور حالياً"
+    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)"
    ],
-   "flags": [
-    "نزل في البري تحت الوقف (0.687)"
-   ],
+   "flags": [],
    "tags": [
     "تقسيم عكسي حديث 1:45 (2026-07-13) — افتتح بعده 4.54 وأعلى سعر 8.6",
     "فلووت 1.95M 🔥 (ص8: أقل من 5M قوي وخطر)",
@@ -337,9 +334,7 @@
     "last_close": 0.7789999842643738,
     "last_date": "2026-11-12",
     "neck": 0.7720000147819519,
-    "static_wait": [
-     "السعر في البري 0.687 تحت الوقف — الدعم مكسور حالياً"
-    ],
+    "static_wait": [],
     "p86": {
      "checks": {
       "ma": [
@@ -434,8 +429,8 @@
     "last_split": "عكسي 1:45 (2026-07-13)",
     "short_available": null,
     "short_pct_float": 0.0519,
-    "ext_price": 0.6871,
-    "ext_chg": -0.11774528000000001,
+    "ext_price": 0.7694,
+    "ext_chg": -0.012069864,
     "ext_session": "pre"
    },
    "news": []
@@ -1923,8 +1918,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "ext_price": 0.32,
-    "ext_chg": 0.034928863,
+    "ext_price": 0.3299,
+    "ext_chg": 0.066946983,
     "ext_session": "pre"
    },
    "news": []
@@ -2775,8 +2770,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.15020001,
-    "ext_price": 4.93,
-    "ext_chg": 0.0,
+    "ext_price": 4.9,
+    "ext_chg": -0.006085192697768638,
     "ext_session": "pre"
    },
    "news": []
@@ -3208,8 +3203,8 @@
     "last_split": "عكسي 1:10 (2026-10-19)",
     "short_available": null,
     "short_pct_float": 0.1254,
-    "ext_price": 0.8709,
-    "ext_chg": 0.06493029,
+    "ext_price": 0.8348,
+    "ext_chg": 0.020787504000000002,
     "ext_session": "pre"
    },
    "news": []
@@ -3423,8 +3418,8 @@
     "last_split": "عكسي 1:50 (2026-10-22)",
     "short_available": null,
     "short_pct_float": 3.0584,
-    "ext_price": 1.4,
-    "ext_chg": 0.014492739999999999,
+    "ext_price": 1.39,
+    "ext_chg": 0.007246369999999999,
     "ext_session": "pre"
    },
    "news": []
@@ -3861,8 +3856,8 @@
     "last_split": "عكسي 1:10 (2024-07-18)",
     "short_available": null,
     "short_pct_float": 0.056900002,
-    "ext_price": 1.5999,
-    "ext_chg": -0.012407405,
+    "ext_price": 1.75,
+    "ext_chg": 0.08024692,
     "ext_session": "pre"
    },
    "news": []
@@ -6633,6 +6628,10 @@
      "time": "2026-11-13T13:54:31+00:00"
     },
     {
+     "headline": "BIO-key International Inc. (BKYI) Reports Q3 Loss, Lags Revenue Estimates",
+     "time": "2026-11-13T13:10:49+00:00"
+    },
+    {
      "headline": "Dragonfly Energy Holdings Corp. (DFLI) Reports Q3 Loss, Misses Revenue Estimates",
      "time": "2026-11-12T22:05:03+00:00"
     }
@@ -8800,12 +8799,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 198681.0,
-   "price": 356.47
+   "volume": 226509.0,
+   "price": 356.4481
   },
   "SNDL": {
-   "volume": 3823.0,
-   "price": 1.3807
+   "volume": 3839.0,
+   "price": 1.4
   }
  }
 }

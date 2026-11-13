@@ -1,26 +1,26 @@
 {
- "generated_at_utc": "2026-11-13T09:44:44.542588+00:00",
- "generated_at_et": "2026-11-13T04:44:44.542588-05:00",
+ "generated_at_utc": "2026-11-13T09:54:44.542733+00:00",
+ "generated_at_et": "2026-11-13T04:54:44.542733-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
-  "prefiltered": 1282,
-  "with_data": 1282,
-  "short_history": 12,
-  "price_out": 56,
-  "low_volume": 516,
-  "outside_float": 297,
-  "nasdaq": 3430,
-  "all": 5851,
+  "prefiltered": 3433,
+  "with_data": 3433,
+  "short_history": 56,
+  "price_out": 2016,
+  "low_volume": 523,
+  "outside_float": 308,
+  "nasdaq": 3433,
+  "all": 5876,
   "h4_bars": 0
  },
  "counts": {
-  "universe": 5851,
-  "analyzed": 698,
+  "universe": 5876,
+  "analyzed": 838,
   "ready": 1,
-  "watch": 102,
+  "watch": 91,
   "momentum": 0,
-  "ext_quotes": 60,
+  "ext_quotes": 32,
   "ext_movers_5pct": 0
  },
  "ready": [
@@ -220,10 +220,7 @@
     },
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
-    "short_pct_float": 0.0435,
-    "ext_price": 1.62,
-    "ext_chg": 0.018867924528301883,
-    "ext_session": "pre"
+    "short_pct_float": 0.0435
    },
    "news": []
   }
@@ -429,8 +426,8 @@
     "last_split": "عكسي 1:45 (2026-07-13)",
     "short_available": null,
     "short_pct_float": 0.0519,
-    "ext_price": 0.7806,
-    "ext_chg": 0.002311249,
+    "ext_price": 0.78,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -636,8 +633,8 @@
     "last_split": "عكسي 1:150 (2026-04-08)",
     "short_available": null,
     "short_pct_float": 0.0502,
-    "ext_price": 1.11,
-    "ext_chg": 0.0,
+    "ext_price": 1.13,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -851,8 +848,8 @@
     "last_split": "عكسي 1:5 (2026-02-06)",
     "short_available": null,
     "short_pct_float": 0.0037,
-    "ext_price": 0.75,
-    "ext_chg": -0.046771765,
+    "ext_price": 0.722,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -1068,8 +1065,8 @@
     "last_split": "عكسي 1:12 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.0838,
-    "ext_price": 1.3,
-    "ext_chg": -0.06474820143884885,
+    "ext_price": 1.33,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": [
@@ -1294,10 +1291,7 @@
     },
     "last_split": "عكسي 1:22 (2026-07-16)",
     "short_available": null,
-    "short_pct_float": 0.1506,
-    "ext_price": 2.3392,
-    "ext_chg": 0.021484716157205153,
-    "ext_session": "pre"
+    "short_pct_float": 0.1506
    },
    "news": []
   },
@@ -1709,7 +1703,7 @@
     "short_available": null,
     "short_pct_float": 0.0364,
     "ext_price": 0.5141,
-    "ext_chg": -0.029816945,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -1915,8 +1909,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "ext_price": 0.32,
-    "ext_chg": 0.034928863,
+    "ext_price": 0.3199,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2127,8 +2121,8 @@
     "last_split": "عكسي 1:50 (2025-05-12)",
     "short_available": null,
     "short_pct_float": 0.0673,
-    "ext_price": 3.8916,
-    "ext_chg": -0.04383292383292392,
+    "ext_price": 3.89,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2347,8 +2341,8 @@
     "last_split": "عكسي 1:100 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.2725,
-    "ext_price": 2.78,
-    "ext_chg": 0.018314999999999998,
+    "ext_price": 2.9,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2561,7 +2555,7 @@
     "short_available": null,
     "short_pct_float": 0.0165,
     "ext_price": 0.8066,
-    "ext_chg": -0.04419954970968121,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2642,10 +2636,12 @@
    "waiting_for": [
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 5.16 فوق السعر) (ص66/ص82/ص84/ص86)",
     "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 4.72 أعلى من اللي قبله 4.68، والشموع ما تقلصت (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 152K مقابل متوسط شموع البيع 148K (ص85/ص86)"
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 152K مقابل متوسط شموع البيع 148K (ص85/ص86)",
+    "السعر في البري 4.45 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
-    "رفض عند MA20 (ص64)"
+    "رفض عند MA20 (ص64)",
+    "نزل في البري تحت الوقف (4.45)"
    ],
    "tags": [
     "فلووت 3.57M 🔥 (ص8: أقل من 5M قوي وخطر)",
@@ -2676,7 +2672,9 @@
     "last_close": 4.809999942779541,
     "last_date": "2026-11-12",
     "neck": null,
-    "static_wait": [],
+    "static_wait": [
+     "السعر في البري 4.45 تحت الوقف — الدعم مكسور حالياً"
+    ],
     "p86": {
      "checks": {
       "ma": [
@@ -2767,8 +2765,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.15020001,
-    "ext_price": 4.81,
-    "ext_chg": -0.024340770791075106,
+    "ext_price": 4.45,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2980,10 +2978,7 @@
     },
     "last_split": "عكسي 1:4 (2026-06-02)",
     "short_available": null,
-    "short_pct_float": 0.001,
-    "ext_price": 3.47,
-    "ext_chg": -0.008571428571428563,
-    "ext_session": "pre"
+    "short_pct_float": 0.001
    },
    "news": []
   },
@@ -3200,8 +3195,8 @@
     "last_split": "عكسي 1:10 (2026-10-19)",
     "short_available": null,
     "short_pct_float": 0.1254,
-    "ext_price": 0.84,
-    "ext_chg": -0.09725953788285868,
+    "ext_price": 0.831,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -3416,7 +3411,7 @@
     "short_available": null,
     "short_pct_float": 3.0584,
     "ext_price": 1.42,
-    "ext_chg": 0.028985479999999997,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -3636,7 +3631,10 @@
     },
     "last_split": "عكسي 1:20 (2026-08-21)",
     "short_available": null,
-    "short_pct_float": 0.0004
+    "short_pct_float": 0.0004,
+    "ext_price": 4.1,
+    "ext_chg": null,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -3851,7 +3849,7 @@
     "short_available": null,
     "short_pct_float": 0.056900002,
     "ext_price": 1.63,
-    "ext_chg": 0.006172833399999999,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -4063,10 +4061,7 @@
     },
     "last_split": "عكسي 1:100 (2026-06-18)",
     "short_available": null,
-    "short_pct_float": 0.0312,
-    "ext_price": 1.25,
-    "ext_chg": -0.08759124087591252,
-    "ext_session": "pre"
+    "short_pct_float": 0.0312
    },
    "news": []
   },
@@ -4284,10 +4279,7 @@
     },
     "last_split": "عكسي 1:8 (2026-08-11)",
     "short_available": null,
-    "short_pct_float": 0.0099,
-    "ext_price": 3.43,
-    "ext_chg": -0.105606258148631,
-    "ext_session": "pre"
+    "short_pct_float": 0.0099
    },
    "news": []
   },
@@ -4496,10 +4488,7 @@
     },
     "last_split": "عكسي 1:12 (2026-02-13)",
     "short_available": null,
-    "short_pct_float": 0.0068,
-    "ext_price": 2.86,
-    "ext_chg": -0.020548007,
-    "ext_session": "pre"
+    "short_pct_float": 0.0068
    },
    "news": []
   },
@@ -7912,6 +7901,230 @@
    "news": []
   },
   {
+   "ticker": "SMX",
+   "kind": "pivot",
+   "status": "WATCH",
+   "setup": "SWEEP",
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "price": 4.840000152587891,
+   "score": 7.0,
+   "conditions": {
+    "ma": {
+     "score": 0.0,
+     "note": "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 6.07 فوق السعر)"
+    },
+    "rsi": {
+     "score": 1.0,
+     "note": "أدنى RSI 17 (الحالي 42)"
+    },
+    "macd": {
+     "score": 1.0,
+     "note": "الخط فوق الإشارة"
+    },
+    "support": {
+     "score": 1.0,
+     "note": "منطقة 4.48–4.62 لمسها 4 مرات خلال 18 يوم"
+    },
+    "retest": {
+     "score": 1.0,
+     "note": "سحب سيولة تحت الدعم ثم استرداده (الاختبار 4)"
+    },
+    "volume": {
+     "score": 0.0,
+     "note": "آخر شمعة حمراء — فوليومها 2404K مقابل متوسط شموع البيع 690K"
+    },
+    "candle": {
+     "score": 0.0,
+     "note": "آخر شمعة يومية مو انعكاس"
+    },
+    "accum": {
+     "score": 1.0,
+     "note": "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
+    },
+    "pressure": {
+     "score": 1.0,
+     "note": "هبط 92% من أعلى 90 يوم، والبيع ضعف"
+    },
+    "red": {
+     "score": 0.0,
+     "note": "شمعة حمراء طويلة 2026-11-12 عند القاع"
+    },
+    "target": {
+     "score": 1.0,
+     "note": "هدف 5.01 (+10.1%) أكبر من الخسارة −10.0%"
+    }
+   },
+   "support_low": 4.48179292678833,
+   "support_high": 4.621849060058594,
+   "support_touches": 3,
+   "trigger_level": 4.48179292678833,
+   "stop": 4.1,
+   "entry_low": 4.49,
+   "entry_high": 4.62,
+   "t1": 5.0140061378479,
+   "t1_label": "رأس شمعة هابطة",
+   "t2": 5.210083961486816,
+   "t2_label": "قمة سابقة",
+   "rr": 1.02,
+   "risk_pct": 0.0996,
+   "rsi_now": 41.7,
+   "rsi_min": 17.3,
+   "ma_state": "تحت كل المتوسطات (ضغط)",
+   "macd_state": "إيجابي (الخط فوق الإشارة)",
+   "candle": "",
+   "volume_note": "",
+   "waiting_for": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 6.07 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 2404K مقابل متوسط شموع البيع 690K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
+    "ما فيه شموع حمراء طويلة قرب القاع: شمعة حمراء طويلة 2026-11-12 عند القاع (ص88)",
+    "توه مدبل (من 3.22 إلى 10.8) — «فيه خطوره… غير امن الان» (ص59)",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)"
+   ],
+   "flags": [
+    "توه مدبل: من 3.22 إلى 10.8",
+    "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 15.7 وأغلق 5.29 بفوليوم 117x)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 357:1000 (2026-11-09) — افتتح بعده 5.22 وأعلى سعر 21.5",
+    "فلووت 0.28M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 47015% من 653.56 (2025-11-17) إلى 307925.94 (2025-12-05)"
+   ],
+   "rank": 7.600375082415674,
+   "meta": {
+    "avg_volume": 2453946.45,
+    "drawdown": 0.924,
+    "gain_from_low10": 0.503,
+    "higher_lows": "False",
+    "runner": {
+     "pct": 470.1538634308438,
+     "from": 653.5570678710938,
+     "from_date": "2025-11-17",
+     "to": 307925.9375,
+     "to_date": "2025-12-05",
+     "is_runner": true
+    },
+    "today": null,
+    "zone": [
+     4.48179292678833,
+     4.621849060058594
+    ],
+    "breakout_setup": false,
+    "last_close": 4.840000152587891,
+    "last_date": "2026-11-12",
+    "neck": null,
+    "static_wait": [
+     "توه مدبل (من 3.22 إلى 10.8) — «فيه خطوره… غير امن الان» (ص59)",
+     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)"
+    ],
+    "p86": {
+     "checks": {
+      "ma": [
+       false,
+       "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 6.07 فوق السعر)"
+      ],
+      "rsi": [
+       true,
+       "أدنى RSI 17 (الحالي 42)"
+      ],
+      "macd": [
+       true,
+       "الخط فوق الإشارة"
+      ],
+      "support": [
+       true,
+       "منطقة 4.48–4.62 لمسها 4 مرات خلال 18 يوم"
+      ],
+      "retest": [
+       true,
+       "سحب سيولة تحت الدعم ثم استرداده (الاختبار 4)"
+      ],
+      "volume": [
+       false,
+       "آخر شمعة حمراء — فوليومها 2404K مقابل متوسط شموع البيع 690K"
+      ],
+      "candle": [
+       false,
+       "آخر شمعة يومية مو انعكاس"
+      ],
+      "accum": [
+       true,
+       "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
+      ],
+      "pressure": [
+       true,
+       "هبط 92% من أعلى 90 يوم، والبيع ضعف"
+      ],
+      "red": [
+       false,
+       "شمعة حمراء طويلة 2026-11-12 عند القاع"
+      ],
+      "target": [
+       true,
+       "هدف 5.01 (+10.1%) أكبر من الخسارة −10.0%"
+      ]
+     },
+     "critical": 4.110000133514404,
+     "complete": false,
+     "bar_date": "2026-11-12",
+     "frame": "يومي",
+     "below_ma": true,
+     "broke": false,
+     "ma20": 6.0732366919517515,
+     "episodes": 4,
+     "breakout": false,
+     "kind": "sweep",
+     "ep_lows": [
+      4.48179292678833,
+      4.621849060058594,
+      3.2212889194488525,
+      4.110000133514404
+     ],
+     "ep_open": true,
+     "shrink": false
+    },
+    "when_ready": "اختبار منطقة 4.48–4.62 وفشل كسرها (أو سحب سيولة تحت 4.11 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (3.59–4.03، ص54)",
+    "ladder": {
+     "orders": [
+      4.62,
+      4.55,
+      4.49
+     ],
+     "stop": 4.1,
+     "critical": 4.11,
+     "avg": 4.553333333333334,
+     "risk": 0.09956076134699868,
+     "risk_top": 0.11255411255411266,
+     "risk_low": 0.08685968819599121
+    },
+    "float": 282748,
+    "shares": 897717,
+    "market_cap": 4344950,
+    "exchange": "NASDAQ",
+    "name": "SMX (Security Matters) Public Limited Company",
+    "country_ar": "إيرلندي",
+    "industry": "Specialty Business Services",
+    "split": {
+     "factor": "357:1000",
+     "date": "2026-11-09",
+     "reverse": true,
+     "days": 4,
+     "recent": true,
+     "open_after": 5.21999979019165,
+     "high_after": 21.5
+    },
+    "last_split": "عكسي 357:1000 (2026-11-09)",
+    "short_available": null,
+    "short_pct_float": 0.019
+   },
+   "news": [
+    {
+     "headline": "SMX Develops AI-Powered Scientific Intelligence Platform, Targets Commercial Launch in Q2 2027",
+     "time": "2026-11-10T15:30:06+00:00"
+    }
+   ]
+  },
+  {
    "ticker": "YHC",
    "kind": "pivot",
    "status": "WATCH",
@@ -8552,232 +8765,19 @@
     "short_pct_float": 0.2327
    },
    "news": []
-  },
-  {
-   "ticker": "XELB",
-   "kind": "pivot",
-   "status": "WATCH",
-   "setup": "AT_SUPPORT",
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "price": 0.35359999537467957,
-   "score": 7.0,
-   "conditions": {
-    "ma": {
-     "score": 0.0,
-     "note": "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3864 فوق السعر)"
-    },
-    "rsi": {
-     "score": 1.0,
-     "note": "أدنى RSI 20 (الحالي 39)"
-    },
-    "macd": {
-     "score": 1.0,
-     "note": "الخط فوق الإشارة"
-    },
-    "support": {
-     "score": 1.0,
-     "note": "منطقة 0.3112–0.3143 لمسها 3 مرات خلال 21 يوم"
-    },
-    "retest": {
-     "score": 1.0,
-     "note": "سحب سيولة تحت الدعم ثم استرداده (الاختبار 3)"
-    },
-    "volume": {
-     "score": 0.0,
-     "note": "آخر شمعة حمراء — فوليومها 83K مقابل متوسط شموع البيع 54K"
-    },
-    "candle": {
-     "score": 0.0,
-     "note": "آخر شمعة بعيدة عن منطقة الدعم"
-    },
-    "accum": {
-     "score": 0.0,
-     "note": "قاع الاختبار الأخير 0.293 مو أعلى من اللي قبله 0.3112، والشموع ما تقلصت"
-    },
-    "pressure": {
-     "score": 1.0,
-     "note": "هبط 78% من أعلى 90 يوم، والبيع ضعف"
-    },
-    "red": {
-     "score": 1.0,
-     "note": "ما فيه"
-    },
-    "target": {
-     "score": 1.0,
-     "note": "هدف 0.3864 (+23.5%) أكبر من الخسارة −6.4%"
-    }
-   },
-   "support_low": 0.31119999289512634,
-   "support_high": 0.3143119928240776,
-   "support_touches": 2,
-   "trigger_level": 0.31119999289512634,
-   "stop": 0.2929,
-   "entry_low": 0.3112,
-   "entry_high": 0.3143,
-   "t1": 0.38639000058174133,
-   "t1_label": "MA20 + رأس شمعة هابطة",
-   "t2": 0.4300000071525574,
-   "t2_label": "رأس شمعة هابطة + MA30",
-   "rr": 3.71,
-   "risk_pct": 0.0635,
-   "rsi_now": 38.7,
-   "rsi_min": 19.6,
-   "ma_state": "تحت كل المتوسطات (ضغط)",
-   "macd_state": "إيجابي (الخط فوق الإشارة)",
-   "candle": "",
-   "volume_note": "",
-   "waiting_for": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3864 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.293 مو أعلى من اللي قبله 0.3112، والشموع ما تقلصت (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 83K مقابل متوسط شموع البيع 54K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)",
-    "السعر صعد 21% فوق الدعم الحرج — لا مطاردة (ص67، ص88)"
-   ],
-   "flags": [
-    "شمعة ضخ/تصريف قبل 7 يوم (طار إلى 0.58 وأغلق 0.38 بفوليوم 35x)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت 4.18M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 114% من 0.2716 (2026-10-15) إلى 0.58 (2026-11-03)",
-    "قيعان أعلى"
-   ],
-   "rank": 7.318766011446505,
-   "meta": {
-    "avg_volume": 1030630.0,
-    "drawdown": 0.783,
-    "gain_from_low10": 0.207,
-    "higher_lows": "True",
-    "runner": {
-     "pct": 1.1354932481721387,
-     "from": 0.27160000801086426,
-     "from_date": "2026-10-15",
-     "to": 0.5799999833106995,
-     "to_date": "2026-11-03",
-     "is_runner": true
-    },
-    "today": null,
-    "zone": [
-     0.31119999289512634,
-     0.3143119928240776
-    ],
-    "breakout_setup": false,
-    "last_close": 0.35359999537467957,
-    "last_date": "2026-11-12",
-    "neck": null,
-    "static_wait": [
-     "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)"
-    ],
-    "p86": {
-     "checks": {
-      "ma": [
-       false,
-       "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3864 فوق السعر)"
-      ],
-      "rsi": [
-       true,
-       "أدنى RSI 20 (الحالي 39)"
-      ],
-      "macd": [
-       true,
-       "الخط فوق الإشارة"
-      ],
-      "support": [
-       true,
-       "منطقة 0.3112–0.3143 لمسها 3 مرات خلال 21 يوم"
-      ],
-      "retest": [
-       true,
-       "سحب سيولة تحت الدعم ثم استرداده (الاختبار 3)"
-      ],
-      "volume": [
-       false,
-       "آخر شمعة حمراء — فوليومها 83K مقابل متوسط شموع البيع 54K"
-      ],
-      "candle": [
-       false,
-       "آخر شمعة بعيدة عن منطقة الدعم"
-      ],
-      "accum": [
-       false,
-       "قاع الاختبار الأخير 0.293 مو أعلى من اللي قبله 0.3112، والشموع ما تقلصت"
-      ],
-      "pressure": [
-       true,
-       "هبط 78% من أعلى 90 يوم، والبيع ضعف"
-      ],
-      "red": [
-       true,
-       "ما فيه"
-      ],
-      "target": [
-       true,
-       "هدف 0.3864 (+23.5%) أكبر من الخسارة −6.4%"
-      ]
-     },
-     "critical": 0.2930000126361847,
-     "complete": false,
-     "bar_date": "2026-11-12",
-     "frame": "يومي",
-     "below_ma": true,
-     "broke": false,
-     "ma20": 0.38639000058174133,
-     "episodes": 3,
-     "breakout": false,
-     "kind": "support",
-     "ep_lows": [
-      0.27160000801086426,
-      0.31119999289512634,
-      0.2930000126361847
-     ],
-     "ep_open": false,
-     "shrink": false
-    },
-    "when_ready": "اختبار منطقة 0.3112–0.3143 وفشل كسرها (أو سحب سيولة تحت 0.293 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.249–0.2801، ص54)",
-    "ladder": {
-     "orders": [
-      0.3143,
-      0.3128,
-      0.3112
-     ],
-     "stop": 0.2929,
-     "critical": 0.293,
-     "avg": 0.31276666666666664,
-     "risk": 0.063519130342108,
-     "risk_top": 0.06808781419026418,
-     "risk_low": 0.058804627249357276
-    },
-    "float": 4177779,
-    "shares": 6908839,
-    "market_cap": 2442965,
-    "exchange": "NASDAQ",
-    "name": "Xcel Brands, Inc.",
-    "country_ar": "أمريكي",
-    "industry": "Apparel Manufacturing",
-    "split": {
-     "factor": "1:10",
-     "date": "2025-03-25",
-     "reverse": true,
-     "days": 598,
-     "recent": false
-    },
-    "last_split": "عكسي 1:10 (2025-03-25)",
-    "short_available": null,
-    "short_pct_float": 0.0368
-   },
-   "news": []
   }
  ],
  "momentum": [],
- "errors": [],
+ "errors": [
+  "yahoo quotes empty in pre — nasdaq fallback 32/60"
+ ],
  "ext_debug": [],
  "faisal": [],
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 32122.0,
-   "price": 356.05
+   "volume": 46017.0,
+   "price": 356.2922
   },
   "SNDL": {
    "volume": 325.0,

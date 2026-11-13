@@ -1,4 +1,4 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-12T18:08 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-12T19:08 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
@@ -64,7 +64,7 @@
 ## $CYCU — فلووت منخفض جداً
 - السعر 2.22 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Information Technology Services - قسم 1:8 (2026-08-28) افتتاح 3.94 - اعلى 4.95 - الشورت المتاح: غير متوفر - فلوت 3.00M - عدد الأسهم 3.23M - سبق صعد من 2.08 (2026-07-22) إلى 14.72 (2026-07-30) +608%
-- الأخبار: Distribution Solutions Group (DSGR) Beats Q3 Earnings and Revenue Estimates (Nov 5, 2026) | Cycurion Consensus Price Target Increased by 700% to $57.12 (Sep 15, 2026) | All You Need to Know About Cycurion, Inc. (CYCU) Rating Upgrade to Buy (Sep 10, 2026)
+- الأخبار: Intellicheck Mobilisa, Inc. (IDN) Q3 Earnings Meet Estimates (Nov 12, 2026) | Distribution Solutions Group (DSGR) Beats Q3 Earnings and Revenue Estimates (Nov 5, 2026) | Cycurion Consensus Price Target Increased by 700% to $57.12 (Sep 15, 2026)
 - منطقة الطلب 2.1–2.136 | طلبات Limit: 2.13 / 2.12 / 2.1 | الخروج: إغلاق يومي تحت 2.1 | الأهداف 2.324 / 2.4 | منطقة أعمق (غسل) 1.98–2.04
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.32 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 41) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 85K مقابل متوسط شموع البيع 128K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)
@@ -80,7 +80,7 @@
 - متى يكون جاهزاً: رجوع لاختبار 1.5 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 1.52–1.47
 
 ## $PRFX — طبي — الخبر يحرّكه / فلووت منخفض جداً
-- السعر 0.7868 (بري/أفتر 0.7993) | سحب سيولة ثم استرداد الدعم
+- السعر 0.7868 (بري/أفتر 0.833) | سحب سيولة ثم استرداد الدعم
 - البيانات: إسرائيلي - Drug Manufacturers - Specialty & Generic - قسم 1:5 (2026-02-06) افتتاح 3.4 - اعلى 5.39 - الشورت المتاح: غير متوفر - فلوت 2.87M - عدد الأسهم 3.50M - سبق صعد من 1.28 (2026-05-21) إلى 5.39 (2026-05-29) +321%
 - الأخبار: PainReform Ltd. Reports Preliminary $11.0 Million Cash Position and Outlines Strategic Initiatives for LayerBio and GridFeed (Oct 23, 2026) | PainReform's Corporate Name Changes To PRF Technologies To Reflect Expansion; Stock Up (Jan 16, 2026) | Top Stocks To Watch: IOVA Soars On Regulatory Approval, FDA Fast Tracks Aldeyra's Drug (Aug 19, 2025)
 - منطقة الطلب 0.691–0.698 | طلبات Limit: 0.698 / 0.6945 / 0.691 | الخروج: إغلاق يومي تحت 0.671 | الأهداف 0.7946 / 0.82 | منطقة أعمق (غسل) 0.6346–0.6538
@@ -92,7 +92,7 @@
 ## $MNDR — فلووت منخفض جداً
 - السعر 0.9316 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: سنغافوري - Health Information Services - قسم 1:6 (2026-06-29) افتتاح 3.0 - اعلى 5.67 - الشورت المتاح: غير متوفر - فلوت 0.98M - عدد الأسهم 1.08M - سبق صعد من 0.76 (2026-10-09) إلى 5.67 (2026-10-12) +646%
-- الأخبار: X-Energy (XE) Q3 2026 Earnings Call Transcript (Nov 12, 2026) | HUB Cyber Security Ltd. Announces 1-for-20 Reverse Share Split (Nov 12, 2026) | Capri Holdings Limited Appoints Justin Boxford as Chief Executive Officer Effective January 4, 2027 (Nov 12, 2026)
+- الأخبار: Banco Santander, S.A. Calls Extraordinary General Shareholders' Meeting on 15 December 2026 to Approve Capital Increases for Santander Brazil Acquisition (Nov 12, 2026) | Allot Ltd. Reports Third Quarter 2026 Revenue of $30.6 million (Nov 12, 2026) | Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. (Nov 12, 2026)
 - منطقة الطلب 0.86–0.8686 | طلبات Limit: 0.8686 / 0.8644 / 0.8601 | الخروج: إغلاق يومي تحت 0.86 | الأهداف 0.96 / 1.04 | منطقة أعمق (غسل) 0.7524–0.7752
 - شروط ص86 (يومي): 8/11 — ناقص: RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 31 (الحالي 46) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 188K مقابل متوسط شموع البيع 103K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -151,7 +151,7 @@
 ## $DKI — صيني عالي التذبذب ⚠️ / قاع نظيف
 - السعر 1.38 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Electronic Gaming & Multimedia - قسم 1:50 (2026-10-22) افتتاح 2.0 - اعلى 2.6 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 0.05M - سبق صعد من 0.315 (2025-12-31) إلى 59.5 (2026-02-02) +18789%
-- الأخبار: Ameresco (AMRC) Shares Cross Below 200 DMA (Nov 12, 2026) | NOG Crosses Above Key Moving Average Level (Nov 12, 2026) | Notable Two Hundred Day Moving Average Cross - WPM (Nov 12, 2026)
+- الأخبار: Banco Santander, S.A. Calls Extraordinary General Shareholders' Meeting on 15 December 2026 to Approve Capital Increases for Santander Brazil Acquisition (Nov 12, 2026) | Allot Ltd. Reports Third Quarter 2026 Revenue of $30.6 million (Nov 12, 2026) | Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. (Nov 12, 2026)
 - منطقة الطلب 1.33–1.343 | طلبات Limit: 1.34 / 1.34 / 1.34 | الخروج: إغلاق يومي تحت 1.33 | الأهداف 1.46 / 1.867 | منطقة أعمق (غسل) 1.131–1.197
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.87 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 144K مقابل متوسط شموع البيع 7254K (ص85/ص86)
@@ -188,7 +188,7 @@
 - ⚠️ اختراق وهمي سابق (Bull Trap — ص19، ص57)، سعر منخفض جداً — سبريد واسع
 
 ## $FRGT — قاع نظيف
-- السعر 0.8178 (بري/أفتر 0.8163) | سحب سيولة ثم استرداد الدعم
+- السعر 0.8178 (بري/أفتر 0.8146) | سحب سيولة ثم استرداد الدعم
 - البيانات: مكسيكي - Software - Application - قسم 1:10 (2026-10-19) افتتاح 2.01 - اعلى 2.15 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 1.90M - سبق صعد من 8.4 (2025-12-31) إلى 111.65 (2026-01-06) +1229%
 - الأخبار: Freight Technologies Explores Sale Of Brokerage Unit (Apr 2, 2026) | Freight Technologies, Inc. Unveils AI-Powered Voice Agents in Partnership with Fetch.ai for Enhanced Logistics Automation (Jul 16, 2025) | Freight Technologies, Inc. Welcomes Reckitt Benckiser de México as New Client, Strengthening Logistics Solutions in North America (Jul 7, 2025)
 - منطقة الطلب 0.789–0.7969 | طلبات Limit: 0.7968 / 0.7929 / 0.789 | الخروج: إغلاق يومي تحت 0.7635 | الأهداف 0.9079 / 0.98 | منطقة أعمق (غسل) 0.6706–0.7101
@@ -240,7 +240,7 @@
 ## $DFNS — فلووت منخفض جداً / قاع نظيف
 - السعر 2 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Aerospace & Defense - قسم 1:125 (2026-07-20) افتتاح 5.15 - اعلى 91.0 - الشورت المتاح: غير متوفر - فلوت 1.60M - عدد الأسهم 4.60M - سبق صعد من 3.7 (2026-07-24) إلى 91.0 (2026-07-30) +2359%
-- الأخبار: RLI Corp. Declares Special Cash Dividend of $3.00 Per Share and Regular Quarterly Dividend of $0.18 Per Share (Nov 12, 2026) | Stocks Recover as Other Chipmakers May Benefit from Nvidia’s Turmoil (Nov 12, 2026) | Stocks Slip as Nvidia Weakness Weighs on Chipmakers and AI Stocks (Nov 12, 2026)
+- الأخبار: Banco Santander, S.A. Calls Extraordinary General Shareholders' Meeting on 15 December 2026 to Approve Capital Increases for Santander Brazil Acquisition (Nov 12, 2026) | Allot Ltd. Reports Third Quarter 2026 Revenue of $30.6 million (Nov 12, 2026) | Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. (Nov 12, 2026)
 - منطقة الطلب 1.75–1.768 | طلبات Limit: 1.76 / 1.75 / 1.75 | الخروج: إغلاق يومي تحت 1.75 | الأهداف 2.04 / 2.2 | منطقة أعمق (غسل) 1.488–1.575
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، دعم/قاع واضح، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.51 فوق السعر) (ص66/ص82/ص84/ص86)؛ دعم/قاع واضح: منطقة 1.75–1.77 لمسها 1 مرات خلال 3 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)
@@ -266,7 +266,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، شمعة ضخ/تصريف قبل 16 يوم (طار إلى 9.2 وأغلق 7.3 بفوليوم 243x)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $WYHG — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
-- السعر 3.41 (بري/أفتر 3.47) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 3.41 (بري/أفتر 3.51) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني - Packaged Foods - قسم 1:4 (2026-06-02) افتتاح 3.65 - اعلى 26.17 - الشورت المتاح: غير متوفر - فلوت 4.18M - عدد الأسهم 35.6M - سبق صعد من 3.32 (2026-07-27) إلى 26.17 (2026-08-06) +688%
 - الأخبار: Wing Yip Food Holdings Group Limited Announces Full Exercise of Over-Allotment Option in IPO, Raising Additional $1.23 Million (Jan 14, 2025)
 - منطقة الطلب 3.32–3.4 | طلبات Limit: 3.4 / 3.36 / 3.32 | الخروج: إغلاق يومي تحت 3.32 | الأهداف 3.46 / 3.613 | منطقة أعمق (غسل) 3.168–3.264
@@ -324,9 +324,9 @@
 - متى يكون جاهزاً: رجوع لاختبار 4.0 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 4.04–3.92
 
 ## $STI — فلووت منخفض جداً / قاع نظيف
-- السعر 3.83 (بري/أفتر 3.841) | سحب سيولة ثم استرداد الدعم
+- السعر 3.83 (بري/أفتر 3.908) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Electrical Equipment & Parts - قسم 1:50 (2025-05-12) - الشورت المتاح: غير متوفر - فلوت 3.58M - عدد الأسهم 9.41M - سبق صعد من 4.37 (2026-05-19) إلى 46.0 (2026-06-05) +952%
-- الأخبار: Ameresco (AMRC) Shares Cross Below 200 DMA (Nov 12, 2026) | NOG Crosses Above Key Moving Average Level (Nov 12, 2026) | Notable Two Hundred Day Moving Average Cross - WPM (Nov 12, 2026)
+- الأخبار: Banco Santander, S.A. Calls Extraordinary General Shareholders' Meeting on 15 December 2026 to Approve Capital Increases for Santander Brazil Acquisition (Nov 12, 2026) | Allot Ltd. Reports Third Quarter 2026 Revenue of $30.6 million (Nov 12, 2026) | Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. (Nov 12, 2026)
 - منطقة الطلب 3.82–3.858 | طلبات Limit: 3.85 / 3.84 / 3.82 | الخروج: إغلاق يومي تحت 3.79 | الأهداف 4.045 / 4.251 | منطقة أعمق (غسل) 3.663–3.763
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.25 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 108K مقابل متوسط شموع البيع 139K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)
@@ -403,7 +403,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $CRE — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 2.92 (بري/أفتر 2.91) | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
+- السعر 2.92 (بري/أفتر 2.81) | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
 - البيانات: صيني (هونغ كونغ) - Specialty Business Services - قسم 1:12 (2026-02-13) افتتاح 2.63 - اعلى 8.6 - الشورت المتاح: غير متوفر - فلوت 1.10M - عدد الأسهم 1.64M - سبق صعد من 2.31 (2026-07-31) إلى 8.6 (2026-08-26) +272%
 - الأخبار: Tiptree Inc. Reports Third Quarter 2026 Results and Agreement to Acquire USIG for $100.0 million (Oct 28, 2026) | Pre-Market Earnings Report for April 14, 2026 :  JPM, JNJ, WFC, C, BLK, ACI, KMX, BSVN, HOVR, CREX (Apr 13, 2026) | Cre8 Enterprise Limited Closes Initial Public Offering, Raises Approximately $5.8 Million on Nasdaq (Jul 24, 2025)
 - منطقة الطلب 2.665–2.746 | طلبات Limit: 2.74 / 2.7 / 2.67 | الخروج: إغلاق يومي تحت 2.64 | الأهداف 3 / 3.151 | منطقة أعمق (غسل) 2.554–2.625
@@ -464,7 +464,7 @@
 ## $ICCM — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 0.7005 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: إسرائيلي - Medical Devices - قسم 1:30 (2026-06-04) افتتاح 4.31 - اعلى 9.54 - الشورت المتاح: غير متوفر - فلوت 2.52M - عدد الأسهم 4.64M - سبق صعد من 2.12 (2026-06-16) إلى 9.54 (2026-06-17) +350%
-- الأخبار: IceCure Medical Ltd. Granted New Patent in China for Its Cryogenic System Connector (Nov 9, 2026) | Natera (NTRA) Reports Q3 Loss, Beats Revenue Estimates (Nov 5, 2026) | IceCure Secures China NMPA Approval for ProSense Cryoablation System (Sep 11, 2026)
+- الأخبار: HeartFlow (HTFL) Reports Q3 Loss, Beats Revenue Estimates (Nov 12, 2026) | IceCure Medical Ltd. Granted New Patent in China for Its Cryogenic System Connector (Nov 9, 2026) | Natera (NTRA) Reports Q3 Loss, Beats Revenue Estimates (Nov 5, 2026)
 - منطقة الطلب 0.65–0.6565 | طلبات Limit: 0.6564 / 0.6532 / 0.65 | الخروج: إغلاق يومي تحت 0.65 | الأهداف 0.73 / 0.77 | منطقة أعمق (غسل) 0.5525–0.585
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8988 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 45K مقابل متوسط شموع البيع 88K (ص85/ص86)
@@ -504,7 +504,7 @@
 ## $RYOJ — فلووت منخفض جداً
 - السعر 2.575 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: ياباني - Consulting Services - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 2.54M - عدد الأسهم 11.6M - سبق صعد من 1.56 (2026-05-21) إلى 8.1 (2026-05-22) +419%
-- الأخبار: Ameresco (AMRC) Shares Cross Below 200 DMA (Nov 12, 2026) | NOG Crosses Above Key Moving Average Level (Nov 12, 2026) | Notable Two Hundred Day Moving Average Cross - WPM (Nov 12, 2026)
+- الأخبار: Banco Santander, S.A. Calls Extraordinary General Shareholders' Meeting on 15 December 2026 to Approve Capital Increases for Santander Brazil Acquisition (Nov 12, 2026) | Allot Ltd. Reports Third Quarter 2026 Revenue of $30.6 million (Nov 12, 2026) | Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. (Nov 12, 2026)
 - منطقة الطلب 2.29–2.313 | طلبات Limit: 2.31 / 2.3 / 2.29 | الخروج: إغلاق يومي تحت 2.29 | الأهداف 2.604 / 2.72 | منطقة أعمق (غسل) 2.178–2.244
 - شروط ص86 (يومي): 8/11 — ناقص: RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 27 (الحالي 46) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: فوليومها 9K مقابل متوسط شموع البيع 15K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -533,7 +533,7 @@
 ## $GYGY — طرح جديد/تاريخ قصير / فلووت منخفض جداً / قاع نظيف
 - السعر 0.3053 | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Software - Infrastructure - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.41M - عدد الأسهم 14.4M - سبق صعد من 1.7 (2026-08-18) إلى 4.09 (2026-08-20) +141%
-- الأخبار: Ameresco (AMRC) Shares Cross Below 200 DMA (Nov 12, 2026) | NOG Crosses Above Key Moving Average Level (Nov 12, 2026) | Notable Two Hundred Day Moving Average Cross - WPM (Nov 12, 2026)
+- الأخبار: Banco Santander, S.A. Calls Extraordinary General Shareholders' Meeting on 15 December 2026 to Approve Capital Increases for Santander Brazil Acquisition (Nov 12, 2026) | Allot Ltd. Reports Third Quarter 2026 Revenue of $30.6 million (Nov 12, 2026) | Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. (Nov 12, 2026)
 - منطقة الطلب 0.31–0.3131 | طلبات Limit: 0.3131 / 0.3116 / 0.3101 | الخروج: إغلاق يومي تحت 0.3013 | الأهداف 0.3333 / 0.3668 | منطقة أعمق (غسل) 0.2635–0.279
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3668 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 0.31 (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.3013 مو أعلى من اللي قبله 0.31، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 460K مقابل متوسط شموع البيع 498K (ص85/ص86)
@@ -543,7 +543,7 @@
 ## $FRTT — طرح جديد/تاريخ قصير / فلووت منخفض جداً / قاع نظيف
 - السعر 0.4227 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: كندي - Household & Personal Products - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.24M - عدد الأسهم 15.0M - سبق صعد من 1.7 (2026-06-16) إلى 3.92 (2026-06-24) +131%
-- الأخبار: Ameresco (AMRC) Shares Cross Below 200 DMA (Nov 12, 2026) | NOG Crosses Above Key Moving Average Level (Nov 12, 2026) | Notable Two Hundred Day Moving Average Cross - WPM (Nov 12, 2026)
+- الأخبار: Banco Santander, S.A. Calls Extraordinary General Shareholders' Meeting on 15 December 2026 to Approve Capital Increases for Santander Brazil Acquisition (Nov 12, 2026) | Allot Ltd. Reports Third Quarter 2026 Revenue of $30.6 million (Nov 12, 2026) | Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. (Nov 12, 2026)
 - منطقة الطلب 0.43–0.4343 | طلبات Limit: 0.4343 / 0.4322 / 0.4301 | الخروج: إغلاق يومي تحت 0.41 | الأهداف 0.44 / 0.55 | منطقة أعمق (غسل) 0.3655–0.387
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.5546 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 0.43 (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.41 مو أعلى من اللي قبله 0.43، والشموع تتقلص (ص12/ص13)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية أغلقت تحت الدعم (ص82/ص86)
@@ -723,7 +723,7 @@
 ## $EXYN — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 2.02 | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Software - Infrastructure - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.54M - عدد الأسهم 7.95M - سبق صعد من 1.5 (2026-08-20) إلى 4.32 (2026-08-26) +188%
-- الأخبار: Ameresco (AMRC) Shares Cross Below 200 DMA (Nov 12, 2026) | NOG Crosses Above Key Moving Average Level (Nov 12, 2026) | Notable Two Hundred Day Moving Average Cross - WPM (Nov 12, 2026)
+- الأخبار: Banco Santander, S.A. Calls Extraordinary General Shareholders' Meeting on 15 December 2026 to Approve Capital Increases for Santander Brazil Acquisition (Nov 12, 2026) | Allot Ltd. Reports Third Quarter 2026 Revenue of $30.6 million (Nov 12, 2026) | Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. (Nov 12, 2026)
 - منطقة الطلب 2.06–2.1 | طلبات Limit: 2.09 / 2.08 / 2.06 | الخروج: إغلاق يومي تحت 1.95 | الأهداف 2.11 / 2.25 | منطقة أعمق (غسل) 1.772–1.826
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.48 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 32 (الحالي 39) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 2.06 (ص86/ص17)
@@ -732,7 +732,7 @@
 ## $LSTA — طبي — الخبر يحرّكه / 🚩 علم/اختراق بعد قاعدة
 - السعر 1.28 (بري/أفتر 1.24) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: أمريكي - Biotechnology - قسم 1:15 (2022-09-15) - الشورت المتاح: غير متوفر - فلوت 6.91M - عدد الأسهم 10.8M - سبق صعد من 1.81 (2025-12-29) إلى 4.89 (2026-01-27) +170%
-- الأخبار: Nebius Revenue Jumped 571%, So Why Did the Stock Fall? (Nov 12, 2026) | Ameresco (AMRC) Shares Cross Below 200 DMA (Nov 12, 2026) | Twist Bioscience: 3 Key Takeaways for Long-Term Investors (Nov 12, 2026)
+- الأخبار: Banco Santander, S.A. Calls Extraordinary General Shareholders' Meeting on 15 December 2026 to Approve Capital Increases for Santander Brazil Acquisition (Nov 12, 2026) | Allot Ltd. Reports Third Quarter 2026 Revenue of $30.6 million (Nov 12, 2026) | Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. (Nov 12, 2026)
 - منطقة الطلب 1.127–1.161 | طلبات Limit: 1.16 / 1.14 / 1.13 | الخروج: إغلاق يومي تحت 1.13 | الأهداف 1.29 / 1.43 | منطقة أعمق (غسل) 1.059–1.091
 - شروط ص86 (يومي): 9/11 — ناقص: RSI وصل 23–27، فوليوم يتحسن مع الارتداد
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 32 (الحالي 59) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: الاختراق بذيل علوي طويل وإغلاق ضعيف — علامة اختراق وهمي (ص19) (ص85/ص86)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -782,7 +782,7 @@
 ## $FABC — قاع نظيف
 - السعر 1.66 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Semiconductors - قسم 1:16 (2025-06-26) - الشورت المتاح: غير متوفر - فلوت 6.21M - عدد الأسهم 7.00M - سبق صعد من 1.64 (2026-03-30) إلى 5.06 (2026-04-28) +209%
-- الأخبار: RLI Corp. Declares Special Cash Dividend of $3.00 Per Share and Regular Quarterly Dividend of $0.18 Per Share (Nov 12, 2026) | Stocks Recover as Other Chipmakers May Benefit from Nvidia’s Turmoil (Nov 12, 2026) | Stocks Slip as Nvidia Weakness Weighs on Chipmakers and AI Stocks (Nov 12, 2026)
+- الأخبار: Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields (Nov 12, 2026) | Wolverine World Wide, Inc. Reports Third Quarter 2026 Results (Nov 12, 2026) | Glacier Bancorp, Inc. Declares Quarterly Dividend of $0.35 Per Share and Announces Timing Change for 2027 (Nov 12, 2026)
 - منطقة الطلب 1.43–1.444 | طلبات Limit: 1.44 / 1.44 / 1.43 | الخروج: إغلاق يومي تحت 1.43 | الأهداف 1.73 / 1.85 | منطقة أعمق (غسل) 1.216–1.287
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.94 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 28 (الحالي 38) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)
@@ -838,7 +838,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 20 يوم (طار إلى 1.18 وأغلق 0.91 بفوليوم 3417x)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $FAMI — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.115 (بري/أفتر 0.11) | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
+- السعر 0.115 (بري/أفتر 0.1104) | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
 - البيانات: صيني - Packaged Foods - قسم 1:12 (2025-03-17) - الشورت المتاح: غير متوفر - فلوت 6.41M - عدد الأسهم 37.4M - سبق صعد من 0.09 (2026-08-18) إلى 0.5 (2026-09-02) +456%
 - الأخبار: Farmmi Plans Public Offering Of Class A Shares (Jun 27, 2026)
 - منطقة الطلب 0.1078–0.1111 | طلبات Limit: 0.111 / 0.1094 / 0.1078 | الخروج: إغلاق يومي تحت 0.1067 | الأهداف 0.1157 / 0.12 | منطقة أعمق (غسل) 0.099–0.102
@@ -956,7 +956,7 @@
 ## $CCTG — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 0.3309 | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني (هونغ كونغ) - Electrical Equipment & Parts - قسم 1:10 (2026-01-23) افتتاح 0.85 - اعلى 5.64 - الشورت المتاح: غير متوفر - فلوت 3.39M - عدد الأسهم 13.1M - سبق صعد من 0.353 (2026-05-11) إلى 5.64 (2026-06-09) +1498%
-- الأخبار: RLI Corp. Declares Special Cash Dividend of $3.00 Per Share and Regular Quarterly Dividend of $0.18 Per Share (Nov 12, 2026) | Stocks Recover as Other Chipmakers May Benefit from Nvidia’s Turmoil (Nov 12, 2026) | Stocks Slip as Nvidia Weakness Weighs on Chipmakers and AI Stocks (Nov 12, 2026)
+- الأخبار: Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields (Nov 12, 2026) | Wolverine World Wide, Inc. Reports Third Quarter 2026 Results (Nov 12, 2026) | Glacier Bancorp, Inc. Declares Quarterly Dividend of $0.35 Per Share and Announces Timing Change for 2027 (Nov 12, 2026)
 - منطقة الطلب 0.311–0.3141 | طلبات Limit: 0.3141 / 0.3126 / 0.311 | الخروج: إغلاق يومي تحت 0.17 | الأهداف 0.3332 / 0.356 | منطقة أعمق (غسل) 0.2643–0.2799
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3332 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 0.311 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: فوليومها 34K مقابل متوسط شموع البيع 283K (ص85/ص86)؛ محفز أو هدف علوي: تحت مقاومة مباشرة 0.3332 (+6.6%) والخسارة −45.6% (ص66/ص84/ص88)
@@ -1006,7 +1006,7 @@
 ## $SLGB — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
 - السعر 0.1811 | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.78M - عدد الأسهم 45.0M - سبق صعد من 0.924 (2025-12-26) إلى 4.22 (2026-01-28) +357%
-- الأخبار: John Hancock Hedged Equity & Income Fund Breaks Below 200-Day Moving Average - Notable for HEQ (Nov 12, 2026) | Nebius Revenue Jumped 571%, So Why Did the Stock Fall? (Nov 12, 2026) | KBR, Inc. Targets 10%+ Organic Revenue CAGR and Outlines Proposed Spin-off (Nov 12, 2026)
+- الأخبار: Stocks Settle Lower on Nvidia Rout and Higher Crude and Bond Yields (Nov 12, 2026) | Wolverine World Wide, Inc. Reports Third Quarter 2026 Results (Nov 12, 2026) | Glacier Bancorp, Inc. Declares Quarterly Dividend of $0.35 Per Share and Announces Timing Change for 2027 (Nov 12, 2026)
 - منطقة الطلب 0.181–0.1828 | طلبات Limit: 0.1828 / 0.1819 / 0.181 | الخروج: إغلاق يومي تحت 0.154 | الأهداف 0.2 / 0.2239 | منطقة أعمق (غسل) 0.1525–0.1571
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.2239 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 28 (الحالي 38) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 556K مقابل متوسط شموع البيع 43999K (ص85/ص86)

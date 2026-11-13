@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-13T12:54:46.791269+00:00",
- "generated_at_et": "2026-11-13T07:54:46.791269-05:00",
+ "generated_at_utc": "2026-11-13T13:04:46.791419+00:00",
+ "generated_at_et": "2026-11-13T08:04:46.791419-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -221,8 +221,8 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.65,
-    "ext_chg": 0.037735849056603765,
+    "ext_price": 1.64,
+    "ext_chg": 0.03144654088050314,
     "ext_session": "pre"
    },
    "news": []
@@ -303,9 +303,12 @@
    "candle": "شمعة ثبات فوق المستوى",
    "volume_note": "",
    "waiting_for": [
-    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)"
+    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)",
+    "السعر في البري 0.69 تحت الوقف — الدعم مكسور حالياً"
    ],
-   "flags": [],
+   "flags": [
+    "نزل في البري تحت الوقف (0.69)"
+   ],
    "tags": [
     "تقسيم عكسي حديث 1:45 (2026-07-13) — افتتح بعده 4.54 وأعلى سعر 8.6",
     "فلووت 1.95M 🔥 (ص8: أقل من 5M قوي وخطر)",
@@ -334,7 +337,9 @@
     "last_close": 0.7789999842643738,
     "last_date": "2026-11-12",
     "neck": 0.7720000147819519,
-    "static_wait": [],
+    "static_wait": [
+     "السعر في البري 0.69 تحت الوقف — الدعم مكسور حالياً"
+    ],
     "p86": {
      "checks": {
       "ma": [
@@ -429,8 +434,8 @@
     "last_split": "عكسي 1:45 (2026-07-13)",
     "short_available": null,
     "short_pct_float": 0.0519,
-    "ext_price": 0.7806,
-    "ext_chg": 0.002311249,
+    "ext_price": 0.6901,
+    "ext_chg": -0.11389317,
     "ext_session": "pre"
    },
    "news": []
@@ -851,8 +856,8 @@
     "last_split": "عكسي 1:5 (2026-02-06)",
     "short_available": null,
     "short_pct_float": 0.0037,
-    "ext_price": 0.7229,
-    "ext_chg": -0.08121511,
+    "ext_price": 0.7344,
+    "ext_chg": -0.06659894999999999,
     "ext_session": "pre"
    },
    "news": []
@@ -1918,8 +1923,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "ext_price": 0.3152,
-    "ext_chg": 0.019404956,
+    "ext_price": 0.3164,
+    "ext_chg": 0.023285909,
     "ext_session": "pre"
    },
    "news": []
@@ -3203,8 +3208,8 @@
     "last_split": "عكسي 1:10 (2026-10-19)",
     "short_available": null,
     "short_pct_float": 0.1254,
-    "ext_price": 0.9116,
-    "ext_chg": 0.11469798,
+    "ext_price": 0.901,
+    "ext_chg": 0.10173641,
     "ext_session": "pre"
    },
    "news": []
@@ -8791,12 +8796,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 121434.0,
-   "price": 356.5123
+   "volume": 127053.0,
+   "price": 356.6
   },
   "SNDL": {
    "volume": 1936.0,
-   "price": 1.3986
+   "price": 1.39
   }
  }
 }

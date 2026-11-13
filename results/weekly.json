@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-11-13T04:01:49.818314-05:00",
+ "generated_at_et": "2026-11-13T05:04:46.788603-05:00",
  "items": [
   {
    "ticker": "GNPX",
    "score": 12.5,
    "price": 2.21,
-   "ext_price": null,
+   "ext_price": 2.3392,
    "name": "Genprex, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -157,7 +157,7 @@
    "ticker": "EDBL",
    "score": 12.0,
    "price": 0.779,
-   "ext_price": null,
+   "ext_price": 0.7806,
    "name": "Edible Garden AG Incorporated",
    "type": [
     "فلووت منخفض جداً",
@@ -603,153 +603,10 @@
    ]
   },
   {
-   "ticker": "PMCB",
-   "score": 10.5,
-   "price": 0.402,
-   "ext_price": null,
-   "name": "PharmaCyte Biotech, Inc.",
-   "type": [
-    "طبي — الخبر يحرّكه",
-    "بعد ارتداد أول — ينتظر Retest",
-    "فلووت منخفض جداً",
-    "🚩 علم/اختراق بعد قاعدة"
-   ],
-   "setup_ar": "🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة",
-   "status": "WATCH",
-   "data": {
-    "float": 529945.5263157894,
-    "shares": 565034.1578947369,
-    "last_split": "عكسي 1:1500 (2021-07-12)",
-    "split": {
-     "factor": "1:1500",
-     "date": "2021-07-12",
-     "reverse": true,
-     "days": 1950,
-     "recent": false
-    },
-    "country_ar": "أمريكي",
-    "industry": "Biotechnology",
-    "short_available": null,
-    "runner": {
-     "pct": 1.3968253998289062,
-     "from": 0.6299999952316284,
-     "from_date": "2025-11-20",
-     "to": 1.5099999904632568,
-     "to_date": "2025-12-05",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Jan 8, 2026",
-     "Thursday 1/8 Insider Buying Report: PMCB, COSM"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.3918,
-    "demand_high": 0.4038,
-    "orders": [
-     0.4037,
-     0.3978,
-     0.3919
-    ],
-    "critical": 0.2469,
-    "stop": 0.2468,
-    "risk": 0.379587732528909,
-    "wash_low": 0.3367,
-    "wash_high": 0.3469,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.39980000257492065,
-    "t1": 0.41440001130104065,
-    "t2": 0.4334000051021576
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-12",
-    "met": [
-     "ma",
-     "rsi",
-     "macd",
-     "support",
-     "retest",
-     "accum",
-     "candle",
-     "pressure",
-     "red"
-    ],
-    "miss": [
-     "volume",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وأغلق فوق 30 و50 (ص82)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 26 (الحالي 57)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "المقاومة المخترقة 0.3998 صارت دعماً"
-     ],
-     "retest": [
-      true,
-      "رجع لاختبار 0.3998 وثبت فوقه"
-     ],
-     "volume": [
-      false,
-      "الاختراق بدون فوليوم (ص19)"
-     ],
-     "candle": [
-      true,
-      "شمعة ثبات فوق المستوى"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      true,
-      "هبط 46% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 0.4144 (+4.2%) والخسارة −38.0%"
-     ]
-    }
-   },
-   "not_ready": [
-    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)",
-    "محفز أو هدف علوي: تحت مقاومة مباشرة 0.4144 (+4.2%) والخسارة −38.0% (ص66/ص84/ص88)",
-    "الخسارة من متوسط الطلبات للوقف 38% أكبر من 15% (ص54)",
-    "السعر صعد 63% فوق الدعم الحرج — لا مطاردة (ص67، ص88)"
-   ],
-   "ready_when": "رجوع لاختبار 0.3998 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 0.4038–0.3918",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت 0.53M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 140% من 0.63 (2025-11-20) إلى 1.51 (2025-12-05)",
-    "عدد الأسهم بعد تقسيم 2026-11-13 (محسوب: Yahoo ما حدّثه)"
-   ]
-  },
-  {
    "ticker": "IPW",
    "score": 10.5,
    "price": 1.29,
-   "ext_price": null,
+   "ext_price": 1.39,
    "name": "iPower Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -899,7 +756,7 @@
    "ticker": "DKI",
    "score": 10.5,
    "price": 1.38,
-   "ext_price": 1.51,
+   "ext_price": 1.4209,
    "name": "Darkiris Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -1498,7 +1355,7 @@
    "ticker": "PRFX",
    "score": 10.0,
    "price": 0.787,
-   "ext_price": null,
+   "ext_price": 0.75,
    "name": "PRF Technologies Ltd.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2997,7 +2854,7 @@
    "ticker": "FRGT",
    "score": 9.0,
    "price": 0.818,
-   "ext_price": null,
+   "ext_price": 0.831,
    "name": "Freight Technologies, Inc.",
    "type": [
     "قاع نظيف"
@@ -3896,7 +3753,7 @@
    "ticker": "LPCN",
    "score": 8.5,
    "price": 1.62,
-   "ext_price": null,
+   "ext_price": 1.62,
    "name": "Lipocine Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -4192,7 +4049,7 @@
    "ticker": "WYHG",
    "score": 8.5,
    "price": 3.41,
-   "ext_price": null,
+   "ext_price": 3.48,
    "name": "Wing Yip Food Holdings Group Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -4334,7 +4191,7 @@
    "ticker": "WOK",
    "score": 8.5,
    "price": 1.25,
-   "ext_price": null,
+   "ext_price": 1.3,
    "name": "WORK Medical Technology Group LTD",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -5228,7 +5085,7 @@
    "ticker": "GYGY",
    "score": 8.0,
    "price": 0.31,
-   "ext_price": 0.31,
+   "ext_price": 0.32,
    "name": "Game Your Game, Inc.",
    "type": [
     "طرح جديد/تاريخ قصير",
@@ -5373,7 +5230,7 @@
    "ticker": "STI",
    "score": 8.0,
    "price": 3.83,
-   "ext_price": null,
+   "ext_price": 3.89,
    "name": "Solidion Technology, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -5521,7 +5378,7 @@
    "ticker": "USGO",
    "score": 8.0,
    "price": 4.81,
-   "ext_price": null,
+   "ext_price": 4.45,
    "name": "U.S. GoldMining Inc.",
    "type": [
     "فلووت منخفض جداً"
@@ -5645,11 +5502,13 @@
    "not_ready": [
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 5.16 فوق السعر) (ص66/ص82/ص84/ص86)",
     "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 4.72 أعلى من اللي قبله 4.68، والشموع ما تقلصت (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 152K مقابل متوسط شموع البيع 148K (ص85/ص86)"
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 152K مقابل متوسط شموع البيع 148K (ص85/ص86)",
+    "السعر في البري 4.45 تحت الوقف — الدعم مكسور حالياً"
    ],
    "ready_when": "اختبار منطقة 4.68–4.73 وفشل كسرها (أو سحب سيولة تحت 4.68 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (3.75–4.22، ص54)",
    "flags": [
-    "رفض عند MA20 (ص64)"
+    "رفض عند MA20 (ص64)",
+    "نزل في البري تحت الوقف (4.45)"
    ],
    "tags": [
     "فلووت 3.57M 🔥 (ص8: أقل من 5M قوي وخطر)",
@@ -6536,7 +6395,7 @@
    "ticker": "CRE",
    "score": 7.5,
    "price": 2.92,
-   "ext_price": null,
+   "ext_price": 2.76,
    "name": "Cre8 Enterprise Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -7734,7 +7593,7 @@
    "ticker": "LUCY",
    "score": 7.0,
    "price": 0.807,
-   "ext_price": null,
+   "ext_price": 0.8066,
    "name": "Lucyd, Inc",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -9065,7 +8924,7 @@
    "ticker": "FFTT",
    "score": 6.5,
    "price": 3.61,
-   "ext_price": null,
+   "ext_price": 3.43,
    "name": "Masonglory Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -9972,7 +9831,7 @@
    "ticker": "XCH",
    "score": 6.0,
    "price": 4.12,
-   "ext_price": null,
+   "ext_price": 4.1,
    "name": "XCHG Limited",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",

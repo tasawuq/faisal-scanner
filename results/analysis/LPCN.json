@@ -1,18 +1,18 @@
 {
  "ticker": "LPCN",
- "generated_at_et": "2026-11-12T16:31:45.495192-05:00",
- "session": "post",
+ "generated_at_et": "2026-11-13T04:02:15.687225-05:00",
+ "session": "pre",
  "quote": {
   "reg_price": 1.62,
-  "reg_chg": 0.018867906,
-  "reg_vol": 93067,
+  "reg_chg": 0.0188679,
+  "reg_vol": 93267,
   "prev_close": 1.59,
   "pre_price": null,
   "pre_chg": 0.0,
   "post_price": null,
   "post_chg": 0.0,
   "avg_vol": 1827759,
-  "state": "POST"
+  "state": "PRE"
  },
  "news": [
   {
@@ -27,7 +27,7 @@
  "fund": {
   "floatShares": 6514938,
   "sharesOutstanding": 11073439,
-  "marketCap": 17606768,
+  "marketCap": 17938972,
   "shortPercentOfFloat": 0.0435,
   "longName": "Lipocine Inc.",
   "country": "United States",
@@ -74,17 +74,17 @@
     "d": "2026-11-12",
     "hammer": "False",
     "engulfing": "True",
-    "lower_wick": "False",
+    "lower_wick": "True",
     "strong_green": "True",
-    "upper_wick_ratio": 0.09090899238902972,
-    "close_pos": 0.9090910076109703,
+    "upper_wick_ratio": 0.08333325054910777,
+    "close_pos": 0.9166667494508922,
     "green": "True",
     "bullish_reversal": "True"
    }
   ],
-  "atr": 0.1279,
+  "atr": 0.1286,
   "avg_vol20": 236990,
-  "last_vol": 93067,
+  "last_vol": 93600,
   "drawdown_90d": 0.486,
   "high_90d": 3.15,
   "low_10d": 1.36,
@@ -310,11 +310,11 @@
    },
    {
     "d": "2026-11-12",
-    "o": 1.5608,
+    "o": 1.58,
     "h": 1.63,
-    "l": 1.52,
+    "l": 1.51,
     "c": 1.62,
-    "v": 93067,
+    "v": 93600,
     "rsi": 48.3,
     "hist": 0.03931
    }
@@ -323,7 +323,9 @@
  "levels_map": {
   "price": 1.62,
   "at_price": [
-   "إغلاقات سابقة متجمعة (3)"
+   "إغلاقات سابقة متجمعة (3)",
+   "قمة الأفتر/البري",
+   "قاع الأفتر/البري"
   ],
   "above": [
    {
@@ -451,22 +453,22 @@
    },
    "target": {
     "score": 1.0,
-    "note": "هدف 1.64 (+6.0%) أكبر من الخسارة −2.6%"
+    "note": "هدف 1.64 (+6.0%) أكبر من الخسارة −3.2%"
    }
   },
   "support_low": 1.5287999439239501,
   "support_high": 1.5755999422073363,
   "support_touches": 2,
   "trigger_level": 1.559999942779541,
-  "stop": 1.51,
+  "stop": 1.5,
   "entry_low": 1.53,
   "entry_high": 1.57,
   "t1": 1.6426666736602784,
   "t1_label": "MA30",
   "t2": 1.7400000095367432,
   "t2_label": "قمة سابقة",
-  "rr": 2.32,
-  "risk_pct": 0.0258,
+  "rr": 1.85,
+  "risk_pct": 0.0323,
   "rsi_now": 48.3,
   "rsi_min": 26.4,
   "ma_state": "يستعيد MA20 بعد أن كان تحت المتوسطات",
@@ -549,10 +551,10 @@
      ],
      "target": [
       true,
-      "هدف 1.64 (+6.0%) أكبر من الخسارة −2.6%"
+      "هدف 1.64 (+6.0%) أكبر من الخسارة −3.2%"
      ]
     },
-    "critical": 1.5199999809265137,
+    "critical": 1.5099999904632568,
     "complete": true,
     "bar_date": "2026-11-12",
     "frame": "يومي",
@@ -573,16 +575,16 @@
      1.55,
      1.53
     ],
-    "stop": 1.51,
-    "critical": 1.52,
+    "stop": 1.5,
+    "critical": 1.51,
     "avg": 1.55,
-    "risk": 0.025806451612903247,
-    "risk_top": 0.03821656050955417,
-    "risk_low": 0.013071895424836612
+    "risk": 0.03225806451612906,
+    "risk_top": 0.044585987261146535,
+    "risk_low": 0.01960784313725492
    },
    "float": 6514938,
    "shares": 11073439,
-   "market_cap": 17606768,
+   "market_cap": 17938972,
    "exchange": "",
    "name": "Lipocine Inc.",
    "country_ar": "أمريكي",
@@ -591,7 +593,7 @@
     "factor": "1:17",
     "date": "2023-05-12",
     "reverse": true,
-    "days": 1280,
+    "days": 1281,
     "recent": false
    },
    "last_split": "عكسي 1:17 (2023-05-12)",

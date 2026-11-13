@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-13T12:34:46.790974+00:00",
- "generated_at_et": "2026-11-13T07:34:46.790974-05:00",
+ "generated_at_utc": "2026-11-13T12:44:46.791122+00:00",
+ "generated_at_et": "2026-11-13T07:44:46.791122-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -221,8 +221,8 @@
     "last_split": "عكسي 1:17 (2023-05-12)",
     "short_available": null,
     "short_pct_float": 0.0435,
-    "ext_price": 1.61,
-    "ext_chg": 0.012578616352201255,
+    "ext_price": 1.64,
+    "ext_chg": 0.03144654088050314,
     "ext_session": "pre"
    },
    "news": []
@@ -1295,8 +1295,8 @@
     "last_split": "عكسي 1:22 (2026-07-16)",
     "short_available": null,
     "short_pct_float": 0.1506,
-    "ext_price": 2.42,
-    "ext_chg": 0.05676855895196509,
+    "ext_price": 2.26,
+    "ext_chg": -0.013100436681222849,
     "ext_session": "pre"
    },
    "news": []
@@ -1918,8 +1918,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "ext_price": 0.3201,
-    "ext_chg": 0.035252333,
+    "ext_price": 0.3191,
+    "ext_chg": 0.032018125,
     "ext_session": "pre"
    },
    "news": []
@@ -2645,12 +2645,10 @@
    "waiting_for": [
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 5.16 فوق السعر) (ص66/ص82/ص84/ص86)",
     "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 4.72 أعلى من اللي قبله 4.68، والشموع ما تقلصت (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 152K مقابل متوسط شموع البيع 148K (ص85/ص86)",
-    "السعر في البري 4.52 تحت الوقف — الدعم مكسور حالياً"
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 152K مقابل متوسط شموع البيع 148K (ص85/ص86)"
    ],
    "flags": [
-    "رفض عند MA20 (ص64)",
-    "نزل في البري تحت الوقف (4.52)"
+    "رفض عند MA20 (ص64)"
    ],
    "tags": [
     "فلووت 3.57M 🔥 (ص8: أقل من 5M قوي وخطر)",
@@ -2681,9 +2679,7 @@
     "last_close": 4.809999942779541,
     "last_date": "2026-11-12",
     "neck": null,
-    "static_wait": [
-     "السعر في البري 4.52 تحت الوقف — الدعم مكسور حالياً"
-    ],
+    "static_wait": [],
     "p86": {
      "checks": {
       "ma": [
@@ -2774,8 +2770,8 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.15020001,
-    "ext_price": 4.5215,
-    "ext_chg": -0.08286004056795138,
+    "ext_price": 4.85,
+    "ext_chg": -0.016227180527383367,
     "ext_session": "pre"
    },
    "news": []
@@ -2989,7 +2985,7 @@
     "short_available": null,
     "short_pct_float": 0.001,
     "ext_price": 3.51,
-    "ext_chg": 0.0028571428571428914,
+    "ext_chg": 0.029325485,
     "ext_session": "pre"
    },
    "news": []
@@ -3207,8 +3203,8 @@
     "last_split": "عكسي 1:10 (2026-10-19)",
     "short_available": null,
     "short_pct_float": 0.1254,
-    "ext_price": 0.92,
-    "ext_chg": 0.12496947,
+    "ext_price": 0.9199,
+    "ext_chg": 0.12484716000000001,
     "ext_session": "pre"
    },
    "news": []
@@ -4075,7 +4071,7 @@
     "short_available": null,
     "short_pct_float": 0.0312,
     "ext_price": 1.3,
-    "ext_chg": -0.051094890510948954,
+    "ext_chg": 0.039999962,
     "ext_session": "pre"
    },
    "news": []
@@ -4507,8 +4503,8 @@
     "last_split": "عكسي 1:12 (2026-02-13)",
     "short_available": null,
     "short_pct_float": 0.0068,
-    "ext_price": 2.7511,
-    "ext_chg": -0.05784247,
+    "ext_price": 2.72,
+    "ext_chg": -0.06849316,
     "ext_session": "pre"
    },
    "news": []
@@ -8795,12 +8791,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 113549.0,
-   "price": 356.3
+   "volume": 118536.0,
+   "price": 356.2625
   },
   "SNDL": {
-   "volume": 1151.0,
-   "price": 1.4
+   "volume": 1921.0,
+   "price": 1.38
   }
  }
 }

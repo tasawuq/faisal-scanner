@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-11-13T18:11:13.506608-05:00",
+ "generated_at_et": "2026-11-13T18:16:13.507311-05:00",
  "mode": "quick",
  "session": "post",
  "ready": [],
@@ -8,7 +8,7 @@
  "debug": {
   "momentum": "off",
   "watch": {
-   "entries": 51,
+   "entries": 52,
    "bars": 0
   },
   "price_fallback": {
@@ -116,6 +116,55 @@
    "session": "post"
   },
   {
+   "ticker": "SNAL",
+   "price": 2.68,
+   "price_label": "أفتر ماركت",
+   "note": "رجوع لاختبار 2.56 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 2.59–2.51",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "",
+   "data": {
+    "float": 3129160,
+    "shares": 3206095,
+    "last_split": "عكسي 1:5 (2026-07-06)",
+    "split": {
+     "factor": "1:5",
+     "date": "2026-07-06",
+     "reverse": true,
+     "days": 130,
+     "recent": true,
+     "open_after": 2.990000009536743,
+     "high_after": 5.920000076293945
+    },
+    "country_ar": "أمريكي",
+    "industry": "Electronic Gaming & Multimedia",
+    "short_available": null,
+    "runner": {
+     "pct": 5.371681331284293,
+     "from": 1.6950000524520874,
+     "from_date": "2026-04-09",
+     "to": 10.800000190734863,
+     "to_date": "2026-04-14",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 2.5088,
+    "demand_high": 2.5856,
+    "stop": 2.47,
+    "breakout": null,
+    "targets": [
+     2.85,
+     3.05
+    ]
+   },
+   "alert": false,
+   "state": "WAITING",
+   "state_ar": "فوق منطقة الطلب بـ 4% — الطلبات تنتظر 2.5088–2.5856 (لا مطاردة)",
+   "session": "post"
+  },
+  {
    "ticker": "CUPR",
    "price": 1.75,
    "price_label": "أفتر ماركت",
@@ -165,6 +214,47 @@
    "session": "post"
   },
   {
+   "ticker": "GYGY",
+   "price": 0.3404,
+   "price_label": "أفتر ماركت",
+   "note": "اختبار منطقة 0.33–0.3333 وفشل كسرها (أو سحب سيولة تحت 0.3 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.264–0.297، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "اختراق وهمي سابق (Bull Trap — ص19، ص57)، سعر منخفض جداً — سبريد واسع",
+   "data": {
+    "float": 4413451,
+    "shares": 14388000,
+    "last_split": null,
+    "split": {},
+    "country_ar": "أمريكي",
+    "industry": "Software - Infrastructure",
+    "short_available": null,
+    "runner": {
+     "pct": 1.405882375215576,
+     "from": 1.7000000476837158,
+     "from_date": "2026-08-18",
+     "to": 4.090000152587891,
+     "to_date": "2026-08-20",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.33,
+    "demand_high": 0.3333,
+    "stop": 0.2999,
+    "breakout": null,
+    "targets": [
+     0.37,
+     0.39
+    ]
+   },
+   "alert": false,
+   "state": "WAITING",
+   "state_ar": "فوق منطقة الطلب بـ 2% — الطلبات تنتظر 0.33–0.3333 (لا مطاردة)",
+   "session": "post"
+  },
+  {
    "ticker": "GDC",
    "price": 1.1,
    "price_label": "أفتر ماركت",
@@ -211,55 +301,6 @@
    "alert": false,
    "state": "WAITING",
    "state_ar": "تحت منطقة الطلب (1.15) — ينتظر استرداد أو المنطقة الأعمق",
-   "session": "post"
-  },
-  {
-   "ticker": "SXTC",
-   "price": 2.89,
-   "price_label": "أفتر ماركت",
-   "note": "اختبار منطقة 2.71–2.74 وفشل كسرها (أو سحب سيولة تحت 2.71 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.17–2.44، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "صيني عالي التذبذب — خطر (ص71)، شمعة ضخ/تصريف قبل 17 يوم (طار إلى 9.2 وأغلق 7.3 بفوليوم 77x)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
-   "data": {
-    "float": 268199,
-    "shares": 103575,
-    "last_split": "عكسي 1:100 (2026-10-26)",
-    "split": {
-     "factor": "1:100",
-     "date": "2026-10-26",
-     "reverse": true,
-     "days": 18,
-     "recent": true,
-     "open_after": 4.150000095367432,
-     "high_after": 4.230999946594238
-    },
-    "country_ar": "صيني",
-    "industry": "Drug Manufacturers - Specialty & Generic",
-    "short_available": null,
-    "runner": {
-     "pct": 7.127118644067796,
-     "from": 118.0,
-     "from_date": "2026-10-06",
-     "to": 959.0,
-     "to_date": "2026-10-07",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 2.71,
-    "demand_high": 2.7371,
-    "stop": 2.7,
-    "breakout": null,
-    "targets": [
-     3.019,
-     3.12
-    ]
-   },
-   "alert": false,
-   "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 6% — الطلبات تنتظر 2.71–2.7371 (لا مطاردة)",
    "session": "post"
   },
   {
@@ -800,53 +841,6 @@
    "session": "post"
   },
   {
-   "ticker": "HYFM",
-   "price": 0.71,
-   "price_label": "أفتر ماركت",
-   "note": "اختبار منطقة 0.696–0.72 وفشل كسرها (أو سحب سيولة تحت 0.6701 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5568–0.6264، ص54)",
-   "source": "قائمة الارتكاز (تطبيق الملف)",
-   "added": "",
-   "label": "قائمة الارتكاز",
-   "warn": "",
-   "data": {
-    "float": 3977773,
-    "shares": 13390298,
-    "last_split": "عكسي 1:10 (2025-02-13)",
-    "split": {
-     "factor": "1:10",
-     "date": "2025-02-13",
-     "reverse": true,
-     "days": 638,
-     "recent": false
-    },
-    "country_ar": "أمريكي",
-    "industry": "Farm & Heavy Construction Machinery",
-    "short_available": null,
-    "runner": {
-     "pct": 5.400000095367432,
-     "from": 0.5,
-     "from_date": "2026-07-31",
-     "to": 3.200000047683716,
-     "to_date": "2026-08-03",
-     "is_runner": true
-    }
-   },
-   "levels": {
-    "demand_low": 0.696,
-    "demand_high": 0.72,
-    "stop": 0.67,
-    "breakout": null,
-    "targets": [
-     0.7556,
-     0.7886
-    ]
-   },
-   "alert": false,
-   "state": "IN_ZONE",
-   "state_ar": "داخل منطقة الطلب 0.696–0.72 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 بشمعة يومية أو 4 ساعات",
-   "session": "post"
-  },
-  {
    "ticker": "TCRT",
    "price": 1.56,
    "price_label": "أفتر ماركت",
@@ -932,6 +926,53 @@
    "alert": false,
    "state": "WAITING",
    "state_ar": "تحت منطقة الطلب (4.685) — ينتظر استرداد أو المنطقة الأعمق",
+   "session": "post"
+  },
+  {
+   "ticker": "HYFM",
+   "price": 0.71,
+   "price_label": "أفتر ماركت",
+   "note": "اختبار منطقة 0.696–0.72 وفشل كسرها (أو سحب سيولة تحت 0.6701 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.5568–0.6264، ص54)",
+   "source": "قائمة الارتكاز (تطبيق الملف)",
+   "added": "",
+   "label": "قائمة الارتكاز",
+   "warn": "",
+   "data": {
+    "float": 3977773,
+    "shares": 13390298,
+    "last_split": "عكسي 1:10 (2025-02-13)",
+    "split": {
+     "factor": "1:10",
+     "date": "2025-02-13",
+     "reverse": true,
+     "days": 638,
+     "recent": false
+    },
+    "country_ar": "أمريكي",
+    "industry": "Farm & Heavy Construction Machinery",
+    "short_available": null,
+    "runner": {
+     "pct": 5.400000095367432,
+     "from": 0.5,
+     "from_date": "2026-07-31",
+     "to": 3.200000047683716,
+     "to_date": "2026-08-03",
+     "is_runner": true
+    }
+   },
+   "levels": {
+    "demand_low": 0.696,
+    "demand_high": 0.72,
+    "stop": 0.67,
+    "breakout": null,
+    "targets": [
+     0.7556,
+     0.7886
+    ]
+   },
+   "alert": false,
+   "state": "IN_ZONE",
+   "state_ar": "داخل منطقة الطلب 0.696–0.72 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 بشمعة يومية أو 4 ساعات",
    "session": "post"
   },
   {
@@ -1649,7 +1690,7 @@
     "breakout": null,
     "targets": [
      0.45,
-     0.5001
+     0.501
     ]
    },
    "alert": false,
@@ -1980,7 +2021,7 @@
     "breakout": null,
     "targets": [
      3.2544,
-     3.44
+     3.4403
     ]
    },
    "alert": false,

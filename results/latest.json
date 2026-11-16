@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-16T22:12:37.038840+00:00",
- "generated_at_et": "2026-11-16T17:12:37.038840-05:00",
+ "generated_at_utc": "2026-11-16T22:22:37.038991+00:00",
+ "generated_at_et": "2026-11-16T17:22:37.038991-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -225,7 +225,7 @@
     "last_split": "عكسي 1:100 (2026-06-18)",
     "short_available": null,
     "short_pct_float": 0.0312,
-    "ext_price": 1.2,
+    "ext_price": 1.26,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -644,7 +644,7 @@
     "last_split": "عكسي 1:20 (2026-08-31)",
     "short_available": null,
     "short_pct_float": 0.0653,
-    "ext_price": 4.78,
+    "ext_price": 4.69,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -859,7 +859,7 @@
     "last_split": "عكسي 1:2 (2026-10-02)",
     "short_available": null,
     "short_pct_float": 0.0095,
-    "ext_price": 0.8819,
+    "ext_price": 0.9,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -896,11 +896,11 @@
     },
     "volume": {
      "score": 0.0,
-     "note": "آخر شمعة حمراء — فوليومها 50K مقابل متوسط شموع البيع 296K"
+     "note": "فوليومها 50K مقابل متوسط شموع البيع 296K"
     },
     "candle": {
      "score": 1.0,
-     "note": "مطرقة (Hammer) عند الدعم"
+     "note": "رفض كسر (نزل تحت الدعم وأغلق فوقه) عند الدعم"
     },
     "accum": {
      "score": 1.0,
@@ -916,7 +916,7 @@
     },
     "target": {
      "score": 1.0,
-     "note": "هدف 0.34 (+8.8%) أكبر من الخسارة −3.1%"
+     "note": "هدف 0.3299 (+5.5%) أكبر من الخسارة −3.1%"
     }
    },
    "support_low": 0.3109999895095825,
@@ -926,21 +926,21 @@
    "stop": 0.303,
    "entry_low": 0.311,
    "entry_high": 0.3141,
-   "t1": 0.3400000035762787,
+   "t1": 0.32989999651908875,
    "t1_label": "قمة يوم قريبة",
    "t2": 0.3700000047683716,
    "t2_label": "رأس شمعة هابطة",
-   "rr": 2.87,
+   "rr": 1.81,
    "risk_pct": 0.0306,
    "rsi_now": 17.2,
    "rsi_min": 14.5,
    "ma_state": "تحت كل المتوسطات (ضغط)",
    "macd_state": "الهيستوجرام يتحسن",
-   "candle": "مطرقة (Hammer) عند الدعم",
+   "candle": "رفض كسر (نزل تحت الدعم وأغلق فوقه) عند الدعم",
    "volume_note": "فوليوم البيع يضعف",
    "waiting_for": [
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.7695 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 50K مقابل متوسط شموع البيع 296K (ص85/ص86)"
+    "فوليوم يتحسن مع الارتداد: فوليومها 50K مقابل متوسط شموع البيع 296K (ص85/ص86)"
    ],
    "flags": [
     "صيني عالي التذبذب — خطر (ص71)",
@@ -1001,11 +1001,11 @@
       ],
       "volume": [
        false,
-       "آخر شمعة حمراء — فوليومها 50K مقابل متوسط شموع البيع 296K"
+       "فوليومها 50K مقابل متوسط شموع البيع 296K"
       ],
       "candle": [
        true,
-       "مطرقة (Hammer) عند الدعم"
+       "رفض كسر (نزل تحت الدعم وأغلق فوقه) عند الدعم"
       ],
       "accum": [
        true,
@@ -1021,7 +1021,7 @@
       ],
       "target": [
        true,
-       "هدف 0.34 (+8.8%) أكبر من الخسارة −3.1%"
+       "هدف 0.3299 (+5.5%) أكبر من الخسارة −3.1%"
       ]
      },
      "critical": 0.30309998989105225,
@@ -1290,7 +1290,7 @@
     "last_split": "عكسي 1:6 (2026-06-29)",
     "short_available": null,
     "short_pct_float": 0.0749,
-    "ext_price": 0.9875,
+    "ext_price": 0.9451,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1513,7 +1513,7 @@
     "last_split": "عكسي 1:60 (2026-04-13)",
     "short_available": null,
     "short_pct_float": 0.0228,
-    "ext_price": 0.1425,
+    "ext_price": 0.1427,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -1732,7 +1732,7 @@
     "last_split": "عكسي 1:100 (2026-07-13)",
     "short_available": null,
     "short_pct_float": 0.0668,
-    "ext_price": 1.85,
+    "ext_price": 1.75,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2397,7 +2397,7 @@
     "last_split": "عكسي 1:250 (2026-06-29)",
     "short_available": null,
     "short_pct_float": 0.1224,
-    "ext_price": 1.2,
+    "ext_price": 1.12,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -2613,7 +2613,7 @@
     "last_split": "عكسي 1:5 (2026-10-21)",
     "short_available": null,
     "short_pct_float": 0.0185,
-    "ext_price": 1.5507,
+    "ext_price": 1.5694,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3033,7 +3033,7 @@
     "last_split": "عكسي 1:20 (2026-10-26)",
     "short_available": null,
     "short_pct_float": 0.2327,
-    "ext_price": 2.5516,
+    "ext_price": 2.62,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -3898,7 +3898,7 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.0073,
-    "ext_price": 0.134,
+    "ext_price": 0.1304,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -4116,7 +4116,7 @@
     "last_split": "عكسي 1:25 (2026-08-31)",
     "short_available": null,
     "short_pct_float": 0.1073,
-    "ext_price": 0.51,
+    "ext_price": 0.5202,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -4753,7 +4753,7 @@
     "last_split": null,
     "short_available": null,
     "short_pct_float": 0.006,
-    "ext_price": 1.08,
+    "ext_price": 1.07,
     "ext_chg": null,
     "ext_session": "post"
    },
@@ -4975,7 +4975,7 @@
     "last_split": "عكسي 1:8 (2026-07-27)",
     "short_available": null,
     "short_pct_float": 0.0679,
-    "ext_price": 0.5673,
+    "ext_price": 0.5983,
     "ext_chg": null,
     "ext_session": "post"
    },

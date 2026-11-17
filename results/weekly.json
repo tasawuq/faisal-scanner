@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-11-17T17:06:12.350992-05:00",
+ "generated_at_et": "2026-11-17T18:06:43.122474-05:00",
  "items": [
   {
    "ticker": "ADGM",
@@ -155,7 +155,7 @@
    "ticker": "VBIO",
    "score": 12.0,
    "price": 0.5434,
-   "ext_price": 0.5481,
+   "ext_price": 0.5381,
    "name": "Valion Bio, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -307,7 +307,7 @@
    "ticker": "CXAI",
    "score": 11.5,
    "price": 1.3,
-   "ext_price": 1.28,
+   "ext_price": 1.32,
    "name": "CXApp Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -2098,148 +2098,6 @@
    ]
   },
   {
-   "ticker": "ORKT",
-   "score": 9.5,
-   "price": 0.995,
-   "ext_price": 0.995,
-   "name": "Orangekloud Technology Inc.",
-   "type": [
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "ارتداد مؤكد من الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 1947033,
-    "shares": 5022202,
-    "last_split": "عكسي 1:4 (2025-09-29)",
-    "split": {
-     "factor": "1:4",
-     "date": "2025-09-29",
-     "reverse": true,
-     "days": 414,
-     "recent": false
-    },
-    "country_ar": "سنغافوري",
-    "industry": "Software - Application",
-    "short_available": null,
-    "runner": {
-     "pct": 1.8687196554870762,
-     "from": 0.6169999837875366,
-     "from_date": "2025-12-30",
-     "to": 1.7699999809265137,
-     "to_date": "2026-01-30",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Sep 29, 2025",
-     "Orangekloud Technology (ORKT) Price Target Increased by 300.00% to 20.40"
-    ],
-    [
-     "Jan 31, 2025",
-     "Maxim Group Initiates Coverage of Orangekloud Technology (ORKT) with Buy Recommendation"
-    ],
-    [
-     "Jan 16, 2025",
-     "Orangekloud Technology Inc. Announces Beta Launch of eMOBIQ® AI Platform to Transform Application Development"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.93,
-    "demand_high": 0.952,
-    "orders": [
-     0.952,
-     0.941,
-     0.9301
-    ],
-    "critical": 0.93,
-    "stop": 0.9299,
-    "risk": 0.011830965959406322,
-    "wash_low": 0.892,
-    "wash_high": 0.9161,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.9300000071525574,
-    "t1": 1.0074199903011323,
-    "t2": 1.0499999523162842
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-17",
-    "met": [
-     "ma",
-     "macd",
-     "support",
-     "retest",
-     "accum",
-     "volume",
-     "candle",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "rsi",
-     "pressure"
-    ],
-    "checks": {
-     "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 0.9921"
-     ],
-     "rsi": [
-      false,
-      "أدنى RSI 40 (الحالي 50)"
-     ],
-     "macd": [
-      true,
-      "الهيستوجرام يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 0.93–0.952 لمسها 3 مرات خلال 34 يوم"
-     ],
-     "retest": [
-      true,
-      "رجع للدعم وما انكسر (الاختبار 3)"
-     ],
-     "volume": [
-      true,
-      "فوليومها 147K مقابل متوسط شموع البيع 105K"
-     ],
-     "candle": [
-      true,
-      "ذيل سفلي طويل (رفض كسر) عند الدعم"
-     ],
-     "accum": [
-      true,
-      "قاع الاختبار الأخير 0.95 أعلى من اللي قبله 0.93، والشموع تتقلص"
-     ],
-     "pressure": [
-      false,
-      "هبط 10% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 1.01 (+7.1%) أكبر من الخسارة −1.2%"
-     ]
-    }
-   },
-   "not_ready": [
-    "RSI وصل 23–27: أدنى RSI 40 (الحالي 50) (ص65/ص86)",
-    "ضغط بيع سابق ثم ضعف الهبوط: هبط 10% من أعلى 90 يوم، والبيع ضعف (ص85)"
-   ],
-   "ready_when": "اختبار منطقة 0.93–0.952 وفشل كسرها (أو سحب سيولة تحت 0.93 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.744–0.837، ص54)",
-   "flags": [],
-   "tags": [
-    "فلووت 1.95M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 187% من 0.617 (2025-12-30) إلى 1.77 (2026-01-30)"
-   ]
-  },
-  {
    "ticker": "YYAI",
    "score": 9.5,
    "price": 0.7106,
@@ -2580,15 +2438,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Stock Indexes Settle Sharply Lower on Big Tech Drubbing"
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Barfresh Food (BRFH) Q3 2026 Earnings Call Transcript"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -2845,6 +2703,149 @@
    ]
   },
   {
+   "ticker": "ORKT",
+   "score": 9.0,
+   "price": 0.995,
+   "ext_price": 0.995,
+   "name": "Orangekloud Technology Inc.",
+   "type": [
+    "فلووت منخفض جداً"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 1947033,
+    "shares": 5022202,
+    "last_split": "عكسي 1:4 (2025-09-29)",
+    "split": {
+     "factor": "1:4",
+     "date": "2025-09-29",
+     "reverse": true,
+     "days": 414,
+     "recent": false
+    },
+    "country_ar": "سنغافوري",
+    "industry": "Software - Application",
+    "short_available": null,
+    "runner": {
+     "pct": 1.8687196554870762,
+     "from": 0.6169999837875366,
+     "from_date": "2025-12-30",
+     "to": 1.7699999809265137,
+     "to_date": "2026-01-30",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Sep 29, 2025",
+     "Orangekloud Technology (ORKT) Price Target Increased by 300.00% to 20.40"
+    ],
+    [
+     "Jan 31, 2025",
+     "Maxim Group Initiates Coverage of Orangekloud Technology (ORKT) with Buy Recommendation"
+    ],
+    [
+     "Jan 16, 2025",
+     "Orangekloud Technology Inc. Announces Beta Launch of eMOBIQ® AI Platform to Transform Application Development"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.93,
+    "demand_high": 0.952,
+    "orders": [
+     0.952,
+     0.941,
+     0.9301
+    ],
+    "critical": 0.93,
+    "stop": 0.9299,
+    "risk": 0.011830965959406322,
+    "wash_low": 0.892,
+    "wash_high": 0.9161,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.9300000071525574,
+    "t1": 1.0074199903011323,
+    "t2": 1.0499999523162842
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-17",
+    "met": [
+     "ma",
+     "macd",
+     "support",
+     "retest",
+     "accum",
+     "volume",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "rsi",
+     "candle",
+     "pressure"
+    ],
+    "checks": {
+     "ma": [
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 0.9921"
+     ],
+     "rsi": [
+      false,
+      "أدنى RSI 40 (الحالي 50)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      true,
+      "منطقة 0.93–0.952 لمسها 3 مرات خلال 34 يوم"
+     ],
+     "retest": [
+      true,
+      "رجع للدعم وما انكسر (الاختبار 3)"
+     ],
+     "volume": [
+      true,
+      "فوليومها 147K مقابل متوسط شموع البيع 105K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة يومية مو انعكاس"
+     ],
+     "accum": [
+      true,
+      "قاع الاختبار الأخير 0.95 أعلى من اللي قبله 0.93، والشموع تتقلص"
+     ],
+     "pressure": [
+      false,
+      "هبط 10% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 1.01 (+7.1%) أكبر من الخسارة −1.2%"
+     ]
+    }
+   },
+   "not_ready": [
+    "RSI وصل 23–27: أدنى RSI 40 (الحالي 50) (ص65/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
+    "ضغط بيع سابق ثم ضعف الهبوط: هبط 10% من أعلى 90 يوم، والبيع ضعف (ص85)"
+   ],
+   "ready_when": "اختبار منطقة 0.93–0.952 وفشل كسرها (أو سحب سيولة تحت 0.93 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.744–0.837، ص54)",
+   "flags": [],
+   "tags": [
+    "فلووت 1.95M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 187% من 0.617 (2025-12-30) إلى 1.77 (2026-01-30)"
+   ]
+  },
+  {
    "ticker": "CYCU",
    "score": 9.0,
    "price": 2.03,
@@ -2883,16 +2884,16 @@
    },
    "news": [
     [
+     "Nov 17, 2026",
+     "Cycurion: 3 Key Takeaways for Long-Term Investors"
+    ],
+    [
      "Nov 16, 2026",
      "Cycurion (CYCU) Q3 2026 Earnings Call Transcript"
     ],
     [
      "Nov 12, 2026",
      "Intellicheck Mobilisa, Inc. (IDN) Q3 Earnings Meet Estimates"
-    ],
-    [
-     "Nov 5, 2026",
-     "Distribution Solutions Group (DSGR) Beats Q3 Earnings and Revenue Estimates"
     ]
    ],
    "levels": {
@@ -3248,7 +3249,7 @@
      ],
      "volume": [
       false,
-      "آخر شمعة حمراء — فوليومها 97K مقابل متوسط شموع البيع 131K"
+      "فوليومها 97K مقابل متوسط شموع البيع 131K"
      ],
      "candle": [
       false,
@@ -3595,7 +3596,7 @@
    "ticker": "SXTC",
    "score": 8.5,
    "price": 2.86,
-   "ext_price": 2.88,
+   "ext_price": 2.97,
    "name": "China SXT Pharmaceuticals, Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -4380,15 +4381,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Stock Indexes Settle Sharply Lower on Big Tech Drubbing"
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Barfresh Food (BRFH) Q3 2026 Earnings Call Transcript"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -4496,7 +4497,7 @@
    "ticker": "AMST",
    "score": 8.0,
    "price": 0.635,
-   "ext_price": 0.561,
+   "ext_price": 0.5666,
    "name": "Amesite Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -4633,164 +4634,11 @@
    ],
    "ready_when": "رجوع لاختبار 0.625 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 0.6312–0.6125",
    "flags": [
-    "نزل في الأفتر تحت الوقف (0.561)"
+    "نزل في الأفتر تحت الوقف (0.567)"
    ],
    "tags": [
     "فلووت 4.51M 🔥 (ص8: أقل من 5M قوي وخطر)",
     "Former Runner: صعد 247% من 0.77 (2026-05-12) إلى 2.67 (2026-05-19)"
-   ]
-  },
-  {
-   "ticker": "LGVN",
-   "score": 8.0,
-   "price": 2.11,
-   "ext_price": null,
-   "name": "Longeveron Inc.",
-   "type": [
-    "طبي — الخبر يحرّكه",
-    "فلووت منخفض جداً",
-    "🚩 علم/اختراق بعد قاعدة"
-   ],
-   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
-   "status": "WATCH",
-   "data": {
-    "float": 2357672,
-    "shares": 3234935,
-    "last_split": "عكسي 1:10 (2026-08-27)",
-    "split": {
-     "factor": "1:10",
-     "date": "2026-08-27",
-     "reverse": true,
-     "days": 82,
-     "recent": true,
-     "open_after": 7.059999942779541,
-     "high_after": 7.599999904632568
-    },
-    "country_ar": "أمريكي",
-    "industry": "Biotechnology",
-    "short_available": null,
-    "runner": {
-     "pct": 1.5894737243652344,
-     "from": 4.75,
-     "from_date": "2026-03-06",
-     "to": 12.300000190734863,
-     "to_date": "2026-04-07",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Nov 6, 2026",
-     "Longeveron Inc. Reports Resignation of Director Ursula Ungaro on November 1, 2026"
-    ],
-    [
-     "Oct 27, 2026",
-     "Longeveron Reports Fewer Cardiac Events In Phase 2b Heart Syndrome Trial After Primary Endpoint Miss"
-    ],
-    [
-     "Sep 18, 2026",
-     "Weekly Buzz: RARE, BAYRY Win Approvals; SION Cuts Jobs, GSK Deals; AZN, RHHBY Lead"
-    ]
-   ],
-   "levels": {
-    "demand_low": 1.8228,
-    "demand_high": 1.8786,
-    "orders": [
-     1.87,
-     1.85,
-     1.83
-    ],
-    "critical": 1.8,
-    "stop": 1.79,
-    "risk": 0.03243243243243257,
-    "wash_low": 1.5652,
-    "wash_high": 1.6126,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 1.8600000143051147,
-    "t1": 2.1649999618530273,
-    "t2": 2.4100000858306885
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-17",
-    "met": [
-     "ma",
-     "rsi",
-     "macd",
-     "support",
-     "accum",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "retest",
-     "volume",
-     "candle"
-    ],
-    "checks": {
-     "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.99"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 20 (الحالي 46)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "المقاومة المخترقة 1.86 صارت دعماً"
-     ],
-     "retest": [
-      false,
-      "ما رجع لاختبار 1.86 بعد أو ما ثبت فوقه"
-     ],
-     "volume": [
-      false,
-      "الاختراق بدون فوليوم (ص19)"
-     ],
-     "candle": [
-      false,
-      "ما فيه شمعة ثبات على إعادة الاختبار"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      true,
-      "هبط 76% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 2.16 (+17.0%) أكبر من الخسارة −3.2%"
-     ]
-    }
-   },
-   "not_ready": [
-    "اختبار الدعم وفشل الكسر: ما رجع لاختبار 1.86 بعد أو ما ثبت فوقه (ص86/ص17)",
-    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)",
-    "توه مدبل (من 1.58 إلى 3.3) — «فيه خطوره… غير امن الان» (ص59)"
-   ],
-   "ready_when": "رجوع لاختبار 1.86 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 1.88–1.82",
-   "flags": [
-    "توه مدبل: من 1.58 إلى 3.3",
-    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:10 (2026-08-27) — افتتح بعده 7.06 وأعلى سعر 7.6",
-    "فلووت 2.36M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 159% من 4.75 (2026-03-06) إلى 12.3 (2026-04-07)",
-    "قيعان أعلى"
    ]
   },
   {
@@ -4984,15 +4832,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Stock Indexes Settle Sharply Lower on Big Tech Drubbing"
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Barfresh Food (BRFH) Q3 2026 Earnings Call Transcript"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -5689,7 +5537,7 @@
    "ticker": "TCRT",
    "score": 7.5,
    "price": 1.66,
-   "ext_price": 1.68,
+   "ext_price": 1.6,
    "name": "Alaunos Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -6014,15 +5862,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Stock Indexes Settle Sharply Lower on Big Tech Drubbing"
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Barfresh Food (BRFH) Q3 2026 Earnings Call Transcript"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -6162,16 +6010,16 @@
    },
    "news": [
     [
+     "Nov 17, 2026",
+     "MetaVia Inc. Announces Completion of Last Patient Visit in Phase 1 Study of DA-1726"
+    ],
+    [
      "Nov 16, 2026",
      "MetaVia Inc. Announces Preclinical Data for DA-1726 and Plans Phase 2 Study in the Second Half of 2027"
     ],
     [
      "Nov 13, 2026",
      "MetaVia Inc. Announces Statistically Significant Reduction in Uric Acid Levels with DA-1726 in Phase 1 Part 3B Clinical Trial"
-    ],
-    [
-     "Nov 6, 2026",
-     "MetaVia Inc. Announces Positive Interim Data from Part 3B of Phase 1 Clinical Trial of DA-1726"
     ]
    ],
    "levels": {
@@ -6274,6 +6122,159 @@
     "Former Runner: صعد 346% من 0.966 (2026-05-12) إلى 4.31 (2026-05-22)",
     "قيعان أعلى",
     "فوليوم البيع يضعف"
+   ]
+  },
+  {
+   "ticker": "LGVN",
+   "score": 7.5,
+   "price": 2.11,
+   "ext_price": null,
+   "name": "Longeveron Inc.",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "فلووت منخفض جداً",
+    "🚩 علم/اختراق بعد قاعدة"
+   ],
+   "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
+   "status": "WATCH",
+   "data": {
+    "float": 2357672,
+    "shares": 3234935,
+    "last_split": "عكسي 1:10 (2026-08-27)",
+    "split": {
+     "factor": "1:10",
+     "date": "2026-08-27",
+     "reverse": true,
+     "days": 82,
+     "recent": true,
+     "open_after": 7.059999942779541,
+     "high_after": 7.599999904632568
+    },
+    "country_ar": "أمريكي",
+    "industry": "Biotechnology",
+    "short_available": null,
+    "runner": {
+     "pct": 1.5894737243652344,
+     "from": 4.75,
+     "from_date": "2026-03-06",
+     "to": 12.300000190734863,
+     "to_date": "2026-04-07",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Nov 6, 2026",
+     "Longeveron Inc. Reports Resignation of Director Ursula Ungaro on November 1, 2026"
+    ],
+    [
+     "Oct 27, 2026",
+     "Longeveron Reports Fewer Cardiac Events In Phase 2b Heart Syndrome Trial After Primary Endpoint Miss"
+    ],
+    [
+     "Sep 18, 2026",
+     "Weekly Buzz: RARE, BAYRY Win Approvals; SION Cuts Jobs, GSK Deals; AZN, RHHBY Lead"
+    ]
+   ],
+   "levels": {
+    "demand_low": 1.8228,
+    "demand_high": 1.8786,
+    "orders": [
+     1.87,
+     1.85,
+     1.83
+    ],
+    "critical": 1.8,
+    "stop": 1.79,
+    "risk": 0.03243243243243257,
+    "wash_low": 1.5652,
+    "wash_high": 1.6126,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 1.8600000143051147,
+    "t1": 2.1649999618530273,
+    "t2": 2.4100000858306885
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-17",
+    "met": [
+     "ma",
+     "rsi",
+     "macd",
+     "support",
+     "accum",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "retest",
+     "volume",
+     "candle",
+     "pressure"
+    ],
+    "checks": {
+     "ma": [
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وبدأ يستعيدها: أغلق فوق MA20 1.99"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 20 (الحالي 46)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "المقاومة المخترقة 1.86 صارت دعماً"
+     ],
+     "retest": [
+      false,
+      "ما رجع لاختبار 1.86 بعد أو ما ثبت فوقه"
+     ],
+     "volume": [
+      false,
+      "الاختراق بدون فوليوم (ص19)"
+     ],
+     "candle": [
+      false,
+      "ما فيه شمعة ثبات على إعادة الاختبار"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — اختراق قاعدة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      false,
+      "هبط 76% من أعلى 90 يوم، والبيع ما ضعف بعد"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 2.16 (+17.0%) أكبر من الخسارة −3.2%"
+     ]
+    }
+   },
+   "not_ready": [
+    "اختبار الدعم وفشل الكسر: ما رجع لاختبار 1.86 بعد أو ما ثبت فوقه (ص86/ص17)",
+    "فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)",
+    "ضغط بيع سابق ثم ضعف الهبوط: هبط 76% من أعلى 90 يوم، والبيع ما ضعف بعد (ص85)"
+   ],
+   "ready_when": "رجوع لاختبار 1.86 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 1.88–1.82",
+   "flags": [
+    "توه مدبل: من 1.58 إلى 3.3",
+    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:10 (2026-08-27) — افتتح بعده 7.06 وأعلى سعر 7.6",
+    "فلووت 2.36M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 159% من 4.75 (2026-03-06) إلى 12.3 (2026-04-07)",
+    "قيعان أعلى"
    ]
   },
   {
@@ -6882,7 +6883,7 @@
    "ticker": "ABTS",
    "score": 7.0,
    "price": 0.3186,
-   "ext_price": 0.4525,
+   "ext_price": 0.4272,
    "name": "Abits Group Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -7031,7 +7032,7 @@
    "ticker": "ACXP",
    "score": 7.0,
    "price": 0.99,
-   "ext_price": 1.01,
+   "ext_price": 1.0009,
    "name": "Acurx Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -7784,15 +7785,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Marvell and Intel Are Both Down at Least 50% From Their 2026 Highs. Only 1 Is a Stock I’d Buy."
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Stock Indexes Settle Sharply Lower on Big Tech Drubbing"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -8077,15 +8078,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Entergy Breaks Below 200-Day Moving Average - Notable for ETR"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Flex Ltd. Subsidiary Axiom Solutions International, Inc. Enters Into Credit Agreement for $1.265 billion Revolving Facility and $1.65 billion Term Loans"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -10001,15 +10002,15 @@
      0.7608,
      0.7571
     ],
-    "critical": 0.701,
-    "stop": 0.7009,
-    "risk": 0.07873291272344908,
+    "critical": 0.7011,
+    "stop": 0.701,
+    "risk": 0.07860147213459526,
     "wash_low": 0.692,
     "wash_high": 0.713,
     "wash_note": "قاع سابق تحت الدعم",
     "pivot": 0.7570000290870667,
     "t1": 0.7860000133514404,
-    "t2": 0.8126999735832214
+    "t2": 0.8199999928474426
    },
    "p86": {
     "frame": "يومي",
@@ -10060,7 +10061,7 @@
      ],
      "accum": [
       true,
-      "قاع الاختبار الأخير 0.701 أعلى من اللي قبله 0.631، والشموع تتقلص"
+      "قاع الاختبار الأخير 0.7011 أعلى من اللي قبله 0.631، والشموع تتقلص"
      ],
      "pressure": [
       true,
@@ -10082,7 +10083,7 @@
     "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
     "اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 0.757 (ص86/ص17)"
    ],
-   "ready_when": "اختبار منطقة 0.757–0.7646 وفشل كسرها (أو سحب سيولة تحت 0.701 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6056–0.6813، ص54)",
+   "ready_when": "اختبار منطقة 0.757–0.7646 وفشل كسرها (أو سحب سيولة تحت 0.7011 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.6056–0.6813، ص54)",
    "flags": [],
    "tags": [
     "فلووت 4.39M 🔥 (ص8: أقل من 5M قوي وخطر)",
@@ -12055,15 +12056,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Marvell and Intel Are Both Down at Least 50% From Their 2026 Highs. Only 1 Is a Stock I’d Buy."
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Stock Indexes Settle Sharply Lower on Big Tech Drubbing"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -12344,15 +12345,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Entergy Breaks Below 200-Day Moving Average - Notable for ETR"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Flex Ltd. Subsidiary Axiom Solutions International, Inc. Enters Into Credit Agreement for $1.265 billion Revolving Facility and $1.65 billion Term Loans"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -13687,15 +13688,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Marvell and Intel Are Both Down at Least 50% From Their 2026 Highs. Only 1 Is a Stock I’d Buy."
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Stock Indexes Settle Sharply Lower on Big Tech Drubbing"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -14124,15 +14125,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Marvell and Intel Are Both Down at Least 50% From Their 2026 Highs. Only 1 Is a Stock I’d Buy."
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Stock Indexes Settle Sharply Lower on Big Tech Drubbing"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -14423,15 +14424,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Marvell and Intel Are Both Down at Least 50% From Their 2026 Highs. Only 1 Is a Stock I’d Buy."
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Stock Indexes Settle Sharply Lower on Big Tech Drubbing"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {
@@ -14568,15 +14569,15 @@
    "news": [
     [
      "Nov 17, 2026",
-     "Entergy Breaks Below 200-Day Moving Average - Notable for ETR"
+     "Stock Indexes Finish Lower as Tech Stocks Retreat"
     ],
     [
      "Nov 17, 2026",
-     "Stocks Pressured by Weakness in Software and Health Insurance Stocks"
+     "Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings"
     ],
     [
      "Nov 17, 2026",
-     "Flex Ltd. Subsidiary Axiom Solutions International, Inc. Enters Into Credit Agreement for $1.265 billion Revolving Facility and $1.65 billion Term Loans"
+     "McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036"
     ]
    ],
    "levels": {

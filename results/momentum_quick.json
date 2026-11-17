@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-11-16T19:35:30.732354-05:00",
+ "generated_at_et": "2026-11-16T19:41:10.557037-05:00",
  "mode": "quick",
  "session": "post",
  "ready": [],
@@ -19,7 +19,7 @@
  "watchlist": [
   {
    "ticker": "SBFM",
-   "price": 2.65,
+   "price": 2.5503,
    "price_label": "أفتر ماركت",
    "note": "اختبار منطقة 2.53–2.58 وفشل كسرها (أو سحب سيولة تحت 2.53 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.02–2.28، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
@@ -34,7 +34,7 @@
      "factor": "1:20",
      "date": "2026-10-26",
      "reverse": true,
-     "days": 21,
+     "days": 22,
      "recent": true,
      "open_after": 3.059999942779541,
      "high_after": 3.443000078201294
@@ -62,8 +62,8 @@
     ]
    },
    "alert": false,
-   "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 3% — الطلبات تنتظر 2.53–2.58 (لا مطاردة)",
+   "state": "IN_ZONE",
+   "state_ar": "داخل منطقة الطلب 2.53–2.58 — متابعة فقط؛ الإشارة عند اكتمال شروط ص86 بشمعة يومية أو 4 ساعات",
    "session": "post"
   },
   {
@@ -83,7 +83,7 @@
      "factor": "1:150",
      "date": "2026-09-28",
      "reverse": true,
-     "days": 49,
+     "days": 50,
      "recent": true,
      "open_after": 4.170000076293945,
      "high_after": 4.409999847412109
@@ -132,7 +132,7 @@
      "factor": "1:5",
      "date": "2026-10-21",
      "reverse": true,
-     "days": 26,
+     "days": 27,
      "recent": true,
      "open_after": 2.700000047683716,
      "high_after": 3.0989999771118164
@@ -181,7 +181,7 @@
      "factor": "1:30",
      "date": "2026-08-03",
      "reverse": true,
-     "days": 105,
+     "days": 106,
      "recent": true,
      "open_after": 2.5,
      "high_after": 3.549999952316284
@@ -230,7 +230,7 @@
      "factor": "1:100",
      "date": "2026-06-18",
      "reverse": true,
-     "days": 151,
+     "days": 152,
      "recent": true,
      "open_after": 5.690000057220459,
      "high_after": 5.739999771118164
@@ -279,7 +279,7 @@
      "factor": "1:250",
      "date": "2026-06-29",
      "reverse": true,
-     "days": 140,
+     "days": 141,
      "recent": true,
      "open_after": 2.799999952316284,
      "high_after": 3.5899999141693115
@@ -328,7 +328,7 @@
      "factor": "1:8",
      "date": "2026-05-27",
      "reverse": true,
-     "days": 173,
+     "days": 174,
      "recent": true,
      "open_after": 1.9700000286102295,
      "high_after": 14.800000190734863
@@ -377,7 +377,7 @@
      "factor": "1:8",
      "date": "2026-09-08",
      "reverse": true,
-     "days": 69,
+     "days": 70,
      "recent": true,
      "open_after": 3.5199999809265137,
      "high_after": 7.099999904632568
@@ -426,7 +426,7 @@
      "factor": "1:8",
      "date": "2026-08-28",
      "reverse": true,
-     "days": 80,
+     "days": 81,
      "recent": true,
      "open_after": 3.940000057220459,
      "high_after": 4.949999809265137
@@ -475,7 +475,7 @@
      "factor": "1:10",
      "date": "2026-07-20",
      "reverse": true,
-     "days": 119,
+     "days": 120,
      "recent": true,
      "open_after": 3.190000057220459,
      "high_after": 4.090000152587891
@@ -524,7 +524,7 @@
      "factor": "1:22",
      "date": "2026-07-16",
      "reverse": true,
-     "days": 123,
+     "days": 124,
      "recent": true,
      "open_after": 9.569999694824219,
      "high_after": 9.989999771118164
@@ -573,7 +573,7 @@
      "factor": "1:125",
      "date": "2026-07-20",
      "reverse": true,
-     "days": 119,
+     "days": 120,
      "recent": true,
      "open_after": 5.150000095367432,
      "high_after": 91.0
@@ -622,7 +622,7 @@
      "factor": "1:2",
      "date": "2026-10-02",
      "reverse": true,
-     "days": 45,
+     "days": 46,
      "recent": true,
      "open_after": 1.7999999523162842,
      "high_after": 1.940000057220459
@@ -662,7 +662,7 @@
    "source": "قائمة الارتكاز (تطبيق الملف)",
    "added": "",
    "label": "قائمة الارتكاز",
-   "warn": "توه مدبل: من 0.32 إلى 6.23، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)، نزل في الأفتر تحت الوقف (4.3)",
+   "warn": "توه مدبل: من 0.32 إلى 6.23، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)، نزل في الأفتر تحت الوقف (4.31)",
    "data": {
     "float": 383697,
     "shares": 540912,
@@ -671,7 +671,7 @@
      "factor": "1:9",
      "date": "2026-10-27",
      "reverse": true,
-     "days": 20,
+     "days": 21,
      "recent": true,
      "open_after": 3.190000057220459,
      "high_after": 7.150000095367432
@@ -720,7 +720,7 @@
      "factor": "1:50",
      "date": "2026-10-22",
      "reverse": true,
-     "days": 25,
+     "days": 26,
      "recent": true,
      "open_after": 2.0,
      "high_after": 2.5999999046325684
@@ -769,7 +769,7 @@
      "factor": "1:10",
      "date": "2026-05-26",
      "reverse": true,
-     "days": 174,
+     "days": 175,
      "recent": true,
      "open_after": 3.7899999618530273,
      "high_after": 7.96999979019165
@@ -818,7 +818,7 @@
      "factor": "1:10",
      "date": "2026-05-08",
      "reverse": true,
-     "days": 192,
+     "days": 193,
      "recent": true,
      "open_after": 4.699999809265137,
      "high_after": 11.399999618530273
@@ -867,7 +867,7 @@
      "factor": "1:25",
      "date": "2026-07-13",
      "reverse": true,
-     "days": 126,
+     "days": 127,
      "recent": true,
      "open_after": 3.299999952316284,
      "high_after": 3.4000000953674316
@@ -901,7 +901,7 @@
   },
   {
    "ticker": "TDIC",
-   "price": 1.45,
+   "price": 1.4598,
    "price_label": "أفتر ماركت",
    "note": "قاع ثاني يثبت عند 1.39–1.49 بشمعة انعكاس، أو كسر خط العنق 1.66 والثبات ثم إعادة اختبار (ص25)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
@@ -916,7 +916,7 @@
      "factor": "1:25",
      "date": "2026-06-15",
      "reverse": true,
-     "days": 154,
+     "days": 155,
      "recent": true,
      "open_after": 6.440000057220459,
      "high_after": 10.5
@@ -965,7 +965,7 @@
      "factor": "1:5",
      "date": "2026-02-06",
      "reverse": true,
-     "days": 283,
+     "days": 284,
      "recent": false,
      "open_after": 3.4000000953674316,
      "high_after": 5.389999866485596
@@ -1014,7 +1014,7 @@
      "factor": "1:8",
      "date": "2026-04-28",
      "reverse": true,
-     "days": 202,
+     "days": 203,
      "recent": true,
      "open_after": 3.6600000858306885,
      "high_after": 3.809999942779541
@@ -1063,7 +1063,7 @@
      "factor": "1:5",
      "date": "2026-07-06",
      "reverse": true,
-     "days": 133,
+     "days": 134,
      "recent": true,
      "open_after": 2.990000009536743,
      "high_after": 5.920000076293945
@@ -1112,7 +1112,7 @@
      "factor": "1:12",
      "date": "2026-10-26",
      "reverse": true,
-     "days": 21,
+     "days": 22,
      "recent": true,
      "open_after": 2.7699999809265137,
      "high_after": 3.3929998874664307
@@ -1161,7 +1161,7 @@
      "factor": "1:25",
      "date": "2026-07-06",
      "reverse": true,
-     "days": 133,
+     "days": 134,
      "recent": true,
      "open_after": 4.650000095367432,
      "high_after": 5.260000228881836
@@ -1210,7 +1210,7 @@
      "factor": "1:11",
      "date": "2025-12-05",
      "reverse": true,
-     "days": 346,
+     "days": 347,
      "recent": false,
      "open_after": 7.699999809265137,
      "high_after": 13.420000076293945
@@ -1259,7 +1259,7 @@
      "factor": "1:10",
      "date": "2026-06-05",
      "reverse": true,
-     "days": 164,
+     "days": 165,
      "recent": true,
      "open_after": 5.800000190734863,
      "high_after": 7.5
@@ -1308,7 +1308,7 @@
      "factor": "1:20",
      "date": "2026-04-23",
      "reverse": true,
-     "days": 207,
+     "days": 208,
      "recent": true,
      "open_after": 5.639999866485596,
      "high_after": 25.34000015258789
@@ -1357,7 +1357,7 @@
      "factor": "1:5",
      "date": "2019-04-22",
      "reverse": true,
-     "days": 2765,
+     "days": 2766,
      "recent": false
     },
     "country_ar": "صيني (هونغ كونغ)",
@@ -1404,7 +1404,7 @@
      "factor": "1:10",
      "date": "2024-07-18",
      "reverse": true,
-     "days": 851,
+     "days": 852,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -1492,7 +1492,7 @@
      "factor": "1:10",
      "date": "2025-12-12",
      "reverse": true,
-     "days": 339,
+     "days": 340,
      "recent": false,
      "open_after": 2.740000009536743,
      "high_after": 86.27999877929688
@@ -1541,7 +1541,7 @@
      "factor": "1:4",
      "date": "2026-06-02",
      "reverse": true,
-     "days": 167,
+     "days": 168,
      "recent": true,
      "open_after": 3.6500000953674316,
      "high_after": 26.170000076293945
@@ -1590,7 +1590,7 @@
      "factor": "1:100",
      "date": "2026-10-26",
      "reverse": true,
-     "days": 21,
+     "days": 22,
      "recent": true,
      "open_after": 3.880000114440918,
      "high_after": 5.46999979019165
@@ -1639,7 +1639,7 @@
      "factor": "1:10",
      "date": "2026-04-30",
      "reverse": true,
-     "days": 200,
+     "days": 201,
      "recent": true,
      "open_after": 4.380000114440918,
      "high_after": 6.099999904632568
@@ -1729,7 +1729,7 @@
      "factor": "1:45",
      "date": "2026-08-10",
      "reverse": true,
-     "days": 98,
+     "days": 99,
      "recent": true,
      "open_after": 4.630000114440918,
      "high_after": 5.590000152587891
@@ -1778,7 +1778,7 @@
      "factor": "1:10",
      "date": "2025-02-13",
      "reverse": true,
-     "days": 641,
+     "days": 642,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -1866,7 +1866,7 @@
      "factor": "1:8",
      "date": "2025-12-15",
      "reverse": true,
-     "days": 336,
+     "days": 337,
      "recent": false,
      "open_after": 4.5,
      "high_after": 9.960000038146973
@@ -1956,7 +1956,7 @@
      "factor": "1:20",
      "date": "2026-07-06",
      "reverse": true,
-     "days": 133,
+     "days": 134,
      "recent": true,
      "open_after": 6.53000020980835,
      "high_after": 6.739999771118164
@@ -2005,7 +2005,7 @@
      "factor": "1:8",
      "date": "2025-12-02",
      "reverse": true,
-     "days": 349,
+     "days": 350,
      "recent": false,
      "open_after": 3.25,
      "high_after": 25.110000610351562
@@ -2054,7 +2054,7 @@
      "factor": "1:20",
      "date": "2024-07-18",
      "reverse": true,
-     "days": 851,
+     "days": 852,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -2101,7 +2101,7 @@
      "factor": "1:20",
      "date": "2026-06-08",
      "reverse": true,
-     "days": 161,
+     "days": 162,
      "recent": true,
      "open_after": 5.920000076293945,
      "high_after": 6.284999847412109
@@ -2150,7 +2150,7 @@
      "factor": "1:12",
      "date": "2026-02-13",
      "reverse": true,
-     "days": 276,
+     "days": 277,
      "recent": false,
      "open_after": 2.630000114440918,
      "high_after": 8.600000381469727
@@ -2199,7 +2199,7 @@
      "factor": "1:10",
      "date": "2025-08-01",
      "reverse": true,
-     "days": 472,
+     "days": 473,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -2246,7 +2246,7 @@
      "factor": "1:50",
      "date": "2025-05-12",
      "reverse": true,
-     "days": 553,
+     "days": 554,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -2293,7 +2293,7 @@
      "factor": "1:8",
      "date": "2026-07-27",
      "reverse": true,
-     "days": 112,
+     "days": 113,
      "recent": true,
      "open_after": 2.1700000762939453,
      "high_after": 3.2699999809265137
@@ -2342,7 +2342,7 @@
      "factor": "1:10",
      "date": "2025-03-25",
      "reverse": true,
-     "days": 601,
+     "days": 602,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -2374,7 +2374,7 @@
   },
   {
    "ticker": "SXTP",
-   "price": 0.4942,
+   "price": 0.495,
    "price_label": "أفتر ماركت",
    "note": "اختبار منطقة 0.48–0.4848 وفشل كسرها (أو سحب سيولة تحت 0.48 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.384–0.432، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
@@ -2389,7 +2389,7 @@
      "factor": "1:4",
      "date": "2026-01-20",
      "reverse": true,
-     "days": 300,
+     "days": 301,
      "recent": false,
      "open_after": 2.2200000286102295,
      "high_after": 8.619999885559082
@@ -2438,7 +2438,7 @@
      "factor": "1:100",
      "date": "2025-11-14",
      "reverse": true,
-     "days": 367,
+     "days": 368,
      "recent": false,
      "open_after": 1.559999942779541,
      "high_after": 2.5
@@ -2472,7 +2472,7 @@
   },
   {
    "ticker": "JBDI",
-   "price": 2.33,
+   "price": 2.32,
    "price_label": "أفتر ماركت",
    "note": "اختبار منطقة 2.2–2.25 وفشل كسرها (أو سحب سيولة تحت 2.2 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.76–1.98، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
@@ -2487,7 +2487,7 @@
      "factor": "1:2",
      "date": "2026-06-30",
      "reverse": true,
-     "days": 139,
+     "days": 140,
      "recent": true,
      "open_after": 1.2699999809265137,
      "high_after": 9.5
@@ -2516,7 +2516,7 @@
    },
    "alert": false,
    "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 4% — الطلبات تنتظر 2.2–2.25 (لا مطاردة)",
+   "state_ar": "فوق منطقة الطلب بـ 3% — الطلبات تنتظر 2.2–2.25 (لا مطاردة)",
    "session": "post"
   },
   {
@@ -2536,7 +2536,7 @@
      "factor": "1:12",
      "date": "2025-12-08",
      "reverse": true,
-     "days": 343,
+     "days": 344,
      "recent": false,
      "open_after": 10.800000190734863,
      "high_after": 11.800000190734863
@@ -2585,7 +2585,7 @@
      "factor": "1:25",
      "date": "2024-08-20",
      "reverse": true,
-     "days": 818,
+     "days": 819,
      "recent": false
     },
     "country_ar": "إسرائيلي",
@@ -2632,7 +2632,7 @@
      "factor": "1:20",
      "date": "2023-10-23",
      "reverse": true,
-     "days": 1120,
+     "days": 1121,
      "recent": false
     },
     "country_ar": "سويسري",
@@ -2679,7 +2679,7 @@
      "factor": "2:1",
      "date": "2026-01-05",
      "reverse": false,
-     "days": 315,
+     "days": 316,
      "recent": false,
      "open_after": 6.320000171661377,
      "high_after": 21.3799991607666
@@ -2713,7 +2713,7 @@
   },
   {
    "ticker": "QCLS",
-   "price": 0.2742,
+   "price": 0.2577,
    "price_label": "أفتر ماركت",
    "note": "اختبار منطقة 0.313–0.3161 وفشل كسرها (أو سحب سيولة تحت 0.28 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.2504–0.2817، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
@@ -2728,7 +2728,7 @@
      "factor": "1:100",
      "date": "2025-09-02",
      "reverse": true,
-     "days": 440,
+     "days": 441,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -2775,7 +2775,7 @@
      "factor": "1:15",
      "date": "2022-09-15",
      "reverse": true,
-     "days": 1523,
+     "days": 1524,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -2822,7 +2822,7 @@
      "factor": "1:25",
      "date": "2024-10-09",
      "reverse": true,
-     "days": 768,
+     "days": 769,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -2869,7 +2869,7 @@
      "factor": "1:20",
      "date": "2026-08-21",
      "reverse": true,
-     "days": 87,
+     "days": 88,
      "recent": true,
      "open_after": 5.0,
      "high_after": 6.070000171661377
@@ -2985,7 +2985,7 @@
   },
   {
    "ticker": "GIPR",
-   "price": 0.2849,
+   "price": 0.273,
    "price_label": "أفتر ماركت",
    "note": "اختبار منطقة 0.255–0.2575 وفشل كسرها (أو سحب سيولة تحت 0.15 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.204–0.2295، ص54)",
    "source": "قائمة الارتكاز (تطبيق الملف)",
@@ -3000,7 +3000,7 @@
      "factor": "1:10",
      "date": "2026-07-10",
      "reverse": true,
-     "days": 129,
+     "days": 130,
      "recent": true,
      "open_after": 1.3899999856948853,
      "high_after": 1.7599999904632568
@@ -3029,7 +3029,7 @@
    },
    "alert": false,
    "state": "WAITING",
-   "state_ar": "فوق منطقة الطلب بـ 11% — الطلبات تنتظر 0.255–0.2575 (لا مطاردة)",
+   "state_ar": "فوق منطقة الطلب بـ 6% — الطلبات تنتظر 0.255–0.2575 (لا مطاردة)",
    "session": "post"
   },
   {
@@ -3049,7 +3049,7 @@
      "factor": "1:10",
      "date": "2026-01-23",
      "reverse": true,
-     "days": 297,
+     "days": 298,
      "recent": false,
      "open_after": 0.8500000238418579,
      "high_after": 5.639999866485596
@@ -3098,7 +3098,7 @@
      "factor": "1:5",
      "date": "2025-01-14",
      "reverse": true,
-     "days": 671,
+     "days": 672,
      "recent": false
     },
     "country_ar": "دنماركي",
@@ -3186,7 +3186,7 @@
      "factor": "1:13",
      "date": "2025-05-02",
      "reverse": true,
-     "days": 563,
+     "days": 564,
      "recent": false
     },
     "country_ar": "كندي",

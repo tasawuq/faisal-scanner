@@ -1,9 +1,9 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-17T18:06 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-17T19:06 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $ADGM — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 1.65 (بري/أفتر 1.56) | سحب سيولة ثم استرداد الدعم
+- السعر 1.65 (بري/أفتر 1.53) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Medical Devices - قسم 1:30 (2026-11-09) افتتاح 2.19 - اعلى 2.32 - الشورت المتاح: غير متوفر - فلوت 0.28M - عدد الأسهم 0.91M - سبق صعد من 10.89 (2026-07-30) إلى 33.9 (2026-08-04) +211%
 - الأخبار: Adagio Medical Holdings Consensus Price Target Raised 2,900.02% to $102.00 (Nov 12, 2026) | Adagio Medical Treats First Patient With Next-Generation VCLAS Ultra System; Stock Up (Aug 4, 2026) | Piper Sandler Initiates Coverage of Adagio Medical Holdings (ADGM) with Overweight Recommendation (Apr 14, 2026)
 - منطقة الطلب 1.5–1.515 | طلبات Limit: 1.51 / 1.5 / 1.5 | الخروج: إغلاق يومي تحت 1.45 | الأهداف 1.87 / 1.93 | منطقة أعمق (غسل) 1.275–1.35
@@ -13,7 +13,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $VBIO — طبي — الخبر يحرّكه / فلووت منخفض جداً / نموذج W
-- السعر 0.5434 (بري/أفتر 0.5381) | نموذج W قيد التكوين
+- السعر 0.5434 (بري/أفتر 0.538) | نموذج W قيد التكوين
 - البيانات: أمريكي - Biotechnology - قسم 1:25 (2026-08-31) افتتاح 2.8 - اعلى 4.39 - الشورت المتاح: غير متوفر - فلوت 0.88M - عدد الأسهم 2.16M - سبق صعد من 6.28 (2026-07-28) إلى 32.5 (2026-08-12) +418%
 - الأخبار: Stocks Moving Premarket: PMNT, KULR, ENLV, ORGN, And Other Gainers & Losers (Aug 15, 2025) | Tivic Health (TIVC) Q2 2025 Earnings Transcript (Aug 14, 2025) | Tivic Health Sales Drop 39 Percent (Aug 14, 2025)
 - منطقة الطلب 0.472–0.4865 | طلبات Limit: 0.4865 / 0.4793 / 0.4721 | الخروج: إغلاق يومي تحت 0.472 | الأهداف 0.55 / 0.568 | منطقة أعمق (غسل) 0.4012–0.4248
@@ -23,7 +23,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $CXAI — فلووت منخفض جداً / نموذج W
-- السعر 1.3 (بري/أفتر 1.32) | نموذج W قيد التكوين
+- السعر 1.3 (بري/أفتر 1.29) | نموذج W قيد التكوين
 - البيانات: أمريكي - Software - Application - قسم 1:50 (2026-08-18) افتتاح 4.35 - اعلى 4.88 - الشورت المتاح: غير متوفر - فلوت 2.45M - عدد الأسهم 2.34M - سبق صعد من 6.55 (2026-05-14) إلى 16.75 (2026-06-04) +156%
 - الأخبار: CXApp (CXAI) Q3 2026 Earnings Call Transcript (Nov 5, 2026) | CXApp Inc. Enters Standstill Agreement with Avondale Capital and Authorizes $1,000,000 Share Repurchase Program (Oct 22, 2026) | CXApp (CXAI) Q1 2026 Earnings Call Transcript (May 20, 2026)
 - منطقة الطلب 1.12–1.265 | طلبات Limit: 1.26 / 1.2 / 1.13 | الخروج: إغلاق يومي تحت 1.12 | الأهداف 1.34 / 1.503 | منطقة أعمق (غسل) 0.952–1.008
@@ -161,7 +161,7 @@
 ## $MNDR — فلووت منخفض جداً
 - السعر 0.93 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: سنغافوري - Health Information Services - قسم 1:6 (2026-06-29) افتتاح 3.0 - اعلى 5.67 - الشورت المتاح: غير متوفر - فلوت 0.98M - عدد الأسهم 1.08M - سبق صعد من 0.76 (2026-10-09) إلى 5.67 (2026-10-12) +646%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Disney: 3 Key Takeaways for Long-Term Investors (Nov 17, 2026) | Johnson & Johnson vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027? (Nov 17, 2026) | 2 of the Best Dividend Stocks to Buy With $5,000 in November (Nov 17, 2026)
 - منطقة الطلب 0.86–0.87 | طلبات Limit: 0.87 / 0.865 / 0.8601 | الخروج: إغلاق يومي تحت 0.86 | الأهداف 0.9364 / 1 | منطقة أعمق (غسل) 0.7524–0.7752
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.9364 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 32 (الحالي 46) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 69K مقابل متوسط شموع البيع 120K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -236,7 +236,7 @@
 - ⚠️ اختراق وهمي سابق (Bull Trap — ص19، ص57)، سعر منخفض جداً — سبريد واسع
 
 ## $SXTC — صيني عالي التذبذب ⚠️ / طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 2.86 (بري/أفتر 2.97) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 2.86 (بري/أفتر 2.89) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني - Drug Manufacturers - Specialty & Generic - قسم 1:100 (2026-10-26) افتتاح 4.15 - اعلى 4.23 - الشورت المتاح: غير متوفر - فلوت 0.27M - عدد الأسهم 0.10M - سبق صعد من 118.0 (2026-10-06) إلى 959.0 (2026-10-07) +713%
 - الأخبار: China SXT Pharmaceuticals Announces 1-for-100 Share Consolidation; Stock Down (Oct 22, 2026) | China SXT Pharmaceuticals, Inc. Announces Termination of $12,000,000 Over-Allotment Option (Oct 22, 2026) | Biotech Stocks Move Higher: IMNN Surges Over 18%, HSCS Gains Over 13%, SXTC Rises 7% (Oct 21, 2026)
 - منطقة الطلب 2.71–2.737 | طلبات Limit: 2.73 / 2.72 / 2.72 | الخروج: إغلاق يومي تحت 2.71 | الأهداف 2.9 / 3.12 | منطقة أعمق (غسل) 2.304–2.439
@@ -288,7 +288,7 @@
 ## $CIIT — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
 - السعر 1.72 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - قسم 1:10 (2026-07-20) افتتاح 3.19 - اعلى 4.09 - الشورت المتاح: غير متوفر - فلوت 0.95M - عدد الأسهم 1.18M - سبق صعد من 10.3 (2026-06-03) إلى 46.5 (2026-06-10) +351%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Disney: 3 Key Takeaways for Long-Term Investors (Nov 17, 2026) | Johnson & Johnson vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027? (Nov 17, 2026) | 2 of the Best Dividend Stocks to Buy With $5,000 in November (Nov 17, 2026)
 - منطقة الطلب 1.76–1.778 | طلبات Limit: 1.77 / 1.76 / 1.76 | الخروج: إغلاق يومي تحت 1.65 | الأهداف 1.78 / 1.879 | منطقة أعمق (غسل) 1.673–1.724
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.88 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 30 (الحالي 43) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 1.76 (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.65 أعلى من اللي قبله 1.52، والشموع ما تقلصت (ص12/ص13)
@@ -296,14 +296,14 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $AMST — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.635 (بري/أفتر 0.5666) | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
+- السعر 0.635 (بري/أفتر 0.5799) | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
 - البيانات: أمريكي - Software - Application - قسم 1:12 (2023-02-22) - الشورت المتاح: غير متوفر - فلوت 4.51M - عدد الأسهم 6.55M - سبق صعد من 0.77 (2026-05-12) إلى 2.67 (2026-05-19) +247%
 - الأخبار: Amesite Inc. Announces New NurseMagic® Enterprise Agreement Serving Approximately 2,000 Patients (Nov 17, 2026) | Amesite Inc. Launches NurseMagic™ Enterprise Tier to Enhance Healthcare Documentation for Mid- and Large-Scale Providers (Jul 14, 2025) | $AMST stock is up 47% today. Here's what we see in our data. (May 16, 2025)
 - منطقة الطلب 0.6125–0.6312 | طلبات Limit: 0.6312 / 0.6218 / 0.6125 | الخروج: إغلاق يومي تحت 0.6062 | الأهداف 0.6525 / 0.758 | منطقة أعمق (غسل) 0.5148–0.5304
 - شروط ص86 (يومي): 8/11 — ناقص: اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: ما رجع لاختبار 0.625 بعد أو ما ثبت فوقه (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: الاختراق بدون فوليوم (ص19) (ص85/ص86)؛ شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)؛ اخترق 0.625 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)
 - متى يكون جاهزاً: رجوع لاختبار 0.625 والثبات فوقه بشمعة يومية أو 4 ساعات (لا شراء للاختراق نفسه ص20، ص68)، والطلبات Limit عند 0.6312–0.6125
-- ⚠️ نزل في الأفتر تحت الوقف (0.567)
+- ⚠️ نزل في الأفتر تحت الوقف (0.58)
 
 ## $ZCMD — صيني عالي التذبذب ⚠️ / قاع نظيف
 - السعر 0.8706 | سحب سيولة ثم استرداد الدعم
@@ -318,7 +318,7 @@
 ## $LBGJ — صيني عالي التذبذب ⚠️
 - السعر 1.71 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني - Specialty Industrial Machinery - قسم 1:200 (2026-08-03) افتتاح 3.74 - اعلى 7.67 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 0.62M - سبق صعد من 600.0 (2026-03-17) إلى 2200.0 (2026-03-18) +267%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Disney: 3 Key Takeaways for Long-Term Investors (Nov 17, 2026) | Johnson & Johnson vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027? (Nov 17, 2026) | 2 of the Best Dividend Stocks to Buy With $5,000 in November (Nov 17, 2026)
 - منطقة الطلب 1.55–1.565 | طلبات Limit: 1.56 / 1.56 / 1.55 | الخروج: إغلاق يومي تحت 1.55 | الأهداف 1.73 / 1.82 | منطقة أعمق (غسل) 1.445–1.489
 - شروط ص86 (يومي): 7/11 — ناقص: RSI وصل 23–27، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 32 (الحالي 40) (ص65/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.55 أعلى من اللي قبله 1.45، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 5K مقابل متوسط شموع البيع 289K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -376,7 +376,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 21 يوم (طار إلى 3.49 وأغلق 3.13 بفوليوم 361x)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $AXNX — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
-- السعر 0.9 (بري/أفتر 0.9393) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.9 (بري/أفتر 0.9) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Engineering & Construction - قسم 4:10 (2026-10-22) افتتاح 1.16 - اعلى 1.25 - الشورت المتاح: غير متوفر - فلوت 1.97M - عدد الأسهم 6.08M - سبق صعد من 2.54 (2025-12-18) إلى 12.5 (2026-01-02) +392%
 - الأخبار: Mint Incorporation To Implement 1-For-10 Reverse Stock Split (May 4, 2026) | Mint Incorporation Limited Successfully Closes Initial Public Offering on Nasdaq (Jan 13, 2025)
 - منطقة الطلب 0.85–0.8585 | طلبات Limit: 0.8585 / 0.8543 / 0.8501 | الخروج: إغلاق يومي تحت 0.85 | الأهداف 0.97 / 1.09 | منطقة أعمق (غسل) 0.6732–0.6936
@@ -388,7 +388,7 @@
 ## $GYGY — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 0.3327 | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Software - Infrastructure - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.41M - عدد الأسهم 14.4M - سبق صعد من 1.7 (2026-08-18) إلى 4.09 (2026-08-20) +141%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Disney: 3 Key Takeaways for Long-Term Investors (Nov 17, 2026) | Johnson & Johnson vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027? (Nov 17, 2026) | 2 of the Best Dividend Stocks to Buy With $5,000 in November (Nov 17, 2026)
 - منطقة الطلب 0.33–0.3333 | طلبات Limit: 0.3333 / 0.3317 / 0.3301 | الخروج: إغلاق يومي تحت 0.3 | الأهداف 0.34 / 0.3601 | منطقة أعمق (غسل) 0.3069–0.3162
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3601 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 578K مقابل متوسط شموع البيع 2283K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)؛ محفز أو هدف علوي: تحت مقاومة مباشرة 0.34 (+2.5%) والخسارة −9.6% (ص66/ص84/ص88)
@@ -455,7 +455,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 10 يوم (طار إلى 0.58 وأغلق 0.38 بفوليوم 35x)، سعر منخفض جداً — سبريد واسع
 
 ## $ABTS — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
-- السعر 0.3186 (بري/أفتر 0.4272) | سحب سيولة ثم استرداد الدعم
+- السعر 0.3186 (بري/أفتر 0.46) | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني (هونغ كونغ) - Capital Markets - قسم 1:5 (2019-04-22) - الشورت المتاح: غير متوفر - فلوت 3.21M - عدد الأسهم 3.55M - سبق صعد من 0.76 (2026-05-26) إلى 3.25 (2026-06-02) +328%
 - الأخبار: Abits Group Inc Reports Q1 2025 Operating Results with Notable Changes in Revenue and Mining Output (May 29, 2025) | Abits Group Inc Secures $3 Million Loan to Expand Bitcoin Mining Capacity in Memphis (Mar 19, 2025) | Abits Group Inc Completes Share Consolidation and Updates Corporate Structure to Maintain Nasdaq Listing (Mar 5, 2025)
 - منطقة الطلب 0.311–0.3141 | طلبات Limit: 0.3141 / 0.3126 / 0.311 | الخروج: إغلاق يومي تحت 0.303 | الأهداف 0.34 / 0.37 | منطقة أعمق (غسل) 0.2643–0.2799
@@ -516,7 +516,7 @@
 ## $EXYN — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 1.847 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Software - Infrastructure - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.54M - عدد الأسهم 7.95M - سبق صعد من 1.5 (2026-08-20) إلى 4.32 (2026-08-26) +188%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Boston Scientific Corporation Approves 2027 Executive Compensation Plans and Appoints David S. Wichmann as Lead Independent Director (Nov 17, 2026) | Disney: 3 Key Takeaways for Long-Term Investors (Nov 17, 2026) | Johnson & Johnson vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027? (Nov 17, 2026)
 - منطقة الطلب 1.79–1.808 | طلبات Limit: 1.8 / 1.8 / 1.79 | الخروج: إغلاق يومي تحت 1.79 | الأهداف 1.88 / 2.01 | منطقة أعمق (غسل) 1.633–1.683
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.38 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 32 (الحالي 36) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ فوليوم يتحسن مع الارتداد: فوليومها 31K مقابل متوسط شموع البيع 58K (ص85/ص86)
@@ -535,7 +535,7 @@
 ## $CABR — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 0.69 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Drug Manufacturers - Specialty & Generic - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 2.34M - عدد الأسهم 11.5M - سبق صعد من 0.71 (2025-11-18) إلى 1.65 (2025-12-08) +132%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Disney: 3 Key Takeaways for Long-Term Investors (Nov 17, 2026) | Johnson & Johnson vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027? (Nov 17, 2026) | 2 of the Best Dividend Stocks to Buy With $5,000 in November (Nov 17, 2026)
 - منطقة الطلب 0.6–0.606 | طلبات Limit: 0.606 / 0.6031 / 0.6001 | الخروج: إغلاق يومي تحت 0.6 | الأهداف 0.7985 / 0.87 | منطقة أعمق (غسل) 0.51–0.54
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.9754 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 33 (الحالي 35) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)
@@ -799,7 +799,7 @@
 ## $LSTA — طبي — الخبر يحرّكه / قاع نظيف
 - السعر 1.04 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Biotechnology - قسم 1:15 (2022-09-15) - الشورت المتاح: غير متوفر - فلوت 6.91M - عدد الأسهم 10.8M - سبق صعد من 1.81 (2025-12-29) إلى 4.89 (2026-01-27) +170%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Angel Shelton Willis Resigns from Board of SPX Technologies, Inc., Effective November 13, 2026 (Nov 17, 2026) | Jack in the Box Inc. Announces Executive Departures and Leadership Changes (Nov 17, 2026) | Boston Scientific Corporation Approves 2027 Executive Compensation Plans and Appoints David S. Wichmann as Lead Independent Director (Nov 17, 2026)
 - منطقة الطلب 0.96–0.99 | طلبات Limit: 0.99 / 0.975 / 0.96 | الخروج: إغلاق يومي تحت 0.96 | الأهداف 1.068 / 1.15 | منطقة أعمق (غسل) 0.816–0.864
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.07 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 32 (الحالي 45) (ص65/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.99 مو أعلى من اللي قبله 0.99، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 247K مقابل متوسط شموع البيع 58K (ص85/ص86)
@@ -819,7 +819,7 @@
 ## $PSIG — صيني عالي التذبذب ⚠️
 - السعر 3.39 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - قسم 1:8 (2025-10-13) - الشورت المتاح: غير متوفر - فلوت 7.79M - عدد الأسهم 15.4M - سبق صعد من 1.06 (2026-08-18) إلى 4.85 (2026-09-17) +358%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Angel Shelton Willis Resigns from Board of SPX Technologies, Inc., Effective November 13, 2026 (Nov 17, 2026) | Jack in the Box Inc. Announces Executive Departures and Leadership Changes (Nov 17, 2026) | Boston Scientific Corporation Approves 2027 Executive Compensation Plans and Appoints David S. Wichmann as Lead Independent Director (Nov 17, 2026)
 - منطقة الطلب 3.3–3.333 | طلبات Limit: 3.33 / 3.32 / 3.3 | الخروج: إغلاق يومي تحت 3.3 | الأهداف 4.451 / 4.761 | منطقة أعمق (غسل) 2.805–2.97
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ما فيه شموع حمراء طويلة قرب القاع
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.9 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 30 (الحالي 30) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 3258K مقابل متوسط شموع البيع 1339K (ص85/ص86)
@@ -908,7 +908,7 @@
 ## $CCTG — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
 - السعر 0.317 | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني (هونغ كونغ) - Electrical Equipment & Parts - قسم 1:10 (2026-01-23) افتتاح 0.85 - اعلى 5.64 - الشورت المتاح: غير متوفر - فلوت 3.39M - عدد الأسهم 13.1M - سبق صعد من 0.353 (2026-05-11) إلى 5.64 (2026-06-09) +1498%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Angel Shelton Willis Resigns from Board of SPX Technologies, Inc., Effective November 13, 2026 (Nov 17, 2026) | Jack in the Box Inc. Announces Executive Departures and Leadership Changes (Nov 17, 2026) | Boston Scientific Corporation Approves 2027 Executive Compensation Plans and Appoints David S. Wichmann as Lead Independent Director (Nov 17, 2026)
 - منطقة الطلب 0.311–0.3141 | طلبات Limit: 0.3141 / 0.3126 / 0.311 | الخروج: إغلاق يومي تحت 0.17 | الأهداف 0.3238 / 0.341 | منطقة أعمق (غسل) 0.2643–0.2799
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3238 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 0.311 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: فوليومها 21K مقابل متوسط شموع البيع 250K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)
@@ -938,7 +938,7 @@
 ## $FTFT — صيني عالي التذبذب ⚠️
 - السعر 3.46 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Software - Application - قسم 1:4 (2026-08-31) افتتاح 2.21 - اعلى 9.74 - الشورت المتاح: غير متوفر - فلوت 5.39M - عدد الأسهم 8.67M - سبق صعد من 1.22 (2026-09-08) إلى 9.74 (2026-09-16) +698%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Angel Shelton Willis Resigns from Board of SPX Technologies, Inc., Effective November 13, 2026 (Nov 17, 2026) | Jack in the Box Inc. Announces Executive Departures and Leadership Changes (Nov 17, 2026) | Boston Scientific Corporation Approves 2027 Executive Compensation Plans and Appoints David S. Wichmann as Lead Independent Director (Nov 17, 2026)
 - منطقة الطلب 3.36–3.394 | طلبات Limit: 3.39 / 3.38 / 3.36 | الخروج: إغلاق يومي تحت 1.8 | الأهداف 3.5 / 3.64 | منطقة أعمق (غسل) 3.089–3.182
 - شروط ص86 (يومي): 5/11 — ناقص: RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 34 (الحالي 52) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 3.36 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 22K مقابل متوسط شموع البيع 135K (ص85/ص86)
@@ -958,7 +958,7 @@
 ## $SLGB — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
 - السعر 0.1711 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.78M - عدد الأسهم 45.0M - سبق صعد من 0.924 (2025-12-26) إلى 4.22 (2026-01-28) +357%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Angel Shelton Willis Resigns from Board of SPX Technologies, Inc., Effective November 13, 2026 (Nov 17, 2026) | Jack in the Box Inc. Announces Executive Departures and Leadership Changes (Nov 17, 2026) | Boston Scientific Corporation Approves 2027 Executive Compensation Plans and Appoints David S. Wichmann as Lead Independent Director (Nov 17, 2026)
 - منطقة الطلب 0.181–0.1828 | طلبات Limit: 0.1828 / 0.1819 / 0.181 | الخروج: إغلاق يومي تحت 0.154 | الأهداف 0.1844 / 0.2 | منطقة أعمق (غسل) 0.1525–0.1571
 - شروط ص86 (يومي): 3/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.2177 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 28 (الحالي 36) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 0.181 (ص86/ص17)
@@ -968,7 +968,7 @@
 ## $ELOG — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 1 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني - Integrated Freight & Logistics - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.38M - عدد الأسهم 12.8M - سبق صعد من 0.398 (2026-09-21) إلى 1.65 (2026-10-13) +315%
-- الأخبار: Stock Indexes Finish Lower as Tech Stocks Retreat (Nov 17, 2026) | Stock Indexes Fall as Tech Stocks Retreat Ahead of Nvidia’s Earnings (Nov 17, 2026) | McDonald's Corporation Issues $600,000,000 of 5.200% Notes Due 2031 and $600,000,000 of 5.600% Notes Due 2036 (Nov 17, 2026)
+- الأخبار: Angel Shelton Willis Resigns from Board of SPX Technologies, Inc., Effective November 13, 2026 (Nov 17, 2026) | Jack in the Box Inc. Announces Executive Departures and Leadership Changes (Nov 17, 2026) | Boston Scientific Corporation Approves 2027 Executive Compensation Plans and Appoints David S. Wichmann as Lead Independent Director (Nov 17, 2026)
 - منطقة الطلب 0.831–0.853 | طلبات Limit: 0.8529 / 0.842 / 0.831 | الخروج: إغلاق يومي تحت 0.53 | الأهداف 1.03 / 1.09 | منطقة أعمق (غسل) 0.797–0.8185
 - شروط ص86 (يومي): 6/11 — ناقص: اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: كسر الدعم 0.831 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.53 أعلى من اللي قبله 0.43، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 56K مقابل متوسط شموع البيع 62K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)

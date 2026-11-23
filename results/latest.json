@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-23T21:04:08.525206+00:00",
- "generated_at_et": "2026-11-23T16:04:08.525206-05:00",
+ "generated_at_utc": "2026-11-23T21:14:08.525352+00:00",
+ "generated_at_et": "2026-11-23T16:14:08.525352-05:00",
  "session": "post",
  "provider": "yahoo",
  "funnel": {
@@ -456,7 +456,10 @@
     },
     "last_split": "عكسي 1:20 (2025-08-05)",
     "short_available": null,
-    "short_pct_float": 0.0183
+    "short_pct_float": 0.0183,
+    "ext_price": 1.05,
+    "ext_chg": 0.009615384615384581,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -886,7 +889,10 @@
     "industry": "Household & Personal Products",
     "split": {},
     "last_split": null,
-    "short_available": null
+    "short_available": null,
+    "ext_price": 0.472,
+    "ext_chg": -0.0014808482,
+    "ext_session": "post"
    },
    "news": [
     {
@@ -1104,7 +1110,10 @@
     },
     "last_split": "عكسي 1:10 (2024-07-18)",
     "short_available": null,
-    "short_pct_float": 0.056900002
+    "short_pct_float": 0.056900002,
+    "ext_price": 1.67,
+    "ext_chg": 0.006024096385542244,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -1324,7 +1333,10 @@
     },
     "last_split": "عكسي 1:30 (2025-10-10)",
     "short_available": null,
-    "short_pct_float": 0.0076
+    "short_pct_float": 0.0076,
+    "ext_price": 0.6606,
+    "ext_chg": -0.014324082363473711,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -1535,7 +1547,10 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "short_pct_float": 0.029000001
+    "short_pct_float": 0.029000001,
+    "ext_price": 0.6045,
+    "ext_chg": -0.1651705565529622,
+    "ext_session": "post"
    },
    "news": [
     {
@@ -1993,8 +2008,8 @@
     "last_split": "عكسي 1:6 (2026-10-30)",
     "short_available": null,
     "short_pct_float": 0.22600001,
-    "ext_price": 0.3233,
-    "ext_chg": -0.0009270401,
+    "ext_price": 0.3347,
+    "ext_chg": 0.034301589,
     "ext_session": "post"
    },
    "news": []
@@ -2208,7 +2223,10 @@
     },
     "last_split": "عكسي 1:8 (2026-08-13)",
     "short_available": null,
-    "short_pct_float": 0.0533
+    "short_pct_float": 0.0533,
+    "ext_price": 0.7601,
+    "ext_chg": -0.12612094734421708,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2430,7 +2448,10 @@
     },
     "last_split": "عكسي 1:25 (2025-11-28)",
     "short_available": null,
-    "short_pct_float": 0.0308
+    "short_pct_float": 0.0308,
+    "ext_price": 3.17,
+    "ext_chg": 0.0031645569620253333,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2653,7 +2674,10 @@
     },
     "last_split": "عكسي 1:14 (2026-07-27)",
     "short_available": null,
-    "short_pct_float": 0.125
+    "short_pct_float": 0.125,
+    "ext_price": 0.3747,
+    "ext_chg": -0.027763362740010455,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -2872,7 +2896,10 @@
     },
     "last_split": "عكسي 1:8 (2026-08-11)",
     "short_available": null,
-    "short_pct_float": 0.0099
+    "short_pct_float": 0.0099,
+    "ext_price": 2.8,
+    "ext_chg": 0.010830324909747224,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3175,10 +3202,12 @@
     "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.2 مو أعلى من اللي قبله 0.2، والشموع تتقلص (ص12/ص13)",
     "فوليوم يتحسن مع الارتداد: فوليومها 48K مقابل متوسط شموع البيع 66K (ص85/ص86)",
     "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)",
+    "السعر في الأفتر 0.2 تحت الوقف — الدعم مكسور حالياً",
     "السعر الآن 0.1995 تحت الدعم الحرج 0.2 — ينتظر الاسترداد (ص17)"
    ],
    "flags": [
-    "سعر منخفض جداً — سبريد واسع"
+    "سعر منخفض جداً — سبريد واسع",
+    "نزل في الأفتر تحت الوقف (0.2)"
    ],
    "tags": [
     "Former Runner: صعد 152% من 3.0 (2026-05-26) إلى 7.57 (2026-05-27)",
@@ -3214,7 +3243,9 @@
     "last_close": 0.2199999988079071,
     "last_date": "2026-11-20",
     "neck": null,
-    "static_wait": [],
+    "static_wait": [
+     "السعر في الأفتر 0.2 تحت الوقف — الدعم مكسور حالياً"
+    ],
     "p86": {
      "checks": {
       "ma": [
@@ -3302,7 +3333,10 @@
     "industry": "Beverages - Wineries & Distilleries",
     "split": {},
     "last_split": null,
-    "short_available": null
+    "short_available": null,
+    "ext_price": 0.1995,
+    "ext_chg": -0.0720930232558139,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3739,7 +3773,10 @@
     },
     "last_split": "عكسي 1:250 (2026-04-06)",
     "short_available": null,
-    "short_pct_float": 0.0665
+    "short_pct_float": 0.0665,
+    "ext_price": 0.6436,
+    "ext_chg": 0.024025457438345166,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -3963,7 +4000,10 @@
     },
     "last_split": "عكسي 1:100 (2026-06-18)",
     "short_available": null,
-    "short_pct_float": 0.0312
+    "short_pct_float": 0.0312,
+    "ext_price": 1.15,
+    "ext_chg": 0.04955736059140281,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -4186,7 +4226,10 @@
     },
     "last_split": "عكسي 1:20 (2026-08-17)",
     "short_available": null,
-    "short_pct_float": 0.0691
+    "short_pct_float": 0.0691,
+    "ext_price": 0.6811,
+    "ext_chg": 0.016263801850193937,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -4409,7 +4452,10 @@
     },
     "last_split": "عكسي 1:12 (2026-08-04)",
     "short_available": null,
-    "short_pct_float": 0.089700006
+    "short_pct_float": 0.089700006,
+    "ext_price": 1.2,
+    "ext_chg": 0.04347832,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -4493,10 +4539,12 @@
     "ضغط بيع سابق ثم ضعف الهبوط: هبط 83% من أعلى 90 يوم، والبيع ما ضعف بعد (ص85)",
     "توه مدبل (من 2.7 إلى 8.32) — «فيه خطوره… غير امن الان» (ص59)",
     "اخترق 3.69 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)",
+    "السعر في الأفتر 3.4 تحت الوقف — الدعم مكسور حالياً",
     "السعر الآن 3.4 تحت الدعم الحرج 3.5 — ينتظر الاسترداد (ص17)"
    ],
    "flags": [
-    "توه مدبل: من 2.7 إلى 8.32"
+    "توه مدبل: من 2.7 إلى 8.32",
+    "نزل في الأفتر تحت الوقف (3.4)"
    ],
    "tags": [
     "تقسيم عكسي حديث 1:4 (2026-06-23) — افتتح بعده 2.18 وأعلى سعر 23.0",
@@ -4535,7 +4583,8 @@
     "neck": 3.690000057220459,
     "static_wait": [
      "توه مدبل (من 2.7 إلى 8.32) — «فيه خطوره… غير امن الان» (ص59)",
-     "اخترق 3.69 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)"
+     "اخترق 3.69 — لا شراء للاختراق نفسه، انتظر رجوعه لاختباره والثبات (ص20، ص68)",
+     "السعر في الأفتر 3.4 تحت الوقف — الدعم مكسور حالياً"
     ],
     "p86": {
      "checks": {
@@ -4630,7 +4679,10 @@
     },
     "last_split": "عكسي 1:4 (2026-06-23)",
     "short_available": null,
-    "short_pct_float": 0.0027
+    "short_pct_float": 0.0027,
+    "ext_price": 3.4,
+    "ext_chg": -0.13705583756345174,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -4852,7 +4904,10 @@
     },
     "last_split": "عكسي 1:16 (2026-10-27)",
     "short_available": null,
-    "short_pct_float": 0.0148
+    "short_pct_float": 0.0148,
+    "ext_price": 1.08,
+    "ext_chg": 0.028571428571428692,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -5062,7 +5117,10 @@
     },
     "last_split": "عكسي 1:20 (2025-11-04)",
     "short_available": null,
-    "short_pct_float": 0.0379
+    "short_pct_float": 0.0379,
+    "ext_price": 1.57,
+    "ext_chg": 0.0,
+    "ext_session": "post"
    },
    "news": []
   },
@@ -5181,7 +5239,7 @@
      "high": 0.3488999903202057,
      "low": 0.31200000643730164,
      "close": 0.31200000643730164,
-     "volume": 334276.0
+     "volume": 3641218.0
     },
     "zone": [
      0.3499999940395355,
@@ -5403,7 +5461,7 @@
      "high": 0.9200000166893005,
      "low": 0.8210999965667725,
      "close": 0.9200000166893005,
-     "volume": 19832.0
+     "volume": 19838.0
     },
     "zone": [
      0.8149999976158142,
@@ -6056,7 +6114,7 @@
      "high": 0.3799999952316284,
      "low": 0.3301999866962433,
      "close": 0.3450999855995178,
-     "volume": 36064.0
+     "volume": 36069.0
     },
     "zone": [
      0.2930000126361847,
@@ -7582,7 +7640,7 @@
      "high": 4.789999961853027,
      "low": 4.519999980926514,
      "close": 4.710000038146973,
-     "volume": 75826.0
+     "volume": 76301.0
     },
     "zone": [
      4.389999866485596,

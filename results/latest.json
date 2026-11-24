@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-24T09:00:44.060655+00:00",
- "generated_at_et": "2026-11-24T04:00:44.060655-05:00",
+ "generated_at_utc": "2026-11-24T09:13:58.403046+00:00",
+ "generated_at_et": "2026-11-24T04:13:58.403046-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -444,7 +444,10 @@
     },
     "last_split": "عكسي 1:200 (2026-01-26)",
     "short_available": null,
-    "short_pct_float": 0.0275
+    "short_pct_float": 0.0275,
+    "ext_price": 0.28,
+    "ext_chg": 0.12134561473768524,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -870,7 +873,10 @@
     },
     "last_split": "عكسي 1:20 (2025-08-05)",
     "short_available": null,
-    "short_pct_float": 0.0183
+    "short_pct_float": 0.0183,
+    "ext_price": 1.1847,
+    "ext_chg": 0.13913461538461536,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1497,7 +1503,10 @@
     },
     "last_split": "عكسي 1:24 (2026-11-11)",
     "short_available": null,
-    "short_pct_float": 0.0174
+    "short_pct_float": 0.0174,
+    "ext_price": 1.64,
+    "ext_chg": -0.046511649999999995,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -1708,7 +1717,10 @@
     },
     "last_split": "عكسي 1:6 (2026-06-29)",
     "short_available": null,
-    "short_pct_float": 0.0749
+    "short_pct_float": 0.0749,
+    "ext_price": 1.03,
+    "ext_chg": 0.08170552404956943,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2349,7 +2361,10 @@
     },
     "last_split": "عكسي 1:25 (2026-04-30)",
     "short_available": null,
-    "short_pct_float": 0.117
+    "short_pct_float": 0.117,
+    "ext_price": 0.3387,
+    "ext_chg": -0.035317573340928554,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -2778,8 +2793,8 @@
     "last_split": "عكسي 1:50 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.078600004,
-    "ext_price": 0.496,
-    "ext_chg": 0.18688680000000002,
+    "ext_price": 0.45,
+    "ext_chg": 0.076812615,
     "ext_session": "pre"
    },
    "news": [
@@ -3224,8 +3239,8 @@
     "last_split": "عكسي 1:6 (2026-10-30)",
     "short_available": null,
     "short_pct_float": 0.22600001,
-    "ext_price": 0.3307,
-    "ext_chg": 0.021940718,
+    "ext_price": 0.3242,
+    "ext_chg": 0.0018541723,
     "ext_session": "pre"
    },
    "news": []
@@ -4077,7 +4092,10 @@
     },
     "last_split": "عكسي 1:4 (2025-09-29)",
     "short_available": null,
-    "short_pct_float": 0.0223
+    "short_pct_float": 0.0223,
+    "ext_price": 0.97,
+    "ext_chg": -0.030000000000000027,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -4294,7 +4312,10 @@
     },
     "last_split": "عكسي 1:12 (2026-08-04)",
     "short_available": null,
-    "short_pct_float": 0.089700006
+    "short_pct_float": 0.089700006,
+    "ext_price": 1.25,
+    "ext_chg": 0.14678899082568808,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -4724,8 +4745,8 @@
     "split": {},
     "last_split": null,
     "short_available": null,
-    "ext_price": 0.4672,
-    "ext_chg": -0.011635263,
+    "ext_price": 0.501,
+    "ext_chg": 0.059868813,
     "ext_session": "pre"
    },
    "news": [
@@ -4944,7 +4965,10 @@
     },
     "last_split": "عكسي 1:8 (2026-08-11)",
     "short_available": null,
-    "short_pct_float": 0.0099
+    "short_pct_float": 0.0099,
+    "ext_price": 2.67,
+    "ext_chg": -0.036101083032491044,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -5152,7 +5176,10 @@
     },
     "last_split": "عكسي 1:10 (2024-07-18)",
     "short_available": null,
-    "short_pct_float": 0.056900002
+    "short_pct_float": 0.056900002,
+    "ext_price": 1.74,
+    "ext_chg": 0.048192771084337505,
+    "ext_session": "pre"
    },
    "news": []
   },
@@ -5589,8 +5616,8 @@
     "last_split": "عكسي 1:40 (2026-07-24)",
     "short_available": null,
     "short_pct_float": 0.1266,
-    "ext_price": 0.14,
-    "ext_chg": -0.11054636000000001,
+    "ext_price": 0.1413,
+    "ext_chg": -0.10228719,
     "ext_session": "pre"
    },
    "news": []
@@ -8585,8 +8612,12 @@
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 53488.0,
-   "price": null
+   "volume": 55779.0,
+   "price": 349.74
+  },
+  "SNDL": {
+   "volume": 5.0,
+   "price": 1.23
   }
  }
 }

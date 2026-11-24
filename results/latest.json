@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-24T13:45:00.685779+00:00",
- "generated_at_et": "2026-11-24T08:45:00.685779-05:00",
+ "generated_at_utc": "2026-11-24T13:55:00.685927+00:00",
+ "generated_at_et": "2026-11-24T08:55:00.685927-05:00",
  "session": "pre",
  "provider": "yahoo",
  "funnel": {
@@ -20,7 +20,7 @@
   "ready": 0,
   "watch": 93,
   "momentum": 0,
-  "ext_quotes": 60,
+  "ext_quotes": 56,
   "ext_movers_5pct": 0
  },
  "ready": [],
@@ -231,8 +231,8 @@
     "last_split": "عكسي 1:50 (2025-06-03)",
     "short_available": null,
     "short_pct_float": 0.20639999,
-    "ext_price": 0.378,
-    "ext_chg": -0.04255323,
+    "ext_price": 0.3553,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -446,7 +446,7 @@
     "short_available": null,
     "short_pct_float": 0.0275,
     "ext_price": 0.28,
-    "ext_chg": 0.028277621000000003,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -663,8 +663,8 @@
     "last_split": "عكسي 1:100 (2026-06-18)",
     "short_available": null,
     "short_pct_float": 0.0312,
-    "ext_price": 1.15,
-    "ext_chg": -0.013299072,
+    "ext_price": 1.14,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -874,8 +874,8 @@
     "last_split": "عكسي 1:20 (2025-08-05)",
     "short_available": null,
     "short_pct_float": 0.0183,
-    "ext_price": 1.098,
-    "ext_chg": 0.04571438,
+    "ext_price": 1.09,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -1086,8 +1086,8 @@
     "last_split": "عادي 2:1 (2026-01-05)",
     "short_available": null,
     "short_pct_float": 0.0929,
-    "ext_price": 4.8,
-    "ext_chg": 0.11888111888111874,
+    "ext_price": 4.79,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": [
@@ -1297,7 +1297,7 @@
     "short_available": null,
     "short_pct_float": 0.006,
     "ext_price": 1.19,
-    "ext_chg": 0.11214953271028016,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -1510,8 +1510,8 @@
     "last_split": "عكسي 1:24 (2026-11-11)",
     "short_available": null,
     "short_pct_float": 0.0174,
-    "ext_price": 1.54,
-    "ext_chg": -0.1046512,
+    "ext_price": 1.51,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -1724,8 +1724,8 @@
     "last_split": "عكسي 1:6 (2026-06-29)",
     "short_available": null,
     "short_pct_float": 0.0749,
-    "ext_price": 0.9204,
-    "ext_chg": -0.09764702,
+    "ext_price": 0.95,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -1941,8 +1941,8 @@
     "last_split": "عكسي 1:5 (2026-07-06)",
     "short_available": null,
     "short_pct_float": 0.0299,
-    "ext_price": 2.308,
-    "ext_chg": 0.08867934,
+    "ext_price": 2.2393,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": [
@@ -2156,7 +2156,7 @@
     "short_available": null,
     "short_pct_float": 0.1325,
     "ext_price": 1.11,
-    "ext_chg": -0.008928563,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": [
@@ -2372,7 +2372,7 @@
     "short_available": null,
     "short_pct_float": 0.117,
     "ext_price": 0.3316,
-    "ext_chg": -0.023557085999999998,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2453,12 +2453,14 @@
    "waiting_for": [
     "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.6963 فوق السعر) (ص66/ص82/ص84/ص86)",
     "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 32K مقابل متوسط شموع البيع 51K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
+    "السعر في البري 0.64 تحت الوقف — الدعم مكسور حالياً"
    ],
    "flags": [
     "صيني عالي التذبذب — خطر (ص71)",
     "رفض عند MA20 (ص64)",
-    "فلوت Yahoo 0.57M غير منطقي مقابل عدد الأسهم 7.44M — الفلتر على عدد الأسهم"
+    "فلوت Yahoo 0.57M غير منطقي مقابل عدد الأسهم 7.44M — الفلتر على عدد الأسهم",
+    "نزل في البري تحت الوقف (0.64)"
    ],
    "tags": [
     "Former Runner: صعد 205% من 1.32 (2026-04-07) إلى 4.02 (2026-04-21)",
@@ -2488,7 +2490,9 @@
     "last_close": 0.6610000133514404,
     "last_date": "2026-11-23",
     "neck": null,
-    "static_wait": [],
+    "static_wait": [
+     "السعر في البري 0.64 تحت الوقف — الدعم مكسور حالياً"
+    ],
     "p86": {
      "checks": {
       "ma": [
@@ -2585,8 +2589,8 @@
     "last_split": "عكسي 1:30 (2025-10-10)",
     "short_available": null,
     "short_pct_float": 0.0076,
-    "ext_price": 0.676,
-    "ext_chg": 0.02315722,
+    "ext_price": 0.64,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -2805,8 +2809,8 @@
     "last_split": "عكسي 1:50 (2026-08-10)",
     "short_available": null,
     "short_pct_float": 0.078600004,
-    "ext_price": 0.4291,
-    "ext_chg": 0.026800697000000002,
+    "ext_price": 0.4363,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": [
@@ -3028,8 +3032,8 @@
     "last_split": "عكسي 1:25 (2026-10-30)",
     "short_available": null,
     "short_pct_float": 0.121400006,
-    "ext_price": 1.03,
-    "ext_chg": -0.009615376,
+    "ext_price": 1.04,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -3251,8 +3255,8 @@
     "last_split": "عكسي 1:6 (2026-10-30)",
     "short_available": null,
     "short_pct_float": 0.22600001,
-    "ext_price": 0.3401,
-    "ext_chg": 0.050988865,
+    "ext_price": 0.3343,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -3471,8 +3475,8 @@
     "last_split": "عكسي 1:14 (2026-07-27)",
     "short_available": null,
     "short_pct_float": 0.125,
-    "ext_price": 0.3601,
-    "ext_chg": -0.038964527,
+    "ext_price": 0.383,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -3690,8 +3694,8 @@
     "last_split": "عكسي 1:25 (2025-11-28)",
     "short_available": null,
     "short_pct_float": 0.0308,
-    "ext_price": 3.22,
-    "ext_chg": 0.015772855,
+    "ext_price": 3.23,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -3901,7 +3905,7 @@
     "short_available": null,
     "short_pct_float": 0.0399,
     "ext_price": 2.03,
-    "ext_chg": -0.021922428330522825,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -4115,7 +4119,7 @@
     "short_available": null,
     "short_pct_float": 0.0223,
     "ext_price": 1.0,
-    "ext_chg": 0.0,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -4334,8 +4338,8 @@
     "last_split": "عكسي 1:12 (2026-08-04)",
     "short_available": null,
     "short_pct_float": 0.089700006,
-    "ext_price": 1.16,
-    "ext_chg": 0.008695644,
+    "ext_price": 1.14,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -4552,8 +4556,8 @@
     },
     "last_split": "عكسي 1:80 (2026-11-06)",
     "short_available": null,
-    "ext_price": 1.99,
-    "ext_chg": 0.015306108,
+    "ext_price": 1.9516,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -4767,7 +4771,7 @@
     "last_split": null,
     "short_available": null,
     "ext_price": 0.43,
-    "ext_chg": -0.09033213,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": [
@@ -4988,7 +4992,7 @@
     "short_available": null,
     "short_pct_float": 0.0099,
     "ext_price": 2.6,
-    "ext_chg": -0.06137184115523464,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -5199,7 +5203,7 @@
     "short_available": null,
     "short_pct_float": 0.056900002,
     "ext_price": 1.71,
-    "ext_chg": 0.023952146,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -5422,7 +5426,7 @@
     "short_available": null,
     "short_pct_float": 0.0018000001,
     "ext_price": 2.21,
-    "ext_chg": 0.023148124000000003,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -5641,7 +5645,7 @@
     "short_available": null,
     "short_pct_float": 0.1266,
     "ext_price": 0.138,
-    "ext_chg": -0.12325287,
+    "ext_chg": null,
     "ext_session": "pre"
    },
    "news": []
@@ -8618,14 +8622,16 @@
   }
  ],
  "momentum": [],
- "errors": [],
+ "errors": [
+  "yahoo quotes empty in pre — nasdaq fallback 56/60"
+ ],
  "ext_debug": [],
  "faisal": [],
  "new_alerts": [],
  "ext_probe": {
   "AAPL": {
-   "volume": 423028.0,
-   "price": 347.4183
+   "volume": 1098671.0,
+   "price": 347.412
   },
   "SNDL": {
    "volume": 12017.0,

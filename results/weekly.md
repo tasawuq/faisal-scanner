@@ -1,9 +1,9 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-23T18:04 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-23T19:04 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $GOVX — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 1.72 (بري/أفتر 1.55) | سحب سيولة ثم استرداد الدعم
+- السعر 1.72 (بري/أفتر 1.601) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:24 (2026-11-11) افتتاح 2.96 - اعلى 3.0 - الشورت المتاح: غير متوفر - فلوت 0.52M - عدد الأسهم 0.54M - سبق صعد من 23.11 (2026-04-29) إلى 105.36 (2026-05-18) +356%
 - الأخبار: GeoVax Labs, Inc. Announces Executive Leadership Changes on November 13, 2026 (Nov 19, 2026) | GeoVax Labs, Inc. Files Certificate of Amendment to Effect 1-for-24 Reverse Stock Split (Nov 12, 2026) | GeoVax Labs Appoints Shahin Behroyan as Director on November 5, 2026 and Tyler O’Brien as Interim CEO on November 8, 2026 (Nov 10, 2026)
 - منطقة الطلب 1.505–1.52 | طلبات Limit: 1.52 / 1.52 / 1.51 | الخروج: إغلاق يومي تحت 1.4 | الأهداف 1.75 / 2.11 | منطقة أعمق (غسل) 1.279–1.355
@@ -15,7 +15,7 @@
 ## $MNDR — فلووت منخفض جداً
 - السعر 1.02 (بري/أفتر 0.9404) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: سنغافوري - Health Information Services - قسم 1:6 (2026-06-29) افتتاح 3.0 - اعلى 5.67 - الشورت المتاح: غير متوفر - فلوت 0.98M - عدد الأسهم 1.08M - سبق صعد من 0.76 (2026-10-09) إلى 5.67 (2026-10-12) +646%
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Stocks Rebound Sharply as Nvidia Reinstates CEO Huang (Nov 23, 2026) | BGSF Announces Notification of Noncompliance with NYSE Continued Listing Standard (Nov 23, 2026) | Varex Announces Financial Results for Fourth Quarter and Fiscal Year 2026 (Nov 23, 2026)
 - منطقة الطلب 0.86–0.87 | طلبات Limit: 0.87 / 0.865 / 0.8601 | الخروج: إغلاق يومي تحت 0.86 | الأهداف 1.04 / 1.1 | منطقة أعمق (غسل) 0.7524–0.7752
 - شروط ص86 (يومي): 9/11 — ناقص: RSI وصل 23–27، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 32 (الحالي 50) (ص65/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -62,7 +62,7 @@
 ## $ONCO — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 3.08 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2026-11-06) افتتاح 5.68 - اعلى 7.82 - الشورت المتاح: غير متوفر - فلوت 0.82M - عدد الأسهم 0.82M - سبق صعد من 220.0 (2026-03-09) إلى 673.0 (2026-03-27) +206%
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Nvidia's Stock Surges More Than 30% on Jensen Huang's Return. Will It Get Back to $200? (Nov 23, 2026) | Applied Digital Stock Surged 20% on a Hyperscaler Deal. What to Know About Its $41 Billion in Leases (Nov 23, 2026) | Stocks Rebound Sharply as Nvidia Reinstates CEO Huang (Nov 23, 2026)
 - منطقة الطلب 2.76–2.788 | طلبات Limit: 2.78 / 2.77 / 2.76 | الخروج: إغلاق يومي تحت 2.76 | الأهداف 3.21 / 3.31 | منطقة أعمق (غسل) 2.346–2.484
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.38 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 40) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)
@@ -70,7 +70,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $SNAL — فلووت منخفض جداً
-- السعر 2.12 (بري/أفتر 2.16) | سحب سيولة ثم استرداد الدعم
+- السعر 2.12 (بري/أفتر 2.29) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Electronic Gaming & Multimedia - قسم 1:5 (2026-07-06) افتتاح 2.99 - اعلى 5.92 - الشورت المتاح: غير متوفر - فلوت 3.14M - عدد الأسهم 3.22M - سبق صعد من 1.7 (2026-04-09) إلى 10.8 (2026-04-14) +537%
 - الأخبار: What Makes Snail, Inc. (SNAL) a New Strong Buy Stock (Nov 18, 2026) | Snail Inc (SNAL) Q3 2026 Earnings Call Transcript (Nov 13, 2026) | Snail, Inc. (SNAL) Q3 Earnings and Revenues Surpass Estimates (Nov 12, 2026)
 - منطقة الطلب 2.1–2.121 | طلبات Limit: 2.12 / 2.11 / 2.1 | الخروج: إغلاق يومي تحت 2.07 | الأهداف 2.2 / 2.292 | منطقة أعمق (غسل) 1.931–1.989
@@ -80,7 +80,7 @@
 - ⚠️ اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $WFF — فلووت منخفض جداً
-- السعر 1.04 (بري/أفتر 1.05) | ارتداد مؤكد من الدعم
+- السعر 1.04 (بري/أفتر 1.041) | ارتداد مؤكد من الدعم
 - البيانات: ماليزي - Specialty Industrial Machinery - قسم 1:25 (2026-10-30) افتتاح 1.64 - اعلى 1.7 - الشورت المتاح: غير متوفر - فلوت 0.55M - عدد الأسهم 2.51M - سبق صعد من 43.75 (2026-10-09) إلى 1265.0 (2026-10-12) +2791%
 - الأخبار: WF Holding Limited Announces Partial Exercise of Over-Allotment Option in Initial Public Offering, Raising Additional $960,000 (May 7, 2025)
 - منطقة الطلب 1–1.01 | طلبات Limit: 1.01 / 1 / 1 | الخروج: إغلاق يومي تحت 1 | الأهداف 1.07 / 1.181 | منطقة أعمق (غسل) 0.9217–0.9496
@@ -92,7 +92,7 @@
 ## $NWGL — فلووت منخفض جداً / قاع نظيف
 - السعر 1.96 (بري/أفتر 1.96) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: Macau - Lumber & Wood Production - قسم 1:80 (2026-11-06) افتتاح 2.21 - اعلى 8.32 - الشورت المتاح: غير متوفر - فلوت 0.10M - عدد الأسهم 0.56M - سبق صعد من 27.76 (2026-08-18) إلى 158.4 (2026-09-15) +471%
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Nvidia's Stock Surges More Than 30% on Jensen Huang's Return. Will It Get Back to $200? (Nov 23, 2026) | Applied Digital Stock Surged 20% on a Hyperscaler Deal. What to Know About Its $41 Billion in Leases (Nov 23, 2026) | Stocks Rebound Sharply as Nvidia Reinstates CEO Huang (Nov 23, 2026)
 - منطقة الطلب 1.81–1.828 | طلبات Limit: 1.82 / 1.82 / 1.81 | الخروج: إغلاق يومي تحت 1.81 | الأهداف 2.024 / 3.04 | منطقة أعمق (غسل) 1.538–1.629
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.61 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: فوليومها 73K مقابل متوسط شموع البيع 11171K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -189,7 +189,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $DBGI — فلووت منخفض جداً / قاع نظيف
-- السعر 0.1574 (بري/أفتر 0.15) | ارتداد مؤكد من الدعم
+- السعر 0.1574 (بري/أفتر 0.1564) | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Apparel Retail - قسم 1:40 (2026-07-24) افتتاح 17.47 - اعلى 30.93 - الشورت المتاح: غير متوفر - فلوت 0.92M - عدد الأسهم 0.93M - سبق صعد من 10.32 (2026-05-26) إلى 58.8 (2026-06-11) +470%
 - الأخبار: Digital Brands Group, Inc. Decides to Maintain Public Listing and Upgrades Q4 Government Contract Cash Flow Forecast to $4.7M (Oct 29, 2026) | Monday 6/15 Insider Buying Report: ECL, DBGI (Jun 15, 2026) | Wednesday Sector Laggards: Apparel Stores, Music & Electronics Stores (Jan 14, 2026)
 - منطقة الطلب 0.137–0.1384 | طلبات Limit: 0.1383 / 0.1376 / 0.137 | الخروج: إغلاق يومي تحت 0.1367 | الأهداف 0.1646 / 0.194 | منطقة أعمق (غسل) 0.1164–0.1233
@@ -231,7 +231,7 @@
 ## $MYSZ — فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
 - السعر 0.7601 | 🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار
 - البيانات: إسرائيلي - Apparel Retail - قسم 1:8 (2026-08-13) افتتاح 3.34 - اعلى 4.28 - الشورت المتاح: غير متوفر - فلوت 1.06M - عدد الأسهم 1.18M
-- الأخبار: My Size, Inc. Reports Nine-Month 2026 Revenue of $7.32 million (Nov 20, 2026) | My Size, Inc. Announces Departure of Chief Growth Officer Borja Cembrero Saralegui Effective October 31, 2026 (Oct 26, 2026) | My Size (MYSZ) Upgraded to Buy: Here's What You Should Know (Nov 28, 2025)
+- الأخبار: My Size, Inc. Regains Compliance With Nasdaq Minimum Stockholders’ Equity Requirement (Nov 23, 2026) | My Size, Inc. Reports Nine-Month 2026 Revenue of $7.32 million (Nov 20, 2026) | My Size, Inc. Announces Departure of Chief Growth Officer Borja Cembrero Saralegui Effective October 31, 2026 (Oct 26, 2026)
 - منطقة الطلب 0.7007–0.7221 | طلبات Limit: 0.7221 / 0.7114 / 0.7007 | الخروج: إغلاق يومي تحت 0.7007 | الأهداف 0.767 / 0.8122 | منطقة أعمق (غسل) 0.6098–0.6283
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8122 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: ما رجع لاختبار 0.715 بعد أو ما ثبت فوقه (ص86/ص17)؛ شمعة انعكاس عند الدعم: ما فيه شمعة ثبات على إعادة الاختبار (ص82/ص86)؛ ضغط بيع سابق ثم ضعف الهبوط: هبط 82% من أعلى 90 يوم، والبيع ما ضعف بعد (ص85)
@@ -297,7 +297,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $TRT — قاع نظيف
-- السعر 4.71 (بري/أفتر 4.71) | سحب سيولة ثم استرداد الدعم
+- السعر 4.71 (بري/أفتر 4.45) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Semiconductor Equipment & Materials - تقسيم عادي 2:1 (2026-01-05) افتتاح 6.32 - اعلى 21.38 - الشورت المتاح: غير متوفر - فلوت 7.72M - عدد الأسهم 10.3M - سبق صعد من 5.35 (2026-03-30) إلى 19.1 (2026-04-24) +257%
 - الأخبار: TRT Stock Dips Post Q1 Earnings Despite Revenue Growth and AI Boom (Nov 19, 2026) | Trio-Tech International Reports First Quarter of Fiscal 2027 Revenue of $19.9 million (Nov 13, 2026) | Trio-Tech Upgraded to Outperform on Backlog Growth & Strong Liquidity (Nov 4, 2026)
 - منطقة الطلب 4.39–4.434 | طلبات Limit: 4.43 / 4.41 / 4.39 | الخروج: إغلاق يومي تحت 4.26 | الأهداف 4.79 / 4.946 | منطقة أعمق (غسل) 4.059–4.182
@@ -434,7 +434,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، رفض عند MA20 (ص64)
 
 ## $ONFO — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.4179 (بري/أفتر 0.3937) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 0.4179 (بري/أفتر 0.391) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: أمريكي - Internet Content & Information - قسم 1:50 (2026-08-10) افتتاح 2.27 - اعلى 6.08 - الشورت المتاح: غير متوفر - فلوت 2.47M - عدد الأسهم 2.50M - سبق صعد من 27.2 (2026-04-13) إلى 123.9 (2026-04-16) +356%
 - الأخبار: Onfolio Holdings, Inc. Receives Nasdaq Delisting Notice, Plans to Appeal (Nov 19, 2026) | Onfolio Holdings, Inc. Stockholders Approve Discretionary Authority for Reverse Stock Split of Up to 1-for-250 (Nov 6, 2026) | Onfolio Q2 Loss Widens Y/Y as Revenues Fall & Cash Remains Tight (Sep 7, 2026)
 - منطقة الطلب 0.3969–0.4091 | طلبات Limit: 0.409 / 0.403 / 0.397 | الخروج: إغلاق يومي تحت 0.333 | الأهداف 0.44 / 0.46 | منطقة أعمق (غسل) 0.3128–0.3223
@@ -444,7 +444,7 @@
 - ⚠️ توه مدبل: من 0.316 إلى 1.12، شمعة ضخ/تصريف قبل 6 يوم (طار إلى 1.12 وأغلق 0.775 بفوليوم 1969x)، سعر منخفض جداً — سبريد واسع
 
 ## $WHLR — فلووت منخفض جداً / قاع نظيف
-- السعر 0.3236 (بري/أفتر 0.334) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.3236 (بري/أفتر 0.3224) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - REIT - Retail - قسم 1:6 (2026-10-30) افتتاح 1.4 - اعلى 1.62 - الشورت المتاح: غير متوفر - فلوت 1.67M - عدد الأسهم 2.22M - سبق صعد من 9.9 (2026-09-22) إلى 52.26 (2026-09-23) +428%
 - الأخبار: Wheeler Real Estate Investment Trust, Inc. Enters Into Additional Note Purchase Agreements for $5,306,000 in Promissory Notes (Nov 20, 2026) | Wheeler Real Estate Investment Trust, Inc. to Pay December 31, 2026 Note Interest in Series D Preferred Stock (Nov 19, 2026) | Wheeler Real Estate Investment Trust, Inc. Enters into Note Purchase Agreements for Up to $8,295,000 in Promissory Notes (Nov 18, 2026)
 - منطقة الطلب 0.307–0.3101 | طلبات Limit: 0.31 / 0.3085 / 0.3071 | الخروج: إغلاق يومي تحت 0.307 | الأهداف 0.3508 / 0.359 | منطقة أعمق (غسل) 0.261–0.2763
@@ -526,7 +526,7 @@
 ## $LBGJ — صيني عالي التذبذب ⚠️
 - السعر 1.43 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: صيني - Specialty Industrial Machinery - قسم 1:200 (2026-08-03) افتتاح 3.74 - اعلى 7.67 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 0.62M - سبق صعد من 600.0 (2026-03-17) إلى 2200.0 (2026-03-18) +267%
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Nvidia's Stock Surges More Than 30% on Jensen Huang's Return. Will It Get Back to $200? (Nov 23, 2026) | Applied Digital Stock Surged 20% on a Hyperscaler Deal. What to Know About Its $41 Billion in Leases (Nov 23, 2026) | Stocks Rebound Sharply as Nvidia Reinstates CEO Huang (Nov 23, 2026)
 - منطقة الطلب 1.45–1.464 | طلبات Limit: 1.46 / 1.46 / 1.46 | الخروج: إغلاق يومي تحت 1.35 | الأهداف 1.5 / 1.627 | منطقة أعمق (غسل) 1.277–1.316
 - شروط ص86 (يومي): 3/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ما فيه شموع حمراء طويلة قرب القاع، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.64 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 32 (الحالي 37) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 1.45 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.35 مو أعلى من اللي قبله 1.46، والشموع ما تقلصت (ص12/ص13)
@@ -534,7 +534,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، شمعة ضخ/تصريف قبل 13 يوم (طار إلى 2.17 وأغلق 1.84 بفوليوم 15x)، اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $CLIK — صيني عالي التذبذب ⚠️
-- السعر 0.6606 (بري/أفتر 0.6606) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.6606 (بري/أفتر 0.6771) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Personal Services - قسم 1:30 (2025-10-10) - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 7.44M - سبق صعد من 1.32 (2026-04-07) إلى 4.02 (2026-04-21) +205%
 - الأخبار: Click Announces Approval Of Share Consolidation (Oct 7, 2025) | Click Holdings Limited Reports 68% Revenue Growth and Strategic Advancements in AI and Cryptocurrency Initiatives for H1 2025 (Jul 21, 2025) | Click Holdings Limited Signs MOU with Rongge Huida to Enhance Labor Importation for Senior Care Solutions in Hong Kong (Jul 15, 2025)
 - منطقة الطلب 0.651–0.6575 | طلبات Limit: 0.6575 / 0.6543 / 0.6511 | الخروج: إغلاق يومي تحت 0.651 | الأهداف 0.6963 / 0.75 | منطقة أعمق (غسل) 0.594–0.612
@@ -566,7 +566,7 @@
 ## $CABR — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 0.637 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Drug Manufacturers - Specialty & Generic - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.48M - عدد الأسهم 11.5M
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Nvidia's Stock Surges More Than 30% on Jensen Huang's Return. Will It Get Back to $200? (Nov 23, 2026) | Applied Digital Stock Surged 20% on a Hyperscaler Deal. What to Know About Its $41 Billion in Leases (Nov 23, 2026) | Stocks Rebound Sharply as Nvidia Reinstates CEO Huang (Nov 23, 2026)
 - منطقة الطلب 0.6–0.612 | طلبات Limit: 0.6119 / 0.606 / 0.6001 | الخروج: إغلاق يومي تحت 0.6 | الأهداف 0.706 / 0.745 | منطقة أعمق (غسل) 0.51–0.54
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8919 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 33 (الحالي 34) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 75K مقابل متوسط شموع البيع 151K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -616,7 +616,7 @@
 ## $SSM — فلووت منخفض جداً / قاع نظيف
 - السعر 0.75 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: ألماني - Auto Manufacturers - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.58M - عدد الأسهم 3.72M - سبق صعد من 1.05 (2026-09-25) إلى 3.09 (2026-10-02) +194%
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Nvidia's Stock Surges More Than 30% on Jensen Huang's Return. Will It Get Back to $200? (Nov 23, 2026) | Applied Digital Stock Surged 20% on a Hyperscaler Deal. What to Know About Its $41 Billion in Leases (Nov 23, 2026) | Stocks Rebound Sharply as Nvidia Reinstates CEO Huang (Nov 23, 2026)
 - منطقة الطلب 0.647–0.6535 | طلبات Limit: 0.6534 / 0.6502 / 0.6471 | الخروج: إغلاق يومي تحت 0.647 | الأهداف 0.765 / 0.79 | منطقة أعمق (غسل) 0.55–0.5823
 - شروط ص86 (يومي): 3/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، دعم/قاع واضح، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.9067 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 30 (الحالي 37) (ص65/ص86)؛ دعم/قاع واضح: منطقة 0.647–0.6535 لمسها 1 مرات خلال 4 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)
@@ -673,7 +673,7 @@
 - ⚠️ توه مدبل: من 0.674 إلى 1.69، شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)، شمعة ضخ/تصريف قبل 1 يوم (طار إلى 1.69 وأغلق 1.1 بفوليوم 941x)
 
 ## $WCT — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
-- السعر 2.21 (بري/أفتر 2.32) | سحب سيولة ثم استرداد الدعم
+- السعر 2.21 (بري/أفتر 2.33) | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني (هونغ كونغ) - Software - Application - قسم 1:10 (2026-11-09) افتتاح 2.45 - اعلى 6.67 - الشورت المتاح: غير متوفر - فلوت 1.05M - عدد الأسهم 1.06M - سبق صعد من 19.0 (2026-08-28) إلى 84.0 (2026-09-08) +342%
 - الأخبار: Wellchange Holding Company Limited Closes $10 Million Public Offering of 25 Million Ordinary Shares (Jan 17, 2025) | Wellchange Holding Company Limited Announces Pricing of Public Offering of 25 Million Ordinary Shares at $0.40 Each (Jan 16, 2025)
 - منطقة الطلب 1.96–1.98 | طلبات Limit: 1.97 / 1.97 / 1.97 | الخروج: إغلاق يومي تحت 1.89 | الأهداف 2.46 / 2.6 | منطقة أعمق (غسل) 1.666–1.764
@@ -723,7 +723,7 @@
 ## $PSIG — صيني عالي التذبذب ⚠️
 - السعر 3.8 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - قسم 1:8 (2025-10-13) - الشورت المتاح: غير متوفر - فلوت 7.79M - عدد الأسهم 15.4M - سبق صعد من 1.06 (2026-08-18) إلى 4.85 (2026-09-17) +358%
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Vivani Medical Publishes FAQ on Positive SLIM-1 Results for Its Investigational Semaglutide Implant (Nov 23, 2026) | Pinterest, Inc. Amended Severance and Change in Control Plan and Executive Agreements (Nov 23, 2026) | Banco Bilbao Vizcaya Argentaria, S.A. Reports Share Buyback Transactions (Nov 23, 2026)
 - منطقة الطلب 3.3–3.35 | طلبات Limit: 3.34 / 3.32 / 3.3 | الخروج: إغلاق يومي تحت 3.3 | الأهداف 3.855 / 4.564 | منطقة أعمق (غسل) 2.805–2.97
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، تجميع: قيعان أعلى وشموع تتقلص، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.74 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 30 (الحالي 38) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 3.35 أعلى من اللي قبله 3.3، والشموع ما تقلصت (ص12/ص13)
@@ -743,7 +743,7 @@
 ## $MKDW — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 1.25 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: تايواني - Auto Parts - قسم 1:20 (2026-11-18) افتتاح 1.7 - اعلى 1.75 - الشورت المتاح: غير متوفر - فلوت 1.66M - عدد الأسهم 1.82M - سبق صعد من 0.075 (2026-11-16) إلى 1.75 (2026-11-18) +2233%
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Vivani Medical Publishes FAQ on Positive SLIM-1 Results for Its Investigational Semaglutide Implant (Nov 23, 2026) | Pinterest, Inc. Amended Severance and Change in Control Plan and Executive Agreements (Nov 23, 2026) | Banco Bilbao Vizcaya Argentaria, S.A. Reports Share Buyback Transactions (Nov 23, 2026)
 - منطقة الطلب 1.36–1.374 | طلبات Limit: 1.37 / 1.37 / 1.37 | الخروج: إغلاق يومي تحت 0.075 | الأهداف 1.39 / 1.52 | منطقة أعمق (غسل) 1.156–1.224
 - شروط ص86 (يومي): 5/11 — ناقص: اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ما فيه شموع حمراء طويلة قرب القاع، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: كسر الدعم 1.36 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 25K مقابل متوسط شموع البيع 8651K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية أغلقت تحت الدعم (ص82/ص86)
@@ -761,7 +761,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $SGLY — ارتكاز
-- السعر 0.3747 (بري/أفتر 0.3589) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.3747 (بري/أفتر 0.37) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Integrated Freight & Logistics - قسم 1:14 (2026-07-27) افتتاح 3.42 - اعلى 8.65 - الشورت المتاح: غير متوفر - فلوت 5.60M - عدد الأسهم 5.60M - سبق صعد من 2.52 (2026-07-14) إلى 8.65 (2026-08-10) +243%
 - الأخبار: Singularity Future Technology Ltd. Announces $1.1 Million Registered Direct Offering of Common Stock (Jan 24, 2025)
 - منطقة الطلب 0.35–0.3535 | طلبات Limit: 0.3534 / 0.3517 / 0.35 | الخروج: إغلاق يومي تحت 0.35 | الأهداف 0.4064 / 0.4757 | منطقة أعمق (غسل) 0.297–0.306
@@ -851,9 +851,9 @@
 - ⚠️ توه مدبل: من 0.223 إلى 0.82، شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)، شمعة ضخ/تصريف قبل 1 يوم (طار إلى 0.82 وأغلق 0.548 بفوليوم 3566x)، سعر منخفض جداً — سبريد واسع
 
 ## $FRTT — طرح جديد/تاريخ قصير / فلووت منخفض جداً
-- السعر 0.4727 (بري/أفتر 0.459) | سحب سيولة ثم استرداد الدعم
+- السعر 0.4727 (بري/أفتر 0.456) | سحب سيولة ثم استرداد الدعم
 - البيانات: كندي - Household & Personal Products - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.26M - عدد الأسهم 15.2M - سبق صعد من 0.38 (2026-11-13) إلى 0.93 (2026-11-18) +145%
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Vivani Medical Publishes FAQ on Positive SLIM-1 Results for Its Investigational Semaglutide Implant (Nov 23, 2026) | Pinterest, Inc. Amended Severance and Change in Control Plan and Executive Agreements (Nov 23, 2026) | Banco Bilbao Vizcaya Argentaria, S.A. Reports Share Buyback Transactions (Nov 23, 2026)
 - منطقة الطلب 0.43–0.4343 | طلبات Limit: 0.4343 / 0.4322 / 0.4301 | الخروج: إغلاق يومي تحت 0.4 | الأهداف 0.5046 / 0.55 | منطقة أعمق (غسل) 0.3762–0.3876
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.5046 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 938K مقابل متوسط شموع البيع 594K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)؛ توه مدبل (من 0.38 إلى 0.93) — «فيه خطوره… غير امن الان» (ص59)
@@ -902,7 +902,7 @@
 ## $FTFT — صيني عالي التذبذب ⚠️
 - السعر 3.45 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Software - Application - قسم 1:4 (2026-08-31) افتتاح 2.21 - اعلى 9.74 - الشورت المتاح: غير متوفر - فلوت 5.80M - عدد الأسهم 8.67M - سبق صعد من 1.22 (2026-09-08) إلى 9.74 (2026-09-16) +698%
-- الأخبار: BTCS Inc. Repays $43.8 Million of Its Aave Borrowings and Reduces Leverage Following Market Sell-Off (Nov 23, 2026) | Workday Completes Acquisition Of C1.ai (Nov 23, 2026) | Why Alphabet Stock Popped Today (Nov 23, 2026)
+- الأخبار: Future FinTech Group Inc. Increases Authorized Common Shares to 900,000,000 (Nov 23, 2026)
 - منطقة الطلب 3–3.12 | طلبات Limit: 3.11 / 3.05 / 3 | الخروج: إغلاق يومي تحت 3 | الأهداف 3.492 / 3.64 | منطقة أعمق (غسل) 2.55–2.7
 - شروط ص86 (يومي): 5/11 — ناقص: RSI وصل 23–27، MACD يتحسن أو تقاطع، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ما فيه شموع حمراء طويلة قرب القاع
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 34 (الحالي 52) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 3.01 مو أعلى من اللي قبله 3.12، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 37K مقابل متوسط شموع البيع 71K (ص85/ص86)

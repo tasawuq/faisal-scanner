@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-11-24T06:04:34.030540-05:00",
+ "generated_at_et": "2026-11-24T07:05:00.684201-05:00",
  "items": [
   {
    "ticker": "GOVX",
    "score": 12.5,
    "price": 1.72,
-   "ext_price": 1.47,
+   "ext_price": 1.52,
    "name": "GeoVax Labs, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -156,7 +156,7 @@
    "ticker": "MNDR",
    "score": 12.5,
    "price": 1.02,
-   "ext_price": 0.9625,
+   "ext_price": 0.93,
    "name": "Mobile-health Network Solutions",
    "type": [
     "فلووت منخفض جداً"
@@ -1056,7 +1056,7 @@
    "ticker": "SNAL",
    "score": 10.0,
    "price": 2.12,
-   "ext_price": 2.3202,
+   "ext_price": 2.308,
    "name": "Snail, Inc.",
    "type": [
     "فلووت منخفض جداً"
@@ -1205,7 +1205,7 @@
    "ticker": "WFF",
    "score": 10.0,
    "price": 1.04,
-   "ext_price": 1.0402,
+   "ext_price": 1.04,
    "name": "WF Holding Limited",
    "type": [
     "فلووت منخفض جداً"
@@ -2551,7 +2551,7 @@
    "ticker": "WOK",
    "score": 9.0,
    "price": 1.15,
-   "ext_price": 1.19,
+   "ext_price": 1.15,
    "name": "WORK Medical Technology Group LTD",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -2847,7 +2847,7 @@
    "ticker": "WORX",
    "score": 9.0,
    "price": 1.15,
-   "ext_price": 1.14,
+   "ext_price": 1.25,
    "name": "SCWorx Corp.",
    "type": [
     "قاع نظيف"
@@ -3137,7 +3137,7 @@
    "ticker": "DBGI",
    "score": 9.0,
    "price": 0.157,
-   "ext_price": 0.1406,
+   "ext_price": 0.1407,
    "name": "Digital Brands Group, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -3289,7 +3289,7 @@
    "ticker": "AEI",
    "score": 8.5,
    "price": 2.01,
-   "ext_price": 2.0453,
+   "ext_price": 2.02,
    "name": "Alset Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -3429,159 +3429,6 @@
     "تقسيم عكسي حديث 1:5 (2026-11-23) — افتتح بعده 1.74 وأعلى سعر 2.26",
     "فلووت 3.70M 🔥 (ص8: أقل من 5M قوي وخطر)",
     "قاع الفترة (قاع سنة)"
-   ]
-  },
-  {
-   "ticker": "RBNE",
-   "score": 8.5,
-   "price": 0.123,
-   "ext_price": null,
-   "name": "Robin Energy Ltd.",
-   "type": [
-    "ارتكاز"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": null,
-    "shares": 643246.0,
-    "last_split": "عكسي 1:15 (2026-07-09)",
-    "split": {
-     "factor": "1:15",
-     "date": "2026-07-09",
-     "reverse": true,
-     "days": 138,
-     "recent": true,
-     "open_after": 7.159999847412109,
-     "high_after": 8.149999618530273
-    },
-    "country_ar": "قبرصي",
-    "industry": "Oil & Gas Midstream",
-    "short_available": null,
-    "runner": {
-     "pct": 1.8857143076098697,
-     "from": 0.3499999940395355,
-     "from_date": "2026-10-20",
-     "to": 1.0099999904632568,
-     "to_date": "2026-10-21",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Jul 24, 2026",
-     "Robin Energy Prices $3 Mln Public Offering Of 750K Shares At $4.00/shr; Stock Down"
-    ],
-    [
-     "Jun 25, 2025",
-     "Robin Energy Ltd. Announces $3.6 Million Common Share Offering ي"
-    ],
-    [
-     "Jun 20, 2025",
-     "Robin Energy Ltd. Announces $4 Million Common Shares Offering to Institutional Investors"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.123,
-    "demand_high": 0.1242,
-    "orders": [
-     0.1242,
-     0.1236,
-     0.1231
-    ],
-    "critical": 0.11,
-    "stop": 0.1099,
-    "risk": 0.11108115394985171,
-    "wash_low": 0.1089,
-    "wash_high": 0.1122,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.12300000339746475,
-    "t1": 0.12999999523162842,
-    "t2": 0.13830000013113022
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-20",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
-     "retest",
-     "accum",
-     "pressure",
-     "red"
-    ],
-    "miss": [
-     "ma",
-     "volume",
-     "candle",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.1383 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 11 (الحالي 14)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "منطقة 0.123–0.1242 لمسها 2 مرات خلال 15 يوم"
-     ],
-     "retest": [
-      true,
-      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 2)"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 33237K مقابل متوسط شموع البيع 25846K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة يومية مو انعكاس"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      true,
-      "هبط 98% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 0.13 (+5.1%) والخسارة −11.1%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.1383 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 33237K مقابل متوسط شموع البيع 25846K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
-    "محفز أو هدف علوي: تحت مقاومة مباشرة 0.13 (+5.1%) والخسارة −11.1% (ص66/ص84/ص88)"
-   ],
-   "ready_when": "اختبار منطقة 0.123–0.1242 وفشل كسرها (أو سحب سيولة تحت 0.11 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.0984–0.1107، ص54)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 14 يوم (طار إلى 0.319 وأغلق 0.151 بفوليوم 7751x)",
-    "رفض عند MA20 (ص64)",
-    "فلوت Yahoo 0.58M غير منطقي مقابل عدد الأسهم 0.64M — الفلتر على عدد الأسهم",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:15 (2026-07-09) — افتتح بعده 7.16 وأعلى سعر 8.15",
-    "فلووت 0.64M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 189% من 0.35 (2026-10-20) إلى 1.01 (2026-10-21)",
-    "فوليوم البيع يضعف"
    ]
   },
   {
@@ -4620,7 +4467,7 @@
    "ticker": "AGMH",
    "score": 7.5,
    "price": 0.395,
-   "ext_price": 0.3877,
+   "ext_price": 0.378,
    "name": "AGM Group Holdings Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -4769,7 +4616,7 @@
    "ticker": "ACXP",
    "score": 7.5,
    "price": 1.05,
-   "ext_price": 0.9,
+   "ext_price": 1.04,
    "name": "Acurx Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5802,7 +5649,7 @@
    "ticker": "MTEN",
    "score": 7.0,
    "price": 0.272,
-   "ext_price": 0.27,
+   "ext_price": 0.2641,
    "name": "Mingteng International Corporation Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -7259,7 +7106,7 @@
    "ticker": "ONFO",
    "score": 6.0,
    "price": 0.418,
-   "ext_price": 0.448,
+   "ext_price": 0.4246,
    "name": "Onfolio Holdings, Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -13293,7 +13140,7 @@
    "ticker": "FRTT",
    "score": 3.0,
    "price": 0.47,
-   "ext_price": 0.4827,
+   "ext_price": 0.456,
    "name": "Fort Technology Inc.",
    "type": [
     "طرح جديد/تاريخ قصير",

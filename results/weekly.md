@@ -1,4 +1,4 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-24T05:03 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-24T06:04 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
@@ -13,9 +13,9 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $MNDR — فلووت منخفض جداً
-- السعر 1.02 (بري/أفتر 0.9499) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 1.02 (بري/أفتر 0.9625) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: سنغافوري - Health Information Services - قسم 1:6 (2026-06-29) افتتاح 3.0 - اعلى 5.67 - الشورت المتاح: غير متوفر - فلوت 0.98M - عدد الأسهم 1.08M - سبق صعد من 0.76 (2026-10-09) إلى 5.67 (2026-10-12) +646%
-- الأخبار: Capricor (CAPR) Prepares Investor Update Following FDA Rejection Of Deramiocel (Nov 24, 2026) | Consensus Price Target for OFS Credit Company, Inc. - Preferred Stock Raised 15.85% to $59.57 (Nov 24, 2026) | SciSparc (SPRC) Sets 1-For-5 Reverse Share Split Effective November 27; Stock Down (Nov 24, 2026)
+- الأخبار: Marvell Stock Fell Almost 12% in a Single Day. I'd Consider Buying Shares Now. (Nov 24, 2026) | Strategy Inc - Preferred Stock Price Target Increased by 35.72% to $190.83 (Nov 24, 2026) | Walmart Just Raised Its Outlook Again. 3 Numbers Show Why Its Scale Advantage Keeps Growing. (Nov 24, 2026)
 - منطقة الطلب 0.86–0.87 | طلبات Limit: 0.87 / 0.865 / 0.8601 | الخروج: إغلاق يومي تحت 0.86 | الأهداف 1.04 / 1.1 | منطقة أعمق (غسل) 0.7524–0.7752
 - شروط ص86 (يومي): 9/11 — ناقص: RSI وصل 23–27، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 32 (الحالي 50) (ص65/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -62,7 +62,7 @@
 ## $ONCO — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 3.08 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2026-11-06) افتتاح 5.68 - اعلى 7.82 - الشورت المتاح: غير متوفر - فلوت 0.82M - عدد الأسهم 0.82M - سبق صعد من 220.0 (2026-03-09) إلى 673.0 (2026-03-27) +206%
-- الأخبار: Capricor (CAPR) Prepares Investor Update Following FDA Rejection Of Deramiocel (Nov 24, 2026) | Consensus Price Target for OFS Credit Company, Inc. - Preferred Stock Raised 15.85% to $59.57 (Nov 24, 2026) | SciSparc (SPRC) Sets 1-For-5 Reverse Share Split Effective November 27; Stock Down (Nov 24, 2026)
+- الأخبار: Marvell Stock Fell Almost 12% in a Single Day. I'd Consider Buying Shares Now. (Nov 24, 2026) | Strategy Inc - Preferred Stock Price Target Increased by 35.72% to $190.83 (Nov 24, 2026) | Walmart Just Raised Its Outlook Again. 3 Numbers Show Why Its Scale Advantage Keeps Growing. (Nov 24, 2026)
 - منطقة الطلب 2.76–2.788 | طلبات Limit: 2.78 / 2.77 / 2.76 | الخروج: إغلاق يومي تحت 2.76 | الأهداف 3.21 / 3.31 | منطقة أعمق (غسل) 2.346–2.484
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.38 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 40) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)
@@ -70,7 +70,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $SNAL — فلووت منخفض جداً
-- السعر 2.12 (بري/أفتر 2.361) | سحب سيولة ثم استرداد الدعم
+- السعر 2.12 (بري/أفتر 2.32) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Electronic Gaming & Multimedia - قسم 1:5 (2026-07-06) افتتاح 2.99 - اعلى 5.92 - الشورت المتاح: غير متوفر - فلوت 3.14M - عدد الأسهم 3.22M - سبق صعد من 1.7 (2026-04-09) إلى 10.8 (2026-04-14) +537%
 - الأخبار: What Makes Snail, Inc. (SNAL) a New Strong Buy Stock (Nov 18, 2026) | Snail Inc (SNAL) Q3 2026 Earnings Call Transcript (Nov 13, 2026) | Snail, Inc. (SNAL) Q3 Earnings and Revenues Surpass Estimates (Nov 12, 2026)
 - منطقة الطلب 2.1–2.121 | طلبات Limit: 2.12 / 2.11 / 2.1 | الخروج: إغلاق يومي تحت 2.07 | الأهداف 2.2 / 2.292 | منطقة أعمق (غسل) 1.931–1.989
@@ -80,7 +80,7 @@
 - ⚠️ اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $WFF — فلووت منخفض جداً
-- السعر 1.04 (بري/أفتر 1.05) | ارتداد مؤكد من الدعم
+- السعر 1.04 (بري/أفتر 1.04) | ارتداد مؤكد من الدعم
 - البيانات: ماليزي - Specialty Industrial Machinery - قسم 1:25 (2026-10-30) افتتاح 1.64 - اعلى 1.7 - الشورت المتاح: غير متوفر - فلوت 0.55M - عدد الأسهم 2.51M - سبق صعد من 43.75 (2026-10-09) إلى 1265.0 (2026-10-12) +2791%
 - الأخبار: WF Holding Limited Announces Partial Exercise of Over-Allotment Option in Initial Public Offering, Raising Additional $960,000 (May 7, 2025)
 - منطقة الطلب 1–1.01 | طلبات Limit: 1.01 / 1 / 1 | الخروج: إغلاق يومي تحت 1 | الأهداف 1.07 / 1.181 | منطقة أعمق (غسل) 0.9217–0.9496
@@ -92,7 +92,7 @@
 ## $NWGL — فلووت منخفض جداً / قاع نظيف
 - السعر 1.96 (بري/أفتر 1.96) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: Macau - Lumber & Wood Production - قسم 1:80 (2026-11-06) افتتاح 2.21 - اعلى 8.32 - الشورت المتاح: غير متوفر - فلوت 0.10M - عدد الأسهم 0.56M - سبق صعد من 27.76 (2026-08-18) إلى 158.4 (2026-09-15) +471%
-- الأخبار: Capricor (CAPR) Prepares Investor Update Following FDA Rejection Of Deramiocel (Nov 24, 2026) | Consensus Price Target for OFS Credit Company, Inc. - Preferred Stock Raised 15.85% to $59.57 (Nov 24, 2026) | SciSparc (SPRC) Sets 1-For-5 Reverse Share Split Effective November 27; Stock Down (Nov 24, 2026)
+- الأخبار: Marvell Stock Fell Almost 12% in a Single Day. I'd Consider Buying Shares Now. (Nov 24, 2026) | Strategy Inc - Preferred Stock Price Target Increased by 35.72% to $190.83 (Nov 24, 2026) | Walmart Just Raised Its Outlook Again. 3 Numbers Show Why Its Scale Advantage Keeps Growing. (Nov 24, 2026)
 - منطقة الطلب 1.81–1.828 | طلبات Limit: 1.82 / 1.82 / 1.81 | الخروج: إغلاق يومي تحت 1.81 | الأهداف 2.04 / 3.04 | منطقة أعمق (غسل) 1.538–1.629
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.61 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: فوليومها 74K مقابل متوسط شموع البيع 11171K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -140,7 +140,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $FFTT — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
-- السعر 2.8 (بري/أفتر 2.67) | سحب سيولة ثم استرداد الدعم
+- السعر 2.8 (بري/أفتر 2.6) | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني (هونغ كونغ) - Engineering & Construction - قسم 1:8 (2026-08-11) افتتاح 2.75 - اعلى 11.42 - الشورت المتاح: غير متوفر - فلوت 1.96M - عدد الأسهم 3.48M - سبق صعد من 1.73 (2026-09-09) إلى 11.42 (2026-09-25) +560%
 - الأخبار: Masonglory Limited Completes Sale of Additional 225,000 Shares Raising $900,000 in IPO Over-Allotment (Jul 24, 2025) | Masonglory Limited Completes Initial Public Offering, Raises $6 Million on Nasdaq Capital Market (Jul 9, 2025) | Masonglory Limited Announces Initial Public Offering Pricing and Nasdaq Listing (Jul 7, 2025)
 - منطقة الطلب 2.56–2.586 | طلبات Limit: 2.58 / 2.57 / 2.56 | الخروج: إغلاق يومي تحت 2.4 | الأهداف 2.85 / 3.01 | منطقة أعمق (غسل) 2.01–2.071
@@ -189,7 +189,7 @@
 - متى يكون جاهزاً: قاع ثاني يثبت عند 0.826–0.8976 بشمعة انعكاس، أو كسر خط العنق 1.08 والثبات ثم إعادة اختبار (ص25)
 
 ## $WORX — قاع نظيف
-- السعر 1.15 (بري/أفتر 1.15) | ارتداد مؤكد من الدعم
+- السعر 1.15 (بري/أفتر 1.14) | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Health Information Services - قسم 1:12 (2026-08-04) افتتاح 3.0 - اعلى 7.48 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 1.39M - سبق صعد من 1.07 (2026-10-16) إلى 4.58 (2026-10-20) +328%
 - الأخبار: Biotech Stocks Rally: SLN Soars 125%, WORX Jumps 105%, IRON Gains 41% (Oct 19, 2026)
 - منطقة الطلب 1.07–1.081 | طلبات Limit: 1.08 / 1.08 / 1.08 | الخروج: إغلاق يومي تحت 1.07 | الأهداف 1.17 / 1.38 | منطقة أعمق (غسل) 0.9095–0.963
@@ -199,7 +199,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 13 يوم (طار إلى 1.91 وأغلق 1.55 بفوليوم 73x)، فلوت Yahoo 0.07M غير منطقي مقابل عدد الأسهم 1.39M — الفلتر على عدد الأسهم
 
 ## $TCRT — طبي — الخبر يحرّكه / فلووت منخفض جداً
-- السعر 1.67 (بري/أفتر 1.74) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 1.67 (بري/أفتر 1.71) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2024-07-18) - الشورت المتاح: غير متوفر - فلوت 1.99M - عدد الأسهم 4.21M - سبق صعد من 0.72 (2026-10-06) إلى 4.4 (2026-10-14) +511%
 - الأخبار: Alaunos Therapeutics Consensus Price Target Increased by 7,400% to $267.75 (Nov 1, 2026) | Alaunos Therapeutics, Inc. Regains Compliance with Nasdaq Stockholders' Equity Requirement of $2,500,000 (Oct 23, 2026) | Alaunos Therapeutics, Inc. Believes It Regained Nasdaq Compliance Following $350.0 million Financing (Oct 22, 2026)
 - منطقة الطلب 1.51–1.55 | طلبات Limit: 1.54 / 1.52 / 1.51 | الخروج: إغلاق يومي تحت 1.51 | الأهداف 1.7 / 1.75 | منطقة أعمق (غسل) 1.284–1.359
@@ -209,7 +209,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $DBGI — فلووت منخفض جداً / قاع نظيف
-- السعر 0.157 (بري/أفتر 0.1399) | ارتداد مؤكد من الدعم
+- السعر 0.157 (بري/أفتر 0.1406) | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Apparel Retail - قسم 1:40 (2026-07-24) افتتاح 17.47 - اعلى 30.93 - الشورت المتاح: غير متوفر - فلوت 0.92M - عدد الأسهم 0.93M - سبق صعد من 10.32 (2026-05-26) إلى 58.8 (2026-06-11) +470%
 - الأخبار: Digital Brands Group, Inc. Decides to Maintain Public Listing and Upgrades Q4 Government Contract Cash Flow Forecast to $4.7M (Oct 29, 2026) | Monday 6/15 Insider Buying Report: ECL, DBGI (Jun 15, 2026) | Wednesday Sector Laggards: Apparel Stores, Music & Electronics Stores (Jan 14, 2026)
 - منطقة الطلب 0.137–0.1384 | طلبات Limit: 0.1383 / 0.1376 / 0.137 | الخروج: إغلاق يومي تحت 0.137 | الأهداف 0.165 / 0.194 | منطقة أعمق (غسل) 0.1164–0.1233
@@ -336,7 +336,7 @@
 - ⚠️ اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $AIRE — ارتكاز
-- السعر 0.339 | سحب سيولة ثم استرداد الدعم
+- السعر 0.339 (بري/أفتر 0.3386) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Real Estate Services - قسم 1:25 (2026-04-30) افتتاح 3.82 - اعلى 3.98 - الشورت المتاح: غير متوفر - فلوت 5.35M - عدد الأسهم 7.43M
 - الأخبار: reAlpha Tech Corp. Reports Third-Quarter 2026 Financial Results (Nov 17, 2026) | reAlpha Tech Corp. Stockholders Approve Reverse Stock Split and Share Issuances for Prevu and InstaMortgage Mergers (Nov 6, 2026) | reAlpha Tech Corp. Announces Pricing of $1.75 Million Public Offering (Nov 4, 2026)
 - منطقة الطلب 0.334–0.3373 | طلبات Limit: 0.3373 / 0.3356 / 0.334 | الخروج: إغلاق يومي تحت 0.306 | الأهداف 0.371 / 0.419 | منطقة أعمق (غسل) 0.3178–0.3274
@@ -385,7 +385,7 @@
 - ⚠️ اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $MTEN — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
-- السعر 0.272 (بري/أفتر 0.2723) | سحب سيولة ثم استرداد الدعم
+- السعر 0.272 (بري/أفتر 0.27) | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني - Metal Fabrication - قسم 1:200 (2026-01-26) افتتاح 2.24 - اعلى 9.52 - الشورت المتاح: غير متوفر - فلوت 4.02M - عدد الأسهم 7.64M - سبق صعد من 0.8 (2026-05-21) إلى 9.52 (2026-06-09) +1090%
 - الأخبار: Mingteng International Corporation Inc. Partners with Jilin University for Development of Advanced Die-Casting Mold Steel (Jul 22, 2025)
 - منطقة الطلب 0.27–0.2727 | طلبات Limit: 0.2727 / 0.2714 / 0.2701 | الخروج: إغلاق يومي تحت 0.244 | الأهداف 0.282 / 0.338 | منطقة أعمق (غسل) 0.2295–0.243
@@ -395,7 +395,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، سعر منخفض جداً — سبريد واسع
 
 ## $BIRD — قاع نظيف
-- السعر 1.12 (بري/أفتر 1.11) | سحب سيولة ثم استرداد الدعم
+- السعر 1.12 (بري/أفتر 1.08) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Software - Infrastructure - قسم 1:20 (2024-09-05) - الشورت المتاح: غير متوفر - فلوت 7.73M - عدد الأسهم 9.54M - سبق صعد من 2.15 (2026-03-31) إلى 24.31 (2026-04-15) +1031%
 - الأخبار: Allbirds Is Now an AI Company, and That Should Strike Fear Into Anyone Investing in Its Competition (May 4, 2026) | Apple's CEOs, Intel & AI, and Another SaaSpocalype (Apr 28, 2026) | Allbirds' Sudden Pivot to "Newbird AI" Sends Shares Soaring -- but Investors Should Treat This GPUaaS Story With Caution (Apr 21, 2026)
 - منطقة الطلب 1.105–1.116 | طلبات Limit: 1.11 / 1.11 / 1.11 | الخروج: إغلاق يومي تحت 1.06 | الأهداف 1.18 / 1.22 | منطقة أعمق (غسل) 0.9393–0.9945
@@ -483,7 +483,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، رفض عند MA20 (ص64)
 
 ## $ONFO — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.418 (بري/أفتر 0.4301) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 0.418 (بري/أفتر 0.448) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: أمريكي - Internet Content & Information - قسم 1:50 (2026-08-10) افتتاح 2.27 - اعلى 6.08 - الشورت المتاح: غير متوفر - فلوت 2.47M - عدد الأسهم 2.50M - سبق صعد من 27.2 (2026-04-13) إلى 123.9 (2026-04-16) +356%
 - الأخبار: Onfolio Holdings, Inc. Receives Nasdaq Delisting Notice, Plans to Appeal (Nov 19, 2026) | Onfolio Holdings, Inc. Stockholders Approve Discretionary Authority for Reverse Stock Split of Up to 1-for-250 (Nov 6, 2026) | Onfolio Q2 Loss Widens Y/Y as Revenues Fall & Cash Remains Tight (Sep 7, 2026)
 - منطقة الطلب 0.3969–0.4091 | طلبات Limit: 0.409 / 0.403 / 0.397 | الخروج: إغلاق يومي تحت 0.333 | الأهداف 0.44 / 0.46 | منطقة أعمق (غسل) 0.3128–0.3223
@@ -493,7 +493,7 @@
 - ⚠️ توه مدبل: من 0.316 إلى 1.12، شمعة ضخ/تصريف قبل 6 يوم (طار إلى 1.12 وأغلق 0.775 بفوليوم 1969x)، سعر منخفض جداً — سبريد واسع
 
 ## $WHLR — فلووت منخفض جداً / قاع نظيف
-- السعر 0.324 (بري/أفتر 0.3242) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.324 (بري/أفتر 0.3298) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - REIT - Retail - قسم 1:6 (2026-10-30) افتتاح 1.4 - اعلى 1.62 - الشورت المتاح: غير متوفر - فلوت 1.67M - عدد الأسهم 2.22M - سبق صعد من 9.9 (2026-09-22) إلى 52.26 (2026-09-23) +428%
 - الأخبار: Wheeler Real Estate Investment Trust, Inc. Enters Into Additional Note Purchase Agreements for $5,306,000 in Promissory Notes (Nov 20, 2026) | Wheeler Real Estate Investment Trust, Inc. to Pay December 31, 2026 Note Interest in Series D Preferred Stock (Nov 19, 2026) | Wheeler Real Estate Investment Trust, Inc. Enters into Note Purchase Agreements for Up to $8,295,000 in Promissory Notes (Nov 18, 2026)
 - منطقة الطلب 0.307–0.3101 | طلبات Limit: 0.31 / 0.3085 / 0.3071 | الخروج: إغلاق يومي تحت 0.307 | الأهداف 0.351 / 0.359 | منطقة أعمق (غسل) 0.261–0.2763
@@ -503,7 +503,7 @@
 - ⚠️ توه مدبل: من 0.307 إلى 1.1، شمعة ضخ/تصريف قبل 8 يوم (طار إلى 1.1 وأغلق 0.749 بفوليوم 270x)، سعر منخفض جداً — سبريد واسع
 
 ## $PMN — طبي — الخبر يحرّكه / فلووت منخفض جداً
-- السعر 3.17 | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 3.17 (بري/أفتر 3.17) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: كندي - Biotechnology - قسم 1:25 (2025-11-28) افتتاح 7.05 - اعلى 27.4 - الشورت المتاح: غير متوفر - فلوت 3.91M - عدد الأسهم 9.00M - سبق صعد من 6.62 (2025-12-31) إلى 19.85 (2026-01-30) +200%
 - الأخبار: ProMIS Licenses TXP1 From Ossianix To Deliver Alzheimer's & Parkinson's Therapies To Brain (Nov 17, 2026) | ProMIS (PMN) Q3 2026 Earnings Call Transcript (Nov 13, 2026) | ProMIS Neurosciences, Inc. Updates Corporate Presentation, Projects Cash Runway Through 2027 (Nov 13, 2026)
 - منطقة الطلب 2.98–3.01 | طلبات Limit: 3 / 3 / 2.99 | الخروج: إغلاق يومي تحت 2.98 | الأهداف 3.34 / 3.59 | منطقة أعمق (غسل) 2.752–2.836
@@ -575,7 +575,7 @@
 ## $LBGJ — صيني عالي التذبذب ⚠️
 - السعر 1.43 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: صيني - Specialty Industrial Machinery - قسم 1:200 (2026-08-03) افتتاح 3.74 - اعلى 7.67 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 0.62M - سبق صعد من 600.0 (2026-03-17) إلى 2200.0 (2026-03-18) +267%
-- الأخبار: Jensen Huang Just Killed Hopes For a Fed Rate Pause. Will Kevin Warsh Crush the Stock Market Recovery on Dec. 9? (Nov 24, 2026) | Capricor (CAPR) Prepares Investor Update Following FDA Rejection Of Deramiocel (Nov 24, 2026) | Consensus Price Target for OFS Credit Company, Inc. - Preferred Stock Raised 15.85% to $59.57 (Nov 24, 2026)
+- الأخبار: The Crypto Fear & Greed Index Is Now in Extreme Fear Territory. But These 6 Cryptocurrencies Are Soaring in Value. (Nov 24, 2026) | Best Buy Q3 27 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026) | Dollar Tree Q3 26 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026)
 - منطقة الطلب 1.45–1.464 | طلبات Limit: 1.46 / 1.46 / 1.46 | الخروج: إغلاق يومي تحت 1.35 | الأهداف 1.5 / 1.627 | منطقة أعمق (غسل) 1.277–1.316
 - شروط ص86 (يومي): 3/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ما فيه شموع حمراء طويلة قرب القاع، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.64 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 32 (الحالي 37) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 1.45 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.35 مو أعلى من اللي قبله 1.46، والشموع ما تقلصت (ص12/ص13)
@@ -583,7 +583,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، شمعة ضخ/تصريف قبل 13 يوم (طار إلى 2.17 وأغلق 1.84 بفوليوم 15x)، اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $CLIK — صيني عالي التذبذب ⚠️
-- السعر 0.661 (بري/أفتر 0.6606) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.661 (بري/أفتر 0.676) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Personal Services - قسم 1:30 (2025-10-10) - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 7.44M - سبق صعد من 1.32 (2026-04-07) إلى 4.02 (2026-04-21) +205%
 - الأخبار: Click Announces Approval Of Share Consolidation (Oct 7, 2025) | Click Holdings Limited Reports 68% Revenue Growth and Strategic Advancements in AI and Cryptocurrency Initiatives for H1 2025 (Jul 21, 2025) | Click Holdings Limited Signs MOU with Rongge Huida to Enhance Labor Importation for Senior Care Solutions in Hong Kong (Jul 15, 2025)
 - منطقة الطلب 0.651–0.6575 | طلبات Limit: 0.6575 / 0.6543 / 0.6511 | الخروج: إغلاق يومي تحت 0.651 | الأهداف 0.6963 / 0.75 | منطقة أعمق (غسل) 0.594–0.612
@@ -615,7 +615,7 @@
 ## $CABR — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 0.637 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Drug Manufacturers - Specialty & Generic - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.48M - عدد الأسهم 11.5M
-- الأخبار: Jensen Huang Just Killed Hopes For a Fed Rate Pause. Will Kevin Warsh Crush the Stock Market Recovery on Dec. 9? (Nov 24, 2026) | Capricor (CAPR) Prepares Investor Update Following FDA Rejection Of Deramiocel (Nov 24, 2026) | Consensus Price Target for OFS Credit Company, Inc. - Preferred Stock Raised 15.85% to $59.57 (Nov 24, 2026)
+- الأخبار: The Crypto Fear & Greed Index Is Now in Extreme Fear Territory. But These 6 Cryptocurrencies Are Soaring in Value. (Nov 24, 2026) | Best Buy Q3 27 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026) | Dollar Tree Q3 26 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026)
 - منطقة الطلب 0.6–0.612 | طلبات Limit: 0.6119 / 0.606 / 0.6001 | الخروج: إغلاق يومي تحت 0.6 | الأهداف 0.706 / 0.799 | منطقة أعمق (غسل) 0.51–0.54
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8919 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 33 (الحالي 34) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 77K مقابل متوسط شموع البيع 151K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -665,7 +665,7 @@
 ## $SSM — فلووت منخفض جداً / قاع نظيف
 - السعر 0.75 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: ألماني - Auto Manufacturers - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.58M - عدد الأسهم 3.72M - سبق صعد من 1.05 (2026-09-25) إلى 3.09 (2026-10-02) +194%
-- الأخبار: Jensen Huang Just Killed Hopes For a Fed Rate Pause. Will Kevin Warsh Crush the Stock Market Recovery on Dec. 9? (Nov 24, 2026) | Capricor (CAPR) Prepares Investor Update Following FDA Rejection Of Deramiocel (Nov 24, 2026) | Consensus Price Target for OFS Credit Company, Inc. - Preferred Stock Raised 15.85% to $59.57 (Nov 24, 2026)
+- الأخبار: The Crypto Fear & Greed Index Is Now in Extreme Fear Territory. But These 6 Cryptocurrencies Are Soaring in Value. (Nov 24, 2026) | Best Buy Q3 27 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026) | Dollar Tree Q3 26 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026)
 - منطقة الطلب 0.647–0.6535 | طلبات Limit: 0.6534 / 0.6502 / 0.6471 | الخروج: إغلاق يومي تحت 0.647 | الأهداف 0.765 / 0.79 | منطقة أعمق (غسل) 0.55–0.5823
 - شروط ص86 (يومي): 3/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، دعم/قاع واضح، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.9067 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 30 (الحالي 37) (ص65/ص86)؛ دعم/قاع واضح: منطقة 0.647–0.6535 لمسها 1 مرات خلال 4 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)
@@ -712,7 +712,7 @@
 - ⚠️ توه مدبل: من 0.674 إلى 1.69، شمعة ضخ/تصريف حديثة (سلوك قروبات وهم)، شمعة ضخ/تصريف قبل 1 يوم (طار إلى 1.69 وأغلق 1.1 بفوليوم 946x)
 
 ## $WCT — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
-- السعر 2.21 (بري/أفتر 2.22) | سحب سيولة ثم استرداد الدعم
+- السعر 2.21 (بري/أفتر 2.21) | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني (هونغ كونغ) - Software - Application - قسم 1:10 (2026-11-09) افتتاح 2.45 - اعلى 6.67 - الشورت المتاح: غير متوفر - فلوت 1.05M - عدد الأسهم 1.06M - سبق صعد من 19.0 (2026-08-28) إلى 84.0 (2026-09-08) +342%
 - الأخبار: Wellchange Holding Company Limited Closes $10 Million Public Offering of 25 Million Ordinary Shares (Jan 17, 2025) | Wellchange Holding Company Limited Announces Pricing of Public Offering of 25 Million Ordinary Shares at $0.40 Each (Jan 16, 2025)
 - منطقة الطلب 1.96–1.98 | طلبات Limit: 1.97 / 1.97 / 1.97 | الخروج: إغلاق يومي تحت 1.89 | الأهداف 2.46 / 2.6 | منطقة أعمق (غسل) 1.666–1.764
@@ -762,7 +762,7 @@
 ## $PSIG — صيني عالي التذبذب ⚠️
 - السعر 3.8 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - قسم 1:8 (2025-10-13) - الشورت المتاح: غير متوفر - فلوت 7.79M - عدد الأسهم 15.4M - سبق صعد من 1.06 (2026-08-18) إلى 4.85 (2026-09-17) +358%
-- الأخبار: Jensen Huang Just Killed Hopes For a Fed Rate Pause. Will Kevin Warsh Crush the Stock Market Recovery on Dec. 9? (Nov 24, 2026) | Capricor (CAPR) Prepares Investor Update Following FDA Rejection Of Deramiocel (Nov 24, 2026) | Consensus Price Target for OFS Credit Company, Inc. - Preferred Stock Raised 15.85% to $59.57 (Nov 24, 2026)
+- الأخبار: The Crypto Fear & Greed Index Is Now in Extreme Fear Territory. But These 6 Cryptocurrencies Are Soaring in Value. (Nov 24, 2026) | Best Buy Q3 27 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026) | Dollar Tree Q3 26 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026)
 - منطقة الطلب 3.3–3.35 | طلبات Limit: 3.34 / 3.32 / 3.3 | الخروج: إغلاق يومي تحت 3.3 | الأهداف 3.855 / 4.564 | منطقة أعمق (غسل) 2.805–2.97
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، تجميع: قيعان أعلى وشموع تتقلص، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.74 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 30 (الحالي 38) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 3.35 أعلى من اللي قبله 3.3، والشموع ما تقلصت (ص12/ص13)
@@ -792,7 +792,7 @@
 ## $MKDW — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 1.25 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: تايواني - Auto Parts - قسم 1:20 (2026-11-18) افتتاح 1.7 - اعلى 1.75 - الشورت المتاح: غير متوفر - فلوت 1.66M - عدد الأسهم 1.82M - سبق صعد من 0.075 (2026-11-16) إلى 1.75 (2026-11-18) +2233%
-- الأخبار: Jensen Huang Just Killed Hopes For a Fed Rate Pause. Will Kevin Warsh Crush the Stock Market Recovery on Dec. 9? (Nov 24, 2026) | Capricor (CAPR) Prepares Investor Update Following FDA Rejection Of Deramiocel (Nov 24, 2026) | Consensus Price Target for OFS Credit Company, Inc. - Preferred Stock Raised 15.85% to $59.57 (Nov 24, 2026)
+- الأخبار: The Crypto Fear & Greed Index Is Now in Extreme Fear Territory. But These 6 Cryptocurrencies Are Soaring in Value. (Nov 24, 2026) | Best Buy Q3 27 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026) | Dollar Tree Q3 26 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026)
 - منطقة الطلب 1.36–1.374 | طلبات Limit: 1.37 / 1.37 / 1.37 | الخروج: إغلاق يومي تحت 0.075 | الأهداف 1.39 / 1.52 | منطقة أعمق (غسل) 1.156–1.224
 - شروط ص86 (يومي): 5/11 — ناقص: اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ما فيه شموع حمراء طويلة قرب القاع، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: كسر الدعم 1.36 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 26K مقابل متوسط شموع البيع 8651K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية أغلقت تحت الدعم (ص82/ص86)
@@ -892,7 +892,7 @@
 ## $FRTT — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 0.47 (بري/أفتر 0.4827) | سحب سيولة ثم استرداد الدعم
 - البيانات: كندي - Household & Personal Products - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.26M - عدد الأسهم 15.2M - سبق صعد من 0.38 (2026-11-13) إلى 0.93 (2026-11-18) +145%
-- الأخبار: Jensen Huang Just Killed Hopes For a Fed Rate Pause. Will Kevin Warsh Crush the Stock Market Recovery on Dec. 9? (Nov 24, 2026) | Capricor (CAPR) Prepares Investor Update Following FDA Rejection Of Deramiocel (Nov 24, 2026) | Consensus Price Target for OFS Credit Company, Inc. - Preferred Stock Raised 15.85% to $59.57 (Nov 24, 2026)
+- الأخبار: The Crypto Fear & Greed Index Is Now in Extreme Fear Territory. But These 6 Cryptocurrencies Are Soaring in Value. (Nov 24, 2026) | Best Buy Q3 27 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026) | Dollar Tree Q3 26 Earnings Conference Call At 8:00 AM ET (Nov 24, 2026)
 - منطقة الطلب 0.43–0.4343 | طلبات Limit: 0.4343 / 0.4322 / 0.4301 | الخروج: إغلاق يومي تحت 0.4 | الأهداف 0.5045 / 0.55 | منطقة أعمق (غسل) 0.3762–0.3876
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.5045 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 940K مقابل متوسط شموع البيع 594K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)؛ توه مدبل (من 0.38 إلى 0.93) — «فيه خطوره… غير امن الان» (ص59)

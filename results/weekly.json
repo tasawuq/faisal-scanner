@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-11-25T06:03:59.465255-05:00",
+ "generated_at_et": "2026-11-25T07:04:25.908876-05:00",
  "items": [
   {
    "ticker": "GOVX",
    "score": 12.0,
    "price": 1.7,
-   "ext_price": 1.65,
+   "ext_price": 1.64,
    "name": "GeoVax Labs, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -157,7 +157,7 @@
    "ticker": "CXAI",
    "score": 11.5,
    "price": 1.23,
-   "ext_price": 1.23,
+   "ext_price": 1.17,
    "name": "CXApp Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -496,15 +496,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "LASE Corp. Announces Board Resignations and Director Appointments"
     ],
     [
      "Nov 25, 2026",
-     "Addex Reports Wider Q3 Loss, Regains Key GABAB Assets And Highlights Neurosterix Progress"
+     "FS Bancorp, Inc. Authorizes Share Repurchase Program of Up to $15.0 Million"
     ],
     [
      "Nov 25, 2026",
-     "Opera Limited: 3 Key Takeaways for Long-Term Investors"
+     "Zhihu Inc. Reports Unaudited Third Quarter 2026 Financial Results"
     ]
    ],
    "levels": {
@@ -899,157 +899,6 @@
    ]
   },
   {
-   "ticker": "SCNI",
-   "score": 10.5,
-   "price": 1.56,
-   "ext_price": null,
-   "name": "Scinai Immunotherapeutics Ltd.",
-   "type": [
-    "طبي — الخبر يحرّكه",
-    "بعد ارتداد أول — ينتظر Retest",
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 317985,
-    "shares": 657606,
-    "last_split": "عكسي 1:4 (2026-11-19)",
-    "split": {
-     "factor": "1:4",
-     "date": "2026-11-19",
-     "reverse": true,
-     "days": 6,
-     "recent": true,
-     "open_after": 1.4800000190734863,
-     "high_after": 1.7300000190734863
-    },
-    "country_ar": "إسرائيلي",
-    "industry": "Biotechnology",
-    "short_available": null,
-    "runner": {
-     "pct": 1.3076922109544267,
-     "from": 18.200000762939453,
-     "from_date": "2026-04-23",
-     "to": 42.0,
-     "to_date": "2026-04-24",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Nov 5, 2026",
-     "Scinai's Nine-Month Revenue Jumps 167% As CDMO Orders Exceed $8 Mln"
-    ],
-    [
-     "Oct 15, 2026",
-     "Scinai Announces $4 Mln Private Placement And Warrant Inducement; Shares Fall 16% In Premarket Trade"
-    ],
-    [
-     "Aug 24, 2026",
-     "Scinai Turns Profit In H1 Amid Shift To CDMO Operations; Stock Down"
-    ]
-   ],
-   "levels": {
-    "demand_low": 1.56,
-    "demand_high": 1.5756,
-    "orders": [
-     1.57,
-     1.56,
-     1.56
-    ],
-    "critical": 1.13,
-    "stop": 1.12,
-    "risk": 0.2835820895522387,
-    "wash_low": 1.326,
-    "wash_high": 1.404,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.559999942779541,
-    "t1": 1.6200000047683716,
-    "t2": 1.7300000190734863
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-24",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
-     "accum",
-     "red"
-    ],
-    "miss": [
-     "ma",
-     "retest",
-     "volume",
-     "candle",
-     "pressure",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.76 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 22 (الحالي 28)"
-     ],
-     "macd": [
-      true,
-      "الهيستوجرام يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 1.56–1.58 لمسها 2 مرات خلال 15 يوم"
-     ],
-     "retest": [
-      false,
-      "كسر الدعم 1.56 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
-     ],
-     "volume": [
-      false,
-      "فوليومها 27K مقابل متوسط شموع البيع 29K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة يومية مو انعكاس"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      false,
-      "هبط 90% من أعلى 90 يوم، والبيع ما ضعف بعد"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 1.62 (+3.6%) والخسارة −28.4%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.76 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "اختبار الدعم وفشل الكسر: كسر الدعم 1.56 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)",
-    "فوليوم يتحسن مع الارتداد: فوليومها 27K مقابل متوسط شموع البيع 29K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
-   ],
-   "ready_when": "اختبار منطقة 1.56–1.58 وفشل كسرها (أو سحب سيولة تحت 1.13 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.25–1.4، ص54)",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:4 (2026-11-19) — افتتح بعده 1.48 وأعلى سعر 1.73",
-    "فلووت 0.32M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 131% من 18.2 (2026-04-23) إلى 42.0 (2026-04-24)"
-   ]
-  },
-  {
    "ticker": "VBIO",
    "score": 10.5,
    "price": 0.461,
@@ -1355,7 +1204,7 @@
    "ticker": "SNAL",
    "score": 10.0,
    "price": 2.11,
-   "ext_price": 2.0,
+   "ext_price": 2.345,
    "name": "Snail, Inc.",
    "type": [
     "فلووت منخفض جداً"
@@ -1505,7 +1354,7 @@
    "ticker": "NWGL",
    "score": 10.0,
    "price": 1.86,
-   "ext_price": 1.8004,
+   "ext_price": 1.8263,
    "name": "CL Workshop Group Limited",
    "type": [
     "فلووت منخفض جداً",
@@ -1541,15 +1390,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "LASE Corp. Announces Board Resignations and Director Appointments"
     ],
     [
      "Nov 25, 2026",
-     "Addex Reports Wider Q3 Loss, Regains Key GABAB Assets And Highlights Neurosterix Progress"
+     "FS Bancorp, Inc. Authorizes Share Repurchase Program of Up to $15.0 Million"
     ],
     [
      "Nov 25, 2026",
-     "Opera Limited: 3 Key Takeaways for Long-Term Investors"
+     "Zhihu Inc. Reports Unaudited Third Quarter 2026 Financial Results"
     ]
    ],
    "levels": {
@@ -1958,7 +1807,7 @@
    "ticker": "TCRT",
    "score": 9.5,
    "price": 1.83,
-   "ext_price": 1.89,
+   "ext_price": 1.95,
    "name": "Alaunos Therapeutics, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -2105,7 +1954,7 @@
    "ticker": "MYSZ",
    "score": 9.5,
    "price": 0.75,
-   "ext_price": 0.7074,
+   "ext_price": 0.7501,
    "name": "My Size, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -2399,7 +2248,7 @@
    "ticker": "ORKT",
    "score": 9.0,
    "price": 1.0,
-   "ext_price": null,
+   "ext_price": 0.97,
    "name": "Orangekloud Technology Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -2544,7 +2393,7 @@
    "ticker": "DBGI",
    "score": 9.0,
    "price": 0.148,
-   "ext_price": 0.145,
+   "ext_price": 0.1456,
    "name": "Digital Brands Group, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -4761,7 +4610,7 @@
    "ticker": "AIRE",
    "score": 7.5,
    "price": 0.34,
-   "ext_price": 0.3398,
+   "ext_price": 0.3364,
    "name": "reAlpha Tech Corp.",
    "type": [
     "ارتكاز"
@@ -5677,15 +5526,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "LASE Corp. Announces Board Resignations and Director Appointments"
     ],
     [
      "Nov 25, 2026",
-     "Addex Reports Wider Q3 Loss, Regains Key GABAB Assets And Highlights Neurosterix Progress"
+     "FS Bancorp, Inc. Authorizes Share Repurchase Program of Up to $15.0 Million"
     ],
     [
      "Nov 25, 2026",
-     "Opera Limited: 3 Key Takeaways for Long-Term Investors"
+     "Zhihu Inc. Reports Unaudited Third Quarter 2026 Financial Results"
     ]
    ],
    "levels": {
@@ -5823,15 +5672,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "LASE Corp. Announces Board Resignations and Director Appointments"
     ],
     [
      "Nov 25, 2026",
-     "Addex Reports Wider Q3 Loss, Regains Key GABAB Assets And Highlights Neurosterix Progress"
+     "FS Bancorp, Inc. Authorizes Share Repurchase Program of Up to $15.0 Million"
     ],
     [
      "Nov 25, 2026",
-     "Opera Limited: 3 Key Takeaways for Long-Term Investors"
+     "Zhihu Inc. Reports Unaudited Third Quarter 2026 Financial Results"
     ]
    ],
    "levels": {
@@ -5940,7 +5789,7 @@
    "ticker": "ONEG",
    "score": 6.5,
    "price": 1.23,
-   "ext_price": 1.25,
+   "ext_price": 1.2997,
    "name": "OneConstruction Group Limited",
    "type": [
     "صيني عالي التذبذب ⚠️"
@@ -7095,7 +6944,7 @@
    "ticker": "PMN",
    "score": 6.0,
    "price": 3.15,
-   "ext_price": 3.0,
+   "ext_price": 2.9103,
    "name": "ProMIS Neurosciences, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -7234,7 +7083,8 @@
    "ready_when": "اختبار منطقة 2.98–3.01 وفشل كسرها (أو سحب سيولة تحت 2.98 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (2.38–2.68، ص54)",
    "flags": [
     "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 4.5 وأغلق 3 بفوليوم 93x)",
-    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
+    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)",
+    "نزل في البري تحت الوقف (2.91)"
    ],
    "tags": [
     "فلووت 3.91M 🔥 (ص8: أقل من 5M قوي وخطر)",
@@ -7247,7 +7097,7 @@
    "ticker": "WHLR",
    "score": 6.0,
    "price": 0.325,
-   "ext_price": 0.5537,
+   "ext_price": 0.4672,
    "name": "Wheeler Real Estate Investment Trust, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -7544,143 +7394,6 @@
     "فلووت 4.74M 🔥 (ص8: أقل من 5M قوي وخطر)",
     "Former Runner: صعد 114% من 0.2716 (2026-10-15) إلى 0.58 (2026-11-03)",
     "فوليوم البيع يضعف"
-   ]
-  },
-  {
-   "ticker": "HXHX",
-   "score": 6.0,
-   "price": 0.106,
-   "ext_price": null,
-   "name": "Haoxin Holdings Limited",
-   "type": [
-    "صيني عالي التذبذب ⚠️",
-    "فلووت منخفض جداً",
-    "قاع نظيف"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 2470050,
-    "shares": 10820000,
-    "last_split": null,
-    "split": {},
-    "country_ar": "صيني",
-    "industry": "Integrated Freight & Logistics",
-    "short_available": null,
-    "runner": {
-     "pct": 3.4277110980710983,
-     "from": 0.3319999873638153,
-     "from_date": "2025-12-19",
-     "to": 1.4700000286102295,
-     "to_date": "2025-12-22",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Apr 16, 2025",
-     "Haoxin Holdings Limited Closes Initial Public Offering, Raising $7 Million on Nasdaq Capital Market"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.102,
-    "demand_high": 0.103,
-    "orders": [
-     0.103,
-     0.1025,
-     0.102
-    ],
-    "critical": 0.102,
-    "stop": 0.1019,
-    "risk": 0.0058536585365852635,
-    "wash_low": 0.0867,
-    "wash_high": 0.0918,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 0.10199999809265137,
-    "t1": 0.11500000208616257,
-    "t2": 0.125
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-24",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
-     "retest",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "ma",
-     "accum",
-     "volume",
-     "candle"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.1473 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 18 (الحالي 30)"
-     ],
-     "macd": [
-      true,
-      "الهيستوجرام يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 0.102–0.103 لمسها 2 مرات خلال 6 يوم"
-     ],
-     "retest": [
-      true,
-      "رجع للدعم وما انكسر (الاختبار 2)"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 230K مقابل متوسط شموع البيع 229K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة يومية مو انعكاس"
-     ],
-     "accum": [
-      false,
-      "قاع الاختبار الأخير 0.102 مو أعلى من اللي قبله 0.102، والشموع تتقلص"
-     ],
-     "pressure": [
-      true,
-      "هبط 86% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 0.115 (+12.2%) أكبر من الخسارة −0.6%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.1473 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.102 مو أعلى من اللي قبله 0.102، والشموع تتقلص (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 230K مقابل متوسط شموع البيع 229K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
-   ],
-   "ready_when": "اختبار منطقة 0.102–0.103 وفشل كسرها (أو سحب سيولة تحت 0.102 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.0816–0.0918، ص54)",
-   "flags": [
-    "صيني عالي التذبذب — خطر (ص71)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت 2.47M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 343% من 0.332 (2025-12-19) إلى 1.47 (2025-12-22)",
-    "فوليوم البيع يضعف",
-    "قاع الفترة (قاع سنة)"
    ]
   },
   {
@@ -8320,15 +8033,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Micron Reports in December. Here's the 1 Number I'll Be Watching."
+     "LASE Corp. Announces Board Resignations and Director Appointments"
     ],
     [
      "Nov 25, 2026",
-     "Prediction: Here’s What Anthropic’s Valuation Will Be in 2027, According to History"
+     "FS Bancorp, Inc. Authorizes Share Repurchase Program of Up to $15.0 Million"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "Zhihu Inc. Reports Unaudited Third Quarter 2026 Financial Results"
     ]
    ],
    "levels": {
@@ -8582,7 +8295,7 @@
    "ticker": "EDSA",
    "score": 5.5,
    "price": 2.36,
-   "ext_price": 2.3002,
+   "ext_price": 2.3582,
    "name": "Edesa Biotech Inc. Common Shares",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -10782,7 +10495,7 @@
    "ticker": "INLF",
    "score": 4.5,
    "price": 0.192,
-   "ext_price": 0.176,
+   "ext_price": 0.1764,
    "name": "INLIF Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -11249,15 +10962,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Micron Reports in December. Here's the 1 Number I'll Be Watching."
+     "Vista Energy, S.A.B. de C.V. Reports Share Repurchase of 30,000 Series A Shares"
     ],
     [
      "Nov 25, 2026",
-     "Prediction: Here’s What Anthropic’s Valuation Will Be in 2027, According to History"
+     "NetEase, Inc. Discloses Share Repurchases Under 23 June 2026 Mandate"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "Bit Digital, Inc. Reduces Secured Borrowings from Galaxy Through Partial Sale of ETH Holdings"
     ]
    ],
    "levels": {
@@ -11397,15 +11110,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Micron Reports in December. Here's the 1 Number I'll Be Watching."
+     "The AI Stock Slump Is Crushing Caterpillar. Here’s Why I Like the Stock More Than Ever."
     ],
     [
      "Nov 25, 2026",
-     "Prediction: Here’s What Anthropic’s Valuation Will Be in 2027, According to History"
+     "Vista Energy, S.A.B. de C.V. Reports Share Repurchase of 30,000 Series A Shares"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "NetEase, Inc. Discloses Share Repurchases Under 23 June 2026 Mandate"
     ]
    ],
    "levels": {
@@ -11658,7 +11371,7 @@
    "ticker": "SGLY",
    "score": 4.0,
    "price": 0.35,
-   "ext_price": 0.3147,
+   "ext_price": 0.3422,
    "name": "Singularity Future Technology Ltd.",
    "type": [
     "ارتكاز"
@@ -11793,8 +11506,7 @@
    "flags": [
     "توه مدبل: من 0.32 إلى 0.73",
     "شمعة ضخ/تصريف قبل 19 يوم (طار إلى 0.44 وأغلق 0.36 بفوليوم 101x)",
-    "سعر منخفض جداً — سبريد واسع",
-    "نزل في البري تحت الوقف (0.315)"
+    "سعر منخفض جداً — سبريد واسع"
    ],
    "tags": [
     "تقسيم عكسي حديث 1:14 (2026-07-27) — افتتح بعده 3.42 وأعلى سعر 8.65",
@@ -12271,15 +11983,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Micron Reports in December. Here's the 1 Number I'll Be Watching."
+     "The AI Stock Slump Is Crushing Caterpillar. Here’s Why I Like the Stock More Than Ever."
     ],
     [
      "Nov 25, 2026",
-     "Prediction: Here’s What Anthropic’s Valuation Will Be in 2027, According to History"
+     "Vista Energy, S.A.B. de C.V. Reports Share Repurchase of 30,000 Series A Shares"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "NetEase, Inc. Discloses Share Repurchases Under 23 June 2026 Mandate"
     ]
    ],
    "levels": {
@@ -12573,15 +12285,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Micron Reports in December. Here's the 1 Number I'll Be Watching."
+     "Vista Energy, S.A.B. de C.V. Reports Share Repurchase of 30,000 Series A Shares"
     ],
     [
      "Nov 25, 2026",
-     "Prediction: Here’s What Anthropic’s Valuation Will Be in 2027, According to History"
+     "NetEase, Inc. Discloses Share Repurchases Under 23 June 2026 Mandate"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "Bit Digital, Inc. Reduces Secured Borrowings from Galaxy Through Partial Sale of ETH Holdings"
     ]
    ],
    "levels": {
@@ -12864,15 +12576,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Micron Reports in December. Here's the 1 Number I'll Be Watching."
+     "The AI Stock Slump Is Crushing Caterpillar. Here’s Why I Like the Stock More Than Ever."
     ],
     [
      "Nov 25, 2026",
-     "Prediction: Here’s What Anthropic’s Valuation Will Be in 2027, According to History"
+     "Vista Energy, S.A.B. de C.V. Reports Share Repurchase of 30,000 Series A Shares"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "NetEase, Inc. Discloses Share Repurchases Under 23 June 2026 Mandate"
     ]
    ],
    "levels": {
@@ -13754,15 +13466,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Micron Reports in December. Here's the 1 Number I'll Be Watching."
+     "The AI Stock Slump Is Crushing Caterpillar. Here’s Why I Like the Stock More Than Ever."
     ],
     [
      "Nov 25, 2026",
-     "Prediction: Here’s What Anthropic’s Valuation Will Be in 2027, According to History"
+     "Vista Energy, S.A.B. de C.V. Reports Share Repurchase of 30,000 Series A Shares"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "NetEase, Inc. Discloses Share Repurchases Under 23 June 2026 Mandate"
     ]
    ],
    "levels": {

@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-11-25T18:04:51.641265-05:00",
+ "generated_at_et": "2026-11-25T19:05:15.741358-05:00",
  "items": [
   {
    "ticker": "ONCO",
    "score": 12.5,
    "price": 3.1,
-   "ext_price": 3.2,
+   "ext_price": 3.1982,
    "name": "Onconetix, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -22,7 +22,7 @@
      "factor": "1:10",
      "date": "2026-11-06",
      "reverse": true,
-     "days": 19,
+     "days": 20,
      "recent": true,
      "open_after": 5.679999828338623,
      "high_after": 7.820000171661377
@@ -42,15 +42,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Sharply Lower on AI Angst"
+     "Stock Indices Finish Off Their Lows as Dip Buyers Step In"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Slump as Tech Selloff Deepens"
+     "American Tower Corporation Completes Offering of €600.0 million 4.200% Senior Notes due 2031 and €600.0 million 4.500% Senior Notes due 2034"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "Ellomay Capital Ltd. Announces Updates to Proposed Compensation Policy"
     ]
    ],
    "levels": {
@@ -172,7 +172,7 @@
      "factor": "1:24",
      "date": "2026-11-11",
      "reverse": true,
-     "days": 14,
+     "days": 15,
      "recent": true,
      "open_after": 2.9600000381469727,
      "high_after": 3.0
@@ -323,7 +323,7 @@
      "factor": "1:5",
      "date": "2026-11-09",
      "reverse": true,
-     "days": 16,
+     "days": 17,
      "recent": true,
      "open_after": 2.299999952316284,
      "high_after": 2.490000009536743
@@ -471,7 +471,7 @@
      "factor": "1:50",
      "date": "2026-08-18",
      "reverse": true,
-     "days": 99,
+     "days": 100,
      "recent": true,
      "open_after": 4.349999904632568,
      "high_after": 4.880000114440918
@@ -621,7 +621,7 @@
      "factor": "1:20",
      "date": "2026-08-31",
      "reverse": true,
-     "days": 86,
+     "days": 87,
      "recent": true,
      "open_after": 1.340000033378601,
      "high_after": 8.880000114440918
@@ -750,6 +750,158 @@
    ]
   },
   {
+   "ticker": "SCNI",
+   "score": 10.5,
+   "price": 1.69,
+   "ext_price": null,
+   "name": "Scinai Immunotherapeutics Ltd.",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "بعد ارتداد أول — ينتظر Retest",
+    "فلووت منخفض جداً"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 317985,
+    "shares": 657606,
+    "last_split": "عكسي 1:4 (2026-11-19)",
+    "split": {
+     "factor": "1:4",
+     "date": "2026-11-19",
+     "reverse": true,
+     "days": 7,
+     "recent": true,
+     "open_after": 1.4800000190734863,
+     "high_after": 1.7999999523162842
+    },
+    "country_ar": "إسرائيلي",
+    "industry": "Biotechnology",
+    "short_available": null,
+    "runner": {
+     "pct": 1.3076922109544267,
+     "from": 18.200000762939453,
+     "from_date": "2026-04-23",
+     "to": 42.0,
+     "to_date": "2026-04-24",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Nov 5, 2026",
+     "Scinai's Nine-Month Revenue Jumps 167% As CDMO Orders Exceed $8 Mln"
+    ],
+    [
+     "Oct 15, 2026",
+     "Scinai Announces $4 Mln Private Placement And Warrant Inducement; Shares Fall 16% In Premarket Trade"
+    ],
+    [
+     "Aug 24, 2026",
+     "Scinai Turns Profit In H1 Amid Shift To CDMO Operations; Stock Down"
+    ]
+   ],
+   "levels": {
+    "demand_low": 1.56,
+    "demand_high": 1.5756,
+    "orders": [
+     1.57,
+     1.56,
+     1.56
+    ],
+    "critical": 1.13,
+    "stop": 1.12,
+    "risk": 0.2835820895522387,
+    "wash_low": 1.326,
+    "wash_high": 1.404,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 1.559999942779541,
+    "t1": 1.7000000476837158,
+    "t2": 1.7300000190734863
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-25",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "accum",
+     "red"
+    ],
+    "miss": [
+     "ma",
+     "retest",
+     "volume",
+     "candle",
+     "pressure",
+     "target"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.74 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 22 (الحالي 33)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      true,
+      "منطقة 1.56–1.58 لمسها 2 مرات خلال 16 يوم"
+     ],
+     "retest": [
+      false,
+      "كسر الدعم 1.56 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
+     ],
+     "volume": [
+      false,
+      "فوليومها 20K مقابل متوسط شموع البيع 29K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة يومية مو انعكاس"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      false,
+      "هبط 89% من أعلى 90 يوم، والبيع ما ضعف بعد"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      false,
+      "تحت مقاومة مباشرة 1.7 (+8.7%) والخسارة −28.4%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.74 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "اختبار الدعم وفشل الكسر: كسر الدعم 1.56 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)",
+    "فوليوم يتحسن مع الارتداد: فوليومها 20K مقابل متوسط شموع البيع 29K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 1.56–1.58 وفشل كسرها (أو سحب سيولة تحت 1.13 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.25–1.4، ص54)",
+   "flags": [
+    "رفض عند MA20 (ص64)",
+    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:4 (2026-11-19) — افتتح بعده 1.48 وأعلى سعر 1.8",
+    "فلووت 0.32M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 131% من 18.2 (2026-04-23) إلى 42.0 (2026-04-24)"
+   ]
+  },
+  {
    "ticker": "IPW",
    "score": 10.5,
    "price": 1.23,
@@ -769,7 +921,7 @@
      "factor": "1:12",
      "date": "2026-10-26",
      "reverse": true,
-     "days": 30,
+     "days": 31,
      "recent": true,
      "open_after": 2.7699999809265137,
      "high_after": 3.3929998874664307
@@ -918,7 +1070,7 @@
      "factor": "1:5",
      "date": "2026-11-06",
      "reverse": true,
-     "days": 19,
+     "days": 20,
      "recent": true,
      "open_after": 2.0199999809265137,
      "high_after": 2.3980000019073486
@@ -1070,7 +1222,7 @@
      "factor": "1:4",
      "date": "2026-10-30",
      "reverse": true,
-     "days": 26,
+     "days": 27,
      "recent": true,
      "open_after": 2.7200000286102295,
      "high_after": 2.740000009536743
@@ -1198,159 +1350,10 @@
    ]
   },
   {
-   "ticker": "SCNI",
-   "score": 10.0,
-   "price": 1.69,
-   "ext_price": null,
-   "name": "Scinai Immunotherapeutics Ltd.",
-   "type": [
-    "طبي — الخبر يحرّكه",
-    "بعد ارتداد أول — ينتظر Retest",
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 317985,
-    "shares": 657606,
-    "last_split": "عكسي 1:4 (2026-11-19)",
-    "split": {
-     "factor": "1:4",
-     "date": "2026-11-19",
-     "reverse": true,
-     "days": 6,
-     "recent": true
-    },
-    "country_ar": "إسرائيلي",
-    "industry": "Biotechnology",
-    "short_available": null,
-    "runner": {
-     "pct": 1.3084533052881593,
-     "from": 18.194000244140625,
-     "from_date": "2026-04-23",
-     "to": 42.0,
-     "to_date": "2026-04-24",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Nov 5, 2026",
-     "Scinai's Nine-Month Revenue Jumps 167% As CDMO Orders Exceed $8 Mln"
-    ],
-    [
-     "Oct 15, 2026",
-     "Scinai Announces $4 Mln Private Placement And Warrant Inducement; Shares Fall 16% In Premarket Trade"
-    ],
-    [
-     "Aug 24, 2026",
-     "Scinai Turns Profit In H1 Amid Shift To CDMO Operations; Stock Down"
-    ]
-   ],
-   "levels": {
-    "demand_low": 1.5604,
-    "demand_high": 1.576,
-    "orders": [
-     1.57,
-     1.57,
-     1.57
-    ],
-    "critical": 1.13,
-    "stop": 1.12,
-    "risk": 0.286624203821656,
-    "wash_low": 1.3263,
-    "wash_high": 1.4044,
-    "wash_note": "10–15% تحت الدعم (ص54)",
-    "pivot": 1.5604000091552734,
-    "t1": 1.7075999975204468,
-    "t2": 1.7832000255584717
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-25",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
-     "red"
-    ],
-    "miss": [
-     "ma",
-     "retest",
-     "accum",
-     "volume",
-     "candle",
-     "pressure",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.86 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 22 (الحالي 32)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "منطقة 1.56–1.58 لمسها 2 مرات خلال 12 يوم"
-     ],
-     "retest": [
-      false,
-      "كسر الدعم 1.56 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
-     ],
-     "volume": [
-      false,
-      "فوليومها 20K مقابل متوسط شموع البيع 375K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة يومية مو انعكاس"
-     ],
-     "accum": [
-      false,
-      "قاع الاختبار الأخير 1.13 مو أعلى من اللي قبله 1.56، والشموع ما تقلصت"
-     ],
-     "pressure": [
-      false,
-      "هبط 89% من أعلى 90 يوم، والبيع ما ضعف بعد"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 1.71 (+8.8%) والخسارة −28.7%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.86 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "اختبار الدعم وفشل الكسر: كسر الدعم 1.56 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)",
-    "تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.13 مو أعلى من اللي قبله 1.56، والشموع ما تقلصت (ص12/ص13)",
-    "فوليوم يتحسن مع الارتداد: فوليومها 20K مقابل متوسط شموع البيع 375K (ص85/ص86)"
-   ],
-   "ready_when": "اختبار منطقة 1.56–1.58 وفشل كسرها (أو سحب سيولة تحت 1.13 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.25–1.4، ص54)",
-   "flags": [
-    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:4 (2026-11-19)",
-    "فلووت 0.32M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 131% من 18.19 (2026-04-23) إلى 42.0 (2026-04-24)"
-   ]
-  },
-  {
    "ticker": "MYSZ",
    "score": 9.5,
    "price": 0.7216,
-   "ext_price": 0.711,
+   "ext_price": 0.7106,
    "name": "My Size, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -1366,7 +1369,7 @@
      "factor": "1:8",
      "date": "2026-08-13",
      "reverse": true,
-     "days": 104,
+     "days": 105,
      "recent": true,
      "open_after": 3.3399999141693115,
      "high_after": 4.28000020980835
@@ -1511,7 +1514,7 @@
      "factor": "1:100",
      "date": "2026-11-17",
      "reverse": true,
-     "days": 8,
+     "days": 9,
      "recent": true,
      "open_after": 3.0299999713897705,
      "high_after": 3.234999895095825
@@ -1662,7 +1665,7 @@
      "factor": "1:5",
      "date": "2026-07-06",
      "reverse": true,
-     "days": 142,
+     "days": 143,
      "recent": true,
      "open_after": 2.990000009536743,
      "high_after": 5.920000076293945
@@ -1815,7 +1818,7 @@
      "factor": "1:35",
      "date": "2026-08-10",
      "reverse": true,
-     "days": 107,
+     "days": 108,
      "recent": true,
      "open_after": 5.099999904632568,
      "high_after": 17.84000015258789
@@ -1966,7 +1969,7 @@
      "factor": "1:4",
      "date": "2025-09-29",
      "reverse": true,
-     "days": 422,
+     "days": 423,
      "recent": false
     },
     "country_ar": "سنغافوري",
@@ -2110,7 +2113,7 @@
      "factor": "1:5",
      "date": "2026-07-10",
      "reverse": true,
-     "days": 138,
+     "days": 139,
      "recent": true,
      "open_after": 2.180000066757202,
      "high_after": 4.489999771118164
@@ -2254,7 +2257,7 @@
      "factor": "1:10",
      "date": "2026-04-30",
      "reverse": true,
-     "days": 209,
+     "days": 210,
      "recent": true,
      "open_after": 4.380000114440918,
      "high_after": 6.099999904632568
@@ -2403,7 +2406,7 @@
      "factor": "1:24",
      "date": "2026-11-16",
      "reverse": true,
-     "days": 9,
+     "days": 10,
      "recent": true,
      "open_after": 3.799999952316284,
      "high_after": 4.349999904632568
@@ -2553,7 +2556,7 @@
      "factor": "1:12",
      "date": "2026-08-04",
      "reverse": true,
-     "days": 113,
+     "days": 114,
      "recent": true,
      "open_after": 3.0,
      "high_after": 7.480000019073486
@@ -2697,7 +2700,7 @@
      "factor": "1:250",
      "date": "2026-04-06",
      "reverse": true,
-     "days": 233,
+     "days": 234,
      "recent": false,
      "open_after": 2.799999952316284,
      "high_after": 3.549999952316284
@@ -2844,7 +2847,7 @@
      "factor": "1:40",
      "date": "2026-10-29",
      "reverse": true,
-     "days": 27,
+     "days": 28,
      "recent": true,
      "open_after": 4.829999923706055,
      "high_after": 7.980000019073486
@@ -2992,7 +2995,7 @@
      "factor": "1:25",
      "date": "2026-10-30",
      "reverse": true,
-     "days": 26,
+     "days": 27,
      "recent": true,
      "open_after": 1.6399999856948853,
      "high_after": 1.7000000476837158
@@ -3135,7 +3138,7 @@
      "factor": "1:80",
      "date": "2026-11-06",
      "reverse": true,
-     "days": 19,
+     "days": 20,
      "recent": true,
      "open_after": 2.2100000381469727,
      "high_after": 8.319999694824219
@@ -3155,15 +3158,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Sharply Lower on AI Angst"
+     "Stock Indices Finish Off Their Lows as Dip Buyers Step In"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Slump as Tech Selloff Deepens"
+     "American Tower Corporation Completes Offering of €600.0 million 4.200% Senior Notes due 2031 and €600.0 million 4.500% Senior Notes due 2034"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "Ellomay Capital Ltd. Announces Updates to Proposed Compensation Policy"
     ]
    ],
    "levels": {
@@ -3181,7 +3184,7 @@
     "wash_high": 1.629,
     "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 1.809999942779541,
-    "t1": 1.8798999786376953,
+    "t1": 1.839900016784668,
     "t2": 3.01949999332428
    },
    "p86": {
@@ -3245,7 +3248,7 @@
      ],
      "target": [
       false,
-      "تحت مقاومة مباشرة 1.88 (+3.5%) والخسارة −4.2%"
+      "تحت مقاومة مباشرة 1.84 (+1.3%) والخسارة −4.2%"
      ]
     }
    },
@@ -3285,7 +3288,7 @@
      "factor": "1:100",
      "date": "2026-06-29",
      "reverse": true,
-     "days": 149,
+     "days": 150,
      "recent": true,
      "open_after": 7.400000095367432,
      "high_after": 9.920000076293945
@@ -3413,6 +3416,157 @@
    ]
   },
   {
+   "ticker": "NTCL",
+   "score": 8.5,
+   "price": 1.82,
+   "ext_price": null,
+   "name": "NetClass Technology Inc",
+   "type": [
+    "فلووت منخفض جداً",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 92620,
+    "shares": 615000,
+    "last_split": "عكسي 1:10 (2026-11-20)",
+    "split": {
+     "factor": "1:10",
+     "date": "2026-11-20",
+     "reverse": true,
+     "days": 6,
+     "recent": true,
+     "open_after": 1.7450000047683716,
+     "high_after": 2.115000009536743
+    },
+    "country_ar": "سنغافوري",
+    "industry": "Software - Application",
+    "short_available": null,
+    "runner": {
+     "pct": 12.777777777777779,
+     "from": 112.5,
+     "from_date": "2026-05-11",
+     "to": 1550.0,
+     "to_date": "2026-06-10",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Jul 24, 2025",
+     "NetClass Technology Inc. Establishes Wholly Owned Subsidiary in Singapore for AI-Driven Education Solutions Expansion"
+    ],
+    [
+     "Jul 16, 2025",
+     "NetClass Technology INC Secures CNY 3.38 Million Contract for Smart Digital Campus Project at Shanghai East China Model High School"
+    ],
+    [
+     "Jun 23, 2025",
+     "NETCLASS Technology Inc. Partners with Nanyang Institute of Social Sciences to Enhance AI-Powered Education Solutions in Singapore"
+    ]
+   ],
+   "levels": {
+    "demand_low": 1.55,
+    "demand_high": 1.5655,
+    "orders": [
+     1.56,
+     1.56,
+     1.55
+    ],
+    "critical": 1.55,
+    "stop": 1.54,
+    "risk": 0.010706638115631655,
+    "wash_low": 1.3175,
+    "wash_high": 1.395,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 1.5499999523162842,
+    "t1": 1.8300000429153442,
+    "t2": 2.115000009536743
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-25",
+    "met": [
+     "rsi",
+     "macd",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "support",
+     "retest",
+     "accum",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.62 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 15 (الحالي 20)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      false,
+      "منطقة 1.55–1.57 لمسها 1 مرات خلال 3 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع)"
+     ],
+     "retest": [
+      false,
+      "ما صار اختبار ثاني للدعم بعد القاع الأول"
+     ],
+     "volume": [
+      false,
+      "فوليومها 37K مقابل متوسط شموع البيع 84K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة بعيدة عن منطقة الدعم"
+     ],
+     "accum": [
+      false,
+      "ما فيه قاعين للمقارنة بعد، والشموع تتقلص"
+     ],
+     "pressure": [
+      true,
+      "هبط 95% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 1.83 (+17.6%) أكبر من الخسارة −1.1%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.62 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "دعم/قاع واضح: منطقة 1.55–1.57 لمسها 1 مرات خلال 3 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)",
+    "اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)",
+    "تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)"
+   ],
+   "ready_when": "اختبار منطقة 1.55–1.57 وفشل كسرها (أو سحب سيولة تحت 1.55 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.24–1.39، ص54)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 14 يوم (طار إلى 12.6 وأغلق 3.24 بفوليوم 4039x)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:10 (2026-11-20) — افتتح بعده 1.75 وأعلى سعر 2.12",
+    "فلووت 0.09M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 1278% من 112.5 (2026-05-11) إلى 1550.0 (2026-06-10)",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "AIXI",
    "score": 8.5,
    "price": 1.46,
@@ -3432,7 +3586,7 @@
      "factor": "1:7",
      "date": "2026-09-08",
      "reverse": true,
-     "days": 78,
+     "days": 79,
      "recent": true,
      "open_after": 3.259999990463257,
      "high_after": 3.8399999141693115
@@ -3584,7 +3738,7 @@
      "factor": "1:20",
      "date": "2026-11-24",
      "reverse": true,
-     "days": 1,
+     "days": 2,
      "recent": true,
      "open_after": 5.099999904632568,
      "high_after": 5.599999904632568
@@ -3727,7 +3881,7 @@
      "factor": "1:8",
      "date": "2026-11-16",
      "reverse": true,
-     "days": 9,
+     "days": 10,
      "recent": true,
      "open_after": 2.640000104904175,
      "high_after": 2.765000104904175
@@ -3877,7 +4031,7 @@
      "factor": "1:10",
      "date": "2024-07-25",
      "reverse": true,
-     "days": 853,
+     "days": 854,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -4023,7 +4177,7 @@
      "factor": "1:21",
      "date": "2026-06-24",
      "reverse": true,
-     "days": 154,
+     "days": 155,
      "recent": true,
      "open_after": 7.5,
      "high_after": 24.68000030517578
@@ -4175,7 +4329,7 @@
      "factor": "1:20",
      "date": "2025-11-04",
      "reverse": true,
-     "days": 386,
+     "days": 387,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -4321,7 +4475,7 @@
      "factor": "1:20",
      "date": "2026-08-17",
      "reverse": true,
-     "days": 100,
+     "days": 101,
      "recent": true,
      "open_after": 1.4199999570846558,
      "high_after": 1.5700000524520874
@@ -4473,7 +4627,7 @@
      "factor": "1:10",
      "date": "2026-05-26",
      "reverse": true,
-     "days": 183,
+     "days": 184,
      "recent": true,
      "open_after": 3.7899999618530273,
      "high_after": 7.96999979019165
@@ -4605,7 +4759,7 @@
    "ticker": "AIRE",
    "score": 7.5,
    "price": 0.3489,
-   "ext_price": 0.3681,
+   "ext_price": 0.361,
    "name": "reAlpha Tech Corp.",
    "type": [
     "ارتكاز"
@@ -4620,7 +4774,7 @@
      "factor": "1:25",
      "date": "2026-04-30",
      "reverse": true,
-     "days": 209,
+     "days": 210,
      "recent": true,
      "open_after": 3.819999933242798,
      "high_after": 3.9779999256134033
@@ -4766,7 +4920,7 @@
      "factor": "1:12",
      "date": "2025-12-08",
      "reverse": true,
-     "days": 352,
+     "days": 353,
      "recent": false,
      "open_after": 10.800000190734863,
      "high_after": 11.800000190734863
@@ -4915,7 +5069,7 @@
      "factor": "1:30",
      "date": "2026-06-04",
      "reverse": true,
-     "days": 174,
+     "days": 175,
      "recent": true,
      "open_after": 4.309999942779541,
      "high_after": 9.539999961853027
@@ -5070,7 +5224,7 @@
      "factor": "1:4",
      "date": "2026-06-02",
      "reverse": true,
-     "days": 176,
+     "days": 177,
      "recent": true,
      "open_after": 3.6500000953674316,
      "high_after": 26.170000076293945
@@ -5198,7 +5352,7 @@
    "ticker": "ACXP",
    "score": 7.0,
    "price": 0.9925,
-   "ext_price": 1.0497,
+   "ext_price": 1.01,
    "name": "Acurx Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -5213,7 +5367,7 @@
      "factor": "1:20",
      "date": "2025-08-05",
      "reverse": true,
-     "days": 477,
+     "days": 478,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -5342,7 +5496,7 @@
    "ticker": "CJMB",
    "score": 7.0,
    "price": 0.3355,
-   "ext_price": 0.3444,
+   "ext_price": null,
    "name": "Callan JMB Inc.",
    "type": [
     "ارتكاز"
@@ -5499,7 +5653,7 @@
      "factor": "4:10",
      "date": "2026-10-22",
      "reverse": true,
-     "days": 34,
+     "days": 35,
      "recent": true,
      "open_after": 1.159999966621399,
      "high_after": 1.25
@@ -5660,15 +5814,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Sharply Lower on AI Angst"
+     "Stock Indices Finish Off Their Lows as Dip Buyers Step In"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Slump as Tech Selloff Deepens"
+     "American Tower Corporation Completes Offering of €600.0 million 4.200% Senior Notes due 2031 and €600.0 million 4.500% Senior Notes due 2034"
     ],
     [
      "Nov 25, 2026",
-     "3 Concerns I Still Have About Nvidia Stock, Even With Jensen Huang Back as CEO"
+     "Ellomay Capital Ltd. Announces Updates to Proposed Compensation Policy"
     ]
    ],
    "levels": {
@@ -5788,7 +5942,7 @@
      "factor": "1:25",
      "date": "2025-08-08",
      "reverse": true,
-     "days": 474,
+     "days": 475,
      "recent": false
     },
     "country_ar": "سنغافوري",
@@ -5806,15 +5960,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Par Pacific Holdings Stock Getting Very Oversold"
+     "Stock Indices Finish Off Their Lows as Dip Buyers Step In"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Slump as Tech Selloff Deepens"
+     "American Tower Corporation Completes Offering of €600.0 million 4.200% Senior Notes due 2031 and €600.0 million 4.500% Senior Notes due 2034"
     ],
     [
      "Nov 25, 2026",
-     "WEX Inc. Enters into Ninth Amendment to Credit Agreement Refinancing Term Loans"
+     "Ellomay Capital Ltd. Announces Updates to Proposed Compensation Policy"
     ]
    ],
    "levels": {
@@ -5934,7 +6088,7 @@
      "factor": "1:100",
      "date": "2026-06-18",
      "reverse": true,
-     "days": 160,
+     "days": 161,
      "recent": true,
      "open_after": 5.690000057220459,
      "high_after": 5.739999771118164
@@ -6086,7 +6240,7 @@
      "factor": "1:12",
      "date": "2026-06-15",
      "reverse": true,
-     "days": 163,
+     "days": 164,
      "recent": true,
      "open_after": 5.25,
      "high_after": 7.550000190734863
@@ -6235,7 +6389,7 @@
      "factor": "1:25",
      "date": "2025-11-28",
      "reverse": true,
-     "days": 362,
+     "days": 363,
      "recent": false,
      "open_after": 7.050000190734863,
      "high_after": 27.399999618530273
@@ -6370,7 +6524,7 @@
    "ticker": "BBLG",
    "score": 6.5,
    "price": 0.269,
-   "ext_price": 0.2429,
+   "ext_price": 0.2641,
    "name": "Bone Biologics Corporation",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -6387,7 +6541,7 @@
      "factor": "1:6",
      "date": "2025-06-10",
      "reverse": true,
-     "days": 533,
+     "days": 534,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -6535,7 +6689,7 @@
      "factor": "1:150",
      "date": "2026-04-08",
      "reverse": true,
-     "days": 231,
+     "days": 232,
      "recent": false,
      "open_after": 3.0399999618530273,
      "high_after": 3.2100000381469727
@@ -6684,7 +6838,7 @@
      "factor": "1:120",
      "date": "2025-04-10",
      "reverse": true,
-     "days": 594,
+     "days": 595,
      "recent": false
     },
     "country_ar": "سنغافوري",
@@ -6834,7 +6988,7 @@
      "factor": "1:20",
      "date": "2024-07-18",
      "reverse": true,
-     "days": 860,
+     "days": 861,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -7119,7 +7273,7 @@
      "factor": "1:5",
      "date": "2026-04-06",
      "reverse": true,
-     "days": 233,
+     "days": 234,
      "recent": false,
      "open_after": 2.3399999141693115,
      "high_after": 3.5999999046325684
@@ -7271,7 +7425,7 @@
      "factor": "1:12",
      "date": "2023-02-22",
      "reverse": true,
-     "days": 1372,
+     "days": 1373,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -7420,7 +7574,7 @@
      "factor": "1:200",
      "date": "2026-08-03",
      "reverse": true,
-     "days": 114,
+     "days": 115,
      "recent": true,
      "open_after": 3.740000009536743,
      "high_after": 7.670000076293945
@@ -7440,15 +7594,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Sharply Lower on AI Angst"
+     "Stock Indices Finish Off Their Lows as Dip Buyers Step In"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Slump as Tech Selloff Deepens"
+     "American Tower Corporation Completes Offering of €600.0 million 4.200% Senior Notes due 2031 and €600.0 million 4.500% Senior Notes due 2034"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks"
+     "Ellomay Capital Ltd. Announces Updates to Proposed Compensation Policy"
     ]
    ],
    "levels": {
@@ -7573,7 +7727,7 @@
      "factor": "1:10",
      "date": "2025-03-25",
      "reverse": true,
-     "days": 610,
+     "days": 611,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -7864,7 +8018,7 @@
      "factor": "1:25",
      "date": "2026-06-01",
      "reverse": true,
-     "days": 177,
+     "days": 178,
      "recent": true,
      "open_after": 3.5199999809265137,
      "high_after": 7.150000095367432
@@ -8014,7 +8168,7 @@
      "factor": "1:10",
      "date": "2026-01-05",
      "reverse": true,
-     "days": 324,
+     "days": 325,
      "recent": false,
      "open_after": 2.572999954223633,
      "high_after": 5.380000114440918
@@ -8164,7 +8318,7 @@
      "factor": "1:5",
      "date": "2026-07-22",
      "reverse": true,
-     "days": 126,
+     "days": 127,
      "recent": true,
      "open_after": 2.640000104904175,
      "high_after": 3.6700000762939453
@@ -8316,7 +8470,7 @@
      "factor": "1:12",
      "date": "2026-02-13",
      "reverse": true,
-     "days": 285,
+     "days": 286,
      "recent": false,
      "open_after": 2.630000114440918,
      "high_after": 8.600000381469727
@@ -8468,7 +8622,7 @@
      "factor": "1:15",
      "date": "2026-03-30",
      "reverse": true,
-     "days": 240,
+     "days": 241,
      "recent": false,
      "open_after": 4.309999942779541,
      "high_after": 7.940000057220459
@@ -8617,7 +8771,7 @@
      "factor": "1:20",
      "date": "2024-09-05",
      "reverse": true,
-     "days": 811,
+     "days": 812,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -8763,7 +8917,7 @@
      "factor": "1:100",
      "date": "2025-09-02",
      "reverse": true,
-     "days": 449,
+     "days": 450,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -8909,7 +9063,7 @@
      "factor": "1:200",
      "date": "2026-08-18",
      "reverse": true,
-     "days": 99,
+     "days": 100,
      "recent": true,
      "open_after": 4.25,
      "high_after": 6.420000076293945
@@ -9054,7 +9208,7 @@
      "factor": "1:20",
      "date": "2026-06-08",
      "reverse": true,
-     "days": 170,
+     "days": 171,
      "recent": true,
      "open_after": 5.920000076293945,
      "high_after": 6.284999847412109
@@ -9204,7 +9358,7 @@
      "factor": "1:10",
      "date": "2026-04-17",
      "reverse": true,
-     "days": 222,
+     "days": 223,
      "recent": false,
      "open_after": 2.200000047683716,
      "high_after": 4.811999797821045
@@ -9356,7 +9510,7 @@
      "factor": "1:20",
      "date": "2026-11-18",
      "reverse": true,
-     "days": 7,
+     "days": 8,
      "recent": true,
      "open_after": 1.6970000267028809,
      "high_after": 1.75
@@ -9376,15 +9530,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Sharply Lower on AI Angst"
+     "Stock Indices Finish Off Their Lows as Dip Buyers Step In"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Slump as Tech Selloff Deepens"
+     "American Tower Corporation Completes Offering of €600.0 million 4.200% Senior Notes due 2031 and €600.0 million 4.500% Senior Notes due 2034"
     ],
     [
      "Nov 25, 2026",
-     "3 Concerns I Still Have About Nvidia Stock, Even With Jensen Huang Back as CEO"
+     "Ellomay Capital Ltd. Announces Updates to Proposed Compensation Policy"
     ]
    ],
    "levels": {
@@ -9509,7 +9663,7 @@
      "factor": "1:50",
      "date": "2025-06-03",
      "reverse": true,
-     "days": 540,
+     "days": 541,
      "recent": false
     },
     "country_ar": "صيني (هونغ كونغ)",
@@ -9795,7 +9949,7 @@
      "factor": "1:4",
      "date": "2026-08-31",
      "reverse": true,
-     "days": 86,
+     "days": 87,
      "recent": true,
      "open_after": 2.2100000381469727,
      "high_after": 9.739999771118164
@@ -10356,7 +10510,7 @@
      "factor": "1:50",
      "date": "2026-08-10",
      "reverse": true,
-     "days": 107,
+     "days": 108,
      "recent": true,
      "open_after": 2.2699999809265137,
      "high_after": 6.079999923706055
@@ -10645,7 +10799,7 @@
      "factor": "1:8",
      "date": "2026-04-28",
      "reverse": true,
-     "days": 211,
+     "days": 212,
      "recent": false,
      "open_after": 3.6600000858306885,
      "high_after": 3.809999942779541
@@ -10792,7 +10946,7 @@
      "factor": "1:10",
      "date": "2026-11-16",
      "reverse": true,
-     "days": 9,
+     "days": 10,
      "recent": true,
      "open_after": 1.5099999904632568,
      "high_after": 1.899999976158142
@@ -10812,15 +10966,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Sharply Lower on AI Angst"
+     "Stock Indices Finish Off Their Lows as Dip Buyers Step In"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Slump as Tech Selloff Deepens"
+     "American Tower Corporation Completes Offering of €600.0 million 4.200% Senior Notes due 2031 and €600.0 million 4.500% Senior Notes due 2034"
     ],
     [
      "Nov 25, 2026",
-     "3 Concerns I Still Have About Nvidia Stock, Even With Jensen Huang Back as CEO"
+     "Ellomay Capital Ltd. Announces Updates to Proposed Compensation Policy"
     ]
    ],
    "levels": {
@@ -10945,7 +11099,7 @@
      "factor": "1:20",
      "date": "2025-08-06",
      "reverse": true,
-     "days": 476,
+     "days": 477,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -11093,7 +11247,7 @@
      "factor": "1:20",
      "date": "2023-10-23",
      "reverse": true,
-     "days": 1129,
+     "days": 1130,
      "recent": false
     },
     "country_ar": "سويسري",
@@ -11381,7 +11535,7 @@
      "factor": "1:70",
      "date": "2024-08-02",
      "reverse": true,
-     "days": 845,
+     "days": 846,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -11530,7 +11684,7 @@
      "factor": "1:15",
      "date": "2025-06-10",
      "reverse": true,
-     "days": 533,
+     "days": 534,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -11693,15 +11847,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Sharply Lower on AI Angst"
+     "Stock Indices Finish Off Their Lows as Dip Buyers Step In"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Slump as Tech Selloff Deepens"
+     "American Tower Corporation Completes Offering of €600.0 million 4.200% Senior Notes due 2031 and €600.0 million 4.500% Senior Notes due 2034"
     ],
     [
      "Nov 25, 2026",
-     "3 Concerns I Still Have About Nvidia Stock, Even With Jensen Huang Back as CEO"
+     "Ellomay Capital Ltd. Announces Updates to Proposed Compensation Policy"
     ]
    ],
    "levels": {
@@ -11977,15 +12131,15 @@
    "news": [
     [
      "Nov 25, 2026",
-     "Stocks Sharply Lower on AI Angst"
+     "Stock Indices Finish Off Their Lows as Dip Buyers Step In"
     ],
     [
      "Nov 25, 2026",
-     "Stocks Slump as Tech Selloff Deepens"
+     "American Tower Corporation Completes Offering of €600.0 million 4.200% Senior Notes due 2031 and €600.0 million 4.500% Senior Notes due 2034"
     ],
     [
      "Nov 25, 2026",
-     "3 Concerns I Still Have About Nvidia Stock, Even With Jensen Huang Back as CEO"
+     "Ellomay Capital Ltd. Announces Updates to Proposed Compensation Policy"
     ]
    ],
    "levels": {
@@ -12109,7 +12263,7 @@
      "factor": "1:100",
      "date": "2025-11-14",
      "reverse": true,
-     "days": 376,
+     "days": 377,
      "recent": false
     },
     "country_ar": "أمريكي",
@@ -12392,7 +12546,7 @@
      "factor": "1:14",
      "date": "2026-07-27",
      "reverse": true,
-     "days": 121,
+     "days": 122,
      "recent": true,
      "open_after": 3.4200000762939453,
      "high_after": 8.649999618530273

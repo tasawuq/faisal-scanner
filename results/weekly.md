@@ -1,11 +1,11 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-26T06:02 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-26T07:03 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $ONCO — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 3.1 | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2026-11-06) افتتاح 5.68 - اعلى 7.82 - الشورت المتاح: غير متوفر - فلوت 0.82M - عدد الأسهم 0.82M - سبق صعد من 220.0 (2026-03-09) إلى 673.0 (2026-03-27) +206%
-- الأخبار: The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold (Nov 26, 2026) | Tandem Diabetes: FDA Flags Serious Insulin Pump Recall Over False Occlusion Alarms (Nov 26, 2026) | Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026)
+- الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026) | Should You Buy Anthropic Stock After Its IPO? Here’s What History Says About Record-Breaking Debuts. (Nov 26, 2026) | Cathie Wood and Philippe Laffont Are on Opposite Sides of AMD Stock. Here's Who I Think Is Right. (Nov 26, 2026)
 - منطقة الطلب 2.76–2.85 | طلبات Limit: 2.84 / 2.8 / 2.76 | الخروج: إغلاق يومي تحت 2.76 | الأهداف 3.15 / 3.21 | منطقة أعمق (غسل) 2.346–2.484
 - شروط ص86 (يومي): 9/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.15 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 40) (ص65/ص86)
@@ -208,7 +208,7 @@
 ## $NWGL — فلووت منخفض جداً / قاع نظيف
 - السعر 1.79 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: Macau - Lumber & Wood Production - قسم 1:80 (2026-11-06) افتتاح 2.21 - اعلى 8.32 - الشورت المتاح: غير متوفر - فلوت 0.10M - عدد الأسهم 0.56M - سبق صعد من 27.76 (2026-08-18) إلى 158.4 (2026-09-15) +471%
-- الأخبار: The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold (Nov 26, 2026) | Tandem Diabetes: FDA Flags Serious Insulin Pump Recall Over False Occlusion Alarms (Nov 26, 2026) | Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026)
+- الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026) | Should You Buy Anthropic Stock After Its IPO? Here’s What History Says About Record-Breaking Debuts. (Nov 26, 2026) | Cathie Wood and Philippe Laffont Are on Opposite Sides of AMD Stock. Here's Who I Think Is Right. (Nov 26, 2026)
 - منطقة الطلب 1.81–1.828 | طلبات Limit: 1.82 / 1.82 / 1.81 | الخروج: إغلاق يومي تحت 1.75 | الأهداف 1.88 / 3.019 | منطقة أعمق (غسل) 1.538–1.629
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.02 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 1.81 (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.75 مو أعلى من اللي قبله 1.81، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 66K مقابل متوسط شموع البيع 146K (ص85/ص86)
@@ -375,7 +375,7 @@
 ## $SSM — فلووت منخفض جداً / قاع نظيف
 - السعر 0.726 | ارتداد مؤكد من الدعم
 - البيانات: ألماني - Auto Manufacturers - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.58M - عدد الأسهم 3.72M - سبق صعد من 1.05 (2026-09-25) إلى 3.09 (2026-10-02) +194%
-- الأخبار: The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold (Nov 26, 2026) | Tandem Diabetes: FDA Flags Serious Insulin Pump Recall Over False Occlusion Alarms (Nov 26, 2026) | Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026)
+- الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026) | Should You Buy Anthropic Stock After Its IPO? Here’s What History Says About Record-Breaking Debuts. (Nov 26, 2026) | Cathie Wood and Philippe Laffont Are on Opposite Sides of AMD Stock. Here's Who I Think Is Right. (Nov 26, 2026)
 - منطقة الطلب 0.647–0.6535 | طلبات Limit: 0.6534 / 0.6502 / 0.6471 | الخروج: إغلاق يومي تحت 0.647 | الأهداف 0.762 / 0.79 | منطقة أعمق (غسل) 0.55–0.5823
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.869 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 36) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)
@@ -384,7 +384,7 @@
 ## $HTCO — فلووت منخفض جداً
 - السعر 1.15 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: سنغافوري - Marine Shipping - قسم 1:25 (2025-08-08) - الشورت المتاح: غير متوفر - فلوت 4.19M - عدد الأسهم 8.96M - سبق صعد من 6.1 (2026-04-06) إلى 56.59 (2026-04-27) +828%
-- الأخبار: The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold (Nov 26, 2026) | Tandem Diabetes: FDA Flags Serious Insulin Pump Recall Over False Occlusion Alarms (Nov 26, 2026) | Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026)
+- الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026) | Should You Buy Anthropic Stock After Its IPO? Here’s What History Says About Record-Breaking Debuts. (Nov 26, 2026) | Cathie Wood and Philippe Laffont Are on Opposite Sides of AMD Stock. Here's Who I Think Is Right. (Nov 26, 2026)
 - منطقة الطلب 1.02–1.03 | طلبات Limit: 1.03 / 1.02 / 1.02 | الخروج: إغلاق يومي تحت 1.02 | الأهداف 1.17 / 1.23 | منطقة أعمق (غسل) 0.891–0.918
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، MACD يتحسن أو تقاطع، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.43 فوق السعر) (ص66/ص82/ص84/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.02 أعلى من اللي قبله 0.9، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 38K مقابل متوسط شموع البيع 149K (ص85/ص86)
@@ -620,7 +620,7 @@
 ## $MKDW — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 1.4 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: تايواني - Auto Parts - قسم 1:20 (2026-11-18) افتتاح 1.7 - اعلى 1.75 - الشورت المتاح: غير متوفر - فلوت 1.66M - عدد الأسهم 1.82M - سبق صعد من 0.075 (2026-11-16) إلى 1.75 (2026-11-18) +2233%
-- الأخبار: The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold (Nov 26, 2026) | Tandem Diabetes: FDA Flags Serious Insulin Pump Recall Over False Occlusion Alarms (Nov 26, 2026) | Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026)
+- الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026) | Deutsche Bank Projects Broadly Constructive Capital Market Environment In 2027 (Nov 26, 2026) | Should You Buy Anthropic Stock After Its IPO? Here’s What History Says About Record-Breaking Debuts. (Nov 26, 2026)
 - منطقة الطلب 1.36–1.374 | طلبات Limit: 1.37 / 1.37 / 1.37 | الخروج: إغلاق يومي تحت 0.075 | الأهداف 1.409 / 1.52 | منطقة أعمق (غسل) 1.156–1.224
 - شروط ص86 (يومي): 6/11 — ناقص: اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، ما فيه شموع حمراء طويلة قرب القاع، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: كسر الدعم 1.36 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 54K مقابل متوسط شموع البيع 933K (ص85/ص86)؛ ما فيه شموع حمراء طويلة قرب القاع: شمعة حمراء طويلة 2026-11-23 عند القاع (ص88)
@@ -717,7 +717,7 @@
 ## $YMT — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest
 - السعر 1.042 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: صيني - Software - Application - قسم 1:10 (2026-11-16) افتتاح 1.51 - اعلى 1.9 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 2.53M - سبق صعد من 0.14 (2026-11-13) إلى 1.9 (2026-11-16) +1257%
-- الأخبار: The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold (Nov 26, 2026) | Tandem Diabetes: FDA Flags Serious Insulin Pump Recall Over False Occlusion Alarms (Nov 26, 2026) | Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026)
+- الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026) | Deutsche Bank Projects Broadly Constructive Capital Market Environment In 2027 (Nov 26, 2026) | Should You Buy Anthropic Stock After Its IPO? Here’s What History Says About Record-Breaking Debuts. (Nov 26, 2026)
 - منطقة الطلب 1.065–1.076 | طلبات Limit: 1.07 / 1.07 / 1.07 | الخروج: إغلاق يومي تحت 0.97 | الأهداف 1.1 / 1.15 | منطقة أعمق (غسل) 0.9053–0.9585
 - شروط ص86 (يومي): 7/11 — ناقص: اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 1.07 (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 26K مقابل متوسط شموع البيع 690K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية أغلقت تحت الدعم (ص82/ص86)؛ محفز أو هدف علوي: تحت مقاومة مباشرة 1.1 (+2.8%) والخسارة −9.4% (ص66/ص84/ص88)
@@ -766,7 +766,7 @@
 ## $CABR — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 0.56 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: أمريكي - Drug Manufacturers - Specialty & Generic - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.48M - عدد الأسهم 11.5M
-- الأخبار: The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold (Nov 26, 2026) | Tandem Diabetes: FDA Flags Serious Insulin Pump Recall Over False Occlusion Alarms (Nov 26, 2026) | Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026)
+- الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026) | Deutsche Bank Projects Broadly Constructive Capital Market Environment In 2027 (Nov 26, 2026) | Should You Buy Anthropic Stock After Its IPO? Here’s What History Says About Record-Breaking Debuts. (Nov 26, 2026)
 - منطقة الطلب 0.6–0.612 | طلبات Limit: 0.6119 / 0.606 / 0.6001 | الخروج: إغلاق يومي تحت 0.56 | الأهداف 0.655 / 0.706 | منطقة أعمق (غسل) 0.51–0.54
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8377 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 31) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 0.6 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)
@@ -816,7 +816,7 @@
 ## $FRTT — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 0.44 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: كندي - Household & Personal Products - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.33M - عدد الأسهم 15.2M - سبق صعد من 0.38 (2026-11-13) إلى 0.93 (2026-11-18) +145%
-- الأخبار: The Nasdaq Fell Below Correction Territory: 2 Beaten-Down Nasdaq Stocks to Buy and Hold (Nov 26, 2026) | Tandem Diabetes: FDA Flags Serious Insulin Pump Recall Over False Occlusion Alarms (Nov 26, 2026) | Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026)
+- الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 26, 2026) | Deutsche Bank Projects Broadly Constructive Capital Market Environment In 2027 (Nov 26, 2026) | Should You Buy Anthropic Stock After Its IPO? Here’s What History Says About Record-Breaking Debuts. (Nov 26, 2026)
 - منطقة الطلب 0.4–0.404 | طلبات Limit: 0.404 / 0.402 / 0.4001 | الخروج: إغلاق يومي تحت 0.4 | الأهداف 0.46 / 0.4875 | منطقة أعمق (غسل) 0.3762–0.3876
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.4875 فوق السعر) (ص66/ص82/ص84/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.4 أعلى من اللي قبله 0.38، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 178K مقابل متوسط شموع البيع 824K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)

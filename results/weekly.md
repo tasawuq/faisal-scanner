@@ -1,9 +1,9 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T08:02 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T09:02 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $ONCO — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 3.1 (بري/أفتر 3.11) | ارتداد مؤكد من الدعم
+- السعر 3.1 (بري/أفتر 3.12) | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2026-11-06) افتتاح 5.68 - اعلى 7.82 - الشورت المتاح: غير متوفر - فلوت 0.82M - عدد الأسهم 0.82M - سبق صعد من 220.0 (2026-03-09) إلى 673.0 (2026-03-27) +206%
 - الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 27, 2026) | Is Meta Stock a Buy as Amazon Reportedly Weighs Letting Its AI Shopping Agent Back In? (Nov 27, 2026) | Prediction: These Will Be Anthropic’s and SpaceX’s Stock Prices by the End of 2027 (Hint: Both Are Buys) (Nov 27, 2026)
 - منطقة الطلب 2.76–2.85 | طلبات Limit: 2.84 / 2.8 / 2.76 | الخروج: إغلاق يومي تحت 2.76 | الأهداف 3.15 / 3.21 | منطقة أعمق (غسل) 2.346–2.484
@@ -80,7 +80,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $MYSZ — فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.722 (بري/أفتر 0.6743) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 0.722 (بري/أفتر 0.749) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: إسرائيلي - Apparel Retail - قسم 1:8 (2026-08-13) افتتاح 3.34 - اعلى 4.28 - الشورت المتاح: غير متوفر - فلوت 1.06M - عدد الأسهم 1.31M
 - الأخبار: My Size, Inc. Regains Compliance With Nasdaq Minimum Stockholders’ Equity Requirement (Nov 23, 2026) | My Size, Inc. Reports Nine-Month 2026 Revenue of $7.32 million (Nov 20, 2026) | My Size, Inc. Announces Departure of Chief Growth Officer Borja Cembrero Saralegui Effective October 31, 2026 (Oct 26, 2026)
 - منطقة الطلب 0.7007–0.7221 | طلبات Limit: 0.7221 / 0.7114 / 0.7007 | الخروج: إغلاق يومي تحت 0.65 | الأهداف 0.75 / 0.7827 | منطقة أعمق (غسل) 0.6098–0.6283
@@ -119,7 +119,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $ORKT — فلووت منخفض جداً / نموذج W
-- السعر 1 (بري/أفتر 1.1) | نموذج W قيد التكوين
+- السعر 1 (بري/أفتر 1.07) | نموذج W قيد التكوين
 - البيانات: سنغافوري - Software - Application - قسم 1:4 (2025-09-29) - الشورت المتاح: غير متوفر - فلوت 1.95M - عدد الأسهم 5.02M - سبق صعد من 0.617 (2025-12-30) إلى 1.77 (2026-01-30) +187%
 - الأخبار: Orangekloud Technology (ORKT) Price Target Increased by 300.00% to 20.40 (Sep 29, 2025) | Maxim Group Initiates Coverage of Orangekloud Technology (ORKT) with Buy Recommendation (Jan 31, 2025) | Orangekloud Technology Inc. Announces Beta Launch of eMOBIQ® AI Platform to Transform Application Development (Jan 16, 2025)
 - منطقة الطلب 0.826–0.8976 | طلبات Limit: 0.8975 / 0.8618 / 0.826 | الخروج: إغلاق يومي تحت 0.826 | الأهداف 1.01 / 1.03 | منطقة أعمق (غسل) 0.792–0.8136
@@ -227,7 +227,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $SGRX — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
-- السعر 2.38 (بري/أفتر 2.41) | ارتداد مؤكد من الدعم
+- السعر 2.38 (بري/أفتر 2.51) | ارتداد مؤكد من الدعم
 - البيانات: سنغافوري - Information Technology Services - قسم 1:8 (2026-11-16) افتتاح 2.64 - اعلى 2.77 - الشورت المتاح: غير متوفر - فلوت 0.09M - عدد الأسهم 0.50M - سبق صعد من 0.3 (2026-11-06) إلى 2.77 (2026-11-17) +822%
 - الأخبار: Bit Origin To Implement 1-For-5 Reverse Stock Split To Meet Nasdaq Requirements (Aug 19, 2026) | Bit Origin Ltd Announces Initial Purchase of 40.5 Million DOGE as Part of Digital Asset Treasury Initiative (Jul 21, 2025) | Bit Origin Ltd Becomes First Publicly Listed Company to Establish Dogecoin Treasury Strategy on Major US Exchange (Jul 17, 2025)
 - منطقة الطلب 2.16–2.182 | طلبات Limit: 2.18 / 2.17 / 2.17 | الخروج: إغلاق يومي تحت 2.16 | الأهداف 2.4 / 2.6 | منطقة أعمق (غسل) 1.836–1.944
@@ -237,7 +237,7 @@
 - ⚠️ توه مدبل: من 0.3 إلى 2.77، شمعة ضخ/تصريف قبل 13 يوم (طار إلى 1.03 وأغلق 0.756 بفوليوم 276x)
 
 ## $SNES — فلووت منخفض جداً
-- السعر 0.65 (بري/أفتر 0.7207) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.65 (بري/أفتر 0.6901) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Specialty Chemicals - قسم 1:10 (2024-07-25) - الشورت المتاح: غير متوفر - فلوت 3.80M - عدد الأسهم 6.82M - سبق صعد من 0.55 (2026-10-16) إلى 1.33 (2026-11-03) +142%
 - الأخبار: SenesTech, Inc. Appoints JoAnna Abrams to Board of Directors on November 16, 2026 (Nov 17, 2026) | SenesTech (SNES) Q3 2026 Earnings Call Transcript (Nov 10, 2026) | SenesTech Consensus Price Target Increased by 11.11% to $7.65 (Nov 2, 2026)
 - منطقة الطلب 0.625–0.6312 | طلبات Limit: 0.6312 / 0.6281 / 0.625 | الخروج: إغلاق يومي تحت 0.624 | الأهداف 0.683 / 0.7 | منطقة أعمق (غسل) 0.5445–0.561
@@ -324,7 +324,7 @@
 - ⚠️ توه مدبل: من 0.32 إلى 0.73، شمعة ضخ/تصريف قبل 20 يوم (طار إلى 0.44 وأغلق 0.36 بفوليوم 101x)، سعر منخفض جداً — سبريد واسع
 
 ## $ACXP — طبي — الخبر يحرّكه
-- السعر 0.993 (بري/أفتر 1.06) | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.993 (بري/أفتر 1.08) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Biotechnology - قسم 1:20 (2025-08-05) - الشورت المتاح: غير متوفر - فلوت 5.93M - عدد الأسهم 6.06M - سبق صعد من 1.33 (2026-03-06) إلى 7.54 (2026-03-19) +469%
 - الأخبار: Acurx Pharmaceuticals, Inc. Announces Passing of Director Thomas Harrison (Nov 20, 2026) | Acurx Pharma (ACXP) Q3 2026 Earnings Call Transcript (Nov 12, 2026) | Acurx Pharmaceuticals Q3 Loss Widens To $2.6 Mln; Begins Enrollment In PATHFINDER CDI Trial (Nov 12, 2026)
 - منطقة الطلب 0.946–0.9555 | طلبات Limit: 0.9554 / 0.9507 / 0.946 | الخروج: إغلاق يومي تحت 0.942 | الأهداف 1.017 / 1.051 | منطقة أعمق (غسل) 0.891–0.918
@@ -390,7 +390,7 @@
 - متى يكون جاهزاً: اختبار منطقة 2.06–2.08 وفشل كسرها (أو سحب سيولة تحت 1.87 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.65–1.85، ص54)
 
 ## $PMN — طبي — الخبر يحرّكه / فلووت منخفض جداً
-- السعر 3.2 (بري/أفتر 3.21) | ارتداد مؤكد من الدعم
+- السعر 3.2 (بري/أفتر 3.27) | ارتداد مؤكد من الدعم
 - البيانات: كندي - Biotechnology - قسم 1:25 (2025-11-28) افتتاح 7.05 - اعلى 27.4 - الشورت المتاح: غير متوفر - فلوت 3.91M - عدد الأسهم 9.00M - سبق صعد من 6.62 (2025-12-31) إلى 19.85 (2026-01-30) +200%
 - الأخبار: ProMIS Licenses TXP1 From Ossianix To Deliver Alzheimer's & Parkinson's Therapies To Brain (Nov 17, 2026) | ProMIS (PMN) Q3 2026 Earnings Call Transcript (Nov 13, 2026) | ProMIS Neurosciences, Inc. Updates Corporate Presentation, Projects Cash Runway Through 2027 (Nov 13, 2026)
 - منطقة الطلب 2.98–3.01 | طلبات Limit: 3 / 3 / 2.99 | الخروج: إغلاق يومي تحت 2.98 | الأهداف 3.23 / 3.59 | منطقة أعمق (غسل) 2.752–2.836
@@ -400,7 +400,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 17 يوم (طار إلى 4.5 وأغلق 3 بفوليوم 93x)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $BBLG — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 0.269 (بري/أفتر 0.2701) | سحب سيولة ثم استرداد الدعم
+- السعر 0.269 (بري/أفتر 0.2611) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:6 (2025-06-10) - الشورت المتاح: غير متوفر - فلوت 3.10M - عدد الأسهم 3.39M
 - الأخبار: Bone Biologics Extends RhNELL-1 Shelf Life To 32 Months, Strengthening Study Readiness; Stock Down (Aug 12, 2026) | Bone Biologics Prices Up To $9 Mln Private Placement Of Shares And Warrants;Stock Up (Jul 8, 2026) | Bone Biologics Prices $5 Mln Public Offering With Warrants At $4 Per Share (Jun 27, 2025)
 - منطقة الطلب 0.261–0.2636 | طلبات Limit: 0.2636 / 0.2623 / 0.2611 | الخروج: إغلاق يومي تحت 0.24 | الأهداف 0.285 / 0.317 | منطقة أعمق (غسل) 0.2219–0.2349

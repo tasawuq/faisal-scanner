@@ -1,9 +1,9 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T15:03 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T16:03 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $ONCO — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 2.97 | ارتداد مؤكد من الدعم
+- السعر 2.97 (بري/أفتر 2.97) | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2026-11-06) افتتاح 5.68 - اعلى 7.82 - الشورت المتاح: غير متوفر - فلوت 0.82M - عدد الأسهم 0.82M - سبق صعد من 220.0 (2026-03-09) إلى 673.0 (2026-03-27) +206%
 - الأخبار: Navitas Semiconductor Corporation Enters Into Patent Assignment Agreement (Nov 27, 2026) | Tiziana Life Sciences Files Updated Foralumab Annual Safety Report with FDA Confirming Favorable Safety and Tolerability Profile (Nov 27, 2026) | FinVolution Group Reports Third Quarter 2026 Unaudited Financial Results (Nov 27, 2026)
 - منطقة الطلب 2.76–2.85 | طلبات Limit: 2.84 / 2.8 / 2.76 | الخروج: إغلاق يومي تحت 2.76 | الأهداف 3.15 / 3.21 | منطقة أعمق (غسل) 2.346–2.484
@@ -51,7 +51,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $MYSZ — فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.7587 | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 0.7587 (بري/أفتر 0.76) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: إسرائيلي - Apparel Retail - قسم 1:8 (2026-08-13) افتتاح 3.34 - اعلى 4.28 - الشورت المتاح: غير متوفر - فلوت 1.06M - عدد الأسهم 1.31M
 - الأخبار: My Size, Inc. Regains Compliance With Nasdaq Minimum Stockholders’ Equity Requirement (Nov 23, 2026) | My Size, Inc. Reports Nine-Month 2026 Revenue of $7.32 million (Nov 20, 2026) | My Size, Inc. Announces Departure of Chief Growth Officer Borja Cembrero Saralegui Effective October 31, 2026 (Oct 26, 2026)
 - منطقة الطلب 0.7007–0.7221 | طلبات Limit: 0.7221 / 0.7114 / 0.7007 | الخروج: إغلاق يومي تحت 0.65 | الأهداف 0.75 / 0.7827 | منطقة أعمق (غسل) 0.6098–0.6283
@@ -80,7 +80,7 @@
 - ⚠️ رفض عند MA20 (ص64)، اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $ORKT — فلووت منخفض جداً / نموذج W
-- السعر 1 | نموذج W قيد التكوين
+- السعر 1 (بري/أفتر 0.9506) | نموذج W قيد التكوين
 - البيانات: سنغافوري - Software - Application - قسم 1:4 (2025-09-29) - الشورت المتاح: غير متوفر - فلوت 1.95M - عدد الأسهم 5.02M - سبق صعد من 0.617 (2025-12-30) إلى 1.77 (2026-01-30) +187%
 - الأخبار: Orangekloud Technology (ORKT) Price Target Increased by 300.00% to 20.40 (Sep 29, 2025) | Maxim Group Initiates Coverage of Orangekloud Technology (ORKT) with Buy Recommendation (Jan 31, 2025) | Orangekloud Technology Inc. Announces Beta Launch of eMOBIQ® AI Platform to Transform Application Development (Jan 16, 2025)
 - منطقة الطلب 0.826–0.8976 | طلبات Limit: 0.8975 / 0.8618 / 0.826 | الخروج: إغلاق يومي تحت 0.826 | الأهداف 1.01 / 1.03 | منطقة أعمق (غسل) 0.792–0.8136
@@ -188,7 +188,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $SGRX — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
-- السعر 2.3 | ارتداد مؤكد من الدعم
+- السعر 2.3 (بري/أفتر 2.51) | ارتداد مؤكد من الدعم
 - البيانات: سنغافوري - Information Technology Services - قسم 1:8 (2026-11-16) افتتاح 2.64 - اعلى 2.77 - الشورت المتاح: غير متوفر - فلوت 0.09M - عدد الأسهم 0.50M - سبق صعد من 0.3 (2026-11-06) إلى 2.77 (2026-11-17) +822%
 - الأخبار: Bit Origin To Implement 1-For-5 Reverse Stock Split To Meet Nasdaq Requirements (Aug 19, 2026) | Bit Origin Ltd Announces Initial Purchase of 40.5 Million DOGE as Part of Digital Asset Treasury Initiative (Jul 21, 2025) | Bit Origin Ltd Becomes First Publicly Listed Company to Establish Dogecoin Treasury Strategy on Major US Exchange (Jul 17, 2025)
 - منطقة الطلب 2.16–2.182 | طلبات Limit: 2.18 / 2.17 / 2.17 | الخروج: إغلاق يومي تحت 2.16 | الأهداف 2.4 / 2.6 | منطقة أعمق (غسل) 1.836–1.944
@@ -198,7 +198,7 @@
 - ⚠️ توه مدبل: من 0.3 إلى 2.77، شمعة ضخ/تصريف قبل 13 يوم (طار إلى 1.03 وأغلق 0.756 بفوليوم 276x)
 
 ## $SNES — فلووت منخفض جداً
-- السعر 0.715 | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.715 (بري/أفتر 0.6708) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Specialty Chemicals - قسم 1:10 (2024-07-25) - الشورت المتاح: غير متوفر - فلوت 3.80M - عدد الأسهم 6.82M - سبق صعد من 0.55 (2026-10-16) إلى 1.33 (2026-11-03) +142%
 - الأخبار: SenesTech, Inc. Appoints JoAnna Abrams to Board of Directors on November 16, 2026 (Nov 17, 2026) | SenesTech (SNES) Q3 2026 Earnings Call Transcript (Nov 10, 2026) | SenesTech Consensus Price Target Increased by 11.11% to $7.65 (Nov 2, 2026)
 - منطقة الطلب 0.625–0.6312 | طلبات Limit: 0.6312 / 0.6281 / 0.625 | الخروج: إغلاق يومي تحت 0.624 | الأهداف 0.683 / 0.7 | منطقة أعمق (غسل) 0.5445–0.561
@@ -265,7 +265,7 @@
 - متى يكون جاهزاً: اختبار منطقة 1.6–1.62 وفشل كسرها (أو سحب سيولة تحت 1.43 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.28–1.44، ص54)
 
 ## $ACXP — طبي — الخبر يحرّكه
-- السعر 1.02 | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 1.02 (بري/أفتر 1.03) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Biotechnology - قسم 1:20 (2025-08-05) - الشورت المتاح: غير متوفر - فلوت 5.93M - عدد الأسهم 6.06M - سبق صعد من 1.33 (2026-03-06) إلى 7.54 (2026-03-19) +469%
 - الأخبار: Acurx Pharmaceuticals, Inc. Announces Passing of Director Thomas Harrison (Nov 20, 2026) | Acurx Pharma (ACXP) Q3 2026 Earnings Call Transcript (Nov 12, 2026) | Acurx Pharmaceuticals Q3 Loss Widens To $2.6 Mln; Begins Enrollment In PATHFINDER CDI Trial (Nov 12, 2026)
 - منطقة الطلب 0.946–0.9555 | طلبات Limit: 0.9554 / 0.9507 / 0.946 | الخروج: إغلاق يومي تحت 0.942 | الأهداف 1.017 / 1.051 | منطقة أعمق (غسل) 0.891–0.918
@@ -275,7 +275,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $CJMB — ارتكاز
-- السعر 0.332 | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.332 (بري/أفتر 0.3367) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Integrated Freight & Logistics - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 5.14M - عدد الأسهم 12.0M - سبق صعد من 0.662 (2026-07-13) إلى 3.92 (2026-07-24) +492%
 - الأخبار: Callan Jmb Posts Wider Loss in Fiscal Q2 (Aug 14, 2025) | Callan JMB Inc. Secures Six-Month Contract Extension with City of Chicago, Increasing Total Funding to $9.1 Million (Jul 17, 2025) | Callan JMB and Revival Health Form Joint Venture to Enhance U.S. Healthcare Logistics and Supply Chain Solutions (May 21, 2025)
 - منطقة الطلب 0.299–0.302 | طلبات Limit: 0.3019 / 0.3004 / 0.299 | الخروج: إغلاق يومي تحت 0.299 | الأهداف 0.3429 / 0.405 | منطقة أعمق (غسل) 0.2584–0.2662
@@ -341,7 +341,7 @@
 - متى يكون جاهزاً: اختبار منطقة 2.06–2.08 وفشل كسرها (أو سحب سيولة تحت 1.87 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.65–1.85، ص54)
 
 ## $PMN — طبي — الخبر يحرّكه / فلووت منخفض جداً
-- السعر 3.24 | ارتداد مؤكد من الدعم
+- السعر 3.24 (بري/أفتر 3.31) | ارتداد مؤكد من الدعم
 - البيانات: كندي - Biotechnology - قسم 1:25 (2025-11-28) افتتاح 7.05 - اعلى 27.4 - الشورت المتاح: غير متوفر - فلوت 3.91M - عدد الأسهم 9.00M - سبق صعد من 6.62 (2025-12-31) إلى 19.85 (2026-01-30) +200%
 - الأخبار: ProMIS Licenses TXP1 From Ossianix To Deliver Alzheimer's & Parkinson's Therapies To Brain (Nov 17, 2026) | ProMIS (PMN) Q3 2026 Earnings Call Transcript (Nov 13, 2026) | ProMIS Neurosciences, Inc. Updates Corporate Presentation, Projects Cash Runway Through 2027 (Nov 13, 2026)
 - منطقة الطلب 2.98–3.01 | طلبات Limit: 3 / 3 / 2.99 | الخروج: إغلاق يومي تحت 2.98 | الأهداف 3.23 / 3.59 | منطقة أعمق (غسل) 2.752–2.836
@@ -351,7 +351,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 17 يوم (طار إلى 4.5 وأغلق 3 بفوليوم 93x)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $BBLG — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 0.259 | سحب سيولة ثم استرداد الدعم
+- السعر 0.259 (بري/أفتر 0.2549) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:6 (2025-06-10) - الشورت المتاح: غير متوفر - فلوت 3.10M - عدد الأسهم 3.39M
 - الأخبار: Bone Biologics Extends RhNELL-1 Shelf Life To 32 Months, Strengthening Study Readiness; Stock Down (Aug 12, 2026) | Bone Biologics Prices Up To $9 Mln Private Placement Of Shares And Warrants;Stock Up (Jul 8, 2026) | Bone Biologics Prices $5 Mln Public Offering With Warrants At $4 Per Share (Jun 27, 2025)
 - منطقة الطلب 0.261–0.2636 | طلبات Limit: 0.2636 / 0.2623 / 0.2611 | الخروج: إغلاق يومي تحت 0.24 | الأهداف 0.285 / 0.317 | منطقة أعمق (غسل) 0.2219–0.2349
@@ -361,7 +361,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)، سعر منخفض جداً — سبريد واسع
 
 ## $RDGT — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / 🚩 علم/اختراق بعد قاعدة
-- السعر 0.94 | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
+- السعر 0.94 (بري/أفتر 0.99) | 🚩 اختراق مدروس بعد قاعدة + إعادة اختبار ناجحة
 - البيانات: صيني - Pharmaceutical Retailers - قسم 1:150 (2026-04-08) افتتاح 3.04 - اعلى 3.21 - الشورت المتاح: غير متوفر - فلوت 3.61M - عدد الأسهم 0.90M - سبق صعد من 229.5 (2026-03-10) إلى 702.0 (2026-03-23) +206%
 - الأخبار: Ridgetech, Inc. Appoints Lingtao Kong as Chief Executive Officer (Nov 6, 2026) | Top Biotech Gainers: ZYBT Skyrockets, ADVB Drops Planned Offering, STIM Gets New CFO, RDGT On Watch (Jul 20, 2026) | Ridgetech To Implement 1-For-150 Reverse Share Split (Apr 3, 2026)
 - منطقة الطلب 0.8918–0.9191 | طلبات Limit: 0.9191 / 0.9055 / 0.8919 | الخروج: إغلاق يومي تحت 0.85 | الأهداف 0.965 / 0.98 | منطقة أعمق (غسل) 0.8217–0.8466
@@ -519,7 +519,7 @@
 - ⚠️ سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $XELB — بعد ارتداد أول — ينتظر Retest
-- السعر 0.353 | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.353 (بري/أفتر 0.3596) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Apparel Manufacturing - قسم 1:10 (2025-03-25) - الشورت المتاح: غير متوفر - فلوت 5.14M - عدد الأسهم 7.61M - سبق صعد من 0.2716 (2026-10-15) إلى 0.58 (2026-11-03) +114%
 - الأخبار: Xcel Brands (XELB) Q3 2026 Earnings Call Transcript (Nov 17, 2026) | XCel Brands (XELB) Reports Q3 Loss, Misses Revenue Estimates (Nov 16, 2026) | Sweetgreen, Inc. (SG) Reports Q3 Loss, Beats Revenue Estimates (Nov 5, 2026)
 - منطقة الطلب 0.3112–0.3143 | طلبات Limit: 0.3143 / 0.3128 / 0.3112 | الخروج: إغلاق يومي تحت 0.3101 | الأهداف 0.3684 / 0.38 | منطقة أعمق (غسل) 0.2901–0.2989
@@ -677,7 +677,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $PLUT — صيني عالي التذبذب ⚠️ / قاع نظيف
-- السعر 0.78 | سحب سيولة ثم استرداد الدعم
+- السعر 0.78 (بري/أفتر 0.7801) | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني (هونغ كونغ) - Capital Markets - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 5.03M - عدد الأسهم 15.3M
 - الأخبار: Plutus Financial Group Limited Announces $600,000 Increase in IPO Proceeds Following Over-Allotment Option Exercise by R.F. Lafferty & Co., Inc. (Mar 4, 2025) | Plutus Financial Group Limited Successfully Closes Initial Public Offering, Raising $8.4 Million (Feb 6, 2025) | Plutus Financial Group Limited Closes Initial Public Offering Raising $8.4 Million (Feb 6, 2025)
 - منطقة الطلب 0.741–0.7484 | طلبات Limit: 0.7484 / 0.7447 / 0.741 | الخروج: إغلاق يومي تحت 0.7 | الأهداف 0.9 / 1.05 | منطقة أعمق (غسل) 0.6298–0.6669

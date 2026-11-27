@@ -1,11 +1,11 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T06:02 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T07:02 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $ONCO — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 3.1 (بري/أفتر 3.55) | ارتداد مؤكد من الدعم
+- السعر 3.1 (بري/أفتر 3.33) | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2026-11-06) افتتاح 5.68 - اعلى 7.82 - الشورت المتاح: غير متوفر - فلوت 0.82M - عدد الأسهم 0.82M - سبق صعد من 220.0 (2026-03-09) إلى 673.0 (2026-03-27) +206%
-- الأخبار: Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA (Nov 27, 2026) | Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now (Nov 27, 2026) | InterDigital: 3 Key Takeaways for Long-Term Investors (Nov 27, 2026)
+- الأخبار: Stock Indices Finish Off Their Lows as Dip Buyers Step In (Nov 27, 2026) | Is Meta Stock a Buy as Amazon Reportedly Weighs Letting Its AI Shopping Agent Back In? (Nov 27, 2026) | Prediction: These Will Be Anthropic’s and SpaceX’s Stock Prices by the End of 2027 (Hint: Both Are Buys) (Nov 27, 2026)
 - منطقة الطلب 2.76–2.85 | طلبات Limit: 2.84 / 2.8 / 2.76 | الخروج: إغلاق يومي تحت 2.76 | الأهداف 3.15 / 3.21 | منطقة أعمق (غسل) 2.346–2.484
 - شروط ص86 (يومي): 9/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.15 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 40) (ص65/ص86)
@@ -49,16 +49,6 @@
 - شروط ص86 (يومي): 7/11 — ناقص: RSI وصل 23–27، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 45 (الحالي 52) (ص65/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 3.97 مو أعلى من اللي قبله 4.0، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 141K مقابل متوسط شموع البيع 73K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
 - متى يكون جاهزاً: اختبار منطقة 4.18–4.22 وفشل كسرها (أو سحب سيولة تحت 3.97 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (3.34–3.76، ص54)
-
-## $SCNI — طبي — الخبر يحرّكه / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
-- السعر 1.69 | سحب سيولة ثم استرداد الدعم
-- البيانات: إسرائيلي - Biotechnology - قسم 1:4 (2026-11-19) افتتاح 1.48 - اعلى 1.8 - الشورت المتاح: غير متوفر - فلوت 0.32M - عدد الأسهم 0.66M - سبق صعد من 18.2 (2026-04-23) إلى 42.0 (2026-04-24) +131%
-- الأخبار: Scinai's Nine-Month Revenue Jumps 167% As CDMO Orders Exceed $8 Mln (Nov 5, 2026) | Scinai Announces $4 Mln Private Placement And Warrant Inducement; Shares Fall 16% In Premarket Trade (Oct 15, 2026) | Scinai Turns Profit In H1 Amid Shift To CDMO Operations; Stock Down (Aug 24, 2026)
-- منطقة الطلب 1.56–1.576 | طلبات Limit: 1.57 / 1.56 / 1.56 | الخروج: إغلاق يومي تحت 1.13 | الأهداف 1.7 / 1.73 | منطقة أعمق (غسل) 1.326–1.404
-- شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، ضغط بيع سابق ثم ضعف الهبوط، محفز أو هدف علوي
-- لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.74 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 1.56 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: فوليومها 20K مقابل متوسط شموع البيع 29K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)
-- متى يكون جاهزاً: اختبار منطقة 1.56–1.58 وفشل كسرها (أو سحب سيولة تحت 1.13 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.25–1.4، ص54)
-- ⚠️ رفض عند MA20 (ص64)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $IPW — فلووت منخفض جداً / قاع نظيف
 - السعر 1.23 | ارتداد مؤكد من الدعم
@@ -199,7 +189,7 @@
 ## $NWGL — فلووت منخفض جداً / قاع نظيف
 - السعر 1.79 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: Macau - Lumber & Wood Production - قسم 1:80 (2026-11-06) افتتاح 2.21 - اعلى 8.32 - الشورت المتاح: غير متوفر - فلوت 0.10M - عدد الأسهم 0.56M - سبق صعد من 27.76 (2026-08-18) إلى 158.4 (2026-09-15) +471%
-- الأخبار: Toyota Motor Worldwide Production, Sales Drop In October (Nov 27, 2026) | Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA (Nov 27, 2026) | Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now (Nov 27, 2026)
+- الأخبار: Concord Medical Announces Receipt of NYSE Non-Compliance Letter Regarding Delayed Form 20-F Filings (Nov 27, 2026) | Applied Digital Corporation Posts Updated Investor Presentation (Nov 27, 2026) | Companhia de Saneamento Básico do Estado de São Paulo - SABESP Announces ARSESP Validation of 2025 Regulatory Asset Base (Nov 27, 2026)
 - منطقة الطلب 1.81–1.828 | طلبات Limit: 1.82 / 1.82 / 1.81 | الخروج: إغلاق يومي تحت 1.75 | الأهداف 1.88 / 3.019 | منطقة أعمق (غسل) 1.538–1.629
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 3.02 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 1.81 (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.75 مو أعلى من اللي قبله 1.81، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 66K مقابل متوسط شموع البيع 146K (ص85/ص86)
@@ -215,16 +205,6 @@
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.76 فوق السعر) (ص66/ص82/ص84/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 2.45 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.8 مو أعلى من اللي قبله 2.45، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 14K مقابل متوسط شموع البيع 2607K (ص85/ص86)
 - متى يكون جاهزاً: اختبار منطقة 2.45–2.47 وفشل كسرها (أو سحب سيولة تحت 1.8 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.96–2.21، ص54)
 - ⚠️ شمعة ضخ/تصريف قبل 6 يوم (طار إلى 4 وأغلق 2.66 بفوليوم 1177x)
-
-## $NTCL — فلووت منخفض جداً / قاع نظيف
-- السعر 1.82 | ارتكاز عند الدعم — بانتظار التأكيد
-- البيانات: سنغافوري - Software - Application - قسم 1:10 (2026-11-20) افتتاح 1.75 - اعلى 2.12 - الشورت المتاح: غير متوفر - فلوت 0.09M - عدد الأسهم 0.61M - سبق صعد من 112.5 (2026-05-11) إلى 1550.0 (2026-06-10) +1278%
-- الأخبار: NetClass Technology Inc. Establishes Wholly Owned Subsidiary in Singapore for AI-Driven Education Solutions Expansion (Jul 24, 2025) | NetClass Technology INC Secures CNY 3.38 Million Contract for Smart Digital Campus Project at Shanghai East China Model High School (Jul 16, 2025) | NETCLASS Technology Inc. Partners with Nanyang Institute of Social Sciences to Enhance AI-Powered Education Solutions in Singapore (Jun 23, 2025)
-- منطقة الطلب 1.55–1.565 | طلبات Limit: 1.56 / 1.56 / 1.55 | الخروج: إغلاق يومي تحت 1.55 | الأهداف 1.83 / 2.115 | منطقة أعمق (غسل) 1.317–1.395
-- شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، دعم/قاع واضح، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
-- لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.62 فوق السعر) (ص66/ص82/ص84/ص86)؛ دعم/قاع واضح: منطقة 1.55–1.57 لمسها 1 مرات خلال 3 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)
-- متى يكون جاهزاً: اختبار منطقة 1.55–1.57 وفشل كسرها (أو سحب سيولة تحت 1.55 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.24–1.39، ص54)
-- ⚠️ شمعة ضخ/تصريف قبل 14 يوم (طار إلى 12.6 وأغلق 3.24 بفوليوم 4039x)
 
 ## $AIXI — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً
 - السعر 1.46 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
@@ -344,7 +324,7 @@
 - ⚠️ توه مدبل: من 0.32 إلى 0.73، شمعة ضخ/تصريف قبل 20 يوم (طار إلى 0.44 وأغلق 0.36 بفوليوم 101x)، سعر منخفض جداً — سبريد واسع
 
 ## $ACXP — طبي — الخبر يحرّكه
-- السعر 0.993 | ارتكاز عند الدعم — بانتظار التأكيد
+- السعر 0.993 (بري/أفتر 1.04) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Biotechnology - قسم 1:20 (2025-08-05) - الشورت المتاح: غير متوفر - فلوت 5.93M - عدد الأسهم 6.06M - سبق صعد من 1.33 (2026-03-06) إلى 7.54 (2026-03-19) +469%
 - الأخبار: Acurx Pharmaceuticals, Inc. Announces Passing of Director Thomas Harrison (Nov 20, 2026) | Acurx Pharma (ACXP) Q3 2026 Earnings Call Transcript (Nov 12, 2026) | Acurx Pharmaceuticals Q3 Loss Widens To $2.6 Mln; Begins Enrollment In PATHFINDER CDI Trial (Nov 12, 2026)
 - منطقة الطلب 0.946–0.9555 | طلبات Limit: 0.9554 / 0.9507 / 0.946 | الخروج: إغلاق يومي تحت 0.942 | الأهداف 1.017 / 1.051 | منطقة أعمق (غسل) 0.891–0.918
@@ -366,7 +346,7 @@
 ## $SSM — فلووت منخفض جداً / قاع نظيف
 - السعر 0.726 | ارتداد مؤكد من الدعم
 - البيانات: ألماني - Auto Manufacturers - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.58M - عدد الأسهم 3.72M - سبق صعد من 1.05 (2026-09-25) إلى 3.09 (2026-10-02) +194%
-- الأخبار: Toyota Motor Worldwide Production, Sales Drop In October (Nov 27, 2026) | Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA (Nov 27, 2026) | Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now (Nov 27, 2026)
+- الأخبار: Concord Medical Announces Receipt of NYSE Non-Compliance Letter Regarding Delayed Form 20-F Filings (Nov 27, 2026) | Applied Digital Corporation Posts Updated Investor Presentation (Nov 27, 2026) | Companhia de Saneamento Básico do Estado de São Paulo - SABESP Announces ARSESP Validation of 2025 Regulatory Asset Base (Nov 27, 2026)
 - منطقة الطلب 0.647–0.6535 | طلبات Limit: 0.6534 / 0.6502 / 0.6471 | الخروج: إغلاق يومي تحت 0.647 | الأهداف 0.762 / 0.79 | منطقة أعمق (غسل) 0.55–0.5823
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.869 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 36) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)
@@ -375,7 +355,7 @@
 ## $HTCO — فلووت منخفض جداً
 - السعر 1.15 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: سنغافوري - Marine Shipping - قسم 1:25 (2025-08-08) - الشورت المتاح: غير متوفر - فلوت 4.19M - عدد الأسهم 8.96M - سبق صعد من 6.1 (2026-04-06) إلى 56.59 (2026-04-27) +828%
-- الأخبار: Toyota Motor Worldwide Production, Sales Drop In October (Nov 27, 2026) | Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA (Nov 27, 2026) | Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now (Nov 27, 2026)
+- الأخبار: Concord Medical Announces Receipt of NYSE Non-Compliance Letter Regarding Delayed Form 20-F Filings (Nov 27, 2026) | Applied Digital Corporation Posts Updated Investor Presentation (Nov 27, 2026) | Companhia de Saneamento Básico do Estado de São Paulo - SABESP Announces ARSESP Validation of 2025 Regulatory Asset Base (Nov 27, 2026)
 - منطقة الطلب 1.02–1.03 | طلبات Limit: 1.03 / 1.02 / 1.02 | الخروج: إغلاق يومي تحت 1.02 | الأهداف 1.17 / 1.23 | منطقة أعمق (غسل) 0.891–0.918
 - شروط ص86 (يومي): 6/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، MACD يتحسن أو تقاطع، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.43 فوق السعر) (ص66/ص82/ص84/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 1.02 أعلى من اللي قبله 0.9، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 38K مقابل متوسط شموع البيع 149K (ص85/ص86)
@@ -559,7 +539,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)، اختراق وهمي سابق (Bull Trap — ص19، ص57)
 
 ## $AIRE — ارتكاز
-- السعر 0.349 | سحب سيولة ثم استرداد الدعم
+- السعر 0.349 (بري/أفتر 0.3501) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Real Estate Services - قسم 1:25 (2026-04-30) افتتاح 3.82 - اعلى 3.98 - الشورت المتاح: غير متوفر - فلوت 5.35M - عدد الأسهم 7.43M
 - الأخبار: reAlpha Tech Corp. Reports Third-Quarter 2026 Financial Results (Nov 17, 2026) | reAlpha Tech Corp. Stockholders Approve Reverse Stock Split and Share Issuances for Prevu and InstaMortgage Mergers (Nov 6, 2026) | reAlpha Tech Corp. Announces Pricing of $1.75 Million Public Offering (Nov 4, 2026)
 - منطقة الطلب 0.334–0.3373 | طلبات Limit: 0.3373 / 0.3356 / 0.334 | الخروج: إغلاق يومي تحت 0.306 | الأهداف 0.36 / 0.419 | منطقة أعمق (غسل) 0.3178–0.3274
@@ -630,7 +610,7 @@
 ## $MKDW — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 1.4 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: تايواني - Auto Parts - قسم 1:20 (2026-11-18) افتتاح 1.7 - اعلى 1.75 - الشورت المتاح: غير متوفر - فلوت 1.66M - عدد الأسهم 1.82M - سبق صعد من 0.075 (2026-11-16) إلى 1.75 (2026-11-18) +2233%
-- الأخبار: Toyota Motor Worldwide Production, Sales Drop In October (Nov 27, 2026) | Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA (Nov 27, 2026) | Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now (Nov 27, 2026)
+- الأخبار: Concord Medical Announces Receipt of NYSE Non-Compliance Letter Regarding Delayed Form 20-F Filings (Nov 27, 2026) | Applied Digital Corporation Posts Updated Investor Presentation (Nov 27, 2026) | Companhia de Saneamento Básico do Estado de São Paulo - SABESP Announces ARSESP Validation of 2025 Regulatory Asset Base (Nov 27, 2026)
 - منطقة الطلب 1.36–1.374 | طلبات Limit: 1.37 / 1.37 / 1.37 | الخروج: إغلاق يومي تحت 0.075 | الأهداف 1.409 / 1.52 | منطقة أعمق (غسل) 1.156–1.224
 - شروط ص86 (يومي): 6/11 — ناقص: اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، ما فيه شموع حمراء طويلة قرب القاع، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: كسر الدعم 1.36 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 54K مقابل متوسط شموع البيع 933K (ص85/ص86)؛ ما فيه شموع حمراء طويلة قرب القاع: شمعة حمراء طويلة 2026-11-23 عند القاع (ص88)
@@ -717,7 +697,7 @@
 ## $YMT — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest
 - السعر 1.042 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: صيني - Software - Application - قسم 1:10 (2026-11-16) افتتاح 1.51 - اعلى 1.9 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 2.53M - سبق صعد من 0.14 (2026-11-13) إلى 1.9 (2026-11-16) +1257%
-- الأخبار: Toyota Motor Worldwide Production, Sales Drop In October (Nov 27, 2026) | Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA (Nov 27, 2026) | Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now (Nov 27, 2026)
+- الأخبار: Concord Medical Announces Receipt of NYSE Non-Compliance Letter Regarding Delayed Form 20-F Filings (Nov 27, 2026) | Applied Digital Corporation Posts Updated Investor Presentation (Nov 27, 2026) | Companhia de Saneamento Básico do Estado de São Paulo - SABESP Announces ARSESP Validation of 2025 Regulatory Asset Base (Nov 27, 2026)
 - منطقة الطلب 1.065–1.076 | طلبات Limit: 1.07 / 1.07 / 1.07 | الخروج: إغلاق يومي تحت 0.97 | الأهداف 1.1 / 1.15 | منطقة أعمق (غسل) 0.9053–0.9585
 - شروط ص86 (يومي): 7/11 — ناقص: اختبار الدعم وفشل الكسر، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: آخر إغلاق تحت الدعم 1.07 (ص86/ص17)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 26K مقابل متوسط شموع البيع 690K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية أغلقت تحت الدعم (ص82/ص86)؛ محفز أو هدف علوي: تحت مقاومة مباشرة 1.1 (+2.8%) والخسارة −9.4% (ص66/ص84/ص88)
@@ -766,7 +746,7 @@
 ## $CABR — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 0.56 | كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)
 - البيانات: أمريكي - Drug Manufacturers - Specialty & Generic - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.48M - عدد الأسهم 11.5M
-- الأخبار: Toyota Motor Worldwide Production, Sales Drop In October (Nov 27, 2026) | Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA (Nov 27, 2026) | Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now (Nov 27, 2026)
+- الأخبار: Concord Medical Announces Receipt of NYSE Non-Compliance Letter Regarding Delayed Form 20-F Filings (Nov 27, 2026) | Applied Digital Corporation Posts Updated Investor Presentation (Nov 27, 2026) | Companhia de Saneamento Básico do Estado de São Paulo - SABESP Announces ARSESP Validation of 2025 Regulatory Asset Base (Nov 27, 2026)
 - منطقة الطلب 0.6–0.612 | طلبات Limit: 0.6119 / 0.606 / 0.6001 | الخروج: إغلاق يومي تحت 0.56 | الأهداف 0.655 / 0.706 | منطقة أعمق (غسل) 0.51–0.54
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، MACD يتحسن أو تقاطع، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8377 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 31) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 0.6 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)
@@ -816,7 +796,7 @@
 ## $FRTT — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 0.44 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: كندي - Household & Personal Products - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.33M - عدد الأسهم 15.2M - سبق صعد من 0.38 (2026-11-13) إلى 0.93 (2026-11-18) +145%
-- الأخبار: Toyota Motor Worldwide Production, Sales Drop In October (Nov 27, 2026) | Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA (Nov 27, 2026) | Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now (Nov 27, 2026)
+- الأخبار: Concord Medical Announces Receipt of NYSE Non-Compliance Letter Regarding Delayed Form 20-F Filings (Nov 27, 2026) | Applied Digital Corporation Posts Updated Investor Presentation (Nov 27, 2026) | Companhia de Saneamento Básico do Estado de São Paulo - SABESP Announces ARSESP Validation of 2025 Regulatory Asset Base (Nov 27, 2026)
 - منطقة الطلب 0.4–0.404 | طلبات Limit: 0.404 / 0.402 / 0.4001 | الخروج: إغلاق يومي تحت 0.4 | الأهداف 0.46 / 0.4875 | منطقة أعمق (غسل) 0.3762–0.3876
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.4875 فوق السعر) (ص66/ص82/ص84/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.4 أعلى من اللي قبله 0.38، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 178K مقابل متوسط شموع البيع 824K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)

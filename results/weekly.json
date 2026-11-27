@@ -1,11 +1,11 @@
 {
- "generated_at_et": "2026-11-26T19:04:59.822269-05:00",
+ "generated_at_et": "2026-11-27T04:00:46.182244-05:00",
  "items": [
   {
    "ticker": "ONCO",
    "score": 12.5,
    "price": 3.1,
-   "ext_price": 3.1685,
+   "ext_price": 3.2,
    "name": "Onconetix, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -41,16 +41,16 @@
    },
    "news": [
     [
-     "Nov 26, 2026",
-     "Spectrum Brands: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA"
     ],
     [
-     "Nov 26, 2026",
-     "Nortech: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now"
     ],
     [
-     "Nov 26, 2026",
-     "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf"
+     "Nov 27, 2026",
+     "InterDigital: 3 Key Takeaways for Long-Term Investors"
     ]
    ],
    "levels": {
@@ -750,6 +750,158 @@
    ]
   },
   {
+   "ticker": "SCNI",
+   "score": 10.5,
+   "price": 1.69,
+   "ext_price": null,
+   "name": "Scinai Immunotherapeutics Ltd.",
+   "type": [
+    "طبي — الخبر يحرّكه",
+    "بعد ارتداد أول — ينتظر Retest",
+    "فلووت منخفض جداً"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 317985,
+    "shares": 657606,
+    "last_split": "عكسي 1:4 (2026-11-19)",
+    "split": {
+     "factor": "1:4",
+     "date": "2026-11-19",
+     "reverse": true,
+     "days": 8,
+     "recent": true,
+     "open_after": 1.4800000190734863,
+     "high_after": 1.7999999523162842
+    },
+    "country_ar": "إسرائيلي",
+    "industry": "Biotechnology",
+    "short_available": null,
+    "runner": {
+     "pct": 1.3076922109544267,
+     "from": 18.200000762939453,
+     "from_date": "2026-04-23",
+     "to": 42.0,
+     "to_date": "2026-04-24",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Nov 5, 2026",
+     "Scinai's Nine-Month Revenue Jumps 167% As CDMO Orders Exceed $8 Mln"
+    ],
+    [
+     "Oct 15, 2026",
+     "Scinai Announces $4 Mln Private Placement And Warrant Inducement; Shares Fall 16% In Premarket Trade"
+    ],
+    [
+     "Aug 24, 2026",
+     "Scinai Turns Profit In H1 Amid Shift To CDMO Operations; Stock Down"
+    ]
+   ],
+   "levels": {
+    "demand_low": 1.56,
+    "demand_high": 1.5756,
+    "orders": [
+     1.57,
+     1.56,
+     1.56
+    ],
+    "critical": 1.13,
+    "stop": 1.12,
+    "risk": 0.2835820895522387,
+    "wash_low": 1.326,
+    "wash_high": 1.404,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 1.559999942779541,
+    "t1": 1.7000000476837158,
+    "t2": 1.7300000190734863
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-25",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "accum",
+     "red"
+    ],
+    "miss": [
+     "ma",
+     "retest",
+     "volume",
+     "candle",
+     "pressure",
+     "target"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.74 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 22 (الحالي 33)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      true,
+      "منطقة 1.56–1.58 لمسها 2 مرات خلال 16 يوم"
+     ],
+     "retest": [
+      false,
+      "كسر الدعم 1.56 وبقي تحته (ص17: ليس سحب سيولة بل ضعف)"
+     ],
+     "volume": [
+      false,
+      "فوليومها 20K مقابل متوسط شموع البيع 29K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة يومية مو انعكاس"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      false,
+      "هبط 89% من أعلى 90 يوم، والبيع ما ضعف بعد"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      false,
+      "تحت مقاومة مباشرة 1.7 (+8.7%) والخسارة −28.4%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.74 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "اختبار الدعم وفشل الكسر: كسر الدعم 1.56 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)",
+    "فوليوم يتحسن مع الارتداد: فوليومها 20K مقابل متوسط شموع البيع 29K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)"
+   ],
+   "ready_when": "اختبار منطقة 1.56–1.58 وفشل كسرها (أو سحب سيولة تحت 1.13 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.25–1.4، ص54)",
+   "flags": [
+    "رفض عند MA20 (ص64)",
+    "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:4 (2026-11-19) — افتتح بعده 1.48 وأعلى سعر 1.8",
+    "فلووت 0.32M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 131% من 18.2 (2026-04-23) إلى 42.0 (2026-04-24)"
+   ]
+  },
+  {
    "ticker": "IPW",
    "score": 10.5,
    "price": 1.23,
@@ -1201,7 +1353,7 @@
    "ticker": "MYSZ",
    "score": 9.5,
    "price": 0.722,
-   "ext_price": 0.711,
+   "ext_price": 0.6745,
    "name": "My Size, Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -1801,7 +1953,7 @@
    "ticker": "ORKT",
    "score": 9.0,
    "price": 1.0,
-   "ext_price": 1.0,
+   "ext_price": null,
    "name": "Orangekloud Technology Inc.",
    "type": [
     "فلووت منخفض جداً",
@@ -2857,16 +3009,16 @@
    },
    "news": [
     [
-     "Nov 26, 2026",
-     "Spectrum Brands: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Toyota Motor Worldwide Production, Sales Drop In October"
     ],
     [
-     "Nov 26, 2026",
-     "Nortech: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA"
     ],
     [
-     "Nov 26, 2026",
-     "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf"
+     "Nov 27, 2026",
+     "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now"
     ]
    ],
    "levels": {
@@ -3116,6 +3268,157 @@
    ]
   },
   {
+   "ticker": "NTCL",
+   "score": 8.5,
+   "price": 1.82,
+   "ext_price": null,
+   "name": "NetClass Technology Inc",
+   "type": [
+    "فلووت منخفض جداً",
+    "قاع نظيف"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 92620,
+    "shares": 615000,
+    "last_split": "عكسي 1:10 (2026-11-20)",
+    "split": {
+     "factor": "1:10",
+     "date": "2026-11-20",
+     "reverse": true,
+     "days": 7,
+     "recent": true,
+     "open_after": 1.7450000047683716,
+     "high_after": 2.115000009536743
+    },
+    "country_ar": "سنغافوري",
+    "industry": "Software - Application",
+    "short_available": null,
+    "runner": {
+     "pct": 12.777777777777779,
+     "from": 112.5,
+     "from_date": "2026-05-11",
+     "to": 1550.0,
+     "to_date": "2026-06-10",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Jul 24, 2025",
+     "NetClass Technology Inc. Establishes Wholly Owned Subsidiary in Singapore for AI-Driven Education Solutions Expansion"
+    ],
+    [
+     "Jul 16, 2025",
+     "NetClass Technology INC Secures CNY 3.38 Million Contract for Smart Digital Campus Project at Shanghai East China Model High School"
+    ],
+    [
+     "Jun 23, 2025",
+     "NETCLASS Technology Inc. Partners with Nanyang Institute of Social Sciences to Enhance AI-Powered Education Solutions in Singapore"
+    ]
+   ],
+   "levels": {
+    "demand_low": 1.55,
+    "demand_high": 1.5655,
+    "orders": [
+     1.56,
+     1.56,
+     1.55
+    ],
+    "critical": 1.55,
+    "stop": 1.54,
+    "risk": 0.010706638115631655,
+    "wash_low": 1.3175,
+    "wash_high": 1.395,
+    "wash_note": "10–15% تحت الدعم (ص54)",
+    "pivot": 1.5499999523162842,
+    "t1": 1.8300000429153442,
+    "t2": 2.115000009536743
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-25",
+    "met": [
+     "rsi",
+     "macd",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "support",
+     "retest",
+     "accum",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.62 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 15 (الحالي 20)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      false,
+      "منطقة 1.55–1.57 لمسها 1 مرات خلال 3 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع)"
+     ],
+     "retest": [
+      false,
+      "ما صار اختبار ثاني للدعم بعد القاع الأول"
+     ],
+     "volume": [
+      false,
+      "فوليومها 40K مقابل متوسط شموع البيع 84K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة بعيدة عن منطقة الدعم"
+     ],
+     "accum": [
+      false,
+      "ما فيه قاعين للمقارنة بعد، والشموع تتقلص"
+     ],
+     "pressure": [
+      true,
+      "هبط 95% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 1.83 (+17.6%) أكبر من الخسارة −1.1%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.62 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "دعم/قاع واضح: منطقة 1.55–1.57 لمسها 1 مرات خلال 3 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)",
+    "اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)",
+    "تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)"
+   ],
+   "ready_when": "اختبار منطقة 1.55–1.57 وفشل كسرها (أو سحب سيولة تحت 1.55 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (1.24–1.39، ص54)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 14 يوم (طار إلى 12.6 وأغلق 3.24 بفوليوم 4039x)"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:10 (2026-11-20) — افتتح بعده 1.75 وأعلى سعر 2.12",
+    "فلووت 0.09M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 1278% من 112.5 (2026-05-11) إلى 1550.0 (2026-06-10)",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "AIXI",
    "score": 8.5,
    "price": 1.46,
@@ -3280,7 +3583,7 @@
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
-    "float": 169743,
+    "float": 193492,
     "shares": 654009,
     "last_split": "عكسي 1:20 (2026-11-24)",
     "split": {
@@ -3405,7 +3708,7 @@
    ],
    "tags": [
     "تقسيم عكسي حديث 1:20 (2026-11-24) — افتتح بعده 5.1 وأعلى سعر 5.6",
-    "فلووت 0.17M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "فلووت 0.19M 🔥 (ص8: أقل من 5M قوي وخطر)",
     "Former Runner: صعد 1498% من 7.06 (2026-05-11) إلى 112.8 (2026-06-09)",
     "قيعان أعلى"
    ]
@@ -3414,7 +3717,7 @@
    "ticker": "SGRX",
    "score": 8.0,
    "price": 2.38,
-   "ext_price": 2.2,
+   "ext_price": null,
    "name": "Sangrix Inc.",
    "type": [
     "بعد ارتداد أول — ينتظر Retest",
@@ -3565,7 +3868,7 @@
    "ticker": "SNES",
    "score": 8.0,
    "price": 0.65,
-   "ext_price": 0.73,
+   "ext_price": null,
    "name": "SenesTech, Inc.",
    "type": [
     "فلووت منخفض جداً"
@@ -4753,10 +5056,158 @@
    ]
   },
   {
+   "ticker": "SGLY",
+   "score": 7.0,
+   "price": 0.35,
+   "ext_price": null,
+   "name": "Singularity Future Technology Ltd.",
+   "type": [
+    "فلووت منخفض جداً"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 559986.7000000001,
+    "shares": 559986.7000000001,
+    "last_split": "عكسي 1:14 (2026-07-27)",
+    "split": {
+     "factor": "1:14",
+     "date": "2026-07-27",
+     "reverse": true,
+     "days": 123,
+     "recent": true,
+     "open_after": 3.4200000762939453,
+     "high_after": 8.649999618530273
+    },
+    "country_ar": "أمريكي",
+    "industry": "Integrated Freight & Logistics",
+    "short_available": null,
+    "runner": {
+     "pct": 2.4325395571431625,
+     "from": 2.5199999809265137,
+     "from_date": "2026-07-14",
+     "to": 8.649999618530273,
+     "to_date": "2026-08-10",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Nov 24, 2026",
+     "Singularity Future Technology Ltd. Files Articles of Amendment for Reverse Stock Split and Corporate Name Change"
+    ],
+    [
+     "Jan 24, 2025",
+     "Singularity Future Technology Ltd. Announces $1.1 Million Registered Direct Offering of Common Stock"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.35,
+    "demand_high": 0.3535,
+    "orders": [
+     0.3534,
+     0.3517,
+     0.35
+    ],
+    "critical": 0.32,
+    "stop": 0.3199,
+    "risk": 0.09041796986067656,
+    "wash_low": 0.297,
+    "wash_high": 0.306,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.3499999940395355,
+    "t1": 0.3700000047683716,
+    "t2": 0.4099999964237213
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-25",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "retest",
+     "accum",
+     "candle",
+     "pressure",
+     "red"
+    ],
+    "miss": [
+     "ma",
+     "volume",
+     "target"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.4765 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 24 (الحالي 36)"
+     ],
+     "macd": [
+      true,
+      "الخط فوق الإشارة"
+     ],
+     "support": [
+      true,
+      "منطقة 0.35–0.3535 لمسها 3 مرات خلال 23 يوم"
+     ],
+     "retest": [
+      true,
+      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 3)"
+     ],
+     "volume": [
+      false,
+      "فوليومها 202K مقابل متوسط شموع البيع 263K"
+     ],
+     "candle": [
+      true,
+      "ذيل سفلي طويل (رفض كسر) عند الدعم"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      true,
+      "هبط 96% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      false,
+      "تحت مقاومة مباشرة 0.37 (+5.2%) والخسارة −9.0%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.4765 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "فوليوم يتحسن مع الارتداد: فوليومها 202K مقابل متوسط شموع البيع 263K (ص85/ص86)",
+    "محفز أو هدف علوي: تحت مقاومة مباشرة 0.37 (+5.2%) والخسارة −9.0% (ص66/ص84/ص88)",
+    "توه مدبل (من 0.32 إلى 0.73) — «فيه خطوره… غير امن الان» (ص59)"
+   ],
+   "ready_when": "اختبار منطقة 0.35–0.3535 وفشل كسرها (أو سحب سيولة تحت 0.32 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.28–0.315، ص54)",
+   "flags": [
+    "توه مدبل: من 0.32 إلى 0.73",
+    "شمعة ضخ/تصريف قبل 20 يوم (طار إلى 0.44 وأغلق 0.36 بفوليوم 101x)",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "تقسيم عكسي حديث 1:14 (2026-07-27) — افتتح بعده 3.42 وأعلى سعر 8.65",
+    "فلووت 0.56M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "Former Runner: صعد 243% من 2.52 (2026-07-14) إلى 8.65 (2026-08-10)",
+    "عدد الأسهم بعد تقسيم 2026-11-27 (محسوب: Yahoo ما حدّثه)"
+   ]
+  },
+  {
    "ticker": "ACXP",
    "score": 7.0,
    "price": 0.993,
-   "ext_price": 1.07,
+   "ext_price": null,
    "name": "Acurx Pharmaceuticals, Inc.",
    "type": [
     "طبي — الخبر يحرّكه"
@@ -5068,16 +5519,16 @@
    },
    "news": [
     [
-     "Nov 26, 2026",
-     "Spectrum Brands: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Toyota Motor Worldwide Production, Sales Drop In October"
     ],
     [
-     "Nov 26, 2026",
-     "Nortech: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA"
     ],
     [
-     "Nov 26, 2026",
-     "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf"
+     "Nov 27, 2026",
+     "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now"
     ]
    ],
    "levels": {
@@ -5214,16 +5665,16 @@
    },
    "news": [
     [
-     "Nov 26, 2026",
-     "Spectrum Brands: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Toyota Motor Worldwide Production, Sales Drop In October"
     ],
     [
-     "Nov 26, 2026",
-     "Nortech: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA"
     ],
     [
-     "Nov 26, 2026",
-     "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf"
+     "Nov 27, 2026",
+     "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now"
     ]
    ],
    "levels": {
@@ -5488,7 +5939,7 @@
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
-    "float": 7418399,
+    "float": 7345585,
     "shares": 9480988,
     "last_split": "عكسي 1:12 (2026-06-15)",
     "split": {
@@ -5636,7 +6087,7 @@
    "setup_ar": "كسر الدعم — ينتظر الاسترداد (سحب سيولة أو فشل)",
    "status": "WATCH",
    "data": {
-    "float": 1932679,
+    "float": 1931662,
     "shares": 2035149,
     "last_split": "عكسي 1:10 (2026-04-30)",
     "split": {
@@ -5775,7 +6226,7 @@
    "ticker": "PMN",
    "score": 6.5,
    "price": 3.2,
-   "ext_price": 3.39,
+   "ext_price": null,
    "name": "ProMIS Neurosciences, Inc.",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -5926,7 +6377,7 @@
    "ticker": "BBLG",
    "score": 6.5,
    "price": 0.269,
-   "ext_price": 0.2557,
+   "ext_price": 0.2556,
    "name": "Bone Biologics Corporation",
    "type": [
     "طبي — الخبر يحرّكه",
@@ -6074,7 +6525,7 @@
    "ticker": "RDGT",
    "score": 6.5,
    "price": 0.96,
-   "ext_price": 0.9492,
+   "ext_price": 0.9,
    "name": "Ridgetech, Inc.",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -7251,157 +7702,6 @@
    ]
   },
   {
-   "ticker": "XELB",
-   "score": 6.0,
-   "price": 0.3622,
-   "ext_price": null,
-   "name": "Xcel Brands, Inc.",
-   "type": [
-    "بعد ارتداد أول — ينتظر Retest",
-    "فلووت منخفض جداً"
-   ],
-   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
-   "status": "WATCH",
-   "data": {
-    "float": 4740688,
-    "shares": 7614217,
-    "last_split": "عكسي 1:10 (2025-03-25)",
-    "split": {
-     "factor": "1:10",
-     "date": "2025-03-25",
-     "reverse": true,
-     "days": 612,
-     "recent": false
-    },
-    "country_ar": "أمريكي",
-    "industry": "Apparel Manufacturing",
-    "short_available": null,
-    "runner": {
-     "pct": 1.1354932481721387,
-     "from": 0.27160000801086426,
-     "from_date": "2026-10-15",
-     "to": 0.5799999833106995,
-     "to_date": "2026-11-03",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Nov 17, 2026",
-     "Xcel Brands (XELB) Q3 2026 Earnings Call Transcript"
-    ],
-    [
-     "Nov 16, 2026",
-     "XCel Brands (XELB) Reports Q3 Loss, Misses Revenue Estimates"
-    ],
-    [
-     "Nov 5, 2026",
-     "Sweetgreen, Inc. (SG) Reports Q3 Loss, Beats Revenue Estimates"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.3112,
-    "demand_high": 0.3143,
-    "orders": [
-     0.3143,
-     0.3128,
-     0.3112
-    ],
-    "critical": 0.3101,
-    "stop": 0.31,
-    "risk": 0.008845784930192816,
-    "wash_low": 0.2901,
-    "wash_high": 0.2989,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.31119999289512634,
-    "t1": 0.36836666663487755,
-    "t2": 0.3799999952316284
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-25",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
-     "retest",
-     "accum",
-     "pressure",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "ma",
-     "volume",
-     "candle"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3624 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 20 (الحالي 45)"
-     ],
-     "macd": [
-      true,
-      "الهيستوجرام يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 0.3112–0.3143 لمسها 5 مرات خلال 30 يوم"
-     ],
-     "retest": [
-      true,
-      "رجع للدعم وما انكسر (الاختبار 5)"
-     ],
-     "volume": [
-      false,
-      "فوليومها 30K مقابل متوسط شموع البيع 75K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة بعيدة عن منطقة الدعم"
-     ],
-     "accum": [
-      true,
-      "قاع الاختبار الأخير 0.3101 أعلى من اللي قبله 0.25، والشموع تتقلص"
-     ],
-     "pressure": [
-      true,
-      "هبط 74% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 0.3684 (+17.8%) أكبر من الخسارة −0.9%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3624 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "فوليوم يتحسن مع الارتداد: فوليومها 30K مقابل متوسط شموع البيع 75K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)",
-    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)"
-   ],
-   "ready_when": "اختبار منطقة 0.3112–0.3143 وفشل كسرها (أو سحب سيولة تحت 0.3101 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.249–0.2801، ص54)",
-   "flags": [
-    "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 0.58 وأغلق 0.38 بفوليوم 40x)",
-    "رفض عند MA20 (ص64)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "فلووت 4.74M 🔥 (ص8: أقل من 5M قوي وخطر)",
-    "Former Runner: صعد 114% من 0.2716 (2026-10-15) إلى 0.58 (2026-11-03)",
-    "قيعان أعلى",
-    "فوليوم البيع يضعف"
-   ]
-  },
-  {
    "ticker": "MTEK",
    "score": 6.0,
    "price": 0.275,
@@ -8149,7 +8449,7 @@
    "ticker": "AIRE",
    "score": 5.5,
    "price": 0.349,
-   "ext_price": 0.374,
+   "ext_price": null,
    "name": "reAlpha Tech Corp.",
    "type": [
     "ارتكاز"
@@ -8874,6 +9174,155 @@
    ]
   },
   {
+   "ticker": "XELB",
+   "score": 5.0,
+   "price": 0.3622,
+   "ext_price": null,
+   "name": "Xcel Brands, Inc.",
+   "type": [
+    "بعد ارتداد أول — ينتظر Retest"
+   ],
+   "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
+   "status": "WATCH",
+   "data": {
+    "float": 5138454,
+    "shares": 7614217,
+    "last_split": "عكسي 1:10 (2025-03-25)",
+    "split": {
+     "factor": "1:10",
+     "date": "2025-03-25",
+     "reverse": true,
+     "days": 612,
+     "recent": false
+    },
+    "country_ar": "أمريكي",
+    "industry": "Apparel Manufacturing",
+    "short_available": null,
+    "runner": {
+     "pct": 1.1354932481721387,
+     "from": 0.27160000801086426,
+     "from_date": "2026-10-15",
+     "to": 0.5799999833106995,
+     "to_date": "2026-11-03",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Nov 17, 2026",
+     "Xcel Brands (XELB) Q3 2026 Earnings Call Transcript"
+    ],
+    [
+     "Nov 16, 2026",
+     "XCel Brands (XELB) Reports Q3 Loss, Misses Revenue Estimates"
+    ],
+    [
+     "Nov 5, 2026",
+     "Sweetgreen, Inc. (SG) Reports Q3 Loss, Beats Revenue Estimates"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.3112,
+    "demand_high": 0.3143,
+    "orders": [
+     0.3143,
+     0.3128,
+     0.3112
+    ],
+    "critical": 0.3101,
+    "stop": 0.31,
+    "risk": 0.008845784930192816,
+    "wash_low": 0.2901,
+    "wash_high": 0.2989,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.31119999289512634,
+    "t1": 0.36836666663487755,
+    "t2": 0.3799999952316284
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-25",
+    "met": [
+     "rsi",
+     "macd",
+     "support",
+     "retest",
+     "accum",
+     "pressure",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "ma",
+     "volume",
+     "candle"
+    ],
+    "checks": {
+     "ma": [
+      false,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3624 فوق السعر)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 20 (الحالي 45)"
+     ],
+     "macd": [
+      true,
+      "الهيستوجرام يتحسن"
+     ],
+     "support": [
+      true,
+      "منطقة 0.3112–0.3143 لمسها 5 مرات خلال 30 يوم"
+     ],
+     "retest": [
+      true,
+      "رجع للدعم وما انكسر (الاختبار 5)"
+     ],
+     "volume": [
+      false,
+      "فوليومها 30K مقابل متوسط شموع البيع 75K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة بعيدة عن منطقة الدعم"
+     ],
+     "accum": [
+      true,
+      "قاع الاختبار الأخير 0.3101 أعلى من اللي قبله 0.25، والشموع تتقلص"
+     ],
+     "pressure": [
+      true,
+      "هبط 74% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 0.3684 (+17.8%) أكبر من الخسارة −0.9%"
+     ]
+    }
+   },
+   "not_ready": [
+    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.3624 فوق السعر) (ص66/ص82/ص84/ص86)",
+    "فوليوم يتحسن مع الارتداد: فوليومها 30K مقابل متوسط شموع البيع 75K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)",
+    "مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)"
+   ],
+   "ready_when": "اختبار منطقة 0.3112–0.3143 وفشل كسرها (أو سحب سيولة تحت 0.3101 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.249–0.2801، ص54)",
+   "flags": [
+    "شمعة ضخ/تصريف قبل 16 يوم (طار إلى 0.58 وأغلق 0.38 بفوليوم 40x)",
+    "رفض عند MA20 (ص64)",
+    "سعر منخفض جداً — سبريد واسع"
+   ],
+   "tags": [
+    "Former Runner: صعد 114% من 0.2716 (2026-10-15) إلى 0.58 (2026-11-03)",
+    "قيعان أعلى",
+    "فوليوم البيع يضعف"
+   ]
+  },
+  {
    "ticker": "PMAX",
    "score": 5.0,
    "price": 0.588,
@@ -9065,16 +9514,16 @@
    },
    "news": [
     [
-     "Nov 26, 2026",
-     "Spectrum Brands: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Toyota Motor Worldwide Production, Sales Drop In October"
     ],
     [
-     "Nov 26, 2026",
-     "Nortech: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA"
     ],
     [
-     "Nov 26, 2026",
-     "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf"
+     "Nov 27, 2026",
+     "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now"
     ]
    ],
    "levels": {
@@ -10039,7 +10488,7 @@
    "setup_ar": "🚩 اختراق مقاومة قريبة بعد قاعدة — بانتظار إعادة الاختبار",
    "status": "WATCH",
    "data": {
-    "float": 2467707,
+    "float": 2468282,
     "shares": 2499248,
     "last_split": "عكسي 1:50 (2026-08-10)",
     "split": {
@@ -10325,152 +10774,6 @@
    ]
   },
   {
-   "ticker": "SGLY",
-   "score": 4.0,
-   "price": 0.35,
-   "ext_price": 0.3852,
-   "name": "Singularity Future Technology Ltd.",
-   "type": [
-    "ارتكاز"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 5599867,
-    "shares": 5599867,
-    "last_split": "عكسي 1:14 (2026-07-27)",
-    "split": {
-     "factor": "1:14",
-     "date": "2026-07-27",
-     "reverse": true,
-     "days": 123,
-     "recent": true,
-     "open_after": 3.4200000762939453,
-     "high_after": 8.649999618530273
-    },
-    "country_ar": "أمريكي",
-    "industry": "Integrated Freight & Logistics",
-    "short_available": null,
-    "runner": {
-     "pct": 2.4325395571431625,
-     "from": 2.5199999809265137,
-     "from_date": "2026-07-14",
-     "to": 8.649999618530273,
-     "to_date": "2026-08-10",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Nov 24, 2026",
-     "Singularity Future Technology Ltd. Files Articles of Amendment for Reverse Stock Split and Corporate Name Change"
-    ],
-    [
-     "Jan 24, 2025",
-     "Singularity Future Technology Ltd. Announces $1.1 Million Registered Direct Offering of Common Stock"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.35,
-    "demand_high": 0.3535,
-    "orders": [
-     0.3534,
-     0.3517,
-     0.35
-    ],
-    "critical": 0.32,
-    "stop": 0.3199,
-    "risk": 0.09041796986067656,
-    "wash_low": 0.297,
-    "wash_high": 0.306,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.3499999940395355,
-    "t1": 0.3700000047683716,
-    "t2": 0.4099999964237213
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-25",
-    "met": [
-     "rsi",
-     "macd",
-     "support",
-     "retest",
-     "accum",
-     "candle",
-     "pressure",
-     "red"
-    ],
-    "miss": [
-     "ma",
-     "volume",
-     "target"
-    ],
-    "checks": {
-     "ma": [
-      false,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.4765 فوق السعر)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 24 (الحالي 36)"
-     ],
-     "macd": [
-      true,
-      "الخط فوق الإشارة"
-     ],
-     "support": [
-      true,
-      "منطقة 0.35–0.3535 لمسها 3 مرات خلال 23 يوم"
-     ],
-     "retest": [
-      true,
-      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 3)"
-     ],
-     "volume": [
-      false,
-      "فوليومها 202K مقابل متوسط شموع البيع 263K"
-     ],
-     "candle": [
-      true,
-      "ذيل سفلي طويل (رفض كسر) عند الدعم"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      true,
-      "هبط 96% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      false,
-      "تحت مقاومة مباشرة 0.37 (+5.2%) والخسارة −9.0%"
-     ]
-    }
-   },
-   "not_ready": [
-    "تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.4765 فوق السعر) (ص66/ص82/ص84/ص86)",
-    "فوليوم يتحسن مع الارتداد: فوليومها 202K مقابل متوسط شموع البيع 263K (ص85/ص86)",
-    "محفز أو هدف علوي: تحت مقاومة مباشرة 0.37 (+5.2%) والخسارة −9.0% (ص66/ص84/ص88)",
-    "توه مدبل (من 0.32 إلى 0.73) — «فيه خطوره… غير امن الان» (ص59)"
-   ],
-   "ready_when": "اختبار منطقة 0.35–0.3535 وفشل كسرها (أو سحب سيولة تحت 0.32 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.28–0.315، ص54)",
-   "flags": [
-    "توه مدبل: من 0.32 إلى 0.73",
-    "شمعة ضخ/تصريف قبل 20 يوم (طار إلى 0.44 وأغلق 0.36 بفوليوم 101x)",
-    "سعر منخفض جداً — سبريد واسع"
-   ],
-   "tags": [
-    "تقسيم عكسي حديث 1:14 (2026-07-27) — افتتح بعده 3.42 وأعلى سعر 8.65",
-    "Former Runner: صعد 243% من 2.52 (2026-07-14) إلى 8.65 (2026-08-10)"
-   ]
-  },
-  {
    "ticker": "YMT",
    "score": 4.0,
    "price": 1.042,
@@ -10509,16 +10812,16 @@
    },
    "news": [
     [
-     "Nov 26, 2026",
-     "Spectrum Brands: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Toyota Motor Worldwide Production, Sales Drop In October"
     ],
     [
-     "Nov 26, 2026",
-     "Nortech: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA"
     ],
     [
-     "Nov 26, 2026",
-     "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf"
+     "Nov 27, 2026",
+     "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now"
     ]
    ],
    "levels": {
@@ -10784,8 +11087,8 @@
    "setup_ar": "ارتكاز عند الدعم — بانتظار التأكيد",
    "status": "WATCH",
    "data": {
-    "float": 465740,
-    "shares": 1752435,
+    "float": 692506,
+    "shares": 1751812,
     "last_split": "عكسي 1:20 (2023-10-23)",
     "split": {
      "factor": "1:20",
@@ -10917,7 +11220,7 @@
     "سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)"
    ],
    "tags": [
-    "فلووت 0.47M 🔥 (ص8: أقل من 5M قوي وخطر)",
+    "فلووت 0.69M 🔥 (ص8: أقل من 5M قوي وخطر)",
     "Former Runner: صعد 146% من 2.64 (2026-10-16) إلى 6.5 (2026-11-12)",
     "قيعان أعلى",
     "فوليوم البيع يضعف"
@@ -11241,16 +11544,16 @@
    },
    "news": [
     [
-     "Nov 26, 2026",
-     "Spectrum Brands: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Toyota Motor Worldwide Production, Sales Drop In October"
     ],
     [
-     "Nov 26, 2026",
-     "Nortech: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA"
     ],
     [
-     "Nov 26, 2026",
-     "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf"
+     "Nov 27, 2026",
+     "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now"
     ]
    ],
    "levels": {
@@ -11793,7 +12096,7 @@
    "ticker": "PLUT",
    "score": 2.5,
    "price": 0.852,
-   "ext_price": 0.72,
+   "ext_price": null,
    "name": "Plutus Financial Group Limited",
    "type": [
     "صيني عالي التذبذب ⚠️",
@@ -11961,16 +12264,16 @@
    },
    "news": [
     [
-     "Nov 26, 2026",
-     "Spectrum Brands: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Toyota Motor Worldwide Production, Sales Drop In October"
     ],
     [
-     "Nov 26, 2026",
-     "Nortech: 3 Key Takeaways for Long-Term Investors"
+     "Nov 27, 2026",
+     "Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA"
     ],
     [
-     "Nov 26, 2026",
-     "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf"
+     "Nov 27, 2026",
+     "Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now"
     ]
    ],
    "levels": {

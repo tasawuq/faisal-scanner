@@ -1,5 +1,5 @@
 {
- "generated_at_et": "2026-11-27T13:03:00.946252-05:00",
+ "generated_at_et": "2026-11-27T14:03:00.947279-05:00",
  "items": [
   {
    "ticker": "ONCO",
@@ -750,7 +750,7 @@
   {
    "ticker": "MYSZ",
    "score": 9.5,
-   "price": 0.7588,
+   "price": 0.7587,
    "ext_price": null,
    "name": "My Size, Inc.",
    "type": [
@@ -1786,7 +1786,7 @@
   {
    "ticker": "WORX",
    "score": 8.5,
-   "price": 1.175,
+   "price": 1.18,
    "ext_price": null,
    "name": "SCWorx Corp.",
    "type": [
@@ -3414,7 +3414,7 @@
   {
    "ticker": "VSA",
    "score": 8.0,
-   "price": 1.52,
+   "price": 1.59,
    "ext_price": null,
    "name": "VisionSys AI Inc.",
    "type": [
@@ -3474,7 +3474,7 @@
     "wash_high": 1.35,
     "wash_note": "10–15% تحت الدعم (ص54)",
     "pivot": 1.5,
-    "t1": 1.5199999809265137,
+    "t1": 1.5709999799728394,
     "t2": 1.649999976158142
    },
    "p86": {
@@ -3538,7 +3538,7 @@
      ],
      "target": [
       false,
-      "تحت مقاومة مباشرة 1.52 (+1.1%) والخسارة −5.5%"
+      "تحت مقاومة مباشرة 1.57 (+4.5%) والخسارة −5.5%"
      ]
     }
    },
@@ -5025,7 +5025,7 @@
   {
    "ticker": "BKYI",
    "score": 7.0,
-   "price": 1.935,
+   "price": 1.96,
    "ext_price": null,
    "name": "BIO-key International, Inc.",
    "type": [
@@ -5473,7 +5473,7 @@
   {
    "ticker": "RDGT",
    "score": 6.5,
-   "price": 0.965,
+   "price": 0.94,
    "ext_price": null,
    "name": "Ridgetech, Inc.",
    "type": [
@@ -5767,146 +5767,9 @@
    ]
   },
   {
-   "ticker": "SAGT",
-   "score": 6.5,
-   "price": 1.015,
-   "ext_price": null,
-   "name": "Sagtec Global Limited",
-   "type": [
-    "ارتكاز"
-   ],
-   "setup_ar": "سحب سيولة ثم استرداد الدعم",
-   "status": "WATCH",
-   "data": {
-    "float": 7600320,
-    "shares": 20750000,
-    "last_split": null,
-    "split": {},
-    "country_ar": "ماليزي",
-    "industry": "Software - Application",
-    "short_available": null,
-    "runner": {
-     "pct": 2.0243902935434286,
-     "from": 0.4099999964237213,
-     "from_date": "2026-10-19",
-     "to": 1.2400000095367432,
-     "to_date": "2026-11-17",
-     "is_runner": true
-    }
-   },
-   "news": [
-    [
-     "Aug 4, 2025",
-     "SAGTEC Reports Termination Of SSA Related To Acquisition Of Stake In Rider Gate"
-    ],
-    [
-     "Jul 21, 2025",
-     "Sagtec Global Limited Reports 144% Revenue Growth and 308% Net Profit Increase for First Half of 2025"
-    ],
-    [
-     "Jul 1, 2025",
-     "Sagtec Global Limited Signs $10 Million Smart Hospitality Technology Agreement with SMD Tech – FZCO"
-    ]
-   ],
-   "levels": {
-    "demand_low": 0.95,
-    "demand_high": 0.975,
-    "orders": [
-     0.975,
-     0.9625,
-     0.95
-    ],
-    "critical": 0.915,
-    "stop": 0.9149,
-    "risk": 0.049454545454545425,
-    "wash_low": 0.891,
-    "wash_high": 0.918,
-    "wash_note": "قاع سابق تحت الدعم",
-    "pivot": 0.949999988079071,
-    "t1": 1.0299999713897705,
-    "t2": 1.059999942779541
-   },
-   "p86": {
-    "frame": "يومي",
-    "bar_date": "2026-11-25",
-    "met": [
-     "ma",
-     "rsi",
-     "support",
-     "retest",
-     "accum",
-     "red",
-     "target"
-    ],
-    "miss": [
-     "macd",
-     "volume",
-     "candle",
-     "pressure"
-    ],
-    "checks": {
-     "ma": [
-      true,
-      "كان تحت المتوسطات الثلاثة خلال القاعدة، وأغلق فوق 30 و50 (ص82)"
-     ],
-     "rsi": [
-      true,
-      "أدنى RSI 25 (الحالي 60)"
-     ],
-     "macd": [
-      false,
-      "سلبي — ما بدأ يتحسن"
-     ],
-     "support": [
-      true,
-      "منطقة 0.95–0.975 لمسها 2 مرات خلال 39 يوم"
-     ],
-     "retest": [
-      true,
-      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 2)"
-     ],
-     "volume": [
-      false,
-      "آخر شمعة حمراء — فوليومها 189K مقابل متوسط شموع البيع 385K"
-     ],
-     "candle": [
-      false,
-      "آخر شمعة يومية مو انعكاس"
-     ],
-     "accum": [
-      true,
-      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
-     ],
-     "pressure": [
-      false,
-      "هبط 18% من أعلى 90 يوم، والبيع ضعف"
-     ],
-     "red": [
-      true,
-      "ما فيه"
-     ],
-     "target": [
-      true,
-      "هدف 1.03 (+7.0%) أكبر من الخسارة −4.9%"
-     ]
-    }
-   },
-   "not_ready": [
-    "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
-    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 189K مقابل متوسط شموع البيع 385K (ص85/ص86)",
-    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
-    "ضغط بيع سابق ثم ضعف الهبوط: هبط 18% من أعلى 90 يوم، والبيع ضعف (ص85)"
-   ],
-   "ready_when": "اختبار منطقة 0.95–0.975 وفشل كسرها (أو سحب سيولة تحت 0.915 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.76–0.855، ص54)",
-   "flags": [],
-   "tags": [
-    "Former Runner: صعد 202% من 0.41 (2026-10-19) إلى 1.24 (2026-11-17)"
-   ]
-  },
-  {
    "ticker": "WBUY",
    "score": 6.5,
-   "price": 0.4603,
+   "price": 0.4534,
    "ext_price": null,
    "name": "WEBUY GLOBAL LTD. Class A Ordinary Shares",
    "type": [
@@ -6055,9 +5918,146 @@
    ]
   },
   {
+   "ticker": "SAGT",
+   "score": 6.5,
+   "price": 1.015,
+   "ext_price": null,
+   "name": "Sagtec Global Limited",
+   "type": [
+    "ارتكاز"
+   ],
+   "setup_ar": "سحب سيولة ثم استرداد الدعم",
+   "status": "WATCH",
+   "data": {
+    "float": 7600320,
+    "shares": 20750000,
+    "last_split": null,
+    "split": {},
+    "country_ar": "ماليزي",
+    "industry": "Software - Application",
+    "short_available": null,
+    "runner": {
+     "pct": 2.0243902935434286,
+     "from": 0.4099999964237213,
+     "from_date": "2026-10-19",
+     "to": 1.2400000095367432,
+     "to_date": "2026-11-17",
+     "is_runner": true
+    }
+   },
+   "news": [
+    [
+     "Aug 4, 2025",
+     "SAGTEC Reports Termination Of SSA Related To Acquisition Of Stake In Rider Gate"
+    ],
+    [
+     "Jul 21, 2025",
+     "Sagtec Global Limited Reports 144% Revenue Growth and 308% Net Profit Increase for First Half of 2025"
+    ],
+    [
+     "Jul 1, 2025",
+     "Sagtec Global Limited Signs $10 Million Smart Hospitality Technology Agreement with SMD Tech – FZCO"
+    ]
+   ],
+   "levels": {
+    "demand_low": 0.95,
+    "demand_high": 0.975,
+    "orders": [
+     0.975,
+     0.9625,
+     0.95
+    ],
+    "critical": 0.915,
+    "stop": 0.9149,
+    "risk": 0.049454545454545425,
+    "wash_low": 0.891,
+    "wash_high": 0.918,
+    "wash_note": "قاع سابق تحت الدعم",
+    "pivot": 0.949999988079071,
+    "t1": 1.0299999713897705,
+    "t2": 1.059999942779541
+   },
+   "p86": {
+    "frame": "يومي",
+    "bar_date": "2026-11-25",
+    "met": [
+     "ma",
+     "rsi",
+     "support",
+     "retest",
+     "accum",
+     "red",
+     "target"
+    ],
+    "miss": [
+     "macd",
+     "volume",
+     "candle",
+     "pressure"
+    ],
+    "checks": {
+     "ma": [
+      true,
+      "كان تحت المتوسطات الثلاثة خلال القاعدة، وأغلق فوق 30 و50 (ص82)"
+     ],
+     "rsi": [
+      true,
+      "أدنى RSI 25 (الحالي 60)"
+     ],
+     "macd": [
+      false,
+      "سلبي — ما بدأ يتحسن"
+     ],
+     "support": [
+      true,
+      "منطقة 0.95–0.975 لمسها 2 مرات خلال 39 يوم"
+     ],
+     "retest": [
+      true,
+      "سحب سيولة تحت الدعم ثم استرداده (الاختبار 2)"
+     ],
+     "volume": [
+      false,
+      "آخر شمعة حمراء — فوليومها 189K مقابل متوسط شموع البيع 385K"
+     ],
+     "candle": [
+      false,
+      "آخر شمعة يومية مو انعكاس"
+     ],
+     "accum": [
+      true,
+      "لا ينطبق — سحب سيولة نوع سلوك ثاني غير التجميع (ص9)"
+     ],
+     "pressure": [
+      false,
+      "هبط 18% من أعلى 90 يوم، والبيع ضعف"
+     ],
+     "red": [
+      true,
+      "ما فيه"
+     ],
+     "target": [
+      true,
+      "هدف 1.03 (+7.0%) أكبر من الخسارة −4.9%"
+     ]
+    }
+   },
+   "not_ready": [
+    "MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)",
+    "فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 189K مقابل متوسط شموع البيع 385K (ص85/ص86)",
+    "شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)",
+    "ضغط بيع سابق ثم ضعف الهبوط: هبط 18% من أعلى 90 يوم، والبيع ضعف (ص85)"
+   ],
+   "ready_when": "اختبار منطقة 0.95–0.975 وفشل كسرها (أو سحب سيولة تحت 0.915 ثم استرداد) + شمعة انعكاس يومية أو 4 ساعات بفوليوم يتحسن (ص86)؛ وإذا كسرها وبقي تحتها فالانتظار أعمق 10–20% (0.76–0.855، ص54)",
+   "flags": [],
+   "tags": [
+    "Former Runner: صعد 202% من 0.41 (2026-10-19) إلى 1.24 (2026-11-17)"
+   ]
+  },
+  {
    "ticker": "AMST",
    "score": 6.5,
-   "price": 0.4794,
+   "price": 0.4604,
    "ext_price": null,
    "name": "Amesite Inc.",
    "type": [
@@ -6351,7 +6351,7 @@
   {
    "ticker": "MTEK",
    "score": 6.0,
-   "price": 0.2839,
+   "price": 0.288,
    "ext_price": null,
    "name": "Maris-Tech Ltd.",
    "type": [
@@ -6492,7 +6492,7 @@
   {
    "ticker": "DAIC",
    "score": 6.0,
-   "price": 0.6542,
+   "price": 0.6594,
    "ext_price": null,
    "name": "CID HoldCo, Inc.",
    "type": [
@@ -7824,7 +7824,7 @@
   {
    "ticker": "XELB",
    "score": 5.0,
-   "price": 0.3498,
+   "price": 0.353,
    "ext_price": null,
    "name": "Xcel Brands, Inc.",
    "type": [
@@ -10153,7 +10153,7 @@
   {
    "ticker": "PLUT",
    "score": 2.5,
-   "price": 0.7801,
+   "price": 0.78,
    "ext_price": null,
    "name": "Plutus Financial Group Limited",
    "type": [

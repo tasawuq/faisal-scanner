@@ -1,9 +1,9 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T05:02 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T06:02 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $ONCO — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 3.1 (بري/أفتر 3.41) | ارتداد مؤكد من الدعم
+- السعر 3.1 (بري/أفتر 3.55) | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2026-11-06) افتتاح 5.68 - اعلى 7.82 - الشورت المتاح: غير متوفر - فلوت 0.82M - عدد الأسهم 0.82M - سبق صعد من 220.0 (2026-03-09) إلى 673.0 (2026-03-27) +206%
 - الأخبار: Coca-Cola Company, GFI Complete Sale Of 75% Controlling Interest In CCBA (Nov 27, 2026) | Billionaire David Tepper of Appaloosa Management Has 65% of His Portfolio Invested in These 7 Artificial Intelligence (AI) Stocks. Here Are the 3 I’d Buy Hand Over Fist Right Now (Nov 27, 2026) | InterDigital: 3 Key Takeaways for Long-Term Investors (Nov 27, 2026)
 - منطقة الطلب 2.76–2.85 | طلبات Limit: 2.84 / 2.8 / 2.76 | الخروج: إغلاق يومي تحت 2.76 | الأهداف 3.15 / 3.21 | منطقة أعمق (غسل) 2.346–2.484
@@ -247,7 +247,7 @@
 - ⚠️ صيني عالي التذبذب — خطر (ص71)
 
 ## $SGRX — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
-- السعر 2.38 (بري/أفتر 2.51) | ارتداد مؤكد من الدعم
+- السعر 2.38 (بري/أفتر 2.5) | ارتداد مؤكد من الدعم
 - البيانات: سنغافوري - Information Technology Services - قسم 1:8 (2026-11-16) افتتاح 2.64 - اعلى 2.77 - الشورت المتاح: غير متوفر - فلوت 0.09M - عدد الأسهم 0.50M - سبق صعد من 0.3 (2026-11-06) إلى 2.77 (2026-11-17) +822%
 - الأخبار: Bit Origin To Implement 1-For-5 Reverse Stock Split To Meet Nasdaq Requirements (Aug 19, 2026) | Bit Origin Ltd Announces Initial Purchase of 40.5 Million DOGE as Part of Digital Asset Treasury Initiative (Jul 21, 2025) | Bit Origin Ltd Becomes First Publicly Listed Company to Establish Dogecoin Treasury Strategy on Major US Exchange (Jul 17, 2025)
 - منطقة الطلب 2.16–2.182 | طلبات Limit: 2.18 / 2.17 / 2.17 | الخروج: إغلاق يومي تحت 2.16 | الأهداف 2.4 / 2.6 | منطقة أعمق (غسل) 1.836–1.944
@@ -420,7 +420,7 @@
 - ⚠️ شمعة ضخ/تصريف قبل 17 يوم (طار إلى 4.5 وأغلق 3 بفوليوم 93x)، سهم طبي — الخبر قد يغير الاتجاه (ص72، ص94)
 
 ## $BBLG — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
-- السعر 0.269 (بري/أفتر 0.2601) | سحب سيولة ثم استرداد الدعم
+- السعر 0.269 (بري/أفتر 0.2533) | سحب سيولة ثم استرداد الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:6 (2025-06-10) - الشورت المتاح: غير متوفر - فلوت 3.10M - عدد الأسهم 3.39M
 - الأخبار: Bone Biologics Extends RhNELL-1 Shelf Life To 32 Months, Strengthening Study Readiness; Stock Down (Aug 12, 2026) | Bone Biologics Prices Up To $9 Mln Private Placement Of Shares And Warrants;Stock Up (Jul 8, 2026) | Bone Biologics Prices $5 Mln Public Offering With Warrants At $4 Per Share (Jun 27, 2025)
 - منطقة الطلب 0.261–0.2636 | طلبات Limit: 0.2636 / 0.2623 / 0.2611 | الخروج: إغلاق يومي تحت 0.24 | الأهداف 0.285 / 0.317 | منطقة أعمق (غسل) 0.2219–0.2349

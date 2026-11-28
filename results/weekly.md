@@ -1,11 +1,11 @@
-# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T18:03 نيويورك
+# قائمة الارتكاز (أسلوب فيصل) — 2026-11-27T19:03 نيويورك
 
 كل الأسهم هنا **متابعة فقط — غير جاهزة للدخول** (ص54، ص70). الإشارة الوحيدة: اكتمال شروط ص86 على اليومي أو 4 ساعات، وبعدها طلبات Limit مقسّمة داخل المنطقة.
 
 ## $ONCO — طبي — الخبر يحرّكه / فلووت منخفض جداً / قاع نظيف
 - السعر 2.97 | ارتداد مؤكد من الدعم
 - البيانات: أمريكي - Biotechnology - قسم 1:10 (2026-11-06) افتتاح 5.68 - اعلى 7.82 - الشورت المتاح: غير متوفر - فلوت 0.82M - عدد الأسهم 0.82M - سبق صعد من 220.0 (2026-03-09) إلى 673.0 (2026-03-27) +206%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026) | Suzano S.A. Announces Engagement of Independent Auditor (Nov 27, 2026)
 - منطقة الطلب 2.76–2.85 | طلبات Limit: 2.84 / 2.8 / 2.76 | الخروج: إغلاق يومي تحت 2.76 | الأهداف 3.15 / 3.21 | منطقة أعمق (غسل) 2.346–2.484
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 4.0 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 39) (ص65/ص86)؛ فوليوم يتحسن مع الارتداد: آخر شمعة حمراء — فوليومها 1105K مقابل متوسط شموع البيع 67K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -62,7 +62,7 @@
 ## $NWGL — فلووت منخفض جداً / قاع نظيف
 - السعر 2.05 (بري/أفتر 2.03) | سحب سيولة ثم استرداد الدعم
 - البيانات: Macau - Lumber & Wood Production - قسم 1:80 (2026-11-06) افتتاح 2.21 - اعلى 8.32 - الشورت المتاح: غير متوفر - فلوت 0.10M - عدد الأسهم 0.56M - سبق صعد من 27.76 (2026-08-18) إلى 158.4 (2026-09-15) +471%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026) | Suzano S.A. Announces Engagement of Independent Auditor (Nov 27, 2026)
 - منطقة الطلب 1.81–1.828 | طلبات Limit: 1.82 / 1.82 / 1.81 | الخروج: إغلاق يومي تحت 1.75 | الأهداف 2.29 / 2.774 | منطقة أعمق (غسل) 1.538–1.629
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 2.77 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: فوليومها 117K مقابل متوسط شموع البيع 133K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة يومية مو انعكاس (ص82/ص86)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -102,7 +102,7 @@
 ## $MNDR — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 0.9216 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: سنغافوري - Health Information Services - قسم 1:6 (2026-06-29) افتتاح 3.0 - اعلى 5.67 - الشورت المتاح: غير متوفر - فلوت 0.98M - عدد الأسهم 1.08M - سبق صعد من 0.76 (2026-10-09) إلى 5.67 (2026-10-12) +646%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026) | Suzano S.A. Announces Engagement of Independent Auditor (Nov 27, 2026)
 - منطقة الطلب 0.86–0.87 | طلبات Limit: 0.87 / 0.865 / 0.8601 | الخروج: إغلاق يومي تحت 0.5 | الأهداف 0.9681 / 0.98 | منطقة أعمق (غسل) 0.7524–0.7752
 - شروط ص86 (يومي): 4/11 — ناقص: RSI وصل 23–27، MACD يتحسن أو تقاطع، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، ضغط بيع سابق ثم ضعف الهبوط، ما فيه شموع حمراء طويلة قرب القاع، محفز أو هدف علوي
 - لماذا غير جاهز: RSI وصل 23–27: أدنى RSI 32 (الحالي 49) (ص65/ص86)؛ MACD يتحسن أو تقاطع: سلبي — ما بدأ يتحسن (ص85/ص86)؛ اختبار الدعم وفشل الكسر: كسر الدعم 0.86 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.5 مو أعلى من اللي قبله 0.87، والشموع ما تقلصت (ص12/ص13)
@@ -319,7 +319,7 @@
 ## $HTCO — فلووت منخفض جداً
 - السعر 1.21 (بري/أفتر 1.16) | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: سنغافوري - Marine Shipping - قسم 1:25 (2025-08-08) - الشورت المتاح: غير متوفر - فلوت 4.19M - عدد الأسهم 8.96M - سبق صعد من 6.1 (2026-04-06) إلى 56.59 (2026-04-27) +828%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026)
 - منطقة الطلب 1.02–1.03 | طلبات Limit: 1.03 / 1.02 / 1.02 | الخروج: إغلاق يومي تحت 1.02 | الأهداف 1.23 / 1.31 | منطقة أعمق (غسل) 0.891–0.918
 - شروط ص86 (يومي): 8/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 1.42 فوق السعر) (ص66/ص82/ص84/ص86)؛ فوليوم يتحسن مع الارتداد: فوليومها 32K مقابل متوسط شموع البيع 163K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -358,7 +358,7 @@
 ## $GYGY — طرح جديد/تاريخ قصير / بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 0.339 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: أمريكي - Software - Infrastructure - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.41M - عدد الأسهم 14.4M - سبق صعد من 1.7 (2026-08-18) إلى 4.09 (2026-08-20) +141%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026)
 - منطقة الطلب 0.33–0.3333 | طلبات Limit: 0.3333 / 0.3317 / 0.3301 | الخروج: إغلاق يومي تحت 0.23 | الأهداف 0.349 / 0.37 | منطقة أعمق (غسل) 0.3069–0.3162
 - شروط ص86 (يومي): 7/11 — ناقص: اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: كسر الدعم 0.33 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.23 مو أعلى من اللي قبله 0.33، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 1247K مقابل متوسط شموع البيع 1995K (ص85/ص86)؛ محفز أو هدف علوي: تحت مقاومة مباشرة 0.349 (+5.2%) والخسارة −30.7% (ص66/ص84/ص88)
@@ -472,7 +472,7 @@
 ## $SSM — فلووت منخفض جداً / قاع نظيف
 - السعر 0.7333 | ارتداد مؤكد من الدعم
 - البيانات: ألماني - Auto Manufacturers - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 3.58M - عدد الأسهم 3.72M - سبق صعد من 1.05 (2026-09-25) إلى 3.09 (2026-10-02) +194%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026)
 - منطقة الطلب 0.647–0.6535 | طلبات Limit: 0.6534 / 0.6502 / 0.6471 | الخروج: إغلاق يومي تحت 0.647 | الأهداف 0.7517 / 0.79 | منطقة أعمق (غسل) 0.55–0.5823
 - شروط ص86 (يومي): 5/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.8496 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 31 (الحالي 36) (ص65/ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)
@@ -619,7 +619,7 @@
 ## $YMT — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest
 - السعر 1.09 | سحب سيولة ثم استرداد الدعم
 - البيانات: صيني - Software - Application - قسم 1:10 (2026-11-16) افتتاح 1.51 - اعلى 1.9 - الشورت المتاح: غير متوفر - فلوت غير معروف - عدد الأسهم 2.53M - سبق صعد من 0.14 (2026-11-13) إلى 1.9 (2026-11-16) +1257%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026)
 - منطقة الطلب 1.065–1.076 | طلبات Limit: 1.07 / 1.07 / 1.07 | الخروج: إغلاق يومي تحت 0.97 | الأهداف 1.1 / 1.15 | منطقة أعمق (غسل) 0.9053–0.9585
 - شروط ص86 (يومي): 9/11 — ناقص: فوليوم يتحسن مع الارتداد، محفز أو هدف علوي
 - لماذا غير جاهز: فوليوم يتحسن مع الارتداد: فوليومها 21K مقابل متوسط شموع البيع 595K (ص85/ص86)؛ محفز أو هدف علوي: تحت مقاومة مباشرة 1.1 (+2.8%) والخسارة −9.4% (ص66/ص84/ص88)؛ توه مدبل (من 0.14 إلى 1.9) — «فيه خطوره… غير امن الان» (ص59)؛ مرور وقت كافٍ بعد شمعة الضخ/التصريف (ص10، ص20)
@@ -669,7 +669,7 @@
 ## $MKDW — بعد ارتداد أول — ينتظر Retest / فلووت منخفض جداً
 - السعر 1.51 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: تايواني - Auto Parts - قسم 1:20 (2026-11-18) افتتاح 1.7 - اعلى 1.75 - الشورت المتاح: غير متوفر - فلوت 1.66M - عدد الأسهم 1.82M - سبق صعد من 0.075 (2026-11-16) إلى 1.75 (2026-11-18) +2233%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026)
 - منطقة الطلب 1.36–1.374 | طلبات Limit: 1.37 / 1.37 / 1.37 | الخروج: إغلاق يومي تحت 0.075 | الأهداف 1.52 / 1.67 | منطقة أعمق (غسل) 1.156–1.224
 - شروط ص86 (يومي): 6/11 — ناقص: اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: كسر الدعم 1.36 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع تتقلص (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 17K مقابل متوسط شموع البيع 933K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -767,7 +767,7 @@
 ## $FRTT — طرح جديد/تاريخ قصير / فلووت منخفض جداً
 - السعر 0.4664 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: كندي - Household & Personal Products - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 4.33M - عدد الأسهم 15.2M - سبق صعد من 0.38 (2026-11-13) إلى 0.93 (2026-11-18) +145%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026)
 - منطقة الطلب 0.4–0.404 | طلبات Limit: 0.404 / 0.402 / 0.4001 | الخروج: إغلاق يومي تحت 0.4 | الأهداف 0.4698 / 0.4838 | منطقة أعمق (غسل) 0.3762–0.3876
 - شروط ص86 (يومي): 7/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.4838 فوق السعر) (ص66/ص82/ص84/ص86)؛ تجميع: قيعان أعلى وشموع تتقلص: قاع الاختبار الأخير 0.4 أعلى من اللي قبله 0.38، والشموع ما تقلصت (ص12/ص13)؛ فوليوم يتحسن مع الارتداد: فوليومها 73K مقابل متوسط شموع البيع 824K (ص85/ص86)؛ شمعة انعكاس عند الدعم: آخر شمعة بعيدة عن منطقة الدعم (ص82/ص86)
@@ -787,7 +787,7 @@
 ## $GLXG — صيني عالي التذبذب ⚠️ / بعد ارتداد أول — ينتظر Retest
 - السعر 1.38 | ارتكاز عند الدعم — بانتظار التأكيد
 - البيانات: صيني (هونغ كونغ) - Staffing & Employment Services - قسم 1:10 (2025-09-08) - الشورت المتاح: غير متوفر - فلوت 5.24M - عدد الأسهم 6.36M - سبق صعد من 0.72 (2026-06-08) إلى 4.79 (2026-06-11) +565%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026)
 - منطقة الطلب 1.22–1.232 | طلبات Limit: 1.23 / 1.23 / 1.23 | الخروج: إغلاق يومي تحت 0.531 | الأهداف 1.42 / 1.49 | منطقة أعمق (غسل) 0.9504–0.9792
 - شروط ص86 (يومي): 7/11 — ناقص: اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، ضغط بيع سابق ثم ضعف الهبوط، محفز أو هدف علوي
 - لماذا غير جاهز: اختبار الدعم وفشل الكسر: كسر الدعم 1.22 وبقي تحته (ص17: ليس سحب سيولة بل ضعف) (ص86/ص17)؛ تجميع: قيعان أعلى وشموع تتقلص: ما فيه قاعين للمقارنة بعد، والشموع ما تقلصت (ص12/ص13)؛ ضغط بيع سابق ثم ضعف الهبوط: هبط 9% من أعلى 90 يوم، والبيع ضعف (ص85)؛ محفز أو هدف علوي: تحت مقاومة مباشرة 1.42 (+15.4%) والخسارة −56.8% (ص66/ص84/ص88)
@@ -817,7 +817,7 @@
 ## $SLGB — صيني عالي التذبذب ⚠️ / فلووت منخفض جداً / قاع نظيف
 - السعر 0.1495 | ارتداد مؤكد من الدعم
 - البيانات: صيني (هونغ كونغ) - Integrated Freight & Logistics - بدون تقسيم مسجل - الشورت المتاح: غير متوفر - فلوت 5.00M - عدد الأسهم 45.0M - سبق صعد من 0.924 (2025-12-26) إلى 4.22 (2026-01-28) +357%
-- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | Air Industries Group Reminds Stockholders of Postponed Special Meeting Date (Nov 27, 2026) | Longeveron Inc. Appoints Chief Executive Officer Paul Lehr to Board and Approves Retention Award (Nov 27, 2026)
+- الأخبار: Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound (Nov 27, 2026) | e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? (Nov 27, 2026) | Avalon GloboCare Corp. Agrees to Sell 4,200 Series G Preferred Shares for $3,500,000 (Nov 27, 2026)
 - منطقة الطلب 0.13–0.1313 | طلبات Limit: 0.1312 / 0.1306 / 0.13 | الخروج: إغلاق يومي تحت 0.13 | الأهداف 0.155 / 0.18 | منطقة أعمق (غسل) 0.1105–0.117
 - شروط ص86 (يومي): 4/11 — ناقص: تحت المتوسطات ثم بدأ يستعيدها، RSI وصل 23–27، دعم/قاع واضح، اختبار الدعم وفشل الكسر، تجميع: قيعان أعلى وشموع تتقلص، فوليوم يتحسن مع الارتداد، شمعة انعكاس عند الدعم
 - لماذا غير جاهز: تحت المتوسطات ثم بدأ يستعيدها: كان تحت المتوسطات الثلاثة خلال القاعدة، وما بدأ يستعيدها (MA20 0.1923 فوق السعر) (ص66/ص82/ص84/ص86)؛ RSI وصل 23–27: أدنى RSI 28 (الحالي 37) (ص65/ص86)؛ دعم/قاع واضح: منطقة 0.13–0.1313 لمسها 1 مرات خلال 3 يوم — ما تكوّنت قاعدة بعد (أقل من أسبوع) (ص86)؛ اختبار الدعم وفشل الكسر: ما صار اختبار ثاني للدعم بعد القاع الأول (ص86/ص17)
